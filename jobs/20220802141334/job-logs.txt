@@ -1,0 +1,111 @@
+[geoflow][shp-workflow][INFO] Executing workflow job... 
+[geoflow][shp-workflow][INFO] --------------------------------------------------------------------------------------- 
+[geoflow][shp-workflow][INFO] Executing software actions 'onstart' ... 
+[geoflow][shp-workflow][INFO] Executing input software action 'onstart' 
+[geoflow][shp-workflow][INFO] Executing GeoServer 'onstart' action 
+[geoflow][shp-workflow][INFO] --------------------------------------------------------------------------------------- 
+[geoflow][shp-workflow][INFO] Executing entity actions ... 
+[geoflow][shp-workflow][INFO] Workflow mode: entity 
+[geoflow][shp-workflow][INFO] Workflow with 3 actions 
+[geoflow][shp-workflow][INFO] Action 1: geometa-create-iso-19115 
+[geoflow][shp-workflow][INFO] Action 2: geonapi-publish-iso-19139 
+[geoflow][shp-workflow][INFO] Action 3: geosapi-publish-ogc-services 
+[geoflow][shp-workflow][INFO] Create entity job dir at '/home/sylvain/Documents/IRD/geoflow/geoflow-g2oi/jobs/20220802141334/entities/tiles_S2CHAIN-Sylvainv2' 
+[geoflow][shp-workflow][INFO] Creating 'data' directory: /home/sylvain/Documents/IRD/geoflow/geoflow-g2oi/jobs/20220802141334/entities/tiles_S2CHAIN-Sylvainv2/data 
+[geoflow][shp-workflow][INFO] Creating 'metadata' directory: /home/sylvain/Documents/IRD/geoflow/geoflow-g2oi/jobs/20220802141334/entities/tiles_S2CHAIN-Sylvainv2/metadata 
+[geoflow][shp-workflow][INFO] Entity working directory: /home/sylvain/Documents/IRD/geoflow/geoflow-g2oi/jobs/20220802141334/entities/tiles_S2CHAIN-Sylvainv2 
+[geoflow][shp-workflow][INFO] Copying data to entity job data directory '/home/sylvain/Documents/IRD/geoflow/geoflow-g2oi/jobs/20220802141334/entities/tiles_S2CHAIN-Sylvainv2/data' 
+[geoflow][shp-workflow][INFO] Copying data source 1 'tuiles_g2oi.zip' (https://drive.google.com/file/d/1iYp9Y_ybKCTh6irGOrRFPiqeFqnWyyoV/view?usp=sharing) to entity job data directory '/home/sylvain/Documents/IRD/geoflow/geoflow-g2oi/jobs/20220802141334/entities/tiles_S2CHAIN-Sylvainv2/data' 
+[geoflow][shp-workflow][INFO] Copying data to job data directory from remote file(s) using accessor 'googledrive' 
+[geoflow][shp-workflow][INFO] Accessor 'googledrive' seems to require a software. Try to locate 'input' software 
+[geoflow] Google Drive data accessor: Download data 'tuiles_g2oi.zip' from 'https://drive.google.com/file/d/1iYp9Y_ybKCTh6irGOrRFPiqeFqnWyyoV/view?usp=sharing' to '/home/sylvain/Documents/IRD/geoflow/geoflow-g2oi/jobs/20220802141334/entities/tiles_S2CHAIN-Sylvainv2/data/tuiles_g2oi.zip'
+[geoflow][INFO] Google Drive resource ID: 1iYp9Y_ybKCTh6irGOrRFPiqeFqnWyyoV
+[geoflow][shp-workflow][INFO] sourceZip = FALSE: source files will be uploaded 
+[geoflow][shp-workflow][INFO] Read Shapefiles from geoflow temporary data directory 
+options:        ENCODING=WINDOWS-1252 
+Reading layer `tuiles_g2oi' from data source 
+  `/home/sylvain/Documents/IRD/geoflow/geoflow-g2oi/jobs/20220802141334/entities/tiles_S2CHAIN-Sylvainv2/data/tuiles_g2oi.shp' 
+  using driver `ESRI Shapefile'
+Simple feature collection with 127 features and 26 fields
+Geometry type: POLYGON
+Dimension:     XY
+Bounding box:  xmin: 33.94505 ymin: -26.3077 xmax: 64.0493 ymax: -3.610994
+Geodetic CRS:  WGS 84
+[geoflow][shp-workflow][INFO] Overwriting entity srid [] with data srid [4326] 
+[geoflow][shp-workflow][INFO] Overwriting entity bounding box with data bounding boxes, using 'first' strategy 
+[geoflow][shp-workflow][INFO] sourceType and uploadType are identical, no conversion required 
+[geoflow][shp-workflow][INFO] Enrich entity with OGC relations for layer = 'sen2chaincoveragesylvainv2' 
+[geoflow][shp-workflow][INFO] Enrich entity with OGC WMS thumbnail for layer = 'sen2chaincoveragesylvainv2 
+[geoflow][shp-workflow][INFO] Enrich entity with OGC WMS base URL for layer = 'sen2chaincoveragesylvainv2 
+[geoflow][shp-workflow][INFO] Enrich entity with OGC WFS base URL for layer = 'sen2chaincoveragesylvainv2 
+[geoflow][shp-workflow][INFO] Enrich entity with OGC WFS download links for layer = 'sen2chaincoveragesylvainv2 
+[geosapi][INFO] Fetching workspace 'G2OI' 
+[geosapi][INFO] Successfully fetched workspace! 
+[geoflow][shp-workflow][INFO] Executing Action 1: geometa-create-iso-19115 - for entity tiles_S2CHAIN-Sylvainv2 
+[geoflow][shp-workflow][INFO] Configuring WMS client on 'https://gs.marbec-tools.ird.fr/geoserver/G2OI/ows?' (version = '1.1.0') 
+[ows4R][INFO] OWSGetCapabilities - Fetching https://gs.marbec-tools.ird.fr/geoserver/G2OI/ows?service=WMS&version=1.1.0&request=GetCapabilities 
+[geometa][WARN] Element '{http://www.opengis.net/gml/3.2}TimePeriod', attribute '{http://www.opengis.net/gml/3.2}id': 'P6Y8M16D' is not a valid value of the atomic type 'xs:ID' at line 375. 
+[geometa][WARN] Object 'ISOMetadata' is INVALID according to ISO 19139 XML schemas! 
+[geoflow][shp-workflow][INFO] WORKFLOW PROGRESS : ACTION 'geometa-create-iso-19115' of ENTITY 'tiles_S2CHAIN-Sylvainv2' ... 33.3333333333333 % 
+[geoflow][shp-workflow][INFO] Executing Action 2: geonapi-publish-iso-19139 - for entity tiles_S2CHAIN-Sylvainv2 
+[1mindexed[0m [32m0B[0m in [36m 0s[0m, [32m0B/s[0m[1mindexed[0m [32m1.00TB[0m in [36m 0s[0m, [32m2.54PB/s[0m                                                                                                                         [geonapi][INFO] Getting user groups... 
+Response [https://gn.marbec-tools.ird.fr/geonetwork/srv/api/groups]
+  Date: 2022-08-02 10:13
+  Status: 200
+  Content-Type: application/json
+  Size: 1.02 kB
+
+[geonapi][INFO] Successfully fetched user groups! 
+[geonapi][INFO] Getting tags (categories)... 
+Response [https://gn.marbec-tools.ird.fr/geonetwork/srv/api/tags]
+  Date: 2022-08-02 10:13
+  Status: 200
+  Content-Type: application/json
+  Size: 6.05 kB
+
+[geonapi][INFO] Successfully fetched tags (categories)! 
+[geonapi][INFO] Uploading metadata ... 
+[geometa][WARN] Element '{http://www.opengis.net/gml/3.2}TimePeriod', attribute '{http://www.opengis.net/gml/3.2}id': 'P6Y8M16D' is not a valid value of the atomic type 'xs:ID' at line 373. 
+[geometa][WARN] Object 'ISOMetadata' is INVALID according to ISO 19139 XML schemas! 
+
+[geonapi][INFO] Successfully uploaded metadata! 
+[geoflow][shp-workflow][INFO] WORKFLOW PROGRESS : ACTION 'geonapi-publish-iso-19139' of ENTITY 'tiles_S2CHAIN-Sylvainv2' ... 66.6666666666667 % 
+[geoflow][shp-workflow][INFO] Executing Action 3: geosapi-publish-ogc-services - for entity tiles_S2CHAIN-Sylvainv2 
+[geosapi][INFO] Fetching datastore 'sen2chain' in workspace 'G2OI' 
+[geosapi][INFO] Successfully fetched datastore! 
+[geoflow][shp-workflow][INFO] Upload mode is set to true 
+[geoflow][shp-workflow][INFO] Upload from local file(s) 
+[geoflow][shp-workflow][INFO] File to upload to Geoserver: /home/sylvain/Documents/IRD/geoflow/geoflow-g2oi/jobs/20220802141334/entities/tiles_S2CHAIN-Sylvainv2/data/tuiles_g2oi.zip 
+[geoflow][shp-workflow][INFO] Upload file '/home/sylvain/Documents/IRD/geoflow/geoflow-g2oi/jobs/20220802141334/entities/tiles_S2CHAIN-Sylvainv2/data/tuiles_g2oi.zip' [shp] to GeoServer... 
+[geosapi][INFO] Uploading SHP data in datastore 'sen2chain' (workspace 'G2OI') 
+
+[geosapi][INFO] Successfull data upload! 
+[geosapi][INFO] Fetching list of styles 
+[geosapi][INFO] Successfully fetched 13 styles 
+[geosapi][INFO] Reloading GeoServer catalog 
+[geosapi][INFO] Successfully reloaded GeoServer catalog! 
+[geosapi][INFO] Unpublishing layer 'sen2chaincoveragesylvainv2' 
+[geosapi][INFO] Fetching layer 'sen2chaincoveragesylvainv2' 
+[geosapi][INFO] Successfuly fetched layer! 
+[geosapi][INFO] Deleting layer 'sen2chaincoveragesylvainv2' 
+[geosapi][INFO] Successfuly deleted layer! 
+[geosapi][INFO] Fetching featureType 'sen2chaincoveragesylvainv2' in datastore 'sen2chain' (workspace 'G2OI') 
+[geosapi][INFO] Successfully fetched featureType! 
+[geosapi][INFO] Deleting featureType 'sen2chaincoveragesylvainv2' in datastore 'sen2chain' (workspace 'G2OI') 
+[geosapi][INFO] Successfuly deleted featureType! 
+[geosapi][INFO] Successfully unpublished layer! 
+[geosapi][INFO] Publishing layer 'sen2chaincoveragesylvainv2' 
+[geosapi][INFO] Creating featureType 'sen2chaincoveragesylvainv2' in datastore 'sen2chain' (workspace 'G2OI') 
+
+[geosapi][INFO] Successfully created featureType! 
+[geosapi][INFO] Creating layer 'sen2chaincoveragesylvainv2' 
+
+[geosapi][INFO] Successfuly created layer! 
+[geosapi][INFO] Successfully published layer! 
+[geoflow][shp-workflow][INFO] WORKFLOW PROGRESS : ACTION 'geosapi-publish-ogc-services' of ENTITY 'tiles_S2CHAIN-Sylvainv2' ... 100 % 
+[1mwrote[0m [32m1.00TB[0m in [36m 0s[0m, [32m21.85PB/s[0m                                                                                                                         [1mwrote[0m [32m1.00TB[0m in [36m 0s[0m, [32m25.73PB/s[0m                                                                                                                         [geoflow][shp-workflow][INFO] --------------------------------------------------------------------------------------- 
+[geoflow][shp-workflow][INFO] Executing software actions 'onend' ... 
+[geoflow][shp-workflow][INFO] Executing input software action 'onend' 
+[geoflow][shp-workflow][INFO] Executing GeoServer 'onend' action 
+[geosapi][INFO] Reloading GeoServer catalog 
+[geosapi][INFO] Successfully reloaded GeoServer catalog! 

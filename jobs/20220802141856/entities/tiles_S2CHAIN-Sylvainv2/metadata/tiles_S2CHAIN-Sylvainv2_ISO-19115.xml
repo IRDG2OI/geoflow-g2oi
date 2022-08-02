@@ -1,0 +1,707 @@
+<gmd:MD_Metadata xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gfc="http://www.isotc211.org/2005/gfc" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmlcov="http://www.opengis.net/gmlcov/1.0" xmlns:gmlrgrid="http://www.opengis.net/gml/3.3/rgrid" xmlns:swe="http://www.opengis.net/swe/2.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <gmd:fileIdentifier>
+    <gco:CharacterString>tiles_S2CHAIN-Sylvainv2</gco:CharacterString>
+  </gmd:fileIdentifier>
+  <gmd:language>
+    <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="fra" codeSpace="ISO 639-2">French</gmd:LanguageCode>
+  </gmd:language>
+  <gmd:characterSet>
+    <gmd:MD_CharacterSetCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+  </gmd:characterSet>
+  <gmd:hierarchyLevel>
+    <gmd:MD_ScopeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MX_ScopeCode" codeListValue="dataset" codeSpace="ISOTC211/19115">dataset</gmd:MD_ScopeCode>
+  </gmd:hierarchyLevel>
+  <gmd:contact gco:nilReason="missing"/>
+  <gmd:dateStamp>
+    <gco:DateTime>2022-08-02T14:18:59</gco:DateTime>
+  </gmd:dateStamp>
+  <gmd:metadataStandardName>
+    <gco:CharacterString>ISO 19115:2003 Geographic information - Metadata</gco:CharacterString>
+  </gmd:metadataStandardName>
+  <gmd:metadataStandardVersion>
+    <gco:CharacterString>ISO 19115:2003</gco:CharacterString>
+  </gmd:metadataStandardVersion>
+  <gmd:dataSetURI>
+    <gco:CharacterString>tiles_S2CHAIN-Sylvainv2</gco:CharacterString>
+  </gmd:dataSetURI>
+  <gmd:spatialRepresentationInfo>
+    <gmd:MD_VectorSpatialRepresentation>
+      <gmd:topologyLevel>
+        <gmd:MD_TopologyLevelCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_TopologyLevelCode" codeListValue="geometryOnly" codeSpace="ISOTC211/19115">geometryOnly</gmd:MD_TopologyLevelCode>
+      </gmd:topologyLevel>
+      <gmd:geometricObjects>
+        <gmd:MD_GeometricObjects>
+          <gmd:geometricObjectType>
+            <gmd:MD_GeometricObjectTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_GeometricObjectTypeCode" codeListValue="surface" codeSpace="ISOTC211/19115">surface</gmd:MD_GeometricObjectTypeCode>
+          </gmd:geometricObjectType>
+          <gmd:geometricObjectCount>
+            <gco:Integer>127</gco:Integer>
+          </gmd:geometricObjectCount>
+        </gmd:MD_GeometricObjects>
+      </gmd:geometricObjects>
+    </gmd:MD_VectorSpatialRepresentation>
+  </gmd:spatialRepresentationInfo>
+  <gmd:referenceSystemInfo>
+    <gmd:MD_ReferenceSystem>
+      <gmd:referenceSystemIdentifier>
+        <gmd:RS_Identifier>
+          <gmd:code>
+            <gco:CharacterString>4326</gco:CharacterString>
+          </gmd:code>
+          <gmd:codeSpace>
+            <gco:CharacterString>EPSG</gco:CharacterString>
+          </gmd:codeSpace>
+        </gmd:RS_Identifier>
+      </gmd:referenceSystemIdentifier>
+    </gmd:MD_ReferenceSystem>
+  </gmd:referenceSystemInfo>
+  <gmd:identificationInfo>
+    <gmd:MD_DataIdentification>
+      <gmd:citation>
+        <gmd:CI_Citation>
+          <gmd:title>
+            <gco:CharacterString>Localisation de l'ensemble des tuiles Sentinel 2 dans l'Océan indien
+(en lien avec les séries des 5 types d'indices radiométriques générés par Sen2Chain)</gco:CharacterString>
+          </gmd:title>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2022-07-22</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="ISOTC211/19115">publication</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:editionDate>
+            <gco:Date>2022-07-25</gco:Date>
+          </gmd:editionDate>
+          <gmd:identifier>
+            <gmd:MD_Identifier>
+              <gmd:code>
+                <gco:CharacterString>tiles_S2CHAIN-Sylvainv2</gco:CharacterString>
+              </gmd:code>
+            </gmd:MD_Identifier>
+          </gmd:identifier>
+          <gmd:presentationForm>
+            <gmd:CI_PresentationFormCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_PresentationFormCode" codeListValue="mapDigital" codeSpace="ISOTC211/19115">mapDigital</gmd:CI_PresentationFormCode>
+          </gmd:presentationForm>
+        </gmd:CI_Citation>
+      </gmd:citation>
+      <gmd:abstract>
+        <gco:CharacterString>Dans le cadre des activités en télédétection de l'UMR Espace-DEV, la station SEAS-OI, station de recherche et d’expertise en télédétection localisée à St Pierre (974), enregistre depuis 2015 de façon régulière les images brutes des satellites Sentinel-2 de la mission du programme Copernicus (ESA - Union Européenne) sur certaines zones du sud-ouest de l'Océan Indien
+
+L’UMR Espace-DEV a développé avec le CNES, une chaîne de traitement appelée Sen2chain qui permet le calcul des produits Sentinel-2, L1C et L2A, ainsi que le calcul de huit indices environnementaux à savoir:
+
+- NDVI= Indice de Végétation Normalisé
+- NDWI=,
+- NDWIGAO,
+- NDWIMCF,
+- IRECI,
+- NDRE,
+- ...,
+- ... 
+
+Les séries d’indices environnementaux calculés par Sen2Chain depuis 2015 présentent un grand intérêt pour le suivi et l’observation du territoire dans la zone du sud-ouest de l’Océan Indien pour des projets scientifiques ou institutionnels en lien avec l'écologie de la santé (SEN2MALARIA), le changement climatique et la gestion des risques naturels associés dans la région du sud ouest de l'océan Indien (projet RenovRisk et la chaîne de traitement sur l’analyse des changements Sen2Change)
+La couche au format shape permet de localiser et d'accéder aux jeux de données des 5 indices calculés par Sen2chain NDVI, NDWI, NDWIGAO, NDWIMCF, IRECI, NDRE est calculé par la chaine de traitement Sen2Chain depuis le septembre 2015 jusqu'à maintenant sur l'ensemble de la zone de l'Océan Indien
+Le lien vers ces jeuxde données s'effectue par l'interface cartographique et le champ metadata et DOI qui donne accés à la fiche de métadonnées et aux jeux de données</gco:CharacterString>
+      </gmd:abstract>
+      <gmd:purpose>
+        <gco:CharacterString>line1
+
+line2
+
+line3</gco:CharacterString>
+      </gmd:purpose>
+      <gmd:status>
+        <gmd:MD_ProgressCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_ProgressCode" codeListValue=""/>
+      </gmd:status>
+      <gmd:resourceMaintenance>
+        <gmd:MD_MaintenanceInformation>
+          <gmd:maintenanceAndUpdateFrequency>
+            <gmd:MD_MaintenanceFrequencyCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="asNeeded" codeSpace="ISOTC211/19115">asNeeded</gmd:MD_MaintenanceFrequencyCode>
+          </gmd:maintenanceAndUpdateFrequency>
+        </gmd:MD_MaintenanceInformation>
+      </gmd:resourceMaintenance>
+      <gmd:graphicOverview>
+        <gmd:MD_BrowseGraphic>
+          <gmd:fileName>
+            <gco:CharacterString>https://www.espace-dev.fr/wp-content/uploads/2020/03/Logo-Espace-Dev-coul.txt-copie.png</gco:CharacterString>
+          </gmd:fileName>
+          <gmd:fileDescription>
+            <gco:CharacterString>logo_EspaceDev</gco:CharacterString>
+          </gmd:fileDescription>
+        </gmd:MD_BrowseGraphic>
+      </gmd:graphicOverview>
+      <gmd:graphicOverview>
+        <gmd:MD_BrowseGraphic>
+          <gmd:fileName>
+            <gco:CharacterString>https://www.seas-oi.org/image/layout_set_logo?img_id=16402&amp;t=1653032230879</gco:CharacterString>
+          </gmd:fileName>
+          <gmd:fileDescription>
+            <gco:CharacterString>logo_Seas-Oi</gco:CharacterString>
+          </gmd:fileDescription>
+        </gmd:MD_BrowseGraphic>
+      </gmd:graphicOverview>
+      <gmd:graphicOverview>
+        <gmd:MD_BrowseGraphic>
+          <gmd:fileName>
+            <gco:CharacterString>https://gs.marbec-tools.ird.fr/geoserver/G2OI/ows?service=WMS&amp;version=1.1.0&amp;request=GetMap&amp;layers=sen2chaincoveragesylvainv2&amp;bbox=33.9450459820001,-26.307696431,64.0493030750001,-3.61099416899998&amp;width=600&amp;height=300&amp;srs=EPSG:4326&amp;format=image/png</gco:CharacterString>
+          </gmd:fileName>
+          <gmd:fileDescription>
+            <gco:CharacterString>sen2chaincoveragesylvainv2</gco:CharacterString>
+          </gmd:fileDescription>
+        </gmd:MD_BrowseGraphic>
+      </gmd:graphicOverview>
+      <gmd:graphicOverview>
+        <gmd:MD_BrowseGraphic>
+          <gmd:fileName>
+            <gco:CharacterString>https://gred.ird.fr/var/ird/storage/images/media/ird-sites-d-unites-de-recherche/gred/images/logos/logo-ird/209819-2-fre-FR/logo-ird.png</gco:CharacterString>
+          </gmd:fileName>
+          <gmd:fileDescription>
+            <gco:CharacterString>Logo</gco:CharacterString>
+          </gmd:fileDescription>
+        </gmd:MD_BrowseGraphic>
+      </gmd:graphicOverview>
+      <gmd:graphicOverview>
+        <gmd:MD_BrowseGraphic>
+          <gmd:fileName>
+            <gco:CharacterString>http://141.95.158.113/static/img/logo_ird.png</gco:CharacterString>
+          </gmd:fileName>
+          <gmd:fileDescription>
+            <gco:CharacterString>Logo</gco:CharacterString>
+          </gmd:fileDescription>
+        </gmd:MD_BrowseGraphic>
+      </gmd:graphicOverview>
+      <gmd:resourceFormat>
+        <gmd:MD_Format>
+          <gmd:name>
+            <gco:CharacterString>application/x-qgis</gco:CharacterString>
+          </gmd:name>
+          <gmd:version gco:nilReason="missing"/>
+        </gmd:MD_Format>
+      </gmd:resourceFormat>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>G2OI</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>occupation du sol</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>télédétection</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>NDVI</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Indice</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>NDWIGAO</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>NDWI </gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>NDWIMCF</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>IRECI</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>NDRE </gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>General</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2022-08-02</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode" codeListValue="lastRevision" codeSpace="ISOTC211/19115">lastRevision</gmd:CI_DateTypeCode>
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>La Réunion</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Maurice</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Madagascar</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Comores</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Seychelles</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Océan Indien</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>Geographic</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2022-08-02</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode" codeListValue="lastRevision" codeSpace="ISOTC211/19115">lastRevision</gmd:CI_DateTypeCode>
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:resourceConstraints>
+        <gmd:MD_LegalConstraints>
+          <gmd:accessConstraints>
+            <gmd:MD_RestrictionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions" codeSpace="ISOTC211/19115">otherRestrictions</gmd:MD_RestrictionCode>
+          </gmd:accessConstraints>
+          <gmd:useConstraints>
+            <gmd:MD_RestrictionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_RestrictionCode" codeListValue="intellectualPropertyRights" codeSpace="ISOTC211/19115">intellectualPropertyRights</gmd:MD_RestrictionCode>
+          </gmd:useConstraints>
+          <gmd:otherConstraints>
+            <gco:CharacterString>other constraints to highlight.</gco:CharacterString>
+          </gmd:otherConstraints>
+        </gmd:MD_LegalConstraints>
+      </gmd:resourceConstraints>
+      <gmd:spatialRepresentationType>
+        <gmd:MD_SpatialRepresentationTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="vector">vector</gmd:MD_SpatialRepresentationTypeCode>
+      </gmd:spatialRepresentationType>
+      <gmd:language>
+        <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="fra" codeSpace="ISO 639-2">French</gmd:LanguageCode>
+      </gmd:language>
+      <gmd:characterSet>
+        <gmd:MD_CharacterSetCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+      </gmd:characterSet>
+      <gmd:extent>
+        <gmd:EX_Extent>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>33.9450459820001</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>64.0493030750001</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>-26.307696431</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>-3.61099416899998</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+          <gmd:temporalElement>
+            <gmd:EX_TemporalExtent>
+              <gmd:extent>
+                <gml:TimePeriod gml:id="P6Y8M16D">
+                  <gml:beginPosition>2015-09-20T00:00:00</gml:beginPosition>
+                  <gml:endPosition>2022-06-05T00:00:00</gml:endPosition>
+                </gml:TimePeriod>
+              </gmd:extent>
+            </gmd:EX_TemporalExtent>
+          </gmd:temporalElement>
+        </gmd:EX_Extent>
+      </gmd:extent>
+      <gmd:supplementalInformation gco:nilReason="missing"/>
+    </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+  <gmd:identificationInfo>
+    <srv:SV_ServiceIdentification id="OGC-WMS">
+      <gmd:citation gco:nilReason="missing"/>
+      <gmd:abstract>
+        <gco:CharacterString/>
+      </gmd:abstract>
+      <gmd:descriptiveKeywords gco:nilReason="missing"/>
+      <gmd:resourceConstraints gco:nilReason="missing"/>
+      <gmd:aggregationInfo gco:nilReason="missing"/>
+      <srv:serviceType>
+        <gco:LocalName>OGC:WMS</gco:LocalName>
+      </srv:serviceType>
+      <srv:accessProperties>
+        <gmd:MD_StandardOrderProcess>
+          <gmd:fees>
+            <gco:CharacterString>none</gco:CharacterString>
+          </gmd:fees>
+        </gmd:MD_StandardOrderProcess>
+      </srv:accessProperties>
+      <srv:extent>
+        <gmd:EX_Extent>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>33.9450459820001</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>64.0493030750001</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>-26.307696431</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>-3.61099416899998</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+          <gmd:temporalElement>
+            <gmd:EX_TemporalExtent>
+              <gmd:extent>
+                <gml:TimePeriod gml:id="P6Y8M16D">
+                  <gml:beginPosition>2015-09-20T00:00:00</gml:beginPosition>
+                  <gml:endPosition>2022-06-05T00:00:00</gml:endPosition>
+                </gml:TimePeriod>
+              </gmd:extent>
+            </gmd:EX_TemporalExtent>
+          </gmd:temporalElement>
+        </gmd:EX_Extent>
+      </srv:extent>
+      <srv:couplingType>
+        <srv:SV_CouplingType codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#SV_CouplingType" codeListValue="mixed">mixed</srv:SV_CouplingType>
+      </srv:couplingType>
+      <srv:containsOperations>
+        <srv:SV_OperationMetadata>
+          <srv:operationName>
+            <gco:CharacterString>GetCapabilities</gco:CharacterString>
+          </srv:operationName>
+          <srv:DCP>
+            <srv:DCPList codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#DCPList" codeListValue="WebServices" codeSpace="ISOTC211/19119">WebServices</srv:DCPList>
+          </srv:DCP>
+          <srv:operationDescription>
+            <gco:CharacterString>GetCapabilities</gco:CharacterString>
+          </srv:operationDescription>
+          <srv:invocationName>
+            <gco:CharacterString>GetCapabilities</gco:CharacterString>
+          </srv:invocationName>
+          <srv:parameters gco:nilReason="missing"/>
+          <srv:connectPoint>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://gs.marbec-tools.ird.fr/geoserver/G2OI/ows?service=WMS&amp;version=1.1.0&amp;request=GetCapabilities</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>OGC:WMS</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>OGC:WMS</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>Open Geospatial Consortium Web Map Service (WMS)</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </srv:connectPoint>
+        </srv:SV_OperationMetadata>
+      </srv:containsOperations>
+      <srv:containsOperations>
+        <srv:SV_OperationMetadata>
+          <srv:operationName>
+            <gco:CharacterString>GetMap</gco:CharacterString>
+          </srv:operationName>
+          <srv:DCP>
+            <srv:DCPList codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#DCPList" codeListValue="WebServices" codeSpace="ISOTC211/19119">WebServices</srv:DCPList>
+          </srv:DCP>
+          <srv:operationDescription>
+            <gco:CharacterString>GetMap</gco:CharacterString>
+          </srv:operationDescription>
+          <srv:invocationName>
+            <gco:CharacterString>GetMap</gco:CharacterString>
+          </srv:invocationName>
+          <srv:parameters gco:nilReason="missing"/>
+          <srv:connectPoint gco:nilReason="missing"/>
+        </srv:SV_OperationMetadata>
+      </srv:containsOperations>
+      <srv:containsOperations>
+        <srv:SV_OperationMetadata>
+          <srv:operationName>
+            <gco:CharacterString>GetFeatureInfo</gco:CharacterString>
+          </srv:operationName>
+          <srv:DCP>
+            <srv:DCPList codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#DCPList" codeListValue="WebServices" codeSpace="ISOTC211/19119">WebServices</srv:DCPList>
+          </srv:DCP>
+          <srv:operationDescription>
+            <gco:CharacterString>GetFeatureInfo</gco:CharacterString>
+          </srv:operationDescription>
+          <srv:invocationName>
+            <gco:CharacterString>GetFeatureInfo</gco:CharacterString>
+          </srv:invocationName>
+          <srv:parameters gco:nilReason="missing"/>
+          <srv:connectPoint gco:nilReason="missing"/>
+        </srv:SV_OperationMetadata>
+      </srv:containsOperations>
+      <srv:containsOperations>
+        <srv:SV_OperationMetadata>
+          <srv:operationName>
+            <gco:CharacterString>DescribeLayer</gco:CharacterString>
+          </srv:operationName>
+          <srv:DCP>
+            <srv:DCPList codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#DCPList" codeListValue="WebServices" codeSpace="ISOTC211/19119">WebServices</srv:DCPList>
+          </srv:DCP>
+          <srv:operationDescription>
+            <gco:CharacterString>DescribeLayer</gco:CharacterString>
+          </srv:operationDescription>
+          <srv:invocationName>
+            <gco:CharacterString>DescribeLayer</gco:CharacterString>
+          </srv:invocationName>
+          <srv:parameters gco:nilReason="missing"/>
+          <srv:connectPoint gco:nilReason="missing"/>
+        </srv:SV_OperationMetadata>
+      </srv:containsOperations>
+      <srv:containsOperations>
+        <srv:SV_OperationMetadata>
+          <srv:operationName>
+            <gco:CharacterString>GetLegendGraphic</gco:CharacterString>
+          </srv:operationName>
+          <srv:DCP>
+            <srv:DCPList codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#DCPList" codeListValue="WebServices" codeSpace="ISOTC211/19119">WebServices</srv:DCPList>
+          </srv:DCP>
+          <srv:operationDescription>
+            <gco:CharacterString>GetLegendGraphic</gco:CharacterString>
+          </srv:operationDescription>
+          <srv:invocationName>
+            <gco:CharacterString>GetLegendGraphic</gco:CharacterString>
+          </srv:invocationName>
+          <srv:parameters gco:nilReason="missing"/>
+          <srv:connectPoint gco:nilReason="missing"/>
+        </srv:SV_OperationMetadata>
+      </srv:containsOperations>
+      <srv:containsOperations>
+        <srv:SV_OperationMetadata>
+          <srv:operationName>
+            <gco:CharacterString>GetStyles</gco:CharacterString>
+          </srv:operationName>
+          <srv:DCP>
+            <srv:DCPList codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#DCPList" codeListValue="WebServices" codeSpace="ISOTC211/19119">WebServices</srv:DCPList>
+          </srv:DCP>
+          <srv:operationDescription>
+            <gco:CharacterString>GetStyles</gco:CharacterString>
+          </srv:operationDescription>
+          <srv:invocationName>
+            <gco:CharacterString>GetStyles</gco:CharacterString>
+          </srv:invocationName>
+          <srv:parameters gco:nilReason="missing"/>
+          <srv:connectPoint gco:nilReason="missing"/>
+        </srv:SV_OperationMetadata>
+      </srv:containsOperations>
+    </srv:SV_ServiceIdentification>
+  </gmd:identificationInfo>
+  <gmd:distributionInfo>
+    <gmd:MD_Distribution>
+      <gmd:distributionFormat>
+        <gmd:MD_Format>
+          <gmd:name>
+            <gmx:Anchor xlink:href="https://www.iana.org/assignments/media-types/application/zip">application/zip</gmx:Anchor>
+          </gmd:name>
+          <gmd:version gco:nilReason="missing"/>
+          <gmd:specification>
+            <gco:CharacterString>ESRI Shapefile (zipped)</gco:CharacterString>
+          </gmd:specification>
+        </gmd:MD_Format>
+      </gmd:distributionFormat>
+      <gmd:transferOptions>
+        <gmd:MD_DigitalTransferOptions>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://indices.seas-oi.org/sen2extract/</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>sen2extract</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>site web consultation des indices </gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://sentinels.copernicus.eu/web/sentinel/missions/sentinel-2</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString/>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>site copernicus sentinel-2</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage gco:nilReason="missing"/>
+              <gmd:protocol>
+                <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>[site tuiles sentinel-2]https://eatlas.org.au/data/uuid/f7468d15-12be-4e3f-a246-b2882a324f59</gco:CharacterString>
+              </gmd:name>
+              <gmd:description gco:nilReason="missing"/>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage gco:nilReason="missing"/>
+              <gmd:protocol>
+                <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>[site téléchargementtuiles sentinel-2]https://sentinel.esa.int/web/sentinel/missions/sentinel-2/data-products</gco:CharacterString>
+              </gmd:name>
+              <gmd:description gco:nilReason="missing"/>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://gs.marbec-tools.ird.fr/geoserver/G2OI/ows?service=WMS</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>OGC:WMS</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>sen2chaincoveragesylvainv2</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>sen2chaincoveragesylvainv2 - Map access - OGC Web Map Service (WMS)</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://gs.marbec-tools.ird.fr/geoserver/G2OI/ows?service=WFS</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>OGC:WFS</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>sen2chaincoveragesylvainv2</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>sen2chaincoveragesylvainv2 - Data (features) access - OGC Web Feature Service (WFS)</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://gs.marbec-tools.ird.fr/geoserver/G2OI/ows?service=WFS&amp;request=GetFeature&amp;version=1.0.0&amp;typeName=sen2chaincoveragesylvainv2</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>sen2chaincoveragesylvainv2</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>sen2chaincoveragesylvainv2 - Data download - OGC Web Feature Service (WFS) - GML format</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://gs.marbec-tools.ird.fr/geoserver/G2OI/ows?service=WFS&amp;request=GetFeature&amp;version=1.0.0&amp;typeName=sen2chaincoveragesylvainv2&amp;outputFormat=json</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>sen2chaincoveragesylvainv2</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>sen2chaincoveragesylvainv2 - Data download - OGC Web Feature Service (WFS) - GeoJSON format</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://gs.marbec-tools.ird.fr/geoserver/G2OI/ows?service=WFS&amp;request=GetFeature&amp;version=1.0.0&amp;typeName=sen2chaincoveragesylvainv2&amp;outputFormat=SHAPE-ZIP</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>sen2chaincoveragesylvainv2</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>sen2chaincoveragesylvainv2 - Data download - OGC Web Feature Service (WFS) - ESRI Shapefile format</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://gs.marbec-tools.ird.fr/geoserver/G2OI/ows?service=WFS&amp;request=GetFeature&amp;version=1.0.0&amp;typeName=sen2chaincoveragesylvainv2&amp;outputFormat=CSV</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>sen2chaincoveragesylvainv2</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>sen2chaincoveragesylvainv2 - Data download - OGC Web Feature Service (WFS) - CSV format</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+        </gmd:MD_DigitalTransferOptions>
+      </gmd:transferOptions>
+    </gmd:MD_Distribution>
+  </gmd:distributionInfo>
+  <gmd:dataQualityInfo>
+    <gmd:DQ_DataQuality>
+      <gmd:scope>
+        <gmd:DQ_Scope>
+          <gmd:level>
+            <gmd:MD_ScopeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MX_ScopeCode" codeListValue="dataset" codeSpace="ISOTC211/19115">dataset</gmd:MD_ScopeCode>
+          </gmd:level>
+        </gmd:DQ_Scope>
+      </gmd:scope>
+      <gmd:lineage>
+        <gmd:LI_Lineage>
+          <gmd:statement>
+            <gco:CharacterString>La chaîne de traitement Sen2Chain utilise le KML fournit par l'ESA. A partir de ce KML, un shape est généré pour les zones couvertes dans la zone de l'Océan Indien pour l'ensemble des indices fourniés par Sen2Chain.
+
+Nous sélectionnons depuis le shape de Sen2Chain à partir d'une requête SQL, les tuiles correspondant à la zone dinterêt du sud ouest de l'Océan Indien. Pour chaque tuile , nous retrouvons le lien vers la métadonnées et le DOI lorsque la donnée est présente. Un champ metadata et un champ DOI permettent d'accéder aux jeux de données correspondants.</gco:CharacterString>
+          </gmd:statement>
+        </gmd:LI_Lineage>
+      </gmd:lineage>
+    </gmd:DQ_DataQuality>
+  </gmd:dataQualityInfo>
+  <!--Metadata Creation date/time: 2022-08-02T14:19:02-->
+  <!--ISO 19139 XML generated by geometa R package - Version 0.7-->
+  <!--ISO 19139 XML compliance: NO-->
+  <!--geometa R package information:	Contact: Emmanuel Blondel emmanuel.blondel1@gmail.com	URL: https://github.com/eblondel/geometa/wiki	BugReports: https://github.com/eblondel/geometa/issues-->
+</gmd:MD_Metadata> 
