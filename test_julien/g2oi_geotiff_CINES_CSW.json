@@ -5,7 +5,9 @@
 	  "project": "Test geoflow project",
 	  "organization": "My organization",
 	  "logos": [
-  		  		"https://drive.google.com/uc?id=16D4qCIKtRBD94-wOcMfM1HcA9c6uKM50"
+	            "https://drive.google.com/uc?id=177eRceCLr_VmfAf9SWK3a4MBZix_zHjH",
+	            "https://drive.google.com/uc?id=16D4qCIKtRBD94-wOcMfM1HcA9c6uKM50"
+  		  		
 	  ],
 	  "mode": "entity",
 	  "options": {
