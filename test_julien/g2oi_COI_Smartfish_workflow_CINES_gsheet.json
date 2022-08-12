@@ -1,8 +1,8 @@
 {
-  "id": "Deep_mapping_workflow",
+  "id": "COI_Smartfish_workflow",
   "profile": {
-	"project": "Deep Mapping project",
-	"organization": "IRD",
+	"project": "G2OI project",
+	"organization": "COI & IRD",
 	    "logos": [
         "https://drive.google.com/uc?id=1R77eVghrcR4KmuM_jLX-xm1FdmotvRiT" 
     ]
