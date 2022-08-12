@@ -1,0 +1,104 @@
+{
+  "id": "Deep_mapping_workflow",
+  "profile": {
+	"project": "Deep Mapping project",
+	"organization": "IRD",
+	    "logos": [
+        "https://drive.google.com/uc?id=1R77eVghrcR4KmuM_jLX-xm1FdmotvRiT" 
+    ]
+  },
+  "options": {
+	"line_separator": "_\n"
+  },
+  "mode": "entity",
+  "dependencies": {
+    "packages": {
+      "cran": [
+        "gsheet"
+      ],
+      "cran_force_install" : false,
+      "github": [],
+      "github_force_install": false
+    },
+    "scripts": []
+  },
+  "metadata": {
+    "entities": {
+      "handler": "gsheet",
+      "source": "https://docs.google.com/spreadsheets/d/1XxBKEe16bRVcSrXjxu4DXE-Qi-eMUvH4vwx7zAruSY4/edit?usp=sharing"
+      },
+    "contacts" : {
+      "handler": "gsheet",
+      "source": "https://docs.google.com/spreadsheets/d/1DtGR8cHAkro12DOFZn40cehfU9LoI9l7wVUCHfHH-xY/edit?usp=sharing"
+      }
+  },
+  "software": [
+    {
+		"id": "CINES-geonetwork",
+		"type": "output",
+		"software_type": "geonetwork",
+		"parameters": {
+			"url": "{{GEONETWORK_URL}}",
+			"user": "{{GEONETWORK_USER}}",
+			"pwd": "{{GEONETWORK_PASSWORD}}",
+			"version": "4.2.0",
+			"logger": "DEBUG"
+		}
+    },
+    {
+        "id": "CINES-geoserver",
+        "type": "output",
+        "software_type": "geoserver",
+        "parameters": {
+			"url": "{{GEOSERVER_URL}}",
+			"user": "{{GEOSERVER_USER}}",
+			"pwd": "{{GEOSERVER_PASSWORD}}",
+			"logger": "DEBUG"
+        },
+      "properties" : {
+			"workspace": "COI",
+			"store": "COI_Smartfish"
+      }
+    },
+		{
+		"id": "googledrive",
+		"type": "input",
+		"software_type": "googledrive",
+		"parameters": {
+			"email": "{{GMAIL_USER}}",
+			"token": ""
+		},
+		"properties" : {}
+	}
+  ],
+  "actions": [
+	{
+    "id": "geometa-create-iso-19115",
+    "run": true,
+	  "options": {
+  		"logo": true,
+  		"doi": true,
+  		"doi_thumbnail": true,
+  		"addfeatures": false
+	  }
+    },
+	{
+	  "id": "geometa-create-iso-19110",
+	  "run": false
+	},
+	{
+	  "id": "geonapi-publish-iso-19139",
+      "run" : true,
+      	     "options" : {
+	   "group":"{{GROUP}}"
+	   }	},
+	{
+	  "id": "geosapi-publish-ogc-services",
+	  "run": true,
+	  "options" : {
+	    "createWorkspace": true,
+	    "createStore": true
+	  }
+	}
+ ]
+}
