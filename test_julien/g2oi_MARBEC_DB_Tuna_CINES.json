@@ -15,7 +15,7 @@
   "metadata": {
     "entities": {
       "handler": "dbi",
-      "source": "select * from metadata.metadata_dcmi where id_metadata = 1"
+      "source": "select \"Identifier\",\"Title\",\"Description\",\"Subject\",\"Creator\",\"Date\",\"Type\",\"Language\",\"SpatialCoverage\",\"TemporalCoverage\",\"Format\",\"Relation\",\"Rights\",\"Provenance\", NULL AS \"Data\" from metadata.metadata_dcmi"
     },
     "contacts" : {
       "handler": "gsheet",
