@@ -1,0 +1,113 @@
+Identifier,Email,OrganizationName,PositionName,LastName,FirstName,PostalAddress,PostalCode,City,Country,Voice,Facsimile,WebsiteUrl,WebsiteName
+id:ird@ird.fr,ird@ird.fr,Institut de recherche pour le développement (IRD),Research public body,,,"Le Sextant, 44, bd de Dunkerque, CS 90009",13572,Marseille cedex 02,France,33 (0)4 91 99 92 00,33 (0)4 91 99 92 22,http://www.ird.fr/,Website
+id:julien.barde@ird.fr,julien.barde@ird.fr,"IRD, UMR MARBEC",Engineer,Barde,Julien,"Centre IFREMER de Sète, Avenue Jean Monnet, CS 30171",34200,Sète  Cedex 5,France,33 (0)499576132,,https://orcid.org/0000-0002-3519-6141,Web page
+id:benjamin.robert@ird.fr,benjamin.robert@ird.fr,"Institut de recherche pour le développement (IRD),  MARBEC Research Unit",Engineer,Benjamin,Robert,SEAS-OI,34200,Saint Pierre de la Réunion,France,33 (0)499573204,33 (0)4 99 57 32 04,https://i-marine.d4science.org/web/fao_tunaatlas,Web page
+id:HYDRETUDES@ird.fr,HYDRETUDES@ird.fr,"Institut de recherche pour le développement (IRD),  MARBEC Research Unit",Engineer,HYDRETUDES,HYDRETUDES,SEAS-OI,34200,Saint Pierre de la Réunion,France,33 (0)499573204,33 (0)4 99 57 32 04,https://i-marine.d4science.org/web/fao_tunaatlas,Web page
+id:pascal.mouquet@ird.fr,id:pascal.mouquet@ird.fr,"Institut de recherche pour le développement (IRD),  MARBEC Research Unit",Engineer,Mouquet,Pascal,SEAS-OI,34200,Saint Pierre de la Réunion,France,33 (0)499573204,33 (0)4 99 57 32 04,https://i-marine.d4science.org/web/fao_tunaatlas,Web page
+id:pierre.tessier@cr-reunion.fr,pierre.tessier@cr-reunion.fr,"Institut de recherche pour le développement (IRD),  MARBEC Research Unit",Engineer,Tessier,Pierre,SEAS-OI,34200,Saint Pierre de la Réunion,France,33 (0)499573204,33 (0)4 99 57 32 04,https://i-marine.d4science.org/web/fao_tunaatlas,Web page
+id:christophe.revillion@ird.fr,christophe.revillion@ird.fr,UR/UMR Espace-Dev,Engineer,,,,,,,,,,
+id:emmanuel.chassot@ird.fr,emmanuel.chassot@ird.fr,IRD & Seychelles Fishing Authority (SFA),Researcher,Chassot,Emmanuel,SFA,P.O. Box 449,Victoria,Seychelles,(+248) 4670380,248 4224508,https://i-marine.d4science.org/web/fao_tunaatlas,https://www.researchgate.net/profile/Emmanuel_Chassot
+id:marc.leopold@ird.fr,marc.leopold@ird.fr,"Institut de recherche pour le développement (IRD), UMR ENTROPIE",Ingénieur de Recherche,Leopold,Marc,IHSM,-,Tuléar,Madagascar,-,-,,
+id:Lionel.Bigot@univ-reunion.fr,Lionel.Bigot@univ-reunion.fr,"Institut de recherche pour le développement (IRD), UMR ENTROPIE",Researcher,Bigot,Lionel,,,,,(+262) 262 93 86 90,(+262) 262 93 86 85,http://umr-entropie.ird.nc/index.php/team/lionel-bigot,Web page
+id:jlucas@sfa.sc,jlucas@sfa.sc,Seychelles Fishing Authority (SFA),Principal statistician,Lucas,Juliette,Fishing Port,P. O. Box 449,Victoria,Seychelles,(+248) 4670300,(+248) 4224508,http://www.sfa.sc,Website
+id:rgovinden@sfa.sc,rgovinden@sfa.sc,Seychelles Fishing Authority (SFA),Researcher,Govinden,Rodney,Fishing Port,P. O. Box 449,Victoria,Seychelles,(+248) 4670300,(+248) 4224508,http://www.sfa.sc,Website
+id:cassan@sfa.sc,cassan@sfa.sc,Seychelles Fishing Authority (SFA),Senior statistician,Assan,Cindy,Fishing Port,P. O. Box 449,Victoria,Seychelles,(+248) 4670300,(+248) 4224508,http://www.sfa.sc,Website
+id:emmanuel.blondel@fao.org,emmanuel.blondel@fao.org,FAO - Statistics and Information Branch (NFIS),Geographic Information Systems & R Expert,Blondel,Emmanuel,,,,,,,http://www.fao.org/fishery,Statistics and Information Branch (NFIS)
+id:ESPACE-DEV@univ-reunion.fr,ESPACE-DEV@univ-reunion.fr,"UMR 228 ESPACE DEV, Université de La Réunion",-,,,Campus Universitaire du Moufia - Université de la Réunion,,Saint-Denis,France,(+262) 262 299315,,,
+id:FAO-HQ@fao.org,FAO-HQ@fao.org,Food and Agriculture Organization of the United Nations,International Organization,,,Viale delle Terme di Caracalla, 00 153,Rome,Italy,(+39) 06 57051,123456800,www.fao.org,http://www.fao.org/contact-us/fr/
+id:Fish-Statistics-Inquiries@fao.org,Fish-Statistics-Inquiries@fao.org,FAO - Statistics and Information Branch (NFIS),Statistics and Information Branch,,,Viale delle Terme di Caracalla, 00 153,Rome,Italy,,,http://www.fao.org/fishery,Statistics and Information Branch (NFIS)
+id:FIRMS-Secretariat@fao.org,FIRMS-Secretariat@fao.org,Fisheries and Resources Monitoring System (FIRMS) Secretariat,Secretariat,,,Viale delle Terme di Caracalla, 00 153,Rome,Italy,,,http://firms.fao.org,Fisheries and Resources Monitoring System
+id:CWP-Secretariat@fao.org,CWP-Secretariat@fao.org,Coordinating Working Party on Fishery Statistics (CWP) Secretariat,Secretariat,,,Viale delle Terme di Caracalla, 00 153,Rome,Italy,,,http://www.fao.org/fishery/cwp,Coordinating Working Party on Fishery Statistics (CWP)
+id:IOTC-Statistics@fao.org,IOTC-Statistics@fao.org,Indian Ocean Tuna Commission (IOTC),Regional Fisheries Management Organization,,,Le Chantier Mall (2nd floor),PO Box 1011,Victoria,Seychelles,123456798,123456798,http://www.iotc.org/,Website
+id:IOTC-Secretariat@fao.org,IOTC-Secretariat@fao.org,Indian Ocean Tuna Commission (IOTC),Regional Fisheries Management Organization,,,Le Chantier Mall (2nd floor),PO Box 1011,Victoria,Seychelles,123456798,123456798,http://www.iotc.org/,Website
+id:secretariat@iotc.org,secretariat@iotc.org,Indian Ocean Tuna Commission (IOTC),Regional Fisheries Management Organization,,,Le Chantier Mall (2nd floor),PO Box 1011,Victoria,Seychelles,123456798,123456798,http://www.iotc.org/,Website
+id:dan.fu@iotc.org,dan.fu@iotc.org,Indian Ocean Tuna Commission (IOTC),Stock assessment officer,Fu,Dan,Le Chantier Mall (2nd floor),PO Box 1011,Victoria,Seychelles,(+00) 123456799,(+00) 123456799,http://www.iotc.org/,Website
+id:fabio.fiorellato@iotc.org,fabio.fiorellato@iotc.org,Indian Ocean Tuna Commission (IOTC),Data manager,Fiorellato,Fabio,Le Chantier Mall (2nd floor),PO Box 1011,Victoria,Seychelles,123456798,123456798,http://www.iotc.org/,Website
+id:info@iattc.org,info@iattc.org,Inter-American Tropical Tuna Commission (IATTC),Regional Fisheries Management Organization,,,8901 La Jolla Shores Dr,CA 92037,La Jolla,United States of America,1 858-546-7100,1 858-546-7100,https://www.iattc.org,Website
+id:management@sfa.sc,management@sfa.sc,Seychelles Fishing Authority (SFA),Research public body,,,Fishing Port,P. O. Box 449,Victoria,Seychelles,(+248) 4670300,(+248) 4224508,http://www.sfa.sc,Website
+id:marbec-tous@listes.ird.fr,marbec-tous@listes.ird.fr,"IRD, UMR MARBEC, Sète",Research unit,,,"Centre IFREMER de Sète, Avenue Jean Monnet, CS 30171","34203, Cedex 5",Sète  Cedex 5,France,33 (0)4 99 57 32 15,(+33)499573200,http://www.umr-marbec.fr,Website
+id:carlos.palma@iccat.int,carlos.palma@iccat.int,International Commission for the Conservation of Atlantic Tunas (ICCAT),Biostatistician,Palma,Carlos,"ICCAT SECRETARIAT - Corazón de María, 8. 28002",-,Madrid,Spain,34 915103713,34 915103713,https://www.iccat.int/,Website
+id:nvogel@iattc.org,nvogel@iattc.org,Inter-American Tropical Tuna Commission (IATTC),Data manager,Vogel,Nickolas,8901 La Jolla Shores Dr,CA 92037,La Jolla,United States of America,1 (858) 5467042,1 (858) 5467042,https://www.iattc.org,Website
+id:PeterW@spc.int,PeterW@spc.int,Western and Central Pacific Fisheries Commission (WCPFC),Data manager,Williams,Peter,"Kaselehlie Street PO Box 2356, Kolonia",96941,Pohnpei State,"Federated States of
+Micronesia",691 320 1992 or 320 1993,691 320 1992 or 320 1993,https://www.wcpfc.int/,Website
+id:CMillar@ccsbt.org,CMillar@ccsbt.org,Commission for the Conservation of Southern Bluefin Tuna (CCSBT),Data manager,Millar,Colin,PO Box 37,ACT 2600,Deakin West,Australia,(61 2) 6282 8396,(61 2) 6282 8396,https://www.ccsbt.org,Website
+id:evgeny.romanov@ird.fr,evgeny.romanov@ird.fr,Centre Technique d’Appui à la Pêche Réunionnaise (CAP RUN – Hydrô Réunion),Project manager,Romanov,Evgeny,Magasin n°10 - Port Ouest,97420,Le Port,France,262 (0) 262 22 33 85,,,
+id:statistics@un.org,statistics@un.org,United Nations Statistics Division,International Organization,,,Statistics Division United Nations,10017,New York,United States of America,,,https://unstats.un.org/home/,Website
+id:dobura@cordioea.net,dobura@cordioea.net,CORDIO East Africa,Founding Director,Obura,David,"9 Kibaki Flats, Kenyatta Beach",P. O. BOX 10135,Bamburi,Kenya,254 736 341184,,http://cordioea.net/,Website
+id:pierre.valade@ocea.re,pierre.valade@ocea.re,OCEA Consult',Hydrobiologist engineer,Valade,Pierre,236 B Chemin Concession Condé,97 432,Saint Pierre,France,0692 30 54 12,,http://www.ocea.re/,http://www.ocea.re/front/section-contact.html
+id:secretariat@coi-ioc.org,secretariat@coi-ioc.org,Commission de l'Océan Indien,Intergovernmental organization,,,"Blue Tower, 5ème étage, Rue de l'Institut",-,Ebene,Maurice,(+230) 4026100,(+230) 4026100,http://www.commissionoceanindien.org,Website
+id:secretariat.islands@coi-ioc.org,secretariat.islands@coi-ioc.org,Projet Islands (COI),Project,,,"Blue Tower, 5ème étage, Rue de l'Institut",-,Ebene,Maurice,(+230) 4026100,-,commissionoceanindien.org/activites/islands/,Web page
+id:progeco@coi-ioc.org,progeco@coi-ioc.org,Projet ProGeCo (COI),Project,,,"Blue Tower, 5ème étage, Rue de l'Institut",,Ebene,Maurice,(+230) 4026100,,http://www.commissionoceanindien.org/archives/environment.ioconline.org/fr/coastal-zone-management/projets-progeco.html,Web page
+id:rttp@coi-ioc.org,rttp@coi-ioc.org,"Projet RTTP, Regional Tuna Tagging Program (COI)",Project,,,"Blue Tower, 5ème étage, Rue de l'Institut",,Ebene,Maurice,(+230) 4026100,,http://www.commissionoceanindien.org/archives/environment.ioconline.org/fr/coastal-zone-management/projets-progeco.html,Web page
+id:oil_spill@coi-ioc.org,oil_spill@coi-ioc.org,Projet Autoroute Maritime,Project,,,"Blue Tower, 5ème étage, Rue de l'Institut",,Ebene,Maurice,(+230) 4026100,,http://www.commissionoceanindien.org/archives/environment.ioconline.org/fr/coastal-zone-management/projets-progeco.html,Web page
+id:biodiversite@coi-ioc.org,biodiversite@coi-ioc.org,Projet Biodiversité (COI),IOC / FED Project,,,"Blue Tower, 4ème étage, Rue de l'Institut",-,Ebene,Maurice,(+230) 4026100,,http://www.commissionoceanindien.org/activites/smartfish/,Web page
+id:said.ahamada@coi-ioc.com,said.ahamada@coi-ioc.com,Projet Biodiversité (COI),IOC / FED Project,Ahamada,Said,"Blue Tower, 4ème étage, Rue de l'Institut",-,Ebene,Maurice,(+230) 4026100,,,Web page
+id:alexandre.noel@coi-ioc.org,alexandre.noel@coi-ioc.org,IRD COI,Metadata Editor,Noel,Alexandre,"Blue Tower, 5ème étage, Rue de l'Institut",,Ebene,Maurice,,,,
+id:smartfish@coi-ioc.org,smartfish@coi-ioc.org,Projet Smartfish (COI),Project,,,"Blue Tower, 5ème étage, Rue de l'Institut",-,Ebene,Maurice,(+230) 4026100,,http://www.commissionoceanindien.org/activites/smartfish/,Web page
+id:prsp@coi-ioc.org,prsp@coi-ioc.org,Projet PRSP (COI),Project,,,"Blue Tower, 5ème étage, Rue de l'Institut",-,Ebene,Maurice,(+230) 4026100,,http://www.commissionoceanindien.org/activites/smartfish/,Web page
+id:arvam@arvam.com,arvam@arvam.com,Agence pour la Recherche et la Valorisation Marine (ARVAM),French association,,,16 rue Albert Lougnon,97490,Sainte-Clotilde,France,(+230) 59343444,,http://technopole-reunion.com/arvam/,
+id:jpascal.quod@arvam.com,jpascal.quod@arvam.com,Agence pour la Recherche et la Valorisation Marine (ARVAM),French association,Quod,Jean-Pascal,16 rue Albert Lougnon,97490,Sainte-Clotilde,France,(+230) 59343444,,http://technopole-reunion.com/arvam/,
+id:spersand@gmail.com,spersand@gmail.com,Coastal Land and Marine Solutions (CLAMS Ltd.),Researcher,Persand,Sharveen,Morcellement Ramdanee,,Pointe aux Piments,Maurice,(+230) 2922004,(+230) 492 5213,,
+id:erwann.lagabrielle@ird.fr,erwann.lagabrielle@ird.fr,"IRD, UR/UMR Espace-Dev",Engineer,Lagabrielle,Erwann,15 Avenue René Cassin,97715,Sainte-Clotilde,France,262 (0) 262 49 92 41,-,,
+id:gwenaelle.pennober@univ-reunion.fr,gwenaelle.pennober@univ-reunion.fr,IRD/UMR Espace-Dev,Researcher,,,15 Avenue René Cassin,97490,Sainte-Clotilde,France,262 (0) 262 93 87 70,,,
+id:wcsmad@wcsmad.org,wcsmad@wcsmad.org,Wildlife Conservation Society Madagascar,Project,,,"Villa Ifanomezantsoa, Soavimbahoaka",P.O. Box 8500,Antananarivo,Madagascar,(+261) 202259789,,https://madagascar.wcs.org/,Web page
+id:tantely@wcsmad.org,tantely@wcsmad.org,Wildlife Conservation Society (WCS Madagascar),Engineer,Tianarisoa,Tantely Fanomezana,"Villa Ifanomezantsoa, Soavimbahoaka",P.O. Box 8500,Antananarivo,Madagascar,261331183523,,https://madagascar.wcs.org/,Web page
+id:ttianarisoa@gmail.com,ttianarisoa@gmail.com,Wildlife Conservation Society (WCS Madagascar),Engineer,Tianarisoa,Tantely Fanomezana,"Villa Ifanomezantsoa, Soavimbahoaka",P.O. Box 8500,Antananarivo,Madagascar,261331183523,,https://madagascar.wcs.org/,Web page
+id:bemahafaly@wcsmad.org,bemahafaly@wcsmad.org,Wildlife Conservation Society (WCS Madagascar),Marine Biologist,Randriamanantsoa,Bemahafaly,"Villa Ifanomezantsoa, Soavimbahoaka",P.O. Box 8500,Antananarivo,Madagascar,261331183523,,https://madagascar.wcs.org/,Web page
+id:andriamanalina@wwf.mg,andriamanalina@wwf.mg,World Wildlife Fund (WWF),Engineer,Andriamanalina,Anjara,,,,,261344984812,,https://www.worldwildlife.org/,Web page
+id:info@marineregions.org,info@marineregions.org,Marine Regions,Database,,,-,-,-,-,-,-,http://www.marineregions.org/,Web page
+id:grid@grida.no,grid@grida.no,Grid Arendal,Centre collaborating with UNEP,,,-,-,-,-,-,-,https://www.grida.no/,Web page
+id:marine@unep-wcmc.org,marine@unep-wcmc.org,Ocean Data Viewer,Database,,,-,-,-,-,-,-,http://data.unep-wcmc.org/,Web page
+id:webadmin@oceancolor.gsfc.nasa.gov,webadmin@oceancolor.gsfc.nasa.gov,NASA's OceanColor Web (Ocean Color / NASA),Organization,,,-,-,-,-,-,-,https://oceancolor.gsfc.nasa.gov/,Web page
+id:ncei.info@noaa.gov,ncei.info@noaa.gov,National Centers for Environmental Information (NCEI),Organization,,,-,-,-,-,-,-,https://www.ncei.noaa.gov/,Web page
+id:infogrid@unepgrid.ch,infogrid@unepgrid.ch,Grid Geneva,Centre collaborating with UNEP,,,-,-,-,-,-,-,http://www.grid.unep.ch/,Web page
+id:info@asclme.org,info@asclme.org,Agulhas and Somali Current Large Marine Ecosystems Project (ASCLME),Project,,,-,-,-,-,-,-,http://www.asclme.org/fr/,Web page
+id:landScan@eastview.com,landScan@eastview.com,LandScan,Database,,,-,-,-,-,-,-,http://www.eastview.com/online/landscan,Web page
+id:science@oceanhealthindex.org,science@oceanhealthindex.org,Ocean Health Index,-,,,-,-,-,-,-,-,http://www.oceanhealthindex.org/,Web page
+id:nancie.cummings@noaa.gov,nancie.cummings@noaa.gov,NOAA - Southeast Fisheries Science Center (SEFSC),Fish biologist,Cummings,Nancie,75 Virginia Beach Dr ,33149,Key Biscayne,USA,(+1 )3053615761,(+00) 123456799,https://www.sefsc.noaa.gov/labs/miami.htm,Website
+id:alangley@trophia.com,alangley@trophia.com,Trophia,Fisheries scientist,Langley,Adam,-,-,-,-,(+00) 123456799,(+00) 123456799,http://trophia.com/,Website
+id:rishi.sharma@noaa.gov,rishi.sharma@noaa.gov,NOAA - Northwest Fisheries Science Center (NWFSC),Fisheries scientist,Sharma,Rishi,2725 Montlake Boulevard East,98112,Seattle,USA,(+1)5032305429 ,,https://www.nwfsc.noaa.gov/index.cfm,Website
+id:info@oceanic-dev.com,info@oceanic-dev.com,oceanic development,Entreprise,,,-,-,-,-,(+00) 123456799,(+00) 123456799,http://www.oceanic-dev.com/,Website
+id:bmotah@moi.intnet.mu,bmotah@moi.intnet.mu,Mauritius Oceanographic Institute,Researcher,Beenesh,Motah,"Avenue des Anchois, Morcellement de Chazal",91005,Albion,Mauritius,(230) 206 0560,(230) 238 5174,http://moi.govmu.org,Website
+id:moi@moi.intnet.mu,moi@moi.intnet.mu,Mauritius Oceanographic Institute,Organization,,,"Avenue des Anchois, Morcellement de Chazal",91005,Albion,Mauritius,(230) 206 0560,(230) 238 5174,http://moi.govmu.org,Website
+id:vramchandur@moi.intnet.mu,vramchandur@moi.intnet.mu,Mauritius Oceanographic Institute,Research Scientist,Vimal,Ramchandur,"Avenue des Anchois, Morcellement de Chazal",91005,Albion,Mauritius,(230) 206 0560,(230) 238 5174,http://moi.govmu.org,Website
+id:kmodoosoodun@moi.intnet.mu,kmodoosoodun@moi.intnet.mu,Mauritius Oceanographic Institute,Associate Research Scientist,Khishma,-,"Avenue des Anchois, Morcellement de Chazal",91005,Albion,Mauritius,(230) 206 0560,(230) 238 5174,http://moi.govmu.org,Website
+id:director@moi.intnet.mu,director@moi.intnet.mu,Mauritius Oceanographic Institute,Management,,,"Avenue des Anchois, Morcellement de Chazal",91005,Albion,Mauritius,(230) 206 0560,(230) 238 5174,http://moi.govmu.org,Website
+id:ogooroochurn@moi.intnet.mu,ogooroochurn@moi.intnet.mu,Mauritius Oceanographic Institute,Associate Research Scientist,Gooroochurn,Oomarsing,"Avenue des Anchois, Morcellement de Chazal",91005,Albion,Mauritius,(230) 206 0560,(230) 238 5174,http://moi.govmu.org,Website
+id:communication@reefconservation.mu,communication@reefconservation.mu,Reef Conservation ( biology.reef@gmail.com ?),NGO,,,Les Flammants Br. Rd,,Pereybere,Mauritius,,,,
+id:info@mmcs-ngo.org,info@mmcs-ngo.org,MMCS - Mauritius Marine Conservation Society,NGO,,,Railway Road,,Phoenix,Mauritius,(+230) 696 5368,,http://www.mmcs-ngo.org/,Website
+id:celine@mmcs-ngo.org,celine@mmcs-ngo.org,MMCS - Mauritius Marine Conservation Society,NGO,Lardy,Céline,Railway Road,,Phoenix,Mauritius,(+230) 696 5368,,http://www.mmcs-ngo.org/,Website
+id:adele@mmcs-ngo.org,adele@mmcs-ngo.org,MMCS - Mauritius Marine Conservation Society,NGO,de TOMA CADINOUCHE,Adèle,Railway Road,,Phoenix,Mauritius,(+230) 696 5368,,http://www.mmcs-ngo.org/,Website
+id:nina@mmcs-ngo.org,nina@mmcs-ngo.org,MMCS - Mauritius Marine Conservation Society,NGO,Svensson Dubois,Nina,Railway Road,,Phoenix,Mauritius,(+230) 696 5368,,http://www.mmcs-ngo.org/,Website
+id:info@blueventures.org,info@blueventures.org,Blue Ventures,NGO,,,"Level 2 Annex, Omnibus Business Centre,  39-41 North Road",N7 9DP,London,UK,(+44)207 697 8598,,https://blueventures.org/,Website
+id:contact@madagascar.national.parks.mg,contact@madagascar.national.parks.mg,Madagascar National Parks,NGO,,,"BP. 1424 - Ambatobe, 103",,Antananarivo,Madagascar,(+261) 34 49 415 38,(+261) 34 49 418 83,parcs-madagascar.com/,Website
+id:rbhagooli11@gmail.com,rbhagooli11@gmail.com,University of Mauritius,,Ranjeet,Bhagooli,University of Mauritius,,Reduit,Mauritius,(+230)4037916,,,
+id:info@c-3.org.uk,info@c-3.org.uk,Community Centred Conservation (C3),,,,"Lot IB 65 Bis Isoraka, Antananarivo, 101, ",,,Madagascar,(+261) 328 088 8315,,,
+id:rebecca.klaus@gmail.com,rebecca.klaus@gmail.com,"School Ocean Sciences, Bangor University Wales",,Rebecca,Klaus,,,,,,,https://www.linkedin.com/in/rebeccaklaus/,
+id:remi.garnier@paretoec.fr,remi.garnier@paretoec.fr,Rémi Garnier,PARETO ECOCONSULT,Rémi,Garnier,"16 rue Albert Lougnon, Technopole de la Réunion",97490,Sainte-Clotilde,Réunion,(+262)0262 28 39 08,,,
+id:paretoec@paretoec.fr,paretoec@paretoec.fr,,PARETO ECOCONSULT,,,"16 rue Albert Lougnon, Technopole de la Réunion",97490,Sainte-Clotilde,Réunion,(+262)0262 28 39 08,,,
+id:info@sif.sc,info@sif.sc,Seychelles Islands Foundation,SIC,-,-,-,-,-,-,-,-,-,-
+id:n_jiddawi@yahoo.com,n_jiddawi@yahoo.com,Institute of Marine Sciences,,Narriman,S. Jiddawi,P.O. Box 668,,,"Zanzibar, Tanzania",,,,
+id:chumbe@zitec.org,chumbe@zitec.org,Chumbe Island Coral Park,,,,PO Box 3203,,,"Zanzibar, Tanzania",,,,
+id:ukloiber@gmail.com,ukloiber@gmail.com,Ulrike Kloiber,,Ulrike,Kloiber,,,,,,,,
+id:ims@pipo.com,ims@pipo.com,Institute of Marine Sciences,,Saleh A.S.,Yahya,P.O. Box 668,,,,,,,
+id:aknudby@sfu.ca,aknudby@sfu.ca,Simon Fraser University (Department of Geography),,Anders,Knuby,,,,"Zanzibar, Tanzania",,,,
+id:marine@unep-wcmc.org,marine@unep-wcmc.org,UN Environment World Conservation Monitoring Centre,UNEP-WCMC,,,219 Huntingdon Road,CB3 0DL,Cambridge,United Kingdom,(+44) 1223 277314 ,,https://www.unep-wcmc.org,
+id:data@wri.org,data@wri.org,World Resources Institute (WRI),Reef at Risks,,,10 G Street NE Suite 800,DC 20002,Washington,USA,(+1 202) 729-7600,Fax +1 (202) 729-7610,-,-
+id:unepinfo@unep.org,unepinfo@unep.org,UNEP,-,,,"United Nations Avenue, Gigiri","PO Box 30552, 00100",Nairobi,Kenya,(+254) 20 762 1234,-,https://www.unenvironment.org/fr,-
+id:carib@usf.edu,carib@usf.edu,Millenium Coral Reef Mapping Project,MCRMP,,,,,,,,,http://imars.usf.edu/MC/,
+id:swotdata@gmail.com,swotdata@gmail.com,SWOT,SWOT,,,,,,,,,,
+id:creocean-oi@creocean-oi.fr,creocean-oi@creocean-oi.fr,CREOCEAN OCEAN INDIEN,-,,,Technopole Nord – 16 Rue Albert Lougnon,97490,Sainte-Clotilde,France,(+230) 59343444,02.62.73.45.52,http://oceanindien.creocean.fr/,
+id:facon@creocean-oi.fr,facon@creocean-oi.fr,CREOCEAN OCEAN INDIEN,-,Mathilde,FACON,Technopole Nord – 16 Rue Albert Lougnon,97490,Sainte-Clotilde,France,(+230) 59343444,,http://oceanindien.creocean.fr/,
+id:contact@seas-oi.org,contact@seas-oi.org,Antenne SEAS-OI,SEAS-OI,,,"40 Avenue de Soweto,",97410,Saint-Pierre,France,,,,
+id:kelonia@museesreunion.re,kelonia@museesreunion.re,Kelonia Torsooi,Kelonia Torsooi,,,46 Rue Gral de Gaulle,97436,Saint-Leu,,0262 34 81 10,,http://www.torsooi.com/,
+id:GCRMN@icriforum.org,GCRMN@icriforum.org,Global Coral Reef Monitoring Network (GCRMN),GCRMN,,,-,-,-,-,-,,,
+id:admin@shoals.intnet.mu,admin@shoals.intnet.mu,Shoals Rodrigues,Research and Training Centre,,,,,Port Mathurin,Mauritius,(+230) 831 1225,,,
+id:lm@landell-mills.com,lm@landell-mills.com,LANDELL MILLS,Consultant,,,Bryer Ash Business Park,BA14 8HE,"Trowbridge, Bath",,T +44 (0) 1225 763777,F +44 (0) 1225 753678,http://www.landell-mills.com,Website
+id:info@seasense.org,info@seasense.org,Sea Sense,Director,Lindsey,West,"324/D, Msasani Village",,Dar es Salaam,"Tanzania
+",(+255) (0)783 965 380,(+255) (0)783 965 380,,
+id:president@cetamada.org,president@cetamada.org,Cétamada,Association - NGO,,,"Port Barachois, BP 5, 515 ",,Ambodifotatra,Madagascar,,,,
+id:executive@mauritian-wildlife.org,executive@mauritian-wildlife.org,Mauritian Wildlife Foundation,Association - NGO,,,Grannum Road,,Vacoas,Mauritius,(230) 697-6097,(230) 697-6512,http://www.mauritian-wildlife.org,
+id:info-mdg@louvaincooperation.org,info-mdg@louvaincooperation.org,Louvain coopération. Direction Nationale Madagascar,,,,"BP 184, Andakabe, Morondava 619",,Morondava,Madagascar,(+261) 32 83 621 28,,,
+id:jpmasquelier@louvaincooperation.org,jpmasquelier@louvaincooperation.org,Louvain coopération. Direction Nationale Madagascar,,,,"BP 184, Andakabe, Morondava 619",,Morondava,Madagascar,(+261) 32 83 621 28,,,
+id:fvanderstricht@louvaincooperation.org,fvanderstricht@louvaincooperation.org,Louvain coopération. Direction Nationale Madagascar,,,,"BP 184, Andakabe, Morondava 619",,Morondava,Madagascar,(+32) 10 39 03 02,,,

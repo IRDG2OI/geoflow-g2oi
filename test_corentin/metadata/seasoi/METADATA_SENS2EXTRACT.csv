@@ -1,0 +1,93 @@
+Identifier;Title;Description;Subject;Creator;Date;Type;Language;SpatialCoverage;TemporalCoverage;Format;Relation;Rights;Provenance;Data
+S2_L1C;title:Série d'images Sentinel 2 prétraitées au niveau L1C dans la zone du sud ouest de l'Océan Indien;abstract:Les séries de cartes proviennent de la chaîne de traitement SENS2CHAIN développé par le CNES et ESPACE DEV.Le niveau L1C  est produit issue du premier niveau de prétraitement des images SENTINEL2.C' est une image  ortho-rectifiée, exprimée en réflectance au sommet de l'atmosphère. images SENTINEL2. format=10m_;theme[General]:G2OI,occupation du sol, télédétection, La Réunion, Maurice, Madagascar,Comores,Seychelles, Océan Indien,L1C,Sentinel-2;"pointOfContact:pascal.mouquet@ird.fr_
+metadata:benjamin.robert@ird.fr";"publication:2021-12-07_
+edition:2021-12-07";map;fra;"SRID=4326;POLYGON((38.9998065220000285 3.6109941689999800, 64.0493030750000685 -3.6109941689999800, 64.0493030750000685 26.3076964309999539, 38.9998065220000285 3.6109941689999800))";2015-09/2021-12;distribution:application/zip[ESRI Shapefile (zipped)];"http:website@https://en.ird.fr/node/8770_
+http:framagit[sen2extract@https://framagit.org/espace-dev/sen2extract";"useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
+accessConstraint:otherRestrictions_
+useConstraint:intellectualPropertyRights_
+otherConstraint:other constraints to highlight.";statement:La carte est issue de la chaîne de traitement SENS2CHAIN  développé par l'UMR ESPACE DEV et disponible sur le git (https://framagit.org/espace-dev/sen2chain.git) à partir des images Sentinel2 disponibles gratuitement._;
+S2_L2A;title:Série d'images Sentinel 2 prétraitées au niveau L2A avec le masque nuage dans la zone du sud ouest de l'Océan Indien a;Les séries de cartes proviennent de la chaîne de traitement SENS2CHAIN développé par le CNES et ESPACE DEV.Le niveau L1C  est produit issue du premier niveau de prétraitement des images SENTINEL2.C' est une image  ortho-rectifiée, exprimée en réflectance au sommet de l'atmosphère. images SENTINEL2. format=10m_;theme[General]:G2OI,occupation du sol, télédétection, La Réunion, Maurice, Madagascar,Comores,Seychelles, Océan Indien,L2A,Sentinel-2;"publisher:benjamin.robert@ird.fr_
+pointOfContact:pascal.mouquet@ird.fr_
+metadata:benjamin.robert@ird.fr";"publication:2021-12-07_
+edition:2021-12-07";map;fra;"SRID=4326;POLYGON((38.9998065220000285 3.6109941689999800, 64.0493030750000685 -3.6109941689999800, 64.0493030750000685 26.3076964309999539, 38.9998065220000285 3.6109941689999800))";2015-09/2021-12;distribution:application/zip[ESRI Shapefile (zipped)];"http:website@https://en.ird.fr/node/8770_
+http:framagit[sen2extract@https://framagit.org/espace-dev/sen2extract";"useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
+accessConstraint:otherRestrictions_
+useConstraint:intellectualPropertyRights_
+otherConstraint:other constraints to highlight.";statement:La carte est issue de la chaîne de traitement SENS2CHAIN  développé par l'UMR ESPACE DEV et disponible sur le git (https://framagit.org/espace-dev/sen2chain.git) à partir des images Sentinel2 disponibles gratuitement._;
+S2_NDVI;title:Cartographie de l'indice normalisé NDVI sur la zone du sud ouest de l'Océan indien;abstract:Les séries de cartes proviennent de la chaîne de traitement SENS2CHAIN développé par le CNES et ESPACE DEV.L'indice NDVI est produit pour différents programmes d'observation du territoire (SENS2MALARIA, RENOVRISK). La disponibilité temporelle et géographique des images et des indices calculeé est issue des programmes scientifiques en cours ou passés des images SENTINEL2 utilisant les images SENTINEL2. format=10m_;"theme[General]:G2OI,occupation du sol, télédétection, La Réunion, Maurice, Madagascar,Comores,Seychelles, NDVI,
+Sen2Chain,Sentinel-2";"pointOfContact:pascal.mouquet@ird.fr_
+metadata:benjamin.robert@ird.fr";"publication:2021-12-07_
+edition:2021-12-07";map;fra;"SRID=4326;POLYGON((38.9998065220000285 3.6109941689999800, 64.0493030750000685 -3.6109941689999800, 64.0493030750000685 26.3076964309999539, 38.9998065220000285 3.6109941689999800))";2015-10/2021-12;distribution:application/zip[ESRI Shapefile (zipped)];"http:website@https://en.ird.fr/node/8770_
+http:framagit[sen2extract@https://framagit.org/espace-dev/sen2extract";"useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
+accessConstraint:otherRestrictions_
+useConstraint:intellectualPropertyRights_
+otherConstraint:other constraints to highlight.";statement:La carte est issue de la chaîne de traitement SENS2CHAIN  développé par l'UMR ESPACE DEV et disponible sur le git (https://framagit.org/espace-dev/sen2chain.git) à partir des images Sentinel2 disponibles gratuitement._;
+S2_NDVI_CM;;;;;;map;fra;;;;;;;
+S2_NDWIGAO;title:Cartographie de l'indice normalisé NDWIGAO (Water Index by Normalized Difference Gao method) sur la zone du sud ouest de l'Océan indien;abstract:Les séries de cartes proviennent de la chaîne de traitement SENS2CHAIN développé par le CNES et ESPACE DEV.L'indice NDWIGAO est produit pour différents programmes d'observation du territoire (SENS2MALARIA, RENOVRISK). La disponibilité temporelle et géographique des images et des indices calculeé est issue des programmes scientifiques en cours ou passés des images SENTINEL2.  format=10m_;"theme[General]:G2OI,occupation du sol, télédétection, La Réunion, Maurice, Madagascar,Comores,Seychelles, NDWIGAO,
+Sen2Chain,Sentinel-2";"pointOfContact:pascal.mouquet@ird.fr_
+metadata:benjamin.robert@ird.fr";"publication:2021-12-07_
+edition:2021-12-07";map;fra;"SRID=4326;POLYGON((38.9998065220000285 3.6109941689999800, 64.0493030750000685 -3.6109941689999800, 64.0493030750000685 26.3076964309999539, 38.9998065220000285 3.6109941689999800))";2015-10/2021-10;distribution:application/zip[ESRI Shapefile (zipped)];"http:website@https://en.ird.fr/node/8770_
+http:framagit[sen2extract@https://framagit.org/espace-dev/sen2extract";"useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
+accessConstraint:otherRestrictions_
+useConstraint:intellectualPropertyRights_
+otherConstraint:other constraints to highlight.";statement:La carte est issue de la chaîne de traitement SENS2CHAIN  développé par l'UMR ESPACE DEV et disponible sur le git (https://framagit.org/espace-dev/sen2chain.git) à partir des images Sentinel2 disponibles gratuitement._;
+S2_NDWIGAO_CM;;;;;;map;fra;;;;;;;
+S2_NDWIMCF;title:Cartographie de l'indice normalisé (Water Index by Difference Normalized McFeeters method) sur la zone du sud ouest de l'Océan indien;abstract:Les séries de cartes proviennent de la chaîne de traitement SENS2CHAIN développé par le CNES et ESPACE DEV.L'indice NDWIMCF est produit pour différents programmes d'observation du territoire (SENS2MALARIA, RENOVRISK). La disponibilité temporelle et géographique des images et des indices calculé est issue des programmes scientifiques en cours ou passés des images SENTINEL2.  format=10m_;"theme[General]:G2OI,occupation du sol, télédétection, La Réunion, Maurice, Madagascar,Comores,Seychelles, NDWIMCF,
+Sen2Chain,Sentinel-2";"pointOfContact:pascal.mouquet@ird.fr_
+metadata:benjamin.robert@ird.fr";"publication:2021-12-07_
+edition:2021-12-07";map;fra;"SRID=4326;POLYGON((38.9998065220000285 3.6109941689999800, 64.0493030750000685 -3.6109941689999800, 64.0493030750000685 26.3076964309999539, 38.9998065220000285 3.6109941689999800))";2015-10/2021-10;distribution:application/zip[ESRI Shapefile (zipped)];"http:website@https://en.ird.fr/node/8770_
+http:framagit[sen2extract@https://framagit.org/espace-dev/sen2extract";"useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
+accessConstraint:otherRestrictions_
+useConstraint:intellectualPropertyRights_
+otherConstraint:other constraints to highlight.";statement:La carte est issue de la chaîne de traitement SENS2CHAIN  développé par l'UMR ESPACE DEV et disponible sur le git (https://framagit.org/espace-dev/sen2chain.git) à partir des images Sentinel2 disponibles gratuitement._;
+S2_NDWIMCF_CM;;;;;;map;fra;;;;;;;
+S2_MNNDWI;title:Cartographie de l'indice normalisée (Normalized Difference Water Index (MNNDWI) sur la zone du sud ouest de l'Océan indien;abstract:Les séries de cartes proviennent de la chaîne de traitement SENS2CHAIN développé par le CNES et ESPACE DEV. L'indice MNDWi est produit pour différents programmes d'observation du territoire (SENS2MALARIA, RENOVRISK). La disponibilité temporelle et géographique des images et des indices calculeé est issue des programmes scientifiques en cours ou passés des images SENTINEL2.  format=10m_;theme[General]:G2OI,occupation du sol, télédétection, La Réunion, Maurice, Madagascar,Comores,Seychelles, NDWI,Sentinel-2,Sens2Chain;"pointOfContact:pascal.mouquet@ird.fr_
+metadata:benjamin.robert@ird.fr";"publication:2021-12-07_
+edition:2021-12-07";map;fra;"SRID=4326;POLYGON((38.9998065220000285 3.6109941689999800, 64.0493030750000685 -3.6109941689999800, 64.0493030750000685 26.3076964309999539, 38.9998065220000285 3.6109941689999800))";2015-10/2021-10;distribution:application/zip[ESRI Shapefile (zipped)];"http:website@https://en.ird.fr/node/8770_
+http:framagit[sen2extract@https://framagit.org/espace-dev/sen2extract";"useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
+accessConstraint:otherRestrictions_
+useConstraint:intellectualPropertyRights_
+otherConstraint:other constraints to highlight.";statement:La carte est issue de la chaîne de traitement SENS2CHAIN  développé par l'UMR ESPACE DEV et disponible sur le git (https://framagit.org/espace-dev/sen2chain.git) à partir des images Sentinel2 disponibles gratuitement._;
+S2_MNNDWI_CM;;;;;;map;fra;;;;;;;
+S2_IRECI;title:Cartographie de l'indice normalisée IRECI (Inverted Red-Edge Chlorophyll Index) sur la zone du sud ouest de l'Océan indien;abstract:Les séries de cartes proviennent de la chaîne de traitement SENS2CHAIN développé par le CNES et ESPACE DEV.L'indice IRECI est produit pour différents programmes d'observation du territoire (SENS2MALARIA, RENOVRISK).Le maillage des cartes disponiible  est issue des images Sentinel des zones d'acquisition SENTINEL. La disponibilité temporelle et géographique des images et des indices calculés est issue des programmes scientifiques en cours ou passés des images SENTINEL2.  format=10m_;theme[General]:G2OI,occupation du sol, télédétection, La Réunion, IRECI,Sentinel-2,Sens2Chain,Sentinel-2=;pointOfContact:contact=pascal.mouquet@ird.fr, metadata=benjamin.robert@ird.fr;"publication:2021-12-07_
+edition:2021-12-07";map;fra;"SRID=4326;POLYGON((38.9998065220000285 3.6109941689999800, 64.0493030750000685 -3.6109941689999800, 64.0493030750000685 26.3076964309999539, 38.9998065220000285 3.6109941689999800))";2015-10/2020-12;distribution:application/zip[ESRI Shapefile (zipped)];"http:website@https://en.ird.fr/node/8770_
+http:framagit[sen2extract@https://framagit.org/espace-dev/sen2extract";"useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
+accessConstraint:otherRestrictions_
+useConstraint:intellectualPropertyRights_
+otherConstraint:other constraints to highlight.";statement:La carte est issue de la chaîne de traitement SENS2CHAIN  développé par l'UMR ESPACE DEV et disponible sur le git (https://framagit.org/espace-dev/sen2chain.git) à partir des images Sentinel2 disponibles gratuitement._;
+S2_IRECI_CM;;;;;;;;;;;;;;
+S2_NDRE;title:Cartographie de l'indice normalisée NDRE (Normalized Difference Red Edge Index) sur la zone du sud ouest de l'Océan indien;abstract:Les séries de cartes proviennent de la chaîne de traitement SENS2CHAIN développé par le CNES et ESPACE DEV.L'indice NDRE est produit pour différents programmes d'observation du territoire (SENS2MALARIA, RENOVRISK).Le maillage des cartes  disponiible est issue des images Sentinel des zones d'acquisition SENTINEL. La disponibilité temporelle et géographique des images et des indices calculés est issue des programmes scientifiques en cours ou passés des images SENTINEL2.  format=10m_;theme[General]:G2OI,occupation du sol, télédétection, La Réunion, NDRE,Sentinel-2,Sens2Chain;pointOfContact:contact=pascal.mouquet@ird.fr, metadata=benjamin.robert@ird.fr;"publication:2021-12-07_
+edition:2021-12-07";map;fra;"SRID=4326;POLYGON((38.9998065220000285 3.6109941689999800, 64.0493030750000685 -3.6109941689999800, 64.0493030750000685 26.3076964309999539, 38.9998065220000285 3.6109941689999800))";2015-10/2020-12;distribution:application/zip[ESRI Shapefile (zipped)];"http:website@https://en.ird.fr/node/8770_
+http:framagit[sen2extract@https://framagit.org/espace-dev/sen2extract";"useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
+accessConstraint:otherRestrictions_
+useConstraint:intellectualPropertyRights_
+otherConstraint:other constraints to highlight.";statement:La carte est issue de la chaîne de traitement SENS2CHAIN  développé par l'UMR ESPACE DEV et disponible sur le git (https://framagit.org/espace-dev/sen2chain.git) à partir des images Sentinel2 disponibles gratuitement._;
+S2_NDRE_CM;;abstract:Les séries de cartes proviennent de la chaîne de traitement SENS2CHAIN développé par le CNES et ESPACE DEV.;theme[General]:G2OI,occupation du sol, télédétection, La Réunion, NDRE,Sentinel-2,Sens2Chain;"pointOfContact:pascal.mouquet@ird.fr_
+metadata:benjamin.robert@ird.fr";"publication:2022-03-14_
+edition:2022-03-14_";map;fra;"SRID=4326;POLYGON((38.9998065220000285 3.6109941689999800, 64.0493030750000685 -3.6109941689999800, 64.0493030750000685 26.3076964309999539, 38.9998065220000285 3.6109941689999800))";;;"http:website@https://en.ird.fr/node/8770_
+http:framagit[sen2extract@https://framagit.org/espace-dev/sen2extract";;;
+S2_BIBG;title:Cartographie de l'indice normalisée BIBG() sur la zone du sud ouest de l'Océan indien;abstract:Les séries de cartes proviennent de la chaîne de traitement SENS2CHAIN développé par le CNES et ESPACE DEV.;theme[General]:G2OI,occupation du sol, télédétection, La Réunion, NDRE,Sentinel-2,Sens2Chain;"publisher:benjamin.robert@ird.fr_
+pointOfContact:pascal.mouquet@ird.fr_
+metadata:benjamin.robert@ird.fr";"publication:2022-03-14_
+edition:2022-03-14_";map;fra;"SRID=4326;POLYGON((38.9998065220000285 3.6109941689999800, 64.0493030750000685 -3.6109941689999800, 64.0493030750000685 26.3076964309999539, 38.9998065220000285 3.6109941689999800))";;;"http:website@https://en.ird.fr/node/8770_
+http:framagit[sen2extract@https://framagit.org/espace-dev/sen2extract";;;
+S2_BIBG_CM;;abstract:Les séries de cartes proviennent de la chaîne de traitement SENS2CHAIN développé par le CNES et ESPACE DEV.;theme[General]:G2OI,occupation du sol, télédétection, La Réunion, NDRE,Sentinel-2,Sens2Chain;"pointOfContact:pascal.mouquet@ird.fr_
+metadata:benjamin.robert@ird.fr";"publication:2022-03-14_
+edition:2022-03-14_";map;fra;"SRID=4326;POLYGON((38.9998065220000285 3.6109941689999800, 64.0493030750000685 -3.6109941689999800, 64.0493030750000685 26.3076964309999539, 38.9998065220000285 3.6109941689999800))";;;"http:website@https://en.ird.fr/node/8770_
+http:framagit[sen2extract@https://framagit.org/espace-dev/sen2extract";;;
+S2_BIBGR;title:Cartographie de l'indice normalisée BIBGR() sur la zone du sud ouest de l'Océan indien;abstract:Les séries de cartes proviennent de la chaîne de traitement SENS2CHAIN développé par le CNES et ESPACE DEV.;theme[General]:G2OI,occupation du sol, télédétection, La Réunion, NDRE,Sentinel-2,Sens2Chain;"pointOfContact:pascal.mouquet@ird.fr_
+metadata:benjamin.robert@ird.fr";"publication:2022-03-14_
+edition:2022-03-14_";map;fra;"SRID=4326;POLYGON((38.9998065220000285 3.6109941689999800, 64.0493030750000685 -3.6109941689999800, 64.0493030750000685 26.3076964309999539, 38.9998065220000285 3.6109941689999800))";;;"http:website@https://en.ird.fr/node/8770_
+http:framagit[sen2extract@https://framagit.org/espace-dev/sen2extract";;;
+S2_BIBGR_CM;;abstract:Les séries de cartes proviennent de la chaîne de traitement SENS2CHAIN développé par le CNES et ESPACE DEV.;theme[General]:G2OI,occupation du sol, télédétection, La Réunion, NDRE,Sentinel-2,Sens2Chain;"pointOfContact:pascal.mouquet@ird.fr_
+metadata:benjamin.robert@ird.fr";"publication:2022-03-14_
+edition:2022-03-14_";map;fra;"SRID=4326;POLYGON((38.9998065220000285 3.6109941689999800, 64.0493030750000685 -3.6109941689999800, 64.0493030750000685 26.3076964309999539, 38.9998065220000285 3.6109941689999800))";;;"http:website@https://en.ird.fr/node/8770_
+http:framagit[sen2extract@https://framagit.org/espace-dev/sen2extract";;;
+S2_BIRNIR;title:Cartographie de l'indice normalisée BIRNIR() sur la zone du sud ouest de l'Océan indien;abstract:Les séries de cartes proviennent de la chaîne de traitement SENS2CHAIN développé par le CNES et ESPACE DEV.;theme[General]:G2OI,occupation du sol, télédétection, La Réunion, NDRE,Sentinel-2,Sens2Chain;"pointOfContact:pascal.mouquet@ird.fr_
+metadata:benjamin.robert@ird.fr";"publication:2022-03-14_
+edition:2022-03-14_";map;fra;"SRID=4326;POLYGON((38.9998065220000285 3.6109941689999800, 64.0493030750000685 -3.6109941689999800, 64.0493030750000685 26.3076964309999539, 38.9998065220000285 3.6109941689999800))";;;"http:website@https://en.ird.fr/node/8770_
+http:framagit[sen2extract@https://framagit.org/espace-dev/sen2extract";;;
+S2_BIRNIR_CM;;abstract:Les séries de cartes proviennent de la chaîne de traitement SENS2CHAIN développé par le CNES et ESPACE DEV.;theme[General]:G2OI,occupation du sol, télédétection, La Réunion, NDRE,Sentinel-2,Sens2Chain;"pointOfContact:pascal.mouquet@ird.fr_
+metadata:benjamin.robert@ird.fr";"publication:2022-03-14_
+edition:2022-03-14_";map;fra;"SRID=4326;POLYGON((38.9998065220000285 3.6109941689999800, 64.0493030750000685 -3.6109941689999800, 64.0493030750000685 26.3076964309999539, 38.9998065220000285 3.6109941689999800))";;;"http:website@https://en.ird.fr/node/8770_
+http:framagit[sen2extract@https://framagit.org/espace-dev/sen2extract";;;
