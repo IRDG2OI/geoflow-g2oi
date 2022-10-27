@@ -1,24 +1,30 @@
-Identifier;Title;Description;Subject;Creator;Date;Type;Language;SpatialCoverage;TemporalCoverage;Format;Relation;Rights;Provenance;Data
-HOMISLAND_EUROPA;Carte d'occupation du sol de l'île d'Europa;"abstract:Dans le sud-ouest de l'océan Indien, il existe de nombreuses îles de moins de 3000 km²  : l'archipel des l'archipel des Seychelles (avec 115 îles, dont Mahé, la plus grande), l'archipel des Comores (Grande Comore, Mohéli, Anjouan et Mayotte), les îles Eparses (les îles Glorioso, Juan de Nova, Bassas da India, Europa, île Tromelin), les îles Mascareignes (Réunion, Maurice, Rodrigues). Ces petits territoires insulaires présentent des paysages très fragmentés et diversifiés. En outre, les produits mondiaux d'utilisation des terres  avec des résolutions spatiales allant de 4 km à 30 m, et donc avec des pixels hétérogènes, dont la réponse spectrale est dérivée de différentes sources.
+Identifier,Title,Description,Subject,Creator,Date,Type,Language,SpatialCoverage,TemporalCoverage,Format,Relation,Rights,Provenance,Data,,,,,,,,,,
+HOMISLAND_EUROPA,Carte d'occupation du sol de l'île d'Europa,"abstract:Dans le sud-ouest de l'océan Indien, il existe de nombreuses îles de moins de 3000 km²  : l'archipel des l'archipel des Seychelles (avec 115 îles, dont Mahé, la plus grande), l'archipel des Comores (Grande Comore, Mohéli, Anjouan et Mayotte), les îles Eparses (les îles Glorioso, Juan de Nova, Bassas da India, Europa, île Tromelin), les îles Mascareignes (Réunion, Maurice, Rodrigues). Ces petits territoires insulaires présentent des paysages très fragmentés et diversifiés. En outre, les produits mondiaux d'utilisation des terres  avec des résolutions spatiales allant de 4 km à 30 m, et donc avec des pixels hétérogènes, dont la réponse spectrale est dérivée de différentes sources.
 Ces îles ont leurs propres spécificités environnementales et des paysages très fragmentés. Les produits génériques d'occupation du sol développés à partir d'images satellites de basse et moyenne résolution ne sont pas adaptés à l'étude de ces petits territoires. C'est pourquoi nous avons développé un produit d'occupation et d'utilisation des sols, appelé Homisland-IO, basé sur des traitements de télédétection sur des images satellites à haute résolution spatiale acquises par le satellite SPOT 5 entre décembre 2012 et juillet 2014. Ce produit a été réalisé en utilisant un processus de classification basé sur les objets. La précision globale du produit est de 86%. 
 Homisland-IO est librement accessible via un portail web et est donc disponible pour une utilisation future.
 
-";theme[General]:Projet Homisland, Occupation du sol, télédétection, SPOT5, Analyse spatiale, Analyse d'image orientée-objet, Petite île, Europa;"publisher:christophe.revillion@ird.fr_
+","theme[General]:Projet Homisland  Occupation du sol
+ télédétection
+ SPOT5
+ Analyse spatiale
+ Analyse d'image orientée-objet
+ Petite île
+ Europa","publisher:christophe.revillion@ird.fr_
 pointOfContact:christophe.revillion@ird.fr_
 pointOfContact:artadjiattoumane@ird.fr_
 pointOfContact:vincent.herbreteau@ird.fr_
-metadata:benjamin.robert@ird.fr";"publication:2021-03-22_
-edition:2021-01-01";map;fra;srid:4326;2013-06-24;distribution:application/zip[ESRI Shapefile (zipped)];"thumbnail:Carte QGIS map Europa @https://drive.google.com/file/d/1AqfkuPJN8q1t4Ah_k9Uemhbkz7XjQZgN/view?usp=sharing_
+metadata:benjamin.robert@ird.fr","publication:2021-03-22_
+edition:2021-01-01",map,fra,srid:4326,2013-06-24,distribution:application/zip[ESRI Shapefile (zipped)],"thumbnail:Carte QGIS map Europa @https://drive.google.com/file/d/1AqfkuPJN8q1t4Ah_k9Uemhbkz7XjQZgN/view?usp=sharing_
 http:website[Digital Object Identifier]@https://doi.org/10.3390/data4020082_
 http:website[Digital Object Identifier]@https://doi.org/10.3390/data4020082_
-http:website[G2OI Website]@https://en.ird.fr/node/8770_";"useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
+http:website[G2OI Website]@https://en.ird.fr/node/8770_","useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
 accessConstraint:otherRestrictions_
 useConstraint:intellectualPropertyRights_
-otherConstraint:other constraints to highlight.";"statement:My data management workflow_
+otherConstraint:other constraints to highlight.","statement:My data management workflow_
 process:rationale1[description1]_
 process:rationale2[description2]_
 process:rationale3[description3]_
-processor:julien.barde@ird.fr,julien.barde@ird.fr,julien.barde@ird.fr";"access:googledrive_
+processor:julien.barde@ird.fr,julien.barde@ird.fr,julien.barde@ird.fr","access:googledrive_
 source:cla_europa_fin.zip_
 sourceType:shp_
 uploadType:shp_
@@ -26,26 +32,33 @@ uploadSource:cla_europa_fin.zip_
 upload:true_
 layername:cla_europa_fin_
 attribute:ID[ID]@ID,ocsol_name[ocsol_name]_
-variable:oc_solnum[ocsol_name]"
-HOMISLAND_COMORES;Carte d'occupation du sol des îles de la Grande Comore;"abstract:Dans le sud-ouest de l'océan Indien, il existe de nombreuses îles de moins de 3000 km²  : l'archipel des l'archipel des Seychelles (avec 115 îles, dont Mahé, la plus grande), l'archipel des Comores (Grande Comore, Mohéli, Anjouan et Mayotte), les îles Eparses (les îles Glorioso, Juan de Nova, Bassas da India, Europa, île Tromelin), les îles Mascareignes (Réunion, Maurice, Rodrigues). Ces petits territoires insulaires présentent des paysages très fragmentés et diversifiés. En outre, les produits mondiaux d'utilisation des terres  avec des résolutions spatiales allant de 4 km à 30 m, et donc avec des pixels hétérogènes, dont la réponse spectrale est dérivée de différentes sources.
+variable:oc_solnum[ocsol_name]",,,,,,,,,,
+HOMISLAND_COMORES,Carte d'occupation du sol des îles de la Grande Comore,"abstract:Dans le sud-ouest de l'océan Indien, il existe de nombreuses îles de moins de 3000 km²  : l'archipel des l'archipel des Seychelles (avec 115 îles, dont Mahé, la plus grande), l'archipel des Comores (Grande Comore, Mohéli, Anjouan et Mayotte), les îles Eparses (les îles Glorioso, Juan de Nova, Bassas da India, Europa, île Tromelin), les îles Mascareignes (Réunion, Maurice, Rodrigues). Ces petits territoires insulaires présentent des paysages très fragmentés et diversifiés. En outre, les produits mondiaux d'utilisation des terres  avec des résolutions spatiales allant de 4 km à 30 m, et donc avec des pixels hétérogènes, dont la réponse spectrale est dérivée de différentes sources.
 Ces îles ont leurs propres spécificités environnementales et des paysages très fragmentés. Les produits génériques d'occupation du sol développés à partir d'images satellites de basse et moyenne résolution ne sont pas adaptés à l'étude de ces petits territoires. C'est pourquoi nous avons développé un produit d'occupation et d'utilisation des sols, appelé Homisland-IO, basé sur des traitements de télédétection sur des images satellites à haute résolution spatiale acquises par le satellite SPOT 5 entre décembre 2012 et juillet 2014. Ce produit a été réalisé en utilisant un processus de classification basé sur les objets. La précision globale du produit est de 86% calculé avec l'indice de Kappa.
 Homisland-IO est librement accessible via un portail web et est donc disponible pour une utilisation future.
 
-";theme[General]:Projet Homisland, Occupation du sol, télédétection, SPOT5, Analyse spatiale, Analyse d'image orientée-objet, Petite île, Comores;"publisher:christophe.revillion@ird.fr_
+","theme[General]:Projet Homisland  Occupation du sol
+ télédétection
+ SPOT5
+ Analyse spatiale
+ Analyse d'image orientée-objet
+ Petite île
+ Comores
+",,,,,,,,"publisher:christophe.revillion@ird.fr_
 pointOfContact:christophe.revillion@ird.fr_
 pointOfContact:artadjiattoumane@ird.fr_
 pointOfContact:vincent.herbreteau@ird.fr_
-metadata:benjamin.robert@ird.fr";"publication:2021-03-22_
-edition:2021-01-01";map;fra;srid:4326;30/05/2013;distribution:application/zip[ESRI Shapefile (zipped)];"thumbnail: Carte QGIS map Comores http:website[Digital Object Identifier]@https://drive.google.com/file/d/1MhVZLWfjoeUNjbAWyPktZs0ff5KZIBNu/view?usp=sharing_
+metadata:benjamin.robert@ird.fr","publication:2021-03-22_
+edition:2021-01-01",map,fra,srid:4326,30/05/2013,distribution:application/zip[ESRI Shapefile (zipped)],"thumbnail: Carte QGIS map Comores http:website[Digital Object Identifier]@https://drive.google.com/file/d/1MhVZLWfjoeUNjbAWyPktZs0ff5KZIBNu/view?usp=sharing_
 http:website[SEAS-OI Homisland Website]@https://homisland.seas-oi.org/_
-http:website[G2OI Website]@https://drive.google.com/file/d/1IbPQKdqJhgAgbr8B9x8-SsX4mIUaIWjx/view?usp=sharing_";"useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
+http:website[G2OI Website]@https://drive.google.com/file/d/1IbPQKdqJhgAgbr8B9x8-SsX4mIUaIWjx/view?usp=sharing_","useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
 accessConstraint:otherRestrictions_
 useConstraint:intellectualPropertyRights_
-otherConstraint:other constraints to highlight.";"statement:My data management workflow_
+otherConstraint:other constraints to highlight.","statement:My data management workflow_
 process:rationale1[description1]_
 process:rationale2[description2]_
 process:rationale3[description3]_
-processor:julien.barde@ird.fr,julien.barde@ird.fr,julien.barde@ird.fr";"access:googledrive_
+processor:julien.barde@ird.fr,julien.barde@ird.fr,julien.barde@ird.fr","access:googledrive_
 source:cla_gd_comores_fin.zip_
 sourceType:shp_
 uploadType:shp_
@@ -53,28 +66,28 @@ uploadSource:cla_gd_comores_fin.zip_
 upload:true_
 layername:cla_GDC_fin2_
 attribute:ID[ID]@ID,ocsol_name[ocsol_name]_
-variable:oc_solnum[ocsol_name]"
-HOMISLAND_ANJOUAN;Carte d'occupation du sol à Anjouan;"abstract:Dans le sud-ouest de l'océan Indien, il existe de nombreuses îles de moins de 3000 km²  : l'archipel des l'archipel des Seychelles (avec 115 îles, dont Mahé, la plus grande), l'archipel des Comores (Grande Comore, Mohéli, Anjouan et Mayotte), les îles Eparses (les îles Glorioso, Juan de Nova, Bassas da India, Europa, île Tromelin), les îles Mascareignes (Réunion, Maurice, Rodrigues). Ces petits territoires insulaires présentent des paysages très fragmentés et diversifiés. En outre, les produits mondiaux d'utilisation des terres  avec des résolutions spatiales allant de 4 km à 30 m, et donc avec des pixels hétérogènes, dont la réponse spectrale est dérivée de différentes sources.
+variable:oc_solnum[ocsol_name]",,,
+HOMISLAND_ANJOUAN,Carte d'occupation du sol à Anjouan,"abstract:Dans le sud-ouest de l'océan Indien, il existe de nombreuses îles de moins de 3000 km²  : l'archipel des l'archipel des Seychelles (avec 115 îles, dont Mahé, la plus grande), l'archipel des Comores (Grande Comore, Mohéli, Anjouan et Mayotte), les îles Eparses (les îles Glorioso, Juan de Nova, Bassas da India, Europa, île Tromelin), les îles Mascareignes (Réunion, Maurice, Rodrigues). Ces petits territoires insulaires présentent des paysages très fragmentés et diversifiés. En outre, les produits mondiaux d'utilisation des terres  avec des résolutions spatiales allant de 4 km à 30 m, et donc avec des pixels hétérogènes, dont la réponse spectrale est dérivée de différentes sources.
 Ces îles ont leurs propres spécificités environnementales et des paysages très fragmentés. Les produits génériques d'occupation du sol développés à partir d'images satellites de basse et moyenne résolution ne sont pas adaptés à l'étude de ces petits territoires. C'est pourquoi nous avons développé un produit d'occupation et d'utilisation des sols, appelé Homisland-IO, basé sur des traitements de télédétection sur des images satellites à haute résolution spatiale acquises par le satellite SPOT 5 entre décembre 2012 et juillet 2014. Ce produit a été réalisé en utilisant un processus de classification basé sur les objets. La précision globale du produit est de 86%. 
 Homisland-IO est librement accessible via un portail web et est donc disponible pour une utilisation future.
 
-";"theme[General]:Projet Homisland, Occupation du sol, Télédétection, SPOT5, Analyse spatiale, Analyse d'image orientée-objet, Petite île, Océan Indien, Comores, Anjouan
-";"publisher:christophe.revillion@ird.fr_
+","theme[General]:Projet Homisland, Occupation du sol, Télédétection, SPOT5, Analyse spatiale, Analyse d'image orientée-objet, Petite île, Océan Indien, Comores, Anjouan
+","publisher:christophe.revillion@ird.fr_
 pointOfContact:christophe.revillion@ird.fr_
 pointOfContact:artadjiattoumane@ird.fr_
 pointOfContact:vincent.herbreteau@ird.fr_
-metadata:benjamin.robert@ird.fr";"publication:2021-03-22_
-edition:2021-01-01";map;fra;srid:4326;13/08/2014;distribution:application/zip[ESRI Shapefile (zipped)];"thumbnail:Carte QGIS@https://drive.google.com/file/d/1mAUhwZCTiNY2Mj7bi2Cz-ayK6814Y9bj/view?usp=sharing_
+metadata:benjamin.robert@ird.fr","publication:2021-03-22_
+edition:2021-01-01",map,fra,srid:4326,13/08/2014,distribution:application/zip[ESRI Shapefile (zipped)],"thumbnail:Carte QGIS@https://drive.google.com/file/d/1mAUhwZCTiNY2Mj7bi2Cz-ayK6814Y9bj/view?usp=sharing_
 http:website[Digital Object Identifier]@:https://drive.google.com/file/d/1PKC8k08LrYSMKb0Zng8JsHtQbJZcM1NU/view?usp=sharing_
 http:website[Digital Object Identifier]@https://doi.org/10.3390/data4020082_
-http:website[G2OI Website]@https://en.ird.fr/node/8770_";"useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
+http:website[G2OI Website]@https://en.ird.fr/node/8770_","useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
 accessConstraint:otherRestrictions_
 useConstraint:intellectualPropertyRights_
-otherConstraint:other constraints to highlight.";"statement:My data management workflow_
+otherConstraint:other constraints to highlight.","statement:My data management workflow_
 process:rationale1[description1]_
 process:rationale2[description2]_
 process:rationale3[description3]_
-processor:julien.barde@ird.fr,julien.barde@ird.fr,julien.barde@ird.fr";"access:googledrive_
+processor:julien.barde@ird.fr,julien.barde@ird.fr,julien.barde@ird.fr","access:googledrive_
 source:cla_anjouan_fin.zip_
 sourceType:shp_
 uploadType:shp_
@@ -82,27 +95,27 @@ uploadSource:cla_anjouan_fin.zip_
 upload:true_
 layername:cla_anojouan_fin_
 attribute:ID[ID]@ID,ocsol_name[ocsol_name]_
-variable:oc_solnum[ocsol_name]"
-HOMISLAND_MOHELI;Carte d'occupation du sol de l'île de Mohéli;"abstract:Dans le sud-ouest de l'océan Indien, il existe de nombreuses îles de moins de 3000 km²  : l'archipel des l'archipel des Seychelles (avec 115 îles, dont Mahé, la plus grande), l'archipel des Comores (Grande Comore, Mohéli, Anjouan et Mayotte), les îles Eparses (les îles Glorioso, Juan de Nova, Bassas da India, Europa, île Tromelin), les îles Mascareignes (Réunion, Maurice, Rodrigues). Ces petits territoires insulaires présentent des paysages très fragmentés et diversifiés. En outre, les produits mondiaux d'utilisation des terres  avec des résolutions spatiales allant de 4 km à 30 m, et donc avec des pixels hétérogènes, dont la réponse spectrale est dérivée de différentes sources.
+variable:oc_solnum[ocsol_name]",,,,,,,,,,
+HOMISLAND_MOHELI,Carte d'occupation du sol de l'île de Mohéli,"abstract:Dans le sud-ouest de l'océan Indien, il existe de nombreuses îles de moins de 3000 km²  : l'archipel des l'archipel des Seychelles (avec 115 îles, dont Mahé, la plus grande), l'archipel des Comores (Grande Comore, Mohéli, Anjouan et Mayotte), les îles Eparses (les îles Glorioso, Juan de Nova, Bassas da India, Europa, île Tromelin), les îles Mascareignes (Réunion, Maurice, Rodrigues). Ces petits territoires insulaires présentent des paysages très fragmentés et diversifiés. En outre, les produits mondiaux d'utilisation des terres  avec des résolutions spatiales allant de 4 km à 30 m, et donc avec des pixels hétérogènes, dont la réponse spectrale est dérivée de différentes sources.
 Ces îles ont leurs propres spécificités environnementales et des paysages très fragmentés. Les produits génériques d'occupation du sol développés à partir d'images satellites de basse et moyenne résolution ne sont pas adaptés à l'étude de ces petits territoires. C'est pourquoi nous avons développé un produit d'occupation et d'utilisation des sols, appelé Homisland-IO, basé sur des traitements de télédétection sur des images satellites à haute résolution spatiale acquises par le satellite SPOT 5 entre décembre 2012 et juillet 2014. Ce produit a été réalisé en utilisant un processus de classification basé sur les objets. La précision globale du produit est de 86%. 
 Homisland-IO est librement accessible via un portail web et est donc disponible pour une utilisation future.
 
-";theme[General]:Projet Homisland, Occupation du sol, télédétection, SPOT5, Analyse spatiale,  Petite île, Océan Indien, Comores, Mohéli_;"publisher:christophe.revillion@ird.fr_
+",theme[General]:Projet Homisland, Occupation du sol, télédétection, SPOT5, Analyse spatiale,  Petite île, Océan Indien, Comores, Mohéli_,"publisher:christophe.revillion@ird.fr_
 pointOfContact:christophe.revillion@ird.fr_
 pointOfContact:artadjiattoumane@ird.fr_
 pointOfContact:vincent.herbreteau@ird.fr_
-metadata:benjamin.robert@ird.fr";"publication:2021-03-22_
-edition:2021-01-01";map;fra;srid:4326;08/12/2014;distribution:application/zip[ESRI Shapefile (zipped)];"thumbnail:Thumbnail QGIS map Mohéli@https://drive.google.com/file/d/1FxxThOZKh3hbBfUYT-7G3IS6jo_ppp2E/view?usp=sharing_
+metadata:benjamin.robert@ird.fr","publication:2021-03-22_
+edition:2021-01-01",map,fra,srid:4326,08/12/2014,distribution:application/zip[ESRI Shapefile (zipped)],"thumbnail:Thumbnail QGIS map Mohéli@https://drive.google.com/file/d/1FxxThOZKh3hbBfUYT-7G3IS6jo_ppp2E/view?usp=sharing_
 http:website[Digital Object Identifier]@https://doi.org/10.3390/data4020082_
 http:website[Digital Object Identifier]@https://doi.org/10.3390/data4020082_
-http:website[G2OI Website]@https://en.ird.fr/node/8770_";"useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
+http:website[G2OI Website]@https://en.ird.fr/node/8770_","useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
 accessConstraint:otherRestrictions_
 useConstraint:intellectualPropertyRights_
-otherConstraint:other constraints to highlight.";"statement:My data management workflow_
+otherConstraint:other constraints to highlight.","statement:My data management workflow_
 process:rationale1[description1]_
 process:rationale2[description2]_
 process:rationale3[description3]_
-processor:julien.barde@ird.fr,julien.barde@ird.fr,julien.barde@ird.fr";"access:googledrive_
+processor:julien.barde@ird.fr,julien.barde@ird.fr,julien.barde@ird.fr","access:googledrive_
 source:https://drive.google.com/file/d/1KYWOqxU2OO6T33nLr09HS7ziUqfH_pMC/view?usp=sharing_
 sourceType:shp_
 uploadType:shp_
@@ -110,27 +123,27 @@ uploadSource:cla_moheli_fin.zip_
 upload:true_
 layername:cla_moheli_fin_
 attribute:ID[ID]@ID,ocsol_name[ocsol_name]_
-variable:oc_solnum[ocsol_name]"
-HOMISLAND_GLORIEUSE;Carte d'occupation du sol des îles des Glorieuses;"abstract:Dans le sud-ouest de l'océan Indien, il existe de nombreuses îles de moins de 3000 km²  : l'archipel des l'archipel des Seychelles (avec 115 îles, dont Mahé, la plus grande), l'archipel des Comores (Grande Comore, Mohéli, Anjouan et Mayotte), les îles Eparses (les îles Glorioso, Juan de Nova, Bassas da India, Europa, île Tromelin), les îles Mascareignes (Réunion, Maurice, Rodrigues). Ces petits territoires insulaires présentent des paysages très fragmentés et diversifiés. En outre, les produits mondiaux d'utilisation des terres  avec des résolutions spatiales allant de 4 km à 30 m, et donc avec des pixels hétérogènes, dont la réponse spectrale est dérivée de différentes sources.
+variable:oc_solnum[ocsol_name]",,
+HOMISLAND_GLORIEUSE,Carte d'occupation du sol des îles des Glorieuses,"abstract:Dans le sud-ouest de l'océan Indien, il existe de nombreuses îles de moins de 3000 km²  : l'archipel des l'archipel des Seychelles (avec 115 îles, dont Mahé, la plus grande), l'archipel des Comores (Grande Comore, Mohéli, Anjouan et Mayotte), les îles Eparses (les îles Glorioso, Juan de Nova, Bassas da India, Europa, île Tromelin), les îles Mascareignes (Réunion, Maurice, Rodrigues). Ces petits territoires insulaires présentent des paysages très fragmentés et diversifiés. En outre, les produits mondiaux d'utilisation des terres  avec des résolutions spatiales allant de 4 km à 30 m, et donc avec des pixels hétérogènes, dont la réponse spectrale est dérivée de différentes sources.
 Ces îles ont leurs propres spécificités environnementales et des paysages très fragmentés. Les produits génériques d'occupation du sol développés à partir d'images satellites de basse et moyenne résolution ne sont pas adaptés à l'étude de ces petits territoires. C'est pourquoi nous avons développé un produit d'occupation et d'utilisation des sols, appelé Homisland-IO, basé sur des traitements de télédétection sur des images satellites à haute résolution spatiale acquises par le satellite SPOT 5 entre décembre 2012 et juillet 2014. Ce produit a été réalisé en utilisant un processus de classification basé sur les objets. La précision globale du produit est de 86%. 
 Homisland-IO est librement accessible via un portail web et est donc disponible pour une utilisation future.
 
-";theme[General]:Projet Homisland, Occupation du sol, télédétection, SPOT5, Analyse spatiale, Analyse d'image orientée-objet, Océan Indien, Petite île, Grande Glorieuses, îles Eparses, TAAF;"publisher:christophe.revillion@ird.fr_
+",theme[General]:Projet Homisland, Occupation du sol, télédétection, SPOT5, Analyse spatiale, Analyse d'image orientée-objet, Océan Indien, Petite île, Grande Glorieuses, îles Eparses, TAAF,"publisher:christophe.revillion@ird.fr_
 pointOfContact:christophe.revillion@ird.fr_
 pointOfContact:artadjiattoumane@ird.fr_
 pointOfContact:vincent.herbreteau@ird.fr_
-metadata:benjamin.robert@ird.fr";"publication:2021-03-22_
-edition:2021-01-01";map;fra;srid:4326;08/11/2013;distribution:application/zip[ESRI Shapefile (zipped)];"thumbnail:Thumbnail QGIS map Glorieuses @https://drive.google.com/file/d/1FxxThOZKh3hbBfUYT-7G3IS6jo_ppp2E/view?usp=sharing_
+metadata:benjamin.robert@ird.fr","publication:2021-03-22_
+edition:2021-01-01",map,fra,srid:4326,08/11/2013,distribution:application/zip[ESRI Shapefile (zipped)],"thumbnail:Thumbnail QGIS map Glorieuses @https://drive.google.com/file/d/1FxxThOZKh3hbBfUYT-7G3IS6jo_ppp2E/view?usp=sharing_
 http:website[Digital Object Identifier]@https://doi.org/10.3390/data4020082_
 http:website[Digital Object Identifier]@https://doi.org/10.3390/data4020082_
-http:website[G2OI Website]@https://en.ird.fr/node/8770_";"useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
+http:website[G2OI Website]@https://en.ird.fr/node/8770_","useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
 accessConstraint:otherRestrictions_
 useConstraint:intellectualPropertyRights_
-otherConstraint:other constraints to highlight.";"statement:My data management workflow_
+otherConstraint:other constraints to highlight.","statement:My data management workflow_
 process:rationale1[description1]_
 process:rationale2[description2]_
 process:rationale3[description3]_
-processor:julien.barde@ird.fr,julien.barde@ird.fr,julien.barde@ird.fr";"access:googledrive_
+processor:julien.barde@ird.fr,julien.barde@ird.fr,julien.barde@ird.fr","access:googledrive_
 source:https://drive.google.com/file/d/1KYWOqxU2OO6T33nLr09HS7ziUqfH_pMC/view?usp=sharing_
 sourceType:shp_
 uploadType:shp_
@@ -139,26 +152,26 @@ upload:true_
 layername:cla_glorieuse_fin_
 attribute:ID[ID]@ID,ocsol_name[ocsol_name]_
 variable:oc_solnum[ocsol_name]"
-HOMISLAND_MAHE;Carte d'occupation du sol de l'île de Mahe;"abstract:Dans le sud-ouest de l'océan Indien, il existe de nombreuses îles de moins de 3000 km²  : l'archipel des l'archipel des Seychelles (avec 115 îles, dont Mahé, la plus grande), l'archipel des Comores (Grande Comore, Mohéli, Anjouan et Mayotte), les îles Eparses (les îles Glorioso, Juan de Nova, Bassas da India, Europa, île Tromelin), les îles Mascareignes (Réunion, Maurice, Rodrigues). Ces petits territoires insulaires présentent des paysages très fragmentés et diversifiés. En outre, les produits mondiaux d'utilisation des terres  avec des résolutions spatiales allant de 4 km à 30 m, et donc avec des pixels hétérogènes, dont la réponse spectrale est dérivée de différentes sources.
+HOMISLAND_MAHE,Carte d'occupation du sol de l'île de Mahe,"abstract:Dans le sud-ouest de l'océan Indien, il existe de nombreuses îles de moins de 3000 km²  : l'archipel des l'archipel des Seychelles (avec 115 îles, dont Mahé, la plus grande), l'archipel des Comores (Grande Comore, Mohéli, Anjouan et Mayotte), les îles Eparses (les îles Glorioso, Juan de Nova, Bassas da India, Europa, île Tromelin), les îles Mascareignes (Réunion, Maurice, Rodrigues). Ces petits territoires insulaires présentent des paysages très fragmentés et diversifiés. En outre, les produits mondiaux d'utilisation des terres  avec des résolutions spatiales allant de 4 km à 30 m, et donc avec des pixels hétérogènes, dont la réponse spectrale est dérivée de différentes sources.
 Ces îles ont leurs propres spécificités environnementales et des paysages très fragmentés. Les produits génériques d'occupation du sol développés à partir d'images satellites de basse et moyenne résolution ne sont pas adaptés à l'étude de ces petits territoires. C'est pourquoi nous avons développé un produit d'occupation et d'utilisation des sols, appelé Homisland-IO, basé sur des traitements de télédétection sur des images satellites à haute résolution spatiale acquises par le satellite SPOT 5 entre décembre 2012 et juillet 2014. Ce produit a été réalisé en utilisant un processus de classification basé sur les objets. La précision globale du produit est de 86%. 
 Homisland-IO est librement accessible via un portail web et est donc disponible pour une utilisation future.
 
-";theme[General]:Projet Homisland, Occupation du sol, télédétection, SPOT5, Analyse spatiale, Analyse spatiale, Analyse d'image orientée-objet, Petite île, Océan Indien, Comores, Mahé;"publisher:christophe.revillion@ird.fr_
+",theme[General]:Projet Homisland, Occupation du sol, télédétection, SPOT5, Analyse spatiale, Analyse spatiale, Analyse d'image orientée-objet, Petite île, Océan Indien, Comores, Mahé,"publisher:christophe.revillion@ird.fr_
 pointOfContact:christophe.revillion@ird.fr_
 pointOfContact:artadjiattoumane@ird.fr_
 pointOfContact:vincent.herbreteau@ird.fr_
-metadata:benjamin.robert@ird.fr";"publication:2021-03-22_
-edition:2021-01-01";map;fra;srid:4326;06/12/2012;distribution:application/zip[ESRI Shapefile (zipped)];"thumbnail:Thumbnail QGIS map Mahe@https://drive.google.com/file/d/1PlRlqS9FF9Pmnzl5AjuuJHwJ5OrqWZp5/view?usp=sharing_
+metadata:benjamin.robert@ird.fr","publication:2021-03-22_
+edition:2021-01-01",map,fra,srid:4326,06/12/2012,distribution:application/zip[ESRI Shapefile (zipped)],"thumbnail:Thumbnail QGIS map Mahe@https://drive.google.com/file/d/1PlRlqS9FF9Pmnzl5AjuuJHwJ5OrqWZp5/view?usp=sharing_
 http:website[Digital Object Identifier]@https://doi.org/10.3390/data4020082_
 http:website[Digital Object Identifier]@https://doi.org/10.3390/data4020082_
-http:website[G2OI Website]@https://en.ird.fr/node/8770_";"useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
+http:website[G2OI Website]@https://en.ird.fr/node/8770_","useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
 accessConstraint:otherRestrictions_
 useConstraint:intellectualPropertyRights_
-otherConstraint:other constraints to highlight.";"statement:My data management workflow_
+otherConstraint:other constraints to highlight.","statement:My data management workflow_
 process:rationale1[description1]_
 process:rationale2[description2]_
 process:rationale3[description3]_
-processor:julien.barde@ird.fr,julien.barde@ird.fr,julien.barde@ird.fr";"access:googledrive_
+processor:julien.barde@ird.fr,julien.barde@ird.fr,julien.barde@ird.fr","access:googledrive_
 source:https://drive.google.com/file/d/1qqHI-F-a5yqGyFaREgwSixXbeh6X_J9S/view?usp=sharing_
 sourceType:shp_
 uploadType:shp_
@@ -167,26 +180,26 @@ upload:true_
 layername:cla_mahe_fin_
 attribute:ID[ID]@ID,ocsol_name[ocsol_name]_
 variable:oc_solnum[ocsol_name]"
-HOMISLAND_MAURICE;Carte d'occupation du sol de l'île Maurice;"abstract:Dans le sud-ouest de l'océan Indien, il existe de nombreuses îles de moins de 3000 km²  : l'archipel des l'archipel des Seychelles (avec 115 îles, dont Mahé, la plus grande), l'archipel des Comores (Grande Comore, Mohéli, Anjouan et Mayotte), les îles Eparses (les îles Glorioso, Juan de Nova, Bassas da India, Europa, île Tromelin), les îles Mascareignes (Réunion, Maurice, Rodrigues). Ces petits territoires insulaires présentent des paysages très fragmentés et diversifiés. En outre, les produits mondiaux d'utilisation des terres  avec des résolutions spatiales allant de 4 km à 30 m, et donc avec des pixels hétérogènes, dont la réponse spectrale est dérivée de différentes sources.
+HOMISLAND_MAURICE,Carte d'occupation du sol de l'île Maurice,"abstract:Dans le sud-ouest de l'océan Indien, il existe de nombreuses îles de moins de 3000 km²  : l'archipel des l'archipel des Seychelles (avec 115 îles, dont Mahé, la plus grande), l'archipel des Comores (Grande Comore, Mohéli, Anjouan et Mayotte), les îles Eparses (les îles Glorioso, Juan de Nova, Bassas da India, Europa, île Tromelin), les îles Mascareignes (Réunion, Maurice, Rodrigues). Ces petits territoires insulaires présentent des paysages très fragmentés et diversifiés. En outre, les produits mondiaux d'utilisation des terres  avec des résolutions spatiales allant de 4 km à 30 m, et donc avec des pixels hétérogènes, dont la réponse spectrale est dérivée de différentes sources.
 Ces îles ont leurs propres spécificités environnementales et des paysages très fragmentés. Les produits génériques d'occupation du sol développés à partir d'images satellites de basse et moyenne résolution ne sont pas adaptés à l'étude de ces petits territoires. C'est pourquoi nous avons développé un produit d'occupation et d'utilisation des sols, appelé Homisland-IO, basé sur des traitements de télédétection sur des images satellites à haute résolution spatiale acquises par le satellite SPOT 5 entre décembre 2012 et juillet 2014. Ce produit a été réalisé en utilisant un processus de classification basé sur les objets. La précision globale du produit est de 86%. 
 Homisland-IO est librement accessible via un portail web et est donc disponible pour une utilisation future.
 
-";theme[General]:Projet Homisland, Occupation du sol, télédétection, SPOT5, Analyse spatiale, Analyse d'image orientée-objet, Petite île,  Océan Indien, Comores, Maurice_;"publisher:christophe.revillion@ird.fr_
+",theme[General]:Projet Homisland, Occupation du sol, télédétection, SPOT5, Analyse spatiale, Analyse d'image orientée-objet, Petite île,  Océan Indien, Comores, Maurice_,"publisher:christophe.revillion@ird.fr_
 pointOfContact:christophe.revillion@ird.fr_
 pointOfContact:artadjiattoumane@ird.fr_
 pointOfContact:vincent.herbreteau@ird.fr_
-metadata:benjamin.robert@ird.fr";"publication:2021-03-22_
-edition:2021-01-01";map;fra;srid:4326;2014-17-05;distribution:application/zip[ESRI Shapefile (zipped)];"thumbnail:Thumbnail QGIS map Maurice@https://drive.google.com/file/d/1khIvQIUuj0TCiFWFec5hA4oaYi_Mq_ka/view?usp=sharing_
+metadata:benjamin.robert@ird.fr","publication:2021-03-22_
+edition:2021-01-01",map,fra,srid:4326,2014-17-05,distribution:application/zip[ESRI Shapefile (zipped)],"thumbnail:Thumbnail QGIS map Maurice@https://drive.google.com/file/d/1khIvQIUuj0TCiFWFec5hA4oaYi_Mq_ka/view?usp=sharing_
 http:website[Digital Object Identifier]@https://doi.org/10.3390/data4020082_
 http:website[Digital Object Identifier]@https://doi.org/10.3390/data4020082_
-http:website[G2OI Website]@https://en.ird.fr/node/8770_";"useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
+http:website[G2OI Website]@https://en.ird.fr/node/8770_","useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
 accessConstraint:otherRestrictions_
 useConstraint:intellectualPropertyRights_
-otherConstraint:other constraints to highlight.";"statement:My data management workflow_
+otherConstraint:other constraints to highlight.","statement:My data management workflow_
 process:rationale1[description1]_
 process:rationale2[description2]_
 process:rationale3[description3]_
-processor:julien.barde@ird.fr,julien.barde@ird.fr,julien.barde@ird.fr";"access:googledrive_
+processor:julien.barde@ird.fr,julien.barde@ird.fr,julien.barde@ird.fr","access:googledrive_
 source:https://drive.google.com/file/d/1GqB6FiVVQTOYyN6QraX3kBBHtkt_xxtj/view?usp=sharing_
 sourceType:shp_
 uploadType:shp_
@@ -194,27 +207,27 @@ uploadSource:cla_maurice_fin.zip_
 upload:true_
 layername:cla_maurice_fin_
 attribute:ID[ID]@ID,ocsol_name[ocsol_name]_
-variable:oc_solnum[ocsol_name]"
-HOMISLAND_MAYOTTE;Carte d'occupation du sol des îles de Mayotte;"abstract:Dans le sud-ouest de l'océan Indien, il existe de nombreuses îles de moins de 3000 km²  : l'archipel des l'archipel des Seychelles (avec 115 îles, dont Mahé, la plus grande), l'archipel des Comores (Grande Comore, Mohéli, Anjouan et Mayotte), les îles Eparses (les îles Glorioso, Juan de Nova, Bassas da India, Europa, île Tromelin), les îles Mascareignes (Réunion, Maurice, Rodrigues). Ces petits territoires insulaires présentent des paysages très fragmentés et diversifiés. En outre, les produits mondiaux d'utilisation des terres  avec des résolutions spatiales allant de 4 km à 30 m, et donc avec des pixels hétérogènes, dont la réponse spectrale est dérivée de différentes sources.
+variable:oc_solnum[ocsol_name]",
+HOMISLAND_MAYOTTE,Carte d'occupation du sol des îles de Mayotte,"abstract:Dans le sud-ouest de l'océan Indien, il existe de nombreuses îles de moins de 3000 km²  : l'archipel des l'archipel des Seychelles (avec 115 îles, dont Mahé, la plus grande), l'archipel des Comores (Grande Comore, Mohéli, Anjouan et Mayotte), les îles Eparses (les îles Glorioso, Juan de Nova, Bassas da India, Europa, île Tromelin), les îles Mascareignes (Réunion, Maurice, Rodrigues). Ces petits territoires insulaires présentent des paysages très fragmentés et diversifiés. En outre, les produits mondiaux d'utilisation des terres  avec des résolutions spatiales allant de 4 km à 30 m, et donc avec des pixels hétérogènes, dont la réponse spectrale est dérivée de différentes sources.
 Ces îles ont leurs propres spécificités environnementales et des paysages très fragmentés. Les produits génériques d'occupation du sol développés à partir d'images satellites de basse et moyenne résolution ne sont pas adaptés à l'étude de ces petits territoires. C'est pourquoi nous avons développé un produit d'occupation et d'utilisation des sols, appelé Homisland-IO, basé sur des traitements de télédétection sur des images satellites à haute résolution spatiale acquises par le satellite SPOT 5 entre décembre 2012 et juillet 2014. Ce produit a été réalisé en utilisant un processus de classification basé sur les objets. La précision globale du produit est de 86%. 
 Homisland-IO est librement accessible via un portail web et est donc disponible pour une utilisation future.
 
-";theme[General]:Projet Homisland, Occupation du sol, télédétection, SPOT5, Analyse spatiale, Analyse spatiale, Analyse d'image orientée-objet, Petite île, Océan Indien, Mayotte_;"publisher:christophe.revillion@ird.fr_
+",theme[General]:Projet Homisland, Occupation du sol, télédétection, SPOT5, Analyse spatiale, Analyse spatiale, Analyse d'image orientée-objet, Petite île, Océan Indien, Mayotte_,"publisher:christophe.revillion@ird.fr_
 pointOfContact:christophe.revillion@ird.fr_
 pointOfContact:artadjiattoumane@ird.fr_
 pointOfContact:vincent.herbreteau@ird.fr_
-metadata:benjamin.robert@ird.fr";"publication:2021-03-22_
-edition:2021-01-01";map;fra;srid:4326;16/06/2013;distribution:application/zip[ESRI Shapefile (zipped)];"thumbnail:Thumbnail QGIS map Mayotte@https://drive.google.com/file/d/1pp9lZirfVA2Mk8vf48M3o_du1eUz2Ows/view?usp=sharing_
+metadata:benjamin.robert@ird.fr","publication:2021-03-22_
+edition:2021-01-01",map,fra,srid:4326,16/06/2013,distribution:application/zip[ESRI Shapefile (zipped)],"thumbnail:Thumbnail QGIS map Mayotte@https://drive.google.com/file/d/1pp9lZirfVA2Mk8vf48M3o_du1eUz2Ows/view?usp=sharing_
 http:website[Digital Object Identifier]@https://doi.org/10.3390/data4020082_
 http:website[Digital Object Identifier]@https://doi.org/10.3390/data4020082_
-http:website[G2OI Website]@https://en.ird.fr/node/8770_";"useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
+http:website[G2OI Website]@https://en.ird.fr/node/8770_","useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
 accessConstraint:otherRestrictions_
 useConstraint:intellectualPropertyRights_
-otherConstraint:other constraints to highlight.";"statement:My data management workflow_
+otherConstraint:other constraints to highlight.","statement:My data management workflow_
 process:rationale1[description1]_
 process:rationale2[description2]_
 process:rationale3[description3]_
-processor:julien.barde@ird.fr,julien.barde@ird.fr,julien.barde@ird.fr";"access:googledrive_
+processor:julien.barde@ird.fr,julien.barde@ird.fr,julien.barde@ird.fr","access:googledrive_
 source:https://drive.google.com/file/d/1VEaoWuEdEBKWa78KNuCmWeIxqOemftsG/view?usp=sharing_
 sourceType:shp_
 uploadType:shp_
@@ -222,27 +235,27 @@ uploadSource:cla_may_fin.zip_
 upload:true_
 layername:cla_may_fin_
 attribute:ID[ID]@ID,ocsol_name[ocsol_name]_
-variable:oc_solnum[ocsol_name]"
-HOMISLAND_RODRIGUES;Carte d'occupation du sol de l'île de Rodrigues;"abstract:Dans le sud-ouest de l'océan Indien, il existe de nombreuses îles de moins de 3000 km²  : l'archipel des l'archipel des Seychelles (avec 115 îles, dont Mahé, la plus grande), l'archipel des Comores (Grande Comore, Mohéli, Anjouan et Mayotte), les îles Eparses (les îles Glorioso, Juan de Nova, Bassas da India, Europa, île Tromelin), les îles Mascareignes (Réunion, Maurice, Rodrigues). Ces petits territoires insulaires présentent des paysages très fragmentés et diversifiés. En outre, les produits mondiaux d'utilisation des terres  avec des résolutions spatiales allant de 4 km à 30 m, et donc avec des pixels hétérogènes, dont la réponse spectrale est dérivée de différentes sources.
+variable:oc_solnum[ocsol_name]",
+HOMISLAND_RODRIGUES,Carte d'occupation du sol de l'île de Rodrigues,"abstract:Dans le sud-ouest de l'océan Indien, il existe de nombreuses îles de moins de 3000 km²  : l'archipel des l'archipel des Seychelles (avec 115 îles, dont Mahé, la plus grande), l'archipel des Comores (Grande Comore, Mohéli, Anjouan et Mayotte), les îles Eparses (les îles Glorioso, Juan de Nova, Bassas da India, Europa, île Tromelin), les îles Mascareignes (Réunion, Maurice, Rodrigues). Ces petits territoires insulaires présentent des paysages très fragmentés et diversifiés. En outre, les produits mondiaux d'utilisation des terres  avec des résolutions spatiales allant de 4 km à 30 m, et donc avec des pixels hétérogènes, dont la réponse spectrale est dérivée de différentes sources.
 Ces îles ont leurs propres spécificités environnementales et des paysages très fragmentés. Les produits génériques d'occupation du sol développés à partir d'images satellites de basse et moyenne résolution ne sont pas adaptés à l'étude de ces petits territoires. C'est pourquoi nous avons développé un produit d'occupation et d'utilisation des sols, appelé Homisland-IO, basé sur des traitements de télédétection sur des images satellites à haute résolution spatiale acquises par le satellite SPOT 5 entre décembre 2012 et juillet 2014. Ce produit a été réalisé en utilisant un processus de classification basé sur les objets. La précision globale du produit est de 86%. 
 Homisland-IO est librement accessible via un portail web et est donc disponible pour une utilisation future.
 
-";theme[General]:Projet Homisland, Occupation du sol, télédétection, SPOT5, Analyse spatiale, Petite île, Analyse d'image orientée-objet, Océan Indien, Maurice, Rodrigues_;"publisher:christophe.revillion@ird.fr_
+",theme[General]:Projet Homisland, Occupation du sol, télédétection, SPOT5, Analyse spatiale, Petite île, Analyse d'image orientée-objet, Océan Indien, Maurice, Rodrigues_,"publisher:christophe.revillion@ird.fr_
 pointOfContact:christophe.revillion@ird.fr_
 pointOfContact:artadjiattoumane@ird.fr_
 pointOfContact:vincent.herbreteau@ird.fr_
-metadata:benjamin.robert@ird.fr";"publication:2021-03-22_
-edition:2021-01-01";map;fra;srid:4326;18/05/2014;distribution:application/zip[ESRI Shapefile (zipped)];"thumbnail:Thumbnail QGIS map Rodrigues@https://drive.google.com/file/d/1v8Wr1s5gUGiMAysu8bb-G7mNaNPovYwA/view?usp=sharing_
+metadata:benjamin.robert@ird.fr","publication:2021-03-22_
+edition:2021-01-01",map,fra,srid:4326,18/05/2014,distribution:application/zip[ESRI Shapefile (zipped)],"thumbnail:Thumbnail QGIS map Rodrigues@https://drive.google.com/file/d/1v8Wr1s5gUGiMAysu8bb-G7mNaNPovYwA/view?usp=sharing_
 http:website[Digital Object Identifier]@https://doi.org/10.3390/data4020082_
 http:website[Digital Object Identifier]@https://doi.org/10.3390/data4020082_
-http:website[G2OI Website]@https://en.ird.fr/node/8770_";"useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
+http:website[G2OI Website]@https://en.ird.fr/node/8770_","useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
 accessConstraint:otherRestrictions_
 useConstraint:intellectualPropertyRights_
-otherConstraint:other constraints to highlight.";"statement:My data management workflow_
+otherConstraint:other constraints to highlight.","statement:My data management workflow_
 process:rationale1[description1]_
 process:rationale2[description2]_
 process:rationale3[description3]_
-processor:julien.barde@ird.fr,julien.barde@ird.fr,julien.barde@ird.fr";"access:googledrive_
+processor:julien.barde@ird.fr,julien.barde@ird.fr,julien.barde@ird.fr","access:googledrive_
 source:https://drive.google.com/file/d/1NPERGhU81zNPEc3miT0dHhiRI03HfCld/view?usp=sharing_
 sourceType:shp_
 uploadType:shp_
@@ -250,27 +263,27 @@ uploadSource:cla_rod_fin.zip_
 upload:true_
 layername:cla_rod_fin_
 attribute:ID[ID]@ID,ocsol_name[ocsol_name]_
-variable:oc_solnum[ocsol_name]"
-HOMISLAND_REUNION;Carte d'occupation du sol de l'île de la Réunion;"abstract:Dans le sud-ouest de l'océan Indien, il existe de nombreuses îles de moins de 3000 km²  : l'archipel des l'archipel des Seychelles (avec 115 îles, dont Mahé, la plus grande), l'archipel des Comores (Grande Comore, Mohéli, Anjouan et Mayotte), les îles Eparses (les îles Glorioso, Juan de Nova, Bassas da India, Europa, île Tromelin), les îles Mascareignes (Réunion, Maurice, Rodrigues). Ces petits territoires insulaires présentent des paysages très fragmentés et diversifiés. En outre, les produits mondiaux d'utilisation des terres  avec des résolutions spatiales allant de 4 km à 30 m, et donc avec des pixels hétérogènes, dont la réponse spectrale est dérivée de différentes sources.
+variable:oc_solnum[ocsol_name]",
+HOMISLAND_REUNION,Carte d'occupation du sol de l'île de la Réunion,"abstract:Dans le sud-ouest de l'océan Indien, il existe de nombreuses îles de moins de 3000 km²  : l'archipel des l'archipel des Seychelles (avec 115 îles, dont Mahé, la plus grande), l'archipel des Comores (Grande Comore, Mohéli, Anjouan et Mayotte), les îles Eparses (les îles Glorioso, Juan de Nova, Bassas da India, Europa, île Tromelin), les îles Mascareignes (Réunion, Maurice, Rodrigues). Ces petits territoires insulaires présentent des paysages très fragmentés et diversifiés. En outre, les produits mondiaux d'utilisation des terres  avec des résolutions spatiales allant de 4 km à 30 m, et donc avec des pixels hétérogènes, dont la réponse spectrale est dérivée de différentes sources.
 Ces îles ont leurs propres spécificités environnementales et des paysages très fragmentés. Les produits génériques d'occupation du sol développés à partir d'images satellites de basse et moyenne résolution ne sont pas adaptés à l'étude de ces petits territoires. C'est pourquoi nous avons développé un produit d'occupation et d'utilisation des sols, appelé Homisland-IO, basé sur des traitements de télédétection sur des images satellites à haute résolution spatiale acquises par le satellite SPOT 5 entre décembre 2012 et juillet 2014. Ce produit a été réalisé en utilisant un processus de classification basé sur les objets. La précision globale du produit est de 86%. 
 Homisland-IO est librement accessible via un portail web et est donc disponible pour une utilisation future.
 
-";theme[General]:Projet Homisland, Occupation du sol, télédétection, SPOT5, Analyse spatiale , Petite île , Analyse d'image orientée-objet, Océan Indien, Reunion_;"publisher:christophe.revillion@ird.fr_
+",theme[General]:Projet Homisland, Occupation du sol, télédétection, SPOT5, Analyse spatiale , Petite île , Analyse d'image orientée-objet, Océan Indien, Reunion_,"publisher:christophe.revillion@ird.fr_
 pointOfContact:christophe.revillion@ird.fr_
 pointOfContact:artadjiattoumane@ird.fr_
 pointOfContact:vincent.herbreteau@ird.fr_
-metadata:benjamin.robert@ird.fr";"publication:2021-03-22_
-edition:2021-01-01";map;fra;srid:4326;21/05/2014;distribution:application/zip[ESRI Shapefile (zipped)];"thumbnail:Thumbnail QGIS map Réunion@https://drive.google.com/file/d/1xz8J9Y_fg2W-xd0tZzLWIt3FXRfHakZK/view?usp=sharing_
+metadata:benjamin.robert@ird.fr","publication:2021-03-22_
+edition:2021-01-01",map,fra,srid:4326,21/05/2014,distribution:application/zip[ESRI Shapefile (zipped)],"thumbnail:Thumbnail QGIS map Réunion@https://drive.google.com/file/d/1xz8J9Y_fg2W-xd0tZzLWIt3FXRfHakZK/view?usp=sharing_
 http:website[Digital Object Identifier]@https://doi.org/10.3390/data4020082_
 http:website[Digital Object Identifier]@https://doi.org/10.3390/data4020082_
-http:website[G2OI Website]@https://en.ird.fr/node/8770_";"useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
+http:website[G2OI Website]@https://en.ird.fr/node/8770_","useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
 accessConstraint:otherRestrictions_
 useConstraint:intellectualPropertyRights_
-otherConstraint:other constraints to highlight.";"statement:My data management workflow_
+otherConstraint:other constraints to highlight.","statement:My data management workflow_
 process:rationale1[description1]_
 process:rationale2[description2]_
 process:rationale3[description3]_
-processor:julien.barde@ird.fr,julien.barde@ird.fr,julien.barde@ird.fr";"access:googledrive_
+processor:julien.barde@ird.fr,julien.barde@ird.fr,julien.barde@ird.fr","access:googledrive_
 source:https://drive.google.com/file/d/1cdsfgUItbVu1wlFlJqTrV09Eam9KHWh4/view?usp=sharing_
 sourceType:shp_
 uploadType:shp_
@@ -278,27 +291,27 @@ uploadSource:cla_run_fin.zip_
 upload:true_
 layername:cla_run_fin_
 attribute:ID[ID]@ID,ocsol_name[ocsol_name]_
-variable:oc_solnum[ocsol_name]"
-HOMISLAND_TROMELIN;Carte d'occupation du sol de l'île de Tromelin;"abstract:Dans le sud-ouest de l'océan Indien, il existe de nombreuses îles de moins de 3000 km²  : l'archipel des l'archipel des Seychelles (avec 115 îles, dont Mahé, la plus grande), l'archipel des Comores (Grande Comore, Mohéli, Anjouan et Mayotte), les îles Eparses (les îles Glorioso, Juan de Nova, Bassas da India, Europa, île Tromelin), les îles Mascareignes (Réunion, Maurice, Rodrigues). Ces petits territoires insulaires présentent des paysages très fragmentés et diversifiés. En outre, les produits mondiaux d'utilisation des terres  avec des résolutions spatiales allant de 4 km à 30 m, et donc avec des pixels hétérogènes, dont la réponse spectrale est dérivée de différentes sources.
+variable:oc_solnum[ocsol_name]",,
+HOMISLAND_TROMELIN,Carte d'occupation du sol de l'île de Tromelin,"abstract:Dans le sud-ouest de l'océan Indien, il existe de nombreuses îles de moins de 3000 km²  : l'archipel des l'archipel des Seychelles (avec 115 îles, dont Mahé, la plus grande), l'archipel des Comores (Grande Comore, Mohéli, Anjouan et Mayotte), les îles Eparses (les îles Glorioso, Juan de Nova, Bassas da India, Europa, île Tromelin), les îles Mascareignes (Réunion, Maurice, Rodrigues). Ces petits territoires insulaires présentent des paysages très fragmentés et diversifiés. En outre, les produits mondiaux d'utilisation des terres  avec des résolutions spatiales allant de 4 km à 30 m, et donc avec des pixels hétérogènes, dont la réponse spectrale est dérivée de différentes sources.
 Ces îles ont leurs propres spécificités environnementales et des paysages très fragmentés. Les produits génériques d'occupation du sol développés à partir d'images satellites de basse et moyenne résolution ne sont pas adaptés à l'étude de ces petits territoires. C'est pourquoi nous avons développé un produit d'occupation et d'utilisation des sols, appelé Homisland-IO, basé sur des traitements de télédétection sur des images satellites à haute résolution spatiale acquises par le satellite SPOT 5 entre décembre 2012 et juillet 2014. Ce produit a été réalisé en utilisant un processus de classification basé sur les objets. La précision globale du produit est de 86%. 
 Homisland-IO est librement accessible via un portail web et est donc disponible pour une utilisation future.
 
-";theme[General]:Projet Homisland, Occupation du sol, télédétection, SPOT5, Analyse spatiale, Petite île, Analyse d'image orientée-objet, TAAF, Océan Indien, Tromelin, Iles Eparses_;"publisher:christophe.revillion@ird.fr_
+",theme[General]:Projet Homisland, Occupation du sol, télédétection, SPOT5, Analyse spatiale, Petite île, Analyse d'image orientée-objet, TAAF, Océan Indien, Tromelin, Iles Eparses_,"publisher:christophe.revillion@ird.fr_
 pointOfContact:christophe.revillion@ird.fr_
 pointOfContact:artadjiattoumane@ird.fr_
 pointOfContact:vincent.herbreteau@ird.fr_
-metadata:benjamin.robert@ird.fr";"publication:2021-03-22_
-edition:2021-01-01";map;fra;srid:4326;25/04/2014;distribution:application/zip[ESRI Shapefile (zipped)];"thumbnail:Thumbnail QGIS map Tromelin@https://drive.google.com/file/d/1VtSowMFNexuOnxnMUagmHw085y-FIOac/view?usp=sharing_
+metadata:benjamin.robert@ird.fr","publication:2021-03-22_
+edition:2021-01-01",map,fra,srid:4326,25/04/2014,distribution:application/zip[ESRI Shapefile (zipped)],"thumbnail:Thumbnail QGIS map Tromelin@https://drive.google.com/file/d/1VtSowMFNexuOnxnMUagmHw085y-FIOac/view?usp=sharing_
 http:website[Digital Object Identifier]@https://doi.org/10.3390/data4020082_
 http:website[Digital Object Identifier]@https://doi.org/10.3390/data4020082_
-http:website[G2OI Website]@https://en.ird.fr/node/8770_";"useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
+http:website[G2OI Website]@https://en.ird.fr/node/8770_","useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
 accessConstraint:otherRestrictions_
 useConstraint:intellectualPropertyRights_
-otherConstraint:other constraints to highlight.";"statement:My data management workflow_
+otherConstraint:other constraints to highlight.","statement:My data management workflow_
 process:rationale1[description1]_
 process:rationale2[description2]_
 process:rationale3[description3]_
-processor:julien.barde@ird.fr,julien.barde@ird.fr,julien.barde@ird.fr";"access:googledrive_
+processor:julien.barde@ird.fr,julien.barde@ird.fr,julien.barde@ird.fr","access:googledrive_
 source:https://drive.google.com/file/d/1AIrMeIv3P_pSBFHz0pwG5M4Tqv5scluC/view?usp=sharing_
 sourceType:shp_
 uploadType:shp_
