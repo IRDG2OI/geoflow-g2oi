@@ -1,0 +1,83 @@
+{
+  "profile": {
+    "id": "europa_br",
+    "name": "Homisland",
+	  "project": "Homisland test",
+	  "organization": "G2OI",
+	  "mode": "entity",
+	  "options": {
+	    "line_separator": "_\n"
+    }
+  },
+  "mode": "entity",
+  "metadata": {
+    "entities": {
+      "handler": "gsheet",
+      "source": "https://docs.google.com/spreadsheets/d/1Lk7z3s23C1BWryCFCNQi1X5yC9zSKQMVoyjNOtyxX7E/edit?usp=sharing"
+    },
+    "contacts" : {
+      "handler": "gsheet",
+      "source": "https://docs.google.com/spreadsheets/d/1Rp-58n2Czfnm2kFmPuywBujBxlX4VUQdus_C0liod4g/edit?usp=sharing"
+    }
+      },
+  "software": [
+  {
+		"id": "europa-geoflow-geonetwork",
+		"type": "output",
+		"software_type": "geonetwork",
+		"parameters": {
+			"url": "https://gn.marbec-tools.ird.fr/geonetwork",
+      "user": "brobert",
+      "pwd": "A_gn974+",
+      "version": "4.0.6",
+			"logger": "DEBUG"
+		}
+	},
+  {
+        "id": "220711-geoflow-geoserver",
+        "type": "output",
+        "software_type": "geoserver",
+        "parameters": {
+            "url": "https://gs.marbec-tools.ird.fr/geoserver",
+            "user": "brobert",
+            "pwd": "A_gs974+",
+            "logger": "DEBUG"
+        },
+        "properties" : {
+            "workspace": "G2OI",
+            "datastore": "G2OI"
+        }
+  },
+		{
+		"id": "googledrive",
+		"type": "input",
+		"software_type": "googledrive",
+		"parameters": {
+			"email": "g2oi.reunion@gmail.com",
+			"token": ""
+		},
+		"properties" : {}
+	}
+  ],
+  "actions": [
+	{
+      "id": "geometa-create-iso-19115",
+	  "options": {
+		"logo": true
+	  },
+      "run": true
+    },
+	{
+	  "id": "geonapi-publish-iso-19139",
+      "run" : true
+	},
+	{
+	  "id": "geosapi-publish-ogc-services",
+	  "run": true,
+	  	  "options" : {
+	    "createWorkspace": true,
+	    "createStore": true
+	  }
+	}
+  ]
+}
