@@ -4,10 +4,11 @@
 
 1) Clone repository:
 ```
-git clone https://github.com/IRDG2OI/geoflow-g2oi
+git clone -b sample https://github.com/IRDG2OI/geoflow-g2oi
 ```
 
 2) Configure environment file:
+
   a) Edit config file
 
 ```
