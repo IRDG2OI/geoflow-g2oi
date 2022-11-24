@@ -1,0 +1,89 @@
+{
+  "id": "metadata_mikaroka",
+  "profile": {
+	"project": "Composante transverse LMI MIKAROKA",
+	"organization": "LMI MIKAROKA",
+	"logos": [
+	  "https://drive.google.com/uc?id=18Nz3YUoegVazrLJNoR5RPkkd-qC6kfC2",
+	  "https://drive.google.com/uc?id=1IrPGzaH-KcNmbPe8WUmY6odENR6p7i1R"
+	]
+  },
+  "options": {
+	"line_separator": "_\n"
+  },
+  "mode": "entity",
+  "metadata": {
+    "entities": {
+      "handler": "gsheet",
+      "source": "https://docs.google.com/spreadsheets/d/1Ql3fP75LndFS4eCMwDRbhllJHpqauoivfmJpmIXr8yY/edit?usp=sharing"
+    },
+    "contacts" : {
+      "handler": "gsheet",
+      "source": "https://docs.google.com/spreadsheets/d/19_B_1qNrqeLpEwGLJYkPMq8XB9JsC8HfSqfUE0AtaSo/edit?usp=sharing"
+    }
+  },
+  "software": [
+    {
+		"id": "CINES-geonetwork",
+		"type": "output",
+		"software_type": "geonetwork",
+		"parameters": {
+			"url": "{{GEONETWORK_URL}}",
+			"user": "{{GEONETWORK_USER}}",
+			"pwd": "{{GEONETWORK_PASSWORD}}",
+			"version": "4.2.0",
+			"logger": "DEBUG"
+		}
+    },
+    {
+        "id": "CINES-geoserver",
+        "type": "output",
+        "software_type": "geoserver",
+        "parameters": {
+			"url": "{{GEOSERVER_URL}}",
+			"user": "{{GEOSERVER_USER}}",
+			"pwd": "{{GEOSERVER_PASSWORD}}",
+			"logger": "DEBUG"
+        },
+      "properties" : {
+			"workspace": "IHSM",
+			"store": "MIKAROKA"
+      }
+    },
+		{
+		"id": "googledrive",
+		"type": "input",
+		"software_type": "googledrive",
+		"parameters": {
+			"email": "{{GMAIL_USER}}",
+			"token": ""
+		},
+		"properties" : {}
+	}
+  ],
+  "actions": [
+	{
+      "id": "geometa-create-iso-19115",
+	  "options": {
+		"logo": true
+	  },
+      "run": true
+    },
+{
+	  "id": "geonapi-publish-iso-19139",
+	  "run": true,
+	  "options": {
+		"geometa_inspire": false
+	  }
+	},
+	{
+	  "id": "geosapi-publish-ogc-services",
+	  "run": true,
+	  "options" : {
+	    "createWorkspace": true,
+	    "createStore": true
+	  }
+	}
+  ]
+}
+
