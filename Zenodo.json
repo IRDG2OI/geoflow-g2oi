@@ -1,0 +1,49 @@
+{
+  "profile": {
+    "id": "zenodo",
+    "name": "Zenodo",
+  	"project": "Test Zenodo from Geoflow",
+  	"organization": "IRD",
+  	"logos": [
+  		"https://en.ird.fr/sites/ird_fr/files/2019-08/logo_IRD_2016_BLOC_UK_COUL.png"
+  	],
+  	"mode": "entity"
+  },
+  "metadata": {
+    "entities": [
+      {
+        "handler": "gsheet",
+        "source": "https://docs.google.com/spreadsheets/d/1wTyq-2sJgdvpTzE4309Lyo1vOac7uIb1dMeHEfKcqbg/edit?usp=sharing"
+      }
+    ],
+    "contacts" : [
+      {
+        "handler": "gsheet",
+        "source": "{{METADATA_CONTACTS}}"
+      }
+    ]
+  },
+  "software": [
+    {
+  		"id": "my-zenodo",
+		  "type": "output",
+		  "software_type": "zenodo",
+		  "parameters": {
+    		"url": "https://sandbox.zenodo.org/api",
+    		"token": "{{ ZENODO_SANDBOX_TOKEN }}",
+    		"logger": "DEBUG"
+		  },
+		  "properties": {
+		    "clean": {
+		      "run": true
+		    }
+		  }
+		}
+  ],
+  "actions": [
+    {
+      "id": "zen4R-deposit-record",
+      "run": true
+    }
+  ]
+}
