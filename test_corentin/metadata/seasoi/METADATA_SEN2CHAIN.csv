@@ -1,0 +1,22 @@
+Identifier,Title,Description,Subject,Creator,Date,Type,Language,SpatialCoverage,TemporalCoverage,Format,Relation,Rights,Provenance,Data
+id:tiles_S2CHAIN,title: Localisation de l'ensemble des tuiles Sentinel 2 dans l'Océan indien en lien avec les séries des 8 d'indices radiométriques générés par Sen2Chain.,"abstract:Dans le cadre des activités en télédétection de l'UMR Espace-DEV, la station SEAS-OI, station de recherche et d’expertise en télédétection localisée à St Pierre (974), enregistre depuis 2015 de façon régulière les images brutes des satellites Sentinel-2 sur certaines zones du sud-ouest de l'Océan Indien acquises par l'ESA dans le cadre du programme Copernicus. L’UMR Espace- DEV hébergé à SEAS-OI a développé avec le CNES, la chaîne de traitement Sen2chain qui permet le calcul des produits Sentinel-2, L1C et L2A, ainsi que le calcul de huit indices environnementaux. 
+Les séries d’indices environnementaux calculés par Sen2Chain depuis 2015 présentent un grand intérêt pour le suivi et l’observation du territoire dans la zone du sud-ouest de l’Océan Indien pour des projets scientifiques ou institutionnels en lien avec l'écologie de la santé (SENS2MALARIA), le changement climatique et la gestion des risques naturels associés dans la région du sud ouest de l'océan Indien (projet RenovRisk et la chaîne de traitement sur l’analyse des changements Sen2Change).
+La couche au format shape permet de localiser et d'accéder aux jeux de données des 5 indices calculés par Sen2chain: NDVI, NDWIGAO, NDWI , NDWIMCF, IRECI, NDRE. Ces indices sont calculés par la chaine de traitement Sen2Chain depuis le septembre 2015 jusqu'à maintenant sur l'ensemble de la zone de l'Océan Indien. Le lien vers ces jeux  de données s'effectue par l'interface cartographique et le champ metadata et DOI qui donne accés à la fiche de métadonnées et aux jeux de données._","theme[General]:G2OI,occupation du sol, télédétection, NDVI,Indice,NDWIGAO, NDWI , NDWIMCF, IRECI, NDRE _
+theme[Geographic]:La Réunion, Maurice, Madagascar,Comores,Seychelles,Océan Indien","pointOfContact:contact@seas-oi.org,pascal.mouquet@ird.fr, christophe.revillion@ird.fr,vincent.herbreteau@ird.fr_
+publisher:corentin.souton@ird.fr_
+metadata:benjamin.robert@ird.fr","publication:2022-07-04_
+edition:2022-07-04",dataset,fra,,2015-09-20/2022-06-05,distribution:application/zip[ESRI Shapefile (zipped)],"thumbnail:logo@https://www.espace-dev.fr/wp-content/uploads/2020/03/Logo-Espace-Dev-coul.txt-copie.png_
+thumbnail:logo@http://www.seas-oi.org/image/layout_set_logo?img_id=16402&t=1653032230879_
+http:sen2extract[site web consultation des indices ]@http://indices.seas-oi.org/sen2extract/_
+http:[site copernicus sentinel-2]@https://sentinels.copernicus.eu/web/sentinel/missions/sentinel-2_
+http:[site tuiles sentinel-2]@https://eatlas.org.au/data/uuid/f7468d15-12be-4e3f-a246-b2882a324f59_
+http:[Metadonnées tuiles sentinel-2]https://eatlas.org.au/geonetwork/srv/eng/catalog.search#/metadata/f7468d15-12be-4e3f-a246-b2882a324f59_
+http:[site téléchargementtuiles sentinel-2]https://sentinel.esa.int/web/sentinel/missions/sentinel-2/data-products","useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
+accessConstraint:otherRestrictions_
+useConstraint:intellectualPropertyRights_
+otherConstraint:other constraints to highlight.","statement:La chaîne de traitement Sen2Chain utilise le KML fournit par l'ESA. A partir de ce KML, un shape est généré pour les zones couvertes dans la zone de l'Océan Indien pour l'ensemble des indices fourniés par Sen2Chain.
+Nous avons sélectoios depuis le shape de Sen2Chain les tuiles correspondant à la zone dinterêt du sud ouest de l'Océan Indien. Pour chaque tuile , nous retrouvons le lien vers la métadonnées et le DOI lorsque la donnée est présente. Un champ metadata et un champ DOI permettent d'accéder aux jeux de données correspondants.","access:default_
+source:/home/csouton/Documents/geoflow/test_corentin/data/seasoi/niv1_tuiles_total.zip_
+sourceType:shp_
+uploadSource:niv1_tuiles_total.shp_
+uploadType:shp"

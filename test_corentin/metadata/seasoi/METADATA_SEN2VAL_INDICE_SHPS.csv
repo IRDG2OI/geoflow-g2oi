@@ -1,0 +1,44 @@
+Identifier,Title,Description,Subject,Creator,Date,Type,Language,SpatialCoverage,TemporalCoverage,Format,Relation,Rights,Provenance,Data
+S2_NDVI,title:Cartographie de l'indice normalisé NDVI sur la zone du sud ouest de l'Océan indien,abstract:Les séries de cartes proviennent de la chaîne de traitement SENS2CHAIN développé par le CNES et ESPACE DEV.L'indice NDVI est produit pour différents programmes d'observation du territoire (SENS2MALARIA RENOVRISK). La disponibilité temporelle et géographique des images et des indices calculeé est issue des programmes scientifiques en cours ou passés des images SENTINEL2 utilisant les images SENTINEL2. format=10m_,"theme[General]:G2OI,occupation du sol, télédétection, La Réunion, Maurice, Madagascar,Comores,Seychelles, NDVI,Sen2Chain,Sentinel-2","pointOfContact:benjamin.robert@ird.fr,pascal.mouquet@ird.fr_
+metadata:benjamin.robert@ird.fr","publication:2021-12-07_
+edition:2021-12-07",map,fra,,2015-10/2021-12,distribution:application/zip[ESRI Shapefile (zipped)],"http:website@https://en.ird.fr/node/8770_
+http:framagit[sen2extract@https://framagit.org/espace-dev/sen2extract","useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
+accessConstraint:otherRestrictions_
+useConstraint:intellectualPropertyRights_
+otherConstraint:other constraints to highlight.",statement:La carte est issue de la chaîne de traitement SENS2CHAIN développé par l'UMR ESPACE DEV et disponible sur le git (https://framagit.org/espace-dev/sen2chain.git) à partir des images Sentinel2 disponibles gratuitement._,"access:default_
+source:/home/csouton/Documents/geoflow/test_corentin/data/seasoi/niv2_indices_ndvi.zip_
+sourceType:shp_
+uploadSource:niv2_indices_ndvi.shp_
+uploadType:shp"
+S2_NDWIGAO,title:Cartographie de l'indice normalisé NDWIGAO (Water Index by Normalized Difference Gao method) sur la zone du sud ouest de l'Océan indien,abstract:Les séries de cartes proviennent de la chaîne de traitement SENS2CHAIN développé par le CNES et ESPACE DEV.L'indice NDWIGAO est produit pour différents programmes d'observation du territoire (SENS2MALARIA RENOVRISK). La disponibilité temporelle et géographique des images et des indices calculeé est issue des programmes scientifiques en cours ou passés des images SENTINEL2. format=10m_,"theme[General]:G2OI,occupation du sol, télédétection, La Réunion, Maurice, Madagascar,Comores,Seychelles, NDWIGAO,Sen2Chain,Sentinel-2","pointOfContact:benjamin.robert@ird.fr,pascal.mouquet@ird.fr_
+metadata:benjamin.robert@ird.fr","publication:2021-12-07_
+edition:2021-12-07",map,fra,,2015-10/2021-10,distribution:application/zip[ESRI Shapefile (zipped)],"http:website@https://en.ird.fr/node/8770_
+http:framagit[sen2extract@https://framagit.org/espace-dev/sen2extract","useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
+accessConstraint:otherRestrictions_
+useConstraint:intellectualPropertyRights_
+otherConstraint:other constraints to highlight.",statement:La carte est issue de la chaîne de traitement SENS2CHAIN développé par l'UMR ESPACE DEV et disponible sur le git (https://framagit.org/espace-dev/sen2chain.git) à partir des images Sentinel2 disponibles gratuitement._,"access:default_
+source:/home/csouton/Documents/geoflow/test_corentin/data/seasoi/niv2_indices_ndwigao.zip_
+sourceType:shp_
+uploadSource:niv2_indices_ndwigao.shp_
+uploadType:shp"
+S2_MNNDWI,title:Cartographie de l'indice normalisée (Normalized Difference Water Index (MNNDWI) sur la zone du sud ouest de l'Océan indien,abstract:Les séries de cartes proviennent de la chaîne de traitement SENS2CHAIN développé par le CNES et ESPACE DEV. L'indice MNDWi est produit pour différents programmes d'observation du territoire (SENS2MALARIA  RENOVRISK). La disponibilité temporelle et géographique des images et des indices calculeé est issue des programmes scientifiques en cours ou passés des images SENTINEL2. format=10m_,"theme[General]:G2OI occupation du sol
+ télédétection
+ La Réunion
+ Maurice
+ Madagascar
+Comores
+Seychelles
+ NDWI
+Sentinel-2
+Sens2Chain
+","pointOfContact:benjamin.robert@ird.fr,pascal.mouquet@ird.fr_
+metadata:benjamin.robert@ird.fr","publication:2021-12-07_
+edition:2021-12-07",map,fra,"SRID=4326;POLYGON((38.9998065220000285 3.6109941689999800, 64.0493030750000685 -3.6109941689999800, 64.0493030750000685 26.3076964309999539, 38.9998065220000285 3.6109941689999800))",2015-10/2021-10,distribution:application/zip[ESRI Shapefile (zipped)],"http:website@https://en.ird.fr/node/8770_
+http:framagit[sen2extract@https://framagit.org/espace-dev/sen2extract","useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
+accessConstraint:otherRestrictions_
+useConstraint:intellectualPropertyRights_
+otherConstraint:other constraints to highlight.",statement:La carte est issue de la chaîne de traitement SENS2CHAIN développé par l'UMR ESPACE DEV et disponible sur le git (https://framagit.org/espace-dev/sen2chain.git) à partir des images Sentinel2 disponibles gratuitement._,"access:default_
+source:/home/csouton/Documents/geoflow/test_corentin/data/seasoi/niv2_indices_mndwi.zip_
+sourceType:shp_
+uploadSource:niv2_indices_mndwi.shp_
+uploadType:shp"

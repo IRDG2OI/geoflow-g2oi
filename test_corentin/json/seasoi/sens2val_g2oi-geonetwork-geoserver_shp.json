@@ -1,0 +1,81 @@
+{
+  "profile": {
+  "id": "1026_sens2val_local_shp",
+	"project": "geoflow - Sens2Val",
+	"name": "Fiche metadonnée niv.1",
+	"organization": "G2OI",
+  	"logos": [
+  		  		"https://drive.google.com/uc?id=16D4qCIKtRBD94-wOcMfM1HcA9c6uKM50",
+  		  		"https://www.espace-dev.fr/wp-content/uploads/2020/03/Logo-Espace-Dev-coul.txt-copie.png",
+  		  		"https://en.ird.fr/sites/ird_fr/files/2019-08/logo_IRD_2016_BLOC_UK_COUL.png"
+  	],
+  	  "mode": "entity",
+  	  "options": {
+	      "line_separator": "_\n"
+      }
+  },
+  "metadata": {
+    "entities": [
+      {
+        "handler": "csv",
+        "source": "test_corentin/metadata/seasoi/METADATA_SEN2CHAIN.csv"
+      }
+    ]
+  },
+ "software": [
+    {
+		"id": "marbec-geonetwork",
+		"type": "output",
+		"software_type": "geonetwork",
+		"parameters": {
+			"url": "{{GEONETWORK_UNIV_URL}}",
+			"user": "{{GEONETWORK_UNIV_USER}}",
+			"pwd": "{{GEONETWORK_UNIV_PASSWORD}}",
+			"version": "4.0.6",
+			"logger": "DEBUG"
+		}
+    },
+    	{
+		"id": "googledrive",
+		"type": "input",
+		"software_type": "googledrive",
+		"parameters": {
+    "email": "{{GMAIL_USER}}",
+			"token": "4/1AX4XfWgZXsSn1xRoiPDDQE4hzPNWsVcTKlJv-R5c_in9WCsS3kVJkXjNwp4"
+		},
+		"properties" : {}
+	},
+  {
+        "id": "my-geoserver",
+        "type": "output",
+        "software_type": "geoserver",
+        "parameters": {
+            "url": "{{GEOSERVER_UNIV_URL}}",
+            "user": "{{GEOSERVER_USER}}",
+            "pwd": "{{GEOSERVER_PWD}}",
+            "logger": "DEBUG"
+        },
+        "properties" : {
+            "workspace": "myshp",
+            "store": "sen2chain"
+        }
+  }
+  ],
+"actions": [
+    {
+      "id": "geometa-create-iso-19115",
+      "options" : {
+        "logo": true
+      },
+      "run": true
+    },
+        {
+      "id": "geonapi-publish-iso-19139",
+      "run" : true
+	   },
+        {
+      "id": "geosapi-publish-ogc-services",
+      "run" : true
+    }
+	]
+}

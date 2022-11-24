@@ -1,3 +1,14 @@
 LICENSE
 .env*
 jobs
+.RData
+.Rhistory
+.Rproj.user
+doc
+geoflow-shiny-main
+geoflow-shiny
+geoflow.RData
+geoflow.Rproj
+geoflowtoken
+job.json
+logs
