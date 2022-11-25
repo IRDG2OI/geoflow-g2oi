@@ -41,4 +41,4 @@ executeWorkflow("/path/to/geoflow-g2oi/config.json")
 * /!\ When you make change to your `.env` you need to reload the file with content available in part 3 of this readme.
 
 * Note:
-These configs files use [![GeoFlow](https://zenodo.org/badge/DOI//10.5281/zenodo.3138920.svg)](https://doi.org//10.5281/zenodo.3138920) from [![GeoFlow Repository](https://github.com/eblondel/geoflow)]
+These configs files use [![GeoFlow](https://zenodo.org/badge/DOI//10.5281/zenodo.3138920.svg)](https://doi.org//10.5281/zenodo.3138920) from [GeoFlow Repository](https://github.com/r-geoflow/geoflow)
