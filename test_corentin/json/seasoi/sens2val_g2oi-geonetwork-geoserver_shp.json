@@ -1,8 +1,8 @@
 {
   "profile": {
-  "id": "1026_sens2val_local_shp",
+  "id": "1026_sens2val_tuiles_total_shp",
 	"project": "geoflow - Sens2Val",
-	"name": "Fiche metadonnée niv.1",
+	"name": "Fiche metadonnée niv.1 par tuiles du projet",
 	"organization": "G2OI",
   	"logos": [
   		  		"https://drive.google.com/uc?id=16D4qCIKtRBD94-wOcMfM1HcA9c6uKM50",

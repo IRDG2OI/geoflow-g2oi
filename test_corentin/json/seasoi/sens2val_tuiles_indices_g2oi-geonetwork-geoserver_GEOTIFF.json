@@ -1,8 +1,8 @@
 {
   "profile": {
-  "id": "1027_sens2val_indices_shp",
+  "id": "1125_sens2val_tuiles_shp",
 	"project": "geoflow - Sens2Val",
-	"name": "Fiche metadonnée niv.1 par indices",
+	"name": "Fiche metadonnée niv.2 des tuiles",
 	"organization": "G2OI",
   	"logos": [
   		  		"https://drive.google.com/uc?id=16D4qCIKtRBD94-wOcMfM1HcA9c6uKM50",
@@ -17,7 +17,7 @@
   "metadata": {
     "entities": {
       "handler": "gsheet",
-      "source": "https://docs.google.com/spreadsheets/d/1rdc0y53Z8L6BMfS2EzAoGFd52fBo2gpNxkYjJM7TFoM/edit?usp=sharing"
+      "source": "https://docs.google.com/spreadsheets/d/1ZowjKB7W103Tio9TxPDMXmxHejlWcA8izGEE9aHdLcE/edit?usp=sharing"
     },
     "contacts" : {
       "handler": "gsheet",
@@ -58,8 +58,8 @@
             "logger": "DEBUG"
         },
         "properties" : {
-            "workspace": "G2OImyshp",
-            "store": "sen2chain"
+            "workspace": "totoche",
+            "store": "passe_ortho"
         }
   }
   ],
