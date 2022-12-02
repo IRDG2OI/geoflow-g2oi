@@ -5,7 +5,7 @@
 	  "project": "Geoflow project to publish Sen2Chain metadata",
 	  "organization": "IRD",
 	  "environment": {
-        "file": "/home/sylvain/Documents/IRD/geoflow/geoflow-g2oi/.env",
+        "file": ".env",
         "hide_env_vars": ["*"]
         },
 	  "logos": [
