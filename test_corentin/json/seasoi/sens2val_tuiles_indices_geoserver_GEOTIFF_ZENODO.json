@@ -1,23 +1,21 @@
 {
   "profile": {
-  "id": "1026_sens2val_tuiles_total_shp",
+  "id": "1125_sens2val_tuiles_indices_dataset",
 	"project": "geoflow - Sens2Val",
-	"name": "Fiche metadonnée niv.1 par tuiles du projet",
+	"name": "Fiche metadonnée niv.3 des tuiles-indices",
 	"organization": "G2OI",
   	"logos": [
-  		  		"https://drive.google.com/uc?id=16D4qCIKtRBD94-wOcMfM1HcA9c6uKM50",
-  		  		"https://www.espace-dev.fr/wp-content/uploads/2020/03/Logo-Espace-Dev-coul.txt-copie.png",
-  		  		"https://en.ird.fr/sites/ird_fr/files/2019-08/logo_IRD_2016_BLOC_UK_COUL.png"
-  	]
-  },
+  		  		"https://drive.google.com/uc?id=1rOoQUX82i3eR3KBGz3mmMzgvJceo_wjl"
+  	],
   	  "mode": "entity",
   	  "options": {
 	      "line_separator": "_\n"
-      },
+      }
+  },
   "metadata": {
     "entities": {
       "handler": "gsheet",
-      "source": "https://docs.google.com/spreadsheets/d/1f-3JJkDQaSU5MkaaNaAWZpIUr4JCVujE7GgOoZgReHk/edit?usp=sharing"
+      "source": "https://docs.google.com/spreadsheets/d/1ZowjKB7W103Tio9TxPDMXmxHejlWcA8izGEE9aHdLcE/edit?usp=sharing"
     },
     "contacts" : {
       "handler": "gsheet",
@@ -58,10 +56,25 @@
             "logger": "DEBUG"
         },
         "properties" : {
-            "workspace": "G2OImyshp",
-            "store": "sen2chain"
+            "workspace": "totoche",
+            "store": "passe_ortho"
         }
-  }
+  },
+      {
+  		"id": "my-zenodo",
+		  "type": "output",
+		  "software_type": "zenodo",
+		  "parameters": {
+    		"url": "https://sandbox.zenodo.org/api",
+    		"token": "{{ ZENODO_SANDBOX_TOKEN }}",
+    		"logger": "DEBUG"
+		  },
+		  "properties": {
+		    "clean": {
+		      "run": false
+		    }
+		  }
+		}
   ],
 "actions": [
     {
@@ -78,6 +91,12 @@
         {
       "id": "geosapi-publish-ogc-services",
       "run" : true
+    },
+    {
+      "id": "zen4R-deposit-record",
+      "depositWithFiles": true,
+      "publish":true,
+      "run": true
     }
 	]
 }

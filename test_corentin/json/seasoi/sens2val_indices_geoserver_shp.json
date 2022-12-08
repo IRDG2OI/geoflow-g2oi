@@ -1,13 +1,11 @@
 {
   "profile": {
-  "id": "1125_sens2val_tuiles_shp",
+  "id": "1027_sens2val_indices_shp",
 	"project": "geoflow - Sens2Val",
-	"name": "Fiche metadonnée niv.2 des tuiles",
+	"name": "Fiche metadonnée niv.1 par indices",
 	"organization": "G2OI",
   	"logos": [
-  		  		"https://drive.google.com/uc?id=16D4qCIKtRBD94-wOcMfM1HcA9c6uKM50",
-  		  		"https://www.espace-dev.fr/wp-content/uploads/2020/03/Logo-Espace-Dev-coul.txt-copie.png",
-  		  		"https://en.ird.fr/sites/ird_fr/files/2019-08/logo_IRD_2016_BLOC_UK_COUL.png"
+  		  		"https://drive.google.com/uc?id=1rOoQUX82i3eR3KBGz3mmMzgvJceo_wjl"
   	],
   	  "mode": "entity",
   	  "options": {
@@ -17,7 +15,7 @@
   "metadata": {
     "entities": {
       "handler": "gsheet",
-      "source": "https://docs.google.com/spreadsheets/d/1ZowjKB7W103Tio9TxPDMXmxHejlWcA8izGEE9aHdLcE/edit?usp=sharing"
+      "source": "https://docs.google.com/spreadsheets/d/1rdc0y53Z8L6BMfS2EzAoGFd52fBo2gpNxkYjJM7TFoM/edit?usp=sharing"
     },
     "contacts" : {
       "handler": "gsheet",
@@ -58,8 +56,8 @@
             "logger": "DEBUG"
         },
         "properties" : {
-            "workspace": "totoche",
-            "store": "passe_ortho"
+            "workspace": "G2OImyshp",
+            "store": "sen2chain"
         }
   }
   ],
