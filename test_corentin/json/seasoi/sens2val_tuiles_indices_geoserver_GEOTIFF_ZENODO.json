@@ -56,8 +56,8 @@
             "logger": "DEBUG"
         },
         "properties" : {
-            "workspace": "totoche",
-            "store": "passe_ortho"
+            "workspace": "SEASOI",
+            "store": "sen2val_nc"
         }
   },
       {
@@ -90,13 +90,15 @@
 	   },
         {
       "id": "geosapi-publish-ogc-services",
+      "createWorskpace": true,
+      "createStore": true,
       "run" : true
     },
     {
       "id": "zen4R-deposit-record",
       "depositWithFiles": true,
       "publish":true,
-      "run": true
+      "run": false
     }
 	]
 }
