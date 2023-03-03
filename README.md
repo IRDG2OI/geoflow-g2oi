@@ -33,4 +33,4 @@ executeWorkflow("/path/to/geoflow-g2oi/config.json")
 ```
 
 * Note:
-These configs files use [![GeoFlow](https://zenodo.org/badge/DOI//10.5281/zenodo.3138920.svg)](https://doi.org//10.5281/zenodo.3138920) from [[GeoFlow Repository](https://github.com/r-geoflow/geoflow)]
+These configs files use [![GeoFlow](https://zenodo.org/badge/DOI//10.5281/zenodo.3138920.svg)](https://doi.org//10.5281/zenodo.3138920) from [GeoFlow Repository](https://github.com/r-geoflow/geoflow)
