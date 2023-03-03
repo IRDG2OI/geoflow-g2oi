@@ -25,7 +25,7 @@
     ],
     "contacts" : [
       {
-        "handler": "csv",
+        "handler": "excel",
         "source": "https://drive.ird.fr/s/EaJ5qJ84GJdAS5r/download/geoflow_g2oi_contacts.xlsx"
       }
     ]

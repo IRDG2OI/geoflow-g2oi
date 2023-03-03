@@ -5,7 +5,7 @@
   	"project": "FMR",
   	"organization": "IRD",
 	  "environment": {
-        "file": ".env",
+        "file": ".envseasoi",
         "hide_env_vars": ["MOTDEPASSE"]
         },  	
   	"logos": [

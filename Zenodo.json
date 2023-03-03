@@ -4,6 +4,10 @@
     "name": "Zenodo",
   	"project": "Test Zenodo from Geoflow",
   	"organization": "IRD",
+	  "environment": {
+        "file": ".env",
+        "hide_env_vars": ["MOTDEPASSE"]
+        },   	
   	"logos": [
   		"https://en.ird.fr/sites/ird_fr/files/2019-08/logo_IRD_2016_BLOC_UK_COUL.png"
   	],
@@ -18,8 +22,8 @@
     ],
     "contacts" : [
       {
-        "handler": "gsheet",
-        "source": "{{METADATA_CONTACTS}}"
+        "handler": "excel",
+        "source": "https://drive.ird.fr/s/tfQxYSBtio2nK9n/download/geoflow_g2oi_contacts.xlsx"
       }
     ]
   },
@@ -35,7 +39,7 @@
 		  },
 		  "properties": {
 		    "clean": {
-		      "run": true
+		      "run": false
 		    }
 		  }
 		}
@@ -43,7 +47,12 @@
   "actions": [
     {
       "id": "zen4R-deposit-record",
-      "run": true
+      "update_files": true,
+      "depositWithFiles": true,
+      "publish": true,
+      "run": true,
+      "strategy": "edit",
+      "deleteOldFiles": false
     }
   ]
 }
