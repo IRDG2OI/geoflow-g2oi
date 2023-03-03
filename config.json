@@ -1,16 +1,20 @@
 {
   "profile": {
     "id": "{{WORKFLOW_ID}}",
-    "name": "{{WORKFLOW_NAME}}",
-	  "project": "{{WORKFLOW_PROJECT}}",
-	  "organization": "{{WORKFLOW_ORG}}",
-	  "logos": [
-		  "{{LOGO1}}",
-		  "{{LOGO2}}"
-	  ],
-	  "mode": "entity",
-	  "options": {
-	    "line_separator": "{{LINE_SEPARATOR}}"
+    "name": "{{WORKFLOW_NAME}}"
+          "project": "{{WORKFLOW_PROJECT}}",
+          "organization": "{{WORKFLOW_ORG}}",
+          "environment": {
+              "file": ".env",
+              "hide_env_vars": ["*"]
+          },
+          "logos": [
+                  "{{LOGO1}}",
+                  "{{LOGO2}}"
+          ],
+          "mode": "entity",
+          "options": {
+            "line_separator": "{{LINE_SEPARATOR}}"
     }
   },
   "metadata": {
@@ -29,7 +33,7 @@
   },
   "software": [
 	{
-		"id": "220801-geonetwork",
+		"id": "230301-geonetwork",
 		"type": "output",
 		"software_type": "geonetwork",
 		"parameters": {
@@ -48,9 +52,9 @@
 			"email": "{{GMAIL_USER}}"
 		},
 		"properties" : {}
-	},    
+	},
 	{
-		"id": "220801-geoserver",
+		"id": "230301-geoserver",
 		"type": "output",
 		"software_type": "geoserver",
 		"parameters": {
@@ -66,26 +70,26 @@
   ],
   "actions": [
 	{
-      "id": "geometa-create-iso-19115",
-	  "options": {
+         "id": "geometa-create-iso-19115",
+             "options": {
 		"logo": true
-	  },
+        },
       "run": true
     },
 	{
-	  "id": "geonapi-publish-iso-19139",
+         "id": "geonapi-publish-iso-19139",
       "run" : true,
-      	     "options" : {
-	   "group":"{{GROUP}}"
-	   }
+             "options" : {
+           "group":"{{GROUP}}"
+           }
 	},
 	{
-	  "id": "geosapi-publish-ogc-services",
-	  "run": true,
-	  "options" : {
-	    "createWorkspace": true,
-	    "createStore": true
-	  }
+          "id": "geosapi-publish-ogc-services",
+          "run": true,
+          "options" : {
+            "createWorkspace": true,
+            "createStore": true
+           }
 	}
   ]
 }
