@@ -1,6 +1,6 @@
 # GEOFLOW CONFIGS
 
-# USAGE 
+# USAGE
 
 1) Clone repository:
 ```
@@ -30,6 +30,21 @@ git checkout $USER # Switch to $USER branch
 ```
 library(geoflow) # Load geoflow inside R
 executeWorkflow("/path/to/geoflow-g2oi/config.json")
+```
+
+
+
+# Required software installation
+
+To use this project , some R library are needed, below is a sample R script to install it:
+(replace 16 by your numbers of vCores)
+
+```
+require("remotes")
+packagithub <- c("eblondel/zen4R", "eblondel/geometa", "eblondel/geosapi", "eblondel/geonapi", "eblondel/ows4R", "eblondel/atom4R", "eblondel/geonode4R", "r-geoflow/geoflow")
+options(Ncpus = 16)
+getOption("Ncpus", 1L)
+install_github(setdiff(packagithub, rownames(installed.packages())), upgrade = c("never"), force=TRUE)
 ```
 
 * Note:
