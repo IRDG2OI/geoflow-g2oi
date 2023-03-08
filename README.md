@@ -32,6 +32,7 @@ library(geoflow) # Load geoflow inside R
 executeWorkflow("/path/to/geoflow-g2oi/config.json")
 ```
 
+<<<<<<< HEAD
 
 
 # Required software installation
@@ -47,5 +48,7 @@ getOption("Ncpus", 1L)
 install_github(setdiff(packagithub, rownames(installed.packages())), upgrade = c("never"), force=TRUE)
 ```
 
+=======
+>>>>>>> 0e86b9d382b75f1746f32933fb64a932625d574c
 * Note:
-These configs files use [![GeoFlow](https://zenodo.org/badge/DOI//10.5281/zenodo.3138920.svg)](https://doi.org//10.5281/zenodo.3138920) from [![GeoFlow Repository](https://github.com/eblondel/geoflow)]
+These configs files use [![GeoFlow](https://zenodo.org/badge/DOI//10.5281/zenodo.3138920.svg)](https://doi.org//10.5281/zenodo.3138920) from [GeoFlow Repository](https://github.com/r-geoflow/geoflow)
