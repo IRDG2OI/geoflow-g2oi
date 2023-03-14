@@ -1,13 +1,12 @@
 {
   "profile": {
-    "id": "0930-eobs-metadata",
+    "id": "0306-eobs-metadata",
     "name": "Fiche metadonnée depuis vue eobs",
   	"project": "eobs",
   	"organization": "G2OI",
   	"logos": [
-  		  		"https://drive.google.com/uc?id=16D4qCIKtRBD94-wOcMfM1HcA9c6uKM50",
-  		  		"https://www.espace-dev.fr/wp-content/uploads/2020/03/Logo-Espace-Dev-coul.txt-copie.png",
-  		  		"https://en.ird.fr/sites/ird_fr/files/2019-08/logo_IRD_2016_BLOC_UK_COUL.png"
+  		  		"{{LOGO_G2OI}}", 
+  		  		"{{LOGO_OSUR}}"
   	],
   	"mode": "entity",
   	"options": {
@@ -15,12 +14,15 @@
     }
   },
   "metadata": {
-    "entities": [
+    "entities":
       {
       "handler": "dbi",
       "source": "SELECT \"Identifier\",\"Title\",\"Description\",\"Subject\",\"Creator\",\"Date\",\"Type\",\"Language\",\"SpatialCoverage\",\"TemporalCoverage\",\"Format\",\"Relation\",\"Rights\",\"Provenance\", NULL AS \"Data\" FROM public.geoflow_metadata LIMIT 3"
-      }
-    ]
+      }, 
+      "contacts" : {
+      "handler": "{{METADATA_CONTACTS_HANDLER}}",
+      "source": "{{METADATA_CONTACTS}}"
+    }
   },
   "software": [
     {
@@ -47,13 +49,13 @@
 		"properties" : {}
 	},
     {
-		"id": "marbec-geonetwork",
+		"id": "g2oi-geonetwork",
 		"type": "output",
 		"software_type": "geonetwork",
 		"parameters": {
-			"url": "{{GEONETWORK_URL}}",
-			"user": "{{GEONETWORK_USER}}",
-			"pwd": "{{GEONETWORK_PASSWORD}}",
+			"url": "{{GEONETWORK_UNIV_URL}}",
+			"user": "{{GEONETWORK_UNIV_USER}}",
+			"pwd": "{{GEONETWORK_UNIV_PASSWORD}}",
 			"version": "4.2.0",
 			"logger": "DEBUG"
 		}

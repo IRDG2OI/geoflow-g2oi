@@ -1,8 +1,7 @@
 {
   "profile": {
-    "id": "constellation",
-    "mode": "entity",
-  	"project": "Constellation",
+    "id": "homisland",
+  	"project": "Homisland",
   	"organization": "G2OI",
   	"logos": [
   	        "https://drive.google.com/uc?id=1_wgT7WVSN6LNt9KmpoJCUrwTsV1Hhx8a",
@@ -10,41 +9,42 @@
   		  		"https://www.espace-dev.fr/wp-content/uploads/2020/03/Logo-Espace-Dev-coul.txt-copie.png",
   		  		"https://drive.google.com/uc?id=1rOoQUX82i3eR3KBGz3mmMzgvJceo_wjl"
   	],
+  	"mode": "entity",
   	"options": {
   	  "line_separator": "_\n"
     }
   },
   "metadata": {
-    "entities":
+    "entities": 
       {
-      "handler": "gsheet",
-      "source": "https://docs.google.com/spreadsheets/d/1b9R_jTZSuUENfbxAHgdkZ_5qERSt-vaA25SHSMqxxtk/edit#gid=0"
+      "handler": "csv",
+      "source": "test_corentin/metadata/seasoi/METADATA_HOMISLANDv2.csv"
       },
-    "contacts" : {
+      "contacts" : {
       "handler": "{{METADATA_CONTACTS_HANDLER}}",
       "source": "{{METADATA_CONTACTS}}"
     }
   },
-"software": [
+  "software": [
     {
-		"id": "constellation-geonetwork",
+		"id": "homisland-geonetwork",
 		"type": "output",
 		"software_type": "geonetwork",
 		"parameters": {
 			"url": "{{GEONETWORK_UNIV_URL}}",
 			"user": "{{GEONETWORK_USER}}",
 			"pwd": "{{GEONETWORK_PWD}}",
-			"version": "4.0.6",
+			"version": "4.2.1",
 			"logger": "DEBUG"
 		}
-    },
+	},
     	{
 		"id": "googledrive",
 		"type": "input",
 		"software_type": "googledrive",
 		"parameters": {
     "email": "{{GMAIL_USER}}",
-			"token": ""
+			"token": "4/1AX4XfWgZXsSn1xRoiPDDQE4hzPNWsVcTKlJv-R5c_in9WCsS3kVJkXjNwp4"
 		},
 		"properties" : {}
 	}
@@ -59,7 +59,7 @@
     },
         {
       "id": "geonapi-publish-iso-19139",
-       "run" : true
+      "run" : true
 	   }
   ]
 }

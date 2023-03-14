@@ -17,21 +17,21 @@
       "handler": "gsheet",
       "source": "https://docs.google.com/spreadsheets/d/1f-3JJkDQaSU5MkaaNaAWZpIUr4JCVujE7GgOoZgReHk/edit?usp=sharing"
     },
-    "contacts" : {
-      "handler": "gsheet",
-      "source": "https://docs.google.com/spreadsheets/d/1Rp-58n2Czfnm2kFmPuywBujBxlX4VUQdus_C0liod4g/edit?usp=sharing"
+      "contacts" : {
+      "handler": "{{METADATA_CONTACTS_HANDLER}}",
+      "source": "{{METADATA_CONTACTS}}"
     }
   },
  "software": [
     {
-		"id": "CINES-geonetwork",
+		"id": "seasoi-geonetwork",
 		"type": "output",
 		"software_type": "geonetwork",
 		"parameters": {
-			"url": "{{GEONETWORK_CINES_URL}}",
-			"user": "{{GEONETWORK_CINES_USER}}",
-			"pwd": "{{GEONETWORK_CINES_PASSWORD}}",
-			"version": "4.0.6",
+			"url": "{{GEONETWORK_UNIV_URL}}",
+			"user": "{{GEONETWORK_USER}}",
+			"pwd": "{{GEONETWORK_PWD}}",
+			"version": "4.2.1",
 			"logger": "DEBUG"
 		}
     },
@@ -44,22 +44,7 @@
 			"token": ""
 		},
 		"properties" : {}
-	},
-  {
-        "id": "CINES-geoserver",
-        "type": "output",
-        "software_type": "geoserver",
-        "parameters": {
-            "url": "{{GEOSERVER_CINES_URL}}",
-            "user": "{{GEOSERVER_USER}}",
-            "pwd": "{{GEOSERVER_PWD}}",
-            "logger": "DEBUG"
-        },
-        "properties" : {
-            "workspace": "G2OImyshp",
-            "store": "sen2chain"
-        }
-  }
+	}
   ],
 "actions": [
     {
@@ -72,10 +57,6 @@
         {
       "id": "geonapi-publish-iso-19139",
        "run" : true
-	   },
-        {
-      "id": "geosapi-publish-ogc-services",
-      "run" : true
-    }
+	   }
 	]
 }

@@ -1,0 +1,225 @@
+Identifier,Title,Description,Subject,Creator,Date,Type,Language,SpatialCoverage,TemporalCoverage,Format,Relation,Rights,Provenance,Data
+"id:HOMISLAND_EUROPA_
+doi:10.5281/zenodo.2585747",Carte d'occupation du sol de l'île d'Europa,"abstract:Dans le sud-ouest de l'océan Indien, il existe de nombreuses îles de moins de 3000 km²: 
+-l'archipel des Seychelles (avec 115 îles, dont Mahé, la plus grande),
+- l'archipel des Comores (Grande Comore, Mohéli, Anjouan et Mayotte), 
+-les îles Eparses : les îles Glorioso, Juan de Nova, Bassas da India, Europa, île Tromelin,
+- les îles Mascareignes :Réunion, Maurice, Rodrigues). 
+Ces îles ont leurs propres spécificités environnementales et des paysages très fragmentés et diversifiés. Les produits génériques d'occupation du sol existants à partir d'images satellites de basse et moyenne résolution ne sont pas adaptés à l'étude de ces petits territoires. 
+L'UMR Espace DEV a développé un produit d'occupation et d'utilisation des sols, appelé Homisland-IO, basé sur des traitements de télédétection à partir d'images satellites à haute résolution spatiale acquises par le satellite SPOT 5 entre décembre 2012 et juillet 2014 à la station SEAS-OI.
+Ce produit a été réalisé en utilisant un processus de classification basé sur les objets. La précision de la classification est de 93.51 %, calculée à partir d'une matrice de confusion selon l'indice de Kappa. 
+La donnée est au format shape possède 12 classes d'occupation du sol. 
+Homisland-IO est librement accessible via un portail web et est donc disponible pour une utilisation future.","theme[General]:Projet Homisland, Occupation du sol, télédétection, SPOT5, Analyse spatiale, Analyse d'image orientée-objet,Indice de Kappa, petite île_
+theme[Geographic]:Océan Indien,Europa","publisher:christophe.revillion@univ-reunion.fr_
+pointOfContact:christophe.revillion@univ-reunion.fr,attoumane.artadji@ird.fr ,vincent.herbreteau@ird.fr_
+metadata:benjamin.robert@ird.fr","publication:2021-03-22_
+edition:2021-01-01",map,fra,srid:4326,2013-06-24,distribution:application/zip[ESRI Shapefile (zipped)],"thumbnail:Carte de l'occupation du sol d'Europa@https://drive.google.com/uc?id=13kVnY-PV2Ectwq_8RLM9ZhdEOCo3paef_
+thumbnail:Carte de situation d'Europa@https://drive.google.com/uc?id=1WpEo2D_j-ciufP5eS46Awxu7CF0lVmmc_
+thumbnail:Logo UMR Espace Dev@https://www.espace-dev.fr/wp-content/uploads/2020/03/Logo-Espace-Dev-coul.txt-copie.png_
+thumbnail:Logo SEAS-OI@http://www.seas-oi.org/image/layout_set_logo?img_id=16402&t=1653032230879_
+http:Site web du projet Homisland-OI[SEAS-OI Homisland Website]@https://homisland.seas-oi.org/_
+http:[Télécharger le projet QGIS avec les données]@https://drive.google.com/uc?id=1NNx0rbfRdPq_X-m6L4mdTJdW3jwNW_ik_
+http:Lien vers le jeu de données HOMISLAND des 11 îles [DOI DATASET]@https://doi.org/10.5281/zenodo.2585747_
+http:Lien vers l'article scientifique sur HOMISLAND[Homisland-IO: Homogeneous Land Use/Land Cover over the Small Islands of the Indian Ocean]@https://doi.org/10.3390/data4020082_
+http:Matrice de confusion[Télécharger la matrice de confusion au format tableur]@https://docs.google.com/uc?id=1LGg9Chg3ep39ZQYEamc2JV2IjcRD9jvJ","useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
+accessConstraint:otherRestrictions_
+useConstraint:intellectualPropertyRights_
+otherConstraint:other constraints to highlight.",,
+"id:HOMISLAND_COMORES_
+doi:10.5281/zenodo.2585747",Carte d'occupation du sol des îles de la Grande Comore,"abstract:Dans le sud-ouest de l'océan Indien, il existe de nombreuses îles de moins de 3 000 km² : l'archipel des Seychelles (avec 115 îles, dont Mahé, la plus grande), l'archipel des Comores (Grande Comore, Mohéli, Anjouan et Mayotte), les îles Eparses (les îles Glorioso, Juan de Nova, Bassas da India, Europa, île Tromelin), les îles Mascareignes (Réunion, Maurice, Rodrigues). Ces îles ont leurs propres spécificités environnementales et des paysages très fragmentés et très diversifiés. Les produits génériques d'occupation du sol existants à partir d'images satellites de basse et moyenne résolution ne sont pas adaptés à l'étude de ces petits territoires.
+L'UMR Espace DEV a développé un produit d'occupation et d'utilisation des sols, appelé Homisland-IO, basé sur des traitements de télédétection sur des images satellites à haute résolution spatiale acquises par le satellite SPOT 5 entre décembre 2012 et juillet 2014. 
+Ce produit a été réalisé en utilisant un processus de classification basé sur les objets. La précision de la classification est de 77.35 %, calculée à partir d'une matrice de confusion selon l'indice de Kappa. La donnée est au format shape possède 12 classes d'occupation du sol
+Homisland-IO est librement accessible via un portail web et est donc disponible pour une utilisation future.","theme[General]:Projet Homisland, Occupation du sol, télédétection, SPOT5, Analyse spatiale, Analyse d'image orientée-objet, petite île, Indice de Kappa,
+theme[Geographic]:Océan Indien,Comores","publisher:christophe.revillion@univ-reunion.fr_
+pointOfContact:christophe.revillion@univ-reunion.fr,attoumane.artadji@ird.fr,vincent.herbreteau@ird.fr_
+metadata:benjamin.robert@ird.fr","publication:2021-03-22_
+edition:2021-01-01",map,fra,srid:4326,2013-05-30,distribution:application/zip[ESRI Shapefile (zipped)],"thumbnail: Carte de l'occupation du sol de la Grande Comore@https://drive.google.com/uc?id=1ztdaGTElLqD5U58jVhhLgE3gyXIGgtHs_
+thumbnail:Carte de situation de la grande Comore@https://drive.google.com/uc?id=1Ex4qp88OaE9O5Or1ZXIQYeQFcFwMYV0o_
+thumbnail:Logo UMR Espace Dev@https://www.espace-dev.fr/wp-content/uploads/2020/03/Logo-Espace-Dev-coul.txt-copie.png_
+thumbnail:Logo SEAS-OI@http://www.seas-oi.org/image/layout_set_logo?img_id=16402&t=1653032230879_
+http:Site web du projet Homisland-OI[SEAS-OI Homisland Website]@https://homisland.seas-oi.org/_
+http: Projet QGIS[Télécharger le projet QGIS avec les données]@https://drive.google.com/uc?id=12pj-4hORxaN27cwkPlXce-HQYy-dVtsr_
+http: Lien vers le DOI jeu de données HOMISLAND des 11 îles [DOI DATASET]@https://doi.org/10.5281/zenodo.2585747_
+http:Lien vers l'article scientifique sur HOMISLAND[Homisland-IO: Homogeneous Land Use/Land Cover over the Small Islands of the Indian Ocean]@https://doi.org/10.3390/data4020082_
+http:[Matrice de confusion[Télécharger la matrice de confusion au format tableur]]@https://docs.google.com/uc?id=1H7iFBUTuoTq4zVMdHB70TYkO1ENeuCs6","useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
+accessConstraint:otherRestrictions_
+useConstraint:intellectualPropertyRights_
+otherConstraint:other constraints to highlight.",,
+"id:HOMISLAND_ANJOUAN_
+doi:10.5281/zenodo.2585747",Carte d'occupation du sol à Anjouan,"abstract:Dans le sud-ouest de l'océan Indien, il existe de nombreuses îles de moins de 3000 km²: l'archipel des l'archipel des Seychelles (avec 115 îles, dont Mahé, la plus grande), l'archipel des Comores (Grande Comore, Mohéli, Anjouan et Mayotte), les îles Eparses (les îles Glorioso, Juan de Nova, Bassas da India, Europa, île Tromelin), les îles Mascareignes (Réunion, Maurice, Rodrigues). Ces îles ont leurs propres spécificités environnementales et des paysages très fragmentés et diversifiés. Les produits génériques d'occupation du sol existants à partir d'images satellites de basse et moyenne résolution ne L'UMR Espace DEV a développé un produit d'occupation et d'utilisation des sols, appelé Homisland-IO, basé sur des traitements de télédétection sur des images satellites à haute résolution spatiale acquises par le satellite SPOT 5 entre décembre 2012 et juillet 2014.
+ Ce produit a été réalisé en utilisant un processus de classification basé sur les objets.
+La précision de la classification est de 88.7 %, calculée à partir d'une matrice de confusion selon l'indice de Kappa. La donnée est au format shape possède 12 classes d'occupation du sol.
+Homisland-IO est librement accessible via un portail web et est donc disponible pour une utilisation future.","theme[General]:Projet Homisland, Occupation du sol, Télédétection, SPOT5, Analyse spatiale, Analyse d'image orientée-objet, petite île, Indice de Kappa_
+theme[Geographic]: Océan Indien, Comores, Anjouan","publisher:christophe.revillion@univ-reunion.fr_
+pointOfContact:christophe.revillion@univ-reunion.fr,attoumane.artadji@ird.fr ,vincent.herbreteau@ird.fr_
+metadata:benjamin.robert@ird.fr","publication:2021-03-22_
+edition:2021-01-01",map,fra,srid:4326,2014-08-13,distribution:application/zip[ESRI Shapefile (zipped)],"thumbnail:Carte de situation d'Anjouan@https://drive.google.com/uc?id=1x4sb6B2VIjJclJSmljwWy-eSqbLjMNCH_
+thumbnail:Carte de l'occupation du sol de l'île d'Anjouan@https://drive.google.com/uc?id=1zVfx1aUZjzeeSrOXRRsDo8nZrKTjJHQc_
+thumbnail:Logo UMR Espace Dev@https://www.espace-dev.fr/wp-content/uploads/2020/03/Logo-Espace-Dev-coul.txt-copie.png_
+thumbnail:Logo SEAS-OI@http://www.seas-oi.org/image/layout_set_logo?img_id=16402&t=1653032230879_
+http:Site web du projet Homisland-OI[SEAS-OI Homisland Website]@https://homisland.seas-oi.org/_
+http: Lien vers le projet QGIS[Télécharger le projet QGIS avec les données]@https://drive.google.com/uc?id=12SuuQFRALMsh52RXepDsuAMK2wksplji_
+http:Lien vers l'article scientifique sur HOMISLAND[Homisland-IO: Homogeneous Land Use/Land Cover over the Small Islands of the Indian Ocean]@https://doi.org/10.3390/data4020082_
+http: Lien vers le jeu de données HOMISLAND des 11 îles [DOI DATASET]@https://doi.org/10.5281/zenodo.2585747_
+http:Matrice de confusion[Télécharger la matrice de confusion au format tableur]@https://docs.google.com/uc?id=1yv4-D2rW4WECy7HSAhXXiwkkF5Ois5p-","useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
+accessConstraint:otherRestrictions_
+useConstraint:intellectualPropertyRights_
+otherConstraint:other constraints to highlight.",,
+"id:HOMISLAND_MOHELI_
+doi:10.5281/zenodo.2585747",Carte d'occupation du sol de l'île de Mohéli,"abstract:Dans le sud-ouest de l'océan Indien, il existe de nombreuses îles de moins de 3000 km²: l'archipel des Seychelles (avec 115 îles, dont Mahé, la plus grande), l'archipel des Comores (Grande Comore, Mohéli, Anjouan et Mayotte), les îles Eparses (les îles Glorioso, Juan de Nova, Bassas da India, Europa, île Tromelin), les îles Mascareignes (Réunion, Maurice, Rodrigues). Ces îles ont leurs propres spécificités environnementales et des paysages très fragmentés et diversifiés. Les produits génériques d'occupation du sol existants à partir d'images satellites de basse et moyenne résolution ne sont pas adaptés à l'étude de ces petits territoires. 
+L'UMR Espace DEV a développé un produit d'occupation et d'utilisation des sols, appelé Homisland-IO, basé sur des traitements de télédétection sur des images satellites à haute résolution spatiale acquises par le satellite SPOT 5 entre décembre 2012 et juillet 2014.
+ Ce produit a été réalisé en utilisant un processus de classification basé sur les objets. 
+La précision de la classification est de 86.47 %, calculée à partir d'une matrice de confusion selon l'indice de Kappa. 
+La donnée est au format shape possède 12 classes d'occupation du sol
+Homisland-IO est librement accessible via un portail web et est donc disponible pour une utilisation future.","theme[General]:Projet Homisland, Occupation du sol, télédétection, SPOT5, Analyse spatiale,  petite île, Indice de Kappa_
+theme[Geographic]: Océan Indien, Comores, Mohéli","publisher:christophe.revillion@univ-reunion.fr_
+pointOfContact:christophe.revillion@univ-reunion.fr,attoumane.artadji@ird.fr ,vincent.herbreteau@ird.fr_
+metadata:benjamin.robert@ird.fr","publication:2021-03-22_
+edition:2021-01-01",map,fra,srid:4326,2014-12-08,distribution:application/zip[ESRI Shapefile (zipped)],"thumbnail:Carte de l'occupation du sol de Mohéli@https://drive.google.com/uc?id=1dd5YN-qDExsJhYfL9SDJpsf7efQstc1M_
+thumbnail:Carte de situation de Mohéli@https://drive.google.com/uc?id=12_NcXSqD--1v-p50HSOgyPS_mXIl-cD7_
+thumbnail:Logo UMR Espace Dev@https://www.espace-dev.fr/wp-content/uploads/2020/03/Logo-Espace-Dev-coul.txt-copie.png_
+thumbnail:Logo SEAS-OI@http://www.seas-oi.org/image/layout_set_logo?img_id=16402&t=1653032230879_
+http:Site web du projet Homisland-OI[SEAS-OI Homisland Website]@https://homisland.seas-oi.org/_
+http: Projet QGIS[Télécharger le projet QGIS avec les données]@https://drive.google.com/uc?id=1Awf3jEawPSlm8eqINuSm_5CxYFH4pKAo_
+http:Lien vers l'article scientifique sur HOMISLAND[Homisland-IO: Homogeneous Land Use/Land Cover over the Small Islands of the Indian Ocean]@https://doi.org/10.3390/data4020082_
+http: Lien vers le jeu de données HOMISLAND des 11 îles [DOI DATASET]@https://doi.org/10.5281/zenodo.2585747_
+http:Matrice de confusion[Télécharger la matrice de confusion au format tableur]@https://docs.google.com/uc?id=1uFQ7aWt-RZfBNmeT9ekbHxi15aBehcWF","useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
+accessConstraint:otherRestrictions_
+useConstraint:intellectualPropertyRights_
+otherConstraint:other constraints to highlight.",,
+"id:HOMISLAND_GLORIEUSE_
+doi:10.5281/zenodo.2585747",Carte d'occupation du sol des îles des Glorieuses,"abstract:Dans le sud-ouest de l'océan Indien, il existe de nombreuses îles de moins de 3000 km²: l'archipel des Seychelles (avec 115 îles, dont Mahé, la plus grande), l'archipel des Comores (Grande Comore, Mohéli, Anjouan et Mayotte), les îles Eparses (les îles Glorioso, Juan de Nova, Bassas da India, Europa, île Tromelin), les îles Mascareignes (Réunion, Maurice, Rodrigues). Ces îles ont leurs propres spécificités environnementales et des paysages très fragmentés et diversifiés. Les produits génériques d'occupation du sol existants à partir d'images satellites de basse et moyenne résolution ne sont pas adaptés à l'étude de ces petits territoires.
+ L'UMR Espace DEV a développé un produit d'occupation et d'utilisation des sols, appelé Homisland-IO, basé sur des traitements de télédétection sur des images satellites à haute résolution spatiale acquises par le satellite SPOT 5 entre décembre 2012 et juillet 2014. 
+Ce produit a été réalisé en utilisant un processus de classification basé sur les objets. La précision de la classification est de 93.51 %, calculée à partir d'une matrice de confusion selon l'indice de Kappa.
+La donnée est au format shape possède 12 classes d'occupation du sol
+Homisland-IO est librement accessible via un portail web et est donc disponible pour une utilisation future.
+","theme[General]:Projet Homisland, Occupation du sol, télédétection, SPOT5, Analyse spatiale, Analyse d'image orientée-objet, Océan Indien, petite île,Indice de Kappa_ 
+theme[Geographic]:Grande Glorieuse, îles Eparses, TAAF","publisher:christophe.revillion@univ-reunion.fr_
+pointOfContact:christophe.revillion@univ-reunion.fr,attoumane.artadji@ird.fr ,vincent.herbreteau@ird.fr_
+metadata:benjamin.robert@ird.fr","publication:2021-03-22_
+edition:2021-01-01",map,fra,srid:4326,2013-11-08,distribution:application/zip[ESRI Shapefile (zipped)],"thumbnail: Carte de l'occupation du sol des îles Glorieuses @https://drive.google.com/uc?id=1qAA7ihQlTYTNpgiXs70WJuMV7V-SWepa_
+thumbnail:Carte de situation des îles Glorieuses@https://drive.google.com/uc?id=1cV4URXUH6PT2stcGb5R6Tbofz_e81gZ5_
+thumbnail:Logo UMR Espace Dev@https://www.espace-dev.fr/wp-content/uploads/2020/03/Logo-Espace-Dev-coul.txt-copie.png_
+thumbnail:Logo SEAS-OI@http://www.seas-oi.org/image/layout_set_logo?img_id=16402&t=1653032230879_
+http:Site web du projet Homisland-OI[SEAS-OI Homisland Website]@https://homisland.seas-oi.org/_
+http:Projet QGIS[Télécharger le projet QGIS avec les données]@https://drive.google.com/uc?id=1lyL02WiK2rJZbq4VjCmXP6lngbaS2_Nx_
+http:Lien vers l'article scientifique sur HOMISLAND[Homisland-IO: Homogeneous Land Use/Land Cover over the Small Islands of the Indian Ocean]@https://doi.org/10.3390/data4020082_
+http:Lien vers le jeu de données HOMISLAND des 11 îles [DOI DATASET]@https://doi.org/10.5281/zenodo.2585747_
+http:Matrice de confusion[Télécharger la matrice de confusion au format tableur]@https://docs.google.com/uc?id=17n460GWJC8mfIVqlZlHqJHTgRJManqid","useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
+accessConstraint:otherRestrictions_
+useConstraint:intellectualPropertyRights_
+otherConstraint:other constraints to highlight.",,
+"id:HOMISLAND_MAURICE_
+doi:10.5281/zenodo.2585747",Carte d'occupation du sol de l'île Maurice,"abstract:Dans le sud-ouest de l'océan Indien, il existe de nombreuses îles de moins de 3000 km²: l'archipel des Seychelles (avec 115 îles, dont Mahé, la plus grande), l'archipel des Comores (Grande Comore, Mohéli, Anjouan et Mayotte), les îles Eparses (les îles Glorioso, Juan de Nova, Bassas da India, Europa, île Tromelin), les îles Mascareignes (Réunion, Maurice, Rodrigues). Ces îles ont leurs propres spécificités environnementales et des paysages très fragmentés et diversifiés. Les produits génériques d'occupation du sol existants à partir d'images satellites de basse et moyenne résolution ne sont pas adaptés à l'étude de ces petits territoires. 
+ L'UMR Espace DEV a développé un produit d'occupation et d'utilisation des sols, appelé Homisland-IO, basé sur des traitements de télédétection sur des images satellites à haute résolution spatiale acquises par le satellite SPOT 5 entre décembre 2012 et juillet 2014. Ce produit a été réalisé en utilisant un processus de classification basé sur les objets. 
+La précision globale du produit est de 86%, calculée à partir d'une matrice de confusion selon l'indice de Kappa
+Homisland-IO est librement accessible via un portail web et est donc disponible pour une utilisation future.
+","theme[General]:Projet Homisland, Occupation du sol, télédétection, SPOT5, Analyse spatiale, Analyse d'image orientée-objet, petite île, Indice de Kappa_
+theme[Geographic]: Océan Indien, Comores, Maurice","publisher:christophe.revillion@univ-reunion.fr_
+pointOfContact:christophe.revillion@univ-reunion.fr,attoumane.artadji@ird.fr ,vincent.herbreteau@ird.fr_
+metadata:benjamin.robert@ird.fr","publication:2021-03-22_
+edition:2021-01-01",map,fra,srid:4326,2014-05-17,distribution:application/zip[ESRI Shapefile (zipped)],"thumbnail:Carte de l'occupation du sol de Maurice@https://drive.google.com/uc?id=1Tdj17-anpNxlnC65Xa9BJc_3JWVFoQct_
+thumbnail:Carte de situation de Maurice@https://drive.google.com/uc?id=1CsOimNs3tm0Vm1zv8UQC1AVA8_fXfCZB_
+thumbnail:Logo UMR Espace Dev@https://www.espace-dev.fr/wp-content/uploads/2020/03/Logo-Espace-Dev-coul.txt-copie.png_
+thumbnail:Logo SEAS-OI@http://www.seas-oi.org/image/layout_set_logo?img_id=16402&t=1653032230879_
+http:Site web du projet Homisland-OI[SEAS-OI Homisland Website]@https://homisland.seas-oi.org/_
+http:Projet QGIS[Télécharger le projet QGIS avec les données]@https://drive.google.com/uc?id=10rTyzhVn2KHLUTkuKcr-Tn30qFBR3Uvv_
+http:Matrice de confusion[Télécharger la matrice de confusion au format tableur][Télécharger la matrice de confusion au format tableur]@https://docs.google.com/uc?id=1lclyiAPLS04a_f06XNpBk21-FnTGsB2m_
+http:Lien vers l'article scientifique sur HOMISLAND[Homisland-IO: Homogeneous Land Use/Land Cover over the Small Islands of the Indian Ocean]@https://doi.org/10.3390/data4020082_
+http:Lien vers le jeu de données HOMISLAND des 11 îles [DOI DATASET]@https://doi.org/10.5281/zenodo.2585747","useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
+accessConstraint:otherRestrictions_
+useConstraint:intellectualPropertyRights_
+otherConstraint:other constraints to highlight.",,
+"id:HOMISLAND_MAYOTTE_
+doi:10.5281/zenodo.2585747",Carte d'occupation du sol des îles de Mayotte,"abstract:Dans le sud-ouest de l'océan Indien, il existe de nombreuses îles de moins de 3000 km²: 
+-l'archipel des Seychelles (avec 115 îles, dont Mahé, la plus grande),
+- l'archipel des Comores (Grande Comore, Mohéli, Anjouan et Mayotte), 
+-les îles Eparses : les îles Glorioso, Juan de Nova, Bassas da India, Europa, île Tromelin,
+- les îles Mascareignes :Réunion, Maurice, Rodrigues). 
+Ces îles ont leurs propres spécificités environnementales et des paysages très fragmentés et diversifiés. Les produits génériques d'occupation du sol existants à partir d'images satellites de basse et moyenne résolution ne sont pas adaptés à l'étude de ces petits territoires. 
+L' UMR Espace DEV a développé un produit d'occupation et d'utilisation des sols, appelé Homisland-IO, basé sur des traitements de télédétection sur des images satellites à haute résolution spatiale acquises par le satellite SPOT 5 entre décembre 2012 et juillet 2014. Ce produit a été réalisé en utilisant un processus de classification basé sur les objets.
+La précision de la classification est de 82.5 %, calculée à partir d'une matrice de confusion selon l'indice de Kappa.
+La donnée est au format shape possède 12 classes d'occupation du sol
+Homisland-IO est librement accessible via un portail web et est donc disponible pour une utilisation future. ","theme[General]:Projet Homisland, Occupation du sol, télédétection, SPOT5, Analyse spatiale, Analyse spatiale, Analyse d'image orientée-objet, petite île, Indice de Kappa_
+theme[Geographic]: Océan Indien, Mayotte","publisher:christophe.revillion@univ-reunion.fr_
+pointOfContact:christophe.revillion@univ-reunion.fr,attoumane.artadji@ird.fr ,vincent.herbreteau@ird.fr_
+metadata:benjamin.robert@ird.fr","publication:2021-03-22_
+edition:2021-01-01",map,fra,srid:4326,2013-06-16,distribution:application/zip[ESRI Shapefile (zipped)],"thumbnail:Carte de l'occupation du sol de Mayotte@https://drive.google.com/uc?id=1Qcaggy_S_AS0Uy-5jo7JnrdfXYwXWtls_
+thumbnail:Carte de situation de Mayotte@https://drive.google.com/uc?id=1GFIR8BPS7RXp6Nkltf6JtCdhsyH0DZLI_
+thumbnail:Logo UMR Espace Dev@https://www.espace-dev.fr/wp-content/uploads/2020/03/Logo-Espace-Dev-coul.txt-copie.png_
+thumbnail:Logo SEAS-OI@http://www.seas-oi.org/image/layout_set_logo?img_id=16402&t=1653032230879_
+http:Site web du projet Homisland-OI[SEAS-OI Homisland Website]@https://homisland.seas-oi.org/_
+http:Projet QGIS[Télécharger le projet QGIS avec les données]@https://drive.google.com/uc?id=1Abd5lrqj12ag7FlvWJhsRTE52TSUiJLN_
+http:Matrice de confusion[Télécharger la matrice de confusion au format tableur]@https://docs.google.com/uc?id=1qMo8qNOHxe5fXxASNgE5GicdshrZqmO-_
+http:Lien vers l'article scientifique sur HOMISLAND[Homisland-IO: Homogeneous Land Use/Land Cover over the Small Islands of the Indian Ocean]@https://doi.org/10.3390/data4020082_
+http:Lien vers le jeu de données HOMISLAND des 11 îles [DOI DATASET]@https://doi.org/10.5281/zenodo.2585747
+","useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
+accessConstraint:otherRestrictions_
+useConstraint:intellectualPropertyRights_
+otherConstraint:other constraints to highlight.",,
+"id:HOMISLAND_RODRIGUES_
+doi:10.5281/zenodo.2585747",Carte d'occupation du sol de l'île de Rodrigues,"abstract:Dans le sud-ouest de l'océan Indien, il existe de nombreuses îles de moins de 3000 km²: l'archipel des Seychelles (avec 115 îles, dont Mahé, la plus grande), l'archipel des Comores (Grande Comore, Mohéli, Anjouan et Mayotte), les îles Eparses (les îles Glorioso, Juan de Nova, Bassas da India, Europa, île Tromelin), les îles Mascareignes (Réunion, Maurice, Rodrigues). Ces îles ont leurs propres spécificités environnementales et des paysages très fragmentés et diversifiés. Les produits génériques d'occupation du sol existants à partir d'images satellites de basse et moyenne résolution ne sont pas adaptés à l'étude de ces petits territoires. 
+L'UMR Espace DEV a développé un produit d'occupation et d'utilisation des sols, appelé Homisland-IO, basé sur des traitements de télédétection sur des images satellites à haute résolution spatiale acquises par le satellite SPOT 5 entre décembre 2012 et juillet 2014. Ce produit a été réalisé en utilisant un processus de classification basé sur les objets.
+ La précision de la classification est de 89%, calculée à partir d'une matrice de confusion selon l'indice de Kappa.
+La donnée est au format shape possède 12 classes d'occupation du sol
+Homisland-IO est librement accessible via un portail web et est donc disponible pour une utilisation future.
+","theme[General]:Projet Homisland, Occupation du sol, télédétection, SPOT5, Analyse spatiale, petite île, Analyse d'image orientée-objet,Indice de Kappa_
+theme[Geographic]:  Océan Indien, Maurice, Rodrigues_","publisher:christophe.revillion@univ-reunion.fr_
+pointOfContact:christophe.revillion@univ-reunion.fr,attoumane.artadji@ird.fr ,vincent.herbreteau@ird.fr_
+metadata:benjamin.robert@ird.fr","publication:2021-03-22_
+edition:2021-01-01",map,fra,srid:4326,2014-05-18,distribution:application/zip[ESRI Shapefile (zipped)],"thumbnail:Carte de l'occupation du sol de Rodrigues@https://drive.google.com/uc?id=1RMLVMDGTkLEdtpG7xlLMX8reLNkQqwva_
+thumbnail:Carte de situation de Rodrigues@https://drive.google.com/uc?id=1PMaY7xD18GOiWXB9OYyLqanC-gqD832t_
+thumbnail:Logo UMR Espace Dev@https://www.espace-dev.fr/wp-content/uploads/2020/03/Logo-Espace-Dev-coul.txt-copie.png_
+thumbnail:Logo SEAS-OI@http://www.seas-oi.org/image/layout_set_logo?img_id=16402&t=1653032230879_
+http:Site web du projet Homisland-OI[SEAS-OI Homisland Website]@https://homisland.seas-oi.org/_
+http:Projet QGIS[Télécharger le projet QGIS avec les données]@https://drive.google.com/uc?id=1u2qZU9HP9UKgwrbPm6dQJit-JNGeKykE_
+http:Matrice de confusion[Télécharger la matrice de confusion au format tableur]@https://docs.google.com/uc?id=1zIEKjVNOhNNFhlx-GLwvwHVKdqUS8Gwj_
+http:Lien vers l'article scientifique sur HOMISLAND[Homisland-IO: Homogeneous Land Use/Land Cover over the Small Islands of the Indian Ocean]@https://doi.org/10.3390/data4020082_
+http: Lien vers le jeu de données HOMISLAND des 11 îles [DOI DATASET]@https://doi.org/10.5281/zenodo.2585747_","useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
+accessConstraint:otherRestrictions_
+useConstraint:intellectualPropertyRights_
+otherConstraint:other constraints to highlight.",,
+"id:HOMISLAND_REUNION_
+doi:10.5281/zenodo.2585747",Carte d'occupation du sol de l'île de la Réunion,"abstract:Dans le sud-ouest de l'océan Indien, il existe de nombreuses îles de moins de 3000 km²: l'archipel des Seychelles (avec 115 îles, dont Mahé, la plus grande), l'archipel des Comores (Grande Comore, Mohéli, Anjouan et Mayotte), les îles Eparses (les îles Glorioso, Juan de Nova, Bassas da India, Europa, île Tromelin), les îles Mascareignes (Réunion, Maurice, Rodrigues). Ces îles ont leurs propres spécificités environnementales et des paysages très fragmentés et diversifiés. Les produits génériques d'occupation du sol existants à partir d'images satellites de basse et moyenne résolution ne sont pas adaptés à l'étude de ces petits territoires. 
+L'UMR Espace DEV a développé un produit d'occupation et d'utilisation des sols, appelé Homisland-IO, basé sur des traitements de télédétection sur des images satellites à haute résolution spatiale acquises par le satellite SPOT 5 entre décembre 2012 et juillet 2014. Ce produit a été réalisé en utilisant un processus de classification basé sur les objets. 
+La précision de la classification est de 85 %, calculée à partir d'une matrice de confusion selon l'indice de Kappa.
+La donnée est au format shape possède 12 classes d'occupation du sol
+Homisland-IO est librement accessible via un portail web et est donc disponible pour une utilisation future.
+","theme[General]:Projet Homisland, Occupation du sol, télédétection, SPOT5, Analyse spatiale,Indice de Kappa,  petite île , Analyse d'image orientée-objet, Indice de Kappa_
+theme[Geographic]: Océan Indien, Reunion, ","publisher:christophe.revillion@univ-reunion.fr_
+pointOfContact:christophe.revillion@univ-reunion.fr,attoumane.artadji@ird.fr ,vincent.herbreteau@ird.fr_
+metadata:benjamin.robert@ird.fr","publication:2021-03-22_
+edition:2021-01-01",map,fra,srid:4326,2014-05-21,distribution:application/zip[ESRI Shapefile (zipped)],"thumbnail:Carte de l'occupation du sol de la Réunion@https://drive.google.com/uc?id=1FM03YVFvehRHwMwEXUc0nc5z7q1cKk_O_
+thumbnail:Carte de situation de la Réunion@https://drive.google.com/uc?id=1eiH1ymZLDhgStk13eftib-v8fDwKDdQyh_
+thumbnail:Logo UMR Espace Dev@https://www.espace-dev.fr/wp-content/uploads/2020/03/Logo-Espace-Dev-coul.txt-copie.png_
+thumbnail:Logo SEAS-OI@http://www.seas-oi.org/image/layout_set_logo?img_id=16402&t=1653032230879_
+http:Site web du projet Homisland-OI[SEAS-OI Homisland Website]@https://homisland.seas-oi.org/_
+http:Projet QGIS[Télécharger le projet QGIS avec le projet QGIS]@https://drive.google.com/uc?id=1YFP34xIT1HXXFDevnJQLzMSiw_tZq_qs_
+http:Matrice de confusion[Télécharger la matrice de confusion au format tableur]@https://docs.google.com/uc?id=1KVOKWmZums-bFkB7CB0fUu7Yq44mBPN7_
+http: Lien vers le jeu de données HOMISLAND des 11 îles [DOI DATASET]@https://doi.org/10.5281/zenodo.2585747_
+http:Lien vers l'article scientifique sur HOMISLAND[Homisland-IO: Homogeneous Land Use/Land Cover over the Small Islands of the Indian Ocean]@https://doi.org/10.3390/data4020082","useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
+accessConstraint:otherRestrictions_
+useConstraint:intellectualPropertyRights_
+otherConstraint:other constraints to highlight.",,
+"id:HOMISLAND_TROMELIN_
+doi:10.5281/zenodo.2585747",Carte d'occupation du sol de l'île de Tromelin,"abstract:Dans le sud-ouest de l'océan Indien, il existe de nombreuses îles de moins de 3000 km²: l'archipel des Seychelles (avec 115 îles, dont Mahé, la plus grande), l'archipel des Comores (Grande Comore, Mohéli, Anjouan et Mayotte), les îles Eparses (les îles Glorioso, Juan de Nova, Bassas da India, Europa, île Tromelin), les îles Mascareignes (Réunion, Maurice, Rodrigues). Ces îles ont leurs propres spécificités environnementales et des paysages très fragmentés et diversifiés. Les produits génériques d'occupation du sol existants à partir d'images satellites de basse et moyenne résolution ne sont pas adaptés à l'étude de ces petits territoires. 
+L'UMR Espace DEV a développé un produit d'occupation et d'utilisation des sols, appelé Homisland-IO, basé sur des traitements de télédétection sur des images satellites à haute résolution spatiale acquises par le satellite SPOT 5 entre décembre 2012 et juillet 2014. Ce produit a été réalisé en utilisant un processus de classification basé sur les objets. 
+La précision de la classification est de 93.51 %, calculée à partir d'une matrice de confusion selon l'indice de Kappa.
+La donnée est au format shape possède 12 classes d'occupation du sol
+Homisland-IO est librement accessible via un portail web et est donc disponible pour une utilisation future.
+","theme[General]:Projet Homisland, Occupation du sol, télédétection, SPOT5, Analyse spatiale, petite île, Analyse d'image orientée-objet,Indice de Kappa_
+theme[Geographic]:TAAF, Océan Indien, Tromelin, Iles Eparses","publisher:christophe.revillion@univ-reunion.fr_
+pointOfContact:christophe.revillion@univ-reunion.fr,attoumane.artadji@ird.fr ,vincent.herbreteau@ird.fr_
+metadata:benjamin.robert@ird.fr","publication:2021-03-22_
+edition:2021-01-01",map,fra,srid:4326,2014-04-25,distribution:application/zip[ESRI Shapefile (zipped)],"thumbnail:Carte de l'occupation du sol de la Réunion@https://drive.google.com/uc?id=1MmRQGQT_bu_2B-UFIepKHFXdyi5XHSj9_
+thumbnail:Carte de situation de la Réunion@https://drive.google.com/uc?id=1eiH1ymZLDhgStk13eftib-v8fDwKDdQyh_
+thumbnail:Logo UMR Espace Dev@https://www.espace-dev.fr/wp-content/uploads/2020/03/Logo-Espace-Dev-coul.txt-copie.png_
+thumbnail:Logo SEAS-OI@http://www.seas-oi.org/image/layout_set_logo?img_id=16402&t=1653032230879_
+http:Site web du projet Homisland-OI[SEAS-OI Homisland Website]@https://homisland.seas-oi.org/_
+http:Projet QGIS[Télécharger le projet QGIS avec le projet QGIS]@https://drive.google.com/file/d/1YFP34xIT1HXXFDevnJQLzMSiw_tZq_qs_
+http:Matrice de confusion[Télécharger la matrice de confusion au format tableur]@https://docs.google.com/uc?id=1KVOKWmZums-bFkB7CB0fUu7Yq44mBPN7_
+http: Lien vers le jeu de données HOMISLAND des 11 îles [DOI DATASET]@https://doi.org/10.5281/zenodo.2585747_
+http:Lien vers l'article scientifique sur HOMISLAND[Homisland-IO: Homogeneous Land Use/Land Cover over the Small Islands of the Indian Ocean]@https://doi.org/10.3390/data4020082","useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
+accessConstraint:otherRestrictions_
+useConstraint:intellectualPropertyRights_
+otherConstraint:other constraints to highlight.",,
