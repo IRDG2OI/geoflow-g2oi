@@ -32,7 +32,7 @@
 		"parameters": {
 			"url": "{{GEONETWORK_UNIV_URL}}",
 			"user": "{{GEONETWORK_USER}}",
-			"pwd": "{{GEONETWORK_PWD}}",
+			"pwd": "{{GEONETWORK_PASSWORD}}",
 			"version": "4.2.1",
 			"logger": "DEBUG"
 		}
@@ -46,7 +46,22 @@
 			"token": ""
 		},
 		"properties" : {}
-	}
+	},
+		{
+        "id": "homisland-geoserver",
+        "type": "output",
+        "software_type": "geoserver",
+        "parameters": {
+			"url": "{{GEOSERVER_UNIV_URL}}",
+			"user": "{{GEOSERVER_USER}}",
+			"pwd": "{{GEOSERVER_PASSWORD}}",
+			"logger": "DEBUG"
+        },
+      "properties" : {
+			"workspace": "REGION_REUNION",
+			"store": "seasoi_pimant"
+      }
+    }
   ],
  "actions": [
     {
@@ -59,6 +74,14 @@
         {
       "id": "geonapi-publish-iso-19139",
        "run" : true
-	   }
+	   },
+	   {
+	  "id": "geosapi-publish-ogc-services",
+	  "run": true,
+	  "options" : {
+	    "createWorkspace": true,
+	    "createStore": true
+	  }
+	}
   ]
 }

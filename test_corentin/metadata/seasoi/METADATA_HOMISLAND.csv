@@ -24,7 +24,27 @@ http:Lien vers l'article scientifique sur HOMISLAND[Homisland-IO: Homogeneous La
 http:Matrice de confusion[Télécharger la matrice de confusion au format tableur]@https://docs.google.com/uc?id=1LGg9Chg3ep39ZQYEamc2JV2IjcRD9jvJ","useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
 accessConstraint:otherRestrictions_
 useConstraint:intellectualPropertyRights_
-otherConstraint:other constraints to highlight.",,
+otherConstraint:other constraints to highlight.","statement:""La classification de l'occupation du sol est issue de plusieurs sources de données : 
+-une image multispectrale(10 m) et panchromatique (2.5 m) SPOT 5 acquise le 24 juin 2013 à la station SEAS-OIS au format raster,
+-le modèle d’élévation de terrain (SRTM Data),
+-la cartographie OpenStreetMap.
+Le logiciel OrfeoToolbox 5.8.8 a été utiliser pour orthorectifier et prétraiter l’image SPOT5 et le plugin QuickOSM de QGIS a permis d’extraire des modes d’occupation du sol.
+Pour produire la donnée d’occupation du sol, l'analyse de l’image s’est déroulée en 3 phases :
+-une segmentation avec le logiciel eCognition en utilisant l’algorithme multi-resolution segmentation permettant d’obtenir des objets avec une signature spectrale identique,
+-une classification hiérarchique avec eCognition à partir de l’image segmentée en séparant les zones en eau et terrestres,
+-un post-traitement en photo-interprétant les zones portant à confusion 
+La donnée finale produite est au format shape avec un champ occsol_num et un champ ocsol_name qui indique la classe d’occupation du sol. Il y a au total 12 classes différentes d’occupation du sol.
+Une matrice de confusion avec le calcul de l'indice Kappa est disponible dans un fichier tableur pour indiquer la précision de la classification produite.""","access:googledrive_
+source:cla_europa_fin.zip_
+sourceType:shp_
+uploadType:shp_
+uploadSource:cla_europa_fin.zip_
+layername:cla_europa_fin_
+styleUpload:true_
+style:SLD_HOMISLAND_
+spatialRepresentationType:vector_
+attribute:ID[ID]@ID,ocsol_name[ocsol_name]_
+variable:oc_solnum[ocsol_name]"
 "id:HOMISLAND_COMORES_
 doi:10.5281/zenodo.2585747",Carte d'occupation du sol des îles de la Grande Comore,"abstract:Dans le sud-ouest de l'océan Indien, il existe de nombreuses îles de moins de 3 000 km² : l'archipel des Seychelles (avec 115 îles, dont Mahé, la plus grande), l'archipel des Comores (Grande Comore, Mohéli, Anjouan et Mayotte), les îles Eparses (les îles Glorioso, Juan de Nova, Bassas da India, Europa, île Tromelin), les îles Mascareignes (Réunion, Maurice, Rodrigues). Ces îles ont leurs propres spécificités environnementales et des paysages très fragmentés et très diversifiés. Les produits génériques d'occupation du sol existants à partir d'images satellites de basse et moyenne résolution ne sont pas adaptés à l'étude de ces petits territoires.
 L'UMR Espace DEV a développé un produit d'occupation et d'utilisation des sols, appelé Homisland-IO, basé sur des traitements de télédétection sur des images satellites à haute résolution spatiale acquises par le satellite SPOT 5 entre décembre 2012 et juillet 2014. 
@@ -44,7 +64,29 @@ http:Lien vers l'article scientifique sur HOMISLAND[Homisland-IO: Homogeneous La
 http:[Matrice de confusion[Télécharger la matrice de confusion au format tableur]]@https://docs.google.com/uc?id=1H7iFBUTuoTq4zVMdHB70TYkO1ENeuCs6","useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
 accessConstraint:otherRestrictions_
 useConstraint:intellectualPropertyRights_
-otherConstraint:other constraints to highlight.",,
+otherConstraint:other constraints to highlight.","statement:""La classification de l'occupation du sol est issue de plusieurs sources de données : 
+-une image multispectrale(10 m) et panchromatique (2.5 m) SPOT 5 acquise le 24 juin 2013 à la station SEAS-OIS au format raster,
+-le modèle d’élévation de terrain (SRTM Data),
+-la cartographie OpenStreetMap.
+Le logiciel OrfeoToolbox 5.8.8 a été utiliser pour orthorectifier et prétraiter l’image SPOT5 et le plugin QuickOSM de QGIS a permis d’extraire des modes d’occupation du sol.
+Pour produire la donnée d’occupation du sol, l'analyse de l’image s’est déroulée en 3 phases :
+-une segmentation avec le logiciel eCognition en utilisant l’algorithme multi-resolution segmentation permettant d’obtenir des objets avec une signature spectrale identique,
+-une classification hiérarchique avec eCognition à partir de l’image segmentée en séparant les zones en eau et terrestres,
+-un post-traitement en photo-interprétant les zones portant à confusion 
+La donnée finale produite est au format shape avec un champ occsol_num et un champ ocsol_name qui indique la classe d’occupation du sol. Il y a au total 12 classes différentes d’occupation du sol.
+Une matrice de confusion avec le calcul de l'indice Kappa est disponible dans un fichier tableur pour indiquer la précision de la classification produite.""","access:googledrive_
+source:cla_GDC_fin2.zip_
+sourceType:shp_
+uploadType:shp_
+uploadSource:cla_GDC_fin2.zip_
+upload:true_
+layername:cla_GDC_fin2_
+styleUpload:true_
+style:SLD_HOMISLAND_
+spatialRepresentationType:vector_
+attribute:ID[ID]@ID,ocsol_name[ocsol_name]_
+variable:oc_solnum[ocsol_name]
+"
 "id:HOMISLAND_ANJOUAN_
 doi:10.5281/zenodo.2585747",Carte d'occupation du sol à Anjouan,"abstract:Dans le sud-ouest de l'océan Indien, il existe de nombreuses îles de moins de 3000 km²: l'archipel des l'archipel des Seychelles (avec 115 îles, dont Mahé, la plus grande), l'archipel des Comores (Grande Comore, Mohéli, Anjouan et Mayotte), les îles Eparses (les îles Glorioso, Juan de Nova, Bassas da India, Europa, île Tromelin), les îles Mascareignes (Réunion, Maurice, Rodrigues). Ces îles ont leurs propres spécificités environnementales et des paysages très fragmentés et diversifiés. Les produits génériques d'occupation du sol existants à partir d'images satellites de basse et moyenne résolution ne L'UMR Espace DEV a développé un produit d'occupation et d'utilisation des sols, appelé Homisland-IO, basé sur des traitements de télédétection sur des images satellites à haute résolution spatiale acquises par le satellite SPOT 5 entre décembre 2012 et juillet 2014.
  Ce produit a été réalisé en utilisant un processus de classification basé sur les objets.
@@ -64,7 +106,29 @@ http: Lien vers le jeu de données HOMISLAND des 11 îles [DOI DATASET]@https://
 http:Matrice de confusion[Télécharger la matrice de confusion au format tableur]@https://docs.google.com/uc?id=1yv4-D2rW4WECy7HSAhXXiwkkF5Ois5p-","useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
 accessConstraint:otherRestrictions_
 useConstraint:intellectualPropertyRights_
-otherConstraint:other constraints to highlight.",,
+otherConstraint:other constraints to highlight.","statement:""La classification de l'occupation du sol est issue de plusieurs sources de données : 
+-une image multispectrale(10 m) et panchromatique (2.5 m) SPOT 5 acquise le 24 juin 2013 à la station SEAS-OIS au format raster,
+-le modèle d’élévation de terrain (SRTM Data),
+-la cartographie OpenStreetMap.
+Le logiciel OrfeoToolbox 5.8.8 a été utiliser pour orthorectifier et prétraiter l’image SPOT5 et le plugin QuickOSM de QGIS a permis d’extraire des modes d’occupation du sol.
+Pour produire la donnée d’occupation du sol, l'analyse de l’image s’est déroulée en 3 phases :
+-une segmentation avec le logiciel eCognition en utilisant l’algorithme multi-resolution segmentation permettant d’obtenir des objets avec une signature spectrale identique,
+-une classification hiérarchique avec eCognition à partir de l’image segmentée en séparant les zones en eau et terrestres,
+-un post-traitement en photo-interprétant les zones portant à confusion 
+La donnée finale produite est au format shape avec un champ occsol_num et un champ ocsol_name qui indique la classe d’occupation du sol. Il y a au total 12 classes différentes d’occupation du sol.
+Une matrice de confusion avec le calcul de l'indice Kappa est disponible dans un fichier tableur pour indiquer la précision de la classification produite.""","access:googledrive_
+source:cla_anjouan_fin.zip_
+sourceType:shp_
+uploadType:shp_
+uploadSource:cla_anjouan_fin.zip_
+upload:true_
+layername:cla_anjouan_fin_
+styleUpload:true_
+style:SLD_HOMISLAND_
+spatialRepresentationType:vector_
+attribute:ID[ID]@ID,ocsol_name[ocsol_name]_
+variable:oc_solnum[ocsol_name]
+"
 "id:HOMISLAND_MOHELI_
 doi:10.5281/zenodo.2585747",Carte d'occupation du sol de l'île de Mohéli,"abstract:Dans le sud-ouest de l'océan Indien, il existe de nombreuses îles de moins de 3000 km²: l'archipel des Seychelles (avec 115 îles, dont Mahé, la plus grande), l'archipel des Comores (Grande Comore, Mohéli, Anjouan et Mayotte), les îles Eparses (les îles Glorioso, Juan de Nova, Bassas da India, Europa, île Tromelin), les îles Mascareignes (Réunion, Maurice, Rodrigues). Ces îles ont leurs propres spécificités environnementales et des paysages très fragmentés et diversifiés. Les produits génériques d'occupation du sol existants à partir d'images satellites de basse et moyenne résolution ne sont pas adaptés à l'étude de ces petits territoires. 
 L'UMR Espace DEV a développé un produit d'occupation et d'utilisation des sols, appelé Homisland-IO, basé sur des traitements de télédétection sur des images satellites à haute résolution spatiale acquises par le satellite SPOT 5 entre décembre 2012 et juillet 2014.
@@ -86,7 +150,29 @@ http: Lien vers le jeu de données HOMISLAND des 11 îles [DOI DATASET]@https://
 http:Matrice de confusion[Télécharger la matrice de confusion au format tableur]@https://docs.google.com/uc?id=1uFQ7aWt-RZfBNmeT9ekbHxi15aBehcWF","useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
 accessConstraint:otherRestrictions_
 useConstraint:intellectualPropertyRights_
-otherConstraint:other constraints to highlight.",,
+otherConstraint:other constraints to highlight.","statement:""La classification de l'occupation du sol est issue de plusieurs sources de données : 
+-une image multispectrale(10 m) et panchromatique (2.5 m) SPOT 5 acquise le 24 juin 2013 à la station SEAS-OIS au format raster,
+-le modèle d’élévation de terrain (SRTM Data),
+-la cartographie OpenStreetMap.
+Le logiciel OrfeoToolbox 5.8.8 a été utiliser pour orthorectifier et prétraiter l’image SPOT5 et le plugin QuickOSM de QGIS a permis d’extraire des modes d’occupation du sol.
+Pour produire la donnée d’occupation du sol, l'analyse de l’image s’est déroulée en 3 phases :
+-une segmentation avec le logiciel eCognition en utilisant l’algorithme multi-resolution segmentation permettant d’obtenir des objets avec une signature spectrale identique,
+-une classification hiérarchique avec eCognition à partir de l’image segmentée en séparant les zones en eau et terrestres,
+-un post-traitement en photo-interprétant les zones portant à confusion 
+La donnée finale produite est au format shape avec un champ occsol_num et un champ ocsol_name qui indique la classe d’occupation du sol. Il y a au total 12 classes différentes d’occupation du sol.
+Une matrice de confusion avec le calcul de l'indice Kappa est disponible dans un fichier tableur pour indiquer la précision de la classification produite.""","access:googledrive_
+source:cla_mwali_fin.zip_
+sourceType:shp_
+uploadType:shp_
+uploadSource:cla_mwali_fin.zip_
+upload:true_
+layername:cla_mwali_fin_
+styleUpload:true_
+style:SLD_HOMISLAND_
+spatialRepresentationType:vector_
+attribute:ID[ID]@ID,ocsol_name[ocsol_name]_
+variable:oc_solnum[ocsol_name]
+"
 "id:HOMISLAND_GLORIEUSE_
 doi:10.5281/zenodo.2585747",Carte d'occupation du sol des îles des Glorieuses,"abstract:Dans le sud-ouest de l'océan Indien, il existe de nombreuses îles de moins de 3000 km²: l'archipel des Seychelles (avec 115 îles, dont Mahé, la plus grande), l'archipel des Comores (Grande Comore, Mohéli, Anjouan et Mayotte), les îles Eparses (les îles Glorioso, Juan de Nova, Bassas da India, Europa, île Tromelin), les îles Mascareignes (Réunion, Maurice, Rodrigues). Ces îles ont leurs propres spécificités environnementales et des paysages très fragmentés et diversifiés. Les produits génériques d'occupation du sol existants à partir d'images satellites de basse et moyenne résolution ne sont pas adaptés à l'étude de ces petits territoires.
  L'UMR Espace DEV a développé un produit d'occupation et d'utilisation des sols, appelé Homisland-IO, basé sur des traitements de télédétection sur des images satellites à haute résolution spatiale acquises par le satellite SPOT 5 entre décembre 2012 et juillet 2014. 
@@ -104,11 +190,33 @@ thumbnail:Logo SEAS-OI@http://www.seas-oi.org/image/layout_set_logo?img_id=16402
 http:Site web du projet Homisland-OI[SEAS-OI Homisland Website]@https://homisland.seas-oi.org/_
 http:Projet QGIS[Télécharger le projet QGIS avec les données]@https://drive.google.com/uc?id=1lyL02WiK2rJZbq4VjCmXP6lngbaS2_Nx_
 http:Lien vers l'article scientifique sur HOMISLAND[Homisland-IO: Homogeneous Land Use/Land Cover over the Small Islands of the Indian Ocean]@https://doi.org/10.3390/data4020082_
-http:Lien vers le jeu de données HOMISLAND des 11 îles [DOI DATASET]@https://doi.org/10.5281/zenodo.2585747_
+http: Lien vers le jeu de données HOMISLAND des 11 îles [DOI DATASET]@https://doi.org/10.5281/zenodo.2585747_
 http:Matrice de confusion[Télécharger la matrice de confusion au format tableur]@https://docs.google.com/uc?id=17n460GWJC8mfIVqlZlHqJHTgRJManqid","useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
 accessConstraint:otherRestrictions_
 useConstraint:intellectualPropertyRights_
-otherConstraint:other constraints to highlight.",,
+otherConstraint:other constraints to highlight.","statement:""La classification de l'occupation du sol est issue de plusieurs sources de données : 
+-une image multispectrale(10 m) et panchromatique (2.5 m) SPOT 5 acquise le 24 juin 2013 à la station SEAS-OIS au format raster,
+-le modèle d’élévation de terrain (SRTM Data),
+-la cartographie OpenStreetMap.
+Le logiciel OrfeoToolbox 5.8.8 a été utiliser pour orthorectifier et prétraiter l’image SPOT5 et le plugin QuickOSM de QGIS a permis d’extraire des modes d’occupation du sol.
+Pour produire la donnée d’occupation du sol, l'analyse de l’image s’est déroulée en 3 phases :
+-une segmentation avec le logiciel eCognition en utilisant l’algorithme multi-resolution segmentation permettant d’obtenir des objets avec une signature spectrale identique,
+-une classification hiérarchique avec eCognition à partir de l’image segmentée en séparant les zones en eau et terrestres,
+-un post-traitement en photo-interprétant les zones portant à confusion 
+La donnée finale produite est au format shape avec un champ occsol_num et un champ ocsol_name qui indique la classe d’occupation du sol. Il y a au total 12 classes différentes d’occupation du sol.
+Une matrice de confusion avec le calcul de l'indice Kappa est disponible dans un fichier tableur pour indiquer la précision de la classification produite.""","access:googledrive_
+source:cla_glo_fin.zip_
+sourceType:shp_
+uploadType:shp_
+uploadSource:cla_glo_fin.zip_
+upload:true_
+layername:cla_glo_
+styleUpload:true_
+style:SLD_HOMISLAND_
+spatialRepresentationType:vector_
+attribute:ID[ID]@ID,ocsol_name[ocsol_name]_
+variable:oc_solnum[ocsol_name]
+"
 "id:HOMISLAND_MAURICE_
 doi:10.5281/zenodo.2585747",Carte d'occupation du sol de l'île Maurice,"abstract:Dans le sud-ouest de l'océan Indien, il existe de nombreuses îles de moins de 3000 km²: l'archipel des Seychelles (avec 115 îles, dont Mahé, la plus grande), l'archipel des Comores (Grande Comore, Mohéli, Anjouan et Mayotte), les îles Eparses (les îles Glorioso, Juan de Nova, Bassas da India, Europa, île Tromelin), les îles Mascareignes (Réunion, Maurice, Rodrigues). Ces îles ont leurs propres spécificités environnementales et des paysages très fragmentés et diversifiés. Les produits génériques d'occupation du sol existants à partir d'images satellites de basse et moyenne résolution ne sont pas adaptés à l'étude de ces petits territoires. 
  L'UMR Espace DEV a développé un produit d'occupation et d'utilisation des sols, appelé Homisland-IO, basé sur des traitements de télédétection sur des images satellites à haute résolution spatiale acquises par le satellite SPOT 5 entre décembre 2012 et juillet 2014. Ce produit a été réalisé en utilisant un processus de classification basé sur les objets. 
@@ -123,13 +231,34 @@ thumbnail:Carte de situation de Maurice@https://drive.google.com/uc?id=1CsOimNs3
 thumbnail:Logo UMR Espace Dev@https://www.espace-dev.fr/wp-content/uploads/2020/03/Logo-Espace-Dev-coul.txt-copie.png_
 thumbnail:Logo SEAS-OI@http://www.seas-oi.org/image/layout_set_logo?img_id=16402&t=1653032230879_
 http:Site web du projet Homisland-OI[SEAS-OI Homisland Website]@https://homisland.seas-oi.org/_
-http:Projet QGIS[Télécharger le projet QGIS avec les données]@https://drive.google.com/uc?id=10rTyzhVn2KHLUTkuKcr-Tn30qFBR3Uvv_
+http: Projet QGIS[Télécharger le projet QGIS avec les données]@https://drive.google.com/uc?id=10rTyzhVn2KHLUTkuKcr-Tn30qFBR3Uvv_
 http:Matrice de confusion[Télécharger la matrice de confusion au format tableur][Télécharger la matrice de confusion au format tableur]@https://docs.google.com/uc?id=1lclyiAPLS04a_f06XNpBk21-FnTGsB2m_
 http:Lien vers l'article scientifique sur HOMISLAND[Homisland-IO: Homogeneous Land Use/Land Cover over the Small Islands of the Indian Ocean]@https://doi.org/10.3390/data4020082_
-http:Lien vers le jeu de données HOMISLAND des 11 îles [DOI DATASET]@https://doi.org/10.5281/zenodo.2585747","useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
+http: Lien vers le jeu de données HOMISLAND des 11 îles [DOI DATASET]@https://doi.org/10.5281/zenodo.2585747","useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
 accessConstraint:otherRestrictions_
 useConstraint:intellectualPropertyRights_
-otherConstraint:other constraints to highlight.",,
+otherConstraint:other constraints to highlight.","statement:'""La classification de l'occupation du sol est issue de plusieurs sources de données : 
+-une image multispectrale(10 m) et panchromatique (2.5 m) SPOT 5 acquise le 24 juin 2013 à la station SEAS-OIS au format raster,
+-le modèle d’élévation de terrain (SRTM Data),
+-la cartographie OpenStreetMap.
+Le logiciel OrfeoToolbox 5.8.8 a été utiliser pour orthorectifier et prétraiter l’image SPOT5 et le plugin QuickOSM de QGIS a permis d’extraire des modes d’occupation du sol.
+Pour produire la donnée d’occupation du sol, l'analyse de l’image s’est déroulée en 3 phases :
+-une segmentation avec le logiciel eCognition en utilisant l’algorithme multi-resolution segmentation permettant d’obtenir des objets avec une signature spectrale identique,
+-une classification hiérarchique avec eCognition à partir de l’image segmentée en séparant les zones en eau et terrestres,
+-un post-traitement en photo-interprétant les zones portant à confusion 
+La donnée finale produite est au format shape avec un champ occsol_num et un champ ocsol_name qui indique la classe d’occupation du sol. Il y a au total 12 classes différentes d’occupation du sol.
+Une matrice de confusion avec le calcul de l'indice Kappa est disponible dans un fichier tableur pour indiquer la précision de la classification produite.""","access:googledrive_
+source:cla_maurice_fin.zip_
+sourceType:shp_
+uploadType:shp_
+uploadSource:cla_maurice_fin.zip_
+upload:true_
+layername:cla_maurice_fin_
+styleUpload:true_
+style:SLD_HOMISLAND_
+spatialRepresentationType:vector_
+attribute:ID[ID]@ID,ocsol_name[ocsol_name]_
+variable:oc_solnum[ocsol_name]"
 "id:HOMISLAND_MAYOTTE_
 doi:10.5281/zenodo.2585747",Carte d'occupation du sol des îles de Mayotte,"abstract:Dans le sud-ouest de l'océan Indien, il existe de nombreuses îles de moins de 3000 km²: 
 -l'archipel des Seychelles (avec 115 îles, dont Mahé, la plus grande),
@@ -152,11 +281,32 @@ http:Site web du projet Homisland-OI[SEAS-OI Homisland Website]@https://homislan
 http:Projet QGIS[Télécharger le projet QGIS avec les données]@https://drive.google.com/uc?id=1Abd5lrqj12ag7FlvWJhsRTE52TSUiJLN_
 http:Matrice de confusion[Télécharger la matrice de confusion au format tableur]@https://docs.google.com/uc?id=1qMo8qNOHxe5fXxASNgE5GicdshrZqmO-_
 http:Lien vers l'article scientifique sur HOMISLAND[Homisland-IO: Homogeneous Land Use/Land Cover over the Small Islands of the Indian Ocean]@https://doi.org/10.3390/data4020082_
-http:Lien vers le jeu de données HOMISLAND des 11 îles [DOI DATASET]@https://doi.org/10.5281/zenodo.2585747
+http: Lien vers le jeu de données HOMISLAND des 11 îles [DOI DATASET]@https://doi.org/10.5281/zenodo.2585747
 ","useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
 accessConstraint:otherRestrictions_
 useConstraint:intellectualPropertyRights_
-otherConstraint:other constraints to highlight.",,
+otherConstraint:other constraints to highlight.","statement:""La classification de l'occupation du sol est issue de plusieurs sources de données : 
+-une image multispectrale(10 m) et panchromatique (2.5 m) SPOT 5 acquise le 24 juin 2013 à la station SEAS-OIS au format raster,
+-le modèle d’élévation de terrain (SRTM Data),
+-la cartographie OpenStreetMap.
+Le logiciel OrfeoToolbox 5.8.8 a été utiliser pour orthorectifier et prétraiter l’image SPOT5 et le plugin QuickOSM de QGIS a permis d’extraire des modes d’occupation du sol.
+Pour produire la donnée d’occupation du sol, l'analyse de l’image s’est déroulée en 3 phases :
+-une segmentation avec le logiciel eCognition en utilisant l’algorithme multi-resolution segmentation permettant d’obtenir des objets avec une signature spectrale identique,
+-une classification hiérarchique avec eCognition à partir de l’image segmentée en séparant les zones en eau et terrestres,
+-un post-traitement en photo-interprétant les zones portant à confusion 
+La donnée finale produite est au format shape avec un champ occsol_num et un champ ocsol_name qui indique la classe d’occupation du sol. Il y a au total 12 classes différentes d’occupation du sol.
+Une matrice de confusion avec le calcul de l'indice Kappa est disponible dans un fichier tableur pour indiquer la précision de la classification produite.""","access:googledrive_
+source:cla_may_fin.zip_
+sourceType:shp_
+uploadType:shp_
+uploadSource:cla_may_fin.zip_
+upload:true_
+layername:cla_may_fin_
+styleUpload:true_
+style:SLD_HOMISLAND_
+spatialRepresentationType:vector_
+attribute:ID[ID]@ID,ocsol_name[ocsol_name]_
+variable:oc_solnum[ocsol_name]"
 "id:HOMISLAND_RODRIGUES_
 doi:10.5281/zenodo.2585747",Carte d'occupation du sol de l'île de Rodrigues,"abstract:Dans le sud-ouest de l'océan Indien, il existe de nombreuses îles de moins de 3000 km²: l'archipel des Seychelles (avec 115 îles, dont Mahé, la plus grande), l'archipel des Comores (Grande Comore, Mohéli, Anjouan et Mayotte), les îles Eparses (les îles Glorioso, Juan de Nova, Bassas da India, Europa, île Tromelin), les îles Mascareignes (Réunion, Maurice, Rodrigues). Ces îles ont leurs propres spécificités environnementales et des paysages très fragmentés et diversifiés. Les produits génériques d'occupation du sol existants à partir d'images satellites de basse et moyenne résolution ne sont pas adaptés à l'étude de ces petits territoires. 
 L'UMR Espace DEV a développé un produit d'occupation et d'utilisation des sols, appelé Homisland-IO, basé sur des traitements de télédétection sur des images satellites à haute résolution spatiale acquises par le satellite SPOT 5 entre décembre 2012 et juillet 2014. Ce produit a été réalisé en utilisant un processus de classification basé sur les objets.
@@ -178,7 +328,28 @@ http:Lien vers l'article scientifique sur HOMISLAND[Homisland-IO: Homogeneous La
 http: Lien vers le jeu de données HOMISLAND des 11 îles [DOI DATASET]@https://doi.org/10.5281/zenodo.2585747_","useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
 accessConstraint:otherRestrictions_
 useConstraint:intellectualPropertyRights_
-otherConstraint:other constraints to highlight.",,
+otherConstraint:other constraints to highlight.","statement:""La classification de l'occupation du sol est issue de plusieurs sources de données : 
+-une image multispectrale(10 m) et panchromatique (2.5 m) SPOT 5 acquise le 24 juin 2013 à la station SEAS-OIS au format raster,
+-le modèle d’élévation de terrain (SRTM Data),
+-la cartographie OpenStreetMap.
+Le logiciel OrfeoToolbox 5.8.8 a été utiliser pour orthorectifier et prétraiter l’image SPOT5 et le plugin QuickOSM de QGIS a permis d’extraire des modes d’occupation du sol.
+Pour produire la donnée d’occupation du sol, l'analyse de l’image s’est déroulée en 3 phases :
+-une segmentation avec le logiciel eCognition en utilisant l’algorithme multi-resolution segmentation permettant d’obtenir des objets avec une signature spectrale identique,
+-une classification hiérarchique avec eCognition à partir de l’image segmentée en séparant les zones en eau et terrestres,
+-un post-traitement en photo-interprétant les zones portant à confusion 
+La donnée finale produite est au format shape avec un champ occsol_num et un champ ocsol_name qui indique la classe d’occupation du sol. Il y a au total 12 classes différentes d’occupation du sol.
+Une matrice de confusion avec le calcul de l'indice Kappa est disponible dans un fichier tableur pour indiquer la précision de la classification produite,""","access:googledrive_
+source:cla_rod_fin.zip_
+sourceType:shp_
+uploadType:shp_
+uploadSource:cla_rod_fin.zip_
+upload:true_
+layername:cla_rod_fin_
+styleUpload:true_
+style:SLD_HOMISLAND_
+spatialRepresentationType:vector_
+attribute:ID[ID]@ID,ocsol_name[ocsol_name]_
+variable:oc_solnum[ocsol_name]"
 "id:HOMISLAND_REUNION_
 doi:10.5281/zenodo.2585747",Carte d'occupation du sol de l'île de la Réunion,"abstract:Dans le sud-ouest de l'océan Indien, il existe de nombreuses îles de moins de 3000 km²: l'archipel des Seychelles (avec 115 îles, dont Mahé, la plus grande), l'archipel des Comores (Grande Comore, Mohéli, Anjouan et Mayotte), les îles Eparses (les îles Glorioso, Juan de Nova, Bassas da India, Europa, île Tromelin), les îles Mascareignes (Réunion, Maurice, Rodrigues). Ces îles ont leurs propres spécificités environnementales et des paysages très fragmentés et diversifiés. Les produits génériques d'occupation du sol existants à partir d'images satellites de basse et moyenne résolution ne sont pas adaptés à l'étude de ces petits territoires. 
 L'UMR Espace DEV a développé un produit d'occupation et d'utilisation des sols, appelé Homisland-IO, basé sur des traitements de télédétection sur des images satellites à haute résolution spatiale acquises par le satellite SPOT 5 entre décembre 2012 et juillet 2014. Ce produit a été réalisé en utilisant un processus de classification basé sur les objets. 
@@ -200,7 +371,28 @@ http: Lien vers le jeu de données HOMISLAND des 11 îles [DOI DATASET]@https://
 http:Lien vers l'article scientifique sur HOMISLAND[Homisland-IO: Homogeneous Land Use/Land Cover over the Small Islands of the Indian Ocean]@https://doi.org/10.3390/data4020082","useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
 accessConstraint:otherRestrictions_
 useConstraint:intellectualPropertyRights_
-otherConstraint:other constraints to highlight.",,
+otherConstraint:other constraints to highlight.","statement:""La classification de l'occupation du sol est issue de plusieurs sources de données : 
+-une image multispectrale(10 m) et panchromatique (2.5 m) SPOT 5 acquise le 24 juin 2013 à la station SEAS-OIS au format raster,
+-le modèle d’élévation de terrain (SRTM Data),
+-la cartographie OpenStreetMap.
+Le logiciel OrfeoToolbox 5.8.8 a été utiliser pour orthorectifier et prétraiter l’image SPOT5 et le plugin QuickOSM de QGIS a permis d’extraire des modes d’occupation du sol.
+Pour produire la donnée d’occupation du sol, l'analyse de l’image s’est déroulée en 3 phases :
+-une segmentation avec le logiciel eCognition en utilisant l’algorithme multi-resolution segmentation permettant d’obtenir des objets avec une signature spectrale identique,
+-une classification hiérarchique avec eCognition à partir de l’image segmentée en séparant les zones en eau et terrestres,
+-un post-traitement en photo-interprétant les zones portant à confusion 
+La donnée finale produite est au format shape avec un champ occsol_num et un champ ocsol_name qui indique la classe d’occupation du sol. Il y a au total 12 classes différentes d’occupation du sol.
+Une matrice de confusion avec le calcul de l'indice Kappa est disponible dans un fichier tableur pour indiquer la précision de la classification produite,""","access:googledrive_
+source:cla_run_2014_fin_2975.zip_
+sourceType:shp_
+uploadType:shp_
+uploadSource:cla_run_2014_fin_2975.zip_
+upload:true_
+layername:cla_run_2014_fin_2975_
+styleUpload:true_
+style:SLD_HOMISLAND_
+spatialRepresentationType:vector_
+attribute:ID[ID]@ID,ocsol_name[ocsol_name]_
+variable:oc_solnum[ocsol_name]"
 "id:HOMISLAND_TROMELIN_
 doi:10.5281/zenodo.2585747",Carte d'occupation du sol de l'île de Tromelin,"abstract:Dans le sud-ouest de l'océan Indien, il existe de nombreuses îles de moins de 3000 km²: l'archipel des Seychelles (avec 115 îles, dont Mahé, la plus grande), l'archipel des Comores (Grande Comore, Mohéli, Anjouan et Mayotte), les îles Eparses (les îles Glorioso, Juan de Nova, Bassas da India, Europa, île Tromelin), les îles Mascareignes (Réunion, Maurice, Rodrigues). Ces îles ont leurs propres spécificités environnementales et des paysages très fragmentés et diversifiés. Les produits génériques d'occupation du sol existants à partir d'images satellites de basse et moyenne résolution ne sont pas adaptés à l'étude de ces petits territoires. 
 L'UMR Espace DEV a développé un produit d'occupation et d'utilisation des sols, appelé Homisland-IO, basé sur des traitements de télédétection sur des images satellites à haute résolution spatiale acquises par le satellite SPOT 5 entre décembre 2012 et juillet 2014. Ce produit a été réalisé en utilisant un processus de classification basé sur les objets. 
@@ -222,4 +414,25 @@ http: Lien vers le jeu de données HOMISLAND des 11 îles [DOI DATASET]@https://
 http:Lien vers l'article scientifique sur HOMISLAND[Homisland-IO: Homogeneous Land Use/Land Cover over the Small Islands of the Indian Ocean]@https://doi.org/10.3390/data4020082","useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
 accessConstraint:otherRestrictions_
 useConstraint:intellectualPropertyRights_
-otherConstraint:other constraints to highlight.",,
+otherConstraint:other constraints to highlight.","statement:""La classification de l'occupation du sol est issue de plusieurs sources de données : 
+-une image multispectrale(10 m) et panchromatique (2.5 m) SPOT 5 acquise le 24 juin 2013 à la station SEAS-OIS au format raster,
+-le modèle d’élévation de terrain (SRTM Data),
+-la cartographie OpenStreetMap.
+Le logiciel OrfeoToolbox 5.8.8 a été utiliser pour orthorectifier et prétraiter l’image SPOT5 et le plugin QuickOSM de QGIS a permis d’extraire des modes d’occupation du sol.
+Pour produire la donnée d’occupation du sol, l'analyse de l’image s’est déroulée en 3 phases :
+-une segmentation avec le logiciel eCognition en utilisant l’algorithme multi-resolution segmentation permettant d’obtenir des objets avec une signature spectrale identique,
+-une classification hiérarchique avec eCognition à partir de l’image segmentée en séparant les zones en eau et terrestres,
+-un post-traitement en photo-interprétant les zones portant à confusion 
+La donnée finale produite est au format shape avec un champ occsol_num et un champ ocsol_name qui indique la classe d’occupation du sol. Il y a au total 12 classes différentes d’occupation du sol.
+Une matrice de confusion avec le calcul de l'indice Kappa est disponible dans un fichier tableur pour indiquer la précision de la classification produite.""","access:googledrive_
+source:cla_trom.zip_
+sourceType:shp_
+uploadType:shp_
+uploadSource:cla_trom.zip_
+upload:true_
+layername:cla_trom_
+styleUpload:true_
+style:SLD_HOMISLAND_
+spatialRepresentationType:vector_
+attribute:ID[ID]@ID,ocsol_name[ocsol_name]_
+variable:oc_solnum[ocsol_name]"

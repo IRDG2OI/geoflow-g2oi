@@ -1,0 +1,15 @@
+Identifier,Title,Description,Subject,Creator,Date,Type,Language,SpatialCoverage,TemporalCoverage,Format,Relation,Rights,Provenance,Data
+PIMANT_ID,"Localisation des emprises des images acquises par drone et ULM  dans le cadre du programme PIMANT (Plateforme d'acquisition, de traitement et de diffusion en open data de donnés optique et lidar à Très Très Haute Résolution spatiale (TTHRS) .","abstract: La plateforme PIMANT permet d’acquérir, de produire et de distribuer librement et gratuitement des images ariennes à très haute résolution spatiale à partir d’ULM et de drones au service de l’aménagement du territoire.
+Ces images, une fois traitées, produisent des données orthorectifiées tels que des orthophotos (VIS et PIR) et des produits associés comme les MNS et les MNE (Modèles numériques de surface, Modèles numériques d'élévation).","theme[General]:Projet PIMANT,Projet G2OI,occupation du sol, télédétection,ULM, Drone, Région Réunion, FEDER_
+theme[Geographic]:La Réunion, Océan Indien","pointOfContact:pierre.tessier@cr-reunion.fr,stephane.guyard@cr-reunion.fr,pimant@cr-reunion.fr_
+metadata:benjamin.robert@ird.fr",publication:2022-02-22,map,fra,"SRID=4326;POLYGON((40.38227109789937 -0.45924264990148006,71.58344297289936 -0.45924264990148006,71.58344297289936 -22.36838204209407,40.38227109789937 -22.36838204209407,40.38227109789937 -0.45924264990148006))",2017-01/2019-07,distribution:application/zip[ESRI Shapefile (zipped)],"thumbnail:Logo Région Réunion@https://data.regionreunion.com/assets/logo?tstamp=163548775404_
+http:site Open data de la Région Réunion [projet PIMANT] @https://data.regionreunion.com/explore/dataset/liste-images-pimant-lareunion/information/_
+http:Emprise PIMANT [télécharger les emprises des images acquises dans le cadre du programme PIMANT]@https://drive.google.com/uc?id=1p3Ki5aGT0CTsKli-2XqPJezLw3lAHZsh_","useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
+accessConstraint:otherRestrictions_
+useConstraint:intellectualPropertyRights_
+otherConstraint:other constraints to highlight.",statement:La couche vectorielle est construite à partir des emprises des images acquises lors des différentes campagnes d'acquisiition du format tif au format shape.,"access:googledrive_
+source:EmprisePIMANT2021.zip_
+sourceType:shp_
+uploadType:shp_
+uploadSource:EmprisePIMANT2021.zip_
+upload:true"

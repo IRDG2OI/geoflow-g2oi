@@ -30,7 +30,7 @@
 		"parameters": {
 			"url": "{{GEONETWORK_UNIV_URL}}",
 			"user": "{{GEONETWORK_USER}}",
-			"pwd": "{{GEONETWORK_PWD}}",
+			"pwd": "{{GEONETWORK_PASSWORD}}",
 			"version": "4.2.1",
 			"logger": "DEBUG"
 		}
