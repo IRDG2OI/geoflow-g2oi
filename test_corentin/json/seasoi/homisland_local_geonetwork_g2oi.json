@@ -6,7 +6,6 @@
   	"logos": [
   	        "https://drive.google.com/uc?id=1_wgT7WVSN6LNt9KmpoJCUrwTsV1Hhx8a",
   		  		"https://en.ird.fr/sites/ird_fr/files/2019-08/logo_IRD_2016_BLOC_UK_COUL.png", 
-  		  		"https://www.espace-dev.fr/wp-content/uploads/2020/03/Logo-Espace-Dev-coul.txt-copie.png",
   		  		"https://drive.google.com/uc?id=1rOoQUX82i3eR3KBGz3mmMzgvJceo_wjl"
   	],
   	"mode": "entity",
@@ -60,7 +59,7 @@
         },
       "properties" : {
 			"workspace": "UMR_ESPACE_DEV",
-			"store": "seasoi_homisland"
+			"store": "seasoi_homisland_vecteur"
       }
     }
   ],

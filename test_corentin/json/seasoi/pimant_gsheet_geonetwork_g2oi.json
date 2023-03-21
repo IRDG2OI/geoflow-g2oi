@@ -6,7 +6,6 @@
   	"organization": "G2OI",
   	"logos": [
   	        "https://drive.google.com/uc?id=1_wgT7WVSN6LNt9KmpoJCUrwTsV1Hhx8a",
-  		  		"https://regionreunion.com/IMG/images/logo-region-reunion-institutionnel-02.png",
   		  		"https://drive.google.com/uc?id=1rOoQUX82i3eR3KBGz3mmMzgvJceo_wjl"
   	],
   	"options": {
@@ -59,7 +58,7 @@
         },
       "properties" : {
 			"workspace": "REGION_REUNION",
-			"store": "seasoi_pimant"
+			"store": "seasoi_pimant_vecteur"
       }
     }
   ],
