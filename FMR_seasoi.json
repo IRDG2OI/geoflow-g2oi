@@ -52,8 +52,7 @@
 			"logger": "DEBUG"
 		},
 		"properties" : {
-			"workspace": "IRD_ENTROPIE",
-			"store": "MAYOTTE_FMR"
+			"workspace": "UMR_ENTROPIE"
 		}
 	}
   ],
@@ -74,7 +73,7 @@
 	   },
         {
       "id": "geosapi-publish-ogc-services",
-      "run" : false,
+      "run" : true,
       	  	  "options" : {
 		  "createWorkspace": true,
 		  "createStore": true
