@@ -22,7 +22,7 @@
       "handler": "excel",
       "source": "https://drive.ird.fr/s/cHJC7KA8EeBC7mA/download/METADATA_MONACO_EXPLORATIONS_202210.xlsx"
       },
-    "contacts" : 
+    "contacts" :
       {
       "handler": "csv",
       "source": "https://drive.ird.fr/s/EYS3qccyB28PrA9/download/geoflow_g2oi_contacts.csv"
