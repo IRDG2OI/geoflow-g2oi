@@ -1,8 +1,8 @@
 {
   "profile": {
-    "id": "FMR",
+    "id": "ALDABRA",
     "mode": "entity",
-  	"project": "FMR",
+  	"project": "ALDABRA",
   	"organization": "IRD",
 	  "environment": {
         "file": ".envseasoi",
