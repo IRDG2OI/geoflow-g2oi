@@ -1,0 +1,85 @@
+{
+  "profile": {
+    "id": "eobs-geosur-niv1",
+  	"project": "geosur",
+  	"organization": "G2OI",
+  	"logos": [
+  		  		"https://drive.google.com/uc?id=1rOoQUX82i3eR3KBGz3mmMzgvJceo_wjl"
+  	],
+  	"mode": "entity",
+  	"options": {
+  	  "line_separator": "_\n"
+    }
+  },
+  "metadata": {
+    "entities": 
+      {
+      "handler": "gsheet",
+      "source": "https://docs.google.com/spreadsheets/d/1JfbGypt0GTB7GsWNfdcwVB3hlSbqePDoDFGnf-xNzBA/edit#gid=0"
+      },
+      "contacts" : {
+      "handler": "{{METADATA_CONTACTS_HANDLER}}",
+      "source": "{{METADATA_CONTACTS}}"
+    }
+  },
+  "software": [
+    {
+		"id": "geosur-geonetwork",
+		"type": "output",
+		"software_type": "geonetwork",
+		"parameters": {
+			"url": "{{GEONETWORK_UNIV_URL}}",
+			"user": "{{GEONETWORK_USER}}",
+			"pwd": "{{GEONETWORK_PASSWORD}}",
+			"version": "4.2.1",
+			"logger": "DEBUG"
+		}
+	},
+    	{
+		"id": "googledrive",
+		"type": "input",
+		"software_type": "googledrive",
+		"parameters": {
+    "email": "{{GMAIL_USER}}",
+			"token": "4/1AX4XfWgZXsSn1xRoiPDDQE4hzPNWsVcTKlJv-R5c_in9WCsS3kVJkXjNwp4"
+		},
+		"properties" : {}
+	}, 
+	{
+        "id": "geosur-geoserver",
+        "type": "output",
+        "software_type": "geoserver",
+        "parameters": {
+			"url": "{{GEOSERVER_UNIV_URL}}",
+			"user": "{{GEOSERVER_USER}}",
+			"pwd": "{{GEOSERVER_PASSWORD}}",
+			"logger": "DEBUG"
+        },
+      "properties" : {
+			"workspace": "OSU_R",
+			"store": "eobs"
+      }
+    }
+  ],
+ "actions": [
+    {
+      "id": "geometa-create-iso-19115",
+      "options" : {
+        "logo": true
+      },
+      "run": true
+    },
+        {
+      "id": "geonapi-publish-iso-19139",
+      "run" : true
+	   },
+	 {
+	  "id": "geosapi-publish-ogc-services",
+	  "run": true,
+	  "options" : {
+	    "createWorkspace": true,
+	    "createStore": true
+	  }
+	}
+  ]
+}
