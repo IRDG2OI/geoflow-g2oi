@@ -1,5 +1,7 @@
 # GEOFLOW CONFIGS
 
+Please first set up following configuration to share your workflow
+
 # USAGE
 
 1) Clone repository:
