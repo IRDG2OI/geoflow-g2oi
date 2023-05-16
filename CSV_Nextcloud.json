@@ -21,8 +21,8 @@
     ],
     "contacts" : [
       {
-        "handler": "csv",
-        "source": "https://drive.ird.fr/s/EaJ5qJ84GJdAS5r/download/geoflow_g2oi_contacts.csv"
+      "handler": "csv",
+      "source": "https://drive.ird.fr/s/EYS3qccyB28PrA9/download/geoflow_g2oi_contacts.csv"
       }
     ]
   },

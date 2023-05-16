@@ -10,7 +10,8 @@
         },  	
   	"logos": [
   		  		"https://www.monacoexplorations.org/apple-touch-icon.png",
-  		  		"https://en.ird.fr/sites/ird_fr/files/2019-08/logo_IRD_2016_BLOC_UK_COUL.png"
+  		  		"https://en.ird.fr/sites/ird_fr/files/2019-08/logo_IRD_2016_BLOC_UK_COUL.png",
+  		  		"https://drive.ird.fr/s/gkjL3gMzkpaTLKj/download/S.A.-Agulhas-II.jpg"
   	],
   	"options": {
   	  "line_separator": "_\n"
@@ -52,7 +53,7 @@
 			"logger": "DEBUG"
 		},
 		"properties" : {
-			"workspace": "MONACO_EXPLORATIONS"
+			"workspace": "MONACO"
 		}
 	}
   ],

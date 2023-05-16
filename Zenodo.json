@@ -22,8 +22,8 @@
     ],
     "contacts" : [
       {
-        "handler": "excel",
-        "source": "https://drive.ird.fr/s/tfQxYSBtio2nK9n/download/geoflow_g2oi_contacts.xlsx"
+      "handler": "csv",
+      "source": "https://drive.ird.fr/s/EYS3qccyB28PrA9/download/geoflow_g2oi_contacts.csv"
       }
     ]
   },
@@ -39,7 +39,7 @@
 		  },
 		  "properties": {
 		    "clean": {
-		      "run": false
+		      "run": true
 		    }
 		  }
 		}
