@@ -48,10 +48,11 @@
     {
       "id": "zen4R-deposit-record",
       "update_files": true,
+      "communities": "uav",
       "depositWithFiles": true,
       "publish": true,
       "run": true,
-      "strategy": "edit",
+      "strategy": "newversion",
       "deleteOldFiles": false
     }
   ]
