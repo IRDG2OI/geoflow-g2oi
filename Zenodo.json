@@ -39,21 +39,22 @@
 		  },
 		  "properties": {
 		    "clean": {
-		      "run": true
-		    }
+		      "run": false		    }
 		  }
 		}
   ],
   "actions": [
     {
       "id": "zen4R-deposit-record",
-      "update_files": true,
-      "communities": "uav",
-      "depositWithFiles": true,
-      "publish": true,
-      "run": true,
-      "strategy": "newversion",
-      "deleteOldFiles": false
+      "options": {
+          "update_files": false,
+          "communities": "uav",
+          "depositWithFiles": true,
+          "publish": true,
+          "strategy": "newversion",
+          "deleteOldFiles": false
+      },
+      "run": true
     }
   ]
 }
