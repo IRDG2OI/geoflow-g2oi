@@ -1,0 +1,117 @@
+{
+    "id": "G2OI_DGSC_AMCC_workflow",
+    "profile": {
+      "project": "G2OI project",
+      "organization": "DGSC",
+      "logo":"https://github.com/IRDnamik/thumbnails/blob/main/AMCC/logos_combin%C3%A9_amcc.png?raw=true"
+    },
+    "options": {
+      "line_separator": "_\n"
+    },
+    "mode": "entity",
+    "dependencies": {
+      "packages": {
+        "cran": [
+          "gsheet"
+        ],
+        "cran_force_install" : false,
+        "github": [],
+        "github_force_install": false
+      },
+      "scripts": []
+    },
+    "metadata": {
+      "entities": {
+        "handler": "gsheet",
+        "source": "https://docs.google.com/spreadsheets/d/1zWMi0UYmbkuowxJ1Ot147F-ZGty8o34Tiq1ttR1haXY/edit?usp=sharing"
+        },
+      "contacts" : {
+        "handler": "gsheet",
+        "source": "https://docs.google.com/spreadsheets/d/1cJq2z55y_6QITeyuljJmNh-GO25uCWJobDL3UwDFEN0/edit#gid=0"
+        }
+    },
+    "software": [
+      {
+        "id": "g2oi-DGSC-csw",
+        "type": "output",
+        "software_type": "csw",
+        "parameters": {
+            "url": "{{GEONETWORK_CSW_URL}}",
+            "user": "{{GEONETWORK_USER}}",
+            "pwd": "{{GEONETWORK_PASSWORD}}",
+            "serviceVersion": "2.0.2",
+            "logger": "DEBUG"
+        }
+    },
+      {
+          "id": "g2oi-DGSC-geonetwork",
+          "type": "output",
+          "software_type": "geonetwork",
+          "parameters": {
+              "url": "{{GEONETWORK_URL}}",
+              "user": "{{GEONETWORK_USER}}",
+              "pwd": "{{GEONETWORK_PASSWORD}}",
+              "version": "4.2.0",
+              "logger": "DEBUG"
+          }
+      },
+      {
+          "id": "g2oi-DGSC-geoserver",
+          "type": "output",
+          "software_type": "geoserver",
+          "parameters": {
+              "url": "{{GEOSERVER_URL}}",
+              "user": "{{GEOSERVER_USER}}",
+              "pwd": "{{GEOSERVER_PASSWORD}}",
+              "logger": "DEBUG"
+          },
+        "properties" : {
+              "workspace": "DGSC"
+        }
+      },
+          {
+          "id": "googledrive",
+          "type": "input",
+          "software_type": "googledrive",
+          "parameters": {
+              "email": "{{GMAIL_USER}}",
+              "token": ""
+          },
+          "properties" : {}
+      }
+    ],
+    "actions": [
+      {
+      "id": "geometa-create-iso-19115",
+      "run": true,
+        "options": {
+            "logo": true,
+            "doi": false,
+            "doi_thumbnail": false,
+            "addfeatures": false
+        }
+      },
+      {
+        "id": "geometa-create-iso-19110",
+        "run": false
+      },
+      {
+        "id": "geonapi-publish-iso-19139",
+        "run" : false,
+                 "options" : {
+         "group":"{{GROUP}}"
+         }	},
+             {
+        "id": "ows4R-publish-iso-19139",
+        "run": true
+      },
+      {
+        "id": "geosapi-publish-ogc-services",
+        "run": true,
+        "options" : {
+          "createWorkspace": true,
+          "createStore": true
+        }
+      }
+   ]
+  }
