@@ -3,7 +3,7 @@
     "profile": {
       "project": "G2OI project",
       "organization": "DGSC",
-      "logo":"https://github.com/IRDnamik/thumbnails/blob/main/AMCC/logos_combin%C3%A9_amcc.png?raw=true"
+      "logo":["https://github.com/IRDnamik/thumbnails/blob/main/AMCC/logos_combin%C3%A9_amcc.png?raw=true"]
     },
     "options": {
       "line_separator": "_\n"
