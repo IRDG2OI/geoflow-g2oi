@@ -4,8 +4,8 @@
 	"project": "SEAS-OI - Sen2chain",
 	"name": "Fiche metadonnée niv.1 par tuiles du projet",
 	"organization": "G2OI",
-  	"logos": [
-  		  		"https://drive.google.com/uc?id=1rOoQUX82i3eR3KBGz3mmMzgvJceo_wjl"
+  	"logos": [ 
+  	  "https://drive.google.com/uc?id=1RSMBdke2znvwtvhoM5evr-1rUesPLH-j"
   	],
   	  "mode": "entity",
   	  "options": {
@@ -28,7 +28,7 @@
 		"type": "output",
 		"software_type": "geonetwork",
 		"parameters": {
-			"url": "{{GEONETWORK_UNIV_URL}}",
+			"url": "{{GEONETWORK_SEASOI_URL}}",
 			"user": "{{GEONETWORK_USER}}",
 			"pwd": "{{GEONETWORK_PASSWORD}}",
 			"version": "4.2.1",
@@ -50,7 +50,7 @@
         "type": "output",
         "software_type": "geoserver",
         "parameters": {
-    			"url": "{{GEOSERVER_UNIV_URL}}",
+    			"url": "{{GEOSERVER_SEASOI_URL}}",
     			"user": "{{GEOSERVER_USER}}",
     			"pwd": "{{GEOSERVER_PASSWORD}}",
     			"logger": "DEBUG"
