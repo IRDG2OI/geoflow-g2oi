@@ -33,9 +33,9 @@
 		"type": "output",
 		"software_type": "ocs",
 		"parameters": {
-			"url": "{{NEXTCLOUD_GISCAN_URL}}",
-			"user":"{{NEXTCLOUD_GISCAN_USER}}",
-			"pwd": "{{NEXTCLOUD_GISCAN_PASSWORD}}",
+			"url": "{{NEXTCLOUD_URL}}",
+			"user":"{{NEXTCLOUD_USER}}",
+			"pwd": "{{NEXTCLOUD_PASSWORD}}",
 			"logger": "DEBUG"
 		} 
 		}

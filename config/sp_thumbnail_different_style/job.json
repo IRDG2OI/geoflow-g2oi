@@ -1,0 +1,89 @@
+{
+  "profile": {
+    "id": "WMS for thumbnail",
+    "name": "My Geoserver thumbnail",
+	  "project": "Test geoflow project to publish shapefile in Geoserver",
+	  "organization": "IRD",
+	  "environment": {
+        "file": ".env",
+        "hide_env_vars": ["MOTDEPASSE"]
+        },  
+	  "logos": [
+		  "https://via.placeholder.com/300x150.png/09f/fff?text=geometa",
+		  "https://via.placeholder.com/300x150.png/09f/fff?text=ows4R"
+	  ],
+	  "mode": "entity",
+	  "options": {
+	    "line_separator": "_\n"
+    }
+  },
+  "metadata": {
+    "entities": [
+      {
+        "handler": "gsheet",
+        "source": "https://docs.google.com/spreadsheets/d/1IJ4Osu1zq-0xyTovRbB686YxjnBFI8ggfyWzFI3rmGE/edit?usp=sharing"
+      }
+    ],
+    "contacts" : [
+      {
+        "handler": "gsheet",
+        "source": "https://docs.google.com/spreadsheets/d/1BqlXwA2fKiRuozNAQhBb_PbQVSPTCfl8_Q9rfM8E2ws/edit?usp=sharing"
+      }
+    ]
+  },
+  "software": [
+    	{
+		"id": "geonetwork",
+		"type": "output",
+		"software_type": "geonetwork",
+		"parameters": {
+			"url": "{{GEONETWORK_URL}}",
+			"user": "{{GEONETWORK_USER}}",
+			"pwd": "{{GEONETWORK_PASSWORD}}",
+			"version": "4.2.1",
+			"logger": "DEBUG"
+		}
+	},
+	{
+		"id": "my-geoserver",
+		"type": "output",
+		"software_type": "geoserver",
+		"parameters": {
+			"url": "{{GEOSERVER_URL}}",
+			"user": "{{GEOSERVER_USER}}",
+			"pwd": "{{GEOSERVER_PASSWORD}}",
+			"logger": "DEBUG"
+		},
+		"properties" : {
+			"workspace": "myshp"
+		}
+	}
+  ],
+  "actions": [
+        {
+      "id": "geometa-create-iso-19115",
+      "options" : {
+        "logo": true
+      },
+      "run": true
+    },
+        {
+      "id": "geonapi-publish-iso-19139",
+      "run" : true,
+      	     "options" : {
+	   "group":"{{GROUP}}"
+	   }
+	   },
+	{
+	  "id": "geosapi-publish-ogc-services",
+	  "run": true,
+	  "options" : {
+	    "createWorkspace": true,
+	    "createStore": true,
+	    "overwrite_upload": true,
+	    "overwrite_layer": true,
+	    "map_thumbnail_template": "{geoserver_url}/{workspace}/ows?service=WMS&version=1.1.0&request=GetMap&layers={layer}&bbox={bbox}&width=300&height=600&styles=line&srs=EPSG:{srid}&format=image/png"	
+	  }
+	}
+  ]
+}

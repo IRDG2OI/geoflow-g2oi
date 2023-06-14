@@ -10,7 +10,6 @@ geoflow-shiny
 geoflow.RData
 geoflow.Rproj
 geoflowtoken
-job.json
 logs
 searchresults.log
 config_metadata_gsheets_cloud_upload.json
