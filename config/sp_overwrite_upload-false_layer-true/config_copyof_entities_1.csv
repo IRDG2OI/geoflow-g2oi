@@ -1,0 +1,28 @@
+Identifier,Title,Description,Subject,Creator,Date,Type,Language,SpatialCoverage,TemporalCoverage,Format,Relation,Rights,Provenance,Data
+"id:sp-geoflow-shapefile-record1_
+uuid:1736ba5f-5acf-43e1-b499-42f368e4eaa9",My Title 1,"abstract:My metadata description 1 modified_
+purpose:Some purpose for this metadata 1_
+info:some supplemental info 1_
+edition:some edition for this dataset","theme[General]@http://mythesaurus/general:keyword@http://vocab/keyword,keyword2,keyword3_
+taxonomy[Especes]:Chromis chromis,Eretmochelys imbricata,Caretta caretta_
+project:Project 1@http://project1,Project 2@http://project2","metadata:0000-0002-5870-5762_
+owner:0000-0002-5870-5762_
+pointOfContact:julien.barde@ird.fr,wilfried.heintz@inrae.fr_
+processor:julien.barde@ird.fr","publication:2021-03-22_
+edition:2021-01-01",dataset,eng,srid:4326,2023,"resource:image/tiff_
+distribution:image/tiff[GeoTIFF]","thumbnail:Overview1@https://via.placeholder.com/300x150.png/09f/fff?text=my-geoflow-record-1_
+parent:my-parent-metadata-identifier@http://catalogue/my-parent-metadata-identifier_
+http:website@http://somelink/website","useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
+accessConstraint:otherRestrictions_
+useConstraint:intellectualPropertyRights_
+otherConstraint:some other constraints","statement:My data management workflow_
+process:rationale1[description1]_
+process:rationale2[description2]_
+process:rationale3[description3]","source:shapefile1.zip@data/shapefile1.zip_
+sourceType:shp_
+uploadSource:shapefile1.zip_
+uploadType:shp_
+store:myshpstore_
+layername:shapefile1_
+style:generic_
+spatialRepresentationType:vector"

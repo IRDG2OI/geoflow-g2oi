@@ -1,0 +1,254 @@
+Session info
+====================================================================================================
+R version 4.3.0 (2023-04-21)
+Platform: x86_64-pc-linux-gnu (64-bit)
+Running under: Manjaro Linux
+
+Matrix products: default
+BLAS:   /usr/lib/libblas.so.3.11.0 
+LAPACK: /usr/lib/liblapack.so.3.11.0
+
+locale:
+ [1] LC_CTYPE=fr_FR.UTF-8       LC_NUMERIC=C               LC_TIME=fr_FR.UTF-8        LC_COLLATE=fr_FR.UTF-8     LC_MONETARY=fr_FR.UTF-8   
+ [6] LC_MESSAGES=fr_FR.UTF-8    LC_PAPER=fr_FR.UTF-8       LC_NAME=C                  LC_ADDRESS=C               LC_TELEPHONE=C            
+[11] LC_MEASUREMENT=fr_FR.UTF-8 LC_IDENTIFICATION=C       
+
+time zone: Indian/Mauritius
+tzcode source: system (glibc)
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+[1] ows4R_0.3-5        geonapi_0.6-2      keyring_1.3.1      geometa_0.8-0      geosapi_0.6-6      geoflow_0.20230601 remotes_2.4.2     
+
+loaded via a namespace (and not attached):
+ [1] tidyselect_1.2.0   dplyr_1.1.2        fastmap_1.1.1      promises_1.2.0.1   XML_3.99-0.14      digest_0.6.31      mime_0.12         
+ [8] lifecycle_1.0.3    sf_1.0-12          dotenv_1.0.3       ellipsis_0.3.2     terra_1.7-29       magrittr_2.0.3     zen4R_0.9         
+[15] compiler_4.3.0     rlang_1.1.1        sass_0.4.6         tools_4.3.0        utf8_1.2.3         knitr_1.42         askpass_1.1       
+[22] bit_4.0.5          sp_1.6-0           classInt_0.4-9     curl_5.0.0         plyr_1.8.8         xml2_1.3.4         redland_1.0.17-17 
+[29] KernSmooth_2.23-20 withr_2.5.0        purrr_1.0.1        rdflib_0.2.6       grid_4.3.0         googledrive_2.1.0  fansi_1.0.4       
+[36] roxygen2_7.2.3     atom4R_0.3-3       gsheet_0.4.5       xtable_1.8-4       e1071_1.7-13       colorspace_2.1-0   ggplot2_3.4.2     
+[43] scales_1.2.1       cli_3.6.1          crayon_1.5.2       generics_0.1.3     rstudioapi_0.14    httr_1.4.5         tzdb_0.3.0        
+[50] DBI_1.1.3          cachem_1.0.8       proxy_0.4-27       stringr_1.5.0      assertthat_0.2.1   parallel_4.3.0     vctrs_0.6.2       
+[57] V8_4.3.0           jsonlite_1.8.4     hms_1.1.3          bit64_4.0.5        tidyr_1.3.0        jquerylib_0.1.4    units_0.8-2       
+[64] glue_1.6.2         codetools_0.2-19   stringi_1.7.12     gtable_0.3.3       later_1.3.1        raster_3.6-20      jsonld_2.2        
+[71] munsell_0.5.0      tibble_3.2.1       pillar_1.9.0       htmltools_0.5.5    openssl_2.0.6      R6_2.5.1           vroom_1.6.3       
+[78] shiny_1.7.4        lattice_0.21-8     geonode4R_0.1      readr_2.1.3        png_0.1-8          memoise_2.0.1      gargle_1.4.0      
+[85] httpuv_1.6.9       bslib_0.4.2        class_7.3-21       Rcpp_1.0.10        zip_2.3.0          uuid_1.1-0         whisker_0.4.1     
+[92] xfun_0.39          fs_1.6.2           pkgconfig_2.0.3   
+====================================================================================================
+Workflow initialization
+====================================================================================================
+[geoflow][WMS for thumbnail][INFO] Init Workflow configuration 
+[geoflow][WMS for thumbnail][INFO] Workflow job directory: /home/sylvain/Documents/IRD/geoflow/test45001192985/jobs/20230613201100 
+[geoflow][WMS for thumbnail][INFO] Creating workflow profile... 
+[geoflow][WMS for thumbnail][INFO] Workflow ID: WMS for thumbnail 
+[geoflow][WMS for thumbnail][INFO] Workflow name: My Geoserver thumbnail 
+[geoflow][WMS for thumbnail][INFO] Workflow project: Test geoflow project to publish shapefile in Geoserver 
+[geoflow][WMS for thumbnail][INFO] Workflow organization: IRD 
+[geoflow][WMS for thumbnail][INFO] Loading environment from env file '.env' 
+[geoflow][WMS for thumbnail][INFO] Workflow environment: 
+[geoflow][WMS for thumbnail][INFO] Setting geoflow global options... 
+[geoflow][WMS for thumbnail][INFO] Setting option 'line_separator' to '_
+' 
+[geoflow][WMS for thumbnail][INFO] Configuring output software 'geonetwork' (geonetwork) 
+[geoflow][INFO] Check package dependencies for software 'geonetwork' (geonetwork) 
+[geoflow][INFO] The following packages have been imported for software 'geonetwork' (geonetwork): 
+  package installed version
+1 geonapi      TRUE   0.6.2
+[geonapi][INFO] Connecting to GeoNetwork services as authenticated user 'sylvain' 
+[geonapi][INFO] Successfully authenticated to GeoNetwork!
+ 
+[geonapi][INFO] GN version >= 3.2 - Set-up GeoNetwork Open API manager 
+[geoflow][WMS for thumbnail][INFO] Configuring output software 'my-geoserver' (geoserver) 
+[geoflow][INFO] Check package dependencies for software 'my-geoserver' (geoserver) 
+[geoflow][INFO] The following packages have been imported for software 'my-geoserver' (geoserver): 
+  package installed version
+1 geosapi      TRUE   0.6.6
+[geosapi][INFO] Successfully connected to GeoServer! 
+[geoflow][WMS for thumbnail][INFO] Loading metadata elements... 
+[geoflow][WMS for thumbnail][INFO] Loading metadata contacts... 
+[geoflow][WMS for thumbnail][INFO] Loading metadata contacts from 'https://docs.google.com/spreadsheets/d/1BqlXwA2fKiRuozNAQhBb_PbQVSPTCfl8_Q9rfM8E2ws/edit?usp=sharing' [with 'gsheet' handler]... 
+[geoflow][WMS for thumbnail][INFO] Try to use embedded contacts handler 
+[geoflow][WMS for thumbnail][INFO] Execute contact handler to load contacts... 
+[1mindexed[0m [32m0B[0m in [36m 0s[0m, [32m0B/s[0m[1mindexed[0m [32m1.00TB[0m in [36m 0s[0m, [32m2.90PB/s[0m                                                                                                                                         [geoflow][WMS for thumbnail][INFO] Validating contacts 
+[geoflow][WMS for thumbnail][INFO] No validation issue detected! 
+[geoflow][WMS for thumbnail][INFO] Parsing 3 contacts from tabular source 
+[geoflow][WMS for thumbnail][WARN] Use 'Identifier' column as contact Ids. Make sure to use these identifiers in your dataset contact references 
+[geoflow][WMS for thumbnail][WARN] Use 'Identifier' column as contact Ids. Make sure to use these identifiers in your dataset contact references 
+[geoflow][WMS for thumbnail][WARN] Use 'Identifier' column as contact Ids. Make sure to use these identifiers in your dataset contact references 
+[geoflow][WMS for thumbnail][INFO] Successfuly fetched 3 contacts! 
+[geoflow][WMS for thumbnail][INFO] Successfuly loaded 3 contacts! 
+[geoflow][WMS for thumbnail][INFO] Loading metadata entities... 
+[geoflow][WMS for thumbnail][INFO] Loading metadata entities from 'https://docs.google.com/spreadsheets/d/1IJ4Osu1zq-0xyTovRbB686YxjnBFI8ggfyWzFI3rmGE/edit?usp=sharing' [with 'gsheet' handler]... 
+[geoflow][WMS for thumbnail][INFO] Try to use embedded contacts handler 
+[geoflow][WMS for thumbnail][INFO] Execute handler to load entities... 
+[1mindexed[0m [32m0B[0m in [36m 0s[0m, [32m0B/s[0m[1mindexed[0m [32m1.00TB[0m in [36m 0s[0m, [32m3.55PB/s[0m                                                                                                                                         [geoflow][WMS for thumbnail][INFO] Validating entities 
+[geoflow][WMS for thumbnail][INFO] Validation issues --> 
+  row     col    type                                                           message
+1   1   Title WARNING               Key is omitted, default key 'title' will be applied
+2   1 Subject WARNING Keyword topic's 'taxonomy' is not a recognized ISO keyword topic.
+3   1    Date WARNING                   key 'edition' is not a recognized ISO date key.
+4   1    Type WARNING             Key is omitted, default key 'generic' will be applied
+[geoflow][WMS for thumbnail][INFO] Parsing 1 entities from tabular source 
+[geoflow][WMS for thumbnail][INFO] Parsing entity 1 
+<geoflow_kvp>
+  Public:
+    clone: function (deep = FALSE) 
+    initialize: function (key = NULL, values = NULL, locale = NULL) 
+    key: process
+    locale: NULL
+    setKey: function (key) 
+    setLocale: function (locale) 
+    setValues: function (values) 
+    values: rationale1
+<geoflow_kvp>
+  Public:
+    clone: function (deep = FALSE) 
+    initialize: function (key = NULL, values = NULL, locale = NULL) 
+    key: process
+    locale: NULL
+    setKey: function (key) 
+    setLocale: function (locale) 
+    setValues: function (values) 
+    values: rationale2
+<geoflow_kvp>
+  Public:
+    clone: function (deep = FALSE) 
+    initialize: function (key = NULL, values = NULL, locale = NULL) 
+    key: process
+    locale: NULL
+    setKey: function (key) 
+    setLocale: function (locale) 
+    setValues: function (values) 
+    values: rationale3
+[geoflow][WMS for thumbnail][INFO] Successfuly fetched 1 entities! 
+[geoflow][WMS for thumbnail][INFO] Enrich metadata entities from directory of contacts 
+[geoflow][WMS for thumbnail][INFO] Successfuly loaded 1 entities! 
+[geoflow][INFO] Check package dependencies for action 'geometa-create-iso-19115' 
+[geoflow][INFO] The following packages have been imported for action 'geometa-create-iso-19115': 
+  package installed version
+1 geometa      TRUE   0.8.0
+2   ows4R      TRUE   0.3.5
+[geoflow][INFO] Check package dependencies for action 'geonapi-publish-iso-19139' 
+[geoflow][INFO] The following packages have been imported for action 'geonapi-publish-iso-19139': 
+  package installed version
+1 geonapi      TRUE   0.6.2
+[geoflow][INFO] Check package dependencies for action 'geosapi-publish-ogc-services' 
+[geoflow][INFO] The following packages have been imported for action 'geosapi-publish-ogc-services': 
+  package installed version
+1 geosapi      TRUE   0.6.6
+====================================================================================================
+Workflow Execution
+====================================================================================================
+[geoflow][WMS for thumbnail][INFO] Executing workflow job... 
+----------------------------------------------------------------------------------------------------
+[geoflow][WMS for thumbnail][INFO] Executing software actions 'onstart' ... 
+[geoflow][WMS for thumbnail][INFO] Executing input software action 'onstart' 
+[geoflow][WMS for thumbnail][INFO] Executing GeoServer 'onstart' action 
+----------------------------------------------------------------------------------------------------
+[geoflow][WMS for thumbnail][INFO] Executing entity actions ... 
+[geoflow][WMS for thumbnail][INFO] Workflow mode: entity 
+[geoflow][WMS for thumbnail][INFO] Workflow with 3 actions 
+[geoflow][WMS for thumbnail][INFO] Action 1: geometa-create-iso-19115 
+[geoflow][WMS for thumbnail][INFO] Action 2: geonapi-publish-iso-19139 
+[geoflow][WMS for thumbnail][INFO] Action 3: geosapi-publish-ogc-services 
+[geoflow][WMS for thumbnail][INFO] Create entity job dir at '/home/sylvain/Documents/IRD/geoflow/test45001192985/jobs/20230613201100/entities/sp-geoflow-shapefile-record1' 
+[geoflow][WMS for thumbnail][INFO] Creating 'data' directory: /home/sylvain/Documents/IRD/geoflow/test45001192985/jobs/20230613201100/entities/sp-geoflow-shapefile-record1/data 
+[geoflow][WMS for thumbnail][INFO] Creating 'metadata' directory: /home/sylvain/Documents/IRD/geoflow/test45001192985/jobs/20230613201100/entities/sp-geoflow-shapefile-record1/metadata 
+[geoflow][WMS for thumbnail][INFO] Entity working directory: /home/sylvain/Documents/IRD/geoflow/test45001192985/jobs/20230613201100/entities/sp-geoflow-shapefile-record1 
+[geoflow][WMS for thumbnail][INFO] Copying data to entity job data directory '/home/sylvain/Documents/IRD/geoflow/test45001192985/jobs/20230613201100/entities/sp-geoflow-shapefile-record1/data' 
+[geoflow][WMS for thumbnail][INFO] Copying data source 1 'shapefile1.zip' (data/shapefile1.zip) to entity job data directory '/home/sylvain/Documents/IRD/geoflow/test45001192985/jobs/20230613201100/entities/sp-geoflow-shapefile-record1/data' 
+[geoflow][WMS for thumbnail][INFO] Copying data to Job data directory from local file(s) 
+[geoflow][WMS for thumbnail][INFO] Copying data local file(s): copying unzipped files to job data directory 
+[geoflow][WMS for thumbnail][INFO] sourceZip = FALSE: source files will be uploaded 
+[geoflow][WMS for thumbnail][INFO] Resolving sourceType from zip list: 'shp' 
+[geoflow][WMS for thumbnail][INFO] Read Shapefiles from geoflow temporary data directory 
+options:        ENCODING=WINDOWS-1252 
+Reading layer `shapefile1' from data source 
+  `/home/sylvain/Documents/IRD/geoflow/test45001192985/jobs/20230613201100/entities/sp-geoflow-shapefile-record1/data/shapefile1.shp' 
+  using driver `ESRI Shapefile'
+Simple feature collection with 6 features and 5 fields
+Geometry type: POLYGON
+Dimension:     XY
+Bounding box:  xmin: -49.96552 ymin: 37.6049 xmax: -19.31034 ymax: 58.6049
+Geodetic CRS:  WGS 84
+[geoflow][WMS for thumbnail][INFO] Overwriting entity bounding box with data bounding boxes, using 'first' strategy 
+[geoflow][WMS for thumbnail][INFO] sourceType and uploadType are identical, no conversion required 
+[geoflow][WMS for thumbnail][INFO] Enrich entity with OGC relations for layer = 'shapefile1' 
+[geoflow][WMS for thumbnail][INFO] Enrich entity with OGC WMS thumbnail for layer = 'shapefile1' 
+[geoflow][WMS for thumbnail][INFO] Enrich entity with OGC WMS base URL for layer = 'shapefile1' 
+[geoflow][WMS for thumbnail][INFO] Enrich entity with OGC WFS base URL for layer = 'shapefile1' 
+[geoflow][WMS for thumbnail][INFO] Enrich entity with OGC WFS download links for layer = 'shapefile1' 
+[geosapi][INFO] Fetching workspace 'myshp' 
+[geosapi][INFO] Successfully fetched workspace! 
+[geoflow][WMS for thumbnail][INFO] Executing Action 1: geometa-create-iso-19115 - for entity sp-geoflow-shapefile-record1 
+[geometa][INFO] Object 'ISOMetadata' is VALID according to ISO 19139 XML schemas! 
+[geoflow][WMS for thumbnail][INFO] WORKFLOW PROGRESS : ACTION 'geometa-create-iso-19115' of ENTITY 'sp-geoflow-shapefile-record1' ... 33.3333333333333 % 
+[geoflow][WMS for thumbnail][INFO] Executing Action 2: geonapi-publish-iso-19139 - for entity sp-geoflow-shapefile-record1 
+[1mindexed[0m [32m0B[0m in [36m 0s[0m, [32m0B/s[0m[1mindexed[0m [32m1.00TB[0m in [36m 0s[0m, [32m2.53PB/s[0m                                                                                                                                         [geonapi][INFO] Getting user groups... 
+Response [https://gn.marbec-tools.ird.fr/geonetwork/srv/api/groups]
+  Date: 2023-06-13 16:12
+  Status: 200
+  Content-Type: application/json
+  Size: 1.54 kB
+
+[geonapi][INFO] Successfully fetched user groups! 
+[geonapi][INFO] Getting tags (categories)... 
+Response [https://gn.marbec-tools.ird.fr/geonetwork/srv/api/tags]
+  Date: 2023-06-13 16:12
+  Status: 200
+  Content-Type: application/json
+  Size: 6.05 kB
+
+[geonapi][INFO] Successfully fetched tags (categories)! 
+[geonapi][INFO] Uploading metadata ... 
+[geometa][INFO] Object 'ISOMetadata' is VALID according to ISO 19139 XML schemas! 
+
+[geonapi][INFO] Successfully uploaded metadata! 
+[geoflow][WMS for thumbnail][INFO] WORKFLOW PROGRESS : ACTION 'geonapi-publish-iso-19139' of ENTITY 'sp-geoflow-shapefile-record1' ... 66.6666666666667 % 
+[geoflow][WMS for thumbnail][INFO] Executing Action 3: geosapi-publish-ogc-services - for entity sp-geoflow-shapefile-record1 
+[geosapi][INFO] Fetching layer 'shapefile1' 
+[geosapi][INFO] Successfuly fetched layer! 
+[geosapi][INFO] Fetching datastore 'myshpstore' in workspace 'myshp' 
+[geosapi][INFO] Successfully fetched datastore! 
+[geoflow][WMS for thumbnail][INFO] Upload mode is set to true 
+[geoflow][WMS for thumbnail][INFO] Upload from local file(s) 
+[geoflow][WMS for thumbnail][INFO] File to upload to Geoserver: /home/sylvain/Documents/IRD/geoflow/test45001192985/jobs/20230613201100/entities/sp-geoflow-shapefile-record1/data/shapefile1.zip 
+[geoflow][WMS for thumbnail][INFO] Upload file '/home/sylvain/Documents/IRD/geoflow/test45001192985/jobs/20230613201100/entities/sp-geoflow-shapefile-record1/data/shapefile1.zip' [shp] to GeoServer... 
+[geosapi][INFO] Uploading SHP data in datastore 'myshpstore' (workspace 'myshp') 
+
+[geosapi][INFO] Successfull data upload! 
+[geosapi][INFO] Fetching list of styles 
+[geosapi][INFO] Successfully fetched 38 styles 
+[geosapi][INFO] Reloading GeoServer catalog 
+[geosapi][INFO] Successfully reloaded GeoServer catalog! 
+[geosapi][INFO] Unpublishing layer 'shapefile1' 
+[geosapi][INFO] Fetching layer 'shapefile1' 
+[geosapi][INFO] Successfuly fetched layer! 
+[geosapi][INFO] Deleting layer 'shapefile1' 
+[geosapi][INFO] Successfuly deleted layer! 
+[geosapi][INFO] Fetching featureType 'shapefile1' in datastore 'myshpstore' (workspace 'myshp') 
+[geosapi][INFO] Successfully fetched featureType! 
+[geosapi][INFO] Deleting featureType 'shapefile1' in datastore 'myshpstore' (workspace 'myshp') 
+[geosapi][INFO] Successfuly deleted featureType! 
+[geosapi][INFO] Successfully unpublished layer! 
+[geosapi][INFO] Publishing layer 'shapefile1' 
+[geosapi][INFO] Creating featureType 'shapefile1' in datastore 'myshpstore' (workspace 'myshp') 
+
+[geosapi][INFO] Successfully created featureType! 
+[geosapi][INFO] Creating layer 'shapefile1' 
+
+[geosapi][INFO] Successfuly created layer! 
+[geosapi][INFO] Successfully published layer! 
+[geoflow][WMS for thumbnail][INFO] WORKFLOW PROGRESS : ACTION 'geosapi-publish-ogc-services' of ENTITY 'sp-geoflow-shapefile-record1' ... 100 % 
+[1mwrote[0m [32m1.00TB[0m in [36m 0s[0m, [32m59.07PB/s[0m                                                                                                                                         [1mwrote[0m [32m1.00TB[0m in [36m 0s[0m, [32m29.33PB/s[0m                                                                                                                                         ----------------------------------------------------------------------------------------------------
+[geoflow][WMS for thumbnail][INFO] Executing software actions 'onend' ... 
+[geoflow][WMS for thumbnail][INFO] Executing input software action 'onend' 
+[geoflow][WMS for thumbnail][INFO] Executing GeoServer 'onend' action 
+[geosapi][INFO] Reloading GeoServer catalog 
+[geosapi][INFO] Successfully reloaded GeoServer catalog! 
+[geoflow][WMS for thumbnail][INFO] Workflow successfully executed ... 
+[geoflow][WMS for thumbnail][INFO] Reset Geoserver API manager 
+[geoflow][WMS for thumbnail][INFO] Reset Geonetwork API manager 

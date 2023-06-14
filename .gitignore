@@ -13,3 +13,6 @@ geoflowtoken
 job.json
 logs
 searchresults.log
+config_metadata_gsheets_cloud_upload.json
+config_metadata_wms_thumbnail.json
+data
