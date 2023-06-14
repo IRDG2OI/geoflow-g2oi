@@ -1,11 +1,11 @@
 {
   "profile": {
-  "id": "1026_sens2val_tuiles_total_shp",
-	"project": "geoflow - Sens2Val",
+  "id": "sens2val_tuiles_total_shp",
+	"project": "SEAS-OI - Sen2chain",
 	"name": "Fiche metadonnée niv.1 par tuiles du projet",
 	"organization": "G2OI",
-  	"logos": [
-  		  		"https://drive.google.com/uc?id=1rOoQUX82i3eR3KBGz3mmMzgvJceo_wjl"
+  	"logos": [ 
+  	  "https://drive.google.com/uc?id=1RSMBdke2znvwtvhoM5evr-1rUesPLH-j"
   	],
   	  "mode": "entity",
   	  "options": {
@@ -17,21 +17,21 @@
       "handler": "gsheet",
       "source": "https://docs.google.com/spreadsheets/d/1f-3JJkDQaSU5MkaaNaAWZpIUr4JCVujE7GgOoZgReHk/edit?usp=sharing"
     },
-    "contacts" : {
-      "handler": "gsheet",
-      "source": "https://docs.google.com/spreadsheets/d/1Rp-58n2Czfnm2kFmPuywBujBxlX4VUQdus_C0liod4g/edit?usp=sharing"
+      "contacts" : {
+      "handler": "{{METADATA_CONTACTS_HANDLER}}",
+      "source": "{{METADATA_CONTACTS}}"
     }
   },
  "software": [
     {
-		"id": "CINES-geonetwork",
+		"id": "sen2chain-total-geonetwork",
 		"type": "output",
 		"software_type": "geonetwork",
 		"parameters": {
-			"url": "{{GEONETWORK_CINES_URL}}",
-			"user": "{{GEONETWORK_CINES_USER}}",
-			"pwd": "{{GEONETWORK_CINES_PASSWORD}}",
-			"version": "4.0.6",
+			"url": "{{GEONETWORK_SEASOI_URL}}",
+			"user": "{{GEONETWORK_USER}}",
+			"pwd": "{{GEONETWORK_PASSWORD}}",
+			"version": "4.2.1",
 			"logger": "DEBUG"
 		}
     },
@@ -45,21 +45,21 @@
 		},
 		"properties" : {}
 	},
-  {
-        "id": "CINES-geoserver",
+	{
+        "id": "sen2chain-total-geoserver",
         "type": "output",
         "software_type": "geoserver",
         "parameters": {
-            "url": "{{GEOSERVER_CINES_URL}}",
-            "user": "{{GEOSERVER_USER}}",
-            "pwd": "{{GEOSERVER_PWD}}",
-            "logger": "DEBUG"
-        },
+    			"url": "{{GEOSERVER_SEASOI_URL}}",
+    			"user": "{{GEOSERVER_USER}}",
+    			"pwd": "{{GEOSERVER_PASSWORD}}",
+    			"logger": "DEBUG"
+            },
         "properties" : {
-            "workspace": "G2OImyshp",
-            "store": "sen2chain"
+  			"workspace": "UMR_ESPACE_DEV",
+  			"store": "seasoi_sen2chain_vecteur"
         }
-  }
+	}
   ],
 "actions": [
     {
@@ -73,9 +73,13 @@
       "id": "geonapi-publish-iso-19139",
        "run" : true
 	   },
-        {
-      "id": "geosapi-publish-ogc-services",
-      "run" : true
-    }
+	   	{
+	  "id": "geosapi-publish-ogc-services",
+	  "run": true,
+	  "options" : {
+	    "createWorkspace": true,
+	    "createStore": true
+	  }
+	}
 	]
 }

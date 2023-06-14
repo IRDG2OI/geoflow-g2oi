@@ -1,13 +1,12 @@
 {
   "profile": {
-    "id": "constellation",
+    "id": "CACAOS",
     "mode": "entity",
-  	"project": "Constellation",
+  	"project": "CACAOS",
   	"organization": "G2OI",
   	"logos": [
+  	        "https://regionreunion.com/IMG/images/logo-region-reunion-institutionnel-02.png",
   	        "https://drive.google.com/uc?id=1_wgT7WVSN6LNt9KmpoJCUrwTsV1Hhx8a",
-  		  		"https://en.ird.fr/sites/ird_fr/files/2019-08/logo_IRD_2016_BLOC_UK_COUL.png", 
-  		  		"https://www.espace-dev.fr/wp-content/uploads/2020/03/Logo-Espace-Dev-coul.txt-copie.png",
   		  		"https://drive.google.com/uc?id=1rOoQUX82i3eR3KBGz3mmMzgvJceo_wjl"
   	],
   	"options": {
@@ -18,7 +17,7 @@
     "entities":
       {
       "handler": "gsheet",
-      "source": "https://docs.google.com/spreadsheets/d/1b9R_jTZSuUENfbxAHgdkZ_5qERSt-vaA25SHSMqxxtk/edit#gid=0"
+      "source": "https://docs.google.com/spreadsheets/d/16_00tpsfeXICMgDObail_lIAOTwSJuxV_YH2i3f6TIw/edit#gid=0"
       },
     "contacts" : {
       "handler": "{{METADATA_CONTACTS_HANDLER}}",
@@ -27,14 +26,14 @@
   },
 "software": [
     {
-		"id": "constellation-geonetwork",
+		"id": "cacaos-geonetwork",
 		"type": "output",
 		"software_type": "geonetwork",
 		"parameters": {
 			"url": "{{GEONETWORK_UNIV_URL}}",
 			"user": "{{GEONETWORK_USER}}",
 			"pwd": "{{GEONETWORK_PASSWORD}}",
-			"version": "4.0.6",
+			"version": "4.2.1",
 			"logger": "DEBUG"
 		}
     },

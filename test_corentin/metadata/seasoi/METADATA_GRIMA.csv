@@ -1,0 +1,92 @@
+Identifier,Title,Description,Subject,Creator,Date,Type,Language,SpatialCoverage,TemporalCoverage,Format,Relation,Rights,Provenance,Data
+id:GRIMA_MNT,title:Modéle Numerique de terrain de 2014 d'Antananarivo-projet GRIMA,"abstract:L'étude technique du programme de Gestion du Risques Inondation et Mouvements de terrain à Antananarivo (GRIMA) confiée au groupe HYDRETUDES-SAGE-SYNTEGRA a été réalisé en deux phases sur une durée de dix mois de novembre 2014 à septembre 2015:
+-Phase 1 : caractérisation de l'aléa mouvements de terrain (glissements  de terrain, érosion, chute de blocs) à l'échelle de la ville incluant des principes de mise en sécurité sur les secteurs les  plus impactes afin de réduire le niveau d'alea.
+-Phase 2 : étude pilote à l'échelle d'un quartier définissant les règles d'urbanisation relatives aux risques naturels (élaboration d'un document type Plan de Prévention des Risques), en intégrant  les aléas inondation et mouvements de terrain et les enjeux.
+Dans le cadre de la phase 1,un modéle numérique de terrain est généré pour permettre l'étude des alés des mouvements de terrain ou de l'aléa inondation , utilisr pour la définition du risque.
+Le Modèle Numérique de terrain (MNT) de 2014 réalisé grâce à l’acquisition des images Pléiades, rendu sous format exploitable QGIS, Arcgis et Mapinfo (Pas de 2m) –
+(Annexe 1).Le MNT est livré sur l’emprise de l’étude avec un buffer de 200 m aux pas de 2 m, au format Arcinfo ASCII Grid (.asc), en un unique fichier par taille de maille.","theme[General]:Projet GRIMA,risques naturels, aléa,inondation, aménagement du territoire, télédétection,POCT_
+theme[Geographic]:Madagascar, Antananarivo","pointOfContact:contact.reunion@hydretudes.com,pierre.tessier@cr-reunion.fr,stephane.guyard@cr-reunion.fr_
+publisher:benjamin.robert@ird.fr_
+metadata:benjamin.robert@ird.fr","publication:2015-03-01_
+edition:2015-03-01",map,fra,srid:32738,2015-03-01/2015-03-05,distribution:application/zip[ESRI Shapefile (zipped)],"thumbnail:Cartographie du MNT@https://drive.google.com/uc?id=1Wl6BpSnYT7dYy2Y1nXOvsUCoXQXp6wjO_
+thumbnail:Logo Région@https://data.regionreunion.com/assets/logo?tstamp=163548775404_
+thumbnail:Logo FEDER@https://www.enseignementsup-recherche.gouv.fr/sites/default/files/styles/full_width/public/imported_files/image/ferder_reunion_781741.jpg?itok=xu50pQ1g_
+thumbnail:Logo SEAS-OI@http://www.seas-oi.org/image/layout_set_logo?img_id=16402&t=1653032230879_
+thumbnail:Logo Hydretudes@https://www.hydretudes.com/img/logo_hydretudes2.png_
+http:[Télécharger la carte de l'aléa Inondation sur Antanarivo]@https://drive.google.com/uc?id=175cu1CCGPrdqFJ4u0Y-ZyvKEPw_sMML9_
+http:[Télécharger le rapport définitif de la phase 1 du projet GRIMA]@https://drive.google.com/uc?id=1Q4rxpQm15SbImBa7e7kyFi7vxU5UOa6O","useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
+accessConstraint:otherRestrictions_
+useConstraint:intellectualPropertyRights_
+otherConstraint:other constraints to highlight.",,
+id:GRIMA_MVTERRAIN_Phase1,title:Carte de l'aléa des mouvements de terrain sur la  zone de ANTANANARIVO.,"abstract:""L'étude technique du programme de Gestion du Risques Inondation et Mouvements de terrain à Antananarivo (GRIMA) confiée au groupe HYDRETUDES-SAGE-SYNTEGRA a été réalisé en deux phases sur une durée de dix mois de novembre 2014 à septembre 2015:
+Lévaluation de l’intensité des phénomènes de Mouvements de terrain repose sur une approche de type naturaliste ou expertise, excluant généralement le recours à des études
+complémentaires (sondages, essais, modélisations), sauf études antérieures disponibles.L’ensemble des éléments et paramètres disponibles sur le site d’étude permettra le classement et le jugement de l’intensité du ou des phénomènes (facteurs aggravants et de prédisposition, études antérieures, relevés de terrain, MNT).La notion de protection des phénomènes et leurs paramètres (coût/technicité des parades éventuelles) est intégré pour trancher sur le type d’aléa rencontré.
+Dans le cadre de cette étude, sont distingués 4 niveaux d’aléas :
+- L’aléa Nul (ou négligeable) est utilisé pour caractériser des zones où le risque de Mouvements de terrain sera considéré comme nul. Ces zones concerneront généralement l’ensemble des zones dites « plates » (inférieure à 3°),
+- L’aléa faible à modéré concerne des zones où des Mouvements de terrain peuvent éventuellement se produire mais où ces derniers seront d’ampleur limitée, de faible fréquence (récurrence faible) et maitrisable à l’échelle d’une parcelle. D’une manière générale, cet aléa caractérise les zones de bas de versant présentant des pentes généralement faiblement marquées,
+- L’aléa Moyen concerne des zones où la morphologie est moyennement marquée (pentes topographiques supérieures à 20°) et ou des incertitudes demeurent par rapport à l’extension des phénomènes. Ce degré d’aléa présente des caractéristiques intermédiaires entre des événements modérés qui sont gérables économiquement et des événements majeurs. Par conséquent des parades techniques existent mais leur coût et leur mise en œuvre est souvent supérieur au moyen d’un particulier voire d’une agglomération,
+ -L’aléa élevé concerne les zones jugées instables et où de nombreux mouvements de terrain sont recensés (ou peuvent être considérés). Généralement, il s’agit des zones de pentes fortes (>30°). Ces secteurs peuvent aussi être associés aux zones d’extension de chute de blocs (propagation) ou encore à des phénomènes régressifs (ex : zone d’érosion en bord de ravine). Ces secteurs seront incompatibles avec les installations humaines.""
+","theme[General]:Projet GRIMA,risques naturels, aléa,mouvement de terrain, aménagement du territoire, télédétection,POCT_
+theme[Geographic]:Madagascar, Antananarivo","pointOfContact:contact.reunion@hydretudes.com,pierre.tessier@cr-reunion.fr,stephane.guyard@cr-reunion.fr_
+publisher:benjamin.robert@ird.fr_
+metadata:benjamin.robert@ird.fr
+","publication:2015-03-01_
+edition:2015-03-01",map,fra,srid:32738,2015-03-01/2015-03-01,distribution:application/zip[ESRI Shapefile (zipped)],"thumbnail:Carte du PPRN@https://drive.google.com/uc?id=1SPdG43MoCP8Xys8UhA0lHluoAN-TNsW1_
+thumbnail:Logo Région Réunion@https://data.regionreunion.com/assets/logo?tstamp=163548775404_
+thumbnail:Logo FEDER@https://www.enseignementsup-recherche.gouv.fr/sites/default/files/styles/full_width/public/imported_files/image/ferder_reunion_781741.jpg?itok=xu50pQ1g_
+thumbnail:Logo SEAS-OI@http://www.seas-oi.org/image/layout_set_logo?img_id=16402&t=1653032230879_
+thumbnail:Logo Hydretudes@https://www.hydretudes.com/img/logo_hydretudes2.png_
+http:[Télécharger la carte au format pdf des mouvements de terrain]@https://drive.google.com/uc?id=14vy6nYafnfyRGXtB0CeM9rmgHYz_Vnd_
+http:@Rapport Phase I[télécharger le rapport de la phase I]@https://drive.google.com/uc?id=1Q4rxpQm15SbImBa7e7kyFi7vxU5UOa6O
+","useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
+accessConstraint:otherRestrictions_
+useConstraint:intellectualPropertyRights_
+otherConstraint:other constraints to highlight.",,
+id:GRIMA_Alea_Inondation,title:Cartographie de l'aléa Inondation sur la zone de ANTANANARIVO dans cadre du programme GRIMA.,"abstract:L'étude technique du programme de Gestion du Risques Inondation et Mouvements de terrain à Antananarivo (GRIMA) confiée au groupe HYDRETUDES-SAGE-SYNTEGRA a été réalisé en deux phases sur une durée de dix mois de novembre 2014 à septembre 2015:
+-phase 1 : caractérisation de l'aléa mouvements de terrain (glissements  de terrain, érosion, chute de blocs) à l'échelle de la ville incluant des principes de mise en sécurité sur les secteurs les  plus impactes afin de réduire le niveau d'alea.
+-phase 2 : étude pilote à l'échelle d'un quartier définissant les règles d'urbanisation relatives aux risques naturels (élaboration d'un document type Plan de Prévention des Risques), en intégrant les aléas inondation et mouvements de terrain et les enjeux.
+Dans le cadre de la phase 2, une cartographie de l'aléa inondation du risque sur la commune  d'Antanarivo et sur un quartier pilote de la ville est réalisée.
+Dans la perspective de la production d’un zonage réglementaire intégrant les aléas mouvements de terrain et inondation ainsi que les enjeux, l’aléa inondation a été cartographié
+à partir des données existantes. Les paramètres de qualification de l’aléa inondation retenus sont la hauteur d’eau et la vitesse d’écoulement.
+Le terme inondation est utilisé pour décrire :
+- le débordement d'un cours d'eau, en crue puis en décrue, sur les terrains voisins ; l'eau est répandue dans les talwegs et les dépressions topographiques ;
+- le ruissellement très important, soit sur des terres cultivées (inondation boueuse), soit en zone imperméable urbanisée ;
+- le débordement ou les conséquences de la rupture d'ouvrages artificiels hydrauliques tels que retenues d'eau, digues, canalisations (agricoles, d'eau potable, d'assainissement) provoquant une inondation soudaine ;
+- la remontée émergente d'une nappe phréatique ;
+- l'envahissement temporaire par la mer d'une zone côtière lors d'une submersion marine.
+La cartographie aléa Inondation est disponible au format shape sur le quartier pilote du propjet GRIMA.","theme[General]:Projet GRIMA,risques naturels, aléa,inondation,aménagement du territoire, télédétection,POCT_
+theme[Geographic]:Madagascar, Antananarivo","pointOfContact:contact.reunion@hydretudes.com,pierre.tessier@cr-reunion.fr,stephane.guyard@cr-reunion.fr_
+publisher:benjamin.robert@ird.fr_
+metadata:benjamin.robert@ird.fr
+","publication:2015-03-01_
+edition:2015-03-01",map,fra,srid:32738,2015-03-01/2015-03-01,distribution:application/zip[ESRI Shapefile (zipped)],"thumbnail:Carte de l'aléa Inondation@https://drive.google.com/uc?id=1VOO9-xod7vCeAL5T8CJ60nCJpDPOATmq_
+thumbnail:Logo Région Réunion@https://data.regionreunion.com/assets/logo?tstamp=163548775404_
+thumbnail:Logo FEDER@https://www.enseignementsup-recherche.gouv.fr/sites/default/files/styles/full_width/public/imported_files/image/ferder_reunion_781741.jpg?itok=xu50pQ1g_
+thumbnail:Logo SEAS-OI@http://www.seas-oi.org/image/layout_set_logo?img_id=16402&t=1653032230879_
+thumbnail:Logo Hydretudes@https://www.hydretudes.com/img/logo_hydretudes2.png_
+thumbnail:Détermination de l'aléa inondation en fonction de la vitesse et de la hauteur d'eau@https://drive.google.com/uc?id=1LfCfnF4EaawjIpVVPaisiWTmLa_41lac_
+http:[Télécharger la carte de l'aléa Inondation sur Antanarivo]@https://drive.google.com/uc?id=1VOO9-xod7vCeAL5T8CJ60nCJpDPOATmq_
+http:[Télécharger le rapport définitif de la phase 2 du projet GRIMA]@https://drive.google.com/uc?id=1Q4rxpQm15SbImBa7e7kyFi7vxU5UOa6O
+
+","useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
+accessConstraint:otherRestrictions_
+useConstraint:intellectualPropertyRights_
+otherConstraint:other constraints to highlight.",,
+id:GRIMA_Cartographie_reglementaire ,title:Cartographie régkementaire sur la  commune d'Antanarivo réalisé dans le cadre du projet GRIMA,"abstract:L'étude technique du programme de Gestion du Risques Inondation et Mouvements de terrain à Antananarivo (GRIMA) confiée au groupe HYDRETUDES-SAGE-SYNTEGRA a été réalisé en deux phases sur une durée de dix mois de novembre 2014 à septembre 2015:
+-Phase 1 : caractérisation de l'aléa mouvements de terrain (glissements  de terrain, érosion, chute de blocs) à l'échelle de la ville incluant des principes de mise en sécurité sur les secteurs les  plus impactes afin de réduire le niveau d'alea.
+- Phase 2 : étude pilote à l'échelle d'un quartier définissant les règles d'urbanisation relatives aux risques naturels (élaboration d'un document type Plan de Prévention des Risques), en intégrant les aléas inondation et mouvements de terrain et les enjeux.
+Dans le cadre de la phase 2, une cartographie  réglementaire du risque sur la commune  d'Antanarivo et sur le quartier pilote de  est établie.","theme[General]:Projet GRIMA,risques naturels,aléa,inondation,aménagement du territoire, télédétection,POCT_
+theme[Geographic]:Madagascar, Antananarivo","pointOfContact:contact.reunion@hydretudes.com,pierre.tessier@cr-reunion.fr,stephane.guyard@cr-reunion.fr_
+publisher:benjamin.robert@ird.fr_
+metadata:benjamin.robert@ird.fr
+","publication:2015-03-01_
+edition:2015-03-01",map,fra,srid:32738,2015-03-01/2015-03-05,distribution:application/zip[ESRI Shapefile (zipped)],"thumbnail:Cartographie générale du risque@https://drive.google.com/uc?id=175cu1CCGPrdqFJ4u0Y-ZyvKEPw_sMML9_
+thumbnail:Logo Région@https://data.regionreunion.com/assets/logo?tstamp=163548775404_
+thumbnail:Logo FEDER@https://www.enseignementsup-recherche.gouv.fr/sites/default/files/styles/full_width/public/imported_files/image/ferder_reunion_781741.jpg?itok=xu50pQ1g_
+thumbnail:Logo SEAS-OI@http://www.seas-oi.org/image/layout_set_logo?img_id=16402&t=1653032230879_
+thumbnail:Logo Hydretudes@https://www.hydretudes.com/img/logo_hydretudes2.png_
+http:[Télécharger la carte de l'aléa Inondation sur Antanarivo]@https://drive.google.com/uc?id=175cu1CCGPrdqFJ4u0Y-ZyvKEPw_sMML9_
+http:[Télécharger le rapport définitif de la phase 2 du projet GRIMA]@https://drive.google.com/uc?id=1Vw9_ZPiba03NotvkiduWikTBvQ1d90SE","useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
+accessConstraint:otherRestrictions_
+useConstraint:intellectualPropertyRights_
+otherConstraint:other constraints to highlight.",,

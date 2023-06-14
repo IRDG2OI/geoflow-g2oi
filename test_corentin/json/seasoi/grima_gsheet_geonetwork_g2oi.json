@@ -1,8 +1,8 @@
 {
   "profile": {
-    "id": "constellation",
+    "id": "GRIMA0",
     "mode": "entity",
-  	"project": "Constellation",
+  	"project": "GRIMA",
   	"organization": "G2OI",
   	"logos": [
   	        "https://drive.google.com/uc?id=1_wgT7WVSN6LNt9KmpoJCUrwTsV1Hhx8a",
@@ -17,8 +17,8 @@
   "metadata": {
     "entities":
       {
-      "handler": "gsheet",
-      "source": "https://docs.google.com/spreadsheets/d/1b9R_jTZSuUENfbxAHgdkZ_5qERSt-vaA25SHSMqxxtk/edit#gid=0"
+      "handler": "csv",
+      "source": "test_corentin/metadata/seasoi/METADATA_GRIMA.csv"
       },
     "contacts" : {
       "handler": "{{METADATA_CONTACTS_HANDLER}}",
@@ -27,14 +27,14 @@
   },
 "software": [
     {
-		"id": "constellation-geonetwork",
+		"id": "grima-geonetwork",
 		"type": "output",
 		"software_type": "geonetwork",
 		"parameters": {
 			"url": "{{GEONETWORK_UNIV_URL}}",
 			"user": "{{GEONETWORK_USER}}",
 			"pwd": "{{GEONETWORK_PASSWORD}}",
-			"version": "4.0.6",
+			"version": "4.2.1",
 			"logger": "DEBUG"
 		}
     },
