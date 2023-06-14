@@ -22,7 +22,7 @@
       "source": "{{METADATA_CONTACTS}}"
     }
   },
-"software": [
+  "software": [
     {
 		"id": "pimant-geonetwork",
 		"type": "output",
@@ -46,7 +46,7 @@
 		"properties" : {}
 	},
 		{
-        "id": "homisland-geoserver",
+        "id": "pimant-geoserver",
         "type": "output",
         "software_type": "geoserver",
         "parameters": {
@@ -61,7 +61,7 @@
       }
     }
   ],
- "actions": [
+  "actions": [
     {
       "id": "geometa-create-iso-19115",
       "options" : {

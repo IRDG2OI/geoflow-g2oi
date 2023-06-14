@@ -23,16 +23,25 @@
   },
   "software": [
     {
-		"id": "geosur-geonetwork",
+		"id": "g2oi-geonode",
 		"type": "output",
-		"software_type": "geonetwork",
+		"software_type": "geonode",
 		"parameters": {
-			"url": "{{GEONETWORK_UNIV_URL}}",
-			"user": "{{GEONETWORK_USER}}",
-			"pwd": "{{GEONETWORK_PASSWORD}}",
-			"version": "4.2.1",
+			"url": "{{GEONODE_URL}}",
+			"user": "{{GEONODE_USER}}",
+			"pwd": "{{GEONODE_PASSWORD}}",
 			"logger": "DEBUG"
 		}
+	},
+	    	{
+		"id": "googledrive",
+		"type": "input",
+		"software_type": "googledrive",
+		"parameters": {
+    "email": "{{GMAIL_USER}}",
+			"token": ""
+		},
+		"properties" : {}
 	},
 	{
         "id": "geosur-geoserver",
@@ -58,10 +67,6 @@
       },
       "run": true
     },
-        {
-      "id": "geonapi-publish-iso-19139",
-      "run" : true
-	   },
 	 {
 	  "id": "geosapi-publish-ogc-services",
 	  "run": false,
@@ -69,6 +74,10 @@
 	    "createWorkspace": true,
 	    "createStore": true
 	  }
-	}
+	},
+	 {
+      "id": "geonode4R-publish-ogc-services",
+      "run" : true
+	   }
   ]
 }
