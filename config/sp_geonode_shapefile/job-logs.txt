@@ -1,0 +1,175 @@
+Session info
+====================================================================================================
+R version 4.3.0 (2023-04-21)
+Platform: x86_64-pc-linux-gnu (64-bit)
+Running under: Manjaro Linux
+
+Matrix products: default
+BLAS:   /usr/lib/libblas.so.3.11.0 
+LAPACK: /usr/lib/liblapack.so.3.11.0
+
+locale:
+ [1] LC_CTYPE=fr_FR.UTF-8       LC_NUMERIC=C               LC_TIME=fr_FR.UTF-8        LC_COLLATE=fr_FR.UTF-8     LC_MONETARY=fr_FR.UTF-8   
+ [6] LC_MESSAGES=fr_FR.UTF-8    LC_PAPER=fr_FR.UTF-8       LC_NAME=C                  LC_ADDRESS=C               LC_TELEPHONE=C            
+[11] LC_MEASUREMENT=fr_FR.UTF-8 LC_IDENTIFICATION=C       
+
+time zone: Indian/Mauritius
+tzcode source: system (glibc)
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+[1] geonode4R_0.1      ows4R_0.3-5        ocs4R_0.2-3        geosapi_0.6-6      geonapi_0.6-2      keyring_1.3.1      geometa_0.8-0     
+[8] geoflow_0.20230601
+
+loaded via a namespace (and not attached):
+ [1] tidyselect_1.2.0   dplyr_1.1.2        fastmap_1.1.1      promises_1.2.0.1   XML_3.99-0.14      digest_0.6.31      mime_0.12         
+ [8] lifecycle_1.0.3    sf_1.0-12          dotenv_1.0.3       ellipsis_0.3.2     terra_1.7-29       magrittr_2.0.3     zen4R_0.9         
+[15] compiler_4.3.0     rlang_1.1.1        sass_0.4.6         tools_4.3.0        utf8_1.2.3         knitr_1.42         askpass_1.1       
+[22] bit_4.0.5          sp_1.6-0           classInt_0.4-9     curl_5.0.0         plyr_1.8.8         xml2_1.3.4         redland_1.0.17-17 
+[29] KernSmooth_2.23-20 withr_2.5.0        purrr_1.0.1        rdflib_0.2.6       grid_4.3.0         googledrive_2.1.0  fansi_1.0.4       
+[36] roxygen2_7.2.3     atom4R_0.3-3       gsheet_0.4.5       xtable_1.8-4       e1071_1.7-13       colorspace_2.1-0   ggplot2_3.4.2     
+[43] scales_1.2.1       cli_3.6.1          crayon_1.5.2       generics_0.1.3     rstudioapi_0.14    httr_1.4.5         tzdb_0.3.0        
+[50] DBI_1.1.3          cachem_1.0.8       proxy_0.4-27       stringr_1.5.0      assertthat_0.2.1   parallel_4.3.0     vctrs_0.6.2       
+[57] V8_4.3.0           jsonlite_1.8.4     hms_1.1.3          bit64_4.0.5        jquerylib_0.1.4    tidyr_1.3.0        units_0.8-2       
+[64] glue_1.6.2         codetools_0.2-19   stringi_1.7.12     gtable_0.3.3       later_1.3.1        raster_3.6-20      jsonld_2.2        
+[71] munsell_0.5.0      tibble_3.2.1       pillar_1.9.0       htmltools_0.5.5    openssl_2.0.6      R6_2.5.1           vroom_1.6.3       
+[78] shiny_1.7.4        lattice_0.21-8     readr_2.1.3        png_0.1-8          memoise_2.0.1      gargle_1.4.0       httpuv_1.6.9      
+[85] bslib_0.4.2        class_7.3-21       Rcpp_1.0.10        zip_2.3.0          uuid_1.1-0         whisker_0.4.1      xfun_0.39         
+[92] fs_1.6.2           pkgconfig_2.0.3   
+====================================================================================================
+Workflow initialization
+====================================================================================================
+[geoflow][Geonode][INFO] Init Workflow configuration 
+[geoflow][Geonode][INFO] Workflow job directory: /home/sylvain/Documents/IRD/geoflow/test45001192985/jobs/20230614171659 
+[geoflow][Geonode][INFO] Creating workflow profile... 
+[geoflow][Geonode][INFO] Workflow ID: Geonode 
+[geoflow][Geonode][INFO] Workflow name: Geonode test 
+[geoflow][Geonode][INFO] Workflow project: Test geoflow project to publish shapefile in Geonode 
+[geoflow][Geonode][INFO] Workflow organization: IRD 
+[geoflow][Geonode][INFO] Loading environment from env file '.env' 
+[geoflow][Geonode][INFO] Workflow environment: 
+[geoflow][Geonode][INFO] * GEONODE_URL = https://geonode.marbec-tools.ird.fr 
+[geoflow][Geonode][INFO] Setting geoflow global options... 
+[geoflow][Geonode][INFO] Setting option 'line_separator' to '_
+' 
+[geoflow][Geonode][INFO] Configuring output software 'geonode' (geonode) 
+[geoflow][INFO] Check package dependencies for software 'geonode' (geonode) 
+[geoflow][INFO] The following packages have been imported for software 'geonode' (geonode): 
+    package installed version
+1 geonode4R      TRUE     0.1
+[geonode4R][INFO] Successfully connected to GeoNode! 
+[geoflow][Geonode][INFO] Loading metadata elements... 
+[geoflow][Geonode][INFO] Loading metadata contacts... 
+[geoflow][Geonode][INFO] Loading metadata contacts from 'https://docs.google.com/spreadsheets/d/1BqlXwA2fKiRuozNAQhBb_PbQVSPTCfl8_Q9rfM8E2ws/edit?usp=sharing' [with 'gsheet' handler]... 
+[geoflow][Geonode][INFO] Try to use embedded contacts handler 
+[geoflow][Geonode][INFO] Execute contact handler to load contacts... 
+[1mindexed[0m [32m0B[0m in [36m 0s[0m, [32m0B/s[0m[1mindexed[0m [32m1.00TB[0m in [36m 0s[0m, [32m2.77PB/s[0m                                                                                                                                         [geoflow][Geonode][INFO] Validating contacts 
+[geoflow][Geonode][INFO] No validation issue detected! 
+[geoflow][Geonode][INFO] Parsing 3 contacts from tabular source 
+[geoflow][Geonode][WARN] Use 'Identifier' column as contact Ids. Make sure to use these identifiers in your dataset contact references 
+[geoflow][Geonode][WARN] Use 'Identifier' column as contact Ids. Make sure to use these identifiers in your dataset contact references 
+[geoflow][Geonode][WARN] Use 'Identifier' column as contact Ids. Make sure to use these identifiers in your dataset contact references 
+[geoflow][Geonode][INFO] Successfuly fetched 3 contacts! 
+[geoflow][Geonode][INFO] Successfuly loaded 3 contacts! 
+[geoflow][Geonode][INFO] Loading metadata entities... 
+[geoflow][Geonode][INFO] Loading metadata entities from 'https://docs.google.com/spreadsheets/d/1YcEK97fRGJFf7P14d9yAfgUOzOzrVxN_q27KyAx40ck/edit?usp=sharing' [with 'gsheet' handler]... 
+[geoflow][Geonode][INFO] Try to use embedded contacts handler 
+[geoflow][Geonode][INFO] Execute handler to load entities... 
+[1mindexed[0m [32m0B[0m in [36m 0s[0m, [32m0B/s[0m[1mindexed[0m [32m1.00TB[0m in [36m 0s[0m, [32m3.68PB/s[0m                                                                                                                                         [geoflow][Geonode][INFO] Validating entities 
+[geoflow][Geonode][INFO] Validation issues --> 
+  row     col    type                                                           message
+1   1   Title WARNING               Key is omitted, default key 'title' will be applied
+2   1 Subject WARNING Keyword topic's 'taxonomy' is not a recognized ISO keyword topic.
+3   1    Date WARNING                   key 'edition' is not a recognized ISO date key.
+4   1    Type WARNING             Key is omitted, default key 'generic' will be applied
+[geoflow][Geonode][INFO] Parsing 1 entities from tabular source 
+[geoflow][Geonode][INFO] Parsing entity 1 
+<geoflow_kvp>
+  Public:
+    clone: function (deep = FALSE) 
+    initialize: function (key = NULL, values = NULL, locale = NULL) 
+    key: process
+    locale: NULL
+    setKey: function (key) 
+    setLocale: function (locale) 
+    setValues: function (values) 
+    values: rationale1
+<geoflow_kvp>
+  Public:
+    clone: function (deep = FALSE) 
+    initialize: function (key = NULL, values = NULL, locale = NULL) 
+    key: process
+    locale: NULL
+    setKey: function (key) 
+    setLocale: function (locale) 
+    setValues: function (values) 
+    values: rationale2
+<geoflow_kvp>
+  Public:
+    clone: function (deep = FALSE) 
+    initialize: function (key = NULL, values = NULL, locale = NULL) 
+    key: process
+    locale: NULL
+    setKey: function (key) 
+    setLocale: function (locale) 
+    setValues: function (values) 
+    values: rationale3
+[geoflow][Geonode][INFO] Successfuly fetched 1 entities! 
+[geoflow][Geonode][INFO] Enrich metadata entities from directory of contacts 
+[geoflow][Geonode][INFO] Successfuly loaded 1 entities! 
+[geoflow][INFO] Check package dependencies for action 'geonode4R-publish-ogc-services' 
+[geoflow][INFO] The following packages have been imported for action 'geonode4R-publish-ogc-services': 
+    package installed version
+1 geonode4R      TRUE     0.1
+====================================================================================================
+Workflow Execution
+====================================================================================================
+[geoflow][Geonode][INFO] Executing workflow job... 
+----------------------------------------------------------------------------------------------------
+[geoflow][Geonode][INFO] Executing software actions 'onstart' ... 
+----------------------------------------------------------------------------------------------------
+[geoflow][Geonode][INFO] Executing entity actions ... 
+[geoflow][Geonode][INFO] Workflow mode: entity 
+[geoflow][Geonode][INFO] Workflow with 1 actions 
+[geoflow][Geonode][INFO] Action 1: geonode4R-publish-ogc-services 
+[geoflow][Geonode][INFO] Create entity job dir at '/home/sylvain/Documents/IRD/geoflow/test45001192985/jobs/20230614171659/entities/sp-geoflow-shapefile-record1' 
+[geoflow][Geonode][INFO] Creating 'data' directory: /home/sylvain/Documents/IRD/geoflow/test45001192985/jobs/20230614171659/entities/sp-geoflow-shapefile-record1/data 
+[geoflow][Geonode][INFO] Creating 'metadata' directory: /home/sylvain/Documents/IRD/geoflow/test45001192985/jobs/20230614171659/entities/sp-geoflow-shapefile-record1/metadata 
+[geoflow][Geonode][INFO] Entity working directory: /home/sylvain/Documents/IRD/geoflow/test45001192985/jobs/20230614171659/entities/sp-geoflow-shapefile-record1 
+[geoflow][Geonode][INFO] Copying data to entity job data directory '/home/sylvain/Documents/IRD/geoflow/test45001192985/jobs/20230614171659/entities/sp-geoflow-shapefile-record1/data' 
+[geoflow][Geonode][INFO] Copying data source 1 'shapefile1.zip' (https://github.com/eblondel/geonode4R/raw/main/inst/extdata/samples/shapefile1.zip) to entity job data directory '/home/sylvain/Documents/IRD/geoflow/test45001192985/jobs/20230614171659/entities/sp-geoflow-shapefile-record1/data' 
+[geoflow][Geonode][INFO] Copying data to job data directory from remote file(s) using accessor 'default' 
+[geoflow][INFO] Default HTTP(S) data accessor: Download data 'shapefile1.zip' from 'https://github.com/eblondel/geonode4R/raw/main/inst/extdata/samples/shapefile1.zip' to '/home/sylvain/Documents/IRD/geoflow/test45001192985/jobs/20230614171659/entities/sp-geoflow-shapefile-record1/data/shapefile1.zip'
+[geoflow][Geonode][INFO] sourceZip = FALSE: source files will be uploaded 
+[geoflow][Geonode][INFO] Resolving sourceType from zip list: 'shp' 
+[geoflow][Geonode][INFO] Read Shapefiles from geoflow temporary data directory 
+options:        ENCODING=WINDOWS-1252 
+Reading layer `shapefile1' from data source 
+  `/home/sylvain/Documents/IRD/geoflow/test45001192985/jobs/20230614171659/entities/sp-geoflow-shapefile-record1/data/shapefile1.shp' 
+  using driver `ESRI Shapefile'
+Simple feature collection with 11 features and 5 fields
+Geometry type: POLYGON
+Dimension:     XY
+Bounding box:  xmin: -56 ymin: 9.363524 xmax: -19.31034 ymax: 58.6049
+Geodetic CRS:  WGS 84
+[geoflow][Geonode][INFO] Overwriting entity bounding box with data bounding boxes, using 'first' strategy 
+[geoflow][Geonode][INFO] sourceType and uploadType are identical, no conversion required 
+[geoflow][Geonode][INFO] Executing Action 1: geonode4R-publish-ogc-services - for entity sp-geoflow-shapefile-record1 
+[geoflow][Geonode][INFO] Upload mode is set to true 
+[geoflow][Geonode][INFO] Upload from local file(s) 
+[geoflow][Geonode][INFO] File to upload to GeoNode: /home/sylvain/Documents/IRD/geoflow/test45001192985/jobs/20230614171659/entities/sp-geoflow-shapefile-record1/data/shapefile1.zip 
+[geoflow][Geonode][INFO] Upload file '/home/sylvain/Documents/IRD/geoflow/test45001192985/jobs/20230614171659/entities/sp-geoflow-shapefile-record1/data/shapefile1.zip' [shp] to GeoNode... 
+[1mindexed[0m [32m0B[0m in [36m 0s[0m, [32m0B/s[0m[1mindexed[0m [32m1.00TB[0m in [36m 0s[0m, [32m2.50PB/s[0m                                                                                                                                         [geometa][WARN] Element '{http://www.opengis.net/gml}TimeInstant': This element is not expected. Expected is one of ( {http://www.opengis.net/gml/3.2}AbstractTimePrimitive, {http://www.opengis.net/gml/3.2}TimeInstant, {http://www.opengis.net/gml/3.2}TimePeriod, {http://www.opengis.net/gml/3.2}TimeNode, {http://www.opengis.net/gml/3.2}TimeEdge ) at line 531. 
+[geometa][WARN] Object 'ISOMetadata' is INVALID according to ISO 19139 XML schemas! 
+
+
+
+
+
+
+[geoflow][Geonode][INFO] WORKFLOW PROGRESS : ACTION 'geonode4R-publish-ogc-services' of ENTITY 'sp-geoflow-shapefile-record1' ... 100 % 
+[1mwrote[0m [32m1.00TB[0m in [36m 0s[0m, [32m49.93PB/s[0m                                                                                                                                         [1mwrote[0m [32m1.00TB[0m in [36m 0s[0m, [32m62.60PB/s[0m                                                                                                                                         ----------------------------------------------------------------------------------------------------
+[geoflow][Geonode][INFO] Executing software actions 'onend' ... 
+[geoflow][Geonode][INFO] Workflow successfully executed ... 
