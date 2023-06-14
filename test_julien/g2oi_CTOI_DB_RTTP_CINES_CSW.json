@@ -98,7 +98,8 @@
 	  "run": true,
 	  "options" : {
 	    "createWorkspace": true,
-	    "createStore": true
+	    "createStore": true,
+	    "map_thumbnail_template": "{geoserver_url}/ows?service=WMS&version=1.1.0&request=GetMap&layers=G2OI:G2OI_BASE_MAP,{workspace}:{layer}&bbox={bbox}&width=600&height=600&srs=EPSG:{srid}&format=image/png"
 	  }
 	}
  ]
