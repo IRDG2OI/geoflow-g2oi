@@ -13,8 +13,8 @@
   "metadata": {
     "entities": 
       {
-      "handler": "ocs",
-      "source": "G2OI/Valorisation de données/geoflow/md/osur_shp_stations.csv"
+      "handler": "gsheet",
+      "source": "https://docs.google.com/spreadsheets/d/1JfbGypt0GTB7GsWNfdcwVB3hlSbqePDoDFGnf-xNzBA/edit?usp=sharin"
       },
       "contacts" : {
       "handler": "{{METADATA_CONTACTS_HANDLER}}",
@@ -36,7 +36,7 @@
 	},
             {
 	"id": "ird-cloud",
-	"type": "input",
+	"type": "output",
 	"software_type": "ocs",
 	"parameters": {
 		"url": "https://drive.ird.fr/",
@@ -45,17 +45,16 @@
 		"logger": "DEBUG"
 	}
     },
-        {
-	"id": "ird-cloud",
-	"type": "output",
-	"software_type": "ocs",
-	"parameters": {
-		"url": "https://drive.ird.fr",
-		"user": "{{DRIVE_IRD_USER}}",
-		"pwd": "{{DRIVE_IRD_PASSWORD}}",
-		"logger": "DEBUG"
+    {
+		"id": "googledrive",
+		"type": "input",
+		"software_type": "googledrive",
+		"parameters": {
+    "email": "{{GMAIL_USER}}",
+			"token": ""
+		},
+		"properties" : {}
 	}
-    }
   ],
  "actions": [
     {
@@ -69,10 +68,6 @@
       "id": "geonapi-publish-iso-19139",
       "run" : true
 	   },
-    {
-      "id":"ocs4R",
-      "run": true
-    },
     {
       "id":"ocs4R-upload-data",
       "run": true
