@@ -1,0 +1,58 @@
+{
+  "profile": {
+    "id": "my-csw-workflow",
+    "name": "My CSW workflow",
+  	"project": "Test geoflow project",
+  	"organization": "My organization",
+  	"logos": [
+  	],
+  	"mode": "entity"
+  },
+  "metadata": {
+    "entities": [
+      {
+        "handler": "ogc_csw",
+        "source": "dc:title like '%ORTHOPHOTO%'"
+      }
+    ]
+  },
+  "software": [
+    {
+  	"id": "csw",
+  	"type": "input",
+  	"software_type": "csw",
+  	"parameters": {
+  		"url": "https://geosur.osureunion.fr/geonetwork/srv/eng/csw",
+  		"serviceVersion": "2.0.2",
+  		"logger": "DEBUG"
+  	}
+    },
+    {
+		"id": "g2oi-geonetwork",
+		"type": "output",
+		"software_type": "geonetwork",
+		"parameters": {
+			"url": "{{GEONETWORK_URL}}",
+			"user": "{{GEONETWORK_USER}}",
+			"pwd": "{{GEONETWORK_PASSWORD}}",
+      "version": "4.2.0.0",
+			"logger": "DEBUG"
+      }
+    }
+  ],
+  "actions": [
+        {
+      "id": "geometa-create-iso-19115",
+      "run": true,
+      "options": {
+        "logo": true,
+        "doi": true,
+        "addfeatures": false
+      }
+    },
+    {
+      "id": "geonapi-publish-iso-19139",
+      "run" : true
+    }
+  ]
+}
