@@ -9,7 +9,8 @@
   	],
   	  "mode": "entity",
   	  "options": {
-	      "line_separator": "_\n"
+	      "line_separator": "_\n",
+	       "skipFileDownload":false
       }
   },
   "metadata": {

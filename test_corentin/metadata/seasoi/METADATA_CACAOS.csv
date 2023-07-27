@@ -1,5 +1,52 @@
 Identifier,Title,Description,Subject,Creator,Date,Type,Language,SpatialCoverage,TemporalCoverage,Format,Relation,Rights,Provenance,Data
-id:CACAOS_VECTOR,Carte des modes d'occupation du sol de Madagascar,La cartographie des modes d'occupation du sol est  produite à partir de classification des images Sentinel 2 (chaînes de production IOTA et MAJA du CNES-CESBIO sur la zone Nord de Madagascar) en partenariat avec le FTM et Région Diana.,"theme[General]:Projet CACAOS,Projet G2OI,occupation du sol, télédétection, DIANA, SENTINEL2,Madagascar","pointOfContact:pierre.tessier@cr-reunion.fr, matthias.belus@cr-reunion.fr_
-metadata:benjamin.robert@ird.fr",publication:2022-02-22,map,fra,"SRID=4326;POLYGON((40.38227109789937 -0.45924264990148006,71.58344297289936 -0.45924264990148006,71.58344297289936 -22.36838204209407,40.38227109789937 -22.36838204209407,40.38227109789937 -0.45924264990148006))",2017-01/2019-07,distribution:application/zip[ESRI Shapefile (zipped)],http:website@https://en.ird.fr/node/8770,,statement:La couche vectorielle est issue  de la conversion de l'image tif au format shp.,
-id:CACAOS_RASTER,Carte des modes d'occupation du sol de Madagascar,La cartographie des modes d'occupation du sol est  produite à partir de classification des images Sentinel 2( chaînes de production IOTA et MAJA du CNES-CESBIO sur la zone Nord de Madagascar) en partenariat avec le FTM et Région Diana.,"theme[General]:Projet CACAOS,Projet G2OI,occupation du sol, télédétection, DIANA, SENTINEL2,Madagascar","pointOfContact:pierre.tessier@cr-reunion.fr, matthias.belus@cr-reunion.fr_
-metadata:benjamin.robert@ird.fr",publication:2022-02-22,map,fra,"SRID=4326;POLYGON((40.38227109789937 -0.45924264990148006,71.58344297289936 -0.45924264990148006,71.58344297289936 -22.36838204209407,40.38227109789937 -22.36838204209407,40.38227109789937 -0.45924264990148006))",2017-01/2019-06,distribution:application/zip[ESRI Shapefile (zipped)],http:website@https://en.ird.fr/node/8770,,statement:La couche vectorielle est issue  de la conversion de l'image tif au format shp.,
+id:CACAOS_VECTOR,"title:CHAINE AUTOMATISEE POUR LA CARTOGRAPHIE DE L'OCCUPATION DU SOL
+alternative:Un outil de cartographie des territoires au service du développement","abstract:Un outil de cartographie des territoires au service du développement, la Chaîne Automatisée de
+CArtographie de l’Occupation du Sol (CACAOS) par satellite a pour objectif de produire des cartes
+d’occupation du sol à partir de données de télédétection afin de constituer un état des lieux (espace
+naturel, agriculture, urbain…) et de suivre l’évolution de la couverture terrestre dans le temps avec
+une fréquence de réactualisation pertinente. Ces cartes sont destinées aux opérateurs locaux en
+charge de l’aménagement du territoire mais également à tous les acteurs (opérationnels, scientifiques,
+bailleurs de fonds…).
+En partenariat avec l’Agence Française de Développement, le FTM et la Région Réunion”","theme[General]:Projet CACAOS,occupation du sol, télédétection, DIANA, SENTINEL2,Madagascar","pointOfContact:pierre.tessier@cr-reunion.fr, matthias.belus@cr-reunion.fr",publication:2022-02-22,map,fra,"SRID=4326;POLYGON((40.38227109789937 -0.45924264990148006,71.58344297289936 -0.45924264990148006,71.58344297289936 -22.36838204209407,40.38227109789937 -22.36838204209407,40.38227109789937 -0.45924264990148006))",2017-01/2019-07,distribution:application/zip[ESRI Shapefile (zipped)],"http:rapport d’éxécution@https://
+http:presentation atelier CACAOS@https://",,"statement:”Plusieurs missions terrain ont été faites par un agent du FTM à Madagascar. En effet, outre les données satellitaires, les données de référence terrain sont aussi nécessaire en entrée du système de classification. Elles sont utilisées pour l’apprentissage du classifieur et aussi pour l’évaluation des performances du système.
+
+En complément des relevés terrain, des données vectorielles ont étés numérisées sous le logiciel QGis 2.18. Il s’agissait ici de « survoler » des images Satellitaires ayant une bonne résolution (<10 m), et de détourer manuellement avec l’aide de polygones, des objets (parcelles de forêts, bâtiments, plans d’eau, sols nu…) et de leur attribuer une valeur numérique. Chaque valeurs numérique correspondant à une classe d’occupation du sol prédéfini (1 = foret humide ; 8 = sol nu ; 13 = Bati…). Plus de 105 000 parcelles ont été numérisées à la main par trois personnes (un agent de la Région Réunion, deux agents du FTM).
+
+Après avoir assemblé toutes les couches dans QGis, nous avons utilisé l’option « vérifier la validité » dans l’outil de géométrie vecteur. Cet algorithme balaye tous les objets en entrée et identifie les géométries invalides (auto-intersections, nœuds dupliqués, chevauchement entre couche) et donne trois fichier en sortie, Sortie valide, Sortie Invalide, Erreur de sortie. Toutes ces couches (parcelles terrain + parcelles photo-interprétation) ont été fusionnées entre-elles afin d’être intégrées et exploitées dans le processus de classification de iota².
+
+L’objectif ici était d’identifier le potentiel de la chaîne de traitement iota² avec l’utilisation de données de référence limitées.
+La précision des résultats de la classification est très encourageante, en effet, une précision globale de 93.18% a été obtenue sur l’ensemble du territoire.”",
+,title:Les données de référence – Données vectorielles par photo-interpretation,,,,,,,,,,,,,
+,title:Foret humide (Est),,,,,,,,,,,,,
+,title:Foret sèche (Ouest et Sud),,,,,,,,,,,,,
+,"title:Foret planté (Pin, acacia, eucalyptus)",,,,,,,,,,,,,
+,title:Foret épineuse,,,,,,,,,,,,,
+,title:Savoka (Foret humide dégradée),,,,,,,,,,,,,
+,"title:Fourré (Arbuste, buisson)",,,,,,,,,,,,,
+,title:Savane,,,,,,,,,,,,,
+,"title:Sol nu (Sable, terre, roche)",,,,,,,,,,,,,
+,title:Mangrove,,,,,,,,,,,,,
+,title:Eau,,,,,,,,,,,,,
+,"title:Mosaïque de culture (Maïs, maraichage…)",,,,,,,,,,,,,
+,"title:Plantation ligneuse de rente (Palmier à huile, cocoterai)",,,,,,,,,,,,,
+,title:Bâti,,,,,,,,,,,,,
+,title:Rizière,,,,,,,,,,,,,
+,title:Canne à sucre,,,,,,,,,,,,,
+,title:Les données de référence - Ecorégions de Madagascar,,,,,,,,,,,,,
+,title:forêt humide à l'Est,"Madagascar peut être divisée en trois écorégions climatiques avec trois types de forêts : la forêt
+humide à l'Est, la forêt sèche à l'Ouest et la forêt épineuse au Sud. Les
+écorégions ont été définies selon des critères climatiques (Cornet 1974) et végétaux (Ministère de
+l'Environnement, 1996). Les trois types de forêts se caractérisent par des conditions climatiques très
+différentes et un fort gradient de précipitations et de température est observé.",,,,,,,,,,,,
+,title:forêt sèche à l'Ouest,"Madagascar peut être divisée en trois écorégions climatiques avec trois types de forêts : la forêt
+humide à l'Est, la forêt sèche à l'Ouest et la forêt épineuse au Sud. Les
+écorégions ont été définies selon des critères climatiques (Cornet 1974) et végétaux (Ministère de
+l'Environnement, 1996). Les trois types de forêts se caractérisent par des conditions climatiques très
+différentes et un fort gradient de précipitations et de température est observé.",,,,,,,,,,,,
+,title:forêt épineuse au Sud,"Madagascar peut être divisée en trois écorégions climatiques avec trois types de forêts : la forêt
+humide à l'Est, la forêt sèche à l'Ouest et la forêt épineuse au Sud. Les
+écorégions ont été définies selon des critères climatiques (Cornet 1974) et végétaux (Ministère de
+l'Environnement, 1996). Les trois types de forêts se caractérisent par des conditions climatiques très
+différentes et un fort gradient de précipitations et de température est observé.",,,,,,,,,,,,
+,parcelles terrain,,,,,,,,,,,,,
+,parcelles photo-interprétation,,,,,,,,,,,,,

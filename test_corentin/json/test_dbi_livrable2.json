@@ -1,0 +1,63 @@
+{
+  "profile": {
+    "id": "dbi",
+  	"project": "livrable2",
+  	"organization": "G2OI",
+  	"logos": [
+  	],
+  	"mode": "entity",
+  	"options": {
+  	  "line_separator": "_\n"
+    }
+  },
+  "metadata": {
+    "entities":
+      {
+      "handler": "dbi",
+      "source": "select * from RSC_SITE"
+      }
+  },
+  "software": [
+    {
+        "id": "Postgis",
+        "type": "input",
+        "software_type": "dbi",
+        "parameters": {
+            "drv": "Postgres",
+            "user": "{{DB_G2OI_USER}}",
+            "password": "{{DB_G2OI_PWD}}",
+            "host": "{{DB_G2OI_HOST}}",
+            "port": "{{DB_G2OI_PORT}}",
+            "dbname": "{{DB_EOBS_NAME}}"
+        },
+      "properties": {
+      }
+  },
+    {
+		"id": "g2oi-geonetwork",
+		"type": "output",
+		"software_type": "geonetwork",
+		"parameters": {
+			"url": "{{GEONETWORK_UNIV_URL}}",
+			"user": "{{GEONETWORK_USER}}",
+			"pwd": "{{GEONETWORK_PASSWORD}}",
+			"version": "4.2.0",
+			"logger": "DEBUG"
+		}
+    }
+  ],
+ "actions": [
+	{
+    "id": "geometa-create-iso-19115",
+    "run": true,
+	  "options": {
+  		"logo": true,
+  		"addfeatures": false
+	  }
+    },
+	{
+	  "id": "geometa-create-iso-19110",
+	  "run": false
+	}
+  ]
+}
