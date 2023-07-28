@@ -1,33 +1,29 @@
 {
   "profile": {
-    "id": "GRIMA0",
-    "mode": "entity",
-  	"project": "GRIMA",
-  	"organization": "G2OI",
+    "id": "eobs-geosur-niv1",
+  	"project": "geosur",
+  	"organization": "OSUR",
   	"logos": [
-  	        "https://drive.google.com/uc?id=1_wgT7WVSN6LNt9KmpoJCUrwTsV1Hhx8a",
-  		  		"https://en.ird.fr/sites/ird_fr/files/2019-08/logo_IRD_2016_BLOC_UK_COUL.png", 
-  		  		"https://www.espace-dev.fr/wp-content/uploads/2020/03/Logo-Espace-Dev-coul.txt-copie.png",
-  		  		"https://drive.google.com/uc?id=1rOoQUX82i3eR3KBGz3mmMzgvJceo_wjl"
   	],
+  	"mode": "entity",
   	"options": {
   	  "line_separator": "_\n"
     }
   },
   "metadata": {
-    "entities":
+    "entities": 
       {
-      "handler": "csv",
-      "source": "test_corentin/metadata/seasoi/METADATA_GRIMA.csv"
+      "handler": "gsheet",
+      "source": "https://docs.google.com/spreadsheets/d/1JfbGypt0GTB7GsWNfdcwVB3hlSbqePDoDFGnf-xNzBA/edit?usp=sharin"
       },
-    "contacts" : {
+      "contacts" : {
       "handler": "{{METADATA_CONTACTS_HANDLER}}",
       "source": "{{METADATA_CONTACTS}}"
     }
   },
-"software": [
+  "software": [
     {
-		"id": "grima-geonetwork",
+		"id": "geosur-geonetwork",
 		"type": "output",
 		"software_type": "geonetwork",
 		"parameters": {
@@ -37,8 +33,19 @@
 			"version": "4.2.1",
 			"logger": "DEBUG"
 		}
+	},
+            {
+	"id": "ird-cloud",
+	"type": "output",
+	"software_type": "ocs",
+	"parameters": {
+		"url": "https://drive.ird.fr/",
+		"user": "{{DRIVE_IRD_USER}}",
+		"pwd": "{{DRIVE_IRD_PASSWORD}}",
+		"logger": "DEBUG"
+	}
     },
-    	{
+    {
 		"id": "googledrive",
 		"type": "input",
 		"software_type": "googledrive",
@@ -59,7 +66,11 @@
     },
         {
       "id": "geonapi-publish-iso-19139",
-       "run" : true
-	   }
+      "run" : true
+	   },
+    {
+      "id":"ocs4R-upload-data",
+      "run": true
+    }
   ]
 }

@@ -4,7 +4,6 @@
   	"project": "geosur",
   	"organization": "G2OI",
   	"logos": [
-  		  		"https://drive.google.com/uc?id=1rOoQUX82i3eR3KBGz3mmMzgvJceo_wjl"
   	],
   	"mode": "entity",
   	"options": {
@@ -15,7 +14,7 @@
     "entities": 
       {
       "handler": "gsheet",
-      "source": "https://docs.google.com/spreadsheets/d/1JfbGypt0GTB7GsWNfdcwVB3hlSbqePDoDFGnf-xNzBA/edit#gid=0"
+      "source": "https://docs.google.com/spreadsheets/d/1JfbGypt0GTB7GsWNfdcwVB3hlSbqePDoDFGnf-xNzBA/edit?usp=sharing"
       },
       "contacts" : {
       "handler": "{{METADATA_CONTACTS_HANDLER}}",
@@ -35,16 +34,6 @@
 			"logger": "DEBUG"
 		}
 	},
-    	{
-		"id": "googledrive",
-		"type": "input",
-		"software_type": "googledrive",
-		"parameters": {
-    "email": "{{GMAIL_USER}}",
-			"token": "4/1AX4XfWgZXsSn1xRoiPDDQE4hzPNWsVcTKlJv-R5c_in9WCsS3kVJkXjNwp4"
-		},
-		"properties" : {}
-	}, 
 	{
         "id": "geosur-geoserver",
         "type": "output",
@@ -75,7 +64,7 @@
 	   },
 	 {
 	  "id": "geosapi-publish-ogc-services",
-	  "run": true,
+	  "run": false,
 	  "options" : {
 	    "createWorkspace": true,
 	    "createStore": true

@@ -1,0 +1,57 @@
+{
+  "profile": {
+    "id": "csw",
+  	"project": "Livrable2",
+  	"organization": "G2OI",
+  	"logos": [
+  	],
+  	"mode": "entity",
+  	"options": {
+  	  "line_separator": "_\n"
+    }
+  },
+  "metadata": {
+    "entities": 
+      {
+        "handler": "ogc_csw",
+        "source": "https://www.fao.org/fishery/geonetwork/srv/eng/catalog.search#/metadata/fao-species-map-hai"
+      }
+  },
+  "software": [
+    {
+  	"id": "csw",
+  	"type": "input",
+  	"software_type": "csw",
+  	"parameters": {
+  		"url": "https://www.fao.org/fishery/geonetwork/",
+  		"serviceVersion": "2.0.2",
+  		"logger": "DEBUG"
+  	}
+    },
+    {
+		"id": "g2oi-geonetwork",
+		"type": "output",
+		"software_type": "geonetwork",
+		"parameters": {
+			"url": "{{GEONETWORK_UNIV_URL}}",
+			"user": "{{GEONETWORK_USER}}",
+			"pwd": "{{GEONETWORK_PASSWORD}}",
+			"version": "4.2.1",
+			"logger": "DEBUG"
+		}
+	}
+  ],
+ "actions": [
+    {
+      "id": "geometa-create-iso-19115",
+      "options" : {
+        "logo": true
+      },
+      "run": true
+    },
+        {
+      "id": "geonapi-publish-iso-19139",
+      "run" : true
+	   }
+  ]
+}

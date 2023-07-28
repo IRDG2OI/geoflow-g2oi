@@ -78,7 +78,8 @@
       "run" : true,
       	  "options" : {
       	    "createWorkspace": true,
-      	    "createStore": true
+      	    "createStore": true,
+      	    "map_thumbnail_template": "https://gs.marbec-tools.ird.fr/geoserver/G2OI/wms?service=WMS&version=1.1.0&request=GetMap&layers=G2OI%3AG2OI_BASE_MAP&bbox={bbox}&width=768&height=384&srs=EPSG%3A4326&styles=&format=image%2Fjpeg"
       	  }
     }
 	]

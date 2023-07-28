@@ -1,0 +1,88 @@
+{
+  "profile": {
+    "id": "my-csw-workflow",
+    "name": "My CSW workflow",
+  	"project": "Test geoflow project",
+  	"organization": "My organization",
+  	"logos": [],
+  	"mode": "entity"
+  },
+  "metadata": {
+    "entities": [
+      {
+        "handler": "ogc_csw",
+        "source": "dc:title like 'trash_rttp_school_sighting'"
+      }
+    ]
+  },
+  "software": [
+    {
+  	"id": "csw",
+  	"type": "input",
+  	"software_type": "csw",
+  	"parameters": {
+  		"url": "https://gn.marbec-tools.ird.fr/geonetwork/srv/eng/csw",
+  		"serviceVersion": "2.0.2",
+  		"logger": "DEBUG"
+  	}
+    },
+    {
+        "id": "g2oi-DGSC-csw",
+        "type": "output",
+        "software_type": "csw",
+        "parameters": {
+            "url": "{{GEONETWORK_CSW_URL}}",
+            "user": "{{GEONETWORK_USER}}",
+            "pwd": "{{GEONETWORK_PASSWORD}}",
+            "serviceVersion": "2.0.2",
+            "logger": "DEBUG"
+        }
+    },
+    {
+        "id": "g2oi-DGSC-geonetwork",
+        "type": "output",
+        "software_type": "geonetwork",
+        "parameters": {
+            "url": "{{GEONETWORK_URL}}",
+            "user": "{{GEONETWORK_USER}}",
+            "pwd": "{{GEONETWORK_PASSWORD}}",
+            "version": "4.2.0",
+            "logger": "DEBUG"
+        }
+    }
+  ],
+  "actions": [
+    {
+    "id": "geometa-create-iso-19115",
+    "run": true,
+      "options": {
+          "logo": true,
+          "doi": false,
+          "doi_thumbnail": false,
+          "addfeatures": false
+      }
+    },
+    {
+      "id": "geometa-create-iso-19110",
+      "run": false
+    },
+    {
+      "id": "geonapi-publish-iso-19139",
+      "run" : false,
+               "options" : {
+       "group":"{{GROUP}}"
+       }	},
+           {
+      "id": "ows4R-publish-iso-19139",
+      "run": true
+    },
+    {
+      "id": "geosapi-publish-ogc-services",
+      "run": false,
+      "options" : {
+        "createWorkspace": false,
+        "createStore": false
+      }
+    }
+ ]
+}

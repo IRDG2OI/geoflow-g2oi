@@ -1,41 +1,39 @@
 {
   "profile": {
-    "id": "PIMANT",
-    "mode": "entity",
-  	"project": "PIMANT",
+    "id": "eobs-geosur-niv1",
+  	"project": "geosur",
   	"organization": "G2OI",
   	"logos": [
-  	  "https://drive.google.com/uc?id=17QgkYRUF0a2aqp9chkQS8F09BcoXb3cj"
   	],
+  	"mode": "entity",
   	"options": {
   	  "line_separator": "_\n"
     }
   },
   "metadata": {
-    "entities":
+    "entities": 
       {
       "handler": "gsheet",
-      "source": "https://docs.google.com/spreadsheets/d/1tzE07Yv0-i5g8dJJVA026QIV0nVJ-VkXDCI4a7_0keg/edit#gid=0"
+      "source": "https://docs.google.com/spreadsheets/d/1JfbGypt0GTB7GsWNfdcwVB3hlSbqePDoDFGnf-xNzBA/edit?usp=sharing"
       },
-    "contacts" : {
+      "contacts" : {
       "handler": "{{METADATA_CONTACTS_HANDLER}}",
       "source": "{{METADATA_CONTACTS}}"
     }
   },
-"software": [
+  "software": [
     {
-		"id": "pimant-geonetwork",
+		"id": "g2oi-geonode",
 		"type": "output",
-		"software_type": "geonetwork",
+		"software_type": "geonode",
 		"parameters": {
-			"url": "{{GEONETWORK_SEASOI_URL}}",
-			"user": "{{GEONETWORK_USER}}",
-			"pwd": "{{GEONETWORK_PASSWORD}}",
-			"version": "4.2.1",
+			"url": "{{GEONODE_URL}}",
+			"user": "{{GEONODE_USER}}",
+			"pwd": "{{GEONODE_PASSWORD}}",
 			"logger": "DEBUG"
 		}
-    },
-    	{
+	},
+	    	{
 		"id": "googledrive",
 		"type": "input",
 		"software_type": "googledrive",
@@ -45,19 +43,19 @@
 		},
 		"properties" : {}
 	},
-		{
-        "id": "homisland-geoserver",
+	{
+        "id": "geosur-geoserver",
         "type": "output",
         "software_type": "geoserver",
         "parameters": {
-			"url": "{{GEOSERVER_SEASOI_URL}}",
+			"url": "{{GEOSERVER_UNIV_URL}}",
 			"user": "{{GEOSERVER_USER}}",
 			"pwd": "{{GEOSERVER_PASSWORD}}",
 			"logger": "DEBUG"
         },
       "properties" : {
-			"workspace": "REGION_REUNION",
-			"store": "seasoi_pimant_vecteur"
+			"workspace": "OSU_R",
+			"store": "eobs"
       }
     }
   ],
@@ -69,17 +67,17 @@
       },
       "run": true
     },
-        {
-      "id": "geonapi-publish-iso-19139",
-       "run" : true
-	   },
-	   {
+	 {
 	  "id": "geosapi-publish-ogc-services",
-	  "run": true,
+	  "run": false,
 	  "options" : {
 	    "createWorkspace": true,
 	    "createStore": true
 	  }
-	}
+	},
+	 {
+      "id": "geonode4R-publish-ogc-services",
+      "run" : true
+	   }
   ]
 }

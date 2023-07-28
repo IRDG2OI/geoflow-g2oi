@@ -1,0 +1,84 @@
+Session info
+====================================================================================================
+R version 4.3.1 (2023-06-16)
+Platform: x86_64-pc-linux-gnu (64-bit)
+Running under: Zorin OS 16.2
+
+Matrix products: default
+BLAS:   /usr/lib/x86_64-linux-gnu/blas/libblas.so.3.9.0 
+LAPACK: /usr/lib/x86_64-linux-gnu/lapack/liblapack.so.3.9.0
+
+locale:
+ [1] LC_CTYPE=fr_FR.UTF-8       LC_NUMERIC=C              
+ [3] LC_TIME=fr_FR.UTF-8        LC_COLLATE=fr_FR.UTF-8    
+ [5] LC_MONETARY=fr_FR.UTF-8    LC_MESSAGES=fr_FR.UTF-8   
+ [7] LC_PAPER=fr_FR.UTF-8       LC_NAME=C                 
+ [9] LC_ADDRESS=C               LC_TELEPHONE=C            
+[11] LC_MEASUREMENT=fr_FR.UTF-8 LC_IDENTIFICATION=C       
+
+time zone: Indian/Reunion
+tzcode source: system (glibc)
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+[1] geoflow_0.20230720 dotenv_1.0.3      
+
+loaded via a namespace (and not attached):
+ [1] utf8_1.2.3         generics_0.1.3     class_7.3-22       xml2_1.3.5        
+ [5] KernSmooth_2.23-21 hms_1.1.3          magrittr_2.0.3     grid_4.3.1        
+ [9] plyr_1.8.8         jsonlite_1.8.7     zip_2.3.0          whisker_0.4.1     
+[13] geonapi_0.7        e1071_1.7-13       DBI_1.1.3          googledrive_2.1.0 
+[17] httr_1.4.6         geosapi_0.6-6      purrr_1.0.1        fansi_1.0.4       
+[21] XML_3.99-0.14      codetools_0.2-19   geometa_0.8-0      cli_3.6.1         
+[25] rlang_1.1.1        crayon_1.5.2       units_0.8-2        geonode4R_0.1     
+[29] tools_4.3.1        parallel_4.3.1     tzdb_0.4.0         uuid_1.1-0        
+[33] gargle_1.4.0       dplyr_1.1.2        curl_5.0.1         assertthat_0.2.1  
+[37] vctrs_0.6.3        R6_2.5.1           mime_0.12          png_0.1-8         
+[41] proxy_0.4-27       lifecycle_1.0.3    classInt_0.4-9     fs_1.6.2          
+[45] pkgconfig_2.0.3    terra_1.7-39       pillar_1.9.0       glue_1.6.2        
+[49] Rcpp_1.0.11        sf_1.0-14          tibble_3.2.1       tidyselect_1.2.0  
+[53] keyring_1.3.1      ows4R_0.4          readr_2.1.4        compiler_4.3.1    
+[57] askpass_1.1        openssl_2.1.0     
+====================================================================================================
+Workflow initialization
+====================================================================================================
+[geoflow][my-csw-workflow][INFO] Init Workflow configuration 
+[geoflow][my-csw-workflow][INFO] Workflow job directory: /home/namik/workspace/jobs/20230728092558 
+[geoflow][my-csw-workflow][INFO] Creating workflow profile... 
+[geoflow][my-csw-workflow][INFO] Workflow ID: my-csw-workflow 
+[geoflow][my-csw-workflow][INFO] Workflow name: My CSW workflow 
+[geoflow][my-csw-workflow][INFO] Workflow project: Test geoflow project 
+[geoflow][my-csw-workflow][INFO] Workflow organization: My organization 
+[geoflow][my-csw-workflow][WARN] Configuration file TO UPDATE: 'options' should be defined in profile! 
+[geoflow][my-csw-workflow][INFO] Setting geoflow global options... 
+[geoflow][my-csw-workflow][INFO] Configuring input software 'csw' (csw) 
+[geoflow][INFO] Check package dependencies for software 'csw' (csw) 
+[geoflow][INFO] The following packages have been imported for software 'csw' (csw): 
+  package installed version
+1   ows4R      TRUE     0.4
+[ows4R][INFO] OWSGetCapabilities - Fetching https://gn.marbec-tools.ird.fr/geonetwork/srv/eng/csw?service=CSW&version=2.0.2&request=GetCapabilities 
+[geoflow][my-csw-workflow][INFO] Configuring output software 'g2oi-DGSC-csw' (csw) 
+[geoflow][INFO] Check package dependencies for software 'g2oi-DGSC-csw' (csw) 
+[geoflow][INFO] The following packages have been imported for software 'g2oi-DGSC-csw' (csw): 
+  package installed version
+1   ows4R      TRUE     0.4
+[ows4R][INFO] OWSGetCapabilities - Fetching https://g2oi.ird.fr/geonetwork/srv/fre/csw?service=CSW&version=2.0.2&request=GetCapabilities 
+[geoflow][my-csw-workflow][INFO] Configuring output software 'g2oi-DGSC-geonetwork' (geonetwork) 
+[geoflow][INFO] Check package dependencies for software 'g2oi-DGSC-geonetwork' (geonetwork) 
+[geoflow][INFO] The following packages have been imported for software 'g2oi-DGSC-geonetwork' (geonetwork): 
+  package installed version
+1 geonapi      TRUE     0.7
+[geonapi][INFO] Connecting to GeoNetwork services as authenticated user 'admin' 
+[geonapi][INFO] Successfully authenticated to GeoNetwork!
+ 
+[geonapi][INFO] GN version >= 3.2 - Set-up GeoNetwork Open API manager 
+[geoflow][my-csw-workflow][INFO] Loading metadata elements... 
+[geoflow][my-csw-workflow][INFO] Loading metadata entities... 
+[geoflow][my-csw-workflow][INFO] Loading metadata entities from 'dc:title like '%trash_rttp_school_sighting%'' [with 'ogc_csw' handler]... 
+[geoflow][my-csw-workflow][INFO] Try to use embedded entities handler 
+[geoflow][my-csw-workflow][INFO] Execute handler to load entities... 
+[ows4R][INFO] CSWClient - Fetching records ... 
+
+[ows4R][ERROR] CSWGetRecords - java.lang.RuntimeException: java.util.UnknownFormatConversionException: Conversion = '"' 

@@ -1,0 +1,127 @@
+Session info
+====================================================================================================
+R version 4.3.1 (2023-06-16)
+Platform: x86_64-pc-linux-gnu (64-bit)
+Running under: Zorin OS 16.2
+
+Matrix products: default
+BLAS:   /usr/lib/x86_64-linux-gnu/blas/libblas.so.3.9.0 
+LAPACK: /usr/lib/x86_64-linux-gnu/lapack/liblapack.so.3.9.0
+
+locale:
+ [1] LC_CTYPE=fr_FR.UTF-8       LC_NUMERIC=C              
+ [3] LC_TIME=fr_FR.UTF-8        LC_COLLATE=fr_FR.UTF-8    
+ [5] LC_MONETARY=fr_FR.UTF-8    LC_MESSAGES=fr_FR.UTF-8   
+ [7] LC_PAPER=fr_FR.UTF-8       LC_NAME=C                 
+ [9] LC_ADDRESS=C               LC_TELEPHONE=C            
+[11] LC_MEASUREMENT=fr_FR.UTF-8 LC_IDENTIFICATION=C       
+
+time zone: Indian/Reunion
+tzcode source: system (glibc)
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+[1] RPostgres_1.4.5    RSQLite_2.3.1      DBI_1.1.3          geoflow_0.20230720
+[5] dotenv_1.0.3      
+
+loaded via a namespace (and not attached):
+ [1] gargle_1.4.0       tzdb_0.4.0         vctrs_0.6.3        tools_4.3.1       
+ [5] generics_0.1.3     curl_5.0.1         parallel_4.3.1     tibble_3.2.1      
+ [9] proxy_0.4-27       geometa_0.8-0      fansi_1.0.4        geonapi_0.7       
+[13] blob_1.2.4         pkgconfig_2.0.3    KernSmooth_2.23-21 assertthat_0.2.1  
+[17] uuid_1.1-0         lifecycle_1.0.3    compiler_4.3.1     terra_1.7-39      
+[21] keyring_1.3.1      codetools_0.2-19   class_7.3-22       pillar_1.9.0      
+[25] crayon_1.5.2       whisker_0.4.1      openssl_2.1.0      classInt_0.4-9    
+[29] cachem_1.0.8       mime_0.12          tidyselect_1.2.0   zip_2.3.0         
+[33] sf_1.0-14          dplyr_1.1.2        geonode4R_0.1      purrr_1.0.1       
+[37] fastmap_1.1.1      grid_4.3.1         cli_3.6.1          geosapi_0.6-6     
+[41] magrittr_2.0.3     XML_3.99-0.14      utf8_1.2.3         e1071_1.7-13      
+[45] readr_2.1.4        bit64_4.0.5        googledrive_2.1.0  httr_1.4.6        
+[49] bit_4.0.5          askpass_1.1        png_0.1-8          hms_1.1.3         
+[53] memoise_2.0.1      rlang_1.1.1        Rcpp_1.0.11        glue_1.6.2        
+[57] ows4R_0.4          xml2_1.3.5         jsonlite_1.8.7     R6_2.5.1          
+[61] plyr_1.8.8         fs_1.6.2           units_0.8-2       
+====================================================================================================
+Workflow initialization
+====================================================================================================
+[geoflow][my-dbi-test-workflow][INFO] Init Workflow configuration 
+[geoflow][my-dbi-test-workflow][INFO] Workflow job directory: /home/namik/workspace/jobs/20230728090252 
+[geoflow][my-dbi-test-workflow][INFO] Creating workflow profile... 
+[geoflow][my-dbi-test-workflow][INFO] Workflow ID: my-dbi-test-workflow 
+[geoflow][my-dbi-test-workflow][INFO] Workflow name: My dbi test workflow 
+[geoflow][my-dbi-test-workflow][INFO] Workflow project: Test geoflow project 
+[geoflow][my-dbi-test-workflow][INFO] Workflow organization: IRD 
+[geoflow][my-dbi-test-workflow][WARN] Configuration file TO UPDATE: 'options' should be defined in profile! 
+[geoflow][my-dbi-test-workflow][INFO] Setting geoflow global options... 
+[geoflow][my-dbi-test-workflow][INFO] Configuring input software 'Postgis' (dbi) 
+[geoflow][INFO] Check package dependencies for software 'Postgis' (dbi) 
+[geoflow][INFO] The following packages have been imported for software 'Postgis' (dbi): 
+    package installed version
+1       DBI      TRUE   1.1.3
+2   RSQLite      TRUE   2.3.1
+3 RPostgres      TRUE   1.4.5
+[geoflow][my-dbi-test-workflow][INFO] Configuring output software 'g2oi-csw' (csw) 
+[geoflow][INFO] Check package dependencies for software 'g2oi-csw' (csw) 
+[geoflow][INFO] The following packages have been imported for software 'g2oi-csw' (csw): 
+  package installed version
+1   ows4R      TRUE     0.4
+[ows4R][INFO] OWSGetCapabilities - Fetching https://g2oi.ird.fr/geonetwork/srv/fre/csw?service=CSW&version=2.0.2&request=GetCapabilities 
+[geoflow][my-dbi-test-workflow][INFO] Configuring output software 'g2oi-DGSC-geonetwork' (geonetwork) 
+[geoflow][INFO] Check package dependencies for software 'g2oi-DGSC-geonetwork' (geonetwork) 
+[geoflow][INFO] The following packages have been imported for software 'g2oi-DGSC-geonetwork' (geonetwork): 
+  package installed version
+1 geonapi      TRUE     0.7
+[geonapi][INFO] Connecting to GeoNetwork services as authenticated user 'admin' 
+[geonapi][INFO] Successfully authenticated to GeoNetwork!
+ 
+[geonapi][INFO] GN version >= 3.2 - Set-up GeoNetwork Open API manager 
+[geoflow][my-dbi-test-workflow][INFO] Loading metadata elements... 
+[geoflow][my-dbi-test-workflow][INFO] Loading metadata entities... 
+[geoflow][my-dbi-test-workflow][INFO] Try to use embedded entities handler 
+[geoflow][my-dbi-test-workflow][INFO] Execute handler to load entities... 
+[geoflow][my-dbi-test-workflow][INFO] Validating entities 
+[geoflow][my-dbi-test-workflow][INFO] Validation issues --> 
+  row  col    type                                               message
+1   1 Date WARNING       key 'edition' is not a recognized ISO date key.
+2   1 Type WARNING Key is omitted, default key 'generic' will be applied
+3   2 Date WARNING       key 'edition' is not a recognized ISO date key.
+4   2 Type WARNING Key is omitted, default key 'generic' will be applied
+[geoflow][my-dbi-test-workflow][INFO] Parsing 2 entities from tabular source 
+[geoflow][my-dbi-test-workflow][INFO] Parsing entity 1 
+[geoflow][my-dbi-test-workflow][INFO] Parsing entity 2 
+[geoflow][my-dbi-test-workflow][INFO] Successfuly fetched 2 entities! 
+[geoflow][my-dbi-test-workflow][INFO] Successfuly loaded 2 entities! 
+[geoflow][INFO] Check package dependencies for action 'geometa-create-iso-19115' 
+[geoflow][INFO] The following packages have been imported for action 'geometa-create-iso-19115': 
+  package installed version
+1 geometa      TRUE   0.8.0
+2   ows4R      TRUE     0.4
+[geoflow][INFO] Check package dependencies for action 'ows4R-publish-iso-19139' 
+[geoflow][INFO] The following packages have been imported for action 'ows4R-publish-iso-19139': 
+  package installed version
+1   ows4R      TRUE     0.4
+====================================================================================================
+Workflow Execution
+====================================================================================================
+[geoflow][my-dbi-test-workflow][INFO] Executing workflow job... 
+----------------------------------------------------------------------------------------------------
+[geoflow][my-dbi-test-workflow][INFO] Executing software actions 'onstart' ... 
+[geoflow][my-dbi-test-workflow][INFO] Executing input software action 'onstart' 
+[geoflow][my-dbi-test-workflow][INFO] DBI [id='Postgis'] No 'sqlonstart' property. Skipping 'onstart' action 
+----------------------------------------------------------------------------------------------------
+[geoflow][my-dbi-test-workflow][INFO] Executing entity actions ... 
+[geoflow][my-dbi-test-workflow][INFO] Workflow mode: entity 
+[geoflow][my-dbi-test-workflow][INFO] Workflow with 2 actions 
+[geoflow][my-dbi-test-workflow][INFO] Action 1: geometa-create-iso-19115 
+[geoflow][my-dbi-test-workflow][INFO] Action 2: ows4R-publish-iso-19139 
+[geoflow][my-dbi-test-workflow][INFO] Create entity job dir at '/home/namik/workspace/jobs/20230728090252/entities/ttrash_rttp_biological_sampling' 
+[geoflow][my-dbi-test-workflow][INFO] Creating 'data' directory: /home/namik/workspace/jobs/20230728090252/entities/ttrash_rttp_biological_sampling/data 
+[geoflow][my-dbi-test-workflow][INFO] Creating 'metadata' directory: /home/namik/workspace/jobs/20230728090252/entities/ttrash_rttp_biological_sampling/metadata 
+[geoflow][my-dbi-test-workflow][INFO] Entity working directory: /home/namik/workspace/jobs/20230728090252/entities/ttrash_rttp_biological_sampling 
+[geoflow][my-dbi-test-workflow][INFO] Copying data to entity job data directory '/home/namik/workspace/jobs/20230728090252/entities/ttrash_rttp_biological_sampling/data' 
+[geoflow][my-dbi-test-workflow][INFO] sourceZip = FALSE: source files will be uploaded 
+[geoflow][my-dbi-test-workflow][INFO] Closing input database connection 
+[geoflow][my-dbi-test-workflow][INFO] Reset Geonetwork API manager 
+[geoflow][my-dbi-test-workflow][INFO] Reset CSW client 
