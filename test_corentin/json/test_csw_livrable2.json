@@ -14,7 +14,7 @@
     "entities": 
       {
         "handler": "ogc_csw",
-        "source": "https://www.fao.org/fishery/geonetwork/srv/eng/catalog.search#/metadata/fao-species-map-hai"
+        "source": "dc:title like '%grid%'"
       }
   },
   "software": [
@@ -33,7 +33,7 @@
 		"type": "output",
 		"software_type": "geonetwork",
 		"parameters": {
-			"url": "{{GEONETWORK_UNIV_URL}}",
+			"url": "{{GEONETWORK_CINES_URL}}",
 			"user": "{{GEONETWORK_USER}}",
 			"pwd": "{{GEONETWORK_PASSWORD}}",
 			"version": "4.2.1",
