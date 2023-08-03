@@ -1,0 +1,93 @@
+{
+  "profile": {
+    "id": "my-dbi-test-workflow",
+    "name": "My dbi test workflow",
+  	"project": "Test geoflow project",
+  	"organization": "IRD",
+  	"logos": [],
+  	"mode": "entity"
+  },
+  "metadata": {
+    "entities": [
+      {
+        "handler": "dbi"
+      }
+    ]
+  },
+  "software": [
+    {
+        "id": "Postgis",
+        "type": "input",
+        "software_type": "dbi",
+        "parameters": {
+            "drv": "{{DB_DRV}}",
+            "user": "{{DB_USER}}",
+            "password": "{{DB_PWD}}",
+            "host": "{{DB_HOST}}",
+            "port": "{{DB_PORT}}",
+            "dbname": "{{DB_NAME}}"
+        },
+        "properties": {
+        "metadata_table": "public.metadata_dcmi"
+      }
+  },
+    {
+        "id": "g2oi-csw",
+        "type": "output",
+        "software_type": "csw",
+        "parameters": {
+            "url": "{{GEONETWORK_CSW_URL}}",
+            "user": "{{GEONETWORK_USER}}",
+            "pwd": "{{GEONETWORK_PASSWORD}}",
+            "serviceVersion": "2.0.2",
+            "logger": "DEBUG"
+        }
+    },
+    {
+        "id": "g2oi-DGSC-geonetwork",
+        "type": "output",
+        "software_type": "geonetwork",
+        "parameters": {
+            "url": "{{GEONETWORK_URL}}",
+            "user": "{{GEONETWORK_USER}}",
+            "pwd": "{{GEONETWORK_PASSWORD}}",
+            "version": "4.2.0",
+            "logger": "DEBUG"
+        }
+    }
+  ],
+  "actions": [
+    {
+    "id": "geometa-create-iso-19115",
+    "run": true,
+      "options": {
+          "logo": true,
+          "doi": false,
+          "doi_thumbnail": false,
+          "addfeatures": false
+      }
+    },
+    {
+      "id": "geometa-create-iso-19110",
+      "run": false
+    },
+    {
+      "id": "geonapi-publish-iso-19139",
+      "run" : false,
+               "options" : {
+       "group":"{{GROUP}}"
+       }	},
+           {
+      "id": "ows4R-publish-iso-19139",
+      "run": true
+    },
+    {
+      "id": "geosapi-publish-ogc-services",
+      "run": false,
+      "options" : {
+        "createWorkspace": false,
+        "createStore": false
+      }
+    }
+ ]
+}
