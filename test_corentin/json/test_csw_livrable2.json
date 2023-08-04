@@ -14,7 +14,7 @@
     "entities": 
       {
         "handler": "ogc_csw",
-        "source": "dc:title like '%grid%'"
+        "source": "dc:title like 'FAO aquatic species distribution map of Psettodes erumei (Indian halibut)'" 
       }
   },
   "software": [
@@ -23,7 +23,7 @@
   	"type": "input",
   	"software_type": "csw",
   	"parameters": {
-  		"url": "https://www.fao.org/fishery/geonetwork/",
+  		"url": "https://www.fao.org/fishery/geonetwork/srv/eng/csw",
   		"serviceVersion": "2.0.2",
   		"logger": "DEBUG"
   	}
