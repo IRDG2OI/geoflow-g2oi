@@ -1,0 +1,81 @@
+Session info
+====================================================================================================
+R version 4.3.1 (2023-06-16)
+Platform: x86_64-pc-linux-gnu (64-bit)
+Running under: Zorin OS 16.2
+
+Matrix products: default
+BLAS:   /usr/lib/x86_64-linux-gnu/blas/libblas.so.3.9.0 
+LAPACK: /usr/lib/x86_64-linux-gnu/lapack/liblapack.so.3.9.0
+
+locale:
+ [1] LC_CTYPE=fr_FR.UTF-8       LC_NUMERIC=C              
+ [3] LC_TIME=fr_FR.UTF-8        LC_COLLATE=fr_FR.UTF-8    
+ [5] LC_MONETARY=fr_FR.UTF-8    LC_MESSAGES=fr_FR.UTF-8   
+ [7] LC_PAPER=fr_FR.UTF-8       LC_NAME=C                 
+ [9] LC_ADDRESS=C               LC_TELEPHONE=C            
+[11] LC_MEASUREMENT=fr_FR.UTF-8 LC_IDENTIFICATION=C       
+
+time zone: Indian/Reunion
+tzcode source: system (glibc)
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+[1] geonapi_0.7        keyring_1.3.1      geometa_0.8-0      RPostgres_1.4.5   
+[5] RSQLite_2.3.1      DBI_1.1.3          geoflow_0.20230720 dotenv_1.0.3      
+
+loaded via a namespace (and not attached):
+ [1] gargle_1.4.0       tzdb_0.4.0         vctrs_0.6.3        tools_4.3.1       
+ [5] generics_0.1.3     curl_5.0.1         parallel_4.3.1     tibble_3.2.1      
+ [9] proxy_0.4-27       fansi_1.0.4        blob_1.2.4         pkgconfig_2.0.3   
+[13] KernSmooth_2.23-21 assertthat_0.2.1   uuid_1.1-0         lifecycle_1.0.3   
+[17] compiler_4.3.1     terra_1.7-39       codetools_0.2-19   class_7.3-22      
+[21] pillar_1.9.0       crayon_1.5.2       whisker_0.4.1      openssl_2.1.0     
+[25] classInt_0.4-9     cachem_1.0.8       mime_0.12          tidyselect_1.2.0  
+[29] zip_2.3.0          sf_1.0-14          dplyr_1.1.2        geonode4R_0.1     
+[33] purrr_1.0.1        fastmap_1.1.1      grid_4.3.1         cli_3.6.1         
+[37] geosapi_0.6-6      magrittr_2.0.3     XML_3.99-0.14      utf8_1.2.3        
+[41] e1071_1.7-13       readr_2.1.4        bit64_4.0.5        timechange_0.2.0  
+[45] lubridate_1.9.2    googledrive_2.1.0  httr_1.4.6         bit_4.0.5         
+[49] askpass_1.1        png_0.1-8          hms_1.1.3          memoise_2.0.1     
+[53] rlang_1.1.1        Rcpp_1.0.11        glue_1.6.2         ows4R_0.3-5       
+[57] xml2_1.3.5         jsonlite_1.8.7     R6_2.5.1           plyr_1.8.8        
+[61] fs_1.6.2           units_0.8-2       
+====================================================================================================
+Workflow initialization
+====================================================================================================
+[geoflow][my-dbi-test-workflow][INFO] Init Workflow configuration 
+[geoflow][my-dbi-test-workflow][INFO] Workflow job directory: /home/namik/workspace/jobs/20230801120625 
+[geoflow][my-dbi-test-workflow][INFO] Creating workflow profile... 
+[geoflow][my-dbi-test-workflow][INFO] Workflow ID: my-dbi-test-workflow 
+[geoflow][my-dbi-test-workflow][INFO] Workflow name: My dbi test workflow 
+[geoflow][my-dbi-test-workflow][INFO] Workflow project: Test geoflow project 
+[geoflow][my-dbi-test-workflow][INFO] Workflow organization: IRD 
+[geoflow][my-dbi-test-workflow][WARN] Configuration file TO UPDATE: 'options' should be defined in profile! 
+[geoflow][my-dbi-test-workflow][INFO] Setting geoflow global options... 
+[geoflow][my-dbi-test-workflow][INFO] Configuring input software 'Postgis' (dbi) 
+[geoflow][INFO] Check package dependencies for software 'Postgis' (dbi) 
+[geoflow][INFO] The following packages have been imported for software 'Postgis' (dbi): 
+    package installed version
+1       DBI      TRUE   1.1.3
+2   RSQLite      TRUE   2.3.1
+3 RPostgres      TRUE   1.4.5
+[geoflow][my-dbi-test-workflow][INFO] Configuring output software 'g2oi-DGSC-geonetwork' (geonetwork) 
+[geoflow][INFO] Check package dependencies for software 'g2oi-DGSC-geonetwork' (geonetwork) 
+[geoflow][INFO] The following packages have been imported for software 'g2oi-DGSC-geonetwork' (geonetwork): 
+  package installed version
+1 geonapi      TRUE     0.7
+[geonapi][INFO] Connecting to GeoNetwork services as authenticated user 'admin' 
+[geonapi][INFO] Successfully authenticated to GeoNetwork!
+ 
+[geonapi][INFO] GN version >= 3.2 - Set-up GeoNetwork Open API manager 
+[geoflow][my-dbi-test-workflow][INFO] Loading metadata elements... 
+[geoflow][my-dbi-test-workflow][INFO] Loading metadata entities... 
+[geoflow][my-dbi-test-workflow][INFO] Try to use embedded entities handler 
+[geoflow][my-dbi-test-workflow][INFO] Execute handler to load entities... 
+[geoflow][my-dbi-test-workflow][INFO] Source is null or empty. Use default metadata table 'public.metadata' 
+[geoflow][my-dbi-test-workflow][INFO] Use default tabular entity handler 
+[geoflow][my-dbi-test-workflow][INFO] Validating entities 
+[geoflow][my-dbi-test-workflow][ERROR] Error of metadata structure for entities 

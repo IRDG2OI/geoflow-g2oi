@@ -14,7 +14,7 @@
     "entities":
       {
       "handler": "dbi",
-      "source": "select * from RSC_SITE"
+      "source": ""
       }
   },
   "software": [
@@ -57,7 +57,7 @@
     },
 	{
 	  "id": "geometa-create-iso-19110",
-	  "run": false
+	  "run": true
 	}
   ]
 }

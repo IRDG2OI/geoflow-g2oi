@@ -14,7 +14,7 @@
     "entities": 
       {
         "handler": "ogc_csw",
-        "source": "https://www.fao.org/fishery/geonetwork/srv/eng/catalog.search#/metadata/fao-species-map-hai"
+        "source": "dc:title like 'FAO aquatic species distribution map of Psettodes erumei (Indian halibut)'" 
       }
   },
   "software": [
@@ -23,7 +23,7 @@
   	"type": "input",
   	"software_type": "csw",
   	"parameters": {
-  		"url": "https://www.fao.org/fishery/geonetwork/",
+  		"url": "https://www.fao.org/fishery/geonetwork/srv/eng/csw",
   		"serviceVersion": "2.0.2",
   		"logger": "DEBUG"
   	}
@@ -33,7 +33,7 @@
 		"type": "output",
 		"software_type": "geonetwork",
 		"parameters": {
-			"url": "{{GEONETWORK_UNIV_URL}}",
+			"url": "{{GEONETWORK_CINES_URL}}",
 			"user": "{{GEONETWORK_USER}}",
 			"pwd": "{{GEONETWORK_PASSWORD}}",
 			"version": "4.2.1",

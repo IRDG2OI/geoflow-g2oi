@@ -1,0 +1,50 @@
+{
+  "profile": {
+    "id": "my-dbi-test-workflow",
+    "name": "My dbi test workflow",
+  	"project": "Test geoflow project",
+  	"organization": "IRD",
+  	"logos": [],
+  	"mode": "entity"
+  },
+  "metadata": {
+    "entities": [
+      {
+        "handler": "dbi"
+      }
+    ]
+  },
+  "software": [
+    {
+        "id": "Postgis",
+        "type": "input",
+        "software_type": "dbi",
+        "parameters": {
+            "drv": "{{DB_DRV}}",
+            "user": "{{DB_USER}}",
+            "password": "{{DB_PWD}}",
+            "host": "{{DB_HOST}}",
+            "port": "{{DB_PORT}}",
+            "dbname": "{{DB_NAME}}"
+        }
+  },
+    {
+        "id": "g2oi-DGSC-geonetwork",
+        "type": "output",
+        "software_type": "geonetwork",
+        "parameters": {
+            "url": "{{GEONETWORK_URL}}",
+            "user": "{{GEONETWORK_USER}}",
+            "pwd": "{{GEONETWORK_PASSWORD}}",
+            "version": "4.2.0",
+            "logger": "DEBUG"
+        }
+    }
+  ],
+  "actions": [
+    {
+      "id": "ows4R-publish-iso-19139",
+      "run": true
+    }
+ ]
+}
