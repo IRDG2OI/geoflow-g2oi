@@ -1,0 +1,64 @@
+{
+  "profile": {
+    "id": "my-workflow",
+    "name": "My workflow",
+    "project": "Test geoflow project",
+    "organization": "My organization",
+    "logos": [
+      "https://via.placeholder.com/300x150.png/09f/fff?text=geoflow"
+    ],
+    "mode": "entity",
+    "options": {
+    }
+  },
+  "metadata": {
+    "entities": [
+      {
+        "handler": "gsheet",
+        "source": "https://docs.google.com/spreadsheets/d/1PrZyKJN-lYf0KlXTugS60WNG3VZ6gHJaHM4cS54r2g0/edit?usp=sharing"
+      }
+    ],
+    "contacts": [
+      {
+        "handler": "gsheet",
+        "source": "https://docs.google.com/spreadsheets/d/1BqlXwA2fKiRuozNAQhBb_PbQVSPTCfl8_Q9rfM8E2ws/edit?usp=sharing"
+      }
+    ]
+  },
+  "software": [
+    
+ {
+  		"id": "my-zenodo",
+		  "type": "output",
+		  "software_type": "zenodo",
+		  "parameters": {
+    		"url": "https://sandbox.zenodo.org/api",
+    		"token": "{{ZENODO_SANDBOX_geoflow-g2OI-test_TOKEN}}",
+    		"logger": "DEBUG"
+		  }
+		  },
+		  {
+		"id": "googledrive",
+		"type": "input",
+		"software_type": "googledrive",
+		"parameters": {
+			"email": "{{GMAIL_USER}}",
+			"token": ""
+		},
+		"properties" : {}
+	}
+		
+  ],
+  "actions": [
+    {
+      "id": "zen4R-deposit-record",
+      "run": true,
+      "options": {
+        "depositWithFiles": true,
+        "deleteOldFiles": false,
+        "publish": false,
+        "communities": "zenodo"
+      }
+    }
+  ]
+}
