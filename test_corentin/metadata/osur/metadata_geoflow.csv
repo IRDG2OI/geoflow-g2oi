@@ -38,6 +38,7 @@ uuid:cd56e228-f0cc-422a-9c6d-abf50e1a0afd",Programme de recherche Renovrisk,"abs
 publication:2023-06-26",series,fre,srid:4326,2019-02-01/2021-12-31,,,"accessConstraint:license_
 useConstraint:license",,
 "id:de79135a-79e5-4315-a642-3b8e2c97bc49_
+doi:10.26171/6n33-xe98 
 uuid:de79135a-79e5-4315-a642-3b8e2c97bc49",ReNovRisk-TRANSFERTS – Champs de vent sur La Réunion à l’approche du cyclone Bejisa (méthode dite “de bogus”),"abstract:Afin de produire des champs de vent compatibles à la fois avec la position et l'intensité du système, l'environnement à grande échelle et la topographie de la région ciblée, le modèle atmosphérique Méso-NH a été mis en œuvre avec l'approche paramétrique de Holland couplée à l'utilisation de l'analyse météorologique du modèle IFS (Integrated Forecasting System) du CEPMMT (Centre Européen pour les Prévisions Météorologiques à Moyen Terme). Cette méthode dite ""de bogus"" a été mise en place au cours du programme SPICy (Système de Prévision des Inondations en contexte Cyclonique, http://spicy.brgm.fr/fr ). Cette méthode a été déployée dans le cadre du programme ReNovRisk-TRANSFERTS (Vérèmes, 2020, Rapport technique). Des champs de vent haute résolution de 5 cyclones tropicaux ayant touché terre à Madagascar et à la Réunion ont été produits. Des vitesses de vent et des rafales de 10 m ont été fournies à une résolution horizontale de 500 m sur l'île de la Réunion pour Bejisa (2014).
 
 Projet ReNovRisk-TRANSFERTS financé par la Région Réunion, la Commission Européenne (via le FEDER INTERREG) et l'Université de La Réunion.

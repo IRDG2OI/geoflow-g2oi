@@ -25,7 +25,7 @@
   },
  "software": [
     {
-		"id": "sen2chain-total-geonetwork",
+		"id": "seasoi-geonetwork",
 		"type": "output",
 		"software_type": "geonetwork",
 		"parameters": {
@@ -47,7 +47,7 @@
 		"properties" : {}
 	},
 	{
-        "id": "sen2chain-total-geoserver",
+        "id": "seasoi-geoserver",
         "type": "output",
         "software_type": "geoserver",
         "parameters": {

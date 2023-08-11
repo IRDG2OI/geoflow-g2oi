@@ -1,0 +1,85 @@
+{
+  "profile": {
+    "id": "PIMANT",
+    "mode": "entity",
+  	"project": "PIMANT",
+  	"organization": "Région Réunion",
+  	"logos": [
+  	  "https://drive.google.com/uc?id=17QgkYRUF0a2aqp9chkQS8F09BcoXb3cj"
+  	],
+  	"options": {
+  	  "line_separator": "_\n"
+    }
+  },
+  "metadata": {
+    "entities":
+      {
+      "handler": "gsheet",
+      "source": "https://docs.google.com/spreadsheets/d/1tzE07Yv0-i5g8dJJVA026QIV0nVJ-VkXDCI4a7_0keg/edit#gid=0"
+      },
+    "contacts" : {
+      "handler": "{{METADATA_CONTACTS_HANDLER}}",
+      "source": "{{METADATA_CONTACTS}}"
+    }
+  },
+  "software": [
+    {
+		"id": "pimant-geonetwork",
+		"type": "output",
+		"software_type": "geonetwork",
+		"parameters": {
+			"url": "{{GEONETWORK_SEASOI_URL}}",
+			"user": "{{GEONETWORK_USER}}",
+			"pwd": "{{GEONETWORK_PASSWORD}}",
+			"version": "4.2.1",
+			"logger": "DEBUG"
+		}
+    },
+    	{
+		"id": "googledrive",
+		"type": "input",
+		"software_type": "googledrive",
+		"parameters": {
+    "email": "{{GMAIL_USER}}",
+			"token": ""
+		},
+		"properties" : {}
+	},
+		{
+        "id": "pimant-geoserver",
+        "type": "output",
+        "software_type": "geoserver",
+        "parameters": {
+			"url": "{{GEOSERVER_SEASOI_URL}}",
+			"user": "{{GEOSERVER_USER}}",
+			"pwd": "{{GEOSERVER_PASSWORD}}",
+			"logger": "DEBUG"
+        },
+      "properties" : {
+			"workspace": "REGION_REUNION",
+			"store": "seasoi_pimant_vecteur"
+      }
+    }
+  ],
+  "actions": [
+    {
+      "id": "geometa-create-iso-19115",
+      "options" : {
+        "logo": true
+      },
+      "run": true
+    },
+        {
+      "id": "geonapi-publish-iso-19139",
+       "run" : true
+	   },
+	   {
+	  "id": "geosapi-publish-ogc-services",
+	  "run": true,
+	  "options" : {
+	    "createWorkspace": true,
+	    "createStore": true
+	  }
+	}
+  ]
+}

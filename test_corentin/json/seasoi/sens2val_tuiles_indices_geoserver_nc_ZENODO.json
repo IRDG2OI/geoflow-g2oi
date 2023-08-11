@@ -1,11 +1,11 @@
 {
   "profile": {
-  "id": "sens2val_indices_shp",
+  "id": "sens2val_tuiles_indices_dataset",
 	"project": "SEAS-OI - Sens2Chain",
-	"name": "Fiche metadonnée niv.1 par indices",
+	"name": "Fiche metadonnée niv.3 des tuiles-indices",
 	"organization": "G2OI",
   	"logos": [
-  		  "https://drive.google.com/uc?id=1RSMBdke2znvwtvhoM5evr-1rUesPLH-j"
+  		  		"https://drive.google.com/uc?id=1RSMBdke2znvwtvhoM5evr-1rUesPLH-j"
   	],
   	  "mode": "entity",
   	  "options": {
@@ -15,7 +15,7 @@
   "metadata": {
     "entities": {
       "handler": "gsheet",
-      "source": "https://docs.google.com/spreadsheets/d/1rdc0y53Z8L6BMfS2EzAoGFd52fBo2gpNxkYjJM7TFoM/edit?usp=sharing"
+      "source": "https://docs.google.com/spreadsheets/d/1ZowjKB7W103Tio9TxPDMXmxHejlWcA8izGEE9aHdLcE/edit?usp=sharing"
     },
       "contacts" : {
       "handler": "{{METADATA_CONTACTS_HANDLER}}",
@@ -52,14 +52,29 @@
         "parameters": {
             "url": "{{GEOSERVER_SEASOI_URL}}",
             "user": "{{GEOSERVER_USER}}",
-            "pwd": "{{GEOSERVER_PASSWORD}}",
+            "pwd": "{{GEONETWORK_PASSWORD}}",
             "logger": "DEBUG"
         },
         "properties" : {
             "workspace": "UMR_ESPACE_DEV",
-            "store": "seasoi_sen2chain_vecteur"
+            "store": "seasoi_sen2chain_raster"
         }
-  }
+  },
+      {
+  		"id": "my-zenodo",
+		  "type": "output",
+		  "software_type": "zenodo",
+		  "parameters": {
+    		"url": "https://sandbox.zenodo.org/api",
+    		"token": "{{ ZENODO_SANDBOX_TOKEN }}",
+    		"logger": "DEBUG"
+		  },
+		  "properties": {
+		    "clean": {
+		      "run": false
+		    }
+		  }
+		}
   ],
 "actions": [
     {
@@ -75,12 +90,20 @@
 	   },
         {
       "id": "geosapi-publish-ogc-services",
-      "run" : true,
-      	  "options" : {
-      	    "createWorkspace": true,
-      	    "createStore": true,
-      	    "map_thumbnail_template": "https://gs.marbec-tools.ird.fr/geoserver/G2OI/wms?service=WMS&version=1.1.0&request=GetMap&layers=G2OI%3AG2OI_BASE_MAP&bbox={bbox}&width=768&height=384&srs=EPSG%3A4326&styles=&format=image%2Fjpeg"
-      	  }
+      "createWorskpace": true,
+      "createStore": true,
+      "run" : false
+    },
+    {
+      "id": "zen4R-deposit-record",
+      "run": true,
+      "options": {
+        "update_files": false,
+        "depositWithFiles": true,
+        "communities": "",
+        "deleteOldFiles": false,
+        "publish":true
+    }
     }
 	]
 }

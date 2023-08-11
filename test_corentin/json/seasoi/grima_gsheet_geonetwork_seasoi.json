@@ -1,0 +1,62 @@
+{
+  "profile": {
+    "id": "GRIMA",
+    "mode": "entity",
+  	"project": "GRIMA",
+  	"organization": "Région Réunion",
+  	"logos": [
+          "https://drive.google.com/uc?id=17QgkYRUF0a2aqp9chkQS8F09BcoXb3cj"
+  	],
+  	"options": {
+  	  "line_separator": "_\n"
+    }
+  },
+  "metadata": {
+    "entities":
+      {
+      "handler": "gsheet",
+      "source": "https://docs.google.com/spreadsheets/d/1atQm_wBu2puwZNABkKZxNz3gd0x06_wK1CkZxCdjMks/edit?usp=sharing"
+      },
+    "contacts" : {
+      "handler": "{{METADATA_CONTACTS_HANDLER}}",
+      "source": "{{METADATA_CONTACTS}}"
+    }
+  },
+"software": [
+    {
+		"id": "grima-geonetwork",
+		"type": "output",
+		"software_type": "geonetwork",
+		"parameters": {
+			"url": "{{GEONETWORK_SEASOI_URL}}",
+			"user": "{{GEONETWORK_USER}}",
+			"pwd": "{{GEONETWORK_PASSWORD}}",
+			"version": "4.2.1",
+			"logger": "DEBUG"
+		}
+    },
+    	{
+		"id": "googledrive",
+		"type": "input",
+		"software_type": "googledrive",
+		"parameters": {
+    "email": "{{GMAIL_USER}}",
+			"token": ""
+		},
+		"properties" : {}
+	}
+  ],
+ "actions": [
+    {
+      "id": "geometa-create-iso-19115",
+      "options" : {
+        "logo": true
+      },
+      "run": true
+    },
+        {
+      "id": "geonapi-publish-iso-19139",
+       "run" : true
+	   }
+  ]
+}
