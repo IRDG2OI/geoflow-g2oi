@@ -27,12 +27,22 @@
 		"type": "output",
 		"software_type": "geonetwork",
 		"parameters": {
-			"url": "{{GEONETWORK_UNIV_URL}}",
-			"user": "{{GEONETWORK_USER}}",
-			"pwd": "{{GEONETWORK_PASSWORD}}",
+			"url": "{{GEONETWORK_DATACITE_URL}}",
+			"user": "{{GEONETWORK_DATACITE_USER}}",
+			"pwd": "{{GEONETWORK_DATACITE_PASSWORD}}",
 			"version": "4.2.1",
 			"logger": "DEBUG"
 		}
+	},
+	    	{
+		"id": "googledrive",
+		"type": "input",
+		"software_type": "googledrive",
+		"parameters": {
+    "email": "{{GMAIL_USER}}",
+			"token": ""
+		},
+		"properties" : {}
 	},
 	{
         "id": "geosur-geoserver",
@@ -60,11 +70,14 @@
     },
         {
       "id": "geonapi-publish-iso-19139",
-      "run" : true
+      "run" : true,
+      "options": {
+        "create_doi_on_datacite": true
+      }
 	   },
 	 {
 	  "id": "geosapi-publish-ogc-services",
-	  "run": false,
+	  "run": true,
 	  "options" : {
 	    "createWorkspace": true,
 	    "createStore": true

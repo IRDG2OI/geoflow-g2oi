@@ -89,7 +89,7 @@
 	   },
 	   {
 	  "id": "geosapi-publish-ogc-services",
-	  "run": true,
+	  "run": false,
 	  "options" : {
 	    "createWorkspace": true,
 	    "createStore": true,
@@ -100,7 +100,7 @@
       "id": "zen4R-deposit-record",
       "run": true,
       "options": {
-        "update_files": false,
+        "update_files": true,
         "depositWithFiles": true,
         "communities": "",
         "deleteOldFiles": false,
