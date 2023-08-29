@@ -11,7 +11,7 @@
     }
   },
   "metadata": {
-    "entities": 
+    "entities":
       {
       "handler": "gsheet",
       "source": "https://docs.google.com/spreadsheets/d/1JfbGypt0GTB7GsWNfdcwVB3hlSbqePDoDFGnf-xNzBA/edit?usp=sharing"

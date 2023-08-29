@@ -130,12 +130,12 @@ attribute:ID[ID]@ID,ocsol_name[ocsol_name]_
 variable:oc_solnum[ocsol_name]
 "
 "id:HOMISLAND_MOHELI_
-doi:10.5281/zenodo.2585747",Carte d'occupation du sol de l'île de Mohéli,"abstract:Dans le sud-ouest de l'océan Indien, il existe de nombreuses îles de moins de 3000 km²: l'archipel des Seychelles (avec 115 îles, dont Mahé, la plus grande), l'archipel des Comores (Grande Comore, Mohéli, Anjouan et Mayotte), les îles Eparses (les îles Glorioso, Juan de Nova, Bassas da India, Europa, île Tromelin), les îles Mascareignes (Réunion, Maurice, Rodrigues). Ces îles ont leurs propres spécificités environnementales et des paysages très fragmentés et diversifiés. Les produits génériques d'occupation du sol existants à partir d'images satellites de basse et moyenne résolution ne sont pas adaptés à l'étude de ces petits territoires. 
+doi:10.5281/zenodo.2585747",Carte d'occupation du sol de l'île de Mohéli,"abstract:”Dans le sud-ouest de l'océan Indien, il existe de nombreuses îles de moins de 3000 km²: l'archipel des Seychelles (avec 115 îles, dont Mahé, la plus grande), l'archipel des Comores (Grande Comore, Mohéli, Anjouan et Mayotte), les îles Eparses (les îles Glorioso, Juan de Nova, Bassas da India, Europa, île Tromelin), les îles Mascareignes (Réunion, Maurice, Rodrigues). Ces îles ont leurs propres spécificités environnementales et des paysages très fragmentés et diversifiés. Les produits génériques d'occupation du sol existants à partir d'images satellites de basse et moyenne résolution ne sont pas adaptés à l'étude de ces petits territoires. 
 L'UMR Espace DEV a développé un produit d'occupation et d'utilisation des sols, appelé Homisland-IO, basé sur des traitements de télédétection sur des images satellites à haute résolution spatiale acquises par le satellite SPOT 5 entre décembre 2012 et juillet 2014.
  Ce produit a été réalisé en utilisant un processus de classification basé sur les objets. 
 La précision de la classification est de 86.47 %, calculée à partir d'une matrice de confusion selon l'indice de Kappa. 
 La donnée est au format shape possède 12 classes d'occupation du sol
-Homisland-IO est librement accessible via un portail web et est donc disponible pour une utilisation future.","theme[General]:Projet Homisland, Occupation du sol, télédétection, SPOT5, Analyse spatiale,  petite île, Indice de Kappa_
+Homisland-IO est librement accessible via un portail web et est donc disponible pour une utilisation future.”","theme[General]:Projet Homisland, Occupation du sol, télédétection, SPOT5, Analyse spatiale,  petite île, Indice de Kappa_
 theme[Geographic]: Océan Indien, Comores, Mohéli","publisher:christophe.revillion@univ-reunion.fr_
 pointOfContact:christophe.revillion@univ-reunion.fr,attoumane.artadji@ird.fr ,vincent.herbreteau@ird.fr_
 metadata:benjamin.robert@ird.fr","publication:2021-03-22_
