@@ -2,7 +2,7 @@
   "profile": {
     "id": "zenodo",
     "name": "Zenodo",
-  	"project": "Test Zenodo from Geoflow",
+  	"project": "Zenodo with Geoflow",
   	"organization": "IRD",
 	  "environment": {
         "file": ".env",
@@ -47,12 +47,12 @@
     {
       "id": "zen4R-deposit-record",
       "options": {
-          "update_files": false,
+          "update_files": true,
           "communities": "uav",
           "depositWithFiles": true,
-          "publish": true,
+          "publish": false,
           "strategy": "newversion",
-          "deleteOldFiles": false
+          "deleteOldFiles": true
       },
       "run": true
     }
