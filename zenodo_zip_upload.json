@@ -2,7 +2,7 @@
     "profile": {
         "id": "zenodo",
         "name": "Zenodo",
-        "project": "Zenodo with Geoflow",
+        "project": "Zenodo sandbox with Geoflow",
         "organization": "IRD",
         "environment": {
             "file": ".env",
@@ -10,16 +10,13 @@
                 "MOTDEPASSE"
             ]
         },
-        "logos": [
-            "https://en.ird.fr/sites/ird_fr/files/2019-08/logo_IRD_2016_BLOC_UK_COUL.png"
-        ],
         "mode": "entity"
     },
     "metadata": {
         "entities": [
             {
                 "handler": "csv",
-                "source": "20230727-133457_generated-metadata.csv"
+                "source": "zenodo_zip_upload.csv"
             }
         ],
         "contacts": [
@@ -31,7 +28,7 @@
     },
     "software": [
         {
-            "id": "my-zenodo",
+            "id": "my-zenodo-sandbox",
             "type": "output",
             "software_type": "zenodo",
             "parameters": {
@@ -50,13 +47,13 @@
         {
             "id": "zen4R-deposit-record",
             "options": {
-                "update_files": false,
+                "update_files": true,
                 "communities": "uav",
                 "depositWithFiles": true,
-                "publish": true,
-                "strategy": "edition",
+                "publish": false,
                 "update_metadata": true,
-                "deleteOldFiles": false
+                "strategy": "newversion",
+                "deleteOldFiles": true
             },
             "run": true
         }

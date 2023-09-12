@@ -49,14 +49,28 @@
             "options": {
                 "update_files": true,
                 "communities": "uav",
-                "depositWithFiles": true,
-                "publish": true,
+                "depositWithFiles": false,
+                "publish": false,
                 "update_metadata": true,
                 "strategy": "newversion",
                 "zipEachDataFile": false,
                 "deleteOldFiles": false
             },
             "run": true
-        }
+        },
+        {
+            "id": "zen4R-deposit-record",
+            "options": {
+                "update_files": true,
+                "communities": "uav",
+                "depositWithFiles": true,
+                "publish": false,
+                "update_metadata": true,
+                "strategy": "newversion",
+                "zipEachDataFile": false,
+                "deleteOldFiles": false
+            },
+            "run": true
+        }        
     ]
 }
