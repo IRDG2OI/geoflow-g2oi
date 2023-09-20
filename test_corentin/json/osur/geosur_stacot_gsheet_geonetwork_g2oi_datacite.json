@@ -1,8 +1,8 @@
 {
   "profile": {
-    "id": "eobs-geosur-obs",
-  	"project": "geosur",
-  	"organization": "G2OI",
+    "id": "eobs-geosur-stacot",
+  	"project": "geosur STACOT DYNALIT",
+  	"organization": "OSU-R",
   	"logos": [
   	],
   	"mode": "entity",
@@ -14,7 +14,7 @@
     "entities":
       {
       "handler": "csv",
-      "source": "https://docs.google.com/spreadsheets/d/1JfbGypt0GTB7GsWNfdcwVB3hlSbqePDoDFGnf-xNzBA/edit?usp=sharing"
+      "source": "test_corentin/metadata/osur/OSUR_ORTHO_DYNALIT.csv"
       },
       "contacts" : {
       "handler": "csv",
@@ -34,16 +34,6 @@
 			"logger": "DEBUG"
 		}
 	},
-	    	{
-		"id": "googledrive",
-		"type": "input",
-		"software_type": "googledrive",
-		"parameters": {
-    "email": "{{GMAIL_USER}}",
-			"token": ""
-		},
-		"properties" : {}
-	},
 	{
         "id": "geosur-geoserver",
         "type": "output",
@@ -56,7 +46,7 @@
         },
       "properties" : {
 			"workspace": "OSU_R",
-			"store": "eobs"
+			"store": "STACOT_raster"
       }
     }
   ],

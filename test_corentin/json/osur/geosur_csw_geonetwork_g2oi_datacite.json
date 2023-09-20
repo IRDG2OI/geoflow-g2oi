@@ -14,7 +14,7 @@
     "entities":
       {
         "handler": "ogc_csw",
-        "source": "dc:title like '%cyclone Bejisa%'"
+        "source": "dc:title like 'ORTHOPHOTO%'"
       },
       "contacts" : {
       "handler": "csv",

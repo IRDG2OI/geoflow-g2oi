@@ -1,0 +1,26 @@
+Identifier,Title,Description,Subject,Creator,Date,Type,Language,SpatialCoverage,TemporalCoverage,Format,Relation,Rights,Provenance,Data
+Sen2Chain_NDVI_38LRK,title: Localisation des séries d'indices (NDVI) générés sur la tuile 38LRK par Sen2Chain.,"abstract:Dans le cadre des activités en télédétection de l'UMR Espace-DEV, la station SEAS-OI, station de recherche et d'expertise en télédétection localisée à St Pierre (974), enregistre depuis 2015 de façon régulière les images brutes des satellites Sentinel-2 sur certaines zones du sud-ouest de l'Océan Indien acquises par l'ESA dans le cadre du programme Copernicus. L’UMR Espace- DEV hébergé à SEAS-OI a développé avec le CNES, la chaîne de traitement Sen2chain qui permet le calcul des produits Sentinel-2, L1C et L2A, ainsi que le calcul de huit indices environnementaux.
+Les séries d’indices environnementaux calculés par Sen2Chain depuis 2015 présentent un grand intérêt pour le suivi et l’observation du territoire dans la zone du sud-ouest de l’Océan Indien pour des projets scientifiques ou institutionnels en lien avec l'écologie de la santé (SENS2MALARIA), le changement climatique et la gestion des risques naturels associés dans la région du sud ouest de l'océan Indien (projet RenovRisk et la chaîne de traitement sur l’analyse des changements Sen2Change).
+La couche au format shape permet de localiser et d'accéder aux jeux de données des 3 indices calculés par Sen2chain: NDVI, NDWIGAO, MNDWI depuis septembre 2015 jusqu'à maintenant à l'Ile de la Réunion. Le lien vers ces jeux de données s'effectue par l'interface cartographique et le champ metadata et DOI qui donne accés à la fiche de métadonnées et au DOI associé à chaque jeu de données.","theme[General]:télédétection, NDVI,Indice Sen2Chain, Sentinel-2_
+theme[Geographic]:La Réunion,Océan Indien","publisher:pascal.mouquet@ird.fr_
+author:christophe.revillion@ird.fr_
+editor:pascal.mouquet@ird.fr, christophe.revillion@ird.fr_
+owner:pascal.mouquet@ird.fr, christophe.revillion@ird.fr,vincent.herbreteau@ird.fr_
+pointOfContact:contact@seas-oi.org,pascal.mouquet@ird.fr, christophe.revillion@ird.fr,vincent.herbreteau@ird.fr","publication:2023-07-01_
+edition:2022-07-04",dataset,fre,srid:4326,2016-05-16/2023-08-06,netcdf,"http:sen2extract[site web de SEAS pour la consultation des indices ]@http://indices.seas-oi.org/sen2extract/_
+http:[site tuiles sentinel-2]https://eatlas.org.au/data/uuid/f7468d15-12be-4e3f-a246-b2882a324f59_
+http:[site téléchargement tuiles sentinel-2]https://sentinel.esa.int/web/sentinel/missions/sentinel-2/data-products_
+http:[site copernicus sentinel-2]@https://sentinels.copernicus.eu/web/sentinel/missions/sentinel-2","useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
+accessConstraint:otherRestrictions_
+useConstraint:intellectualPropertyRights_
+otherConstraint:other constraints to highlight.","statement:""La chaîne de traitement Sen2Chain utilise le KML fournit par l'ESA. A partir de ce KML, un shape est généré pour les zones couvertes dans la zone de l'Océan Indien pour l'ensemble des indices fourniés par Sen2Chain.
+Nous sélectionnons depuis le shape de Sen2Chain à partir d'une requête SQL, la tuile 40KCB correspondant au territoire de la Réunion de ce shape dans laquelle nous retrouvons le lien vers la métadonnées pour les 3 indices NDVI, NDWIGAO, MNDWI. Un champ metadata et un champ DOI permettent d'accéder aux jeux de données correspondants.""","access:googledrive_
+source:NDVI_38LRK.nc_
+sourceType:nc_
+uploadSource:NDVI_38LRK.nc_
+uploadType:nc_
+spatialRepresentationType:grid_
+sourceZip:true_
+layername:niv1_indice_ndvi_
+featureType:NDVI_38LRK_
+dimensions:x,y,time"

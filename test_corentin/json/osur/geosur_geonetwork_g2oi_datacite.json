@@ -1,6 +1,6 @@
 {
   "profile": {
-    "id": "eobs-geosur-obs",
+    "id": "geosur",
   	"project": "geosur",
   	"organization": "G2OI",
   	"logos": [
@@ -13,8 +13,8 @@
   "metadata": {
     "entities":
       {
-      "handler": "csv",
-      "source": "https://docs.google.com/spreadsheets/d/1JfbGypt0GTB7GsWNfdcwVB3hlSbqePDoDFGnf-xNzBA/edit?usp=sharing"
+        "handler": "gsheet",
+        "source": "https://docs.google.com/spreadsheets/d/1JfbGypt0GTB7GsWNfdcwVB3hlSbqePDoDFGnf-xNzBA/edit?usp=sharing"
       },
       "contacts" : {
       "handler": "csv",
@@ -34,7 +34,7 @@
 			"logger": "DEBUG"
 		}
 	},
-	    	{
+    	{
 		"id": "googledrive",
 		"type": "input",
 		"software_type": "googledrive",
@@ -43,22 +43,7 @@
 			"token": ""
 		},
 		"properties" : {}
-	},
-	{
-        "id": "geosur-geoserver",
-        "type": "output",
-        "software_type": "geoserver",
-        "parameters": {
-			"url": "{{GEOSERVER_UNIV_URL}}",
-			"user": "{{GEOSERVER_USER}}",
-			"pwd": "{{GEOSERVER_PASSWORD}}",
-			"logger": "DEBUG"
-        },
-      "properties" : {
-			"workspace": "OSU_R",
-			"store": "eobs"
-      }
-    }
+	}
   ],
  "actions": [
     {
@@ -74,15 +59,6 @@
       "options": {
         "create_doi_on_datacite": true
       }
-	   },
-	 {
-	  "id": "geosapi-publish-ogc-services",
-	  "run": true,
-	  "options" : {
-	    "createWorkspace": true,
-	    "createStore": true,
-	   "overwrite_upload": false
-	  }
-	}
+	   }
   ]
 }

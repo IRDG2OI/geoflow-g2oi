@@ -1,0 +1,24 @@
+Identifier,Title,Description,Subject,Creator,Date,Type,Language,SpatialCoverage,TemporalCoverage,Format,Relation,Rights,Provenance,Data
+id:c0cae920-5c49-4ede-b455-82e8a49ccb1d,"title:MNT et ORTHOPHOTO de la Plage de l'Hermitage - île de La Réunion, St-Gilles Les Bains.","abstract:La plage de l'Hermitage à La Réunion ( Saint-Gilles les Bains, 97460), dans l'Océan Indien Occidental, fait l'objet d'un suivi hydro-morphodynamique dans le cadre du Service National d'Observation (SNO) DYNALIT. Ce SNO DYNALIT est un réseau d'observation qui vise sur le long terme à acquérir, collecter et mettre en cohérence des données métrologiques de qualité sur l'évolution du littoral. Il s'inscrit dans la nécessité d'observer quantitativement l'hydro-morphodynamisme. Cet impératif répond à des finalités de 2 ordres :
+- Scientifique : compréhension des processus dont la question emblématique du GIEC concernant la modification du régime des tempêtes
+- Sociétal : gestion du littoral autour notamment des risques d'érosions
+
+Les données produites dans ce cadre sont des Modèles Numériques de Terrain (MNT) et des Orthophotographies du littoral. Sur la plage de l'Hermitage, les données distribuées sont les suivantes : 
+- un MNT construit par photogrammétrie aérienne acquise par drone, et reproduit 2 fois par an,
+- une orthophotographie issues des images aériennes acquises par drone.
+Les données sont acquises sur le site d'observation Station Côtière et Marine (STACOT) du SNO DYNALIT, et produites par l'OSU-Réunion et l'UMR Espace-Dev._
+purpose:Suivi de l'évolution morphodynamique de plages sableuses d'origine biodétritique et corallienne._
+info:Levés Drones bi-annuels de la plage de l'Hermitage, La Réunion._
+status:onGoing","theme[General]:SNO DYNALIT,IR ILICO,MNT,ORTHOPHOTOGRAPHIE,DRONE_
+theme[Geographic]:île de La Réunion,Hermitage,Océan Indien","author:emmanuel.cordier@univ-reunion.fr_
+publisher:emmanuel.cordier@univ-reunion.fr_
+owner:emmanuel.cordier@univ-reunion.fr_
+distributor:emmanuel.cordier@univ-reunion.fr","publication:2022-09-21 12:33:46_
+creation:2019-10-17 12:00:00",generic:series,fre,,2019-04-01/2022-10-25,,"http:""Source ISO 19115 metadata (CSW GetRecordById)""@https://geosur.osureunion.fr/geonetwork/srv/eng/csw?service=CSW&request=GetRecordById&Version=2.0.2&elementSetName=full&outputSchema=http%3A//www.isotc211.org/2005/gmd&id=c0cae920-5c49-4ede-b455-82e8a49ccb1d_
+thumbnail:""""@https://geosur.osureunion.fr:/geonetwork/srv/api/records/c0cae920-5c49-4ede-b455-82e8a49ccb1d/attachments/plage%20hermitage.jfif_
+thumbnail:""Plage Corallienne Hermitage, La Réunion""@https://geosur.osureunion.fr/geonetwork/srv/api/records/ac8bdf34-594e-48ac-8520-b058a3053321/attachments/PlageHermitage.jpg_
+http:""Site Web DYNALIT""[""Site Web DYNALIT""]@https://www.dynalit.fr","useConstraint:""""_
+accessConstraint:""""_
+otherConstraint:""""","statement:”Les levés par drone de la plage de l'Hermitage La Réunion sont effectués 2 fois par an : 
+- en avril fin de l'été austral
+- en novembre fin de l'hiver austral”",
