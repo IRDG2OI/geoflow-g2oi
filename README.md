@@ -51,3 +51,13 @@ install_github(setdiff(packagithub, rownames(installed.packages())), upgrade = c
 
 * Note:
 These configs files use [![GeoFlow](https://zenodo.org/badge/DOI//10.5281/zenodo.3138920.svg)](https://doi.org//10.5281/zenodo.3138920) from [![GeoFlow Repository](https://github.com/eblondel/geoflow)]
+
+
+---
+<div align="center">
+
+This project is being developed as part of the G2OI project, cofinanced by the European Union, the Reunion region, and the French Republic.
+
+<img src="https://github.com/IRDG2OI/geoflow-g2oi/blob/main/img/logos_partenaires.png?raw=True" height="40px">
+
+</div>
