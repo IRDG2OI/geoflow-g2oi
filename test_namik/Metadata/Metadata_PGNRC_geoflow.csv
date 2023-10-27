@@ -1,0 +1,392 @@
+Identifier,Title,Description,Subject,Creator,Date,Type,Language,SpatialCoverage,TemporalCoverage,Format,Relation,Rights,Provenance,Data
+Comores_Moheli_couvert_urbain,Couverture urbaine des villes de l'île de Moheli,"abstract:La couverture urbaine de l'île de Mohéli aux Comores réalisée lors des activités du projet Risques Naturels de la Commission de l'Océan Indien.
+
+L'objectif de ce projet était de participer à la protection des populations et des biens des Etats membres de la Commission de l'Océan Indien (COI) face aux catastrophes naturelles, tout ceci en réduisant la vulnérabilité des biens exposés, construisant des sociétés résilientes et en contribuant à sauvegarder le développement économique des Etats membres. Les objectifs spécifiques étaient de réduire les impacts des catastrophes naturelles dans les Etats membres de la COI renforcer la solidarité régionale et réduire les inégalités face aux catastrophes naturelles promouvoir et adopter des mécanismes et outils visant à renforcer la lutte contre les impacts des catastrophes naturelles renforcer les compétences et l'expertise régionale en matière de prévention et de gestion des risques naturels développer la culture du risque au sein des populations via l'information. Le projet a été financé en partie par l'Agence Française de Développement (AFD).
+
+Les données comprennent deux shapefiles, l'un correspondant aux bâtiments et l'autre aux routes. Chacune des tables attributaires renseignent sur la date de réalisation et la validité de chaque entité. L'aperçu montre la couverture urbaine de la capitale de Mohéli.","theme[general]:Couverture urbaine,Urbain,Bâtiments,Routes,Télédétection,Risques,COI,Projet Risques Naturels,Planification/Cadastre,Structure,Transport_
+theme[geographic]:Océan Indien,Comores,Mohéli","publisher:secretariat@coi-ioc.org_
+pointOfContact:e.leroi@wanadoo.fr_
+owner:secretariat@coi-ioc.org,gina.bonne@coi-ioc.org_
+metadata:julien.barde@ird.fr,alexandre.noel@coi-ioc.org","creation:2020-01-23_
+publication:2022-06-15_
+lastRevision:2020-01-23",dataset,fra,,2013/2013,"resource:text/csv_
+resource:text/tsv_
+distribution:application/zip[ESRI Shapefile (zipped)]_
+distribution:application/geopackage+sqlite3[GeoPackage]","thumbnail:thumbnail data@https://drive.google.com/uc?id=1fjy2UUXRqJgh5bNteNBXYzWeiQVqPoQu_
+thumbnail:thumbnail data@https://drive.google.com/uc?id=1prmc8S_KftCatQQK2fwEvgnSGhzTnBka",use:NA,statement:Les données ont été réalisées à partir d'images de drones.,"access:googledrive_
+source:Routes_Moheli.zip_
+sourceType:shp_
+uploadType:shp_
+uploadSource:Routes_Moheli.zip_
+store:pgnrc_vecteur_
+upload:true_
+layername:Routes_Moheli_
+style:generic_
+spatialRepresentationType:vector_
+attribute:Location[Location]@Location,Place[Place]@Place"
+Madagascar_Hydrography,Hydrographie de Madagascar,"abstract:Le shapefile de l'hydrographie de Madagascar utilisé pour les activités du projet Risques Naturels de la COI, pour déterminer notamment des aléas d'inondations. Sa table attributaire renseigne sur la nature (simple ou double) de chaque cours d'eau.","theme[general]:Couverture urbaine,Urbain,Bâtiments,Routes,Télédétection,Risques,COI,Projet Risques Naturels,Planification/Cadastre,Structure,Transport_
+theme[geographic]:Océan Indien,Comores,Mohéli","publisher:secretariat@coi-ioc.org_
+pointOfContact:e.leroi@wanadoo.fr_
+owner:secretariat@coi-ioc.org,gina.bonne@coi-ioc.org_
+metadata:julien.barde@ird.fr,alexandre.noel@coi-ioc.org","creation:2020-01-23_
+publication:2022-06-15_
+lastRevision:2020-01-23",dataset,fra,,2013/2013,"resource:text/csv_
+resource:text/tsv_
+distribution:application/zip[ESRI Shapefile (zipped)]_
+distribution:application/geopackage+sqlite3[GeoPackage]","thumbnail:thumbnail data@https://drive.google.com/uc?id=1XHBvialhRHc2M0zL2z_8mTaUHx5qD3L8_
+thumbnail:thumbnail data@https://drive.google.com/uc?id=1ByPVKfWf896h1uO0hQ77RPVKKUhHSs2J",use:NA,"statement:""Les données ont été réalisées à partir d'images de drones.""","access:googledrive_
+source:hydrographie.zip_
+sourceType:shp_
+uploadType:shp_
+uploadSource:hydrographie.zip_
+store:pgnrc_vecteur_
+upload:true_
+layername:hydrographie_
+style:generic_
+spatialRepresentationType:vector_
+attribute:Location[Location]@Location,Place[Place]@Place"
+Madagascar_Tamatave,Couverture urbaine de Tamatave,"abstract:La couverture urbaine de la ville de Tamatave à Madagascar réalisée lors des activités du projet Risques Naturels de la Commission de l'Océan Indien.
+
+L'objectif de ce projet était de participer à la protection des populations et des biens des Etats membres de la Commission de l'Océan Indien (COI) face aux catastrophes naturelles, tout ceci en réduisant la vulnérabilité des biens exposés, construisant des sociétés résilientes et en contribuant à sauvegarder le développement économique des Etats membres. Les objectifs spécifiques étaient de réduire les impacts des catastrophes naturelles dans les Etats membres de la COI renforcer la solidarité régionale et réduire les inégalités face aux catastrophes naturelles promouvoir et adopter des mécanismes et outils visant à renforcer la lutte contre les impacts des catastrophes naturelles renforcer les compétences et l'expertise régionale en matière de prévention et de gestion des risques naturels développer la culture du risque au sein des populations via l'information. Le projet a été financé en partie par l'Agence Française de Développement (AFD).
+
+Les données comprennent deux shapefiles, l'un correspondant aux bâtiments et l'autre aux routes. Chacune des tables attributaires renseigne sur la date de réalisation et la validité de chaque entité
+","theme[general]:Couverture urbaine,Urbain,Bâtiments,Routes,Télédétection,Risques,COI,Projet Risques Naturels,Planification/Cadastre,Structure,Transport_
+theme[geographic]:Océan Indien,Madagascar,Tamatave","creator:e.leroi@wanadoo.fr_
+publisher:secretariat@coi-ioc.org_
+contact:secretariat@coi-ioc.org,gina.bonne@coi-ioc.org_
+metadata:julien.barde@ird.fr,alexandre.noel@coi-ioc.org","creation:2020-01-23_
+publication:2022-06-15_
+lastRevision:2020-01-23",dataset,fra,,2013/2013,"resource:text/csv_
+resource:text/tsv_
+distribution:application/zip[ESRI Shapefile (zipped)]_
+distribution:application/geopackage+sqlite3[GeoPackage]","thumbnail:thumbnail data@https://drive.google.com/uc?id=1cu8Wr1feHaR6TWtDpjyV5xQs8nh9u5aw_
+thumbnail:thumbnail data@https://drive.google.com/uc?id=1NIybTLFQqkMIVtH8Ps2uhL9KxZf-Tue1",use:NA,"statement:""Les données ont été réalisées à partir d'images satellites.""","access:googledrive_
+source:Routes_Tamatave.zip_
+sourceType:shp_
+uploadType:shp_
+uploadSource:Routes_Tamatave.zip_
+store:pgnrc_vecteur_
+upload:true_
+layername:Routes_Tamatave_
+style:generic_
+spatialRepresentationType:vector_
+attribute:Location[Location]@Location,Place[Place]@Place"
+Comores_Moheli_Kanaleni_aleas,Aléas naturel du quartier de Kanaléni à Fomboni,"abstract:Ces aléas correspondent aux risques inondation, cyclone e mouvement de terrain. Ils ont été déterminée durant les activité du projet Risques Naturels de la Commission de l'Océan Indien.
+
+L'objectif de ce projet était de participer à la protection des populations et des biens des Etats membres de la Commission de l'Océan Indien (COI) face aux catastrophes naturelles, tout ceci en réduisant la vulnérabilité des biens exposés, construisant des sociétés résilientes et en contribuant à sauvegarder le développement économique des Etats membres. Les objectifs spécifiques étaient de réduire les impacts des catastrophes naturelles dans les Etats membres de la COI renforcer la solidarité régionale et réduire les inégalités face aux catastrophes naturelles promouvoir et adopter des mécanismes et outils visant à renforcer la lutte contre les impacts des catastrophes naturelles renforcer les compétences et l'expertise régionale en matière de prévention et de gestion des risques naturels développer la culture du risque au sein des populations via l'information. Le projet a été financé en partie par l'Agence Française de Développement.
+
+Les données sont composées de 6 shapefiles. Trois d'entre eux correspondent à la couverture urbaine de Kanaléli (bâti, routes, principales, routes secondaires) pour une meilleure interprétation visuelle. Les trois autres sont des couches polygones, chacune associé aux risques respectivement inondation, cyclone et mouvement de terrains. Les tables attributaires de ces shapefiles polygone renseigne sur le niveau d'aléa suivant la zone. L'aperçu montre le niveau d'aléa pour le risque inondation.","theme[general]:Aléas,Inondations,Cyclones,Mouvements de terrain,Risques,COI,Projet Risques Naturels,Environnement_
+theme[geographic]:Océan Indien,Comores,Mohéli,Fomboni,Kanaléli_
+topic:environment","metadata:secretariat@coi-ioc.org_
+publisher:secretariat@coi-ioc.org_
+pointOfContact:e.leroi@wanadoo.fr_
+owner:secretariat@coi-ioc.org,gina.bonne@coi-ioc.org_
+metadata:julien.barde@ird.fr,alexandre.noel@coi-ioc.org","creation:2020-01-23_
+publication:2022-06-15_
+lastRevision:2020-01-23",dataset,fra,"SRID=4326;POLYGON((43.7348 -12.2914, 43.7348 -12.2859, 43.742 -12.2859, 43.742 -12.2914, 43.7348 -12.2914))",2013/2013,Shapefiles,"thumbnail:thumbnail data@https://drive.google.com/uc?id=1pe4BEgZXulQYdd97sG0aX9AyuzKjVCOq_
+thumbnail:thumbnail data@https://drive.google.com/uc?id=1hyYXvYDNRryWb1lEgOr5PonR2sq7x_kL",use:NA,,"access:googledrive_
+source:aleas_kanaleni.zip_
+sourceType:other_
+uploadType:other_
+uploadSource:aleas_kanaleni.zip_
+store:pgnrc_vecteur_
+upload:true_
+spatialRepresentationType:vector_
+attribute:Location[Location]@Location,Place[Place]@Place"
+Comores_Moheli_drones_zones_urbaines,Série de mosaïques d'images de drones des zones urbaines de Mohéli de l'île de Mohéli (Comores),"abstract:Une série de mosaïques réalisées à partir d'images de drones de surfaces urbanisées de l'île de Mohéli aux Comores.
+
+Elle a été produite lors des activités du projet Risques Naturels de la Commission de l'Océan Indien.
+
+L'objectif de ce projet était de participer à la protection des populations et des biens des Etats membres de la Commission de l'Océan Indien (COI) face aux catastrophes naturelles, tout ceci en réduisant la vulnérabilité des biens exposés, construisant des sociétés résilientes et en contribuant à sauvegarder le développement économique des Etats 
+
+Les objectifs spécifiques étaient de réduire les impacts des catastrophes naturelles dans les Etats membres de la COI renforcer la solidarité régionale et réduire les inégalités face aux catastrophes naturelles promouvoir et adopter des mécanismes et outils visant à renforcer la lutte contre les impacts des catastrophes naturelles renforcer les compétences et l'expertise régionale en matière de prévention et de gestion des risques naturels développer la culture du risque au sein des populations via l'information. 
+
+Le projet a été financé en partie par l'Agence Française de Développement (AFD). Ces images ont permis notamment de digitaliser les bâtiments ainsi que les routes des zones urbaines de Mohéli.","theme[general]:Drones,Images,Télédétection,Urbanisation,Bâtiments,Routes,COI,Projet Risques Naturels,Imagerie/Cartes de base/Occupation des terres_
+theme[geographic]:Océan Indien,Comores,Mohéli_
+topic:environment","metadata:secretariat@coi-ioc.org_
+publisher:secretariat@coi-ioc.org_
+pointOfContact:e.leroi@wanadoo.fr_
+owner:secretariat@coi-ioc.org,gina.bonne@coi-ioc.org_
+metadata:julien.barde@ird.fr,alexandre.noel@coi-ioc.org","creation:2020-01-23_
+publication:2022-06-15_
+lastRevision:2020-01-23",dataset,fra,"SRID=4326;POLYGON((43.6301 -12.3823, 43.6301 -12.2558, 43.8691 -12.2558, 43.8691 -12.3823, 43.6301 -12.3823))",2013/2013,"Raster (ecw,geotiff)","thumbnail:thumbnail data@https://drive.google.com/uc?id=1U1SnaSZtrcaNncpg7RwBh1203LrYMc0h_
+thumbnail:thumbnail data@https://drive.google.com/uc?id=1djlN3rMlR73qcmz9Yrv962qn3rAUtnAu",use:NA,"statement:""Les images ont été prises par un drone eBee, produit par senseFly. Les acquisitions se sont faites selon un plan de vol planifié par le logiciel eMotion, pour une hauteur maximale de 974 m et une couverture maximale de 10 km². Avec le logiciel Pix4Dmapper, les images acquises ont ensuite été géoréférencées puis assemblées. Enfin l'ensemble a été orthorectifié afin de former la mosaïques. La résolution spatiale maximale des images au sol est de 3 cm par pixel.""",
+Comores_Moheli_risques_naturels,Risques naturels de l’île de Mohéli,"abstract:L'objectif de ce projet était de participer à la protection des populations et des biens des Etats membres de la Commission de l'Océan Indien (COI) face aux catastrophes naturelles, tout ceci en réduisant la vulnérabilité des biens exposés, construisant des sociétés résilientes et en contribuant à sauvegarder le développement économique des Etats membres.
+
+Les objectifs spécifiques étaient de réduire les impacts des catastrophes naturelles dans les Etats membres de la COI renforcer la solidarité régionale et réduire les inégalités face aux catastrophes naturelles promouvoir et adopter des mécanismes et outils visant à renforcer la lutte contre les impacts des catastrophes naturelles renforcer les compétences et l'expertise régionale en matière de prévention et de gestion des risques naturels développer la culture du risque au sein des populations via l'information. 
+Le jeu de données comprends une mosaique d'images drone sur les 10 localités de l'île de Mohélie, 
+Le projet a été financé en partie par l'Agence Française de Développement (AFD). Ces images ont permis notamment de digitaliser les bâtiments ainsi que les routes de la ville de Fomboni.","theme[general]:Risques naturels_
+theme[geographic]:Comores_
+topic:environment","metadata:secretariat@coi-ioc.org_
+publisher:secretariat@coi-ioc.org_
+pointOfContact:e.leroi@wanadoo.fr_
+owner:secretariat@coi-ioc.org,gina.bonne@coi-ioc.org_
+metadata:julien.barde@ird.fr,alexandre.noel@coi-ioc.org","creation:2020-01-23_
+publication:2022-06-15_
+lastRevision:2020-01-23",dataset,fra,"SRID=4326;POLYGON((43.6301 -12.3823, 43.6301 -12.2558, 43.8691 -12.2558, 43.8691 -12.3823, 43.6301 -12.3823))",2013/2013,Shapefiles,thumbnail:thumbnail data@https://drive.google.com/uc?id=1k2EAWFQYaktsXkHLWdj2gsFGXT9SlX8k,use:NA,,"access:googledrive_
+source:emprise_orthomosaiques_mohéli.zip_
+sourceType:shp_
+uploadType:shp_
+uploadSource:emprise_orthomosaiques_mohéli.zip_
+store:pgnrc_vecteur_
+upload:true_
+layername:emprise_orthomosaiques_mohéli_
+style:generic"
+Comores_Moheli_drones_Hagnamouada,Mosaïque d'images de drones de Hagnamouada sur l'île de Mohéli (Comores),"abstract:Une mosaïque réalisée à partir d'images de drones de Hagnamouada l'île de Mohéli aux Comores.Elle a été produite lors des activités du projet Risques Naturels de la Commission de l'Océan Indien. 
+
+L'objectif de ce projet était de participer à la protection des populations et des biens des Etats membres de la Commission de l'Océan Indien (COI) face aux catastrophes naturelles, tout ceci en réduisant la vulnérabilité des biens exposés, construisant des sociétés résilientes et en contribuant à sauvegarder le développement économique des Etats membres. 
+
+Les objectifs spécifiques étaient de réduire les impacts des catastrophes naturelles dans les Etats membres de la COI renforcer la solidarité régionale et réduire les inégalités face aux catastrophes naturelles promouvoir et adopter des mécanismes et outils visant à renforcer la lutte contre les impacts des catastrophes naturelles renforcer les compétences et l'expertise régionale en matière de prévention et de gestion des risques naturels développer la culture du risque au sein des populations via l'information. 
+Le projet a été financé en partie par l'Agence Française de Développement (AFD). Ces images ont permis notamment de digitaliser les bâtiments ainsi que les routes de la zone.","theme[general]:Drones,Images,Télédétection,Urbanisation,Bâtiments,Routes,Océan Indien,Comores,Mohéli,Hagnamouada,COI,Projet Risques Naturels_
+topic:environment","metadata:secretariat@coi-ioc.org_
+publisher:secretariat@coi-ioc.org_
+pointOfContact:e.leroi@wanadoo.fr_
+owner:secretariat@coi-ioc.org,gina.bonne@coi-ioc.org_
+metadata:julien.barde@ird.fr,alexandre.noel@coi-ioc.org","creation:2020-01-23_
+publication:2022-06-15_
+lastRevision:2020-01-23",dataset,fra,"SRID=4326;POLYGON((43.8401 -12.3439, 43.8401 -12.3373, 43.8503 -12.3373, 43.8503 -12.3439, 43.8401 -12.3439))",2013/2013,"Raster (ecw,geotiff)","thumbnail:thumbnail data@https://drive.google.com/uc?id=1bDFYTUyQTs_v41-gdCiBv2kV7rRifMk0_
+thumbnail:thumbnail data@https://drive.google.com/uc?id=1ih1Z9HBIimDhZfQYAbpn48fs61vXZ2Wd",use:NA,"statement:""Les images ont été prises par un drone eBee, produit par senseFly. Les acquisitions se sont faites selon un plan de vol planifié par le logiciel eMotion, pour une hauteur maximale de 974 m et une couverture maximale de 10 km². Avec le logiciel Pix4Dmapper, les images acquises ont ensuite été géoréférencées puis assemblées. Enfin l'ensemble a été orthorectifié afin de former la mosaïques. La résolution spatiale maximale des images au sol est de 3 cm par pixel.""",
+Comores_Moheli_drones_Fomboni,Mosaïque d'images de drones de Fomboni sur l'île de Mohéli (Comores),"abstract:Une mosaïque réalisée à partir d'images de drones de Fomboni l'île de Mohéli aux Comores. Elle a été produite lors des activités du projet Risques Naturels de la Commission de l'Océan Indien. 
+
+L'objectif de ce projet était de participer à la protection des populations et des biens des Etats membres de la Commission de l'Océan Indien (COI) face aux catastrophes naturelles, tout ceci en réduisant la vulnérabilité des biens exposés, construisant des sociétés résilientes et en contribuant à sauvegarder le développement économique des Etats membres.
+
+Les objectifs spécifiques étaient de réduire les impacts des catastrophes naturelles dans les Etats membres de la COI renforcer la solidarité régionale et réduire les inégalités face aux catastrophes naturelles promouvoir et adopter des mécanismes et outils visant à renforcer la lutte contre les impacts des catastrophes naturelles renforcer les compétences et l'expertise régionale en matière de prévention et de gestion des risques naturels développer la culture du risque au sein des populations via l'information. 
+
+Le projet a été financé en partie par l'Agence Française de Développement (AFD).Ces images ont permis notamment de digitaliser les bâtiments ainsi que les routes de la ville de Fomboni.","theme[general]:Drones,Images,Télédétection,Urbanisation,Bâtiments,Routes,Océan Indien,Comores,Mohéli,Fomboni,COI,Projet Risques Naturels_
+topic:environment","metadata:secretariat@coi-ioc.org_
+publisher:secretariat@coi-ioc.org_
+pointOfContact:e.leroi@wanadoo.fr_
+owner:secretariat@coi-ioc.org,gina.bonne@coi-ioc.org_
+metadata:julien.barde@ird.fr,alexandre.noel@coi-ioc.org","creation:2020-01-23_
+publication:2022-06-15_
+lastRevision:2020-01-23",dataset,fra,"SRID=4326;POLYGON((43.727 -12.2957, 43.727 -12.2705, 43.7543 -12.2705, 43.7543 -12.2957, 43.727 -12.2957))",2013/2013,"Raster (ecw,geotiff)","thumbnail:thumbnail data@https://drive.google.com/uc?id=1MgILUAnB3uUvi3PdLehr0w7W_eq77FTl_
+thumbnail:thumbnail data@https://drive.google.com/uc?id=1uLarjKQDB18F2-PSAI3cxtIeUDULppS4",use:NA,"statement:""Les images ont été prises par un drone eBee, produit par senseFly. Les acquisitions se sont faites selon un plan de vol planifié par le logiciel eMotion, pour une hauteur maximale de 974 m et une couverture maximale de 10 km². Avec le logiciel Pix4Dmapper, les images acquises ont ensuite été géoréférencées puis assemblées. Enfin l'ensemble a été orthorectifié afin de former la mosaïques. La résolution spatiale maximale des images au sol est de 3 cm par pixel.""","access:default_
+source:Ortho_Fomboni_4326.tif@/home/namik/Bureau/data/Ortho_Fomboni_4326.tif_
+sourceType:geotiff_
+uploadSource:Ortho_Fomboni_4326.tif_
+uploadType:geotiff_
+store:pgnrc_raster_
+layername:Ortho_Fomboni_4326_
+styleUpload:true_
+style:generic_
+spatialRepresentationType:grid"
+Comores_Moheli_drones_Hamavouna,Mosaïque d'images de drones de Hamavouna sur l'île de Mohéli (Comores),"abstract:Une mosaïque réalisée à partir d'images de drones de Hamavouna l'île de Mohéli aux Comores. Elle a été produite lors des activités du projet Risques Naturels de la Commission de l'Océan Indien.
+
+L'objectif de ce projet était de participer à la protection des populations et des biens des Etats membres de la Commission de l'Océan Indien (COI) face aux catastrophes naturelles, tout ceci en réduisant la vulnérabilité des biens exposés, construisant des sociétés résilientes et en contribuant à sauvegarder le développement économique des Etats 
+
+Les objectifs spécifiques étaient de réduire les impacts des catastrophes naturelles dans les Etats membres de la COI renforcer la solidarité régionale et réduire les inégalités face aux catastrophes naturelles promouvoir et adopter des mécanismes et outils visant à renforcer la lutte contre les impacts des catastrophes naturelles renforcer les compétences et l'expertise régionale en matière de prévention et de gestion des risques naturels développer la culture du risque au sein des populations via l'information. 
+
+Le projet a été financé en partie par l'Agence Française de Développement (AFD). Ces images ont permis notamment de digitaliser les bâtiments ainsi que les routes de la zone.","theme[general]:Drones,Images,Télédétection,Urbanisation,Bâtiments,Routes,Océan Indien,Comores,Mohéli,Hamavouna,COI,Projet Risques Naturels_
+topic:environment","metadata:secretariat@coi-ioc.org_
+publisher:secretariat@coi-ioc.org_
+pointOfContact:e.leroi@wanadoo.fr_
+owner:secretariat@coi-ioc.org,gina.bonne@coi-ioc.org_
+metadata:julien.barde@ird.fr,alexandre.noel@coi-ioc.org","creation:2020-01-23_
+publication:2022-06-15_
+lastRevision:2020-01-23",dataset,fra,"SRID=4326;POLYGON((43.837 -12.3827, 43.837 -12.3759, 43.8396 -12.3759, 43.8396 -12.3827, 43.837 -12.3827))",2013/2013,"Raster (ecw,geotiff)","thumbnail:thumbnail data@https://drive.google.com/uc?id=1nLsyuHaf2I9mjAYX7EvbllQc1TST8J7J_
+thumbnail:thumbnail data@https://drive.google.com/uc?id=1UGvGikBdmN6b_41FAhyz4Jh5f9MSOwya",use:NA,"statement:""Les images ont été prises par un drone eBee, produit par senseFly. Les acquisitions se sont faites selon un plan de vol planifié par le logiciel eMotion, pour une hauteur maximale de 974 m et une couverture maximale de 10 km². Avec le logiciel Pix4Dmapper, les images acquises ont ensuite été géoréférencées puis assemblées. Enfin l'ensemble a été orthorectifié afin de former la mosaïques. La résolution spatiale maximale des images au sol est de 3 cm par pixel.""","access:default_
+source:Hamavouna_4326.tif@/home/namik/Bureau/data/Hamavouna_4326.tif_
+sourceType:geotiff_
+uploadSource:Hamavouna_4326.tif_
+uploadType:geotiff_
+store:pgnrc_raster_
+layername:Hamavouna_4326_
+styleUpload:true_
+style:generic_
+spatialRepresentationType:grid"
+Comores_Moheli_drones_Itsamia,Mosaïque d'images de drones d'Itsamia sur l'île de Mohéli (Comores),"abstract:Une mosaïque réalisée à partir d'images de drones d'Itsamia l'île de Mohéli aux Comores. Elle a été produite lors des activités du projet Risques Naturels de la Commission de l'Océan Indien.
+
+L'objectif de ce projet était de participer à la protection des populations et des biens des Etats membres de la Commission de l'Océan Indien (COI) face aux catastrophes naturelles, tout ceci en réduisant la vulnérabilité des biens exposés, construisant des sociétés résilientes et en contribuant à sauvegarder le développement économique des Etats 
+
+Les objectifs spécifiques étaient de réduire les impacts des catastrophes naturelles dans les Etats membres de la COI renforcer la solidarité régionale et réduire les inégalités face aux catastrophes naturelles promouvoir et adopter des mécanismes et outils visant à renforcer la lutte contre les impacts des catastrophes naturelles renforcer les compétences et l'expertise régionale en matière de prévention et de gestion des risques naturels développer la culture du risque au sein des populations via l'information. 
+
+Le projet a été financé en partie par l'Agence Française de Développement (AFD). Ces images ont permis notamment de digitaliser les bâtiments ainsi que les routes de la zone.","theme[general]:Drones,Images,Télédétection,Urbanisation,Bâtiments,Routes,Océan Indien,Comores,Mohéli,Itsamia,COI,Projet Risques Naturels_
+topic:environment","metadata:secretariat@coi-ioc.org_
+publisher:secretariat@coi-ioc.org_
+pointOfContact:e.leroi@wanadoo.fr_
+owner:secretariat@coi-ioc.org,gina.bonne@coi-ioc.org_
+metadata:julien.barde@ird.fr,alexandre.noel@coi-ioc.org","creation:2020-01-23_
+publication:2022-06-15_
+lastRevision:2020-01-23",dataset,fra,"SRID=4326;POLYGON((43.8652 -12.3715, 43.8652 -12.3679, 43.8695 -12.3679, 43.8695 -12.3715, 43.8652 -12.3715))",2013/2013,"Raster (ecw,geotiff)","thumbnail:thumbnail data@https://drive.google.com/uc?id=1l3zouRwlviN1q1LrK4EpDvZsUewYT9IX_
+thumbnail:thumbnail data@https://drive.google.com/uc?id=1EU_UPSsMI0mcajYP2xuse_gDrjoC9E0n",use:NA,"statement:""Les images ont été prises par un drone eBee, produit par senseFly. Les acquisitions se sont faites selon un plan de vol planifié par le logiciel eMotion, pour une hauteur maximale de 974 m et une couverture maximale de 10 km². Avec le logiciel Pix4Dmapper, les images acquises ont ensuite été géoréférencées puis assemblées. Enfin l'ensemble a été orthorectifié afin de former la mosaïques. La résolution spatiale maximale des images au sol est de 3 cm par pixel.""","access:default_
+source:Itsamia_4326.tif@/home/namik/Bureau/data/Itsamia_4326.tif_
+sourceType:geotiff_
+uploadSource:Itsamia_4326.tif_
+uploadType:geotiff_
+store:pgnrc_raster_
+layername:Itsamia_4326_
+styleUpload:true_
+style:generic_
+spatialRepresentationType:grid"
+Comores_Moheli_drones_Mirereni,Mosaïque d'images de drones de Mirereni sur l'île de Mohéli (Comores),"abstract:Une mosaïque réalisée à partir d'images de drones de Mirereni l'île de Mohéli aux Comores. Elle a été produite lors des activités du projet Risques Naturels de la Commission de l'Océan Indien.
+
+L'objectif de ce projet était de participer à la protection des populations et des biens des Etats membres de la Commission de l'Océan Indien (COI) face aux catastrophes naturelles, tout ceci en réduisant la vulnérabilité des biens exposés, construisant des sociétés résilientes et en contribuant à sauvegarder le développement économique des Etats 
+
+Les objectifs spécifiques étaient de réduire les impacts des catastrophes naturelles dans les Etats membres de la COI renforcer la solidarité régionale et réduire les inégalités face aux catastrophes naturelles promouvoir et adopter des mécanismes et outils visant à renforcer la lutte contre les impacts des catastrophes naturelles renforcer les compétences et l'expertise régionale en matière de prévention et de gestion des risques naturels développer la culture du risque au sein des populations via l'information. 
+
+Le projet a été financé en partie par l'Agence Française de Développement (AFD). Ces images ont permis notamment de digitaliser les bâtiments ainsi que les routes de la zone.","theme[general]:Drones,Images,Télédétection,Urbanisation,Bâtiments,Routes,Océan Indien,Comores,Mohéli,Mirereni,COI,Projet Risques Naturels_
+topic:environment","metadata:secretariat@coi-ioc.org_
+publisher:secretariat@coi-ioc.org_
+pointOfContact:e.leroi@wanadoo.fr_
+owner:secretariat@coi-ioc.org,gina.bonne@coi-ioc.org_
+metadata:julien.barde@ird.fr,alexandre.noel@coi-ioc.org","creation:2020-01-23_
+publication:2022-06-15_
+lastRevision:2020-01-23",dataset,fra,"SRID=4326;POLYGON((43.6569 -12.3293, 43.6569 -12.3245, 43.6661 -12.3245, 43.6661 -12.3293, 43.6569 -12.3293))",2013/2013,"Raster (ecw,geotiff)","thumbnail:thumbnail data@https://drive.google.com/uc?id=1Sn66ldWx0ElL_LiCHUlhTaJ-4uMbau2R_
+thumbnail:thumbnail data@https://drive.google.com/uc?id=1OoS6-sRZZEy4_V3t7AjmmVzJAioyL55q",use:NA,"statement:""Les images ont été prises par un drone eBee, produit par senseFly. Les acquisitions se sont faites selon un plan de vol planifié par le logiciel eMotion, pour une hauteur maximale de 974 m et une couverture maximale de 10 km². Avec le logiciel Pix4Dmapper, les images acquises ont ensuite été géoréférencées puis assemblées. Enfin l'ensemble a été orthorectifié afin de former la mosaïques. La résolution spatiale maximale des images au sol est de 3 cm par pixel.""","access:default_
+source:Mirereni_4326.tif@/home/namik/Bureau/data/Mirereni_4326.tif_
+sourceType:geotiff_
+uploadSource:Mirereni_4326.tif_
+uploadType:geotiff_
+store:pgnrc_raster_
+layername:Mirereni_4326_
+styleUpload:true_
+style:generic_
+spatialRepresentationType:grid"
+Comores_Moheli_drones_Kangani,Mosaïque d'images de drones de Kangani sur l'île de Mohéli (Comores),"abstract:Une mosaïque réalisée à partir d'images de drones de Kangani l'île de Mohéli aux Comores. Elle a été produite lors des activités du projet Risques Naturels de la Commission de l'Océan Indien. 
+L'objectif de ce projet était de participer à la protection des populations et des biens des Etats membres de la Commission de l'Océan Indien (COI) face aux catastrophes naturelles, tout ceci en réduisant la vulnérabilité des biens exposés, construisant des sociétés résilientes et en contribuant à sauvegarder le développement économique des Etats membres. Les objectifs spécifiques étaient de réduire les impacts des catastrophes naturelles dans les Etats membres de la COI renforcer la solidarité régionale et réduire les inégalités face aux catastrophes naturelles promouvoir et adopter des mécanismes et outils visant à renforcer la lutte contre les impacts des catastrophes naturelles renforcer les compétences et l'expertise régionale en matière de prévention et de gestion des risques naturels développer la culture du risque au sein des populations via l'information. Le projet a été financé en partie par l'Agence Française de Développement (AFD). Ces images ont permis notamment de digitaliser les bâtiments ainsi que les routes de la zone.","theme[general]:Drones,Images,Télédétection,Urbanisation,Bâtiments,Routes,Océan Indien,Comores,Mohéli,Kangani,COI,Projet Risques Naturels_
+topic:environment","metadata:secretariat@coi-ioc.org_
+publisher:secretariat@coi-ioc.org_
+pointOfContact:e.leroi@wanadoo.fr_
+owner:secretariat@coi-ioc.org,gina.bonne@coi-ioc.org_
+metadata:julien.barde@ird.fr,alexandre.noel@coi-ioc.org","creation:2020-01-23_
+publication:2022-06-15_
+lastRevision:2020-01-23",dataset,fra,"SRID=4326;POLYGON((43.8188 -12.351, 43.8188 -12.3475, 43.8229 -12.3475, 43.8229 -12.351, 43.8188 -12.351))",2013/2013,"Raster (ecw,geotiff)","thumbnail:thumbnail data@https://drive.google.com/uc?id=1D13S9A1RnBuXi7BGuBQdtdFlkZD4f66S_
+thumbnail:thumbnail data@https://drive.google.com/uc?id=1YzRByUrDKPUYlJcXoROXYfvaTy6O5z6p",use:NA,"statement:""Les images ont été prises par un drone eBee, produit par senseFly. Les acquisitions se sont faites selon un plan de vol planifié par le logiciel eMotion, pour une hauteur maximale de 974 m et une couverture maximale de 10 km². Avec le logiciel Pix4Dmapper, les images acquises ont ensuite été géoréférencées puis assemblées. Enfin l'ensemble a été orthorectifié afin de former la mosaïques. La résolution spatiale maximale des images au sol est de 3 cm par pixel.""","access:default_
+source:Kangani_4326.tif@/home/namik/Bureau/data/Kangani_4326.tif_
+sourceType:geotiff_
+uploadSource:Kangani_4326.tif_
+uploadType:geotiff_
+store:pgnrc_raster_
+layername:Kangani_4326_
+styleUpload:true_
+style:generic_
+spatialRepresentationType:grid"
+Comores_Moheli_drones_Mbatse,Mosaïque d'images de drones de Mbatse sur l'île de Mohéli (Comores),"abstract:Une mosaïque réalisée à partir d'images de drones de Mbatse l'île de Mohéli aux Comores. Elle a été produite lors des activités du projet Risques Naturels de la Commission de l'Océan Indien. L'objectif de ce projet était de participer à la protection des populations et des biens des États membres de la Commission de l'Océan Indien (COI) face aux catastrophes naturelles, tout ceci en réduisant la vulnérabilité des biens exposés, construisant des sociétés résilientes et en contribuant à sauvegarder le développement économique des États membres. 
+
+Les objectifs spécifiques étaient de réduire les impacts des catastrophes naturelles dans les États membres de la COI renforcer la solidarité régionale et réduire les inégalités face aux catastrophes naturelles promouvoir et adopter des mécanismes et outils visant à renforcer la lutte contre les impacts des catastrophes naturelles renforcer les compétences et l'expertise régionale en matière de prévention et de gestion des risques naturels développer la culture du risque au sein des populations via l'information.
+
+Le projet a été financé en partie par l'Agence Française de Développement (AFD). Ces images ont permis notamment de digitaliser les bâtiments ainsi que les routes de la zone.","theme[general]:Drones,Images,Télédétection,Urbanisation,Bâtiments,Routes,Océan Indien,Comores,Mohéli,Mbatse,COI,Projet Risques Naturels_
+topic:environment","metadata:secretariat@coi-ioc.org_
+publisher:secretariat@coi-ioc.org_
+pointOfContact:e.leroi@wanadoo.fr_
+owner:secretariat@coi-ioc.org,gina.bonne@coi-ioc.org_
+metadata:julien.barde@ird.fr,alexandre.noel@coi-ioc.org","creation:2020-01-23_
+publication:2022-06-15_
+lastRevision:2020-01-23",dataset,fra,"SRID=4326;POLYGON((43.6929 -12.273, 43.6929 -12.261, 43.7117 -12.261, 43.7117 -12.273, 43.6929 -12.273))",2013/2013,"Raster (ecw,geotiff)","thumbnail:thumbnail data@https://drive.google.com/uc?id=11xnRWs8biLHd5N1xeuSJpIjh04NNLJBz_
+thumbnail:thumbnail data@https://drive.google.com/uc?id=1cGxu7lpTWWq6JK6qPNztqeyQwLtiPHJ1",use:NA,"statement:""Les images ont été prises par un drone eBee, produit par senseFly. Les acquisitions se sont faites selon un plan de vol planifié par le logiciel eMotion, pour une hauteur maximale de 974 m et une couverture maximale de 10 km². Avec le logiciel Pix4Dmapper, les images acquises ont ensuite été géoréférencées puis assemblées. Enfin l'ensemble a été orthorectifié afin de former la mosaïques. La résolution spatiale maximale des images au sol est de 3 cm par pixel.""","access:default_
+source:Mbatse_4326.tif@/home/namik/Bureau/data/Mbatse_4326.tif_
+sourceType:geotiff_
+uploadSource:Mbatse_4326.tif_
+uploadType:geotiff_
+store:pgnrc_raster_
+layername:Mbatse_4326_
+styleUpload:true_
+style:generic_
+spatialRepresentationType:grid"
+Comores_Moheli_drones_Hoani,Mosaïque d'images de drones de Hoani sur l'île de Mohéli (Comores),"abstract:Une mosaïque réalisée à partir d'images de drones de Hoani l'île de Mohéli aux Comores. Elle a été produite lors des activités du projet Risques Naturels de la Commission de l'Océan Indien. L'objectif de ce projet était de participer à la protection des populations et des biens des Etats membres de la Commission de l'Océan Indien (COI) face aux catastrophes naturelles, tout ceci en réduisant la vulnérabilité des biens exposés, construisant des sociétés résilientes et en contribuant à sauvegarder le développement économique des Etats membres. Les objectifs spécifiques étaient de réduire les impacts des catastrophes naturelles dans les Etats membres de la COI renforcer la solidarité régionale et réduire les inégalités face aux catastrophes naturelles promouvoir et adopter des mécanismes et outils visant à renforcer la lutte contre les impacts des catastrophes naturelles renforcer les compétences et l'expertise régionale en matière de prévention et de gestion des risques naturels développer la culture du risque au sein des populations via l'information. Le projet a été financé en partie par l'Agence Française de Développement (AFD).Ces images ont permis notamment de digitaliser les bâtiments ainsi que les routes de la zone.","theme[general]:Drones,Images,Télédétection,Urbanisation,Bâtiments,Routes,Océan Indien,Comores,Mohéli,Hoani,COI,Projet Risques Naturels_
+topic:environment","metadata:secretariat@coi-ioc.org_
+publisher:secretariat@coi-ioc.org_
+pointOfContact:e.leroi@wanadoo.fr_
+owner:secretariat@coi-ioc.org,gina.bonne@coi-ioc.org_
+metadata:julien.barde@ird.fr,alexandre.noel@coi-ioc.org","creation:2020-01-23_
+publication:2022-06-15_
+lastRevision:2020-01-23",dataset,fra,"SRID=4326;POLYGON((43.6661 -12.2631, 43.6661 -12.255, 43.6825 -12.255, 43.6825 -12.2631, 43.6661 -12.2631))",2013/2013,"Raster (ecw,geotiff)","thumbnail:thumbnail data@https://drive.google.com/uc?id=1YlClQLMWkJekzR12dTNR72ot-2GE7MN2_
+thumbnail:thumbnail data@https://drive.google.com/uc?id=1ie3WJ_Wxnr631rMBFGRZ-sztF45eGhDD",use:NA,"statement:""Les images ont été prises par un drone eBee, produit par senseFly. Les acquisitions se sont faites selon un plan de vol planifié par le logiciel eMotion, pour une hauteur maximale de 974 m et une couverture maximale de 10 km². Avec le logiciel Pix4Dmapper, les images acquises ont ensuite été géoréférencées puis assemblées. Enfin l'ensemble a été orthorectifié afin de former la mosaïques. La résolution spatiale maximale des images au sol est de 3 cm par pixel.""","access:default_
+source:Hoani_4326.tif@/home/namik/Bureau/data/Hoani_4326.tif_
+sourceType:geotiff_
+uploadSource:Hoani_4326.tif_
+uploadType:geotiff_
+store:pgnrc_raster_
+layername:Hoani_4326_
+styleUpload:true_
+style:generic_
+spatialRepresentationType:grid"
+Comores_Moheli_drones_Nioumachoua,Mosaïque d'images de drones de Nioumachoua sur l'île de Mohéli (Comores),"abstract:Une mosaïque réalisée à partir d'images de drones de Nioumachoua l'île de Mohéli aux Comores. Elle a été produite lors des activités du projet Risques Naturels de la Commission de l'Océan Indien. L'objectif de ce projet était de participer à la protection des populations et des biens des Etats membres de la Commission de l'Océan Indien (COI) face aux catastrophes naturelles, tout ceci en réduisant la vulnérabilité des biens exposés, construisant des sociétés résilientes et en contribuant à sauvegarder le développement économique des Etats membres. Les objectifs spécifiques étaient de réduire les impacts des catastrophes naturelles dans les Etats membres de la COI renforcer la solidarité régionale et réduire les inégalités face aux catastrophes naturelles promouvoir et adopter des mécanismes et outils visant à renforcer la lutte contre les impacts des catastrophes naturelles renforcer les compétences et l'expertise régionale en matière de prévention et de gestion des risques naturels développer la culture du risque au sein des populations via l'information. Le projet a été financé en partie par l'Agence Française de Développement (AFD).Ces images ont permis notamment de digitaliser les bâtiments ainsi que les routes de la zone.","theme[general]:Drones,Images,Télédétection,Urbanisation,Bâtiments,Routes,Océan Indien,Comores,Mohéli,Nioumachoua,COI,Projet Risques Naturels_
+topic:environment","metadata:secretariat@coi-ioc.org_
+publisher:secretariat@coi-ioc.org_
+pointOfContact:e.leroi@wanadoo.fr_
+owner:secretariat@coi-ioc.org,gina.bonne@coi-ioc.org_
+metadata:julien.barde@ird.fr,alexandre.noel@coi-ioc.org","creation:2020-01-23_
+publication:2022-06-15_
+lastRevision:2020-01-23",dataset,fra,"SRID=4326;POLYGON((43.7095 -12.3715, 43.7095 -12.3572, 43.7255 -12.3572, 43.7255 -12.3715, 43.7095 -12.3715))",2013/2013,"Raster (ecw,geotiff)","thumbnail:thumbnail data@https://drive.google.com/uc?id=15HPtFaRyWkRaC1u34-1lcxyec-LXStJ0_
+thumbnail:thumbnail data@https://drive.google.com/uc?id=1UNuHTfyGVOwV78p0PwbNCZ-7aFk0oWzS",use:NA,"statement:""Les images ont été prises par un drone eBee, produit par senseFly. Les acquisitions se sont faites selon un plan de vol planifié par le logiciel eMotion, pour une hauteur maximale de 974 m et une couverture maximale de 10 km². Avec le logiciel Pix4Dmapper, les images acquises ont ensuite été géoréférencées puis assemblées. Enfin l'ensemble a été orthorectifié afin de former la mosaïques. La résolution spatiale maximale des images au sol est de 3 cm par pixel.""","access:default_
+source:Nioumachoua_4326.tif@/home/namik/Bureau/data/Nioumachoua_4326.tif_
+sourceType:geotiff_
+uploadSource:Nioumachoua_4326.tif_
+uploadType:geotiff_
+store:pgnrc_raster_
+layername:Nioumachoua_4326_
+styleUpload:true_
+style:generic_
+spatialRepresentationType:grid"
+Comores_Moheli_drones_Ziroudani,Mosaïque d'images de drones de Ziroudani sur l'île de Mohéli (Comores),"abstract:Une mosaïque réalisée à partir d'images de drones de Ziroudani l'île de Mohéli aux Comores.Elle a été produite lors des activités du projet Risques Naturels de la Commission de l'Océan Indien. L'objectif de ce projet était de participer à la protection des populations et des biens des Etats membres de la Commission de l'Océan Indien (COI) face aux catastrophes naturelles, tout ceci en réduisant la vulnérabilité des biens exposés, construisant des sociétés résilientes et en contribuant à sauvegarder le développement économique des Etats membres. Les objectifs spécifiques étaient de réduire les impacts des catastrophes naturelles dans les Etats membres de la COI renforcer la solidarité régionale et réduire les inégalités face aux catastrophes naturelles promouvoir et adopter des mécanismes et outils visant à renforcer la lutte contre les impacts des catastrophes naturelles renforcer les compétences et l'expertise régionale en matière de prévention et de gestion des risques naturels développer la culture du risque au sein des populations via l'information. Le projet a été financé en partie par l'Agence Française de Développement (AFD).Ces images ont permis notamment de digitaliser les bâtiments ainsi que les routes de la zone.","theme[general]:Drones,Images,Télédétection,Urbanisation,Bâtiments,Routes,Océan Indien,Comores,Mohéli,Ziroudani,COI,Projet Risques Naturels_
+topic:environment","metadata:secretariat@coi-ioc.org_
+publisher:secretariat@coi-ioc.org_
+pointOfContact:e.leroi@wanadoo.fr_
+owner:secretariat@coi-ioc.org,gina.bonne@coi-ioc.org_
+metadata:julien.barde@ird.fr,alexandre.noel@coi-ioc.org","creation:2020-01-23_
+publication:2022-06-15_
+lastRevision:2020-01-23",dataset,fra,"SRID=4326;POLYGON((43.7774 -12.3418, 43.7774 -12.3383, 43.782 -12.3383, 43.782 -12.3418, 43.7774 -12.3418))",2013/2013,"Raster (ecw,geotiff)","thumbnail:thumbnail data@https://drive.google.com/uc?id=1aHc-Op_ykniDZ8-N9yuixquIcc8Rh896_
+thumbnail:thumbnail data@https://drive.google.com/uc?id=1B-7Rs2GEr48BaogZ33mOnLkyzVsQXhmF",use:NA,"statement:""Les images ont été prises par un drone eBee, produit par senseFly. Les acquisitions se sont faites selon un plan de vol planifié par le logiciel eMotion, pour une hauteur maximale de 974 m et une couverture maximale de 10 km². Avec le logiciel Pix4Dmapper, les images acquises ont ensuite été géoréférencées puis assemblées. Enfin l'ensemble a été orthorectifié afin de former la mosaïques. La résolution spatiale maximale des images au sol est de 3 cm par pixel.""","access:default_
+source:Ziroudani_4326.tif@/home/namik/Bureau/data/Ziroudani_4326.tif_
+sourceType:geotiff_
+uploadSource:Ziroudani_4326.tif_
+uploadType:geotiff_
+store:pgnrc_raster_
+layername:Ziroudani_4326_
+styleUpload:true_
+style:generic_
+spatialRepresentationType:grid"
+Comores_Moheli_Nioumachoua_3D_Buidlings,Bâtiments en 3D de Nioumachoua sur l’île de Mohéli,abstract:COI - PGRNC,"theme[general]:Bâtiments_
+theme[geographic]:Comores_
+topic:environment","metadata:secretariat@coi-ioc.org_
+publisher:secretariat@coi-ioc.org_
+pointOfContact:e.leroi@wanadoo.fr_
+owner:secretariat@coi-ioc.org,gina.bonne@coi-ioc.org_
+metadata:julien.barde@ird.fr,alexandre.noel@coi-ioc.org","creation:2020-01-23_
+publication:2022-06-15_
+lastRevision:2020-01-23",dataset,fra,"SRID=4326;POLYGON((43.6301 -12.3823, 43.6301 -12.2558, 43.8691 -12.2558, 43.8691 -12.3823, 43.6301 -12.3823))",2013/2013,??,thumbnail:thumbnail data@https://drive.google.com/uc?id=1k2EAWFQYaktsXkHLWdj2gsFGXT9SlX8k,use:NA,statement:none,
+Comores_Moheli_MNT,MNT Mohéli,abstract:COI - PGRNC,"theme[general]:Télédétection_
+theme[geographic]:Comores_
+topic:environment","metadata:secretariat@coi-ioc.org_
+publisher:secretariat@coi-ioc.org_
+pointOfContact:e.leroi@wanadoo.fr_
+owner:secretariat@coi-ioc.org,gina.bonne@coi-ioc.org_
+metadata:julien.barde@ird.fr,alexandre.noel@coi-ioc.org","creation:2020-01-23_
+publication:2022-06-15_
+lastRevision:2020-01-23",dataset,fra,"SRID=4326;POLYGON((43.6301 -12.3823, 43.6301 -12.2558, 43.8691 -12.2558, 43.8691 -12.3823, 43.6301 -12.3823))",2013/2013,"Raster (ecw,geotiff)",thumbnail:thumbnail data@https://drive.google.com/uc?id=1k2EAWFQYaktsXkHLWdj2gsFGXT9SlX8k,use:NA,statement:none,
+Madagascar_Tamatave_Construction,Niveau de constructibilité du quartier 12-14 de Tamatave,"abstract:Ce niveau de constructibilité est basé sur les aléas des risques naturels associés au quartier 12-14. Il a été déterminé durant les activité du projet Risques Naturels de la Commission de l'Océan Indien.
+
+L'objectif de ce projet était de participer à la protection des populations et des biens des Etats membres de la Commission de l'Océan Indien (COI) face aux catastrophes naturelles, tout ceci en réduisant la vulnérabilité des biens exposés, construisant des sociétés résilientes et en contribuant à sauvegarder le développement économique des Etats membres. Les objectifs spécifiques étaient de réduire les impacts des catastrophes naturelles dans les Etats membres de la COI renforcer la solidarité régionale et réduire les inégalités face aux catastrophes naturelles promouvoir et adopter des mécanismes et outils visant à renforcer la lutte contre les impacts des catastrophes naturelles renforcer les compétences et l'expertise régionale en matière de prévention et de gestion des risques naturels développer la culture du risque au sein des populations via l'information. Le projet a été financé en partie par l'Agence Française de Développement.
+
+Les données sont composées de trois shapefiles. Trois d'entre eux correspondent à la couverture urbaine du quartier 12-14 (bâti, routes) pour une meilleure interprétation visuelle. Le troisième une couche polygone dont la table attributaire renseigne sur le niveau de constructibilité suivant la zone du quartier.","theme[general]:Constructibilité,Aléas,Risques,COI,Projet Risques Naturels,Environnement_
+theme[geographic]:Océan Indien,Madagascar,Tamatave,Quartier 12-14_
+topic:environment","metadata:secretariat@coi-ioc.org_
+publisher:secretariat@coi-ioc.org_
+pointOfContact:e.leroi@wanadoo.fr_
+owner:secretariat@coi-ioc.org,gina.bonne@coi-ioc.org_
+metadata:julien.barde@ird.fr,alexandre.noel@coi-ioc.org","creation:2020-01-23_
+publication:2022-06-15_
+lastRevision:2020-01-23",dataset,fra,"SRID=4326;POLYGON((49.4051 -18.1453, 49.4051 -18.1385, 49.4109 -18.1385, 49.4109 -18.1453, 49.4051 -18.1453))",2013/2013,"resource:text/csv_
+resource:text/tsv_
+distribution:application/zip[ESRI Shapefile (zipped)]_
+distribution:application/geopackage+sqlite3[GeoPackage]","thumbnail:thumbnail data@https://drive.google.com/uc?id=1zDwgrdgrAOkLfRZx4v30jJ7EBqJHInwx_
+thumbnail:thumbnail data@https://drive.google.com/uc?id=1iaUrYgtCZcTOoMyMJXkiqAD83bGzeOJB",use:NA,"statement:""Les données ont été réalisées à partir d'images de drones.""",
+Comores_Moheli_drones_Ndrondroni_miremani,Mosaïque d'images de drones de Mdrondroni miremani sur l'île de Mohéli (Comores),"abstract:Une mosaïque réalisée à partir d'images de drones de Mdrondroni miremani sur l'île de Mohéli aux Comores.Elle a été produite lors des activités du projet Risques Naturels de la Commission de l'Océan Indien. L'objectif de ce projet était de participer à la protection des populations et des biens des Etats membres de la Commission de l'Océan Indien (COI) face aux catastrophes naturelles, tout ceci en réduisant la vulnérabilité des biens exposés, construisant des sociétés résilientes et en contribuant à sauvegarder le développement économique des Etats membres. Les objectifs spécifiques étaient de réduire les impacts des catastrophes naturelles dans les Etats membres de la COI renforcer la solidarité régionale et réduire les inégalités face aux catastrophes naturelles promouvoir et adopter des mécanismes et outils visant à renforcer la lutte contre les impacts des catastrophes naturelles renforcer les compétences et l'expertise régionale en matière de prévention et de gestion des risques naturels développer la culture du risque au sein des populations via l'information. Le projet a été financé en partie par l'Agence Française de Développement (AFD).Ces images ont permis notamment de digitaliser les bâtiments ainsi que les routes de la zone.","theme[general]:Drones,Images,Télédétection,Urbanisation,Bâtiments,Routes,Océan Indien,Comores,Mohéli,Mdrondroni miremani,COI,Projet Risques Naturels_
+topic:environment","metadata:secretariat@coi-ioc.org_
+publisher:secretariat@coi-ioc.org_
+pointOfContact:e.leroi@wanadoo.fr_
+owner:secretariat@coi-ioc.org,gina.bonne@coi-ioc.org_
+metadata:julien.barde@ird.fr,alexandre.noel@coi-ioc.org","creation:2020-01-23_
+publication:2022-06-15_
+lastRevision:2020-01-23",dataset,fra,"SRID=4326;POLYGON((43.6669 -12.3567, 43.6669 -12.3419, 43.6868 -12.3419, 43.6868 -12.3567, 43.6669 -12.3567))",2013/2013,"Raster (ecw,geotiff)","thumbnail:thumbnail data@https://drive.google.com/uc?id=1yNG7WQFNySLZeyECyOFU1Smc-FCkpASX_
+thumbnail:thumbnail data@https://drive.google.com/uc?id=1ncvtiCEr_bgxFmQt-s8eOwpZSQ45NNpE",use:NA,"statement:""Les images ont été prises par un drone eBee, produit par senseFly. Les acquisitions se sont faites selon un plan de vol planifié par le logiciel eMotion, pour une hauteur maximale de 974 m et une couverture maximale de 10 km². Avec le logiciel Pix4Dmapper, les images acquises ont ensuite été géoréférencées puis assemblées. Enfin l'ensemble a été orthorectifié afin de former la mosaïques. La résolution spatiale maximale des images au sol est de 3 cm par pixel.""","access:default_
+source:ndrondroni_miremani_4326.tif@/home/namik/Bureau/data/ndrondroni_miremani_4326.tif_
+sourceType:geotiff_
+uploadSource:ndrondroni_miremani_4326.tif_
+uploadType:geotiff_
+store:pgnrc_raster_
+layername:ndrondroni_miremani_4326_
+styleUpload:true_
+style:generic_
+spatialRepresentationType:grid"

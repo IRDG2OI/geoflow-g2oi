@@ -1,0 +1,102 @@
+Identifier,Title,Description,Subject,Creator,Date,Type,Language,SpatialCoverage,TemporalCoverage,Format,Relation,Rights,Provenance,Data
+id:amcc-orthophotographie-grande_comore,"title:""AMCC - Orthophotographie de l'île de Grande Comore""","abstract:""Orthomosaïque acquise dans le cadre du projet AMCC en septembre 2017 et couvre dans son intégralité l'île de Grande - Comore. L'objectif de ce projet était d'améliorer la prise en compte du changement climatique par les acteurs nationaux et locaux, dans les stratégies, et mécanismes de planification, coordination et suivi.
+
+Dans l'optique d'appuyer la production d'outils et le partage d'informations géographiques relatives au changement climatique, le projet AMCC a financé l'acquisition d'images aériennes de haute précision et de modèle numérique de terrain.
+
+Financement:
+Ce programme est financé dans le cadre des accords de l'Union Européenne et l'Union des Comores.""_
+info:""Précision planimétrique: 1 m
+EPSG: 32738""","theme[general]:Inondation,Submersion,Géomophologie,Risques,Projet Risques Naturels,Planification,Cadastre_
+theme[geographic]:Océan Indien, Comores, Grande Comore ","publisher:oumour89@gmail.com_
+owner:oumour89@gmail.com_
+pointOfContact:oumour89@gmail.com_
+metadata:mohamedhamidou957@gmail.com",publication:2023-10-13,dataset,fra,,2017/2017,,parent:projet-amcc@https://zenodo.org/records/10029217,"useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
+accessConstraint:otherRestrictions_
+useConstraint:intellectualPropertyRights_
+otherConstraint:other constraints to highlight.",,"access:default_
+source:ortho_grande_comore@/media/namik/Seagate Basic/DGCS500G/données AMCC/ortho_grande_comore_85.tif_
+sourceType:geotiff_
+uploadSource:ortho_grande_comore_85.tif_
+uploadType:geotiff_
+layername:ortho_grande_comore_
+styleUpload:true_
+style:generic_
+spatialRepresentationType:grid"
+id:amcc-orthophotographie-mohelie,"title:""AMCC - Orthophotographie de l'île de Mohelie""","abstract:""Orthomosaïque acquise dans le cadre du projet AMCC en août 2017 et couvre l'intégralité de l'île de Mohéli.L'objectif de ce projet était d' améliorer la prise en compte du changement climatique par les acteurs nationaux et locaux, dans les stratégies, et mécanismes de planification, coordination et suivi.
+
+Dans l'optique d'appuyer la production d'outils et le partage d'informations géographiques relatives au changement climatique, le projet AMCC a financé l'acquisition d'images aériennes de haute précision et de modèle numérique sur le territoire de l'Union des Comores.
+
+Financement:
+Ce programme est financé dans le cadre des accords de l'Union Européenne et l'Union des Comores.""_
+info:""Précision planimétrique: 1 m
+EPSG: 32738""","theme[general]:Inondation,Submersion,Géomophologie,Risques,Projet Risques Naturels,Planification,Cadastre_
+theme[geographic]:Océan Indien,Comores, Mohelie","publisher:oumour89@gmail.com_
+owner:oumour89@gmail.com_
+pointOfContact:oumour89@gmail.com_
+metadata:mohamedhamidou957@gmail.com",publication:2023-10-14,dataset,fra,,2017/2017,,parent:projet-amcc@https://zenodo.org/records/10029217,"useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
+accessConstraint:otherRestrictions_
+useConstraint:intellectualPropertyRights_
+otherConstraint:other constraints to highlight.",,
+id:amcc-orthophotographie-anjouan,"title:""AMCC -Orthophotographie de l'île d'Anjouan""","abstract:""Orthomosaïque acquise dans le cadre du projet AMCC en octobre 2017 et couvre partiellement l'île d'Anjouan. L'objectif de ce projet était d' améliorer la prise en compte du changement climatique par les acteurs nationaux et locaux, dans les stratégies, et mécanismes de planification, coordination et suivi.
+
+Dans l'optique d'appuyer la production d'outils et le partage d'informations géographiques relatives au changement climatique, le projet AMCC a financé l'acquisition d'images aériennes de haute précision sur le territoire de l'Union des Comores et de modèle numérique de terrain.
+
+Financement:
+Ce programme est financé dans le cadre des accords de l'Union Européenne et l'Union des Comores.""_
+info:""Précision planimétrique: 1 m
+EPSG: 32738""","theme[general]:Inondation,Submersion,Géomophologie,Risques,Projet Risques Naturels,Planification,Cadastre_
+theme[geographic]:Océan Indien,Comores, ","publisher:oumour89@gmail.com_
+owner:oumour89@gmail.com_
+pointOfContact:oumour89@gmail.com_
+metadata:mohamedhamidou957@gmail.com",publication:2023-10-15,dataset,fra,,2017/2017,,parent:projet-amcc@https://zenodo.org/records/10029217,"useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
+accessConstraint:otherRestrictions_
+useConstraint:intellectualPropertyRights_
+otherConstraint:other constraints to highlight.",,
+id:amcc-mnt-grande_comore,"title:""AMCC-Modèle Numérique de Terrain de l'île de Grande Comore""","""abstract:""Modèle Numérique de Terrain l'île de Mohéli, cette donnée a été acquise dans le cadre du projet AMCC.
+L'objectif de ce projet était d' améliorer la prise en compte du changement climatique par les acteurs nationaux et locaux, dans les stratégies, et mécanismes de planification, coordination et suivi.
+Dans l'optique d'appuyer la production d'outils et le partage d'informations géographiques relatives au changement climatique, le projet AMCC a financé l'acquisition d'images aériennes de haute précision ainsi que la production de Modèle Numérique de Terrain sur le territoire de l'Union des Comores. 
+
+Financement:
+Ce programme est financé dans le cadre des accords de l'Union Européenne et l'Union des Comores.""_
+info:""Précision planimétrique: 1 m
+Précision altimétrique: 50 cm
+EPSG: 32738""","theme[general]:Inondation,Submersion,Géomophologie,Risques,Projet Risques Naturels,Planification, Cadastre_
+theme[geographic]:Océan Indien, Comores, Grande Comore ","publisher:oumour89@gmail.com_
+owner:oumour89@gmail.com_
+pointOfContact:oumour89@gmail.com_
+metadata:mohamedhamidou957@gmail.com",publication:2023-10-16,dataset,fra,,2017/2017,,parent:projet-amcc@https://zenodo.org/records/10029217,"useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
+accessConstraint:otherRestrictions_
+useConstraint:intellectualPropertyRights_
+otherConstraint:other constraints to highlight.",,
+id:amcc-mnt-moheli,"title:""AMCC-Modèle Numérique de Terrain de l'île de Mohélie""","abstract:""Modèle Numérique de Terrain l'île de Mohéli, cette donnée a été acquise dans le cadre du projet AMCC.
+L'objectif de ce projet était d' améliorer la prise en compte du changement climatique par les acteurs nationaux et locaux, dans les stratégies, et mécanismes de planification, coordination et suivi.
+Dans l'optique d'appuyer la production d'outils et le partage d'informations géographiques relatives au changement climatique, le projet AMCC a financé l'acquisition d'images aériennes de haute précision ainsi que la production de Modèle Numérique de Terrain sur le territoire de l'Union des Comores. 
+
+Financement:
+Ce programme est financé dans le cadre des accords de l'Union Européenne et l'Union des Comores.""_
+info:""Précision planimétrique: 1 m
+Précision altimétrique: 50 cm
+EPSG: 32738""","theme[general]:Inondation,Submersion,Géomophologie,Risques,Projet Risques Naturels,Planification, Cadastre_
+theme[geographic]:Océan Indien, Comores, Mohéli","publisher:oumour89@gmail.com_
+owner:oumour89@gmail.com_
+pointOfContact:oumour89@gmail.com_
+metadata:mohamedhamidou957@gmail.com",publication:2023-10-17,dataset,fra,,2017/2017,,parent:projet-amcc@https://zenodo.org/records/10029217,"useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
+accessConstraint:otherRestrictions_
+useConstraint:intellectualPropertyRights_
+otherConstraint:other constraints to highlight.",,
+id:amcc-mnt-anjouan,"title:""AMCC-Modèle Numérique de Terrain de l'île d'Anjouan""","abstract:""Modèle Numérique de Terrain l'île d'Anjouan, cette donnée a été acquise dans le cadre du projet AMCC.
+L'objectif de ce projet était d' améliorer la prise en compte du changement climatique par les acteurs nationaux et locaux, dans les stratégies, et mécanismes de planification, coordination et suivi.
+Dans l'optique d'appuyer la production d'outils et le partage d'informations géographiques relatives au changement climatique, le projet AMCC a financé l'acquisition d'images aériennes de haute précision ainsi que la production de Modèle Numérique de Terrain sur le territoire de l'Union des Comores. 
+
+Financement:
+Ce programme est financé dans le cadre des accords de l'Union Européenne et l'Union des Comores.""_
+info:""Précision planimétrique: 1 m
+Précision altimétrique: cm
+EPSG: 32738""","theme[general]:Inondation,Submersion,Géomophologie,Risques,Projet Risques Naturels,Planification, Cadastre_
+theme[geographic]:Océan Indien, Comores, Anjouan","publisher:oumour89@gmail.com_
+owner:oumour89@gmail.com_
+pointOfContact:oumour89@gmail.com_
+metadata:mohamedhamidou957@gmail.com",publication:2023-10-18,dataset,fra,,2017/2017,,parent:projet-amcc@https://zenodo.org/records/10029217,"useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
+accessConstraint:otherRestrictions_
+useConstraint:intellectualPropertyRights_
+otherConstraint:other constraints to highlight.",,
