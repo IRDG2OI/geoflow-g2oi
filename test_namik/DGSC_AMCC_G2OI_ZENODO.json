@@ -1,0 +1,66 @@
+{
+  "profile": {
+    "id": "G2OI_amcc_workflow",
+    "name":"amcc workflow",
+  	"project": "amcc geoflow project",
+  	"organization": "AMCC, DGSC",
+  	"logos": [
+  		""
+  	],
+  	"mode": "entity"
+  },
+  "metadata": {
+    "entities": [
+      {
+        "handler": "gsheet",
+          "source": "https://docs.google.com/spreadsheets/d/1ZtDEvQ3aaa_yQdX4qu1--DQkFYcVgbbJINFfmyACSoU/edit?usp=sharing"
+      }
+    ],
+    "contacts" : [
+      {
+        "handler": "gsheet",
+        "source": "https://docs.google.com/spreadsheets/d/1PWaXaEYc0UZLeYA9i-MT33NakPvAR2nluH6lxojZWR8/edit?usp=sharing"
+      }
+    ]
+  },
+  "software": [
+    {
+  		"id": "zenodo-dgsc",
+		  "type": "output",
+		  "software_type": "zenodo",
+		  "parameters": {
+    		"url": "https://zenodo.org/api",
+    		"token": "{{ ZENODO_DGSC_TOKEN }}",
+    		"logger": "DEBUG"
+		  },
+		  "properties": {
+		    "clean": {
+		      "run": false
+		    }
+		  }
+		},
+    {
+      "id": "googledrive",
+      "type": "input",
+      "software_type": "googledrive",
+      "parameters": {
+          "email": "{{GMAIL_USER}}",
+          "token": ""
+      },
+      "properties" : {}
+  }
+  ],
+  "actions": [
+    {
+      "id": "zen4R-deposit-record",
+      "run": true,
+      "options": {
+        "update_files": true,
+        "depositWithFiles": true,
+        "communities": "zenodo",
+        "deleteOldFiles": true,
+        "publish":false
+      }
+    }
+  ]
+}
