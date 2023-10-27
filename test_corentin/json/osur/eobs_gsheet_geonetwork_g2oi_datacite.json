@@ -63,10 +63,13 @@
  "actions": [
     {
       "id": "geometa-create-iso-19115",
-      "options" : {
-        "logo": true
-      },
-      "run": true
+      "run": true,
+            "options": {
+            "logo": true,
+            "doi": false,
+            "doi_thumbnail": false,
+            "addfeatures": false
+        }
     },
         {
       "id": "geonapi-publish-iso-19139",

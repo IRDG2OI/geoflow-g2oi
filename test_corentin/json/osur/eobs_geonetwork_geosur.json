@@ -1,8 +1,8 @@
 {
   "profile": {
-    "id": "geosur-full",
+    "id": "geosur",
   	"project": "geosur",
-  	"organization": "G2OI",
+  	"organization": "OSUR",
   	"logos": [
   	],
   	"mode": "entity",
@@ -13,8 +13,8 @@
   "metadata": {
     "entities":
       {
-        "handler": "ogc_csw",
-        "source": "dc:title like 'Image visible%'"
+        "handler": "csv",
+        "source": "test_corentin/metadata/osur/metadata_geoflow_1004.csv"
       },
       "contacts" : {
       "handler": "csv",
@@ -27,23 +27,13 @@
 		"type": "output",
 		"software_type": "geonetwork",
 		"parameters": {
-			"url": "http://127.0.0.1:8080/geonetwork",
+			"url": "http://10.85.10.70:8084/geonetwork",
 			"user": "{{GEONETWORK_USER}}",
 			"pwd": "{{GEONETWORK_PASSWORD}}",
 			"version": "4.2.1",
 			"logger": "DEBUG"
 		}
-	},
-    {
-  	"id": "csw",
-  	"type": "input",
-  	"software_type": "csw",
-  	"parameters": {
-  		"url": "https://geosur.osureunion.fr/geonetwork/srv/eng/csw",
-  		"serviceVersion": "2.0.2",
-  		"logger": "DEBUG"
-  	}
-    }
+	}
   ],
  "actions": [
     {

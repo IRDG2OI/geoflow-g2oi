@@ -85,7 +85,7 @@
     },
         {
       "id": "geonapi-publish-iso-19139",
-       "run" : true
+       "run" : false
 	   },
 	   {
 	  "id": "geosapi-publish-ogc-services",
@@ -102,9 +102,8 @@
       "options": {
         "update_files": true,
         "depositWithFiles": true,
-        "communities": "",
-        "deleteOldFiles": false,
-        "publish":true
+        "deleteOldFiles": true,
+        "publish":false
       }
     }
   ]

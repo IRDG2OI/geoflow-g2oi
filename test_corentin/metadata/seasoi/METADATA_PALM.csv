@@ -1,0 +1,114 @@
+Identifier,Title,Description,Subject,Creator,Date,Type,Language,SpatialCoverage,TemporalCoverage,Format,Relation,Rights,Provenance,Data
+PIMANT_ID,"Localisation des emprises des images acquises par drone et ULM  dans le cadre du programme PIMANT (Plateforme d'acquisition, de traitement et de diffusion en open data de donnés optique et lidar à Très Très Haute Résolution spatiale (TTHRS) .","abstract: La plateforme PIMANT permet d’acquérir, de produire et de distribuer librement et gratuitement des images ariennes à très haute résolution spatiale à partir d’ULM et de drones au service de l’aménagement du territoire.
+Ces images, une fois traitées, produisent des données orthorectifiées tels que des orthophotos (VIS et PIR) et des produits associés comme les MNS et les MNE (Modèles numériques de surface, Modèles numériques d'élévation).","theme[General]:Projet PIMANT,Projet G2OI,occupation du sol, télédétection,ULM, Drone, Région Réunion, FEDER_
+theme[Geographic]:La Réunion, Océan Indien","pointOfContact:pierre.tessier@cr-reunion.fr,stephane.guyard@cr-reunion.fr,pimant@cr-reunion.fr_
+metadata:benjamin.robert@ird.fr",publication:2022-02-22,map,fra,"SRID=4326;POLYGON((40.38227109789937 -0.45924264990148006,71.58344297289936 -0.45924264990148006,71.58344297289936 -22.36838204209407,40.38227109789937 -22.36838204209407,40.38227109789937 -0.45924264990148006))",2017-01/2019-07,distribution:application/zip[ESRI Shapefile (zipped)],"thumbnail:Logo Région Réunion@https://data.regionreunion.com/assets/logo?tstamp=163548775404_
+http:site Open data de la Région Réunion [projet PIMANT] @https://data.regionreunion.com/explore/dataset/liste-images-pimant-lareunion/information/_
+http:Emprise PIMANT [télécharger les emprises des images acquises dans le cadre du programme PIMANT]@https://drive.google.com/uc?id=1p3Ki5aGT0CTsKli-2XqPJezLw3lAHZsh_","useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
+accessConstraint:otherRestrictions_
+useConstraint:intellectualPropertyRights_
+otherConstraint:other constraints to highlight.",statement:La couche vectorielle est construite à partir des emprises des images acquises lors des différentes campagnes d'acquisiition du format tif au format shape.,"access:googledrive_
+source:EmprisePIMANT2021.zip_
+sourceType:shp_
+uploadType:shp_
+uploadSource:EmprisePIMANT2021.zip_
+upload:true"
+hydretude : zone d’étude générale BV_approx,Projet d’Aménagement intégré et durable du Littoral côtier de la commune urbaine de Morondava face au défi du changement climatique,"abstract:”En raison des évolutions climatiques prévues dans les prochaines décennies et de leurs impacts sur les populations et les économies, l’adaptation aux effets du changement climatique est au cœur des préoccupations de la plupart des régions littorales, lorsqu’elle ne constitue pas une priorité absolue pour les Etats notamment insulaires.
+
+La ville de Morondava, a été est édifiée sur une zone deltaïque correspondant à un ancien exutoire du fleuve à qui la ville doit son nom. Il étreint de ses deux bras, Nord et Sud, la cité avant que leurs embouchures ne se jettent dans le Canal du Mozambique. Ces deux « membres », distantes l’une de l’autre d’une dizaine de km, jouent un rôle essentiel dans la mise en valeur de la plaine agricole de Morondava, tout en assurant les fonctions vitales de producteur et transporteur de matériaux sédimentaires vers et sur la zone côtière.
+
+Ainsi, il « suffit » d’un aléa climatique lourd (cyclones, fortes marées pluies abondantes, sécheresse...), pour que l’équilibre entre les deux bras du fleuve soit rompu. Mais l’action de l’homme sur le milieu (aménagements divers du bassin versant, déforestation, urbanisation, développement du tourisme balnéaire) participe aussi aux causes du dérèglement environnemental. Elles tendent à poser de plus en plus lourd dans la balance écologique.
+
+Conséquences : plus d’eau douce d’irrigation pour les cultures du delta, diminution du débit des puits, augmentation de la salinité et de la pollution. S’agissant des équilibres sédimentaires littoraux, ils sont rompus : l’insuffisance de matériaux prend le dessus sur l’alimentation engendrant un phénomène alternatif d’érosion marine et d’aspiration sur le secteur côtier. Le devenir de Morondava est donc étroitement lié, pour ne pas dire suspendu, au débit du fleuve.
+
+Conscientes de ces enjeux, les îles de la Commission de l’Océan Indien (COI) ont placé la question de l’adaptation comme un élément-clé de la coopération régionale. En 1998, dans le cadre du Programme Régional Environnement (PRE), soutenu par le FED, une mission d’évaluation portant sur l’érosion côtière d’une part, les risques sur les aménagements de protection d’autre part et la ville de Morondava avait été mandatée par la COI. Il s’agissait d’apporter, par des actions concrètes et concertées, des solutions durables au travers un plan d'actions en trois étapes. Celui-ci n’a malheureusement jamais été mis en œuvre.
+
+Aujourd’hui, l’accès au financement par le biais des fonds AFD-INTERREG-Région, l’arrivée d’une nouvelle équipe municipale aux commande de la commune de Morondava, et enfin, le choix de la Région Réunion d’inscrire la coopération régionale comme pilier du co-développement de La Réunion, constituent autant d’opportunités à saisir pour conduire et assurer avec succès la mise en œuvre opérationnelle d'un programme d'aménagement intégré et durable de la zone côtière de Morondava sur la période 2017-2020.”","theme[General]:Projet PALM,Région Réunion,occupation du sol, télédétection_
+theme[Geographic]:Océan Indien, Madagascar, Morondava","pointOfContact:pierre.tessier@cr-reunion.fr, theo.grondin@cr-reunion.fr",,,,,,,http://www.morondava-autrement.com/blog/palm/,,"Les mesures préconisées visent à mettre en œuvre des aménagements côtier et terrestre. Ils ont pour fonction de renforcer les protections naturelles contre les cyclones et la submersion marine ; de freiner l’érosion côtière et d’éviter les inondations lors des aléas climatiques et de préserver les parties les plus vulnérables du littoral, tout en conservant la biodiversité et les potentiels biologiques marins côtiers. 
+Ainsi, le projet cherche non seulement à protéger les usagers du littoral face aux aléas côtiers, mais également à valoriser l’espace littoral remarquable de la ville de Morondava et améliorer les conditions de vie de ses habitants.
+
+Le projet pourrait ainsi mettre en place, à partir de l’année 2019, un ensemble d’aménagements sur le littoral :
+a) En matière de génie civil :
+
+    Enlèvement des points durs (ruines) facteurs d'érosion
+    Confortement de certains épis
+    Remaniement des roches pour établir de nouvelles défenses,
+    Pose de défense longitudinale (avec possibilité d'exploiter les matériaux précédents)
+    Reprofilage de dunes
+    Mise en place de défenses souples de type ganivelle pour fixer les dunes et les protéger contre le piétinement.
+
+b) En matière de génie végétal :
+
+    Végétalisation par ensemencement et par plantation étalée sur les trois ans du projet
+
+c) En matière d'accessibilité et d'accueil du public :
+
+    Organiser des accès à la plage par zones identifiées (passage anti érosif)
+    Création d'un sentier littoral entre les zones littorales et urbaines
+    Fermeture des points d'accès aux véhicules à la plage et mise en place de parking sur la zone arrière littorale
+    Aménagement léger de type kiosque sur la partie arrière littorale
+    Point de collecte des déchets
+    Sanitaires publics sur la partie arrière du littoral
+    Mise en place d'une signalétique (information des populations locales, touristes, visiteurs…)
+
+
+Pour répondre à ces objectifs il est aujourd’hui nécessaire de comprendre ces phénomènes naturels impactant notre littoral et de réaliser un diagnostic complet de l’état des infrastructures existantes et de la gestion des différentes problématiques pertinentes par les acteurs publics et privés.
+
+L’année 2018 est ainsi consacrée aux études diagnostics et à la refondation des stratégies d’intervention de la Commune. Ce bilan permettra de formuler un plan d’aménagement cohérent et concerté, en adéquation avec les moyens dont dispose la Collectivité pour agir, à la mesure des événements climatiques impactant la ville et en accords avec les attentes des usagers du littoral.
+
+ Mai 2018 : une étude hydro-sédimentaire et environnementale a été confiée aux bureaux d’étude malgaches et réunionnais Créocéan, Sarit’any, Hydrétude et Biotope avec pour objet de réaliser un diagnostic des enjeux du littoral. L’objectif est de formuler des recommandations d’aménagements sur le littoral en novembre 2018.
+
+ Septembre 2018 : mise en place d’un système d’alerte forte marée
+
+Octobre 2018 : une étude topographique des canaux Hellot et FAO devra être menée afin d’effectuer un état des ouvrages d’évacuation et analyser les principales contraintes de terrain en vue d’un aménagement global du dispositif d’évacuation des eaux (curage des deux drains).
+",
+hydretude : carte de terrain zip mondrave (pdf),Projet d’Aménagement intégré et durable du Littoral côtier de la commune urbaine de Morondava face au défi du changement climatique,"En mai 2018, un groupement de bureaux d’étude travaille en concertation avec la Région Réunion et la Commune urbaine de Morondava, sur un diagnostic des dynamiques hydro-sédimentaire du littoral de Morondava et sur la formulation de préconisations en matière d’aménagement pour lutter efficacement contre le phénomène d’érosion de la bande côtière.
+
+Ainsi, les représentants des Bureaux d’études BIOTOPE (experts sur la thématique végétalisation) et CREOCEAN (experts sur les dynamiques hydro-sédimentaires), les partenaires réunionnais et l’assistant technique du projet du BRGM (Bureau de Recherches Géologiques et Minières) se rendront sur Morondava la semaine prochaine.
+
+Deux réunions se tiendront le jeudi 18 octobre et Vendredi 19 octobre dans les bureaux du Conseil municipal :
+
+- La première réunion concernera les principaux partenaires du projet et les représentant des autorités locales, le Préfet, le Chef de Région, le Maire et les élus du Conseil municipal.
+
+    Une restitution des résultats des bureaux d’études sera effectuée et mise en débat avec les différentes parties prenante.
+
+- Une seconde réunion sera organisée avec les membres du Comité de Suivi Technique du projet. Ce CST est composé de l’ensemble de ces acteurs, élargis à des représentants de la société civile, des services déconcentrés de l’Etat, des opérateurs touristiques et autres acteurs compétents et qualifiés (sur invitation de la CUM).
+
+    La matinée sera dédiée à la restitution des deux études.
+    L’après-midi sera consacrée aux travaux entrepris par les membres du CST.
+
+Ces rencontres ont pour objectif, outre de présenter les résultats et recommandations des études, de recueillir les avis des acteurs locaux afin qu’ils contribuent aux discussions du CST, de définir la poursuite du programme d’actions du projet et d’orienter les choix en matière d’aménagement avant la restitution du rapport final par les cabinets d’études en novembre 2018.",,,,,,,,,http://www.morondava-autrement.com/blog/palm/,,,
+"palm : shp mondrava complet (line), point, poly + Zone d'intérêt MVA.png",Projet d’Aménagement intégré et durable du Littoral côtier de la commune urbaine de Morondava face au défi du changement climatique,,,,,,,,,,,,,
+cartopasgeo 2017 (avril 2017) jpg + 3 feuilles pdf. + zone lito de .zip. .txt = Créé par AutoCAD eTransmit …,Projet d’Aménagement intégré et durable du Littoral côtier de la commune urbaine de Morondava face au défi du changement climatique,,,,,,,,,,,,,
+"PUDI : zone de submeserion,shp + zone inondable.shp",Projet d’Aménagement intégré et durable du Littoral côtier de la commune urbaine de Morondava face au défi du changement climatique,"
+L’immense étendue de plage de sable blanc de Morondava est formée de sédiments transportés par les courants de la rivière Morondava depuis le massif du Makay, où il prend sa source.
+
+Ce sable vient ensuite s’échouer sur le littoral côtier où il est, chaque jour, balayé par les marées montantes et descendantes, quand il n’est pas brassé par le vent.
+Ces échanges naturels (vents, courants, houles, marées…) entre la plage et sa réserve de sable peuvent cependant être rompus par des événements météos à forte intensité comme nous en avons connu en juillet et août dernier ; mais également lors d’aléas climatiques extrêmes comme les cyclones ou les tempêtes.
+
+Dans le même temps, le littoral concentre depuis une vingtaine d’années, une occupation humaine de plus en plus importante, conjuguée à une urbanisation rapide, continue et anarchique. Ces différentes activités tant humaines que météorologique ont considérablement modifié le profil côtier de la ville ; accélérer l’érosion des plages ; affecter de manière profonde les défenses naturelles du littoral ; et lourdement impacter la réserve de sable des plages, lesquelles ne sont pas compensées par l’apport de nouveaux sédiments.
+Ainsi, le sable blanc de la plage doit désormais être perçu et considéré comme une ressource épuisable, qu’il convient de préserver et d’en reconstituer les stocks pour éviter de voir disparaître une partie conséquente du territoire littoral au profit de la mer. ",,,,,,,,,http://www.morondava-autrement.com/blog/palm/,,,
+"PUDI : zone final laborde + perimettre du pudi,shp",Projet d’Aménagement intégré et durable du Littoral côtier de la commune urbaine de Morondava face au défi du changement climatique,,,,,,,,,,,,,
+PUDI : données brutes (base de données) + 4 jpg,Projet d’Aménagement intégré et durable du Littoral côtier de la commune urbaine de Morondava face au défi du changement climatique,,,,,,,,,,,,,
+PUDI : (SIG PALM) couche réglementaire totale + zonage litoral.pdf,Projet d’Aménagement intégré et durable du Littoral côtier de la commune urbaine de Morondava face au défi du changement climatique,"Ce projet consiste à mettre en œuvre deux opérations complémentaires mais indissociables, lesquelles permettront de lutter
+efficacement contre l’érosion côtière, la submersion marine et l'inondation qui affectent la ville de Morondava. Il vise à faire de
+cette commune très vulnérable aux aléas climatiques, une ville plus résiliente au changement climatique.
+Morondava a été est édifiée sur une zone deltaïque correspondant à un ancien
+exutoire du fleuve à qui la ville doit son nom. Il étreint de ses deux bras, Nord et Sud, la
+cité avant que leurs embouchures ne se jettent dans le Canal du Mozambique. Ces deux
+« membres », distantes l’une de l’autre d’une dizaine de km, jouent un rôle essentiel dans
+la mise en valeur de la plaine agricole de Morondava, tout en assurant les fonctions
+vitales de producteur et transporteur de matériaux sédimentaires vers et sur la zone
+côtière. Ainsi, il « suffit » d’un aléa climatique lourd (cyclones, fortes marées pluies
+abondantes, sécheresse..), pour que l’équilibre entre les deux bras du fleuve soit rompu.
+Mais l’action de l’homme sur le milieu (aménagements divers du bassin versant,
+déforestation, urbanisation, développement du tourisme balnéaire) participe aussi aux
+causes du dérèglement environnemental. Elles tendent à poser de plus en plus lourd dans
+la balance écologique.
+Conséquences : plus d’eau douce d’irrigation pour les cultures du delta, diminution
+du débit des puits, augmentation de la salinité et de la pollution S’agissant des équilibres
+sédimentaires littoraux, ils sont rompus : l’insuffisance de matériaux prend le dessus sur
+l’alimentation engendrant un phénomène alternatif d’érosion marine et d’aspiration sur
+le secteur côtier. Le devenir de Morondava est donc étroitement lié, pour ne pas dire
+suspendu, au débit du fleuve.",,,,,,,,,,,,
+"hydretude : bv_morondava,shp",,,,,,,,,,,,,,

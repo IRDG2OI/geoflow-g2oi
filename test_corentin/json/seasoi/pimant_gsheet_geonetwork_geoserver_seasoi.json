@@ -102,9 +102,8 @@
       "options": {
         "update_files": true,
         "depositWithFiles": true,
-        "communities": "",
         "deleteOldFiles": false,
-        "publish":true
+        "publish":false
       }
     }
   ]

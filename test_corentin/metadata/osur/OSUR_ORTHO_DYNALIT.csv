@@ -1,0 +1,270 @@
+Identifier,Title,Description,Subject,Creator,Date,Type,Language,SpatialCoverage,TemporalCoverage,Format,Relation,Rights,Provenance,Data
+id:03f9bbe9-6524-4a9d-aab7-0e5aa53af2b1,title:ORTHOPHOTO Plage de l'Hermitage 2020-10,"abstract:Orthophotographie de la plage de l'Hermitage (La Réunion, Saint-Gilles les Bains, 97460). 
+Données acquises sur le site d'observation Station Côtière et Marine (STACOT) du SNO DYNALIT, et produites par l'OSU-Réunion et l'UMR Espace-Dev._
+purpose:Suivi de l'évolution morphodynamique de plages sableuses d'origine biodétritique et corallienne._
+info:Levés Drone de la fin de l'hiver austral 2020. 
+Les vols drone ont été réalisés le 27-octobre-2020._
+status:completed","theme[General]:SNO DYNALIT,IR ILICO,Orthophotographie,DRONE_
+theme[Geographic]:île de La Réunion,Hermitage,Océan Indien","author:emmanuel.cordier@univ-reunion.fr_
+publisher:emmanuel.cordier@univ-reunion.fr_
+owner:emmanuel.cordier@univ-reunion.fr_
+distributor:emmanuel.cordier@univ-reunion.fr_
+pointOfContact:emmanuel.cordier@univ-reunion.fr","publication:2023-02-10_
+creation:2020-12-17",generic:dataset,fre,srid:2975,2020-10-01,"resource:image/tiff_
+distribution:image/tiff[GeoTIFF]","parent:""c0cae920-5c49-4ede-b455-82e8a49ccb1d""_
+http:""Source ISO 19115 metadata (CSW GetRecordById)""@https://geosur.osureunion.fr/geonetwork/srv/eng/csw?service=CSW&request=GetRecordById&Version=2.0.2&elementSetName=full&outputSchema=http%3A//www.isotc211.org/2005/gmd&id=03f9bbe9-6524-4a9d-aab7-0e5aa53af2b1_
+thumbnail:""""@https://geosur.osureunion.fr:/geonetwork/srv/api/records/03f9bbe9-6524-4a9d-aab7-0e5aa53af2b1/attachments/plage%20hermitage.jfif_
+thumbnail:""Plage Corallienne Hermitage, La Réunion""@https://geosur.osureunion.fr/geonetwork/srv/api/records/ac8bdf34-594e-48ac-8520-b058a3053321/attachments/PlageHermitage.jpg_
+download:""Orthophoto Hermitage 2020-10""@https://geosur.osureunion.fr/thredds/fileServer/stacot/mnt-drone_hermitage-mns/2020/ortho_hermitage-mns_202010.tif","useConstraint:""""_
+accessConstraint:""""_
+otherConstraint:""""","statement:Mission (site) : Réunion - Hermitage 
+Projet: SNO Dynalit 
+Instrument: Drone DJI Phantom 4 RTK et Staton DRTK-2
+DGPS: Topcon Hyper II
+Volumes Données brutes Go: 10.5 GiB (11?275?942?376 octets)
+Traitements réalisés: MNT
+Résolution: centimétrique
+Volumes données traitées Go: 3.0 GiB (3?258?894?203 octets)
+Télépilotes : Pierre Stamenoff et Yoan Benoit (UAR 3365)
+Opérateur Traitement: Yoan Benoît (UAR 3365)_
+","source:ortho_hermitage-mns_202010.tif@/home/csouton/Documents/geoflow/test_corentin/data/osur/dynalit/ortho_hermitage-mns_202010.tif_
+sourceType:geotiff_
+uploadSource:ortho_hermitage-mns_202010.tif_
+uploadType:geotiff_
+layername:ortho_hermitage-mns_202010_
+spatialRepresentationType:grid"
+id:5990abbf-82d5-4839-9fdb-de3d33876a92,title:ORTHOPHOTO Plage de l'Hermitage 2019-04,"abstract:Orthophotographie de la plage de l'Hermitage (La Réunion, Saint-Gilles les Bains, 97460). 
+Données acquises sur le site d'observation Station Côtière et Marine (STACOT) du SNO DYNALIT, et produites par l'OSU-Réunion et l'UMR Espace-Dev._
+purpose:Suivi de l'évolution morphodynamique de plages sableuses d'origine biodétritique et corallienne._
+info:Levés Drone de la fin de l'été austral 2019. 
+Les vols drone ont été réalisés les 9-avril-2019 et 10-avril-2019._
+status:completed","theme[General]:SNO DYNALIT,IR ILICO,Orthophotographie,DRONE_
+theme[Geographic]:île de La Réunion,Hermitage,Océan Indien","author:emmanuel.cordier@univ-reunion.fr_
+publisher:emmanuel.cordier@univ-reunion.fr_
+owner:emmanuel.cordier@univ-reunion.fr_
+distributor:emmanuel.cordier@univ-reunion.fr_
+pointOfContact:emmanuel.cordier@univ-reunion.fr","publication:2022-09-21_
+creation:2019-10-17",generic:dataset,fre,srid:4326,2019-04-01,"resource:image/tiff_
+distribution:image/tiff[GeoTIFF]","parent:""c0cae920-5c49-4ede-b455-82e8a49ccb1d""_
+http:""Source ISO 19115 metadata (CSW GetRecordById)""@https://geosur.osureunion.fr/geonetwork/srv/eng/csw?service=CSW&request=GetRecordById&Version=2.0.2&elementSetName=full&outputSchema=http%3A//www.isotc211.org/2005/gmd&id=5990abbf-82d5-4839-9fdb-de3d33876a92_
+thumbnail:""""@https://geosur.osureunion.fr:/geonetwork/srv/api/records/5990abbf-82d5-4839-9fdb-de3d33876a92/attachments/plage%20hermitage.jfif_
+thumbnail:""Plage Corallienne Hermitage, La Réunion""@https://geosur.osureunion.fr/geonetwork/srv/api/records/ac8bdf34-594e-48ac-8520-b058a3053321/attachments/PlageHermitage.jpg_
+download:""Orthophoto Hermitage 2019-04""@https://geosur.osureunion.fr/thredds/fileServer/stacot/mnt-drone_hermitage-mns/2019/ortho_hermitage-mns_201904.tif","useConstraint:""""_
+accessConstraint:""""_
+otherConstraint:""""","statement:Les levés par drone d'avril 2019 ont été effectués sur deux journées le 09-Avril-2019 et le 10-Avril-2019. 
+
+#-------- Levé du 10/04/2019 --------#
+Mission (site) : Réunion - Hermitage 
+Projet: NC 
+Instrument: Drone 
+DGPS: NC 
+Volumes Données brutes Go: NC 
+Traitements réalisés: Orthophotographies
+Résolution: NC
+Volumes données traitées Go: NC 
+Opérateur Terrain: Pierre Stamenoff & Yoan Benoit (UMS 3365)
+Opérateur Traitement: Marion Jaud (IUEM)_
+","source:ortho_hermitage-mns_201904.tif@/home/csouton/Documents/geoflow/test_corentin/data/osur/dynalit/ortho_hermitage-mns_201904.tif_
+sourceType:geotiff_
+uploadSource:ortho_hermitage-mns_201904.tif_
+uploadType:geotiff_
+layername:ortho_hermitage-mns_201904_
+spatialRepresentationType:grid"
+id:36f729ff-0194-4828-b5d9-792f82d3cd73,title:ORTHOPHOTO Plage de l'Hermitage 2021-10,"abstract:Orthophotographie de la plage de l'Hermitage (La Réunion, Saint-Gilles les Bains, 97460). 
+Données acquises sur le site d'observation Station Côtière et Marine (STACOT) du SNO DYNALIT, et produites par l'OSU-Réunion et l'UMR Espace-Dev._
+purpose:Suivi de l'évolution morphodynamique de plages sableuses d'origine biodétritique et corallienne._
+info:Levés Drone fin hiver austral 2021 
+Les vols drone ont été réalisés le 28-octobre-2021._
+status:completed","theme[General]:SNO DYNALIT,IR ILICO,Orthophotographie,DRONE_
+theme[Geographic]:île de La Réunion,Hermitage,Océan Indien","author:emmanuel.cordier@univ-reunion.fr_
+publisher:emmanuel.cordier@univ-reunion.fr_
+owner:emmanuel.cordier@univ-reunion.fr_
+distributor:emmanuel.cordier@univ-reunion.fr_
+pointOfContact:emmanuel.cordier@univ-reunion.fr","publication:2023-02-10_
+creation:2023-02-10",generic:dataset,fre,srid:2975,2021-10-28,"resource:image/tiff_
+distribution:image/tiff[GeoTIFF]","parent:""c0cae920-5c49-4ede-b455-82e8a49ccb1d""_
+http:""Source ISO 19115 metadata (CSW GetRecordById)""@https://geosur.osureunion.fr/geonetwork/srv/eng/csw?service=CSW&request=GetRecordById&Version=2.0.2&elementSetName=full&outputSchema=http%3A//www.isotc211.org/2005/gmd&id=36f729ff-0194-4828-b5d9-792f82d3cd73_
+thumbnail:""""@https://geosur.osureunion.fr:/geonetwork/srv/api/records/36f729ff-0194-4828-b5d9-792f82d3cd73/attachments/plage%20hermitage.jfif_
+thumbnail:""Plage Corallienne Hermitage, La Réunion""@https://geosur.osureunion.fr/geonetwork/srv/api/records/ac8bdf34-594e-48ac-8520-b058a3053321/attachments/PlageHermitage.jpg_
+download:""Orthophoto Hermitage 2021-10""@https://geosur.osureunion.fr/thredds/fileServer/stacot/mnt-drone_hermitage-mns/2021/20211028_Hermitage_ortho.tif","useConstraint:""""_
+accessConstraint:""""_
+otherConstraint:""""","statement:Mission (site) : Réunion - Hermitage 
+Projet: SNO Dynalit 
+Instrument: Drone DJI Phantom 4 RTK et Staton DRTK-2
+DGPS: Topcon Hyper II
+Volumes Données brutes Go: 10.5 GiB (11?275?942?376 octets)
+Traitements réalisés: MNT
+Résolution: 5 cm
+Volumes données traitées Go: 3.0 GiB (3?258?894?203 octets)
+Télépilotes : Pierre Stamenoff et Yoan Benoit (UAR 3365)
+Opérateur Traitement: Yoan Benoît (UAR 3365)_
+","source:20211028_Hermitage_ortho.tif@https://geosur.osureunion.fr/thredds/fileServer/stacot/mnt-drone_hermitage-mns/2021/20211028_Hermitage_ortho.tif_
+sourceType:geotiff_
+uploadSource:20211028_Hermitage_ortho.tif_
+uploadType:geotiff_
+layername:20211028_Hermitage_ortho_
+spatialRepresentationType:grid"
+id:1de30101-d43b-42c3-84d3-4607a490f43a,title:ORTHOPHOTO Plage de l'Hermitage 2019-11,"abstract:Orthophotographie de la plage de l'Hermitage (La Réunion, Saint-Gilles les Bains, 97460). 
+Données acquises sur le site d'observation Station Côtière et Marine (STACOT) du SNO DYNALIT, et produites par l'OSU-Réunion et l'UMR Espace-Dev._
+purpose:Suivi de l'évolution morphodynamique de plages sableuses d'origine biodétritique et corallienne._
+info:Levés Drone de la fin de l'hiver austral 2019. 
+Les vols drone ont été réalisés le 05-Novembre-2019._
+status:completed","theme[General]:SNO DYNALIT,IR ILICO,Orthophotographie,DRONE_
+theme[Geographic]:île de La Réunion,Hermitage,Océan Indien","author:emmanuel.cordier@univ-reunion.fr_
+publisher:emmanuel.cordier@univ-reunion.fr_
+owner:emmanuel.cordier@univ-reunion.fr_
+distributor:emmanuel.cordier@univ-reunion.fr_
+pointOfContact:emmanuel.cordier@univ-reunion.fr","publication:2022-09-21_
+revision:2020-12-18",generic:dataset,fre,srid:2975,2019-11-01,"resource:image/tiff_
+distribution:image/tiff[GeoTIFF]","parent:""c0cae920-5c49-4ede-b455-82e8a49ccb1d""_
+http:""Source ISO 19115 metadata (CSW GetRecordById)""@https://geosur.osureunion.fr/geonetwork/srv/eng/csw?service=CSW&request=GetRecordById&Version=2.0.2&elementSetName=full&outputSchema=http%3A//www.isotc211.org/2005/gmd&id=1de30101-d43b-42c3-84d3-4607a490f43a_
+thumbnail:""""@https://geosur.osureunion.fr:/geonetwork/srv/api/records/1de30101-d43b-42c3-84d3-4607a490f43a/attachments/plage%20hermitage.jfif_
+thumbnail:""Plage Corallienne Hermitage, La Réunion""@https://geosur.osureunion.fr/geonetwork/srv/api/records/ac8bdf34-594e-48ac-8520-b058a3053321/attachments/PlageHermitage.jpg_
+download:""Orthophoto Hermitage 2019-11""@https://geosur.osureunion.fr/thredds/fileServer/stacot/mnt-drone_hermitage-mns/2019/ortho_hermitage-mns_201911.tif","useConstraint:""""_
+accessConstraint:""""_
+otherConstraint:""""","statement:Mission (site) : Réunion - Hermitage 
+Projet: SNO Dynalit 
+Instrument: Drone DJI Phantom 4 RTK et Staton DRTK-2
+DGPS: Topcon Hyper II
+Volumes Données brutes Go: 3 Go (3?045?512?140 octets)
+Traitements réalisés: MNT
+Résolution: centimétrique
+Volumes données traitées Go: 2.9Go (2959841615 octets)
+Opérateur Terrain: Pierre Stamenoff et Yoan Benoit (UMS 3365) Florian Jouvenot CDD Renovrisk-Transfert
+Opérateur Traitement: Florian Jouvenot CDD Renovrisk-Transfert et Yoan Benoît
+
+Reférenciel utilisé : RGR92
+Logiciel de traitement des positions GPS : Topcon Tools V8
+Logiciel de traitement des photos : Agisoft Metashape V1.4.5_
+","source:ortho_hermitage-mns_201911.tif@https://geosur.osureunion.fr/thredds/fileServer/stacot/mnt-drone_hermitage-mns/2019/ortho_hermitage-mns_201911.tif_
+sourceType:geotiff_
+uploadSource:ortho_hermitage-mns_201911.tif_
+uploadType:geotiff_
+layername:ortho_hermitage-mns_201911_
+spatialRepresentationType:grid"
+id:6b221521-6789-4233-9a35-840635e6e897,title:ORTHOPHOTO Plage de l'Hermitage 2021-04,"abstract:Orthophotographie de la plage de l'Hermitage (La Réunion, Saint-Gilles les Bains, 97460). 
+Données acquises sur le site d'observation Station Côtière et Marine (STACOT) du SNO DYNALIT, et produites par l'OSU-Réunion et l'UMR Espace-Dev._
+purpose:Suivi de l'évolution morphodynamique de plages sableuses d'origine biodétritique et corallienne._
+info:Levés Drone fin été austral 2021 
+Les vols drone ont été réalisés le 30-avril-2021._
+status:completed","theme[General]:SNO DYNALIT,IR ILICO,Orthophotographie,DRONE_
+theme[Geographic]:île de La Réunion,Hermitage,Océan Indien","author:emmanuel.cordier@univ-reunion.fr_
+publisher:emmanuel.cordier@univ-reunion.fr_
+owner:emmanuel.cordier@univ-reunion.fr_
+distributor:emmanuel.cordier@univ-reunion.fr_
+pointOfContact:emmanuel.cordier@univ-reunion.fr","publication:2023-02-10_
+creation:2023-02-10",generic:dataset,fre,srid:2975,2021-04-30,"resource:image/tiff_
+distribution:image/tiff[GeoTIFF]","parent:""c0cae920-5c49-4ede-b455-82e8a49ccb1d""_
+http:""Source ISO 19115 metadata (CSW GetRecordById)""@https://geosur.osureunion.fr/geonetwork/srv/eng/csw?service=CSW&request=GetRecordById&Version=2.0.2&elementSetName=full&outputSchema=http%3A//www.isotc211.org/2005/gmd&id=6b221521-6789-4233-9a35-840635e6e897_
+thumbnail:""""@https://geosur.osureunion.fr:/geonetwork/srv/api/records/6b221521-6789-4233-9a35-840635e6e897/attachments/plage%20hermitage.jfif_
+thumbnail:""Plage Corallienne Hermitage, La Réunion""@https://geosur.osureunion.fr/geonetwork/srv/api/records/ac8bdf34-594e-48ac-8520-b058a3053321/attachments/PlageHermitage.jpg_
+download:""Orthophoto Hermitage 2021-04""@https://geosur.osureunion.fr/thredds/fileServer/stacot/mnt-drone_hermitage-mns/2021/20210430_Hermitage_ortho.tif","useConstraint:""""_
+accessConstraint:""""_
+otherConstraint:""""","statement:Mission (site) : Réunion - Hermitage 
+Projet: SNO Dynalit 
+Instrument: Drone DJI Phantom 4 RTK et Staton DRTK-2
+DGPS: Topcon Hyper II
+Volumes Données brutes Go: 10.5 GiB (11?275?942?376 octets)
+Traitements réalisés: Orthophoto
+Résolution: 5 cm
+Volumes données traitées Go: 3.0 GiB (3?258?894?203 octets)
+Télépilotes : Pierre Stamenoff et Yoan Benoit (UAR 3365)
+Opérateur Traitement: Yoan Benoît (UAR 3365)_
+","source:20210430_Hermitage_ortho.tif@https://geosur.osureunion.fr/thredds/fileServer/stacot/mnt-drone_hermitage-mns/2021/20210430_Hermitage_ortho.tif_
+sourceType:geotiff_
+uploadSource:20210430_Hermitage_ortho.tif_
+uploadType:geotiff_
+layername:20210430_Hermitage_ortho.tif_
+spatialRepresentationType:grid"
+id:c0cae920-5c49-4ede-b455-82e8a49ccb1d,"title:MNT et ORTHOPHOTO de la Plage de l'Hermitage - île de La Réunion, St-Gilles Les Bains.","abstract:La plage de l'Hermitage à La Réunion ( Saint-Gilles les Bains, 97460), dans l'Océan Indien Occidental, fait l'objet d'un suivi hydro-morphodynamique dans le cadre du Service National d'Observation (SNO) DYNALIT. Ce SNO DYNALIT est un réseau d'observation qui vise sur le long terme à acquérir, collecter et mettre en cohérence des données métrologiques de qualité sur l'évolution du littoral. Il s'inscrit dans la nécessité d'observer quantitativement l'hydro-morphodynamisme. Cet impératif répond à des finalités de 2 ordres :
+- Scientifique : compréhension des processus dont la question emblématique du GIEC concernant la modification du régime des tempêtes
+- Sociétal : gestion du littoral autour notamment des risques d'érosions
+
+Les données produites dans ce cadre sont des Modèles Numériques de Terrain (MNT) et des Orthophotographies du littoral. Sur la plage de l'Hermitage, les données distribuées sont les suivantes : 
+- un MNT construit par photogrammétrie aérienne acquise par drone, et reproduit 2 fois par an,
+- une orthophotographie issues des images aériennes acquises par drone.
+Les données sont acquises sur le site d'observation Station Côtière et Marine (STACOT) du SNO DYNALIT, et produites par l'OSU-Réunion et l'UMR Espace-Dev._
+purpose:Suivi de l'évolution morphodynamique de plages sableuses d'origine biodétritique et corallienne._
+info:Levés Drones bi-annuels de la plage de l'Hermitage, La Réunion._
+status:onGoing","theme[General]:SNO DYNALIT,IR ILICO,MNT,ORTHOPHOTOGRAPHIE,DRONE_
+theme[Geographic]:île de La Réunion,Hermitage,Océan Indien","author:emmanuel.cordier@univ-reunion.fr_
+publisher:emmanuel.cordier@univ-reunion.fr_
+owner:emmanuel.cordier@univ-reunion.fr_
+distributor:emmanuel.cordier@univ-reunion.fr_
+pointOfContact:emmanuel.cordier@univ-reunion.fr","publication:2022-09-21_
+creation:2019-10-17",generic:series,fre,,2019-04-01/2022-10-25,,"http:""Source ISO 19115 metadata (CSW GetRecordById)""@https://geosur.osureunion.fr/geonetwork/srv/eng/csw?service=CSW&request=GetRecordById&Version=2.0.2&elementSetName=full&outputSchema=http%3A//www.isotc211.org/2005/gmd&id=c0cae920-5c49-4ede-b455-82e8a49ccb1d_
+thumbnail:""""@https://geosur.osureunion.fr:/geonetwork/srv/api/records/c0cae920-5c49-4ede-b455-82e8a49ccb1d/attachments/plage%20hermitage.jfif_
+thumbnail:""Plage Corallienne Hermitage, La Réunion""@https://geosur.osureunion.fr/geonetwork/srv/api/records/ac8bdf34-594e-48ac-8520-b058a3053321/attachments/PlageHermitage.jpg_
+http:""Site Web DYNALIT""[""Site Web DYNALIT""]@https://www.dynalit.fr","useConstraint:""""_
+accessConstraint:""""_
+otherConstraint:""""","statement:”Les levés par drone de la plage de l'Hermitage La Réunion sont effectués 2 fois par an : 
+- en avril fin de l'été austral
+- en novembre fin de l'hiver austral”",
+id:9ef81fee-9a45-46e3-90f2-6e0fa6ee0537,title:ORTHOPHOTO Plage de l'Hermitage 2022-04,"abstract:Orthophotographie de la plage de l'Hermitage (La Réunion, Saint-Gilles les Bains, 97460). 
+Données acquises sur le site d'observation Station Côtière et Marine (STACOT) du SNO DYNALIT, et produites par l'OSU-Réunion et l'UMR Espace-Dev._
+purpose:Suivi de l'évolution morphodynamique de plages sableuses d'origine biodétritique et corallienne._
+info:Levés Drone fin été austral 2022
+Les vols drone ont été réalisés le 28-avril-2022_
+status:completed","theme[General]:SNO DYNALIT,IR ILICO,Orthophotographie,DRONE_
+theme[Geographic]:île de La Réunion,Hermitage,Océan Indien","author:emmanuel.cordier@univ-reunion.fr_
+publisher:emmanuel.cordier@univ-reunion.fr_
+owner:emmanuel.cordier@univ-reunion.fr_
+distributor:emmanuel.cordier@univ-reunion.fr_
+pointOfContact:emmanuel.cordier@univ-reunion.fr","publication:2023-02-10_
+creation:2023-02-10",generic:dataset,fre,srid:2975,2022-04-28,"resource:image/tiff_
+distribution:image/tiff[GeoTIFF]","parent:""c0cae920-5c49-4ede-b455-82e8a49ccb1d""_
+http:""Source ISO 19115 metadata (CSW GetRecordById)""@https://geosur.osureunion.fr/geonetwork/srv/eng/csw?service=CSW&request=GetRecordById&Version=2.0.2&elementSetName=full&outputSchema=http%3A//www.isotc211.org/2005/gmd&id=9ef81fee-9a45-46e3-90f2-6e0fa6ee0537_
+thumbnail:""""@https://geosur.osureunion.fr:/geonetwork/srv/api/records/9ef81fee-9a45-46e3-90f2-6e0fa6ee0537/attachments/plage%20hermitage.jfif_
+thumbnail:""Plage Corallienne Hermitage, La Réunion""@https://geosur.osureunion.fr/geonetwork/srv/api/records/ac8bdf34-594e-48ac-8520-b058a3053321/attachments/PlageHermitage.jpg_
+download:""Orthophoto Hermitage 2022-04""@https://geosur.osureunion.fr/thredds/fileServer/stacot/mnt-drone_hermitage-mns/2022/20220428_Hermitage_ortho.tif","useConstraint:""""_
+accessConstraint:""""_
+otherConstraint:""""","statement:Mission (site) : Réunion - Hermitage 
+Projet: SNO Dynalit 
+Instrument: Drone DJI Phantom 4 RTK et Staton DRTK-2
+DGPS: Topcon Hyper II
+Volumes Données brutes Go: 10.5 GiB (11?275?942?376 octets)
+Traitements réalisés: Orthophoto
+Résolution: 5 cm
+Volumes données traitées Go: 3.0 GiB (3?258?894?203 octets)
+Télépilotes : Pierre Stamenoff et Yoan Benoit (UAR 3365)
+Opérateur Traitement: Yoan Benoît (UAR 3365)_
+","source:20220428_Hermitage_ortho.tif@https://geosur.osureunion.fr/thredds/fileServer/stacot/mnt-drone_hermitage-mns/2022/20220428_Hermitage_ortho.tif_
+sourceType:geotiff_
+uploadSource:20220428_Hermitage_ortho.tif_
+uploadType:geotiff_
+layername:20220428_Hermitage_ortho_
+spatialRepresentationType:grid"
+id:aecbc983-9c7a-415f-a628-9b45b2dce3b6,title:ORTHOPHOTO Plage de l'Hermitage 2022-10,"abstract:Orthophotographie de la plage de l'Hermitage (La Réunion, Saint-Gilles les Bains, 97460). 
+Données acquises sur le site d'observation Station Côtière et Marine (STACOT) du SNO DYNALIT, et produites par l'OSU-Réunion et l'UMR Espace-Dev._
+purpose:Suivi de l'évolution morphodynamique de plages sableuses d'origine biodétritique et corallienne._
+info:Levés Drone fin hiver austral 2022
+Les vols drone ont été réalisés le 25-octobre-2022_
+status:completed","theme[General]:SNO DYNALIT,IR ILICO,Orthophotographie,DRONE_
+theme[Geographic]:île de La Réunion,Hermitage,Océan Indien","author:emmanuel.cordier@univ-reunion.fr_
+publisher:emmanuel.cordier@univ-reunion.fr_
+owner:emmanuel.cordier@univ-reunion.fr_
+distributor:emmanuel.cordier@univ-reunion.fr_
+pointOfContact:emmanuel.cordier@univ-reunion.fr","publication:2023-02-10_
+creation:2023-02-10",generic:dataset,fre,srid:2975,2022-10-25,"resource:image/tiff_
+distribution:image/tiff[GeoTIFF]","parent:""c0cae920-5c49-4ede-b455-82e8a49ccb1d""_
+http:""Source ISO 19115 metadata (CSW GetRecordById)""@https://geosur.osureunion.fr/geonetwork/srv/eng/csw?service=CSW&request=GetRecordById&Version=2.0.2&elementSetName=full&outputSchema=http%3A//www.isotc211.org/2005/gmd&id=aecbc983-9c7a-415f-a628-9b45b2dce3b6_
+thumbnail:""""@https://geosur.osureunion.fr:/geonetwork/srv/api/records/aecbc983-9c7a-415f-a628-9b45b2dce3b6/attachments/plage%20hermitage.jfif_
+thumbnail:""Plage Corallienne Hermitage, La Réunion""@https://geosur.osureunion.fr/geonetwork/srv/api/records/ac8bdf34-594e-48ac-8520-b058a3053321/attachments/PlageHermitage.jpg_
+download:""Orthophoto Hermitage 2022-10""@https://geosur.osureunion.fr/thredds/fileServer/stacot/mnt-drone_hermitage-mns/2022/20221025_Hermitage_ortho.tif","useConstraint:""""_
+accessConstraint:""""_
+otherConstraint:""""","statement:Mission (site) : Réunion - Hermitage 
+Projet: SNO Dynalit 
+Instrument: Drone DJI Phantom 4 RTK et Staton DRTK-2
+DGPS: Topcon Hyper II
+Volumes Données brutes Go: 10.5 GiB (11?275?942?376 octets)
+Traitements réalisés: MNT
+Résolution: 5 cm
+Volumes données traitées Go: 3.0 GiB (3?258?894?203 octets)
+Télépilotes : Pierre Stamenoff et Yoan Benoit (UAR 3365)
+Opérateur Traitement: Yoan Benoît (UAR 3365)_
+","source:20221025_Hermitage_ortho.tif@https://geosur.osureunion.fr/thredds/fileServer/stacot/mnt-drone_hermitage-mns/2022/20221025_Hermitage_ortho.tif_
+sourceType:geotiff_
+uploadSource:20221025_Hermitage_ortho.tif_
+uploadType:geotiff_
+layername:20221025_Hermitage_ortho_
+spatialRepresentationType:grid"

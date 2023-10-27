@@ -1,0 +1,52 @@
+{
+  "profile": {
+  "id": "sens2val_40KCB_metadata",
+	"project": "SEAS-OI - Sens2Chain",
+	"name": "Séries temporelle générés sur la tuile 40KCB",
+	"organization": "ESPACE-DEV",
+  	"logos": [
+  		  		"https://drive.google.com/uc?id=1RSMBdke2znvwtvhoM5evr-1rUesPLH-j"
+  	],
+  	  "mode": "entity",
+  	  "options": {
+	      "line_separator": "_\n"
+      }
+  },
+  "metadata": {
+    "entities": {
+      "handler": "csv",
+      "source": "/home/csouton/Documents/sen2val/download/METADATA_40KCB.csv"
+    },
+      "contacts" : {
+      "handler": "{{METADATA_CONTACTS_HANDLER}}",
+      "source": "{{METADATA_CONTACTS}}"
+    }
+  },
+ "software": [
+          {
+		"id": "seasoi-geonetwork",
+		"type": "output",
+		"software_type": "geonetwork",
+		"parameters": {
+			"url": "http://127.0.0.1:8080/geonetwork",
+			"user": "{{GEONETWORK_USER}}",
+			"pwd": "{{GEONETWORK_PASSWORD}}",
+			"version": "4.2.1",
+			"logger": "DEBUG"
+		}
+    }
+  ],
+"actions": [
+    {
+      "id": "geometa-create-iso-19115",
+      "options" : {
+        "logo": false
+      },
+      "run": true
+    },
+            {
+      "id": "geonapi-publish-iso-19139",
+       "run" : true
+	   }
+	]
+}

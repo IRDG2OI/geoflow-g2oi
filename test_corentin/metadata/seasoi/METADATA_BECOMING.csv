@@ -1,0 +1,30 @@
+Identifier,Title,Description,Subject,Creator,Date,Type,Language,SpatialCoverage,TemporalCoverage,Format,Relation,Rights,Provenance,Data
+id:SIMMOIA_BECOMING_BLANCHISSEMENT_TELEDETECTION_2019 ,title:Cartographie par télédetection du blanchissement corallien des platiers récifaux de La Réunion en 2019,"
+
+abstract:Suite à une AAP de la DEAL-Réunion, ce jeu de données a été produit dans le cadre du projet Becoming2019, sur le suivi du blanchissement corallien à La Réunion. L'UMR Espace-Dev a accompagné MAREX pour tester la reproductibilité d’une méthode de détection et de cartographie du blanchissement corallien à partir d’images satellites THRS. La méthode, déjà mise en œuvre en 2016 (Becoming2016) et formalisée dès 2003 dans le cadre du projet Kalideos-Réunion, vise à tester la pertinence de l’altération de l'indice de brillance comme indicateur du blanchissement corallien. Les analyses sont réalisées à partir de l’imagerie Pleiades (panchromatique à 0.5m et multispectrale à 2m), validées par des données aériennes et in-situ.
+","theme[General]:EspaceDev,habitat et biotopes,blanchissement,télédetection,fond marin,imagerie satellitaire,récifs coralliens
+","pointOfContact:gwenaelle.pennober@univ-reunion.fr, ESPACE-DEV@univ-reunion.fr,pascal.mouquet@ird.fr","publication:2021-04-06
+creation:2020-01-01",dataset,fre,EPSG:2975,,distribution:application/zip[ESRI Shapefile (zipped)],"http:ESPACE_DEV_BECOMING_PHOTO_INTERPRET@https://sextant.ifremer.fr/services/wms/reunion_
+http:Rapport du traitement_d’images@https://sextant.ifremer.fr/geonetwork/srv/api/records/6195ddae-a125-4edd-8ddc-bf652bfd642a/attachments/BECOMING2019_TD_ESPACEDEV.pdf_
+http:Rapport Becoming 2019@https://www.documentation.ird.fr/hor/fdi:010078422","license:Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+useContraints:Obligation de citation ""Données produites dans le cadre du projet Becoming 2019 par l'UMR Espace-Dev, accompagnant le BE Marex (Financement DEAL)""","statement:”La détection du blanchissement corallien repose sur l'altération du signal (indice de brillance) relevé sur les images de télédétection. La méthode se compose des principales étapes :
+
+- Calibration des images Pléiades XS ORTHO TOA fournies par le programme Kalideos-Réunion. Les données étant orthorectifiées, non corrigées des effets atmosphériques, une une calibration manuelle a été réalisée à partir de points invariants (moyenne spectrale des toitures) repérés sur les images. (raster)
+
+- Calcul d’images d’indice et différence d’indice de brillance entre deux dates. La comparaison des données avec une image de référence permet de détecter les altérations du signal de brillance au moment du pic de blanchissement, filtrant ainsi les invariants, comme les zones sableuses fortement réflectantes sur images. Les dates de référence sont le 15/05/2018 pour l'Ermitage et le 28/05/2018 pour Saint-Leu, l'Etang-Salé et Saint-Pierre. La date de détection pour le blanchissement est le 18/04/2019 sur les 4 secteurs. (raster)
+
+- Découpage des zones d’intérêts (La Saline, St-Leu, Etang-Salé, St-Pierre) (raster par vecteur)
+
+- Segmentation sur les images pansharpened au préalable (vecteur)
+
+- Classification et l’extraction des zones de blanchissements pour la cartographie (vecteurs).
+
+- Nettoyage / validation de la couche vectorielle à partir de données in-situ et d'images aériennes drone / ULM (campagne PIMANT) (vecteurs).
+
+Parmi les champs associés à la couche, on trouve
+
+- ""Mean_DIFF"" : valeur moyenne d'altération de l'indice de brillance entre les deux dates.
+
+- ""Class_name"" : évaluation du blanchissement : Faible (Mean_DIFF<0,06), Moyen (0,06<Mean_DIFF<0,09) ou Fort (Mean_DIFF>0,09)
+
+L'ensemble des traitement réalisé sur ces images satellitaires est détaillé dans le rapport joint à cette métadonnée.”",

@@ -1,0 +1,73 @@
+{
+  "profile": {
+  "id": "sens2val_40KCB_dataset",
+	"project": "SEAS-OI - Sens2Chain",
+	"name": "Séries temporelle générés sur la tuile 40KCB",
+	"organization": "ESPACE-DEV",
+  	"logos": [
+  		  		"https://drive.google.com/uc?id=1RSMBdke2znvwtvhoM5evr-1rUesPLH-j"
+  	],
+  	  "mode": "entity",
+  	  "options": {
+	      "line_separator": "_\n"
+      }
+  },
+  "metadata": {
+    "entities": {
+      "handler": "gsheet",
+      "source": "https://docs.google.com/spreadsheets/d/1n6u8qvkCk67-Kz01knkC720QQBKX2FsqEAEBxZwXlIE/edit?usp=sharing"
+    },
+      "contacts" : {
+      "handler": "{{METADATA_CONTACTS_HANDLER}}",
+      "source": "{{METADATA_CONTACTS}}"
+    }
+  },
+ "software": [
+    	{
+		"id": "googledrive",
+		"type": "input",
+		"software_type": "googledrive",
+		"parameters": {
+    "email": "{{GMAIL_USER}}",
+			"token": ""
+		},
+		"properties" : {}
+	},
+      {
+  		"id": "my-zenodo",
+		  "type": "output",
+		  "software_type": "zenodo",
+		  "parameters": {
+    		"url": "https://zenodo.org/api",
+    		"token": "{{ZENODO_TOKEN}}",
+    		"logger": "DEBUG"
+		  },
+		  "properties": {
+		    "clean": {
+		      "run": false
+		    }
+		  }
+		}
+  ],
+"actions": [
+    {
+      "id": "geometa-create-iso-19115",
+      "options" : {
+        "logo": false
+      },
+      "run": true
+    },
+    {
+      "id": "zen4R-deposit-record",
+      "run": true,
+      "options": {
+        "update_files": true,
+        "depositWithFiles": false,
+        "deleteOldFiles": false,
+        "update_metadata": true,
+        "strategy": "newversion",
+        "publish":false
+      }
+    }
+	]
+}
