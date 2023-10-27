@@ -1,0 +1,13 @@
+Identifier,Title,Description,Subject,Creator,Date,Type,Language,SpatialCoverage,TemporalCoverage,Format,Relation,Rights,Provenance,Data
+id:62c45d05-e7d9-4b17-8a66-1a52ebf7c2e4,title:Projet ReNovRisk,"abstract:Le programme de recherche ReNovRisk a pour objectif d'analyser par une approche intégrée les aléas associés aux événements paroxysmaux et leurs impacts économiques sur le développement de la Réunion et de la zone océan Indien. Il vise ainsi à améliorer la capacité de résilience des territoires face aux principaux risques naturels, et plus particulièrement face à l’aléa cyclonique. Ce programme, qui s’appuie sur un vaste consortium de compétences scientifiques et techniques, s'insère dans la stratégie régionale2014-2020 (Préparation des programmes européens 2014-2020 à La Réunion – Profil Environnemental)._
+purpose:Analyser par une approche intégrée les aléas associés aux événements paroxysmaux et leurs impacts économiques sur le développement de la Réunion et de la zone océan Indien_
+info:NA_
+edition:NA_
+status:onGoing",":NA_
+:World_
+GEMET - INSPIRE themes, version 1.0:Conditions atmosphériques@http://inspire.ec.europa.eu/theme/ac,Zones à risque naturel@http://inspire.ec.europa.eu/theme/nz",,"metadata:2021-10-28 12:18:25_
+creation:2021-02-01",generic:series,fre,srid:NA,/,,"http:""Source ISO 19115 metadata (CSW GetRecordById)""@https://geosur.osureunion.fr/geonetwork/srv/eng/csw?service=CSW&request=GetRecordById&Version=2.0.2&elementSetName=full&outputSchema=http%3A//www.isotc211.org/2005/gmd&id=62c45d05-e7d9-4b17-8a66-1a52ebf7c2e4_
+thumbnail:""""@https://geosur.osureunion.fr/geonetwork/srv/api/records/62c45d05-e7d9-4b17-8a66-1a52ebf7c2e4/attachments/RenovRisk.png","useConstraint:otherRestictions_
+accessConstraint:copyright_
+otherConstraint:NA","statement:NA_
+",

@@ -1,0 +1,16 @@
+Identifier,Title,Description,Subject,Creator,Date,Type,Language,SpatialCoverage,TemporalCoverage,Format,Relation,Rights,Provenance,Data
+OSUR_niveau1_SP,title:Localisation de l'ensemble des stations des observatoires et des instruments de mesures gérés par l'Observatoire des sciences de l'Univers de la Réunion (OSUR),"abstract: L'Observatoire des sciences de l'Univers de la Réunion (OSUR) a en charge 4 observatoires sur le territoire de la Réunion l'OPAR (station atmosphérique), ERORUN (station hydrologique), STAFOR (station forestière), STACOT (station côtière). Le jeu de données représente la localisation de l'ensemble des stations de mesure des territoires d'études des observatoires et programmes de suivis gérés par l'OSUR","theme[General]:OSU-R, Observatoire, instrument, observatoire, instruments, STACOT, STAFOR, OPAR,ERORUN,DYNALIT_
+theme[Geographic]:La Réunion, Océan Indien","owner:emmanuel.cordier@univreunion.fr, osur@univ-reunion.fr_
+pointOfContact:emmanuel.cordier@univ-reunion.fr","publication:2021-07-11_
+edition:2021-07-11",map,fra,srid:4326,2022,distribution:application/zip[ESRI Shapefile (zipped)],"thumbnail:Overview@https://drive.google.com/file/d/1gJXBYvM1O2A4XoshgR_BRmDyQ5_zysGH/preview_
+thumbnail:logo@https://geosur.osureunion.fr/thredds/logo_osu.png_
+http:website[projetqgis]@https://drive.google.com/file/d/1pwZTr8qbDUvIQ2u3dkt6IAvF2cdf8PJc/view?usp=sharing_
+http:website[site Geosur]@https://geosur.osureunion.fr/geonetwork/srv/fre/catalog.search#/home",useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour,"statement:""Le couche est issue de la conversion du kml (Observatoires OSU-Réunion-v26042022) avec le logiciel QGIS  dans un fichier shape généré par Emmanuel Cordier. Dans le fichier kml, nous retrouvons un point par type de programme et d'observatoires   avec l'ensemble des points de l'ocalisation des appareils de mesures pour chaque programme.""","access:googledrive_
+source:OSUR_demo.zip_
+sourceType:shp_
+uploadSource:OSUR_demo.zip_
+uploadType:shp_
+store:OSUR_demo_
+layername:OSUR_demo_
+style:generic_
+spatialRepresentationType:vector"

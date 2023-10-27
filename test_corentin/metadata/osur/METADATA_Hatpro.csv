@@ -1,0 +1,11 @@
+Identifier,Title,Description,Subject,Creator,Date,Type,Language,SpatialCoverage,TemporalCoverage,Format,Relation,Rights,Provenance,Data
+id:131d95b0-ccd1-46c4-acb6-b7549d6887f7,title:Radiomètre micro-onde Hatpro G5,"abstract:Radiomètre micron-onde de haute précision pour la mesure de profils atmosphériques de vapeur d'eau et de température en continue_
+purpose:Mesure de la vapeur d'eau et de la température au dessus de l'observatoire du Maïdo en continue, profil entre le sol (2.16km) et 12 km d'altitude._
+info:NA_
+edition:http://localhost:8080/demodem/editioin_
+status:onGoing",":NA_
+:World",pointOfContact:franck.gabarrot@univ-reunion.fr,"metadata:2023-10-04 08:27:56_
+publication:2023-08-21 11:24:00",generic:dataset,eng,srid:NA,/,,"http:""Source ISO 19115 metadata (CSW GetRecordById)""@https://geosur.osureunion.fr/geonetwork/srv/eng/csw?service=CSW&request=GetRecordById&Version=2.0.2&elementSetName=full&outputSchema=http%3A//www.isotc211.org/2005/gmd&id=131d95b0-ccd1-46c4-acb6-b7549d6887f7","useConstraint:otherRestictions_
+accessConstraint:copyright_
+otherConstraint:NA","statement:NA_
+",
