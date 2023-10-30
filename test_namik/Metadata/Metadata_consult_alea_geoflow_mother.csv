@@ -1,0 +1,23 @@
+Identifier,Title,Description,Subject,Creator,Date,Type,Language,SpatialCoverage,TemporalCoverage,Format,Relation,Rights,Provenance,Data
+id:hgm-comores,"title:Consultation pour l’évaluation des risques liés aux aléas hydrométéorologiques et élaboration d’un plan de prévention des risques
+hydrométéorologiques au niveau des communautés cibles Moroni, Anjouan et Mohéli","abstract:""L’étude menée par le PNUD s’inscrit dans le cadre du programme de renforcement de la résilience des Comores aux risques de catastrophes liées au changement et à la variabilité climatique dont le principal bénéficiaire est la Direction Générale de la Sécurité Civile des Comores.
+Les études ont portées sur 3 secteurs d'extension limités sur les trois îles des Comores, l'objectif était de réaliser une étude d'aléas plus détaillée que celles pratiquées jusqu'à présent aux Comores. Les zones d'étude ont été définies en fonction de l'existence d'impacts par des phénomènes récent, de la présence d'enjeux important et d'une représentatitivité de la diversité des contextes hydroclimatiques et morphologiques.
+
+Les  livrables de cette étude sont les suivants :
+- Analyse du contexte légal et règlementaire 
+- Base de données SIG 
+- Cartes de zonage de recommandations
+- Cahier de recommandations
+- Plan National""_
+Info:Cette étude a été financée par le Programme des Nations Unis pour le Développement","theme[general]:Inondation,Submersion,Géomophologie,Risques,Projet Risques Naturels,Planification_
+theme[geographic]:Océan Indien,Comores,Anjouan","publisher:oumour89@gmail.com_
+owner:oumour89@gmail.com_
+pointOfContact:oumour89@gmail.com_
+metadata:mohamedhamidou957@gmail.com",publication:2022-06-01,generic:dataset,fra,,,,,"useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
+accessConstraint:otherRestrictions_
+useConstraint:intellectualPropertyRights_
+otherConstraint:other constraints to highlight.",,"access:default_
+source:Document_consultation_alea@/home/namik/Bureau/Document_consultation_alea.zip_
+sourceType:other_
+uploadType:other_
+uploadSource:Document_consultation_alea.zip"

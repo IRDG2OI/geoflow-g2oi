@@ -1,0 +1,83 @@
+Identifier,Title,Description,Subject,Creator,Date,Type,Language,SpatialCoverage,TemporalCoverage,Format,Relation,Rights,Provenance,Data
+id:HGMANJ,"title:""Zonage des aléas hydrométéorologiques sur l'île d'Anjouan""","abstract:""Donnée provenant de la base de donnée SIG réalisée lors de l’étude sur l’évaluation des risques liés aux aléas hydrométéorologiques dans l’optique de l’élaboration d’un plan de prévention des risques hydrométéorologiques sur l'île d'Anjouan.
+
+L’étude menée par le PNUD s’inscrit dans le cadre du programme de renforcement de la résilience des Comores aux risques de catastrophes liées au changement et à la variabilité climatique. Le principal bénéficiaire de cette étude est la Direction Générale de la Sécurité Civile des Comores.
+
+La donnée décrit le type géomorphologique, la fréquence de crue, l’intensité de l’aléa et le niveau d’activité. Chacun des attributs possède un code texte ainsi qu’un code numérique.
+
+Information:
+La description de la typologie est disponible page 84 du rapport de zonages aléas comores (voir lien de téléchargement ci dessous)""_
+info:Cette étude a été financée par le Programme des Nations Unis pour le Développement","theme[general]:Inondation, Submersion,Géomophologie,Risques,Projet Risques Naturels,Planification/Cadastre_
+theme[geographic]:Océan Indien,Comores,Anjouan","owner:oumour89@gmail.com_
+pointOfContact:oumour89@gmail.com_
+metadata:mohamedhamidou957@gmail.com",publication:2022-06-01,dataset,fra,,2022/2022,"distribution:application/zip[ESRI Shapefile (zipped)]_
+distribution:application/geopackage+sqlite3[GeoPackage]","thumbnail:thumbnail inondation@https://github.com/IRDnamik/thumbnails/blob/main/AMCC/Alea_inondation_Anjouan.png?raw=true_
+thumbnail:thumbnail submersion@https://github.com/IRDnamik/thumbnails/blob/main/AMCC/alea_submersion_anjouan.png?raw=true_
+http:Rapport zonages aleas Comores[Rapport zonages aleas Comores]@https://drive.google.com/file/d/1Kw1uNam6XjpzOE1UZPgF4yzEC206Y5b-/view?usp=sharing_
+parent:AMCC - zonage des aléas hydrométéorologiques sur les îles des Comores[AMCC - zonage des aléas hydrométéorologiques sur les îles des Comores]@https://zenodo.org/records/10014573","useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
+accessConstraint:otherRestrictions_
+useConstraint:intellectualPropertyRights_
+otherConstraint:other constraints to highlight.","statement:""Modélisation à partir d'un modèle numérique de terrain d'une précision spatiale de 1m mais avec présence d'artefacts sur le plan altitudinal de l'ordre de 15m, complétée par des enquêtes de terrain""  ","access:googledrive_
+source:HGMANJ.zip_
+sourceType:shp_
+uploadType:shp_
+uploadSource:HGMANJ.zip_
+store:consult_hgm_vecteur_
+upload:true_
+layername:HGMANJ_
+style:hazard_polygon_
+spatialRepresentationType:vector"
+id:HGMGC,"title:""Zonage des aléas hydrométéorologiques sur l'île de Grande - Comore""","abstract:""Donnée issue de la base de donnée SIG réalisée lors de l’étude sur l’évaluation des risques liés aux aléas hydrométéorologiques dans l’optique de l’élaboration d’un plan de prévention des risques hydrométéorologiques sur l'île de Grande - Comore.
+
+L’étude menée par le PNUD s’inscrit dans le cadre du programme de renforcement de la résilience des Comores aux risques de catastrophes liées au changement et à la variabilité climatique.Le principal bénéficiaire de cette étude est la Direction Générale de la Sécurité Civile des Comores.
+
+La donnée décrit le type géomorphologique, la fréquence de crue, l’intensité de l’aléa et le niveau d’activité. Chacun des attributs possède un code texte ainsi qu’un code numérique.
+
+Information:
+La description de la typologie est disponible page 84 du rapport de zonages aléas comores (voir lien de téléchargement ci dessous)""_
+info:Cette étude a été financée par le Programme des Nations Unis pour le Développement","theme[general]:Inondation, Submersion,Géomophologie,Risques,Projet Risques Naturels,Planification/Cadastre_
+theme[geographic]:Océan Indien,Comores,Grande Comore","owner:oumour89@gmail.com_
+pointOfContact:oumour89@gmail.com_
+metadata:mohamedhamidou957@gmail.com",creation:2022-06-01,dataset,fra,,2022/2022,"distribution:application/zip[ESRI Shapefile (zipped)]_
+distribution:application/geopackage+sqlite3[GeoPackage]","thumbnail:thumbnail inondation@https://github.com/IRDnamik/thumbnails/blob/main/AMCC/Alea_inondation_gc.png?raw=true_
+thumbnail:thumbnail submersion@https://github.com/IRDnamik/thumbnails/blob/main/AMCC/aléa_submersion_gc.png?raw=true_
+http:Rapport zonages aleas Comores[Rapport zonages aleas Comores]@https://drive.google.com/file/d/1Kw1uNam6XjpzOE1UZPgF4yzEC206Y5b-/view?usp=sharing_
+parent:AMCC - zonage des aléas hydrométéorologiques sur les îles des Comores[AMCC - zonage des aléas hydrométéorologiques sur les îles des Comores]@https://zenodo.org/records/10014573","useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
+accessConstraint:otherRestrictions_
+useConstraint:intellectualPropertyRights_
+otherConstraint:other constraints to highlight.","statement:""Modélisation à partir d'un modèle numérique de terrain d'une précision spatiale de 1m mais avec présence d'artefacts sur le plan altitudinal de l'ordre de 15m, complétée par des enquêtes de terrain""  ","access:googledrive_
+source:HGMGC.zip_
+sourceType:shp_
+uploadType:shp_
+uploadSource:HGMGC.zip_
+store:consult_hgm_vecteur_
+upload:true_
+layername:HGMGC_
+style:hazard_polygon_
+spatialRepresentationType:vector"
+id:HGMMOHELIV2,"title:""Zonage des aléas hydrométéorologiques sur l'île de Mohéli""","abstract:""Donnée issue de la base de donnée SIG réalisée lors de l’étude sur l’évaluation des risques liés aux aléas hydrométéorologiques dans l’optique de l’élaboration d’un plan de prévention des risques hydrométéorologiques sur l'île de Mohéli.L’étude menée par le PNUD s’inscrit dans le cadre du programme de renforcement de la résilience des Comores aux risques de catastrophes liées au changement et à la variabilité climatique. Le principal bénéficiaire de cette étude est la Direction Générale de la Sécurité Civile des Comores.
+
+La donnée décrit le type géomorphologique, la fréquence de crue, l’intensité de l’aléa et le niveau d’activité. Chacun des attributs possède un code texte ainsi qu’un code numérique.
+
+Information:
+La description de la typologie est disponible page 84 du rapport de zonages aléas comores (voir ""_
+info:Cette étude a été financée par le Programme des Nations Unis pour le Développement","theme[general]:Inondation, Submersion,Géomophologie,Risques,Projet Risques Naturels,Planification/Cadastre_
+theme[geographic]:Océan Indien,Comores,Mohéli","owner:oumour89@gmail.com_
+pointOfContact:oumour89@gmail.com_
+metadata:mohamedhamidou957@gmail.com",creation:2022-06-01,dataset,fra,,2022/2022,"distribution:application/zip[ESRI Shapefile (zipped)]_
+distribution:application/geopackage+sqlite3[GeoPackage]","thumbnail:thumbnail inondation@https://github.com/IRDnamik/thumbnails/blob/main/AMCC/Alea_inondation_Moheli.png?raw=true_
+thumbnail:thumbnail submersion@https://github.com/IRDnamik/thumbnails/blob/main/AMCC/alea_submersion_moheli.png?raw=true_
+http:Rapport zonages aleas Comores[Rapport zonages aleas Comores]@https://drive.google.com/file/d/1Kw1uNam6XjpzOE1UZPgF4yzEC206Y5b-/view?usp=sharing_
+parent:AMCC - zonage des aléas hydrométéorologiques sur les îles des Comores[AMCC - zonage des aléas hydrométéorologiques sur les îles des Comores]@https://zenodo.org/records/10014573","useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
+accessConstraint:otherRestrictions_
+useConstraint:intellectualPropertyRights_
+otherConstraint:other constraints to highlight.","statement:""Modélisation à partir d'un modèle numérique de terrain d'une précision spatiale de 1m mais avec présence d'artefacts sur le plan altitudinal de l'ordre de 15m, complétée par des enquêtes de terrain""  ","access:googledrive_
+source:HGMMOHELIV2.zip_
+sourceType:shp_
+uploadType:shp_
+uploadSource:HGMMOHELIV2.zip_
+store:consult_hgm_vecteur_
+upload:true_
+layername:HGMMOHELI_
+style:hazard_polygon_
+spatialRepresentationType:vector"
