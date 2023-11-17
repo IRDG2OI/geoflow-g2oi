@@ -4,7 +4,7 @@ This project is being developed as part of the G2OI project, cofinanced by the E
 <div align="center">
 
 
-<img src="https://github.com/IRDG2OI/geoflow-g2oi/blob/main/img/logos_partenaires.png?raw=True" height="40px">
+<img src="https://github.com/IRDG2OI/geoflow-g2oi/blob/main/img/logos_partenaires.png?raw=True" height="80px">
 
 </div>
 
