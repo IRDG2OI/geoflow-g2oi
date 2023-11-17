@@ -1,3 +1,12 @@
+# ACKOWLEDGEMENT
+<div align="center">
+
+This project is being developed as part of the G2OI project, cofinanced by the European Union, the Reunion region, and the French Republic.
+
+<img src="https://github.com/IRDG2OI/geoflow-g2oi/blob/main/img/logos_partenaires.png?raw=True" height="40px">
+
+</div>
+
 # GEOFLOW CONFIGS
 
 Please first set up following configuration to share your workflow
