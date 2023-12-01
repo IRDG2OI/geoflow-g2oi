@@ -19,7 +19,7 @@
         "entities": [
             {
                 "handler": "csv",
-                "source": "https://drive.ird.fr/s/EYS3qccyB28PrA9/download/geoflow_g2oi_contacts.csv"
+                "source": "20231011-102200_iso19115-metadata.csv"
             }
         ],
         "contacts": [
