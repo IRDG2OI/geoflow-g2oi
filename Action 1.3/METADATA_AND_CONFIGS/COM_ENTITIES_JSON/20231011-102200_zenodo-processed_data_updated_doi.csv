@@ -1,0 +1,2379 @@
+Identifier,Title,Description,Subject,Creator,Date,Type,Language,SpatialCoverage,TemporalCoverage,Relation,Rights,Provenance,Format,Data
+"id:20230626_COM-bangoua-kouni_UAV-02_1_
+doi:10.5281/zenodo.8436903","title:""Orthophoto & DEM (MNE) issues d'images de drone, Bangoua kouni, Comores - 20230626""","abstract:""Ce jeu de données présente les résultats des traitements photogrammétriques d’images de drone acquises sur le site de Bangoua kouni, Grande Comore, Comores à la date suivante : 20230626.
+<br />Les traitements ont été réalisés avec le logiciel OpenDroneMap à partir des images brutes fournies dans la première version de ce DOI.
+<br />Les vols ont été réalisés en partenariat avec la DGSC (Direction Générale de la Sécurité Civile, Comores) dans le but de créer des modèles numériques d'élévations pour cartographier les risques naturels d’inondations ou de submersion marine.
+<br /><br />Le paramétrage du logiciel OpenDroneMap est partagé pour permettre la reproductibilité ou l'amélioration des traitements proposés:<br />
+[
+<br />        {
+<br />            'name': 'orthophoto-resolution',
+<br />            'value': 1
+<br />        },
+<br />        {
+<br />            'name': 'auto-boundary',
+<br />            'value': true
+<br />        },
+<br />        {
+<br />            'name': 'dem-resolution',
+<br />            'value': '2.0'
+<br />        },
+<br />        {
+<br />            'name': 'dsm',
+<br />            'value': true
+<br />        }
+<br />    ]
+<br />
+<br /><b>Le dépôt est composé des éléments suivants:</b>
+<br />    - 00_: Planche d'aperçu des images
+<br />    - 000_photogrammetry_report.pdf: rapport issu du traitement OpenDroneMap
+<br />    - DCIM.zip: Images brutes issues du drone
+<br />    - GPS.zip: Geopackage contenant l’emprise du survol ainsi que la géolocalisation des images accompagnées de leurs miniatures dans la table d’attribut en base64
+<br />    - METADATA.zip: Métadonnées au format ISO19115, Rapports avec miniatures des images de drone (dossier tb) et statistiques de vols.
+<br />    - PROCESSED_DATA.zip: Orthophoto, DEM, nuages de points, ...
+<br />
+<br /><b>Arborescence d'origine:</b>
+<br />└─ 20230626_COM-bangoua-kouni_UAV-02_1
+<br />  └─ DCIM
+<br />  └─ GPS
+<br />  └─ METADATA
+<br />    └─ tb
+<br />  └─ PROCESSED_DATA
+<br />
+<br />
+<br /><b>Informations de survol:</b>
+<br />- Camera model and parameters:
+<br /> Make: Hasselblad
+<br /> Model: L1D-20c
+<br /> Width: 5472
+<br /> Height: 3648
+<br /> Focal: 28
+<br /> WhiteBalance: Manual
+<br /> ExposureMode: Auto Exposure
+<br /> ColoSpace: sRGB
+<br /> EV: -0.7
+<br /> MeteringMode: CenterWeightedAverage
+<br /> Camera Pitch: -89.90
+<br />
+<br />- Survey informations:
+<br /> No Images: 301
+<br /> Median height: 120 meters
+<br /> Survey area: 43.02 hectares
+<br /> Survey from: 2023:06:27 10:32:22 to: 2023:06:27 10:49:42
+<br />
+<br />Les dépôts suivants comprennent les données traitées avec OpenDroneMap""_
+info:This study was funded by the European Regional Development Fund (ERDF) within the programme Interreg V 2014-2020 through the project G2OI_
+edition:RAW DATA","theme[General]:Comores,Grande Comore,flooding,natural risk,risque inondation,drone,uav,uas,DEM,DSM,orthophoto,mapping,cartographie,submersion,marine_
+project:G2OI@https://www.ird.fr/projet-g2oi-grand-observatoire-de-locean-indien","author:sylvain.poulain@ird.fr,julien.barde@ird.fr,natali.mmadi@gmail.com,mohamedhamidou957@gmail.com,comores.dgsc@gmail.com_
+publisher:sylvain.poulain@ird.fr_
+owner:comores.dgsc@gmail.com_
+pointOfContact:julien.barde@ird.fr_
+processor:sylvain.poulain@ird.fr_
+publisher:sylvain.poulain@ird.fr_
+owner:comores.dgsc@gmail.com_
+pointOfContact:julien.barde@ird.fr_
+processor:sylvain.poulain@ird.fr","publication:2023-10-11_
+edition:2023-10-11",dataset,fra,,2023-06-27,"thumbnail:G2OI@https://g2oi.ird.fr/static/img/logo_ird.png_
+http:Website G2OI[G2OI Website]@https://www.ird.fr/projet-g2oi-grand-observatoire-de-locean-indien","useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
+accessConstraint:otherRestrictions_
+useConstraint:intellectualPropertyRights_
+otherConstraint:Le fournisseur n’est pas en mesure de garantir l’exactitude, la mise à jour, l’intégrité, l’exhaustivité des données et en particulier qu'elles sont exemptes d'erreurs ou d'imprécisions, notamment de localisation, d’identification ou de qualification. Aucune garantie quant à l'aptitude des données à un usage particulier n'est apportée par le fournisseur. Les utilisateurs utilisent les données sous leur responsabilité pleine et entière, sans recours possible contre le fournisseur dont la responsabilité ne saurait être engagée du fait d’un dommage résultant directement ou indirectement de l’utilisation de ces données. En particulier, il appartient aux utilisateurs d’apprécier, sous leur seule responsabilité : l'opportunité d'utiliser les données; la compatibilité des fichiers avec leurs systèmes informatiques; l’adéquation des données à leurs besoins; qu’ils disposent de la compétence suffisante pour utiliser les données. Le fournisseur n’est en aucune façon responsable des éléments extérieurs aux données et notamment des outils d’analyse, matériels, logiciels, réseaux..., utilisés pour consulter et/ou traiter les données. L’utilisateur veille à vérifier que l’actualité des informations mises à disposition est compatible avec l’usage qu’il en fait.","statement:""- Camera model and parameters:
+ Make: Hasselblad
+ Model: L1D-20c
+ Width: 5472
+ Height: 3648
+ Focal: 28
+ WhiteBalance: Manual
+ ExposureMode: Auto Exposure
+ ColoSpace: sRGB
+ EV: -0.7
+ MeteringMode: CenterWeightedAverage
+ Camera Pitch: -89.90
+
+- Survey informations:
+ No Images: 565
+ Median height: 120 meters
+ Survey area: 1139.28 hectares
+ Survey from: 2023:06:26 15:59:22 to: 2023:07:01 11:36:44
+
+UTM Coordinate system:
+ WGS 84 / UTM zone 38S
+ EPSG:32738
+ Description:
+  name: Between 42°E and 48°E, southern hemisphere between 80°S and equator, onshore and offshore. Madagascar.
+  bounds: (42.0, -80.0, 48.0, 0.0)
+
+- Meteo:
+                       T° Humidity     hPa CloudCover WindSpd-10m WindDir-10m  \
+date                                                                            
+2023-06-26 00:00:00  21.8       82  1015.3         15        14.3         170   
+2023-06-26 01:00:00  21.7       83  1015.2         23        14.6         171   
+2023-06-26 02:00:00  21.6       83  1015.4         43        15.6         173   
+2023-06-26 03:00:00  21.6       83  1016.0         38        15.5         175   
+2023-06-26 04:00:00  21.8       82  1016.7         41        15.5         176   
+...                   ...      ...     ...        ...         ...         ...   
+2023-07-01 19:00:00  22.8       74  1021.3         29        19.3         156   
+2023-07-01 20:00:00  22.7       75  1020.9         27        18.7         152   
+2023-07-01 21:00:00  22.5       75  1020.6         28        18.7         150   
+2023-07-01 22:00:00  22.5       76  1020.6         15        16.9         146   
+2023-07-01 23:00:00  22.4       77  1019.6         17        16.3         149   
+
+                    WindSpd-100m WindDir-100m Rain  
+date                                                
+2023-06-26 00:00:00         19.8          170  0.0  
+2023-06-26 01:00:00         20.4          172  0.0  
+2023-06-26 02:00:00         21.4          173  0.1  
+2023-06-26 03:00:00         21.3          175  0.1  
+2023-06-26 04:00:00         21.3          176  0.0  
+...                          ...          ...  ...  
+2023-07-01 19:00:00         26.1          156  0.1  
+2023-07-01 20:00:00         25.3          152  0.1  
+2023-07-01 21:00:00         25.3          150  0.0  
+2023-07-01 22:00:00         23.0          148  0.0  
+2023-07-01 23:00:00         22.2          151  0.0  
+
+[144 rows x 9 columns]""_
+process:Download from WebODM_
+process:Download from WebODM_
+process:Download from WebODM_
+process:Download from WebODM","resource:image/tiff_
+distribution:image/tiff[GeoTIFF]","source:000_photogrammetry_report.pdf@/home/sylvain/DATA/COMORES/20230626_COM-bangoua-kouni_UAV-02_1/000_photogrammetry_report.pdf,PROCESSED_DATA.zip@/home/sylvain/DATA/COMORES/20230626_COM-bangoua-kouni_UAV-02_1/PROCESSED_DATA.zip_
+sourceType:other"
+"id:20230701_COM-nioumadzaha-mitsoudje_UAV-02_1_
+doi:10.5281/zenodo.8436907","title:""Orthophoto & DEM (MNE) issues d'images de drone, Nioumadzaha mitsoudje, Comores - 20230701""","abstract:""Ce jeu de données présente les résultats des traitements photogrammétriques d’images de drone acquises sur le site de Nioumadzaha mitsoudje, Grande Comore, Comores à la date suivante : 20230701.
+<br />Les traitements ont été réalisés avec le logiciel OpenDroneMap à partir des images brutes fournies dans la première version de ce DOI.
+<br />Les vols ont été réalisés en partenariat avec la DGSC (Direction Générale de la Sécurité Civile, Comores) dans le but de créer des modèles numériques d'élévations pour cartographier les risques naturels d’inondations ou de submersion marine.
+<br /><br />Le paramétrage du logiciel OpenDroneMap est partagé pour permettre la reproductibilité ou l'amélioration des traitements proposés:<br />
+[
+<br />        {
+<br />            'name': 'orthophoto-resolution',
+<br />            'value': 1
+<br />        },
+<br />        {
+<br />            'name': 'auto-boundary',
+<br />            'value': true
+<br />        },
+<br />        {
+<br />            'name': 'dem-resolution',
+<br />            'value': '2.0'
+<br />        },
+<br />        {
+<br />            'name': 'dsm',
+<br />            'value': true
+<br />        }
+<br />    ]
+<br />
+<br /><b>Le dépôt est composé des éléments suivants:</b>
+<br />    - 00_: Planche d'aperçu des images
+<br />    - 000_photogrammetry_report.pdf: rapport issu du traitement OpenDroneMap
+<br />    - DCIM.zip: Images brutes issues du drone
+<br />    - GPS.zip: Geopackage contenant l’emprise du survol ainsi que la géolocalisation des images accompagnées de leurs miniatures dans la table d’attribut en base64
+<br />    - METADATA.zip: Métadonnées au format ISO19115, Rapports avec miniatures des images de drone (dossier tb) et statistiques de vols.
+<br />    - PROCESSED_DATA.zip: Orthophoto, DEM, nuages de points, ...
+<br />
+<br /><b>Arborescence d'origine:</b>
+<br />└─ 20230701_COM-nioumadzaha-mitsoudje_UAV-02_1
+<br />  └─ DCIM
+<br />  └─ GPS
+<br />  └─ METADATA
+<br />    └─ tb
+<br />  └─ PROCESSED_DATA
+<br />
+<br />
+<br /><b>Informations de survol:</b>
+<br />- Camera model and parameters:
+<br /> Make: Hasselblad
+<br /> Model: L1D-20c
+<br /> Width: 5472
+<br /> Height: 3648
+<br /> Focal: 28
+<br /> WhiteBalance: Manual
+<br /> ExposureMode: Auto Exposure
+<br /> ColoSpace: sRGB
+<br /> EV: -0.7
+<br /> MeteringMode: CenterWeightedAverage
+<br /> Camera Pitch: -89.90
+<br />
+<br />- Survey informations:
+<br /> No Images: 565
+<br /> Median height: 120 meters
+<br /> Survey area: 1139.28 hectares
+<br /> Survey from: 2023:06:26 15:59:22 to: 2023:07:01 11:36:44
+<br />
+<br />Les dépôts suivants comprennent les données traitées avec OpenDroneMap""_
+info:This study was funded by the European Regional Development Fund (ERDF) within the programme Interreg V 2014-2020 through the project G2OI_
+edition:RAW DATA","theme[General]:Comores,Grande Comore,flooding,natural risk,risque inondation,drone,uav,uas,DEM,DSM,orthophoto,mapping,cartographie,submersion,marine_
+project:G2OI@https://www.ird.fr/projet-g2oi-grand-observatoire-de-locean-indien","author:sylvain.poulain@ird.fr,julien.barde@ird.fr,natali.mmadi@gmail.com,mohamedhamidou957@gmail.com,comores.dgsc@gmail.com_
+publisher:sylvain.poulain@ird.fr_
+owner:comores.dgsc@gmail.com_
+pointOfContact:julien.barde@ird.fr_
+processor:sylvain.poulain@ird.fr_
+publisher:sylvain.poulain@ird.fr_
+owner:comores.dgsc@gmail.com_
+pointOfContact:julien.barde@ird.fr_
+processor:sylvain.poulain@ird.fr","publication:2023-10-11_
+edition:2023-10-11",dataset,fra,,2023-06-26 15-59-22 - 2023-07-01 11-36-44,"thumbnail:G2OI@https://g2oi.ird.fr/static/img/logo_ird.png_
+http:Website G2OI[G2OI Website]@https://www.ird.fr/projet-g2oi-grand-observatoire-de-locean-indien","useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
+accessConstraint:otherRestrictions_
+useConstraint:intellectualPropertyRights_
+otherConstraint:Le fournisseur n’est pas en mesure de garantir l’exactitude, la mise à jour, l’intégrité, l’exhaustivité des données et en particulier qu'elles sont exemptes d'erreurs ou d'imprécisions, notamment de localisation, d’identification ou de qualification. Aucune garantie quant à l'aptitude des données à un usage particulier n'est apportée par le fournisseur. Les utilisateurs utilisent les données sous leur responsabilité pleine et entière, sans recours possible contre le fournisseur dont la responsabilité ne saurait être engagée du fait d’un dommage résultant directement ou indirectement de l’utilisation de ces données. En particulier, il appartient aux utilisateurs d’apprécier, sous leur seule responsabilité : l'opportunité d'utiliser les données; la compatibilité des fichiers avec leurs systèmes informatiques; l’adéquation des données à leurs besoins; qu’ils disposent de la compétence suffisante pour utiliser les données. Le fournisseur n’est en aucune façon responsable des éléments extérieurs aux données et notamment des outils d’analyse, matériels, logiciels, réseaux..., utilisés pour consulter et/ou traiter les données. L’utilisateur veille à vérifier que l’actualité des informations mises à disposition est compatible avec l’usage qu’il en fait.","statement:""- Camera model and parameters:
+ Make: Hasselblad
+ Model: L1D-20c
+ Width: 5472
+ Height: 3648
+ Focal: 28
+ WhiteBalance: Manual
+ ExposureMode: Auto Exposure
+ ColoSpace: sRGB
+ EV: -0.7
+ MeteringMode: CenterWeightedAverage
+ Camera Pitch: -89.90
+
+- Survey informations:
+ No Images: 565
+ Median height: 120 meters
+ Survey area: 1139.28 hectares
+ Survey from: 2023:06:26 15:59:22 to: 2023:07:01 11:36:44
+
+UTM Coordinate system:
+ WGS 84 / UTM zone 38S
+ EPSG:32738
+ Description:
+  name: Between 42°E and 48°E, southern hemisphere between 80°S and equator, onshore and offshore. Madagascar.
+  bounds: (42.0, -80.0, 48.0, 0.0)
+
+- Meteo:
+                       T° Humidity     hPa CloudCover WindSpd-10m WindDir-10m  \
+date                                                                            
+2023-06-26 00:00:00  21.8       82  1015.3         15        14.3         170   
+2023-06-26 01:00:00  21.7       83  1015.2         23        14.6         171   
+2023-06-26 02:00:00  21.6       83  1015.4         43        15.6         173   
+2023-06-26 03:00:00  21.6       83  1016.0         38        15.5         175   
+2023-06-26 04:00:00  21.8       82  1016.7         41        15.5         176   
+...                   ...      ...     ...        ...         ...         ...   
+2023-07-01 19:00:00  22.8       74  1021.3         29        19.3         156   
+2023-07-01 20:00:00  22.7       75  1020.9         27        18.7         152   
+2023-07-01 21:00:00  22.5       75  1020.6         28        18.7         150   
+2023-07-01 22:00:00  22.5       76  1020.6         15        16.9         146   
+2023-07-01 23:00:00  22.4       77  1019.6         17        16.3         149   
+
+                    WindSpd-100m WindDir-100m Rain  
+date                                                
+2023-06-26 00:00:00         19.8          170  0.0  
+2023-06-26 01:00:00         20.4          172  0.0  
+2023-06-26 02:00:00         21.4          173  0.1  
+2023-06-26 03:00:00         21.3          175  0.1  
+2023-06-26 04:00:00         21.3          176  0.0  
+...                          ...          ...  ...  
+2023-07-01 19:00:00         26.1          156  0.1  
+2023-07-01 20:00:00         25.3          152  0.1  
+2023-07-01 21:00:00         25.3          150  0.0  
+2023-07-01 22:00:00         23.0          148  0.0  
+2023-07-01 23:00:00         22.2          151  0.0  
+
+[144 rows x 9 columns]""_
+process:Download from WebODM_
+process:Download from WebODM_
+process:Download from WebODM_
+process:Download from WebODM","resource:image/tiff_
+distribution:image/tiff[GeoTIFF]","source:000_photogrammetry_report.pdf@/home/sylvain/DATA/COMORES/20230701_COM-nioumadzaha-mitsoudje_UAV-02_1/000_photogrammetry_report.pdf,PROCESSED_DATA.zip@/home/sylvain/DATA/COMORES/20230701_COM-nioumadzaha-mitsoudje_UAV-02_1/PROCESSED_DATA.zip_
+sourceType:other"
+"id:20230626_COM-bandamaji_UAV-01_2_
+doi:10.5281/zenodo.8436931","title:""Orthophoto & DEM (MNE) issues d'images de drone, Bandamaji, Comores - 20230626""","abstract:""Ce jeu de données présente les résultats des traitements photogrammétriques d’images de drone acquises sur le site de Bandamaji, Grande Comore, Comores à la date suivante : 20230626.
+<br />Les traitements ont été réalisés avec le logiciel OpenDroneMap à partir des images brutes fournies dans la première version de ce DOI.
+<br />Les vols ont été réalisés en partenariat avec la DGSC (Direction Générale de la Sécurité Civile, Comores) dans le but de créer des modèles numériques d'élévations pour cartographier les risques naturels d’inondations ou de submersion marine.
+<br /><br />Le paramétrage du logiciel OpenDroneMap est partagé pour permettre la reproductibilité ou l'amélioration des traitements proposés:<br />
+[
+<br />        {
+<br />            'name': 'orthophoto-resolution',
+<br />            'value': 1
+<br />        },
+<br />        {
+<br />            'name': 'auto-boundary',
+<br />            'value': true
+<br />        },
+<br />        {
+<br />            'name': 'dem-resolution',
+<br />            'value': '2.0'
+<br />        },
+<br />        {
+<br />            'name': 'dsm',
+<br />            'value': true
+<br />        }
+<br />    ]
+<br />
+<br /><b>Le dépôt est composé des éléments suivants:</b>
+<br />    - 00_: Planche d'aperçu des images
+<br />    - 000_photogrammetry_report.pdf: rapport issu du traitement OpenDroneMap
+<br />    - DCIM.zip: Images brutes issues du drone
+<br />    - GPS.zip: Geopackage contenant l’emprise du survol ainsi que la géolocalisation des images accompagnées de leurs miniatures dans la table d’attribut en base64
+<br />    - METADATA.zip: Métadonnées au format ISO19115, Rapports avec miniatures des images de drone (dossier tb) et statistiques de vols.
+<br />    - PROCESSED_DATA.zip: Orthophoto, DEM, nuages de points, ...
+<br />
+<br /><b>Arborescence d'origine:</b>
+<br />└─ 20230626_COM-bandamaji_UAV-01_2
+<br />  └─ DCIM
+<br />  └─ GPS
+<br />  └─ METADATA
+<br />    └─ tb
+<br />  └─ PROCESSED_DATA
+<br />
+<br />
+<br /><b>Informations de survol:</b>
+<br />- Camera model and parameters:
+<br /> Make: Hasselblad
+<br /> Model: L1D-20c
+<br /> Width: 5472
+<br /> Height: 3648
+<br /> Focal: 28
+<br /> WhiteBalance: Auto
+<br /> ExposureMode: Auto Exposure
+<br /> ColoSpace: sRGB
+<br /> EV: -0.7
+<br /> MeteringMode: CenterWeightedAverage
+<br /> Camera Pitch: -70.00
+<br />
+<br />- Survey informations:
+<br /> No Images: 104
+<br /> Median height: 100 meters
+<br /> Survey area: 4.95 hectares
+<br /> Survey from: 2023:06:26 15:51:39 to: 2023:06:26 15:58:55
+<br />
+<br />Les dépôts suivants comprennent les données traitées avec OpenDroneMap""_
+info:This study was funded by the European Regional Development Fund (ERDF) within the programme Interreg V 2014-2020 through the project G2OI_
+edition:RAW DATA","theme[General]:Comores,Grande Comore,flooding,natural risk,risque inondation,drone,uav,uas,DEM,DSM,orthophoto,mapping,cartographie,submersion,marine_
+project:G2OI@https://www.ird.fr/projet-g2oi-grand-observatoire-de-locean-indien","author:sylvain.poulain@ird.fr,julien.barde@ird.fr,natali.mmadi@gmail.com,mohamedhamidou957@gmail.com,comores.dgsc@gmail.com_
+publisher:sylvain.poulain@ird.fr_
+owner:comores.dgsc@gmail.com_
+pointOfContact:julien.barde@ird.fr_
+processor:sylvain.poulain@ird.fr_
+publisher:sylvain.poulain@ird.fr_
+owner:comores.dgsc@gmail.com_
+pointOfContact:julien.barde@ird.fr_
+processor:sylvain.poulain@ird.fr","publication:2023-10-11_
+edition:2023-10-11",dataset,fra,,2023-06-26 15-51-39 - 2023-06-26 15-58-55,"thumbnail:G2OI@https://g2oi.ird.fr/static/img/logo_ird.png_
+http:Website G2OI[G2OI Website]@https://www.ird.fr/projet-g2oi-grand-observatoire-de-locean-indien","useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
+accessConstraint:otherRestrictions_
+useConstraint:intellectualPropertyRights_
+otherConstraint:Le fournisseur n’est pas en mesure de garantir l’exactitude, la mise à jour, l’intégrité, l’exhaustivité des données et en particulier qu'elles sont exemptes d'erreurs ou d'imprécisions, notamment de localisation, d’identification ou de qualification. Aucune garantie quant à l'aptitude des données à un usage particulier n'est apportée par le fournisseur. Les utilisateurs utilisent les données sous leur responsabilité pleine et entière, sans recours possible contre le fournisseur dont la responsabilité ne saurait être engagée du fait d’un dommage résultant directement ou indirectement de l’utilisation de ces données. En particulier, il appartient aux utilisateurs d’apprécier, sous leur seule responsabilité : l'opportunité d'utiliser les données; la compatibilité des fichiers avec leurs systèmes informatiques; l’adéquation des données à leurs besoins; qu’ils disposent de la compétence suffisante pour utiliser les données. Le fournisseur n’est en aucune façon responsable des éléments extérieurs aux données et notamment des outils d’analyse, matériels, logiciels, réseaux..., utilisés pour consulter et/ou traiter les données. L’utilisateur veille à vérifier que l’actualité des informations mises à disposition est compatible avec l’usage qu’il en fait.","statement:""- Camera model and parameters:
+ Make: Hasselblad
+ Model: L1D-20c
+ Width: 5472
+ Height: 3648
+ Focal: 28
+ WhiteBalance: Manual
+ ExposureMode: Auto Exposure
+ ColoSpace: sRGB
+ EV: -0.7
+ MeteringMode: CenterWeightedAverage
+ Camera Pitch: -89.90
+
+- Survey informations:
+ No Images: 565
+ Median height: 120 meters
+ Survey area: 1139.28 hectares
+ Survey from: 2023:06:26 15:59:22 to: 2023:07:01 11:36:44
+
+UTM Coordinate system:
+ WGS 84 / UTM zone 38S
+ EPSG:32738
+ Description:
+  name: Between 42°E and 48°E, southern hemisphere between 80°S and equator, onshore and offshore. Madagascar.
+  bounds: (42.0, -80.0, 48.0, 0.0)
+
+- Meteo:
+                       T° Humidity     hPa CloudCover WindSpd-10m WindDir-10m  \
+date                                                                            
+2023-06-26 00:00:00  21.8       82  1015.3         15        14.3         170   
+2023-06-26 01:00:00  21.7       83  1015.2         23        14.6         171   
+2023-06-26 02:00:00  21.6       83  1015.4         43        15.6         173   
+2023-06-26 03:00:00  21.6       83  1016.0         38        15.5         175   
+2023-06-26 04:00:00  21.8       82  1016.7         41        15.5         176   
+...                   ...      ...     ...        ...         ...         ...   
+2023-07-01 19:00:00  22.8       74  1021.3         29        19.3         156   
+2023-07-01 20:00:00  22.7       75  1020.9         27        18.7         152   
+2023-07-01 21:00:00  22.5       75  1020.6         28        18.7         150   
+2023-07-01 22:00:00  22.5       76  1020.6         15        16.9         146   
+2023-07-01 23:00:00  22.4       77  1019.6         17        16.3         149   
+
+                    WindSpd-100m WindDir-100m Rain  
+date                                                
+2023-06-26 00:00:00         19.8          170  0.0  
+2023-06-26 01:00:00         20.4          172  0.0  
+2023-06-26 02:00:00         21.4          173  0.1  
+2023-06-26 03:00:00         21.3          175  0.1  
+2023-06-26 04:00:00         21.3          176  0.0  
+...                          ...          ...  ...  
+2023-07-01 19:00:00         26.1          156  0.1  
+2023-07-01 20:00:00         25.3          152  0.1  
+2023-07-01 21:00:00         25.3          150  0.0  
+2023-07-01 22:00:00         23.0          148  0.0  
+2023-07-01 23:00:00         22.2          151  0.0  
+
+[144 rows x 9 columns]""_
+process:Download from WebODM_
+process:Download from WebODM_
+process:Download from WebODM_
+process:Download from WebODM_
+process:Download from WebODM","resource:image/tiff_
+distribution:image/tiff[GeoTIFF]","source:000_photogrammetry_report.pdf@/home/sylvain/DATA/COMORES/20230626_COM-bandamaji_UAV-01_2/000_photogrammetry_report.pdf,PROCESSED_DATA.zip@/home/sylvain/DATA/COMORES/20230626_COM-bandamaji_UAV-01_2/PROCESSED_DATA.zip_
+sourceType:other"
+"id:20230701_COM-nioumadzaha-mitsoudje_UAV-01_3_
+doi:10.5281/zenodo.8436934","title:""Orthophoto & DEM (MNE) issues d'images de drone, Nioumadzaha mitsoudje, Comores - 20230701""","abstract:""Ce jeu de données présente les résultats des traitements photogrammétriques d’images de drone acquises sur le site de Nioumadzaha mitsoudje, Grande Comore, Comores à la date suivante : 20230701.
+<br />Les traitements ont été réalisés avec le logiciel OpenDroneMap à partir des images brutes fournies dans la première version de ce DOI.
+<br />Les vols ont été réalisés en partenariat avec la DGSC (Direction Générale de la Sécurité Civile, Comores) dans le but de créer des modèles numériques d'élévations pour cartographier les risques naturels d’inondations ou de submersion marine.
+<br /><br />Le paramétrage du logiciel OpenDroneMap est partagé pour permettre la reproductibilité ou l'amélioration des traitements proposés:<br />
+[
+<br />        {
+<br />            'name': 'orthophoto-resolution',
+<br />            'value': 1
+<br />        },
+<br />        {
+<br />            'name': 'auto-boundary',
+<br />            'value': true
+<br />        },
+<br />        {
+<br />            'name': 'dem-resolution',
+<br />            'value': '2.0'
+<br />        },
+<br />        {
+<br />            'name': 'dsm',
+<br />            'value': true
+<br />        }
+<br />    ]
+<br />
+<br /><b>Le dépôt est composé des éléments suivants:</b>
+<br />    - 00_: Planche d'aperçu des images
+<br />    - 000_photogrammetry_report.pdf: rapport issu du traitement OpenDroneMap
+<br />    - DCIM.zip: Images brutes issues du drone
+<br />    - GPS.zip: Geopackage contenant l’emprise du survol ainsi que la géolocalisation des images accompagnées de leurs miniatures dans la table d’attribut en base64
+<br />    - METADATA.zip: Métadonnées au format ISO19115, Rapports avec miniatures des images de drone (dossier tb) et statistiques de vols.
+<br />    - PROCESSED_DATA.zip: Orthophoto, DEM, nuages de points, ...
+<br />
+<br /><b>Arborescence d'origine:</b>
+<br />└─ 20230701_COM-nioumadzaha-mitsoudje_UAV-01_3
+<br />  └─ DCIM
+<br />  └─ GPS
+<br />  └─ METADATA
+<br />    └─ tb
+<br />  └─ PROCESSED_DATA
+<br />
+<br />
+<br /><b>Informations de survol:</b>
+<br />- Camera model and parameters:
+<br /> Make: Hasselblad
+<br /> Model: L1D-20c
+<br /> Width: 5472
+<br /> Height: 3648
+<br /> Focal: 28
+<br /> WhiteBalance: Auto
+<br /> ExposureMode: Auto Exposure
+<br /> ColoSpace: sRGB
+<br /> EV: -1.0
+<br /> MeteringMode: CenterWeightedAverage
+<br /> Camera Pitch: -90.00
+<br />
+<br />- Survey informations:
+<br /> No Images: 132
+<br /> Median height: 120 meters
+<br /> Survey area: 16.64 hectares
+<br /> Survey from: 2023:07:01 11:26:01 to: 2023:07:01 11:34:29
+<br />
+<br />Les dépôts suivants comprennent les données traitées avec OpenDroneMap""_
+info:This study was funded by the European Regional Development Fund (ERDF) within the programme Interreg V 2014-2020 through the project G2OI_
+edition:RAW DATA","theme[General]:Comores,Grande Comore,flooding,natural risk,risque inondation,drone,uav,uas,DEM,DSM,orthophoto,mapping,cartographie,submersion,marine_
+project:G2OI@https://www.ird.fr/projet-g2oi-grand-observatoire-de-locean-indien","author:sylvain.poulain@ird.fr,julien.barde@ird.fr,natali.mmadi@gmail.com,mohamedhamidou957@gmail.com,comores.dgsc@gmail.com_
+publisher:sylvain.poulain@ird.fr_
+owner:comores.dgsc@gmail.com_
+pointOfContact:julien.barde@ird.fr_
+processor:sylvain.poulain@ird.fr_
+publisher:sylvain.poulain@ird.fr_
+owner:comores.dgsc@gmail.com_
+pointOfContact:julien.barde@ird.fr_
+processor:sylvain.poulain@ird.fr","publication:2023-10-11_
+edition:2023-10-11",dataset,fra,,2023-07-01 11-26-01 - 2023-07-01 11-34-29,"thumbnail:G2OI@https://g2oi.ird.fr/static/img/logo_ird.png_
+http:Website G2OI[G2OI Website]@https://www.ird.fr/projet-g2oi-grand-observatoire-de-locean-indien","useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
+accessConstraint:otherRestrictions_
+useConstraint:intellectualPropertyRights_
+otherConstraint:Le fournisseur n’est pas en mesure de garantir l’exactitude, la mise à jour, l’intégrité, l’exhaustivité des données et en particulier qu'elles sont exemptes d'erreurs ou d'imprécisions, notamment de localisation, d’identification ou de qualification. Aucune garantie quant à l'aptitude des données à un usage particulier n'est apportée par le fournisseur. Les utilisateurs utilisent les données sous leur responsabilité pleine et entière, sans recours possible contre le fournisseur dont la responsabilité ne saurait être engagée du fait d’un dommage résultant directement ou indirectement de l’utilisation de ces données. En particulier, il appartient aux utilisateurs d’apprécier, sous leur seule responsabilité : l'opportunité d'utiliser les données; la compatibilité des fichiers avec leurs systèmes informatiques; l’adéquation des données à leurs besoins; qu’ils disposent de la compétence suffisante pour utiliser les données. Le fournisseur n’est en aucune façon responsable des éléments extérieurs aux données et notamment des outils d’analyse, matériels, logiciels, réseaux..., utilisés pour consulter et/ou traiter les données. L’utilisateur veille à vérifier que l’actualité des informations mises à disposition est compatible avec l’usage qu’il en fait.","statement:""- Camera model and parameters:
+ Make: Hasselblad
+ Model: L1D-20c
+ Width: 5472
+ Height: 3648
+ Focal: 28
+ WhiteBalance: Manual
+ ExposureMode: Auto Exposure
+ ColoSpace: sRGB
+ EV: -0.7
+ MeteringMode: CenterWeightedAverage
+ Camera Pitch: -89.90
+
+- Survey informations:
+ No Images: 565
+ Median height: 120 meters
+ Survey area: 1139.28 hectares
+ Survey from: 2023:06:26 15:59:22 to: 2023:07:01 11:36:44
+
+UTM Coordinate system:
+ WGS 84 / UTM zone 38S
+ EPSG:32738
+ Description:
+  name: Between 42°E and 48°E, southern hemisphere between 80°S and equator, onshore and offshore. Madagascar.
+  bounds: (42.0, -80.0, 48.0, 0.0)
+
+- Meteo:
+                       T° Humidity     hPa CloudCover WindSpd-10m WindDir-10m  \
+date                                                                            
+2023-06-26 00:00:00  21.8       82  1015.3         15        14.3         170   
+2023-06-26 01:00:00  21.7       83  1015.2         23        14.6         171   
+2023-06-26 02:00:00  21.6       83  1015.4         43        15.6         173   
+2023-06-26 03:00:00  21.6       83  1016.0         38        15.5         175   
+2023-06-26 04:00:00  21.8       82  1016.7         41        15.5         176   
+...                   ...      ...     ...        ...         ...         ...   
+2023-07-01 19:00:00  22.8       74  1021.3         29        19.3         156   
+2023-07-01 20:00:00  22.7       75  1020.9         27        18.7         152   
+2023-07-01 21:00:00  22.5       75  1020.6         28        18.7         150   
+2023-07-01 22:00:00  22.5       76  1020.6         15        16.9         146   
+2023-07-01 23:00:00  22.4       77  1019.6         17        16.3         149   
+
+                    WindSpd-100m WindDir-100m Rain  
+date                                                
+2023-06-26 00:00:00         19.8          170  0.0  
+2023-06-26 01:00:00         20.4          172  0.0  
+2023-06-26 02:00:00         21.4          173  0.1  
+2023-06-26 03:00:00         21.3          175  0.1  
+2023-06-26 04:00:00         21.3          176  0.0  
+...                          ...          ...  ...  
+2023-07-01 19:00:00         26.1          156  0.1  
+2023-07-01 20:00:00         25.3          152  0.1  
+2023-07-01 21:00:00         25.3          150  0.0  
+2023-07-01 22:00:00         23.0          148  0.0  
+2023-07-01 23:00:00         22.2          151  0.0  
+
+[144 rows x 9 columns]""_
+process:Download from WebODM_
+process:Download from WebODM_
+process:Download from WebODM_
+process:Download from WebODM_
+process:Download from WebODM","resource:image/tiff_
+distribution:image/tiff[GeoTIFF]","source:000_photogrammetry_report.pdf@/home/sylvain/DATA/COMORES/20230701_COM-nioumadzaha-mitsoudje_UAV-01_3/000_photogrammetry_report.pdf,PROCESSED_DATA.zip@/home/sylvain/DATA/COMORES/20230701_COM-nioumadzaha-mitsoudje_UAV-01_3/PROCESSED_DATA.zip_
+sourceType:other"
+"id:20230626_COM-mitsamiouli_UAV-01_1_
+doi:10.5281/zenodo.8436935","title:""Orthophoto & DEM (MNE) issues d'images de drone, Mitsamiouli, Comores - 20230626""","abstract:""Ce jeu de données présente les résultats des traitements photogrammétriques d’images de drone acquises sur le site de Mitsamiouli, Grande Comore, Comores à la date suivante : 20230626.
+<br />Les traitements ont été réalisés avec le logiciel OpenDroneMap à partir des images brutes fournies dans la première version de ce DOI.
+<br />Les vols ont été réalisés en partenariat avec la DGSC (Direction Générale de la Sécurité Civile, Comores) dans le but de créer des modèles numériques d'élévations pour cartographier les risques naturels d’inondations ou de submersion marine.
+<br /><br />Le paramétrage du logiciel OpenDroneMap est partagé pour permettre la reproductibilité ou l'amélioration des traitements proposés:<br />
+[
+<br />        {
+<br />            'name': 'orthophoto-resolution',
+<br />            'value': 1
+<br />        },
+<br />        {
+<br />            'name': 'auto-boundary',
+<br />            'value': true
+<br />        },
+<br />        {
+<br />            'name': 'dem-resolution',
+<br />            'value': '2.0'
+<br />        },
+<br />        {
+<br />            'name': 'dsm',
+<br />            'value': true
+<br />        }
+<br />    ]
+<br />
+<br /><b>Le dépôt est composé des éléments suivants:</b>
+<br />    - 00_: Planche d'aperçu des images
+<br />    - 000_photogrammetry_report.pdf: rapport issu du traitement OpenDroneMap
+<br />    - DCIM.zip: Images brutes issues du drone
+<br />    - GPS.zip: Geopackage contenant l’emprise du survol ainsi que la géolocalisation des images accompagnées de leurs miniatures dans la table d’attribut en base64
+<br />    - METADATA.zip: Métadonnées au format ISO19115, Rapports avec miniatures des images de drone (dossier tb) et statistiques de vols.
+<br />    - PROCESSED_DATA.zip: Orthophoto, DEM, nuages de points, ...
+<br />
+<br /><b>Arborescence d'origine:</b>
+<br />└─ 20230626_COM-mitsamiouli_UAV-01_1
+<br />  └─ DCIM
+<br />  └─ GPS
+<br />  └─ METADATA
+<br />    └─ tb
+<br />  └─ PROCESSED_DATA
+<br />
+<br />
+<br /><b>Informations de survol:</b>
+<br />- Camera model and parameters:
+<br /> Make: Hasselblad
+<br /> Model: L1D-20c
+<br /> Width: 5472
+<br /> Height: 3648
+<br /> Focal: 28
+<br /> WhiteBalance: Auto
+<br /> ExposureMode: Auto Exposure
+<br /> ColoSpace: sRGB
+<br /> EV: -0.7
+<br /> MeteringMode: CenterWeightedAverage
+<br /> Camera Pitch: -73.30
+<br />
+<br />- Survey informations:
+<br /> No Images: 274
+<br /> Median height: 120 meters
+<br /> Survey area: 40.0 hectares
+<br /> Survey from: 2023:06:27 11:58:56 to: 2023:06:27 12:15:51
+<br />
+<br />Les dépôts suivants comprennent les données traitées avec OpenDroneMap""_
+info:This study was funded by the European Regional Development Fund (ERDF) within the programme Interreg V 2014-2020 through the project G2OI_
+edition:RAW DATA","theme[General]:Comores,Grande Comore,flooding,natural risk,risque inondation,drone,uav,uas,DEM,DSM,orthophoto,mapping,cartographie,submersion,marine_
+project:G2OI@https://www.ird.fr/projet-g2oi-grand-observatoire-de-locean-indien","author:sylvain.poulain@ird.fr,julien.barde@ird.fr,natali.mmadi@gmail.com,mohamedhamidou957@gmail.com,comores.dgsc@gmail.com_
+publisher:sylvain.poulain@ird.fr_
+owner:comores.dgsc@gmail.com_
+pointOfContact:julien.barde@ird.fr_
+processor:sylvain.poulain@ird.fr_
+publisher:sylvain.poulain@ird.fr_
+owner:comores.dgsc@gmail.com_
+pointOfContact:julien.barde@ird.fr_
+processor:sylvain.poulain@ird.fr","publication:2023-10-11_
+edition:2023-10-11",dataset,fra,,2023-06-27 11-58-56 - 2023-06-27 12-15-51,"thumbnail:G2OI@https://g2oi.ird.fr/static/img/logo_ird.png_
+http:Website G2OI[G2OI Website]@https://www.ird.fr/projet-g2oi-grand-observatoire-de-locean-indien","useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
+accessConstraint:otherRestrictions_
+useConstraint:intellectualPropertyRights_
+otherConstraint:Le fournisseur n’est pas en mesure de garantir l’exactitude, la mise à jour, l’intégrité, l’exhaustivité des données et en particulier qu'elles sont exemptes d'erreurs ou d'imprécisions, notamment de localisation, d’identification ou de qualification. Aucune garantie quant à l'aptitude des données à un usage particulier n'est apportée par le fournisseur. Les utilisateurs utilisent les données sous leur responsabilité pleine et entière, sans recours possible contre le fournisseur dont la responsabilité ne saurait être engagée du fait d’un dommage résultant directement ou indirectement de l’utilisation de ces données. En particulier, il appartient aux utilisateurs d’apprécier, sous leur seule responsabilité : l'opportunité d'utiliser les données; la compatibilité des fichiers avec leurs systèmes informatiques; l’adéquation des données à leurs besoins; qu’ils disposent de la compétence suffisante pour utiliser les données. Le fournisseur n’est en aucune façon responsable des éléments extérieurs aux données et notamment des outils d’analyse, matériels, logiciels, réseaux..., utilisés pour consulter et/ou traiter les données. L’utilisateur veille à vérifier que l’actualité des informations mises à disposition est compatible avec l’usage qu’il en fait.","statement:""- Camera model and parameters:
+ Make: Hasselblad
+ Model: L1D-20c
+ Width: 5472
+ Height: 3648
+ Focal: 28
+ WhiteBalance: Manual
+ ExposureMode: Auto Exposure
+ ColoSpace: sRGB
+ EV: -0.7
+ MeteringMode: CenterWeightedAverage
+ Camera Pitch: -89.90
+
+- Survey informations:
+ No Images: 565
+ Median height: 120 meters
+ Survey area: 1139.28 hectares
+ Survey from: 2023:06:26 15:59:22 to: 2023:07:01 11:36:44
+
+UTM Coordinate system:
+ WGS 84 / UTM zone 38S
+ EPSG:32738
+ Description:
+  name: Between 42°E and 48°E, southern hemisphere between 80°S and equator, onshore and offshore. Madagascar.
+  bounds: (42.0, -80.0, 48.0, 0.0)
+
+- Meteo:
+                       T° Humidity     hPa CloudCover WindSpd-10m WindDir-10m  \
+date                                                                            
+2023-06-26 00:00:00  21.8       82  1015.3         15        14.3         170   
+2023-06-26 01:00:00  21.7       83  1015.2         23        14.6         171   
+2023-06-26 02:00:00  21.6       83  1015.4         43        15.6         173   
+2023-06-26 03:00:00  21.6       83  1016.0         38        15.5         175   
+2023-06-26 04:00:00  21.8       82  1016.7         41        15.5         176   
+...                   ...      ...     ...        ...         ...         ...   
+2023-07-01 19:00:00  22.8       74  1021.3         29        19.3         156   
+2023-07-01 20:00:00  22.7       75  1020.9         27        18.7         152   
+2023-07-01 21:00:00  22.5       75  1020.6         28        18.7         150   
+2023-07-01 22:00:00  22.5       76  1020.6         15        16.9         146   
+2023-07-01 23:00:00  22.4       77  1019.6         17        16.3         149   
+
+                    WindSpd-100m WindDir-100m Rain  
+date                                                
+2023-06-26 00:00:00         19.8          170  0.0  
+2023-06-26 01:00:00         20.4          172  0.0  
+2023-06-26 02:00:00         21.4          173  0.1  
+2023-06-26 03:00:00         21.3          175  0.1  
+2023-06-26 04:00:00         21.3          176  0.0  
+...                          ...          ...  ...  
+2023-07-01 19:00:00         26.1          156  0.1  
+2023-07-01 20:00:00         25.3          152  0.1  
+2023-07-01 21:00:00         25.3          150  0.0  
+2023-07-01 22:00:00         23.0          148  0.0  
+2023-07-01 23:00:00         22.2          151  0.0  
+
+[144 rows x 9 columns]""_
+process:Download from WebODM_
+process:Download from WebODM_
+process:Download from WebODM_
+process:Download from WebODM_
+process:Download from WebODM","resource:image/tiff_
+distribution:image/tiff[GeoTIFF]","source:000_photogrammetry_report.pdf@/home/sylvain/DATA/COMORES/20230626_COM-mitsamiouli_UAV-01_1/000_photogrammetry_report.pdf,PROCESSED_DATA.zip@/home/sylvain/DATA/COMORES/20230626_COM-mitsamiouli_UAV-01_1/PROCESSED_DATA.zip_
+sourceType:other"
+"id:20230701_COM-nioumadzaha-mitsoudje_UAV-01_1_
+doi:10.5281/zenodo.8436939","title:""Orthophoto & DEM (MNE) issues d'images de drone, Nioumadzaha mitsoudje, Comores - 20230701""","abstract:""Ce jeu de données présente les résultats des traitements photogrammétriques d’images de drone acquises sur le site de Nioumadzaha mitsoudje, Grande Comore, Comores à la date suivante : 20230701.
+<br />Les traitements ont été réalisés avec le logiciel OpenDroneMap à partir des images brutes fournies dans la première version de ce DOI.
+<br />Les vols ont été réalisés en partenariat avec la DGSC (Direction Générale de la Sécurité Civile, Comores) dans le but de créer des modèles numériques d'élévations pour cartographier les risques naturels d’inondations ou de submersion marine.
+<br /><br />Le paramétrage du logiciel OpenDroneMap est partagé pour permettre la reproductibilité ou l'amélioration des traitements proposés:<br />
+[
+<br />        {
+<br />            'name': 'orthophoto-resolution',
+<br />            'value': 1
+<br />        },
+<br />        {
+<br />            'name': 'auto-boundary',
+<br />            'value': true
+<br />        },
+<br />        {
+<br />            'name': 'dem-resolution',
+<br />            'value': '2.0'
+<br />        },
+<br />        {
+<br />            'name': 'dsm',
+<br />            'value': true
+<br />        }
+<br />    ]
+<br />
+<br /><b>Le dépôt est composé des éléments suivants:</b>
+<br />    - 00_: Planche d'aperçu des images
+<br />    - 000_photogrammetry_report.pdf: rapport issu du traitement OpenDroneMap
+<br />    - DCIM.zip: Images brutes issues du drone
+<br />    - GPS.zip: Geopackage contenant l’emprise du survol ainsi que la géolocalisation des images accompagnées de leurs miniatures dans la table d’attribut en base64
+<br />    - METADATA.zip: Métadonnées au format ISO19115, Rapports avec miniatures des images de drone (dossier tb) et statistiques de vols.
+<br />    - PROCESSED_DATA.zip: Orthophoto, DEM, nuages de points, ...
+<br />
+<br /><b>Arborescence d'origine:</b>
+<br />└─ 20230701_COM-nioumadzaha-mitsoudje_UAV-01_1
+<br />  └─ DCIM
+<br />  └─ GPS
+<br />  └─ METADATA
+<br />    └─ tb
+<br />  └─ PROCESSED_DATA
+<br />
+<br />
+<br /><b>Informations de survol:</b>
+<br />- Camera model and parameters:
+<br /> Make: Hasselblad
+<br /> Model: L1D-20c
+<br /> Width: 5472
+<br /> Height: 3648
+<br /> Focal: 28
+<br /> WhiteBalance: Auto
+<br /> ExposureMode: Auto Exposure
+<br /> ColoSpace: sRGB
+<br /> EV: -1.0
+<br /> MeteringMode: CenterWeightedAverage
+<br /> Camera Pitch: -90.00
+<br />
+<br />- Survey informations:
+<br /> No Images: 190
+<br /> Median height: 120 meters
+<br /> Survey area: 25.99 hectares
+<br /> Survey from: 2023:07:01 10:07:43 to: 2023:07:01 10:19:10
+<br />
+<br />Les dépôts suivants comprennent les données traitées avec OpenDroneMap""_
+info:This study was funded by the European Regional Development Fund (ERDF) within the programme Interreg V 2014-2020 through the project G2OI_
+edition:RAW DATA","theme[General]:Comores,Grande Comore,flooding,natural risk,risque inondation,drone,uav,uas,DEM,DSM,orthophoto,mapping,cartographie,submersion,marine_
+project:G2OI@https://www.ird.fr/projet-g2oi-grand-observatoire-de-locean-indien","author:sylvain.poulain@ird.fr,julien.barde@ird.fr,natali.mmadi@gmail.com,mohamedhamidou957@gmail.com,comores.dgsc@gmail.com_
+publisher:sylvain.poulain@ird.fr_
+owner:comores.dgsc@gmail.com_
+pointOfContact:julien.barde@ird.fr_
+processor:sylvain.poulain@ird.fr_
+publisher:sylvain.poulain@ird.fr_
+owner:comores.dgsc@gmail.com_
+pointOfContact:julien.barde@ird.fr_
+processor:sylvain.poulain@ird.fr","publication:2023-10-11_
+edition:2023-10-11",dataset,fra,,2023-07-01 10-07-43 - 2023-07-01 10-19-10,"thumbnail:G2OI@https://g2oi.ird.fr/static/img/logo_ird.png_
+http:Website G2OI[G2OI Website]@https://www.ird.fr/projet-g2oi-grand-observatoire-de-locean-indien","useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
+accessConstraint:otherRestrictions_
+useConstraint:intellectualPropertyRights_
+otherConstraint:Le fournisseur n’est pas en mesure de garantir l’exactitude, la mise à jour, l’intégrité, l’exhaustivité des données et en particulier qu'elles sont exemptes d'erreurs ou d'imprécisions, notamment de localisation, d’identification ou de qualification. Aucune garantie quant à l'aptitude des données à un usage particulier n'est apportée par le fournisseur. Les utilisateurs utilisent les données sous leur responsabilité pleine et entière, sans recours possible contre le fournisseur dont la responsabilité ne saurait être engagée du fait d’un dommage résultant directement ou indirectement de l’utilisation de ces données. En particulier, il appartient aux utilisateurs d’apprécier, sous leur seule responsabilité : l'opportunité d'utiliser les données; la compatibilité des fichiers avec leurs systèmes informatiques; l’adéquation des données à leurs besoins; qu’ils disposent de la compétence suffisante pour utiliser les données. Le fournisseur n’est en aucune façon responsable des éléments extérieurs aux données et notamment des outils d’analyse, matériels, logiciels, réseaux..., utilisés pour consulter et/ou traiter les données. L’utilisateur veille à vérifier que l’actualité des informations mises à disposition est compatible avec l’usage qu’il en fait.","statement:""- Camera model and parameters:
+ Make: Hasselblad
+ Model: L1D-20c
+ Width: 5472
+ Height: 3648
+ Focal: 28
+ WhiteBalance: Manual
+ ExposureMode: Auto Exposure
+ ColoSpace: sRGB
+ EV: -0.7
+ MeteringMode: CenterWeightedAverage
+ Camera Pitch: -89.90
+
+- Survey informations:
+ No Images: 565
+ Median height: 120 meters
+ Survey area: 1139.28 hectares
+ Survey from: 2023:06:26 15:59:22 to: 2023:07:01 11:36:44
+
+UTM Coordinate system:
+ WGS 84 / UTM zone 38S
+ EPSG:32738
+ Description:
+  name: Between 42°E and 48°E, southern hemisphere between 80°S and equator, onshore and offshore. Madagascar.
+  bounds: (42.0, -80.0, 48.0, 0.0)
+
+- Meteo:
+                       T° Humidity     hPa CloudCover WindSpd-10m WindDir-10m  \
+date                                                                            
+2023-06-26 00:00:00  21.8       82  1015.3         15        14.3         170   
+2023-06-26 01:00:00  21.7       83  1015.2         23        14.6         171   
+2023-06-26 02:00:00  21.6       83  1015.4         43        15.6         173   
+2023-06-26 03:00:00  21.6       83  1016.0         38        15.5         175   
+2023-06-26 04:00:00  21.8       82  1016.7         41        15.5         176   
+...                   ...      ...     ...        ...         ...         ...   
+2023-07-01 19:00:00  22.8       74  1021.3         29        19.3         156   
+2023-07-01 20:00:00  22.7       75  1020.9         27        18.7         152   
+2023-07-01 21:00:00  22.5       75  1020.6         28        18.7         150   
+2023-07-01 22:00:00  22.5       76  1020.6         15        16.9         146   
+2023-07-01 23:00:00  22.4       77  1019.6         17        16.3         149   
+
+                    WindSpd-100m WindDir-100m Rain  
+date                                                
+2023-06-26 00:00:00         19.8          170  0.0  
+2023-06-26 01:00:00         20.4          172  0.0  
+2023-06-26 02:00:00         21.4          173  0.1  
+2023-06-26 03:00:00         21.3          175  0.1  
+2023-06-26 04:00:00         21.3          176  0.0  
+...                          ...          ...  ...  
+2023-07-01 19:00:00         26.1          156  0.1  
+2023-07-01 20:00:00         25.3          152  0.1  
+2023-07-01 21:00:00         25.3          150  0.0  
+2023-07-01 22:00:00         23.0          148  0.0  
+2023-07-01 23:00:00         22.2          151  0.0  
+
+[144 rows x 9 columns]""_
+process:Download from WebODM_
+process:Download from WebODM_
+process:Download from WebODM_
+process:Download from WebODM_
+process:Download from WebODM","resource:image/tiff_
+distribution:image/tiff[GeoTIFF]","source:000_photogrammetry_report.pdf@/home/sylvain/DATA/COMORES/20230701_COM-nioumadzaha-mitsoudje_UAV-01_1/000_photogrammetry_report.pdf,PROCESSED_DATA.zip@/home/sylvain/DATA/COMORES/20230701_COM-nioumadzaha-mitsoudje_UAV-01_1/PROCESSED_DATA.zip_
+sourceType:other"
+"id:20230627_COM-vouvouni_UAV-02_2_
+doi:10.5281/zenodo.8436942","title:""Orthophoto & DEM (MNE) issues d'images de drone, Vouvouni, Comores - 20230627""","abstract:""Ce jeu de données présente les résultats des traitements photogrammétriques d’images de drone acquises sur le site de Vouvouni, Grande Comore, Comores à la date suivante : 20230627.
+<br />Les traitements ont été réalisés avec le logiciel OpenDroneMap à partir des images brutes fournies dans la première version de ce DOI.
+<br />Les vols ont été réalisés en partenariat avec la DGSC (Direction Générale de la Sécurité Civile, Comores) dans le but de créer des modèles numériques d'élévations pour cartographier les risques naturels d’inondations ou de submersion marine.
+<br /><br />Le paramétrage du logiciel OpenDroneMap est partagé pour permettre la reproductibilité ou l'amélioration des traitements proposés:<br />
+[
+<br />        {
+<br />            'name': 'orthophoto-resolution',
+<br />            'value': 1
+<br />        },
+<br />        {
+<br />            'name': 'auto-boundary',
+<br />            'value': true
+<br />        },
+<br />        {
+<br />            'name': 'dem-resolution',
+<br />            'value': '2.0'
+<br />        },
+<br />        {
+<br />            'name': 'dsm',
+<br />            'value': true
+<br />        }
+<br />    ]
+<br />
+<br /><b>Le dépôt est composé des éléments suivants:</b>
+<br />    - 00_: Planche d'aperçu des images
+<br />    - 000_photogrammetry_report.pdf: rapport issu du traitement OpenDroneMap
+<br />    - DCIM.zip: Images brutes issues du drone
+<br />    - GPS.zip: Geopackage contenant l’emprise du survol ainsi que la géolocalisation des images accompagnées de leurs miniatures dans la table d’attribut en base64
+<br />    - METADATA.zip: Métadonnées au format ISO19115, Rapports avec miniatures des images de drone (dossier tb) et statistiques de vols.
+<br />    - PROCESSED_DATA.zip: Orthophoto, DEM, nuages de points, ...
+<br />
+<br /><b>Arborescence d'origine:</b>
+<br />└─ 20230627_COM-vouvouni_UAV-02_2
+<br />  └─ DCIM
+<br />  └─ GPS
+<br />  └─ METADATA
+<br />    └─ tb
+<br />  └─ PROCESSED_DATA
+<br />
+<br />
+<br /><b>Informations de survol:</b>
+<br />- Camera model and parameters:
+<br /> Make: Hasselblad
+<br /> Model: L1D-20c
+<br /> Width: 5472
+<br /> Height: 3648
+<br /> Focal: 28
+<br /> WhiteBalance: Manual
+<br /> ExposureMode: Auto Exposure
+<br /> ColoSpace: sRGB
+<br /> EV: -0.7
+<br /> MeteringMode: CenterWeightedAverage
+<br /> Camera Pitch: -89.90
+<br />
+<br />- Survey informations:
+<br /> No Images: 164
+<br /> Median height: 120 meters
+<br /> Survey area: 15.13 hectares
+<br /> Survey from: 2023:06:27 15:25:46 to: 2023:06:27 15:33:30
+<br />
+<br />Les dépôts suivants comprennent les données traitées avec OpenDroneMap""_
+info:This study was funded by the European Regional Development Fund (ERDF) within the programme Interreg V 2014-2020 through the project G2OI_
+edition:RAW DATA","theme[General]:Comores,Grande Comore,flooding,natural risk,risque inondation,drone,uav,uas,DEM,DSM,orthophoto,mapping,cartographie,submersion,marine_
+project:G2OI@https://www.ird.fr/projet-g2oi-grand-observatoire-de-locean-indien","author:sylvain.poulain@ird.fr,julien.barde@ird.fr,natali.mmadi@gmail.com,mohamedhamidou957@gmail.com,comores.dgsc@gmail.com_
+publisher:sylvain.poulain@ird.fr_
+owner:comores.dgsc@gmail.com_
+pointOfContact:julien.barde@ird.fr_
+processor:sylvain.poulain@ird.fr_
+publisher:sylvain.poulain@ird.fr_
+owner:comores.dgsc@gmail.com_
+pointOfContact:julien.barde@ird.fr_
+processor:sylvain.poulain@ird.fr","publication:2023-10-11_
+edition:2023-10-11",dataset,fra,,2023-06-27 15-25-46 - 2023-06-27 15-33-30,"thumbnail:G2OI@https://g2oi.ird.fr/static/img/logo_ird.png_
+http:Website G2OI[G2OI Website]@https://www.ird.fr/projet-g2oi-grand-observatoire-de-locean-indien","useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
+accessConstraint:otherRestrictions_
+useConstraint:intellectualPropertyRights_
+otherConstraint:Le fournisseur n’est pas en mesure de garantir l’exactitude, la mise à jour, l’intégrité, l’exhaustivité des données et en particulier qu'elles sont exemptes d'erreurs ou d'imprécisions, notamment de localisation, d’identification ou de qualification. Aucune garantie quant à l'aptitude des données à un usage particulier n'est apportée par le fournisseur. Les utilisateurs utilisent les données sous leur responsabilité pleine et entière, sans recours possible contre le fournisseur dont la responsabilité ne saurait être engagée du fait d’un dommage résultant directement ou indirectement de l’utilisation de ces données. En particulier, il appartient aux utilisateurs d’apprécier, sous leur seule responsabilité : l'opportunité d'utiliser les données; la compatibilité des fichiers avec leurs systèmes informatiques; l’adéquation des données à leurs besoins; qu’ils disposent de la compétence suffisante pour utiliser les données. Le fournisseur n’est en aucune façon responsable des éléments extérieurs aux données et notamment des outils d’analyse, matériels, logiciels, réseaux..., utilisés pour consulter et/ou traiter les données. L’utilisateur veille à vérifier que l’actualité des informations mises à disposition est compatible avec l’usage qu’il en fait.","statement:""- Camera model and parameters:
+ Make: Hasselblad
+ Model: L1D-20c
+ Width: 5472
+ Height: 3648
+ Focal: 28
+ WhiteBalance: Manual
+ ExposureMode: Auto Exposure
+ ColoSpace: sRGB
+ EV: -0.7
+ MeteringMode: CenterWeightedAverage
+ Camera Pitch: -89.90
+
+- Survey informations:
+ No Images: 565
+ Median height: 120 meters
+ Survey area: 1139.28 hectares
+ Survey from: 2023:06:26 15:59:22 to: 2023:07:01 11:36:44
+
+UTM Coordinate system:
+ WGS 84 / UTM zone 38S
+ EPSG:32738
+ Description:
+  name: Between 42°E and 48°E, southern hemisphere between 80°S and equator, onshore and offshore. Madagascar.
+  bounds: (42.0, -80.0, 48.0, 0.0)
+
+- Meteo:
+                       T° Humidity     hPa CloudCover WindSpd-10m WindDir-10m  \
+date                                                                            
+2023-06-26 00:00:00  21.8       82  1015.3         15        14.3         170   
+2023-06-26 01:00:00  21.7       83  1015.2         23        14.6         171   
+2023-06-26 02:00:00  21.6       83  1015.4         43        15.6         173   
+2023-06-26 03:00:00  21.6       83  1016.0         38        15.5         175   
+2023-06-26 04:00:00  21.8       82  1016.7         41        15.5         176   
+...                   ...      ...     ...        ...         ...         ...   
+2023-07-01 19:00:00  22.8       74  1021.3         29        19.3         156   
+2023-07-01 20:00:00  22.7       75  1020.9         27        18.7         152   
+2023-07-01 21:00:00  22.5       75  1020.6         28        18.7         150   
+2023-07-01 22:00:00  22.5       76  1020.6         15        16.9         146   
+2023-07-01 23:00:00  22.4       77  1019.6         17        16.3         149   
+
+                    WindSpd-100m WindDir-100m Rain  
+date                                                
+2023-06-26 00:00:00         19.8          170  0.0  
+2023-06-26 01:00:00         20.4          172  0.0  
+2023-06-26 02:00:00         21.4          173  0.1  
+2023-06-26 03:00:00         21.3          175  0.1  
+2023-06-26 04:00:00         21.3          176  0.0  
+...                          ...          ...  ...  
+2023-07-01 19:00:00         26.1          156  0.1  
+2023-07-01 20:00:00         25.3          152  0.1  
+2023-07-01 21:00:00         25.3          150  0.0  
+2023-07-01 22:00:00         23.0          148  0.0  
+2023-07-01 23:00:00         22.2          151  0.0  
+
+[144 rows x 9 columns]""_
+process:Download from WebODM_
+process:Download from WebODM_
+process:Download from WebODM_
+process:Download from WebODM_
+process:Download from WebODM","resource:image/tiff_
+distribution:image/tiff[GeoTIFF]","source:000_photogrammetry_report.pdf@/home/sylvain/DATA/COMORES/20230627_COM-vouvouni_UAV-02_2/000_photogrammetry_report.pdf,PROCESSED_DATA.zip@/home/sylvain/DATA/COMORES/20230627_COM-vouvouni_UAV-02_2/PROCESSED_DATA.zip_
+sourceType:other"
+"id:20230701_COM-nioumadzaha-mitsoudje_UAV-01_2_
+doi:10.5281/zenodo.8436945","title:""Orthophoto & DEM (MNE) issues d'images de drone, Nioumadzaha mitsoudje, Comores - 20230701""","abstract:""Ce jeu de données présente les résultats des traitements photogrammétriques d’images de drone acquises sur le site de Nioumadzaha mitsoudje, Grande Comore, Comores à la date suivante : 20230701.
+<br />Les traitements ont été réalisés avec le logiciel OpenDroneMap à partir des images brutes fournies dans la première version de ce DOI.
+<br />Les vols ont été réalisés en partenariat avec la DGSC (Direction Générale de la Sécurité Civile, Comores) dans le but de créer des modèles numériques d'élévations pour cartographier les risques naturels d’inondations ou de submersion marine.
+<br /><br />Le paramétrage du logiciel OpenDroneMap est partagé pour permettre la reproductibilité ou l'amélioration des traitements proposés:<br />
+[
+<br />        {
+<br />            'name': 'orthophoto-resolution',
+<br />            'value': 1
+<br />        },
+<br />        {
+<br />            'name': 'auto-boundary',
+<br />            'value': true
+<br />        },
+<br />        {
+<br />            'name': 'dem-resolution',
+<br />            'value': '2.0'
+<br />        },
+<br />        {
+<br />            'name': 'dsm',
+<br />            'value': true
+<br />        }
+<br />    ]
+<br />
+<br /><b>Le dépôt est composé des éléments suivants:</b>
+<br />    - 00_: Planche d'aperçu des images
+<br />    - 000_photogrammetry_report.pdf: rapport issu du traitement OpenDroneMap
+<br />    - DCIM.zip: Images brutes issues du drone
+<br />    - GPS.zip: Geopackage contenant l’emprise du survol ainsi que la géolocalisation des images accompagnées de leurs miniatures dans la table d’attribut en base64
+<br />    - METADATA.zip: Métadonnées au format ISO19115, Rapports avec miniatures des images de drone (dossier tb) et statistiques de vols.
+<br />    - PROCESSED_DATA.zip: Orthophoto, DEM, nuages de points, ...
+<br />
+<br /><b>Arborescence d'origine:</b>
+<br />└─ 20230701_COM-nioumadzaha-mitsoudje_UAV-01_2
+<br />  └─ DCIM
+<br />  └─ GPS
+<br />  └─ METADATA
+<br />    └─ tb
+<br />  └─ PROCESSED_DATA
+<br />
+<br />
+<br /><b>Informations de survol:</b>
+<br />- Camera model and parameters:
+<br /> Make: Hasselblad
+<br /> Model: L1D-20c
+<br /> Width: 5472
+<br /> Height: 3648
+<br /> Focal: 28
+<br /> WhiteBalance: Auto
+<br /> ExposureMode: Auto Exposure
+<br /> ColoSpace: sRGB
+<br /> EV: -1.0
+<br /> MeteringMode: CenterWeightedAverage
+<br /> Camera Pitch: -90.00
+<br />
+<br />- Survey informations:
+<br /> No Images: 245
+<br /> Median height: 120 meters
+<br /> Survey area: 33.75 hectares
+<br /> Survey from: 2023:07:01 10:25:37 to: 2023:07:01 10:40:14
+<br />
+<br />Les dépôts suivants comprennent les données traitées avec OpenDroneMap""_
+info:This study was funded by the European Regional Development Fund (ERDF) within the programme Interreg V 2014-2020 through the project G2OI_
+edition:RAW DATA","theme[General]:Comores,Grande Comore,flooding,natural risk,risque inondation,drone,uav,uas,DEM,DSM,orthophoto,mapping,cartographie,submersion,marine_
+project:G2OI@https://www.ird.fr/projet-g2oi-grand-observatoire-de-locean-indien","author:sylvain.poulain@ird.fr,julien.barde@ird.fr,natali.mmadi@gmail.com,mohamedhamidou957@gmail.com,comores.dgsc@gmail.com_
+publisher:sylvain.poulain@ird.fr_
+owner:comores.dgsc@gmail.com_
+pointOfContact:julien.barde@ird.fr_
+processor:sylvain.poulain@ird.fr_
+publisher:sylvain.poulain@ird.fr_
+owner:comores.dgsc@gmail.com_
+pointOfContact:julien.barde@ird.fr_
+processor:sylvain.poulain@ird.fr","publication:2023-10-11_
+edition:2023-10-11",dataset,fra,,2023-07-01 10-25-37 - 2023-07-01 10-40-14,"thumbnail:G2OI@https://g2oi.ird.fr/static/img/logo_ird.png_
+http:Website G2OI[G2OI Website]@https://www.ird.fr/projet-g2oi-grand-observatoire-de-locean-indien","useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
+accessConstraint:otherRestrictions_
+useConstraint:intellectualPropertyRights_
+otherConstraint:Le fournisseur n’est pas en mesure de garantir l’exactitude, la mise à jour, l’intégrité, l’exhaustivité des données et en particulier qu'elles sont exemptes d'erreurs ou d'imprécisions, notamment de localisation, d’identification ou de qualification. Aucune garantie quant à l'aptitude des données à un usage particulier n'est apportée par le fournisseur. Les utilisateurs utilisent les données sous leur responsabilité pleine et entière, sans recours possible contre le fournisseur dont la responsabilité ne saurait être engagée du fait d’un dommage résultant directement ou indirectement de l’utilisation de ces données. En particulier, il appartient aux utilisateurs d’apprécier, sous leur seule responsabilité : l'opportunité d'utiliser les données; la compatibilité des fichiers avec leurs systèmes informatiques; l’adéquation des données à leurs besoins; qu’ils disposent de la compétence suffisante pour utiliser les données. Le fournisseur n’est en aucune façon responsable des éléments extérieurs aux données et notamment des outils d’analyse, matériels, logiciels, réseaux..., utilisés pour consulter et/ou traiter les données. L’utilisateur veille à vérifier que l’actualité des informations mises à disposition est compatible avec l’usage qu’il en fait.","statement:""- Camera model and parameters:
+ Make: Hasselblad
+ Model: L1D-20c
+ Width: 5472
+ Height: 3648
+ Focal: 28
+ WhiteBalance: Manual
+ ExposureMode: Auto Exposure
+ ColoSpace: sRGB
+ EV: -0.7
+ MeteringMode: CenterWeightedAverage
+ Camera Pitch: -89.90
+
+- Survey informations:
+ No Images: 565
+ Median height: 120 meters
+ Survey area: 1139.28 hectares
+ Survey from: 2023:06:26 15:59:22 to: 2023:07:01 11:36:44
+
+UTM Coordinate system:
+ WGS 84 / UTM zone 38S
+ EPSG:32738
+ Description:
+  name: Between 42°E and 48°E, southern hemisphere between 80°S and equator, onshore and offshore. Madagascar.
+  bounds: (42.0, -80.0, 48.0, 0.0)
+
+- Meteo:
+                       T° Humidity     hPa CloudCover WindSpd-10m WindDir-10m  \
+date                                                                            
+2023-06-26 00:00:00  21.8       82  1015.3         15        14.3         170   
+2023-06-26 01:00:00  21.7       83  1015.2         23        14.6         171   
+2023-06-26 02:00:00  21.6       83  1015.4         43        15.6         173   
+2023-06-26 03:00:00  21.6       83  1016.0         38        15.5         175   
+2023-06-26 04:00:00  21.8       82  1016.7         41        15.5         176   
+...                   ...      ...     ...        ...         ...         ...   
+2023-07-01 19:00:00  22.8       74  1021.3         29        19.3         156   
+2023-07-01 20:00:00  22.7       75  1020.9         27        18.7         152   
+2023-07-01 21:00:00  22.5       75  1020.6         28        18.7         150   
+2023-07-01 22:00:00  22.5       76  1020.6         15        16.9         146   
+2023-07-01 23:00:00  22.4       77  1019.6         17        16.3         149   
+
+                    WindSpd-100m WindDir-100m Rain  
+date                                                
+2023-06-26 00:00:00         19.8          170  0.0  
+2023-06-26 01:00:00         20.4          172  0.0  
+2023-06-26 02:00:00         21.4          173  0.1  
+2023-06-26 03:00:00         21.3          175  0.1  
+2023-06-26 04:00:00         21.3          176  0.0  
+...                          ...          ...  ...  
+2023-07-01 19:00:00         26.1          156  0.1  
+2023-07-01 20:00:00         25.3          152  0.1  
+2023-07-01 21:00:00         25.3          150  0.0  
+2023-07-01 22:00:00         23.0          148  0.0  
+2023-07-01 23:00:00         22.2          151  0.0  
+
+[144 rows x 9 columns]""_
+process:Download from WebODM_
+process:Download from WebODM_
+process:Download from WebODM_
+process:Download from WebODM_
+process:Download from WebODM","resource:image/tiff_
+distribution:image/tiff[GeoTIFF]","source:000_photogrammetry_report.pdf@/home/sylvain/DATA/COMORES/20230701_COM-nioumadzaha-mitsoudje_UAV-01_2/000_photogrammetry_report.pdf,PROCESSED_DATA.zip@/home/sylvain/DATA/COMORES/20230701_COM-nioumadzaha-mitsoudje_UAV-01_2/PROCESSED_DATA.zip_
+sourceType:other"
+"id:20230627_COM-vouvouni_UAV-01_1_
+doi:10.5281/zenodo.8436947","title:""Orthophoto & DEM (MNE) issues d'images de drone, Vouvouni, Comores - 20230627""","abstract:""Ce jeu de données présente les résultats des traitements photogrammétriques d’images de drone acquises sur le site de Vouvouni, Grande Comore, Comores à la date suivante : 20230627.
+<br />Les traitements ont été réalisés avec le logiciel OpenDroneMap à partir des images brutes fournies dans la première version de ce DOI.
+<br />Les vols ont été réalisés en partenariat avec la DGSC (Direction Générale de la Sécurité Civile, Comores) dans le but de créer des modèles numériques d'élévations pour cartographier les risques naturels d’inondations ou de submersion marine.
+<br /><br />Le paramétrage du logiciel OpenDroneMap est partagé pour permettre la reproductibilité ou l'amélioration des traitements proposés:<br />
+[
+<br />        {
+<br />            'name': 'orthophoto-resolution',
+<br />            'value': 1
+<br />        },
+<br />        {
+<br />            'name': 'auto-boundary',
+<br />            'value': true
+<br />        },
+<br />        {
+<br />            'name': 'dem-resolution',
+<br />            'value': '2.0'
+<br />        },
+<br />        {
+<br />            'name': 'dsm',
+<br />            'value': true
+<br />        }
+<br />    ]
+<br />
+<br /><b>Le dépôt est composé des éléments suivants:</b>
+<br />    - 00_: Planche d'aperçu des images
+<br />    - 000_photogrammetry_report.pdf: rapport issu du traitement OpenDroneMap
+<br />    - DCIM.zip: Images brutes issues du drone
+<br />    - GPS.zip: Geopackage contenant l’emprise du survol ainsi que la géolocalisation des images accompagnées de leurs miniatures dans la table d’attribut en base64
+<br />    - METADATA.zip: Métadonnées au format ISO19115, Rapports avec miniatures des images de drone (dossier tb) et statistiques de vols.
+<br />    - PROCESSED_DATA.zip: Orthophoto, DEM, nuages de points, ...
+<br />
+<br /><b>Arborescence d'origine:</b>
+<br />└─ 20230627_COM-vouvouni_UAV-01_1
+<br />  └─ DCIM
+<br />  └─ GPS
+<br />  └─ METADATA
+<br />    └─ tb
+<br />  └─ PROCESSED_DATA
+<br />
+<br />
+<br /><b>Informations de survol:</b>
+<br />- Camera model and parameters:
+<br /> Make: Hasselblad
+<br /> Model: L1D-20c
+<br /> Width: 5472
+<br /> Height: 3648
+<br /> Focal: 28
+<br /> WhiteBalance: Auto
+<br /> ExposureMode: Auto Exposure
+<br /> ColoSpace: sRGB
+<br /> EV: -0.7
+<br /> MeteringMode: CenterWeightedAverage
+<br /> Camera Pitch: -89.90
+<br />
+<br />- Survey informations:
+<br /> No Images: 217
+<br /> Median height: 120 meters
+<br /> Survey area: 16.7 hectares
+<br /> Survey from: 2023:06:27 15:11:17 to: 2023:06:27 15:21:27
+<br />
+<br />Les dépôts suivants comprennent les données traitées avec OpenDroneMap""_
+info:This study was funded by the European Regional Development Fund (ERDF) within the programme Interreg V 2014-2020 through the project G2OI_
+edition:RAW DATA","theme[General]:Comores,Grande Comore,flooding,natural risk,risque inondation,drone,uav,uas,DEM,DSM,orthophoto,mapping,cartographie,submersion,marine_
+project:G2OI@https://www.ird.fr/projet-g2oi-grand-observatoire-de-locean-indien","author:sylvain.poulain@ird.fr,julien.barde@ird.fr,natali.mmadi@gmail.com,mohamedhamidou957@gmail.com,comores.dgsc@gmail.com_
+publisher:sylvain.poulain@ird.fr_
+owner:comores.dgsc@gmail.com_
+pointOfContact:julien.barde@ird.fr_
+processor:sylvain.poulain@ird.fr_
+publisher:sylvain.poulain@ird.fr_
+owner:comores.dgsc@gmail.com_
+pointOfContact:julien.barde@ird.fr_
+processor:sylvain.poulain@ird.fr","publication:2023-10-11_
+edition:2023-10-11",dataset,fra,,2023-06-27 15-11-17 - 2023-06-27 15-21-27,"thumbnail:G2OI@https://g2oi.ird.fr/static/img/logo_ird.png_
+http:Website G2OI[G2OI Website]@https://www.ird.fr/projet-g2oi-grand-observatoire-de-locean-indien","useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
+accessConstraint:otherRestrictions_
+useConstraint:intellectualPropertyRights_
+otherConstraint:Le fournisseur n’est pas en mesure de garantir l’exactitude, la mise à jour, l’intégrité, l’exhaustivité des données et en particulier qu'elles sont exemptes d'erreurs ou d'imprécisions, notamment de localisation, d’identification ou de qualification. Aucune garantie quant à l'aptitude des données à un usage particulier n'est apportée par le fournisseur. Les utilisateurs utilisent les données sous leur responsabilité pleine et entière, sans recours possible contre le fournisseur dont la responsabilité ne saurait être engagée du fait d’un dommage résultant directement ou indirectement de l’utilisation de ces données. En particulier, il appartient aux utilisateurs d’apprécier, sous leur seule responsabilité : l'opportunité d'utiliser les données; la compatibilité des fichiers avec leurs systèmes informatiques; l’adéquation des données à leurs besoins; qu’ils disposent de la compétence suffisante pour utiliser les données. Le fournisseur n’est en aucune façon responsable des éléments extérieurs aux données et notamment des outils d’analyse, matériels, logiciels, réseaux..., utilisés pour consulter et/ou traiter les données. L’utilisateur veille à vérifier que l’actualité des informations mises à disposition est compatible avec l’usage qu’il en fait.","statement:""- Camera model and parameters:
+ Make: Hasselblad
+ Model: L1D-20c
+ Width: 5472
+ Height: 3648
+ Focal: 28
+ WhiteBalance: Manual
+ ExposureMode: Auto Exposure
+ ColoSpace: sRGB
+ EV: -0.7
+ MeteringMode: CenterWeightedAverage
+ Camera Pitch: -89.90
+
+- Survey informations:
+ No Images: 565
+ Median height: 120 meters
+ Survey area: 1139.28 hectares
+ Survey from: 2023:06:26 15:59:22 to: 2023:07:01 11:36:44
+
+UTM Coordinate system:
+ WGS 84 / UTM zone 38S
+ EPSG:32738
+ Description:
+  name: Between 42°E and 48°E, southern hemisphere between 80°S and equator, onshore and offshore. Madagascar.
+  bounds: (42.0, -80.0, 48.0, 0.0)
+
+- Meteo:
+                       T° Humidity     hPa CloudCover WindSpd-10m WindDir-10m  \
+date                                                                            
+2023-06-26 00:00:00  21.8       82  1015.3         15        14.3         170   
+2023-06-26 01:00:00  21.7       83  1015.2         23        14.6         171   
+2023-06-26 02:00:00  21.6       83  1015.4         43        15.6         173   
+2023-06-26 03:00:00  21.6       83  1016.0         38        15.5         175   
+2023-06-26 04:00:00  21.8       82  1016.7         41        15.5         176   
+...                   ...      ...     ...        ...         ...         ...   
+2023-07-01 19:00:00  22.8       74  1021.3         29        19.3         156   
+2023-07-01 20:00:00  22.7       75  1020.9         27        18.7         152   
+2023-07-01 21:00:00  22.5       75  1020.6         28        18.7         150   
+2023-07-01 22:00:00  22.5       76  1020.6         15        16.9         146   
+2023-07-01 23:00:00  22.4       77  1019.6         17        16.3         149   
+
+                    WindSpd-100m WindDir-100m Rain  
+date                                                
+2023-06-26 00:00:00         19.8          170  0.0  
+2023-06-26 01:00:00         20.4          172  0.0  
+2023-06-26 02:00:00         21.4          173  0.1  
+2023-06-26 03:00:00         21.3          175  0.1  
+2023-06-26 04:00:00         21.3          176  0.0  
+...                          ...          ...  ...  
+2023-07-01 19:00:00         26.1          156  0.1  
+2023-07-01 20:00:00         25.3          152  0.1  
+2023-07-01 21:00:00         25.3          150  0.0  
+2023-07-01 22:00:00         23.0          148  0.0  
+2023-07-01 23:00:00         22.2          151  0.0  
+
+[144 rows x 9 columns]""_
+process:Download from WebODM_
+process:Download from WebODM_
+process:Download from WebODM_
+process:Download from WebODM_
+process:Download from WebODM","resource:image/tiff_
+distribution:image/tiff[GeoTIFF]","source:000_photogrammetry_report.pdf@/home/sylvain/DATA/COMORES/20230627_COM-vouvouni_UAV-01_1/000_photogrammetry_report.pdf,PROCESSED_DATA.zip@/home/sylvain/DATA/COMORES/20230627_COM-vouvouni_UAV-01_1/PROCESSED_DATA.zip_
+sourceType:other"
+"id:20230627_COM-vouvouni_UAV-02_1_
+doi:10.5281/zenodo.8436952","title:""Orthophoto & DEM (MNE) issues d'images de drone, Vouvouni, Comores - 20230627""","abstract:""Ce jeu de données présente les résultats des traitements photogrammétriques d’images de drone acquises sur le site de Vouvouni, Grande Comore, Comores à la date suivante : 20230627.
+<br />Les traitements ont été réalisés avec le logiciel OpenDroneMap à partir des images brutes fournies dans la première version de ce DOI.
+<br />Les vols ont été réalisés en partenariat avec la DGSC (Direction Générale de la Sécurité Civile, Comores) dans le but de créer des modèles numériques d'élévations pour cartographier les risques naturels d’inondations ou de submersion marine.
+<br /><br />Le paramétrage du logiciel OpenDroneMap est partagé pour permettre la reproductibilité ou l'amélioration des traitements proposés:<br />
+[
+<br />        {
+<br />            'name': 'orthophoto-resolution',
+<br />            'value': 1
+<br />        },
+<br />        {
+<br />            'name': 'auto-boundary',
+<br />            'value': true
+<br />        },
+<br />        {
+<br />            'name': 'dem-resolution',
+<br />            'value': '2.0'
+<br />        },
+<br />        {
+<br />            'name': 'dsm',
+<br />            'value': true
+<br />        }
+<br />    ]
+<br />
+<br /><b>Le dépôt est composé des éléments suivants:</b>
+<br />    - 00_: Planche d'aperçu des images
+<br />    - 000_photogrammetry_report.pdf: rapport issu du traitement OpenDroneMap
+<br />    - DCIM.zip: Images brutes issues du drone
+<br />    - GPS.zip: Geopackage contenant l’emprise du survol ainsi que la géolocalisation des images accompagnées de leurs miniatures dans la table d’attribut en base64
+<br />    - METADATA.zip: Métadonnées au format ISO19115, Rapports avec miniatures des images de drone (dossier tb) et statistiques de vols.
+<br />    - PROCESSED_DATA.zip: Orthophoto, DEM, nuages de points, ...
+<br />
+<br /><b>Arborescence d'origine:</b>
+<br />└─ 20230627_COM-vouvouni_UAV-02_1
+<br />  └─ DCIM
+<br />  └─ GPS
+<br />  └─ METADATA
+<br />    └─ tb
+<br />  └─ PROCESSED_DATA
+<br />
+<br />
+<br /><b>Informations de survol:</b>
+<br />- Camera model and parameters:
+<br /> Make: Hasselblad
+<br /> Model: L1D-20c
+<br /> Width: 5472
+<br /> Height: 3648
+<br /> Focal: 28
+<br /> WhiteBalance: Manual
+<br /> ExposureMode: Auto Exposure
+<br /> ColoSpace: sRGB
+<br /> EV: -0.7
+<br /> MeteringMode: CenterWeightedAverage
+<br /> Camera Pitch: -90.00
+<br />
+<br />- Survey informations:
+<br /> No Images: 221
+<br /> Median height: 120 meters
+<br /> Survey area: 29.25 hectares
+<br /> Survey from: 2023:06:27 15:01:55 to: 2023:06:27 15:15:27
+<br />
+<br />Les dépôts suivants comprennent les données traitées avec OpenDroneMap""_
+info:This study was funded by the European Regional Development Fund (ERDF) within the programme Interreg V 2014-2020 through the project G2OI_
+edition:RAW DATA","theme[General]:Comores,Grande Comore,flooding,natural risk,risque inondation,drone,uav,uas,DEM,DSM,orthophoto,mapping,cartographie,submersion,marine_
+project:G2OI@https://www.ird.fr/projet-g2oi-grand-observatoire-de-locean-indien","author:sylvain.poulain@ird.fr,julien.barde@ird.fr,natali.mmadi@gmail.com,mohamedhamidou957@gmail.com,comores.dgsc@gmail.com_
+publisher:sylvain.poulain@ird.fr_
+owner:comores.dgsc@gmail.com_
+pointOfContact:julien.barde@ird.fr_
+processor:sylvain.poulain@ird.fr_
+publisher:sylvain.poulain@ird.fr_
+owner:comores.dgsc@gmail.com_
+pointOfContact:julien.barde@ird.fr_
+processor:sylvain.poulain@ird.fr","publication:2023-10-11_
+edition:2023-10-11",dataset,fra,,2023-06-27 15-01-55 - 2023-06-27 15-15-27,"thumbnail:G2OI@https://g2oi.ird.fr/static/img/logo_ird.png_
+http:Website G2OI[G2OI Website]@https://www.ird.fr/projet-g2oi-grand-observatoire-de-locean-indien","useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
+accessConstraint:otherRestrictions_
+useConstraint:intellectualPropertyRights_
+otherConstraint:Le fournisseur n’est pas en mesure de garantir l’exactitude, la mise à jour, l’intégrité, l’exhaustivité des données et en particulier qu'elles sont exemptes d'erreurs ou d'imprécisions, notamment de localisation, d’identification ou de qualification. Aucune garantie quant à l'aptitude des données à un usage particulier n'est apportée par le fournisseur. Les utilisateurs utilisent les données sous leur responsabilité pleine et entière, sans recours possible contre le fournisseur dont la responsabilité ne saurait être engagée du fait d’un dommage résultant directement ou indirectement de l’utilisation de ces données. En particulier, il appartient aux utilisateurs d’apprécier, sous leur seule responsabilité : l'opportunité d'utiliser les données; la compatibilité des fichiers avec leurs systèmes informatiques; l’adéquation des données à leurs besoins; qu’ils disposent de la compétence suffisante pour utiliser les données. Le fournisseur n’est en aucune façon responsable des éléments extérieurs aux données et notamment des outils d’analyse, matériels, logiciels, réseaux..., utilisés pour consulter et/ou traiter les données. L’utilisateur veille à vérifier que l’actualité des informations mises à disposition est compatible avec l’usage qu’il en fait.","statement:""- Camera model and parameters:
+ Make: Hasselblad
+ Model: L1D-20c
+ Width: 5472
+ Height: 3648
+ Focal: 28
+ WhiteBalance: Manual
+ ExposureMode: Auto Exposure
+ ColoSpace: sRGB
+ EV: -0.7
+ MeteringMode: CenterWeightedAverage
+ Camera Pitch: -89.90
+
+- Survey informations:
+ No Images: 565
+ Median height: 120 meters
+ Survey area: 1139.28 hectares
+ Survey from: 2023:06:26 15:59:22 to: 2023:07:01 11:36:44
+
+UTM Coordinate system:
+ WGS 84 / UTM zone 38S
+ EPSG:32738
+ Description:
+  name: Between 42°E and 48°E, southern hemisphere between 80°S and equator, onshore and offshore. Madagascar.
+  bounds: (42.0, -80.0, 48.0, 0.0)
+
+- Meteo:
+                       T° Humidity     hPa CloudCover WindSpd-10m WindDir-10m  \
+date                                                                            
+2023-06-26 00:00:00  21.8       82  1015.3         15        14.3         170   
+2023-06-26 01:00:00  21.7       83  1015.2         23        14.6         171   
+2023-06-26 02:00:00  21.6       83  1015.4         43        15.6         173   
+2023-06-26 03:00:00  21.6       83  1016.0         38        15.5         175   
+2023-06-26 04:00:00  21.8       82  1016.7         41        15.5         176   
+...                   ...      ...     ...        ...         ...         ...   
+2023-07-01 19:00:00  22.8       74  1021.3         29        19.3         156   
+2023-07-01 20:00:00  22.7       75  1020.9         27        18.7         152   
+2023-07-01 21:00:00  22.5       75  1020.6         28        18.7         150   
+2023-07-01 22:00:00  22.5       76  1020.6         15        16.9         146   
+2023-07-01 23:00:00  22.4       77  1019.6         17        16.3         149   
+
+                    WindSpd-100m WindDir-100m Rain  
+date                                                
+2023-06-26 00:00:00         19.8          170  0.0  
+2023-06-26 01:00:00         20.4          172  0.0  
+2023-06-26 02:00:00         21.4          173  0.1  
+2023-06-26 03:00:00         21.3          175  0.1  
+2023-06-26 04:00:00         21.3          176  0.0  
+...                          ...          ...  ...  
+2023-07-01 19:00:00         26.1          156  0.1  
+2023-07-01 20:00:00         25.3          152  0.1  
+2023-07-01 21:00:00         25.3          150  0.0  
+2023-07-01 22:00:00         23.0          148  0.0  
+2023-07-01 23:00:00         22.2          151  0.0  
+
+[144 rows x 9 columns]""_
+process:Download from WebODM_
+process:Download from WebODM_
+process:Download from WebODM_
+process:Download from WebODM_
+process:Download from WebODM","resource:image/tiff_
+distribution:image/tiff[GeoTIFF]","source:000_photogrammetry_report.pdf@/home/sylvain/DATA/COMORES/20230627_COM-vouvouni_UAV-02_1/000_photogrammetry_report.pdf,PROCESSED_DATA.zip@/home/sylvain/DATA/COMORES/20230627_COM-vouvouni_UAV-02_1/PROCESSED_DATA.zip_
+sourceType:other"
+"id:20230626_COM-mitsamiouli_UAV-02_1_
+doi:10.5281/zenodo.8436954","title:""Orthophoto & DEM (MNE) issues d'images de drone, Mitsamiouli, Comores - 20230626""","abstract:""Ce jeu de données présente les résultats des traitements photogrammétriques d’images de drone acquises sur le site de Mitsamiouli, Grande Comore, Comores à la date suivante : 20230626.
+<br />Les traitements ont été réalisés avec le logiciel OpenDroneMap à partir des images brutes fournies dans la première version de ce DOI.
+<br />Les vols ont été réalisés en partenariat avec la DGSC (Direction Générale de la Sécurité Civile, Comores) dans le but de créer des modèles numériques d'élévations pour cartographier les risques naturels d’inondations ou de submersion marine.
+<br /><br />Le paramétrage du logiciel OpenDroneMap est partagé pour permettre la reproductibilité ou l'amélioration des traitements proposés:<br />
+[
+<br />        {
+<br />            'name': 'orthophoto-resolution',
+<br />            'value': 1
+<br />        },
+<br />        {
+<br />            'name': 'auto-boundary',
+<br />            'value': true
+<br />        },
+<br />        {
+<br />            'name': 'dem-resolution',
+<br />            'value': '2.0'
+<br />        },
+<br />        {
+<br />            'name': 'dsm',
+<br />            'value': true
+<br />        }
+<br />    ]
+<br />
+<br /><b>Le dépôt est composé des éléments suivants:</b>
+<br />    - 00_: Planche d'aperçu des images
+<br />    - 000_photogrammetry_report.pdf: rapport issu du traitement OpenDroneMap
+<br />    - DCIM.zip: Images brutes issues du drone
+<br />    - GPS.zip: Geopackage contenant l’emprise du survol ainsi que la géolocalisation des images accompagnées de leurs miniatures dans la table d’attribut en base64
+<br />    - METADATA.zip: Métadonnées au format ISO19115, Rapports avec miniatures des images de drone (dossier tb) et statistiques de vols.
+<br />    - PROCESSED_DATA.zip: Orthophoto, DEM, nuages de points, ...
+<br />
+<br /><b>Arborescence d'origine:</b>
+<br />└─ 20230626_COM-mitsamiouli_UAV-02_1
+<br />  └─ DCIM
+<br />  └─ GPS
+<br />  └─ METADATA
+<br />    └─ tb
+<br />  └─ PROCESSED_DATA
+<br />
+<br />
+<br /><b>Informations de survol:</b>
+<br />- Camera model and parameters:
+<br /> Make: Hasselblad
+<br /> Model: L1D-20c
+<br /> Width: 5472
+<br /> Height: 3648
+<br /> Focal: 28
+<br /> WhiteBalance: Manual
+<br /> ExposureMode: Auto Exposure
+<br /> ColoSpace: sRGB
+<br /> EV: -0.7
+<br /> MeteringMode: CenterWeightedAverage
+<br /> Camera Pitch: -90.00
+<br />
+<br />- Survey informations:
+<br /> No Images: 162
+<br /> Median height: 120 meters
+<br /> Survey area: 25.96 hectares
+<br /> Survey from: 2023:06:27 12:18:21 to: 2023:06:27 12:29:24
+<br />
+<br />Les dépôts suivants comprennent les données traitées avec OpenDroneMap""_
+info:This study was funded by the European Regional Development Fund (ERDF) within the programme Interreg V 2014-2020 through the project G2OI_
+edition:RAW DATA","theme[General]:Comores,Grande Comore,flooding,natural risk,risque inondation,drone,uav,uas,DEM,DSM,orthophoto,mapping,cartographie,submersion,marine_
+project:G2OI@https://www.ird.fr/projet-g2oi-grand-observatoire-de-locean-indien","author:sylvain.poulain@ird.fr,julien.barde@ird.fr,natali.mmadi@gmail.com,mohamedhamidou957@gmail.com,comores.dgsc@gmail.com_
+publisher:sylvain.poulain@ird.fr_
+owner:comores.dgsc@gmail.com_
+pointOfContact:julien.barde@ird.fr_
+processor:sylvain.poulain@ird.fr_
+publisher:sylvain.poulain@ird.fr_
+owner:comores.dgsc@gmail.com_
+pointOfContact:julien.barde@ird.fr_
+processor:sylvain.poulain@ird.fr","publication:2023-10-11_
+edition:2023-10-11",dataset,fra,,2023-06-27 12-18-21 - 2023-06-27 12-29-24,"thumbnail:G2OI@https://g2oi.ird.fr/static/img/logo_ird.png_
+http:Website G2OI[G2OI Website]@https://www.ird.fr/projet-g2oi-grand-observatoire-de-locean-indien","useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
+accessConstraint:otherRestrictions_
+useConstraint:intellectualPropertyRights_
+otherConstraint:Le fournisseur n’est pas en mesure de garantir l’exactitude, la mise à jour, l’intégrité, l’exhaustivité des données et en particulier qu'elles sont exemptes d'erreurs ou d'imprécisions, notamment de localisation, d’identification ou de qualification. Aucune garantie quant à l'aptitude des données à un usage particulier n'est apportée par le fournisseur. Les utilisateurs utilisent les données sous leur responsabilité pleine et entière, sans recours possible contre le fournisseur dont la responsabilité ne saurait être engagée du fait d’un dommage résultant directement ou indirectement de l’utilisation de ces données. En particulier, il appartient aux utilisateurs d’apprécier, sous leur seule responsabilité : l'opportunité d'utiliser les données; la compatibilité des fichiers avec leurs systèmes informatiques; l’adéquation des données à leurs besoins; qu’ils disposent de la compétence suffisante pour utiliser les données. Le fournisseur n’est en aucune façon responsable des éléments extérieurs aux données et notamment des outils d’analyse, matériels, logiciels, réseaux..., utilisés pour consulter et/ou traiter les données. L’utilisateur veille à vérifier que l’actualité des informations mises à disposition est compatible avec l’usage qu’il en fait.","statement:""- Camera model and parameters:
+ Make: Hasselblad
+ Model: L1D-20c
+ Width: 5472
+ Height: 3648
+ Focal: 28
+ WhiteBalance: Manual
+ ExposureMode: Auto Exposure
+ ColoSpace: sRGB
+ EV: -0.7
+ MeteringMode: CenterWeightedAverage
+ Camera Pitch: -89.90
+
+- Survey informations:
+ No Images: 565
+ Median height: 120 meters
+ Survey area: 1139.28 hectares
+ Survey from: 2023:06:26 15:59:22 to: 2023:07:01 11:36:44
+
+UTM Coordinate system:
+ WGS 84 / UTM zone 38S
+ EPSG:32738
+ Description:
+  name: Between 42°E and 48°E, southern hemisphere between 80°S and equator, onshore and offshore. Madagascar.
+  bounds: (42.0, -80.0, 48.0, 0.0)
+
+- Meteo:
+                       T° Humidity     hPa CloudCover WindSpd-10m WindDir-10m  \
+date                                                                            
+2023-06-26 00:00:00  21.8       82  1015.3         15        14.3         170   
+2023-06-26 01:00:00  21.7       83  1015.2         23        14.6         171   
+2023-06-26 02:00:00  21.6       83  1015.4         43        15.6         173   
+2023-06-26 03:00:00  21.6       83  1016.0         38        15.5         175   
+2023-06-26 04:00:00  21.8       82  1016.7         41        15.5         176   
+...                   ...      ...     ...        ...         ...         ...   
+2023-07-01 19:00:00  22.8       74  1021.3         29        19.3         156   
+2023-07-01 20:00:00  22.7       75  1020.9         27        18.7         152   
+2023-07-01 21:00:00  22.5       75  1020.6         28        18.7         150   
+2023-07-01 22:00:00  22.5       76  1020.6         15        16.9         146   
+2023-07-01 23:00:00  22.4       77  1019.6         17        16.3         149   
+
+                    WindSpd-100m WindDir-100m Rain  
+date                                                
+2023-06-26 00:00:00         19.8          170  0.0  
+2023-06-26 01:00:00         20.4          172  0.0  
+2023-06-26 02:00:00         21.4          173  0.1  
+2023-06-26 03:00:00         21.3          175  0.1  
+2023-06-26 04:00:00         21.3          176  0.0  
+...                          ...          ...  ...  
+2023-07-01 19:00:00         26.1          156  0.1  
+2023-07-01 20:00:00         25.3          152  0.1  
+2023-07-01 21:00:00         25.3          150  0.0  
+2023-07-01 22:00:00         23.0          148  0.0  
+2023-07-01 23:00:00         22.2          151  0.0  
+
+[144 rows x 9 columns]""_
+process:Download from WebODM_
+process:Download from WebODM_
+process:Download from WebODM_
+process:Download from WebODM_
+process:Download from WebODM","resource:image/tiff_
+distribution:image/tiff[GeoTIFF]","source:000_photogrammetry_report.pdf@/home/sylvain/DATA/COMORES/20230626_COM-mitsamiouli_UAV-02_1/000_photogrammetry_report.pdf,PROCESSED_DATA.zip@/home/sylvain/DATA/COMORES/20230626_COM-mitsamiouli_UAV-02_1/PROCESSED_DATA.zip_
+sourceType:other"
+"id:20230627_COM-vouvouni_UAV-01_2_
+doi:10.5281/zenodo.8436955","title:""Orthophoto & DEM (MNE) issues d'images de drone, Vouvouni, Comores - 20230627""","abstract:""Ce jeu de données présente les résultats des traitements photogrammétriques d’images de drone acquises sur le site de Vouvouni, Grande Comore, Comores à la date suivante : 20230627.
+<br />Les traitements ont été réalisés avec le logiciel OpenDroneMap à partir des images brutes fournies dans la première version de ce DOI.
+<br />Les vols ont été réalisés en partenariat avec la DGSC (Direction Générale de la Sécurité Civile, Comores) dans le but de créer des modèles numériques d'élévations pour cartographier les risques naturels d’inondations ou de submersion marine.
+<br /><br />Le paramétrage du logiciel OpenDroneMap est partagé pour permettre la reproductibilité ou l'amélioration des traitements proposés:<br />
+[
+<br />        {
+<br />            'name': 'orthophoto-resolution',
+<br />            'value': 1
+<br />        },
+<br />        {
+<br />            'name': 'auto-boundary',
+<br />            'value': true
+<br />        },
+<br />        {
+<br />            'name': 'dem-resolution',
+<br />            'value': '2.0'
+<br />        },
+<br />        {
+<br />            'name': 'dsm',
+<br />            'value': true
+<br />        }
+<br />    ]
+<br />
+<br /><b>Le dépôt est composé des éléments suivants:</b>
+<br />    - 00_: Planche d'aperçu des images
+<br />    - 000_photogrammetry_report.pdf: rapport issu du traitement OpenDroneMap
+<br />    - DCIM.zip: Images brutes issues du drone
+<br />    - GPS.zip: Geopackage contenant l’emprise du survol ainsi que la géolocalisation des images accompagnées de leurs miniatures dans la table d’attribut en base64
+<br />    - METADATA.zip: Métadonnées au format ISO19115, Rapports avec miniatures des images de drone (dossier tb) et statistiques de vols.
+<br />    - PROCESSED_DATA.zip: Orthophoto, DEM, nuages de points, ...
+<br />
+<br /><b>Arborescence d'origine:</b>
+<br />└─ 20230627_COM-vouvouni_UAV-01_2
+<br />  └─ DCIM
+<br />  └─ GPS
+<br />  └─ METADATA
+<br />    └─ tb
+<br />  └─ PROCESSED_DATA
+<br />
+<br />
+<br /><b>Informations de survol:</b>
+<br />- Camera model and parameters:
+<br /> Make: Hasselblad
+<br /> Model: L1D-20c
+<br /> Width: 5472
+<br /> Height: 3648
+<br /> Focal: 28
+<br /> WhiteBalance: Auto
+<br /> ExposureMode: Auto Exposure
+<br /> ColoSpace: sRGB
+<br /> EV: -0.7
+<br /> MeteringMode: CenterWeightedAverage
+<br /> Camera Pitch: -89.90
+<br />
+<br />- Survey informations:
+<br /> No Images: 205
+<br /> Median height: 120 meters
+<br /> Survey area: 12.86 hectares
+<br /> Survey from: 2023:06:27 15:49:48 to: 2023:06:27 15:58:39
+<br />
+<br />Les dépôts suivants comprennent les données traitées avec OpenDroneMap""_
+info:This study was funded by the European Regional Development Fund (ERDF) within the programme Interreg V 2014-2020 through the project G2OI_
+edition:RAW DATA","theme[General]:Comores,Grande Comore,flooding,natural risk,risque inondation,drone,uav,uas,DEM,DSM,orthophoto,mapping,cartographie,submersion,marine_
+project:G2OI@https://www.ird.fr/projet-g2oi-grand-observatoire-de-locean-indien","author:sylvain.poulain@ird.fr,julien.barde@ird.fr,natali.mmadi@gmail.com,mohamedhamidou957@gmail.com,comores.dgsc@gmail.com_
+publisher:sylvain.poulain@ird.fr_
+owner:comores.dgsc@gmail.com_
+pointOfContact:julien.barde@ird.fr_
+processor:sylvain.poulain@ird.fr_
+publisher:sylvain.poulain@ird.fr_
+owner:comores.dgsc@gmail.com_
+pointOfContact:julien.barde@ird.fr_
+processor:sylvain.poulain@ird.fr","publication:2023-10-11_
+edition:2023-10-11",dataset,fra,,2023-06-27 15-49-48 - 2023-06-27 15-58-39,"thumbnail:G2OI@https://g2oi.ird.fr/static/img/logo_ird.png_
+http:Website G2OI[G2OI Website]@https://www.ird.fr/projet-g2oi-grand-observatoire-de-locean-indien","useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
+accessConstraint:otherRestrictions_
+useConstraint:intellectualPropertyRights_
+otherConstraint:Le fournisseur n’est pas en mesure de garantir l’exactitude, la mise à jour, l’intégrité, l’exhaustivité des données et en particulier qu'elles sont exemptes d'erreurs ou d'imprécisions, notamment de localisation, d’identification ou de qualification. Aucune garantie quant à l'aptitude des données à un usage particulier n'est apportée par le fournisseur. Les utilisateurs utilisent les données sous leur responsabilité pleine et entière, sans recours possible contre le fournisseur dont la responsabilité ne saurait être engagée du fait d’un dommage résultant directement ou indirectement de l’utilisation de ces données. En particulier, il appartient aux utilisateurs d’apprécier, sous leur seule responsabilité : l'opportunité d'utiliser les données; la compatibilité des fichiers avec leurs systèmes informatiques; l’adéquation des données à leurs besoins; qu’ils disposent de la compétence suffisante pour utiliser les données. Le fournisseur n’est en aucune façon responsable des éléments extérieurs aux données et notamment des outils d’analyse, matériels, logiciels, réseaux..., utilisés pour consulter et/ou traiter les données. L’utilisateur veille à vérifier que l’actualité des informations mises à disposition est compatible avec l’usage qu’il en fait.","statement:""- Camera model and parameters:
+ Make: Hasselblad
+ Model: L1D-20c
+ Width: 5472
+ Height: 3648
+ Focal: 28
+ WhiteBalance: Manual
+ ExposureMode: Auto Exposure
+ ColoSpace: sRGB
+ EV: -0.7
+ MeteringMode: CenterWeightedAverage
+ Camera Pitch: -89.90
+
+- Survey informations:
+ No Images: 565
+ Median height: 120 meters
+ Survey area: 1139.28 hectares
+ Survey from: 2023:06:26 15:59:22 to: 2023:07:01 11:36:44
+
+UTM Coordinate system:
+ WGS 84 / UTM zone 38S
+ EPSG:32738
+ Description:
+  name: Between 42°E and 48°E, southern hemisphere between 80°S and equator, onshore and offshore. Madagascar.
+  bounds: (42.0, -80.0, 48.0, 0.0)
+
+- Meteo:
+                       T° Humidity     hPa CloudCover WindSpd-10m WindDir-10m  \
+date                                                                            
+2023-06-26 00:00:00  21.8       82  1015.3         15        14.3         170   
+2023-06-26 01:00:00  21.7       83  1015.2         23        14.6         171   
+2023-06-26 02:00:00  21.6       83  1015.4         43        15.6         173   
+2023-06-26 03:00:00  21.6       83  1016.0         38        15.5         175   
+2023-06-26 04:00:00  21.8       82  1016.7         41        15.5         176   
+...                   ...      ...     ...        ...         ...         ...   
+2023-07-01 19:00:00  22.8       74  1021.3         29        19.3         156   
+2023-07-01 20:00:00  22.7       75  1020.9         27        18.7         152   
+2023-07-01 21:00:00  22.5       75  1020.6         28        18.7         150   
+2023-07-01 22:00:00  22.5       76  1020.6         15        16.9         146   
+2023-07-01 23:00:00  22.4       77  1019.6         17        16.3         149   
+
+                    WindSpd-100m WindDir-100m Rain  
+date                                                
+2023-06-26 00:00:00         19.8          170  0.0  
+2023-06-26 01:00:00         20.4          172  0.0  
+2023-06-26 02:00:00         21.4          173  0.1  
+2023-06-26 03:00:00         21.3          175  0.1  
+2023-06-26 04:00:00         21.3          176  0.0  
+...                          ...          ...  ...  
+2023-07-01 19:00:00         26.1          156  0.1  
+2023-07-01 20:00:00         25.3          152  0.1  
+2023-07-01 21:00:00         25.3          150  0.0  
+2023-07-01 22:00:00         23.0          148  0.0  
+2023-07-01 23:00:00         22.2          151  0.0  
+
+[144 rows x 9 columns]""_
+process:Download from WebODM_
+process:Download from WebODM_
+process:Download from WebODM_
+process:Download from WebODM_
+process:Download from WebODM","resource:image/tiff_
+distribution:image/tiff[GeoTIFF]","source:000_photogrammetry_report.pdf@/home/sylvain/DATA/COMORES/20230627_COM-vouvouni_UAV-01_2/000_photogrammetry_report.pdf,PROCESSED_DATA.zip@/home/sylvain/DATA/COMORES/20230627_COM-vouvouni_UAV-01_2/PROCESSED_DATA.zip_
+sourceType:other"
+"id:20230626_COM-bangoua-kouni_UAV-01_1_
+doi:10.5281/zenodo.8436956","title:""Orthophoto & DEM (MNE) issues d'images de drone, Bangoua kouni, Comores - 20230626""","abstract:""Ce jeu de données présente les résultats des traitements photogrammétriques d’images de drone acquises sur le site de Bangoua kouni, Grande Comore, Comores à la date suivante : 20230626.
+<br />Les traitements ont été réalisés avec le logiciel OpenDroneMap à partir des images brutes fournies dans la première version de ce DOI.
+<br />Les vols ont été réalisés en partenariat avec la DGSC (Direction Générale de la Sécurité Civile, Comores) dans le but de créer des modèles numériques d'élévations pour cartographier les risques naturels d’inondations ou de submersion marine.
+<br /><br />Le paramétrage du logiciel OpenDroneMap est partagé pour permettre la reproductibilité ou l'amélioration des traitements proposés:<br />
+[
+<br />        {
+<br />            'name': 'orthophoto-resolution',
+<br />            'value': 1
+<br />        },
+<br />        {
+<br />            'name': 'auto-boundary',
+<br />            'value': true
+<br />        },
+<br />        {
+<br />            'name': 'dem-resolution',
+<br />            'value': '2.0'
+<br />        },
+<br />        {
+<br />            'name': 'dsm',
+<br />            'value': true
+<br />        }
+<br />    ]
+<br />
+<br /><b>Le dépôt est composé des éléments suivants:</b>
+<br />    - 00_: Planche d'aperçu des images
+<br />    - 000_photogrammetry_report.pdf: rapport issu du traitement OpenDroneMap
+<br />    - DCIM.zip: Images brutes issues du drone
+<br />    - GPS.zip: Geopackage contenant l’emprise du survol ainsi que la géolocalisation des images accompagnées de leurs miniatures dans la table d’attribut en base64
+<br />    - METADATA.zip: Métadonnées au format ISO19115, Rapports avec miniatures des images de drone (dossier tb) et statistiques de vols.
+<br />    - PROCESSED_DATA.zip: Orthophoto, DEM, nuages de points, ...
+<br />
+<br /><b>Arborescence d'origine:</b>
+<br />└─ 20230626_COM-bangoua-kouni_UAV-01_1
+<br />  └─ DCIM
+<br />  └─ GPS
+<br />  └─ METADATA
+<br />    └─ tb
+<br />  └─ PROCESSED_DATA
+<br />
+<br />
+<br /><b>Informations de survol:</b>
+<br />- Camera model and parameters:
+<br /> Make: Hasselblad
+<br /> Model: L1D-20c
+<br /> Width: 5472
+<br /> Height: 3648
+<br /> Focal: 28
+<br /> WhiteBalance: Auto
+<br /> ExposureMode: Auto Exposure
+<br /> ColoSpace: sRGB
+<br /> EV: -0.7
+<br /> MeteringMode: CenterWeightedAverage
+<br /> Camera Pitch: -90.00
+<br />
+<br />- Survey informations:
+<br /> No Images: 293
+<br /> Median height: 120 meters
+<br /> Survey area: 51.19 hectares
+<br /> Survey from: 2023:06:27 10:33:32 to: 2023:06:27 10:50:12
+<br />
+<br />Les dépôts suivants comprennent les données traitées avec OpenDroneMap""_
+info:This study was funded by the European Regional Development Fund (ERDF) within the programme Interreg V 2014-2020 through the project G2OI_
+edition:RAW DATA","theme[General]:Comores,Grande Comore,flooding,natural risk,risque inondation,drone,uav,uas,DEM,DSM,orthophoto,mapping,cartographie,submersion,marine_
+project:G2OI@https://www.ird.fr/projet-g2oi-grand-observatoire-de-locean-indien","author:sylvain.poulain@ird.fr,julien.barde@ird.fr,natali.mmadi@gmail.com,mohamedhamidou957@gmail.com,comores.dgsc@gmail.com_
+publisher:sylvain.poulain@ird.fr_
+owner:comores.dgsc@gmail.com_
+pointOfContact:julien.barde@ird.fr_
+processor:sylvain.poulain@ird.fr_
+publisher:sylvain.poulain@ird.fr_
+owner:comores.dgsc@gmail.com_
+pointOfContact:julien.barde@ird.fr_
+processor:sylvain.poulain@ird.fr","publication:2023-10-11_
+edition:2023-10-11",dataset,fra,,2023-06-27 10-33-32 - 2023-06-27 10-50-12,"thumbnail:G2OI@https://g2oi.ird.fr/static/img/logo_ird.png_
+http:Website G2OI[G2OI Website]@https://www.ird.fr/projet-g2oi-grand-observatoire-de-locean-indien","useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
+accessConstraint:otherRestrictions_
+useConstraint:intellectualPropertyRights_
+otherConstraint:Le fournisseur n’est pas en mesure de garantir l’exactitude, la mise à jour, l’intégrité, l’exhaustivité des données et en particulier qu'elles sont exemptes d'erreurs ou d'imprécisions, notamment de localisation, d’identification ou de qualification. Aucune garantie quant à l'aptitude des données à un usage particulier n'est apportée par le fournisseur. Les utilisateurs utilisent les données sous leur responsabilité pleine et entière, sans recours possible contre le fournisseur dont la responsabilité ne saurait être engagée du fait d’un dommage résultant directement ou indirectement de l’utilisation de ces données. En particulier, il appartient aux utilisateurs d’apprécier, sous leur seule responsabilité : l'opportunité d'utiliser les données; la compatibilité des fichiers avec leurs systèmes informatiques; l’adéquation des données à leurs besoins; qu’ils disposent de la compétence suffisante pour utiliser les données. Le fournisseur n’est en aucune façon responsable des éléments extérieurs aux données et notamment des outils d’analyse, matériels, logiciels, réseaux..., utilisés pour consulter et/ou traiter les données. L’utilisateur veille à vérifier que l’actualité des informations mises à disposition est compatible avec l’usage qu’il en fait.","statement:""- Camera model and parameters:
+ Make: Hasselblad
+ Model: L1D-20c
+ Width: 5472
+ Height: 3648
+ Focal: 28
+ WhiteBalance: Manual
+ ExposureMode: Auto Exposure
+ ColoSpace: sRGB
+ EV: -0.7
+ MeteringMode: CenterWeightedAverage
+ Camera Pitch: -89.90
+
+- Survey informations:
+ No Images: 565
+ Median height: 120 meters
+ Survey area: 1139.28 hectares
+ Survey from: 2023:06:26 15:59:22 to: 2023:07:01 11:36:44
+
+UTM Coordinate system:
+ WGS 84 / UTM zone 38S
+ EPSG:32738
+ Description:
+  name: Between 42°E and 48°E, southern hemisphere between 80°S and equator, onshore and offshore. Madagascar.
+  bounds: (42.0, -80.0, 48.0, 0.0)
+
+- Meteo:
+                       T° Humidity     hPa CloudCover WindSpd-10m WindDir-10m  \
+date                                                                            
+2023-06-26 00:00:00  21.8       82  1015.3         15        14.3         170   
+2023-06-26 01:00:00  21.7       83  1015.2         23        14.6         171   
+2023-06-26 02:00:00  21.6       83  1015.4         43        15.6         173   
+2023-06-26 03:00:00  21.6       83  1016.0         38        15.5         175   
+2023-06-26 04:00:00  21.8       82  1016.7         41        15.5         176   
+...                   ...      ...     ...        ...         ...         ...   
+2023-07-01 19:00:00  22.8       74  1021.3         29        19.3         156   
+2023-07-01 20:00:00  22.7       75  1020.9         27        18.7         152   
+2023-07-01 21:00:00  22.5       75  1020.6         28        18.7         150   
+2023-07-01 22:00:00  22.5       76  1020.6         15        16.9         146   
+2023-07-01 23:00:00  22.4       77  1019.6         17        16.3         149   
+
+                    WindSpd-100m WindDir-100m Rain  
+date                                                
+2023-06-26 00:00:00         19.8          170  0.0  
+2023-06-26 01:00:00         20.4          172  0.0  
+2023-06-26 02:00:00         21.4          173  0.1  
+2023-06-26 03:00:00         21.3          175  0.1  
+2023-06-26 04:00:00         21.3          176  0.0  
+...                          ...          ...  ...  
+2023-07-01 19:00:00         26.1          156  0.1  
+2023-07-01 20:00:00         25.3          152  0.1  
+2023-07-01 21:00:00         25.3          150  0.0  
+2023-07-01 22:00:00         23.0          148  0.0  
+2023-07-01 23:00:00         22.2          151  0.0  
+
+[144 rows x 9 columns]""_
+process:Download from WebODM_
+process:Download from WebODM_
+process:Download from WebODM_
+process:Download from WebODM_
+process:Download from WebODM","resource:image/tiff_
+distribution:image/tiff[GeoTIFF]","source:000_photogrammetry_report.pdf@/home/sylvain/DATA/COMORES/20230626_COM-bangoua-kouni_UAV-01_1/000_photogrammetry_report.pdf,PROCESSED_DATA.zip@/home/sylvain/DATA/COMORES/20230626_COM-bangoua-kouni_UAV-01_1/PROCESSED_DATA.zip_
+sourceType:other"
+"id:20230626_COM-bandamaji_UAV-02_1_
+doi:10.5281/zenodo.8436959","title:""Orthophoto & DEM (MNE) issues d'images de drone, Bandamaji, Comores - 20230626""","abstract:""Ce jeu de données présente les résultats des traitements photogrammétriques d’images de drone acquises sur le site de Bandamaji, Grande Comore, Comores à la date suivante : 20230626.
+<br />Les traitements ont été réalisés avec le logiciel OpenDroneMap à partir des images brutes fournies dans la première version de ce DOI.
+<br />Les vols ont été réalisés en partenariat avec la DGSC (Direction Générale de la Sécurité Civile, Comores) dans le but de créer des modèles numériques d'élévations pour cartographier les risques naturels d’inondations ou de submersion marine.
+<br /><br />Le paramétrage du logiciel OpenDroneMap est partagé pour permettre la reproductibilité ou l'amélioration des traitements proposés:<br />
+[
+<br />        {
+<br />            'name': 'orthophoto-resolution',
+<br />            'value': 1
+<br />        },
+<br />        {
+<br />            'name': 'auto-boundary',
+<br />            'value': true
+<br />        },
+<br />        {
+<br />            'name': 'dem-resolution',
+<br />            'value': '2.0'
+<br />        },
+<br />        {
+<br />            'name': 'dsm',
+<br />            'value': true
+<br />        }
+<br />    ]
+<br />
+<br /><b>Le dépôt est composé des éléments suivants:</b>
+<br />    - 00_: Planche d'aperçu des images
+<br />    - 000_photogrammetry_report.pdf: rapport issu du traitement OpenDroneMap
+<br />    - DCIM.zip: Images brutes issues du drone
+<br />    - GPS.zip: Geopackage contenant l’emprise du survol ainsi que la géolocalisation des images accompagnées de leurs miniatures dans la table d’attribut en base64
+<br />    - METADATA.zip: Métadonnées au format ISO19115, Rapports avec miniatures des images de drone (dossier tb) et statistiques de vols.
+<br />    - PROCESSED_DATA.zip: Orthophoto, DEM, nuages de points, ...
+<br />
+<br /><b>Arborescence d'origine:</b>
+<br />└─ 20230626_COM-bandamaji_UAV-02_1
+<br />  └─ DCIM
+<br />  └─ GPS
+<br />  └─ METADATA
+<br />    └─ tb
+<br />  └─ PROCESSED_DATA
+<br />
+<br />
+<br /><b>Informations de survol:</b>
+<br />- Camera model and parameters:
+<br /> Make: Hasselblad
+<br /> Model: L1D-20c
+<br /> Width: 5472
+<br /> Height: 3648
+<br /> Focal: 28
+<br /> WhiteBalance: Manual
+<br /> ExposureMode: Auto Exposure
+<br /> ColoSpace: sRGB
+<br /> EV: -0.7
+<br /> MeteringMode: CenterWeightedAverage
+<br /> Camera Pitch: -89.90
+<br />
+<br />- Survey informations:
+<br /> No Images: 335
+<br /> Median height: 120 meters
+<br /> Survey area: 17.41 hectares
+<br /> Survey from: 2023:06:26 15:53:50 to: 2023:06:26 16:07:14
+<br />
+<br />Les dépôts suivants comprennent les données traitées avec OpenDroneMap""_
+info:This study was funded by the European Regional Development Fund (ERDF) within the programme Interreg V 2014-2020 through the project G2OI_
+edition:RAW DATA","theme[General]:Comores,Grande Comore,flooding,natural risk,risque inondation,drone,uav,uas,DEM,DSM,orthophoto,mapping,cartographie,submersion,marine_
+project:G2OI@https://www.ird.fr/projet-g2oi-grand-observatoire-de-locean-indien","author:sylvain.poulain@ird.fr,julien.barde@ird.fr,natali.mmadi@gmail.com,mohamedhamidou957@gmail.com,comores.dgsc@gmail.com_
+publisher:sylvain.poulain@ird.fr_
+owner:comores.dgsc@gmail.com_
+pointOfContact:julien.barde@ird.fr_
+processor:sylvain.poulain@ird.fr_
+publisher:sylvain.poulain@ird.fr_
+owner:comores.dgsc@gmail.com_
+pointOfContact:julien.barde@ird.fr_
+processor:sylvain.poulain@ird.fr","publication:2023-10-11_
+edition:2023-10-11",dataset,fra,,2023-06-26 15-53-50 - 2023-06-26 16-07-14,"thumbnail:G2OI@https://g2oi.ird.fr/static/img/logo_ird.png_
+http:Website G2OI[G2OI Website]@https://www.ird.fr/projet-g2oi-grand-observatoire-de-locean-indien","useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
+accessConstraint:otherRestrictions_
+useConstraint:intellectualPropertyRights_
+otherConstraint:Le fournisseur n’est pas en mesure de garantir l’exactitude, la mise à jour, l’intégrité, l’exhaustivité des données et en particulier qu'elles sont exemptes d'erreurs ou d'imprécisions, notamment de localisation, d’identification ou de qualification. Aucune garantie quant à l'aptitude des données à un usage particulier n'est apportée par le fournisseur. Les utilisateurs utilisent les données sous leur responsabilité pleine et entière, sans recours possible contre le fournisseur dont la responsabilité ne saurait être engagée du fait d’un dommage résultant directement ou indirectement de l’utilisation de ces données. En particulier, il appartient aux utilisateurs d’apprécier, sous leur seule responsabilité : l'opportunité d'utiliser les données; la compatibilité des fichiers avec leurs systèmes informatiques; l’adéquation des données à leurs besoins; qu’ils disposent de la compétence suffisante pour utiliser les données. Le fournisseur n’est en aucune façon responsable des éléments extérieurs aux données et notamment des outils d’analyse, matériels, logiciels, réseaux..., utilisés pour consulter et/ou traiter les données. L’utilisateur veille à vérifier que l’actualité des informations mises à disposition est compatible avec l’usage qu’il en fait.","statement:""- Camera model and parameters:
+ Make: Hasselblad
+ Model: L1D-20c
+ Width: 5472
+ Height: 3648
+ Focal: 28
+ WhiteBalance: Manual
+ ExposureMode: Auto Exposure
+ ColoSpace: sRGB
+ EV: -0.7
+ MeteringMode: CenterWeightedAverage
+ Camera Pitch: -89.90
+
+- Survey informations:
+ No Images: 565
+ Median height: 120 meters
+ Survey area: 1139.28 hectares
+ Survey from: 2023:06:26 15:59:22 to: 2023:07:01 11:36:44
+
+UTM Coordinate system:
+ WGS 84 / UTM zone 38S
+ EPSG:32738
+ Description:
+  name: Between 42°E and 48°E, southern hemisphere between 80°S and equator, onshore and offshore. Madagascar.
+  bounds: (42.0, -80.0, 48.0, 0.0)
+
+- Meteo:
+                       T° Humidity     hPa CloudCover WindSpd-10m WindDir-10m  \
+date                                                                            
+2023-06-26 00:00:00  21.8       82  1015.3         15        14.3         170   
+2023-06-26 01:00:00  21.7       83  1015.2         23        14.6         171   
+2023-06-26 02:00:00  21.6       83  1015.4         43        15.6         173   
+2023-06-26 03:00:00  21.6       83  1016.0         38        15.5         175   
+2023-06-26 04:00:00  21.8       82  1016.7         41        15.5         176   
+...                   ...      ...     ...        ...         ...         ...   
+2023-07-01 19:00:00  22.8       74  1021.3         29        19.3         156   
+2023-07-01 20:00:00  22.7       75  1020.9         27        18.7         152   
+2023-07-01 21:00:00  22.5       75  1020.6         28        18.7         150   
+2023-07-01 22:00:00  22.5       76  1020.6         15        16.9         146   
+2023-07-01 23:00:00  22.4       77  1019.6         17        16.3         149   
+
+                    WindSpd-100m WindDir-100m Rain  
+date                                                
+2023-06-26 00:00:00         19.8          170  0.0  
+2023-06-26 01:00:00         20.4          172  0.0  
+2023-06-26 02:00:00         21.4          173  0.1  
+2023-06-26 03:00:00         21.3          175  0.1  
+2023-06-26 04:00:00         21.3          176  0.0  
+...                          ...          ...  ...  
+2023-07-01 19:00:00         26.1          156  0.1  
+2023-07-01 20:00:00         25.3          152  0.1  
+2023-07-01 21:00:00         25.3          150  0.0  
+2023-07-01 22:00:00         23.0          148  0.0  
+2023-07-01 23:00:00         22.2          151  0.0  
+
+[144 rows x 9 columns]""_
+process:Download from WebODM_
+process:Download from WebODM_
+process:Download from WebODM_
+process:Download from WebODM_
+process:Download from WebODM","resource:image/tiff_
+distribution:image/tiff[GeoTIFF]","source:000_photogrammetry_report.pdf@/home/sylvain/DATA/COMORES/20230626_COM-bandamaji_UAV-02_1/000_photogrammetry_report.pdf,PROCESSED_DATA.zip@/home/sylvain/DATA/COMORES/20230626_COM-bandamaji_UAV-02_1/PROCESSED_DATA.zip_
+sourceType:other"
+"id:20230626_COM-bandamaji_UAV-01_1_
+doi:10.5281/zenodo.8436963","title:""Orthophoto & DEM (MNE) issues d'images de drone, Bandamaji, Comores - 20230626""","abstract:""Ce jeu de données présente les résultats des traitements photogrammétriques d’images de drone acquises sur le site de Bandamaji, Grande Comore, Comores à la date suivante : 20230626.
+<br />Les traitements ont été réalisés avec le logiciel OpenDroneMap à partir des images brutes fournies dans la première version de ce DOI.
+<br />Les vols ont été réalisés en partenariat avec la DGSC (Direction Générale de la Sécurité Civile, Comores) dans le but de créer des modèles numériques d'élévations pour cartographier les risques naturels d’inondations ou de submersion marine.
+<br /><br />Le paramétrage du logiciel OpenDroneMap est partagé pour permettre la reproductibilité ou l'amélioration des traitements proposés:<br />
+[
+<br />        {
+<br />            'name': 'orthophoto-resolution',
+<br />            'value': 1
+<br />        },
+<br />        {
+<br />            'name': 'auto-boundary',
+<br />            'value': true
+<br />        },
+<br />        {
+<br />            'name': 'dem-resolution',
+<br />            'value': '2.0'
+<br />        },
+<br />        {
+<br />            'name': 'dsm',
+<br />            'value': true
+<br />        }
+<br />    ]
+<br />
+<br /><b>Le dépôt est composé des éléments suivants:</b>
+<br />    - 00_: Planche d'aperçu des images
+<br />    - 000_photogrammetry_report.pdf: rapport issu du traitement OpenDroneMap
+<br />    - DCIM.zip: Images brutes issues du drone
+<br />    - GPS.zip: Geopackage contenant l’emprise du survol ainsi que la géolocalisation des images accompagnées de leurs miniatures dans la table d’attribut en base64
+<br />    - METADATA.zip: Métadonnées au format ISO19115, Rapports avec miniatures des images de drone (dossier tb) et statistiques de vols.
+<br />    - PROCESSED_DATA.zip: Orthophoto, DEM, nuages de points, ...
+<br />
+<br /><b>Arborescence d'origine:</b>
+<br />└─ 20230626_COM-bandamaji_UAV-01_1
+<br />  └─ DCIM
+<br />  └─ GPS
+<br />  └─ METADATA
+<br />    └─ tb
+<br />  └─ PROCESSED_DATA
+<br />
+<br />
+<br /><b>Informations de survol:</b>
+<br />- Camera model and parameters:
+<br /> Make: Hasselblad
+<br /> Model: L1D-20c
+<br /> Width: 5472
+<br /> Height: 3648
+<br /> Focal: 28
+<br /> WhiteBalance: Auto
+<br /> ExposureMode: Auto Exposure
+<br /> ColoSpace: sRGB
+<br /> EV: -0.7
+<br /> MeteringMode: CenterWeightedAverage
+<br /> Camera Pitch: -89.90
+<br />
+<br />- Survey informations:
+<br /> No Images: 102
+<br /> Median height: 100 meters
+<br /> Survey area: 4.57 hectares
+<br /> Survey from: 2023:06:26 15:34:52 to: 2023:06:26 15:39:22
+<br />
+<br />Les dépôts suivants comprennent les données traitées avec OpenDroneMap""_
+info:This study was funded by the European Regional Development Fund (ERDF) within the programme Interreg V 2014-2020 through the project G2OI_
+edition:RAW DATA","theme[General]:Comores,Grande Comore,flooding,natural risk,risque inondation,drone,uav,uas,DEM,DSM,orthophoto,mapping,cartographie,submersion,marine_
+project:G2OI@https://www.ird.fr/projet-g2oi-grand-observatoire-de-locean-indien","author:sylvain.poulain@ird.fr,julien.barde@ird.fr,natali.mmadi@gmail.com,mohamedhamidou957@gmail.com,comores.dgsc@gmail.com_
+publisher:sylvain.poulain@ird.fr_
+owner:comores.dgsc@gmail.com_
+pointOfContact:julien.barde@ird.fr_
+processor:sylvain.poulain@ird.fr_
+publisher:sylvain.poulain@ird.fr_
+owner:comores.dgsc@gmail.com_
+pointOfContact:julien.barde@ird.fr_
+processor:sylvain.poulain@ird.fr","publication:2023-10-11_
+edition:2023-10-11",dataset,fra,,2023-06-26 15-34-52 - 2023-06-26 15-39-22,"thumbnail:G2OI@https://g2oi.ird.fr/static/img/logo_ird.png_
+http:Website G2OI[G2OI Website]@https://www.ird.fr/projet-g2oi-grand-observatoire-de-locean-indien","useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
+accessConstraint:otherRestrictions_
+useConstraint:intellectualPropertyRights_
+otherConstraint:Le fournisseur n’est pas en mesure de garantir l’exactitude, la mise à jour, l’intégrité, l’exhaustivité des données et en particulier qu'elles sont exemptes d'erreurs ou d'imprécisions, notamment de localisation, d’identification ou de qualification. Aucune garantie quant à l'aptitude des données à un usage particulier n'est apportée par le fournisseur. Les utilisateurs utilisent les données sous leur responsabilité pleine et entière, sans recours possible contre le fournisseur dont la responsabilité ne saurait être engagée du fait d’un dommage résultant directement ou indirectement de l’utilisation de ces données. En particulier, il appartient aux utilisateurs d’apprécier, sous leur seule responsabilité : l'opportunité d'utiliser les données; la compatibilité des fichiers avec leurs systèmes informatiques; l’adéquation des données à leurs besoins; qu’ils disposent de la compétence suffisante pour utiliser les données. Le fournisseur n’est en aucune façon responsable des éléments extérieurs aux données et notamment des outils d’analyse, matériels, logiciels, réseaux..., utilisés pour consulter et/ou traiter les données. L’utilisateur veille à vérifier que l’actualité des informations mises à disposition est compatible avec l’usage qu’il en fait.","statement:""- Camera model and parameters:
+ Make: Hasselblad
+ Model: L1D-20c
+ Width: 5472
+ Height: 3648
+ Focal: 28
+ WhiteBalance: Manual
+ ExposureMode: Auto Exposure
+ ColoSpace: sRGB
+ EV: -0.7
+ MeteringMode: CenterWeightedAverage
+ Camera Pitch: -89.90
+
+- Survey informations:
+ No Images: 565
+ Median height: 120 meters
+ Survey area: 1139.28 hectares
+ Survey from: 2023:06:26 15:59:22 to: 2023:07:01 11:36:44
+
+UTM Coordinate system:
+ WGS 84 / UTM zone 38S
+ EPSG:32738
+ Description:
+  name: Between 42°E and 48°E, southern hemisphere between 80°S and equator, onshore and offshore. Madagascar.
+  bounds: (42.0, -80.0, 48.0, 0.0)
+
+- Meteo:
+                       T° Humidity     hPa CloudCover WindSpd-10m WindDir-10m  \
+date                                                                            
+2023-06-26 00:00:00  21.8       82  1015.3         15        14.3         170   
+2023-06-26 01:00:00  21.7       83  1015.2         23        14.6         171   
+2023-06-26 02:00:00  21.6       83  1015.4         43        15.6         173   
+2023-06-26 03:00:00  21.6       83  1016.0         38        15.5         175   
+2023-06-26 04:00:00  21.8       82  1016.7         41        15.5         176   
+...                   ...      ...     ...        ...         ...         ...   
+2023-07-01 19:00:00  22.8       74  1021.3         29        19.3         156   
+2023-07-01 20:00:00  22.7       75  1020.9         27        18.7         152   
+2023-07-01 21:00:00  22.5       75  1020.6         28        18.7         150   
+2023-07-01 22:00:00  22.5       76  1020.6         15        16.9         146   
+2023-07-01 23:00:00  22.4       77  1019.6         17        16.3         149   
+
+                    WindSpd-100m WindDir-100m Rain  
+date                                                
+2023-06-26 00:00:00         19.8          170  0.0  
+2023-06-26 01:00:00         20.4          172  0.0  
+2023-06-26 02:00:00         21.4          173  0.1  
+2023-06-26 03:00:00         21.3          175  0.1  
+2023-06-26 04:00:00         21.3          176  0.0  
+...                          ...          ...  ...  
+2023-07-01 19:00:00         26.1          156  0.1  
+2023-07-01 20:00:00         25.3          152  0.1  
+2023-07-01 21:00:00         25.3          150  0.0  
+2023-07-01 22:00:00         23.0          148  0.0  
+2023-07-01 23:00:00         22.2          151  0.0  
+
+[144 rows x 9 columns]""_
+process:Download from WebODM_
+process:Download from WebODM_
+process:Download from WebODM_
+process:Download from WebODM_
+process:Download from WebODM","resource:image/tiff_
+distribution:image/tiff[GeoTIFF]","source:000_photogrammetry_report.pdf@/home/sylvain/DATA/COMORES/20230626_COM-bandamaji_UAV-01_1/000_photogrammetry_report.pdf,PROCESSED_DATA.zip@/home/sylvain/DATA/COMORES/20230626_COM-bandamaji_UAV-01_1/PROCESSED_DATA.zip_
+sourceType:other"
+"id:20230628_COM-maloudja_UAV-02_2_
+doi:10.5281/zenodo.8436964","title:""Orthophoto & DEM (MNE) issues d'images de drone, Maloudja, Comores - 20230628""","abstract:""Ce jeu de données présente les résultats des traitements photogrammétriques d’images de drone acquises sur le site de Maloudja, Grande Comore, Comores à la date suivante : 20230628.
+<br />Les traitements ont été réalisés avec le logiciel OpenDroneMap à partir des images brutes fournies dans la première version de ce DOI.
+<br />Les vols ont été réalisés en partenariat avec la DGSC (Direction Générale de la Sécurité Civile, Comores) dans le but de créer des modèles numériques d'élévations pour cartographier les risques naturels d’inondations ou de submersion marine.
+<br /><br />Le paramétrage du logiciel OpenDroneMap est partagé pour permettre la reproductibilité ou l'amélioration des traitements proposés:<br />
+[
+<br />        {
+<br />            'name': 'orthophoto-resolution',
+<br />            'value': 1
+<br />        },
+<br />        {
+<br />            'name': 'auto-boundary',
+<br />            'value': true
+<br />        },
+<br />        {
+<br />            'name': 'dem-resolution',
+<br />            'value': '2.0'
+<br />        },
+<br />        {
+<br />            'name': 'dsm',
+<br />            'value': true
+<br />        }
+<br />    ]
+<br />
+<br /><b>Le dépôt est composé des éléments suivants:</b>
+<br />    - 00_: Planche d'aperçu des images
+<br />    - 000_photogrammetry_report.pdf: rapport issu du traitement OpenDroneMap
+<br />    - DCIM.zip: Images brutes issues du drone
+<br />    - GPS.zip: Geopackage contenant l’emprise du survol ainsi que la géolocalisation des images accompagnées de leurs miniatures dans la table d’attribut en base64
+<br />    - METADATA.zip: Métadonnées au format ISO19115, Rapports avec miniatures des images de drone (dossier tb) et statistiques de vols.
+<br />    - PROCESSED_DATA.zip: Orthophoto, DEM, nuages de points, ...
+<br />
+<br /><b>Arborescence d'origine:</b>
+<br />└─ 20230628_COM-maloudja_UAV-02_2
+<br />  └─ DCIM
+<br />  └─ GPS
+<br />  └─ METADATA
+<br />    └─ tb
+<br />  └─ PROCESSED_DATA
+<br />
+<br />
+<br /><b>Informations de survol:</b>
+<br />- Camera model and parameters:
+<br /> Make: Hasselblad
+<br /> Model: L1D-20c
+<br /> Width: 5472
+<br /> Height: 3648
+<br /> Focal: 28
+<br /> WhiteBalance: Manual
+<br /> ExposureMode: Auto Exposure
+<br /> ColoSpace: sRGB
+<br /> EV: -0.7
+<br /> MeteringMode: CenterWeightedAverage
+<br /> Camera Pitch: -90.00
+<br />
+<br />- Survey informations:
+<br /> No Images: 147
+<br /> Median height: 120 meters
+<br /> Survey area: 24.07 hectares
+<br /> Survey from: 2023:06:28 17:55:53 to: 2023:06:28 18:07:38
+<br />
+<br />Les dépôts suivants comprennent les données traitées avec OpenDroneMap""_
+info:This study was funded by the European Regional Development Fund (ERDF) within the programme Interreg V 2014-2020 through the project G2OI_
+edition:RAW DATA","theme[General]:Comores,Grande Comore,flooding,natural risk,risque inondation,drone,uav,uas,DEM,DSM,orthophoto,mapping,cartographie,submersion,marine_
+project:G2OI@https://www.ird.fr/projet-g2oi-grand-observatoire-de-locean-indien","author:sylvain.poulain@ird.fr,julien.barde@ird.fr,natali.mmadi@gmail.com,mohamedhamidou957@gmail.com,comores.dgsc@gmail.com_
+publisher:sylvain.poulain@ird.fr_
+owner:comores.dgsc@gmail.com_
+pointOfContact:julien.barde@ird.fr_
+processor:sylvain.poulain@ird.fr_
+publisher:sylvain.poulain@ird.fr_
+owner:comores.dgsc@gmail.com_
+pointOfContact:julien.barde@ird.fr_
+processor:sylvain.poulain@ird.fr","publication:2023-10-11_
+edition:2023-10-11",dataset,fra,,2023-06-28 17-55-53 - 2023-06-28 18-07-38,"thumbnail:G2OI@https://g2oi.ird.fr/static/img/logo_ird.png_
+http:Website G2OI[G2OI Website]@https://www.ird.fr/projet-g2oi-grand-observatoire-de-locean-indien","useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
+accessConstraint:otherRestrictions_
+useConstraint:intellectualPropertyRights_
+otherConstraint:Le fournisseur n’est pas en mesure de garantir l’exactitude, la mise à jour, l’intégrité, l’exhaustivité des données et en particulier qu'elles sont exemptes d'erreurs ou d'imprécisions, notamment de localisation, d’identification ou de qualification. Aucune garantie quant à l'aptitude des données à un usage particulier n'est apportée par le fournisseur. Les utilisateurs utilisent les données sous leur responsabilité pleine et entière, sans recours possible contre le fournisseur dont la responsabilité ne saurait être engagée du fait d’un dommage résultant directement ou indirectement de l’utilisation de ces données. En particulier, il appartient aux utilisateurs d’apprécier, sous leur seule responsabilité : l'opportunité d'utiliser les données; la compatibilité des fichiers avec leurs systèmes informatiques; l’adéquation des données à leurs besoins; qu’ils disposent de la compétence suffisante pour utiliser les données. Le fournisseur n’est en aucune façon responsable des éléments extérieurs aux données et notamment des outils d’analyse, matériels, logiciels, réseaux..., utilisés pour consulter et/ou traiter les données. L’utilisateur veille à vérifier que l’actualité des informations mises à disposition est compatible avec l’usage qu’il en fait.","statement:""- Camera model and parameters:
+ Make: Hasselblad
+ Model: L1D-20c
+ Width: 5472
+ Height: 3648
+ Focal: 28
+ WhiteBalance: Manual
+ ExposureMode: Auto Exposure
+ ColoSpace: sRGB
+ EV: -0.7
+ MeteringMode: CenterWeightedAverage
+ Camera Pitch: -89.90
+
+- Survey informations:
+ No Images: 565
+ Median height: 120 meters
+ Survey area: 1139.28 hectares
+ Survey from: 2023:06:26 15:59:22 to: 2023:07:01 11:36:44
+
+UTM Coordinate system:
+ WGS 84 / UTM zone 38S
+ EPSG:32738
+ Description:
+  name: Between 42°E and 48°E, southern hemisphere between 80°S and equator, onshore and offshore. Madagascar.
+  bounds: (42.0, -80.0, 48.0, 0.0)
+
+- Meteo:
+                       T° Humidity     hPa CloudCover WindSpd-10m WindDir-10m  \
+date                                                                            
+2023-06-26 00:00:00  21.8       82  1015.3         15        14.3         170   
+2023-06-26 01:00:00  21.7       83  1015.2         23        14.6         171   
+2023-06-26 02:00:00  21.6       83  1015.4         43        15.6         173   
+2023-06-26 03:00:00  21.6       83  1016.0         38        15.5         175   
+2023-06-26 04:00:00  21.8       82  1016.7         41        15.5         176   
+...                   ...      ...     ...        ...         ...         ...   
+2023-07-01 19:00:00  22.8       74  1021.3         29        19.3         156   
+2023-07-01 20:00:00  22.7       75  1020.9         27        18.7         152   
+2023-07-01 21:00:00  22.5       75  1020.6         28        18.7         150   
+2023-07-01 22:00:00  22.5       76  1020.6         15        16.9         146   
+2023-07-01 23:00:00  22.4       77  1019.6         17        16.3         149   
+
+                    WindSpd-100m WindDir-100m Rain  
+date                                                
+2023-06-26 00:00:00         19.8          170  0.0  
+2023-06-26 01:00:00         20.4          172  0.0  
+2023-06-26 02:00:00         21.4          173  0.1  
+2023-06-26 03:00:00         21.3          175  0.1  
+2023-06-26 04:00:00         21.3          176  0.0  
+...                          ...          ...  ...  
+2023-07-01 19:00:00         26.1          156  0.1  
+2023-07-01 20:00:00         25.3          152  0.1  
+2023-07-01 21:00:00         25.3          150  0.0  
+2023-07-01 22:00:00         23.0          148  0.0  
+2023-07-01 23:00:00         22.2          151  0.0  
+
+[144 rows x 9 columns]""_
+process:Download from WebODM_
+process:Download from WebODM_
+process:Download from WebODM_
+process:Download from WebODM_
+process:Download from WebODM","resource:image/tiff_
+distribution:image/tiff[GeoTIFF]","source:000_photogrammetry_report.pdf@/home/sylvain/DATA/COMORES/20230628_COM-maloudja_UAV-02_2/000_photogrammetry_report.pdf,PROCESSED_DATA.zip@/home/sylvain/DATA/COMORES/20230628_COM-maloudja_UAV-02_2/PROCESSED_DATA.zip_
+sourceType:other"
+"id:20230626_COM-mitsamiouli_UAV-01_2_
+doi:10.5281/zenodo.8436965","title:""Orthophoto & DEM (MNE) issues d'images de drone, Mitsamiouli, Comores - 20230626""","abstract:""Ce jeu de données présente les résultats des traitements photogrammétriques d’images de drone acquises sur le site de Mitsamiouli, Grande Comore, Comores à la date suivante : 20230626.
+<br />Les traitements ont été réalisés avec le logiciel OpenDroneMap à partir des images brutes fournies dans la première version de ce DOI.
+<br />Les vols ont été réalisés en partenariat avec la DGSC (Direction Générale de la Sécurité Civile, Comores) dans le but de créer des modèles numériques d'élévations pour cartographier les risques naturels d’inondations ou de submersion marine.
+<br /><br />Le paramétrage du logiciel OpenDroneMap est partagé pour permettre la reproductibilité ou l'amélioration des traitements proposés:<br />
+[
+<br />        {
+<br />            'name': 'orthophoto-resolution',
+<br />            'value': 1
+<br />        },
+<br />        {
+<br />            'name': 'auto-boundary',
+<br />            'value': true
+<br />        },
+<br />        {
+<br />            'name': 'dem-resolution',
+<br />            'value': '2.0'
+<br />        },
+<br />        {
+<br />            'name': 'dsm',
+<br />            'value': true
+<br />        }
+<br />    ]
+<br />
+<br /><b>Le dépôt est composé des éléments suivants:</b>
+<br />    - 00_: Planche d'aperçu des images
+<br />    - 000_photogrammetry_report.pdf: rapport issu du traitement OpenDroneMap
+<br />    - DCIM.zip: Images brutes issues du drone
+<br />    - GPS.zip: Geopackage contenant l’emprise du survol ainsi que la géolocalisation des images accompagnées de leurs miniatures dans la table d’attribut en base64
+<br />    - METADATA.zip: Métadonnées au format ISO19115, Rapports avec miniatures des images de drone (dossier tb) et statistiques de vols.
+<br />    - PROCESSED_DATA.zip: Orthophoto, DEM, nuages de points, ...
+<br />
+<br /><b>Arborescence d'origine:</b>
+<br />└─ 20230626_COM-mitsamiouli_UAV-01_2
+<br />  └─ DCIM
+<br />  └─ GPS
+<br />  └─ METADATA
+<br />    └─ tb
+<br />  └─ PROCESSED_DATA
+<br />
+<br />
+<br /><b>Informations de survol:</b>
+<br />- Camera model and parameters:
+<br /> Make: Hasselblad
+<br /> Model: L1D-20c
+<br /> Width: 5472
+<br /> Height: 3648
+<br /> Focal: 28
+<br /> WhiteBalance: Auto
+<br /> ExposureMode: Auto Exposure
+<br /> ColoSpace: sRGB
+<br /> EV: -0.7
+<br /> MeteringMode: CenterWeightedAverage
+<br /> Camera Pitch: -90.00
+<br />
+<br />- Survey informations:
+<br /> No Images: 255
+<br /> Median height: 120 meters
+<br /> Survey area: 30.56 hectares
+<br /> Survey from: 2023:06:27 12:30:25 to: 2023:06:27 12:44:19
+<br />
+<br />Les dépôts suivants comprennent les données traitées avec OpenDroneMap""_
+info:This study was funded by the European Regional Development Fund (ERDF) within the programme Interreg V 2014-2020 through the project G2OI_
+edition:RAW DATA","theme[General]:Comores,Grande Comore,flooding,natural risk,risque inondation,drone,uav,uas,DEM,DSM,orthophoto,mapping,cartographie,submersion,marine_
+project:G2OI@https://www.ird.fr/projet-g2oi-grand-observatoire-de-locean-indien","author:sylvain.poulain@ird.fr,julien.barde@ird.fr,natali.mmadi@gmail.com,mohamedhamidou957@gmail.com,comores.dgsc@gmail.com_
+publisher:sylvain.poulain@ird.fr_
+owner:comores.dgsc@gmail.com_
+pointOfContact:julien.barde@ird.fr_
+processor:sylvain.poulain@ird.fr_
+publisher:sylvain.poulain@ird.fr_
+owner:comores.dgsc@gmail.com_
+pointOfContact:julien.barde@ird.fr_
+processor:sylvain.poulain@ird.fr","publication:2023-10-11_
+edition:2023-10-11",dataset,fra,,2023-06-27 12-30-25 - 2023-06-27 12-44-19,"thumbnail:G2OI@https://g2oi.ird.fr/static/img/logo_ird.png_
+http:Website G2OI[G2OI Website]@https://www.ird.fr/projet-g2oi-grand-observatoire-de-locean-indien","useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
+accessConstraint:otherRestrictions_
+useConstraint:intellectualPropertyRights_
+otherConstraint:Le fournisseur n’est pas en mesure de garantir l’exactitude, la mise à jour, l’intégrité, l’exhaustivité des données et en particulier qu'elles sont exemptes d'erreurs ou d'imprécisions, notamment de localisation, d’identification ou de qualification. Aucune garantie quant à l'aptitude des données à un usage particulier n'est apportée par le fournisseur. Les utilisateurs utilisent les données sous leur responsabilité pleine et entière, sans recours possible contre le fournisseur dont la responsabilité ne saurait être engagée du fait d’un dommage résultant directement ou indirectement de l’utilisation de ces données. En particulier, il appartient aux utilisateurs d’apprécier, sous leur seule responsabilité : l'opportunité d'utiliser les données; la compatibilité des fichiers avec leurs systèmes informatiques; l’adéquation des données à leurs besoins; qu’ils disposent de la compétence suffisante pour utiliser les données. Le fournisseur n’est en aucune façon responsable des éléments extérieurs aux données et notamment des outils d’analyse, matériels, logiciels, réseaux..., utilisés pour consulter et/ou traiter les données. L’utilisateur veille à vérifier que l’actualité des informations mises à disposition est compatible avec l’usage qu’il en fait.","statement:""- Camera model and parameters:
+ Make: Hasselblad
+ Model: L1D-20c
+ Width: 5472
+ Height: 3648
+ Focal: 28
+ WhiteBalance: Manual
+ ExposureMode: Auto Exposure
+ ColoSpace: sRGB
+ EV: -0.7
+ MeteringMode: CenterWeightedAverage
+ Camera Pitch: -89.90
+
+- Survey informations:
+ No Images: 565
+ Median height: 120 meters
+ Survey area: 1139.28 hectares
+ Survey from: 2023:06:26 15:59:22 to: 2023:07:01 11:36:44
+
+UTM Coordinate system:
+ WGS 84 / UTM zone 38S
+ EPSG:32738
+ Description:
+  name: Between 42°E and 48°E, southern hemisphere between 80°S and equator, onshore and offshore. Madagascar.
+  bounds: (42.0, -80.0, 48.0, 0.0)
+
+- Meteo:
+                       T° Humidity     hPa CloudCover WindSpd-10m WindDir-10m  \
+date                                                                            
+2023-06-26 00:00:00  21.8       82  1015.3         15        14.3         170   
+2023-06-26 01:00:00  21.7       83  1015.2         23        14.6         171   
+2023-06-26 02:00:00  21.6       83  1015.4         43        15.6         173   
+2023-06-26 03:00:00  21.6       83  1016.0         38        15.5         175   
+2023-06-26 04:00:00  21.8       82  1016.7         41        15.5         176   
+...                   ...      ...     ...        ...         ...         ...   
+2023-07-01 19:00:00  22.8       74  1021.3         29        19.3         156   
+2023-07-01 20:00:00  22.7       75  1020.9         27        18.7         152   
+2023-07-01 21:00:00  22.5       75  1020.6         28        18.7         150   
+2023-07-01 22:00:00  22.5       76  1020.6         15        16.9         146   
+2023-07-01 23:00:00  22.4       77  1019.6         17        16.3         149   
+
+                    WindSpd-100m WindDir-100m Rain  
+date                                                
+2023-06-26 00:00:00         19.8          170  0.0  
+2023-06-26 01:00:00         20.4          172  0.0  
+2023-06-26 02:00:00         21.4          173  0.1  
+2023-06-26 03:00:00         21.3          175  0.1  
+2023-06-26 04:00:00         21.3          176  0.0  
+...                          ...          ...  ...  
+2023-07-01 19:00:00         26.1          156  0.1  
+2023-07-01 20:00:00         25.3          152  0.1  
+2023-07-01 21:00:00         25.3          150  0.0  
+2023-07-01 22:00:00         23.0          148  0.0  
+2023-07-01 23:00:00         22.2          151  0.0  
+
+[144 rows x 9 columns]""_
+process:Download from WebODM_
+process:Download from WebODM_
+process:Download from WebODM_
+process:Download from WebODM_
+process:Download from WebODM","resource:image/tiff_
+distribution:image/tiff[GeoTIFF]","source:000_photogrammetry_report.pdf@/home/sylvain/DATA/COMORES/20230626_COM-mitsamiouli_UAV-01_2/000_photogrammetry_report.pdf,PROCESSED_DATA.zip@/home/sylvain/DATA/COMORES/20230626_COM-mitsamiouli_UAV-01_2/PROCESSED_DATA.zip_
+sourceType:other"
