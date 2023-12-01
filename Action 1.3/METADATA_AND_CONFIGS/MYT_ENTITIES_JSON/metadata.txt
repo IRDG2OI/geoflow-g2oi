@@ -1,0 +1,42 @@
+title="Images drone {platform}, {place}, {country} - {date}"
+abstract="Jeu de données composé d’images de drone DJI Mavic 2 Pro {platform} acquises sur le site de {place}, {country} à la date suivante : {date}.
+
+Dans le cadre de la collaboration entre le Projet G2OI et Mayotte FMR (Future Maore Reef), l’objectif de la mission vise à étudier l’implantation de récifs artificiels dans le lagon de Mayotte sur plusieurs sites. En espace aérien contrôlé, les vols ont été exécutés en regard de la réglmentation et en contact avec la tour de contrôle de l'aéroport de Mayotte. 
+
+
+<b>Le dépôt est composé des éléments suivants:</b>
+    - 00_: Planche d'aperçu des images
+    - DCIM.zip: Images brutes issues du drone
+    - GPS.zip: Geopackage contenant l’emprise du survol ainsi que la géolocalisation des images accompagnées de leurs miniatures dans la table d’attribut en base64
+    - METADATA.zip: Métadonnées au format ISO19115, Rapports avec miniatures des images de drone (dossier tb) et statistiques de vols.
+
+<b>Arborescence d'origine:</b>
+{treed}
+
+<b>Informations de survol:</b>
+Différentes hauteurs de vols, angles des transects et angles de caméra ont été utilisés dans le but d'obtenir des données de qualité en fonction des conditions météorologiques et marines.
+{survey_stat}
+
+Les dépôts suivants comprennent les données traitées avec OpenDroneMap"
+purpose=" "
+info="This study was funded by the European Regional Development Fund (ERDF) within the programme Interreg V 2014-2020 through the project G2OI"
+edition="RAW DATA"
+theme="theme[General]:Future Maore Reef,drone,lagon,corail,reef"
+theme="theme[Geographic]:Mayotte,océan Indien"
+project="Future Maore Reef@https://www.futuremaorereefs.org"
+author=sylvain.poulain@ird.fr,isabel.urbina-barreto@ird.fr,julien.barde@ird.fr,francois.guilhaumon@ird.fr
+publisher=sylvain.poulain@ird.fr
+owner=isabel.urbina-barreto@ird.fr
+pointOfContact=entropie-secretariat@ird.fr
+processor=sylvain.poulain@ird.fr
+language=fra
+thumbnail="Future Maore Reef@https://www.futuremaorereefs.org/assets/images/summer_school_banner.png"
+http="Website FMR[Future Maore Reef website]@https://www.futuremaorereefs.org/"
+http="UMR Entropie[Site web UMR Entropie]@https://umr-entropie.ird.nc"
+http="Article IRD - FMR[IRD FMR]@https://www.ird.fr/future-maore-reefs-une-initiative-pedagogique-jumelant-bondy-et-mayotte"
+useLimitation=Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour
+accessConstraint=otherRestrictions
+useConstraint=intellectualPropertyRights
+otherConstraint=some other constraints
+statement=My data management workflow
+process=rationale1[description1]

@@ -1,0 +1,2331 @@
+Identifier,Title,Description,Subject,Creator,Date,Type,Language,SpatialCoverage,TemporalCoverage,Relation,Rights,Provenance,Format,Data
+"id:20220914_MYT-aeroport_UAV-02_3_
+doi:10.5281/zenodo.8432872_
+conceptdoi:10.5281/zenodo.8432871","title:Images drone UAV, Aeroport, Mayotte - 20220914","abstract:""Jeu de données composé d’images de drone DJI Mavic 2 Pro UAV acquises sur le site de Aeroport, Mayotte à la date suivante : 20220914.
+<br />
+<br />Dans le cadre de la collaboration entre le Projet G2OI et Mayotte FMR (Future Maore Reef), l’objectif de la mission vise à étudier l’implantation de récifs artificiels dans le lagon de Mayotte sur plusieurs sites. En espace aérien contrôlé, les vols ont été exécutés en regard de la réglmentation et en contact avec la tour de contrôle de l'aéroport de Mayotte. 
+<br />
+<br />
+<br /><b>Le dépôt est composé des éléments suivants:</b>
+<br />    - 00_: Planche d'aperçu des images
+<br />    - DCIM.zip: Images brutes issues du drone
+<br />    - GPS.zip: Geopackage contenant l’emprise du survol ainsi que la géolocalisation des images accompagnées de leurs miniatures dans la table d’attribut en base64
+<br />    - METADATA.zip: Métadonnées au format ISO19115, Rapports avec miniatures des images de drone (dossier tb) et statistiques de vols.
+<br />
+<br /><b>Arborescence d'origine:</b>
+<br />└─ 20220914_MYT-aeroport_UAV-02_3
+<br />  └─ DCIM
+<br />  └─ GPS
+<br />  └─ METADATA
+<br />    └─ tb
+<br />
+<br /><b>Informations de survol:</b>
+<br />Différentes hauteurs de vols, angles des transects et angles de caméra ont été utilisés dans le but d'obtenir des données de qualité en fonction des conditions météorologiques et marines.
+<br />- Camera model and parameters:
+<br /> Make: Hasselblad
+<br /> Model: L1D-20c
+<br /> Width: 5472
+<br /> Height: 3648
+<br /> Focal: 28
+<br /> WhiteBalance: Manual
+<br /> ExposureMode: Auto Exposure
+<br /> ColoSpace: sRGB
+<br /> EV: -0.7
+<br /> MeteringMode: CenterWeightedAverage
+<br /> Camera Pitch: -75.00
+<br />
+<br />- Survey informations:
+<br /> No Images: 327
+<br /> Median height: 70 meters
+<br /> Survey area: 7.71 hectares
+<br /> Survey from: 2022:09:14 11:35:17 to: 2022:09:14 11:49:42
+<br />
+<br />Les dépôts suivants comprennent les données traitées avec OpenDroneMap""_
+purpose:"" ""_
+info:""This study was funded by the European Regional Development Fund (ERDF) within the programme Interreg V 2014-2020 through the project G2OI""_
+edition:""RAW DATA""","theme[General]:Future Maore Reef,drone,lagon,corail,reef_
+project:Future Maore Reef@https://www.futuremaorereefs.org","author:sylvain.poulain@ird.fr,isabel.urbina-barreto@ird.fr,julien.barde@ird.fr,aline.tribollet@ird.fr,francois.guilhaumon@ird.fr_
+publisher:sylvain.poulain@ird.fr_
+owner:isabel.urbina-barreto@ird.fr_
+pointOfContact:entropie-secretariat@ird.fr_
+processor:sylvain.poulain@ird.fr","publication:2023-10-11_
+edition:2023-10-11",dataset,fra,NA,2022-09-14 11-35-17 - 2022-09-14 11-49-42,"thumbnail:Future Maore Reef@https://www.futuremaorereefs.org/assets/images/summer_school_banner.png_
+http:Website FMR[Future Maore Reef website]@https://www.futuremaorereefs.org/","useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
+accessConstraint:otherRestrictions_
+useConstraint:intellectualPropertyRights_
+otherConstraint:Le fournisseur n’est pas en mesure de garantir l’exactitude, la mise à jour, l’intégrité, l’exhaustivité des données et en particulier qu'elles sont exemptes d'erreurs ou d'imprécisions, notamment de localisation, d’identification ou de qualification. Aucune garantie quant à l'aptitude des données à un usage particulier n'est apportée par le fournisseur. Les utilisateurs utilisent les données sous leur responsabilité pleine et entière, sans recours possible contre le fournisseur dont la responsabilité ne saurait être engagée du fait d’un dommage résultant directement ou indirectement de l’utilisation de ces données. En particulier, il appartient aux utilisateurs d’apprécier, sous leur seule responsabilité : l'opportunité d'utiliser les données; la compatibilité des fichiers avec leurs systèmes informatiques; l’adéquation des données à leurs besoins; qu’ils disposent de la compétence suffisante pour utiliser les données. Le fournisseur n’est en aucune façon responsable des éléments extérieurs aux données et notamment des outils d’analyse, matériels, logiciels, réseaux..., utilisés pour consulter et/ou traiter les données. L’utilisateur veille à vérifier que l’actualité des informations mises à disposition est compatible avec l’usage qu’il en fait.","statement:""- Camera model and parameters:
+ Make: Hasselblad
+ Model: L1D-20c
+ Width: 5472
+ Height: 3648
+ Focal: 28
+ WhiteBalance: Manual
+ ExposureMode: Auto Exposure
+ ColoSpace: sRGB
+ EV: -0.7
+ MeteringMode: CenterWeightedAverage
+ Camera Pitch: -75.00
+
+- Survey informations:
+ No Images: 327
+ Median height: 70 meters
+ Survey area: 7.71 hectares
+ Survey from: 2022:09:14 11:35:17 to: 2022:09:14 11:49:42
+
+UTM Coordinate system:
+ WGS 84 / UTM zone 38S
+ EPSG:32738
+ Description:
+  name: Between 42°E and 48°E, southern hemisphere between 80°S and equator, onshore and offshore. Madagascar.
+  bounds: (42.0, -80.0, 48.0, 0.0)
+
+- Meteo:
+                       T° Humidity     hPa CloudCover WindSpd-10m WindDir-10m  \
+date                                                                            
+2022-09-14 00:00:00  23.4       84  1015.8         33         6.6         241   
+2022-09-14 01:00:00  23.5       84  1015.9         38        10.4         256   
+2022-09-14 02:00:00  23.5       83  1016.1         50        12.3         263   
+2022-09-14 03:00:00  23.7       81  1016.8         41        13.0         270   
+2022-09-14 04:00:00  24.0       79  1017.7         41        13.1         279   
+2022-09-14 05:00:00  24.5       75  1018.6         41        13.2         287   
+2022-09-14 06:00:00  25.1       72  1019.2         42        13.5         295   
+2022-09-14 07:00:00  25.4       71  1019.6         44        13.6         302   
+2022-09-14 08:00:00  25.7       69  1019.2         52        13.0         309   
+2022-09-14 09:00:00  25.9       69  1018.6         44        11.7         315   
+2022-09-14 10:00:00  25.9       68  1017.6         42         9.2         329   
+2022-09-14 11:00:00  25.9       69  1017.6         45         7.7         332   
+2022-09-14 12:00:00  25.7       69  1016.6         41         6.9         332   
+2022-09-14 13:00:00  25.6       71  1017.1         34         5.7         342   
+2022-09-14 14:00:00  25.2       73  1017.0         30         5.0         360   
+2022-09-14 15:00:00  24.9       75  1017.6         22         4.9          17   
+2022-09-14 16:00:00  24.5       77  1017.7         14         5.9          43   
+2022-09-14 17:00:00  24.2       80  1018.4          2         7.6          65   
+2022-09-14 18:00:00  24.0       81  1019.0          0         9.0          85   
+2022-09-14 19:00:00  24.1       81  1018.9          2        11.5         110   
+2022-09-14 20:00:00  24.2       81  1018.9          0        14.2         120   
+2022-09-14 21:00:00  24.2       81  1018.4          0        14.6         123   
+2022-09-14 22:00:00  24.1       82  1018.3         27        12.9         120   
+2022-09-14 23:00:00  24.1       77  1017.6         43        11.5         129   
+
+                    WindSpd-100m WindDir-100m Rain  
+date                                                
+2022-09-14 00:00:00          6.9          242  0.0  
+2022-09-14 01:00:00         10.7          256  0.0  
+2022-09-14 02:00:00         13.0          265  0.0  
+2022-09-14 03:00:00         14.0          270  0.0  
+2022-09-14 04:00:00         13.8          279  0.0  
+2022-09-14 05:00:00         14.3          288  0.0  
+2022-09-14 06:00:00         14.3          295  0.0  
+2022-09-14 07:00:00         14.4          302  0.0  
+2022-09-14 08:00:00         13.6          310  0.0  
+2022-09-14 09:00:00         12.5          314  0.0  
+2022-09-14 10:00:00          9.4          328  0.1  
+2022-09-14 11:00:00          7.9          330  0.0  
+2022-09-14 12:00:00          6.9          332  0.1  
+2022-09-14 13:00:00          5.7          342  0.0  
+2022-09-14 14:00:00          5.1          356  0.0  
+2022-09-14 15:00:00          4.6           18  0.0  
+2022-09-14 16:00:00          5.9           43  0.0  
+2022-09-14 17:00:00          7.9           66  0.0  
+2022-09-14 18:00:00          9.7           86  0.0  
+2022-09-14 19:00:00         12.2          109  0.0  
+2022-09-14 20:00:00         15.0          120  0.0  
+2022-09-14 21:00:00         15.4          123  0.0  
+2022-09-14 22:00:00         14.0          119  0.0  
+2022-09-14 23:00:00         12.3          128  0.2  ""","resource:image/jpg_
+distribution:application/geopackage+sqlite3[GeoPackage]","source:METADATA.zip@/home/sylvain/DATA/MayotteFMR/20220914_MYT-aeroport_UAV-02_3/METADATA.zip,GPS.zip@/home/sylvain/DATA/MayotteFMR/20220914_MYT-aeroport_UAV-02_3/GPS.zip,00_sample_rawdata_overview.png@/home/sylvain/DATA/MayotteFMR/20220914_MYT-aeroport_UAV-02_3/00_sample_rawdata_overview.png,DCIM.zip@/home/sylvain/DATA/MayotteFMR/20220914_MYT-aeroport_UAV-02_3/DCIM.zip_
+sourceType:other_
+upload:true"
+"id:20220911_MYT-aeroport_UAV-02_2_
+doi:10.5281/zenodo.8432885_
+conceptdoi:10.5281/zenodo.8432884","title:Images drone UAV, Aeroport, Mayotte - 20220911","abstract:""Jeu de données composé d’images de drone DJI Mavic 2 Pro UAV acquises sur le site de Aeroport, Mayotte à la date suivante : 20220911.
+<br />
+<br />Dans le cadre de la collaboration entre le Projet G2OI et Mayotte FMR (Future Maore Reef), l’objectif de la mission vise à étudier l’implantation de récifs artificiels dans le lagon de Mayotte sur plusieurs sites. En espace aérien contrôlé, les vols ont été exécutés en regard de la réglmentation et en contact avec la tour de contrôle de l'aéroport de Mayotte. 
+<br />
+<br />
+<br /><b>Le dépôt est composé des éléments suivants:</b>
+<br />    - 00_: Planche d'aperçu des images
+<br />    - DCIM.zip: Images brutes issues du drone
+<br />    - GPS.zip: Geopackage contenant l’emprise du survol ainsi que la géolocalisation des images accompagnées de leurs miniatures dans la table d’attribut en base64
+<br />    - METADATA.zip: Métadonnées au format ISO19115, Rapports avec miniatures des images de drone (dossier tb) et statistiques de vols.
+<br />
+<br /><b>Arborescence d'origine:</b>
+<br />└─ 20220911_MYT-aeroport_UAV-02_2
+<br />  └─ DCIM
+<br />  └─ GPS
+<br />  └─ METADATA
+<br />    └─ tb
+<br />
+<br /><b>Informations de survol:</b>
+<br />Différentes hauteurs de vols, angles des transects et angles de caméra ont été utilisés dans le but d'obtenir des données de qualité en fonction des conditions météorologiques et marines.
+<br />- Camera model and parameters:
+<br /> Make: Hasselblad
+<br /> Model: L1D-20c
+<br /> Width: 5472
+<br /> Height: 3648
+<br /> Focal: 28
+<br /> WhiteBalance: Manual
+<br /> ExposureMode: Auto Exposure
+<br /> ColoSpace: sRGB
+<br /> EV: -0.7
+<br /> MeteringMode: CenterWeightedAverage
+<br /> Camera Pitch: -90.00
+<br />
+<br />- Survey informations:
+<br /> No Images: 187
+<br /> Median height: 70 meters
+<br /> Survey area: 4.03 hectares
+<br /> Survey from: 2022:09:11 15:18:37 to: 2022:09:11 15:26:13
+<br />
+<br />Les dépôts suivants comprennent les données traitées avec OpenDroneMap""_
+purpose:"" ""_
+info:""This study was funded by the European Regional Development Fund (ERDF) within the programme Interreg V 2014-2020 through the project G2OI""_
+edition:""RAW DATA""","theme[General]:Future Maore Reef,drone,lagon,corail,reef_
+project:Future Maore Reef@https://www.futuremaorereefs.org","author:sylvain.poulain@ird.fr,isabel.urbina-barreto@ird.fr,julien.barde@ird.fr,aline.tribollet@ird.fr,francois.guilhaumon@ird.fr_
+publisher:sylvain.poulain@ird.fr_
+owner:isabel.urbina-barreto@ird.fr_
+pointOfContact:entropie-secretariat@ird.fr_
+processor:sylvain.poulain@ird.fr","publication:2023-10-11_
+edition:2023-10-11",dataset,fra,NA,2022-09-11 15-18-37 - 2022-09-11 15-26-13,"thumbnail:Future Maore Reef@https://www.futuremaorereefs.org/assets/images/summer_school_banner.png_
+http:Website FMR[Future Maore Reef website]@https://www.futuremaorereefs.org/","useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
+accessConstraint:otherRestrictions_
+useConstraint:intellectualPropertyRights_
+otherConstraint:Le fournisseur n’est pas en mesure de garantir l’exactitude, la mise à jour, l’intégrité, l’exhaustivité des données et en particulier qu'elles sont exemptes d'erreurs ou d'imprécisions, notamment de localisation, d’identification ou de qualification. Aucune garantie quant à l'aptitude des données à un usage particulier n'est apportée par le fournisseur. Les utilisateurs utilisent les données sous leur responsabilité pleine et entière, sans recours possible contre le fournisseur dont la responsabilité ne saurait être engagée du fait d’un dommage résultant directement ou indirectement de l’utilisation de ces données. En particulier, il appartient aux utilisateurs d’apprécier, sous leur seule responsabilité : l'opportunité d'utiliser les données; la compatibilité des fichiers avec leurs systèmes informatiques; l’adéquation des données à leurs besoins; qu’ils disposent de la compétence suffisante pour utiliser les données. Le fournisseur n’est en aucune façon responsable des éléments extérieurs aux données et notamment des outils d’analyse, matériels, logiciels, réseaux..., utilisés pour consulter et/ou traiter les données. L’utilisateur veille à vérifier que l’actualité des informations mises à disposition est compatible avec l’usage qu’il en fait.","statement:""- Camera model and parameters:
+ Make: Hasselblad
+ Model: L1D-20c
+ Width: 5472
+ Height: 3648
+ Focal: 28
+ WhiteBalance: Manual
+ ExposureMode: Auto Exposure
+ ColoSpace: sRGB
+ EV: -0.7
+ MeteringMode: CenterWeightedAverage
+ Camera Pitch: -90.00
+
+- Survey informations:
+ No Images: 187
+ Median height: 70 meters
+ Survey area: 4.03 hectares
+ Survey from: 2022:09:11 15:18:37 to: 2022:09:11 15:26:13
+
+UTM Coordinate system:
+ WGS 84 / UTM zone 38S
+ EPSG:32738
+ Description:
+  name: Between 42°E and 48°E, southern hemisphere between 80°S and equator, onshore and offshore. Madagascar.
+  bounds: (42.0, -80.0, 48.0, 0.0)
+
+- Meteo:
+                       T° Humidity     hPa CloudCover WindSpd-10m WindDir-10m  \
+date                                                                            
+2022-09-11 00:00:00  22.6       86  1015.7         15        10.0          60   
+2022-09-11 01:00:00  22.2       89  1015.3          9         9.3          62   
+2022-09-11 02:00:00  23.1       84  1015.7         12         6.8          65   
+2022-09-11 03:00:00  23.3       82  1016.6         11         3.3          77   
+2022-09-11 04:00:00  22.5       89  1017.2         12         1.8         101   
+2022-09-11 05:00:00  23.8       81  1017.9          9         1.6         153   
+2022-09-11 06:00:00  24.3       78  1018.3          7         2.9         187   
+2022-09-11 07:00:00  24.7       76  1018.3         16         5.0         210   
+2022-09-11 08:00:00  25.0       74  1017.8         14         6.1         220   
+2022-09-11 09:00:00  25.2       72  1017.1          8         6.6         221   
+2022-09-11 10:00:00  25.4       72  1016.7          8         6.2         201   
+2022-09-11 11:00:00  25.5       71  1015.6         11         5.9         194   
+2022-09-11 12:00:00  25.5       71  1015.2          4         5.6         195   
+2022-09-11 13:00:00  25.4       71  1015.1          2         5.0         201   
+2022-09-11 14:00:00  25.2       72  1015.3          0         4.9         216   
+2022-09-11 15:00:00  24.8       74  1015.8          0         4.6         231   
+2022-09-11 16:00:00  24.5       75  1016.1          1         4.8         243   
+2022-09-11 17:00:00  24.4       76  1016.5          0         3.6         233   
+2022-09-11 18:00:00  24.1       78  1016.7          0         4.6         162   
+2022-09-11 19:00:00  24.0       78  1016.7          0        10.7         138   
+2022-09-11 20:00:00  23.9       78  1016.1          0        14.5         136   
+2022-09-11 21:00:00  23.9       77  1015.6          0        15.5         138   
+2022-09-11 22:00:00  23.8       76  1014.8          0        14.4         143   
+2022-09-11 23:00:00  23.7       77  1014.3          4        11.6         154   
+
+                    WindSpd-100m WindDir-100m Rain  
+date                                                
+2022-09-11 00:00:00         10.5           59  0.0  
+2022-09-11 01:00:00          9.8           62  0.0  
+2022-09-11 02:00:00          7.2           63  0.0  
+2022-09-11 03:00:00          3.4           72  0.0  
+2022-09-11 04:00:00          1.8          101  0.0  
+2022-09-11 05:00:00          1.5          135  0.0  
+2022-09-11 06:00:00          2.9          187  0.0  
+2022-09-11 07:00:00          5.0          210  0.0  
+2022-09-11 08:00:00          6.4          218  0.0  
+2022-09-11 09:00:00          6.9          223  0.0  
+2022-09-11 10:00:00          6.6          202  0.0  
+2022-09-11 11:00:00          6.3          193  0.0  
+2022-09-11 12:00:00          5.6          195  0.0  
+2022-09-11 13:00:00          5.4          200  0.0  
+2022-09-11 14:00:00          4.9          216  0.0  
+2022-09-11 15:00:00          4.8          228  0.0  
+2022-09-11 16:00:00          4.8          243  0.0  
+2022-09-11 17:00:00          3.8          229  0.0  
+2022-09-11 18:00:00          4.9          163  0.0  
+2022-09-11 19:00:00         11.0          139  0.0  
+2022-09-11 20:00:00         15.3          135  0.0  
+2022-09-11 21:00:00         16.6          138  0.0  
+2022-09-11 22:00:00         15.4          143  0.0  
+2022-09-11 23:00:00         12.1          153  0.0  ""","resource:image/jpg_
+distribution:application/geopackage+sqlite3[GeoPackage]","source:METADATA.zip@/home/sylvain/DATA/MayotteFMR/20220911_MYT-aeroport_UAV-02_2/METADATA.zip,GPS.zip@/home/sylvain/DATA/MayotteFMR/20220911_MYT-aeroport_UAV-02_2/GPS.zip,00_sample_rawdata_overview.png@/home/sylvain/DATA/MayotteFMR/20220911_MYT-aeroport_UAV-02_2/00_sample_rawdata_overview.png,DCIM.zip@/home/sylvain/DATA/MayotteFMR/20220911_MYT-aeroport_UAV-02_2/DCIM.zip_
+sourceType:other_
+upload:true"
+"id:20220910_MYT-musicalplage_UAV-02_1_
+doi:10.5281/zenodo.8432891_
+conceptdoi:10.5281/zenodo.8432890","title:Images drone UAV, Musicalplage, Mayotte - 20220910","abstract:""Jeu de données composé d’images de drone DJI Mavic 2 Pro UAV acquises sur le site de Musicalplage, Mayotte à la date suivante : 20220910.
+<br />
+<br />Dans le cadre de la collaboration entre le Projet G2OI et Mayotte FMR (Future Maore Reef), l’objectif de la mission vise à étudier l’implantation de récifs artificiels dans le lagon de Mayotte sur plusieurs sites. En espace aérien contrôlé, les vols ont été exécutés en regard de la réglmentation et en contact avec la tour de contrôle de l'aéroport de Mayotte. 
+<br />
+<br />
+<br /><b>Le dépôt est composé des éléments suivants:</b>
+<br />    - 00_: Planche d'aperçu des images
+<br />    - DCIM.zip: Images brutes issues du drone
+<br />    - GPS.zip: Geopackage contenant l’emprise du survol ainsi que la géolocalisation des images accompagnées de leurs miniatures dans la table d’attribut en base64
+<br />    - METADATA.zip: Métadonnées au format ISO19115, Rapports avec miniatures des images de drone (dossier tb) et statistiques de vols.
+<br />
+<br /><b>Arborescence d'origine:</b>
+<br />└─ 20220910_MYT-musicalplage_UAV-02_1
+<br />  └─ DCIM
+<br />  └─ GPS
+<br />  └─ METADATA
+<br />    └─ tb
+<br />
+<br /><b>Informations de survol:</b>
+<br />Différentes hauteurs de vols, angles des transects et angles de caméra ont été utilisés dans le but d'obtenir des données de qualité en fonction des conditions météorologiques et marines.
+<br />- Camera model and parameters:
+<br /> Make: Hasselblad
+<br /> Model: L1D-20c
+<br /> Width: 5472
+<br /> Height: 3648
+<br /> Focal: 28
+<br /> WhiteBalance: Manual
+<br /> ExposureMode: Auto Exposure
+<br /> ColoSpace: sRGB
+<br /> EV: -0.3
+<br /> MeteringMode: Average
+<br /> Camera Pitch: -70.30
+<br />
+<br />- Survey informations:
+<br /> No Images: 114
+<br /> Median height: 120 meters
+<br /> Survey area: 13.92 hectares
+<br /> Survey from: 2022:09:10 11:00:06 to: 2022:09:10 11:07:35
+<br />
+<br />Les dépôts suivants comprennent les données traitées avec OpenDroneMap""_
+purpose:"" ""_
+info:""This study was funded by the European Regional Development Fund (ERDF) within the programme Interreg V 2014-2020 through the project G2OI""_
+edition:""RAW DATA""","theme[General]:Future Maore Reef,drone,lagon,corail,reef_
+project:Future Maore Reef@https://www.futuremaorereefs.org","author:sylvain.poulain@ird.fr,isabel.urbina-barreto@ird.fr,julien.barde@ird.fr,aline.tribollet@ird.fr,francois.guilhaumon@ird.fr_
+publisher:sylvain.poulain@ird.fr_
+owner:isabel.urbina-barreto@ird.fr_
+pointOfContact:entropie-secretariat@ird.fr_
+processor:sylvain.poulain@ird.fr","publication:2023-10-11_
+edition:2023-10-11",dataset,fra,NA,2022-09-10 11-00-06 - 2022-09-10 11-07-35,"thumbnail:Future Maore Reef@https://www.futuremaorereefs.org/assets/images/summer_school_banner.png_
+http:Website FMR[Future Maore Reef website]@https://www.futuremaorereefs.org/","useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
+accessConstraint:otherRestrictions_
+useConstraint:intellectualPropertyRights_
+otherConstraint:Le fournisseur n’est pas en mesure de garantir l’exactitude, la mise à jour, l’intégrité, l’exhaustivité des données et en particulier qu'elles sont exemptes d'erreurs ou d'imprécisions, notamment de localisation, d’identification ou de qualification. Aucune garantie quant à l'aptitude des données à un usage particulier n'est apportée par le fournisseur. Les utilisateurs utilisent les données sous leur responsabilité pleine et entière, sans recours possible contre le fournisseur dont la responsabilité ne saurait être engagée du fait d’un dommage résultant directement ou indirectement de l’utilisation de ces données. En particulier, il appartient aux utilisateurs d’apprécier, sous leur seule responsabilité : l'opportunité d'utiliser les données; la compatibilité des fichiers avec leurs systèmes informatiques; l’adéquation des données à leurs besoins; qu’ils disposent de la compétence suffisante pour utiliser les données. Le fournisseur n’est en aucune façon responsable des éléments extérieurs aux données et notamment des outils d’analyse, matériels, logiciels, réseaux..., utilisés pour consulter et/ou traiter les données. L’utilisateur veille à vérifier que l’actualité des informations mises à disposition est compatible avec l’usage qu’il en fait.","statement:""- Camera model and parameters:
+ Make: Hasselblad
+ Model: L1D-20c
+ Width: 5472
+ Height: 3648
+ Focal: 28
+ WhiteBalance: Manual
+ ExposureMode: Auto Exposure
+ ColoSpace: sRGB
+ EV: -0.3
+ MeteringMode: Average
+ Camera Pitch: -70.30
+
+- Survey informations:
+ No Images: 114
+ Median height: 120 meters
+ Survey area: 13.92 hectares
+ Survey from: 2022:09:10 11:00:06 to: 2022:09:10 11:07:35
+
+UTM Coordinate system:
+ WGS 84 / UTM zone 38S
+ EPSG:32738
+ Description:
+  name: Between 42°E and 48°E, southern hemisphere between 80°S and equator, onshore and offshore. Madagascar.
+  bounds: (42.0, -80.0, 48.0, 0.0)
+
+- Meteo:
+                       T° Humidity     hPa CloudCover WindSpd-10m WindDir-10m  \
+date                                                                            
+2022-09-10 00:00:00  23.5       82  1016.2         32         8.6         237   
+2022-09-10 01:00:00  23.6       82  1016.3          4        12.3         263   
+2022-09-10 02:00:00  23.7       79  1016.6         13        16.3         278   
+2022-09-10 03:00:00  24.0       76  1017.1         22        19.7         285   
+2022-09-10 04:00:00  24.3       73  1017.8         11        21.1         290   
+2022-09-10 05:00:00  24.8       71  1018.6          1        21.4         297   
+2022-09-10 06:00:00  25.1       70  1019.2          4        21.1         303   
+2022-09-10 07:00:00  25.4       68  1019.3          1        19.4         310   
+2022-09-10 08:00:00  25.6       68  1018.8          1        17.3         315   
+2022-09-10 09:00:00  25.7       68  1017.9          2        15.3         317   
+2022-09-10 10:00:00  25.8       68  1017.5          1        13.5         316   
+2022-09-10 11:00:00  25.8       68  1016.3          1        11.5         316   
+2022-09-10 12:00:00  25.6       69  1016.1          0         9.2         315   
+2022-09-10 13:00:00  25.4       71  1015.6          0         7.1         311   
+2022-09-10 14:00:00  25.1       72  1016.4          0         5.9         308   
+2022-09-10 15:00:00  24.7       74  1016.5          1         4.2         301   
+2022-09-10 16:00:00  24.3       77  1016.7          0         3.4         302   
+2022-09-10 17:00:00  23.4       85  1017.6          0         2.7         293   
+2022-09-10 18:00:00  23.3       83  1017.9          0         2.2         261   
+2022-09-10 19:00:00  23.7       80  1018.2          0         2.4         207   
+2022-09-10 20:00:00  23.0       83  1017.5          0         3.7         169   
+2022-09-10 21:00:00  22.5       86  1017.3          0         4.3         138   
+2022-09-10 22:00:00  21.8       88  1016.4          2         6.3          66   
+2022-09-10 23:00:00  21.9       88  1016.1          9         8.6          57   
+
+                    WindSpd-100m WindDir-100m Rain  
+date                                                
+2022-09-10 00:00:00          9.1          236  0.0  
+2022-09-10 01:00:00         13.0          264  0.1  
+2022-09-10 02:00:00         17.5          278  0.1  
+2022-09-10 03:00:00         21.7          285  0.0  
+2022-09-10 04:00:00         23.0          290  0.0  
+2022-09-10 05:00:00         23.3          297  0.0  
+2022-09-10 06:00:00         23.1          304  0.0  
+2022-09-10 07:00:00         21.2          312  0.0  
+2022-09-10 08:00:00         18.6          316  0.0  
+2022-09-10 09:00:00         16.3          319  0.0  
+2022-09-10 10:00:00         14.5          316  0.0  
+2022-09-10 11:00:00         12.0          316  0.0  
+2022-09-10 12:00:00          9.7          315  0.0  
+2022-09-10 13:00:00          7.4          313  0.0  
+2022-09-10 14:00:00          6.1          310  0.0  
+2022-09-10 15:00:00          4.7          302  0.0  
+2022-09-10 16:00:00          3.4          302  0.0  
+2022-09-10 17:00:00          2.7          293  0.0  
+2022-09-10 18:00:00          2.2          270  0.0  
+2022-09-10 19:00:00          2.4          207  0.0  
+2022-09-10 20:00:00          3.8          163  0.0  
+2022-09-10 21:00:00          4.6          135  0.0  
+2022-09-10 22:00:00          6.4           63  0.0  
+2022-09-10 23:00:00          9.1           56  0.0  ""","resource:image/jpg_
+distribution:application/geopackage+sqlite3[GeoPackage]","source:METADATA.zip@/home/sylvain/DATA/MayotteFMR/20220910_MYT-musicalplage_UAV-02_1/METADATA.zip,GPS.zip@/home/sylvain/DATA/MayotteFMR/20220910_MYT-musicalplage_UAV-02_1/GPS.zip,00_sample_rawdata_overview.png@/home/sylvain/DATA/MayotteFMR/20220910_MYT-musicalplage_UAV-02_1/00_sample_rawdata_overview.png,DCIM.zip@/home/sylvain/DATA/MayotteFMR/20220910_MYT-musicalplage_UAV-02_1/DCIM.zip_
+sourceType:other_
+upload:true"
+"id:20220912_MYT-surprise_UAV-02_2_
+doi:10.5281/zenodo.8432895_
+conceptdoi:10.5281/zenodo.8432894","title:Images drone UAV, Surprise, Mayotte - 20220912","abstract:""Jeu de données composé d’images de drone DJI Mavic 2 Pro UAV acquises sur le site de Surprise, Mayotte à la date suivante : 20220912.
+<br />
+<br />Dans le cadre de la collaboration entre le Projet G2OI et Mayotte FMR (Future Maore Reef), l’objectif de la mission vise à étudier l’implantation de récifs artificiels dans le lagon de Mayotte sur plusieurs sites. En espace aérien contrôlé, les vols ont été exécutés en regard de la réglmentation et en contact avec la tour de contrôle de l'aéroport de Mayotte. 
+<br />
+<br />
+<br /><b>Le dépôt est composé des éléments suivants:</b>
+<br />    - 00_: Planche d'aperçu des images
+<br />    - DCIM.zip: Images brutes issues du drone
+<br />    - GPS.zip: Geopackage contenant l’emprise du survol ainsi que la géolocalisation des images accompagnées de leurs miniatures dans la table d’attribut en base64
+<br />    - METADATA.zip: Métadonnées au format ISO19115, Rapports avec miniatures des images de drone (dossier tb) et statistiques de vols.
+<br />
+<br /><b>Arborescence d'origine:</b>
+<br />└─ 20220912_MYT-surprise_UAV-02_2
+<br />  └─ DCIM
+<br />  └─ GPS
+<br />  └─ METADATA
+<br />    └─ tb
+<br />
+<br /><b>Informations de survol:</b>
+<br />Différentes hauteurs de vols, angles des transects et angles de caméra ont été utilisés dans le but d'obtenir des données de qualité en fonction des conditions météorologiques et marines.
+<br />- Camera model and parameters:
+<br /> Make: Hasselblad
+<br /> Model: L1D-20c
+<br /> Width: 5472
+<br /> Height: 3648
+<br /> Focal: 28
+<br /> WhiteBalance: Manual
+<br /> ExposureMode: Auto Exposure
+<br /> ColoSpace: sRGB
+<br /> EV: -0.7
+<br /> MeteringMode: CenterWeightedAverage
+<br /> Camera Pitch: -75.00
+<br />
+<br />- Survey informations:
+<br /> No Images: 336
+<br /> Median height: 70 meters
+<br /> Survey area: 6.49 hectares
+<br /> Survey from: 2022:09:12 12:31:19 to: 2022:09:12 12:45:40
+<br />
+<br />Les dépôts suivants comprennent les données traitées avec OpenDroneMap""_
+purpose:"" ""_
+info:""This study was funded by the European Regional Development Fund (ERDF) within the programme Interreg V 2014-2020 through the project G2OI""_
+edition:""RAW DATA""","theme[General]:Future Maore Reef,drone,lagon,corail,reef_
+project:Future Maore Reef@https://www.futuremaorereefs.org","author:sylvain.poulain@ird.fr,isabel.urbina-barreto@ird.fr,julien.barde@ird.fr,aline.tribollet@ird.fr,francois.guilhaumon@ird.fr_
+publisher:sylvain.poulain@ird.fr_
+owner:isabel.urbina-barreto@ird.fr_
+pointOfContact:entropie-secretariat@ird.fr_
+processor:sylvain.poulain@ird.fr","publication:2023-10-11_
+edition:2023-10-11",dataset,fra,NA,2022-09-12 12-31-19 - 2022-09-12 12-45-40,"thumbnail:Future Maore Reef@https://www.futuremaorereefs.org/assets/images/summer_school_banner.png_
+http:Website FMR[Future Maore Reef website]@https://www.futuremaorereefs.org/","useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
+accessConstraint:otherRestrictions_
+useConstraint:intellectualPropertyRights_
+otherConstraint:Le fournisseur n’est pas en mesure de garantir l’exactitude, la mise à jour, l’intégrité, l’exhaustivité des données et en particulier qu'elles sont exemptes d'erreurs ou d'imprécisions, notamment de localisation, d’identification ou de qualification. Aucune garantie quant à l'aptitude des données à un usage particulier n'est apportée par le fournisseur. Les utilisateurs utilisent les données sous leur responsabilité pleine et entière, sans recours possible contre le fournisseur dont la responsabilité ne saurait être engagée du fait d’un dommage résultant directement ou indirectement de l’utilisation de ces données. En particulier, il appartient aux utilisateurs d’apprécier, sous leur seule responsabilité : l'opportunité d'utiliser les données; la compatibilité des fichiers avec leurs systèmes informatiques; l’adéquation des données à leurs besoins; qu’ils disposent de la compétence suffisante pour utiliser les données. Le fournisseur n’est en aucune façon responsable des éléments extérieurs aux données et notamment des outils d’analyse, matériels, logiciels, réseaux..., utilisés pour consulter et/ou traiter les données. L’utilisateur veille à vérifier que l’actualité des informations mises à disposition est compatible avec l’usage qu’il en fait.","statement:""- Camera model and parameters:
+ Make: Hasselblad
+ Model: L1D-20c
+ Width: 5472
+ Height: 3648
+ Focal: 28
+ WhiteBalance: Manual
+ ExposureMode: Auto Exposure
+ ColoSpace: sRGB
+ EV: -0.7
+ MeteringMode: CenterWeightedAverage
+ Camera Pitch: -75.00
+
+- Survey informations:
+ No Images: 336
+ Median height: 70 meters
+ Survey area: 6.49 hectares
+ Survey from: 2022:09:12 12:31:19 to: 2022:09:12 12:45:40
+
+UTM Coordinate system:
+ WGS 84 / UTM zone 38S
+ EPSG:32738
+ Description:
+  name: Between 42°E and 48°E, southern hemisphere between 80°S and equator, onshore and offshore. Madagascar.
+  bounds: (42.0, -80.0, 48.0, 0.0)
+
+- Meteo:
+                       T° Humidity     hPa CloudCover WindSpd-10m WindDir-10m  \
+date                                                                            
+2022-09-12 00:00:00  23.8       76  1013.7          9         7.9         164   
+2022-09-12 01:00:00  23.6       77  1013.3         14         5.1         188   
+2022-09-12 02:00:00  23.6       78  1013.5          6         6.3         193   
+2022-09-12 03:00:00  23.6       78  1014.1          5         7.1         210   
+2022-09-12 04:00:00  23.6       78  1014.9         19         7.3         237   
+2022-09-12 05:00:00  23.8       77  1015.9         16         9.4         266   
+2022-09-12 06:00:00  23.6       78  1016.5         33        10.2         293   
+2022-09-12 07:00:00  23.2       79  1016.5         52         8.4         313   
+2022-09-12 08:00:00  23.3       78  1016.3         52         5.6         345   
+2022-09-12 09:00:00  23.4       77  1015.5         75         3.8          49   
+2022-09-12 10:00:00  23.7       74  1015.6         52         5.8          94   
+2022-09-12 11:00:00  23.8       75  1014.9         46         5.8         120   
+2022-09-12 12:00:00  23.9       75  1014.6         47         5.6         135   
+2022-09-12 13:00:00  24.0       75  1014.4         40         4.6         141   
+2022-09-12 14:00:00  24.0       75  1014.7         33         5.8         150   
+2022-09-12 15:00:00  24.1       76  1015.3         18         7.6         149   
+2022-09-12 16:00:00  24.1       76  1015.8         12         9.7         141   
+2022-09-12 17:00:00  24.1       76  1016.2         10        11.0         139   
+2022-09-12 18:00:00  24.1       76  1016.5          8        11.8         140   
+2022-09-12 19:00:00  24.1       76  1016.5         15        12.8         148   
+2022-09-12 20:00:00  24.1       75  1016.2         17        14.0         157   
+2022-09-12 21:00:00  24.1       76  1015.7         31        14.2         164   
+2022-09-12 22:00:00  23.9       80  1015.4         38        10.5         142   
+2022-09-12 23:00:00  23.9       80  1014.8         32         8.9         133   
+
+                    WindSpd-100m WindDir-100m Rain  
+date                                                
+2022-09-12 00:00:00          8.2          165  0.0  
+2022-09-12 01:00:00          5.4          188  0.0  
+2022-09-12 02:00:00          6.3          193  0.0  
+2022-09-12 03:00:00          7.6          211  0.0  
+2022-09-12 04:00:00          7.6          239  0.0  
+2022-09-12 05:00:00          9.7          266  0.1  
+2022-09-12 06:00:00         10.6          294  0.2  
+2022-09-12 07:00:00          8.9          313  0.4  
+2022-09-12 08:00:00          5.7          342  0.1  
+2022-09-12 09:00:00          3.8           49  0.0  
+2022-09-12 10:00:00          5.8           94  0.0  
+2022-09-12 11:00:00          5.8          120  0.0  
+2022-09-12 12:00:00          5.9          137  0.0  
+2022-09-12 13:00:00          4.9          144  0.0  
+2022-09-12 14:00:00          6.1          152  0.0  
+2022-09-12 15:00:00          8.2          151  0.0  
+2022-09-12 16:00:00         10.3          144  0.0  
+2022-09-12 17:00:00         11.5          139  0.0  
+2022-09-12 18:00:00         12.3          140  0.0  
+2022-09-12 19:00:00         13.6          148  0.0  
+2022-09-12 20:00:00         14.8          157  0.0  
+2022-09-12 21:00:00         15.4          164  0.0  
+2022-09-12 22:00:00         11.0          142  0.0  
+2022-09-12 23:00:00          9.4          133  0.0  ""","resource:image/jpg_
+distribution:application/geopackage+sqlite3[GeoPackage]","source:METADATA.zip@/home/sylvain/DATA/MayotteFMR/20220912_MYT-surprise_UAV-02_2/METADATA.zip,GPS.zip@/home/sylvain/DATA/MayotteFMR/20220912_MYT-surprise_UAV-02_2/GPS.zip,00_sample_rawdata_overview.png@/home/sylvain/DATA/MayotteFMR/20220912_MYT-surprise_UAV-02_2/00_sample_rawdata_overview.png,DCIM.zip@/home/sylvain/DATA/MayotteFMR/20220912_MYT-surprise_UAV-02_2/DCIM.zip_
+sourceType:other_
+upload:true"
+"id:20220911_MYT-jollyroger_UAV-02_1_
+doi:10.5281/zenodo.8436204_
+conceptdoi:10.5281/zenodo.8436203","title:Images drone UAV, Jollyroger, Mayotte - 20220911","abstract:""Jeu de données composé d’images de drone DJI Mavic 2 Pro UAV acquises sur le site de Jollyroger, Mayotte à la date suivante : 20220911.
+<br />
+<br />Dans le cadre de la collaboration entre le Projet G2OI et Mayotte FMR (Future Maore Reef), l’objectif de la mission vise à étudier l’implantation de récifs artificiels dans le lagon de Mayotte sur plusieurs sites. En espace aérien contrôlé, les vols ont été exécutés en regard de la réglmentation et en contact avec la tour de contrôle de l'aéroport de Mayotte. 
+<br />
+<br />
+<br /><b>Le dépôt est composé des éléments suivants:</b>
+<br />    - 00_: Planche d'aperçu des images
+<br />    - DCIM.zip: Images brutes issues du drone
+<br />    - GPS.zip: Geopackage contenant l’emprise du survol ainsi que la géolocalisation des images accompagnées de leurs miniatures dans la table d’attribut en base64
+<br />    - METADATA.zip: Métadonnées au format ISO19115, Rapports avec miniatures des images de drone (dossier tb) et statistiques de vols.
+<br />
+<br /><b>Arborescence d'origine:</b>
+<br />└─ 20220911_MYT-jollyroger_UAV-02_1
+<br />  └─ DCIM
+<br />    └─ mer
+<br />  └─ GPS
+<br />  └─ METADATA
+<br />    └─ tb
+<br />
+<br /><b>Informations de survol:</b>
+<br />Différentes hauteurs de vols, angles des transects et angles de caméra ont été utilisés dans le but d'obtenir des données de qualité en fonction des conditions météorologiques et marines.
+<br />- Camera model and parameters:
+<br /> Make: Hasselblad
+<br /> Model: L1D-20c
+<br /> Width: 5472
+<br /> Height: 3648
+<br /> Focal: 28
+<br /> WhiteBalance: Manual
+<br /> ExposureMode: Auto Exposure
+<br /> ColoSpace: sRGB
+<br /> EV: -0.7
+<br /> MeteringMode: CenterWeightedAverage
+<br /> Camera Pitch: -89.90
+<br />
+<br />- Survey informations:
+<br /> No Images: 349
+<br /> Median height: 70 meters
+<br /> Survey area: 9.22 hectares
+<br /> Survey from: 2022:09:11 08:37:19 to: 2022:09:11 08:55:09
+<br />
+<br />Les dépôts suivants comprennent les données traitées avec OpenDroneMap""_
+purpose:"" ""_
+info:""This study was funded by the European Regional Development Fund (ERDF) within the programme Interreg V 2014-2020 through the project G2OI""_
+edition:""RAW DATA""","theme[General]:Future Maore Reef,drone,lagon,corail,reef_
+project:Future Maore Reef@https://www.futuremaorereefs.org","author:sylvain.poulain@ird.fr,isabel.urbina-barreto@ird.fr,julien.barde@ird.fr,aline.tribollet@ird.fr,francois.guilhaumon@ird.fr_
+publisher:sylvain.poulain@ird.fr_
+owner:isabel.urbina-barreto@ird.fr_
+pointOfContact:entropie-secretariat@ird.fr_
+processor:sylvain.poulain@ird.fr","publication:2023-10-11_
+edition:2023-10-11",dataset,fra,NA,2022-09-11 08-37-19 - 2022-09-11 08-55-09,"thumbnail:Future Maore Reef@https://www.futuremaorereefs.org/assets/images/summer_school_banner.png_
+http:Website FMR[Future Maore Reef website]@https://www.futuremaorereefs.org/","useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
+accessConstraint:otherRestrictions_
+useConstraint:intellectualPropertyRights_
+otherConstraint:Le fournisseur n’est pas en mesure de garantir l’exactitude, la mise à jour, l’intégrité, l’exhaustivité des données et en particulier qu'elles sont exemptes d'erreurs ou d'imprécisions, notamment de localisation, d’identification ou de qualification. Aucune garantie quant à l'aptitude des données à un usage particulier n'est apportée par le fournisseur. Les utilisateurs utilisent les données sous leur responsabilité pleine et entière, sans recours possible contre le fournisseur dont la responsabilité ne saurait être engagée du fait d’un dommage résultant directement ou indirectement de l’utilisation de ces données. En particulier, il appartient aux utilisateurs d’apprécier, sous leur seule responsabilité : l'opportunité d'utiliser les données; la compatibilité des fichiers avec leurs systèmes informatiques; l’adéquation des données à leurs besoins; qu’ils disposent de la compétence suffisante pour utiliser les données. Le fournisseur n’est en aucune façon responsable des éléments extérieurs aux données et notamment des outils d’analyse, matériels, logiciels, réseaux..., utilisés pour consulter et/ou traiter les données. L’utilisateur veille à vérifier que l’actualité des informations mises à disposition est compatible avec l’usage qu’il en fait.","statement:""- Camera model and parameters:
+ Make: Hasselblad
+ Model: L1D-20c
+ Width: 5472
+ Height: 3648
+ Focal: 28
+ WhiteBalance: Manual
+ ExposureMode: Auto Exposure
+ ColoSpace: sRGB
+ EV: -0.7
+ MeteringMode: CenterWeightedAverage
+ Camera Pitch: -89.90
+
+- Survey informations:
+ No Images: 349
+ Median height: 70 meters
+ Survey area: 9.22 hectares
+ Survey from: 2022:09:11 08:37:19 to: 2022:09:11 08:55:09
+
+UTM Coordinate system:
+ WGS 84 / UTM zone 38S
+ EPSG:32738
+ Description:
+  name: Between 42°E and 48°E, southern hemisphere between 80°S and equator, onshore and offshore. Madagascar.
+  bounds: (42.0, -80.0, 48.0, 0.0)
+
+- Meteo:
+                       T° Humidity     hPa CloudCover WindSpd-10m WindDir-10m  \
+date                                                                            
+2022-09-11 00:00:00  22.6       86  1015.8         20         8.9          50   
+2022-09-11 01:00:00  22.2       89  1015.4         14         6.4          43   
+2022-09-11 02:00:00  23.1       84  1015.8         25         2.9           7   
+2022-09-11 03:00:00  23.3       82  1016.7         12         2.1         301   
+2022-09-11 04:00:00  22.5       89  1017.2         20         1.8         270   
+2022-09-11 05:00:00  23.8       81  1017.9         25         2.2         261   
+2022-09-11 06:00:00  24.3       78  1018.3         17         3.4         252   
+2022-09-11 07:00:00  24.7       76  1018.3         17         5.0         249   
+2022-09-11 08:00:00  25.0       74  1017.8          9         5.3         242   
+2022-09-11 09:00:00  25.2       72  1017.0          5         5.5         238   
+2022-09-11 10:00:00  25.4       72  1016.6          5         4.8         207   
+2022-09-11 11:00:00  25.5       71  1015.5          7         4.9         197   
+2022-09-11 12:00:00  25.5       71  1015.1          5         5.2         196   
+2022-09-11 13:00:00  25.4       71  1015.1          4         5.2         205   
+2022-09-11 14:00:00  25.2       72  1015.3          8         5.6         220   
+2022-09-11 15:00:00  24.8       74  1015.8          4         5.7         235   
+2022-09-11 16:00:00  24.5       75  1016.0          2         6.0         245   
+2022-09-11 17:00:00  24.4       76  1016.4          0         4.3         222   
+2022-09-11 18:00:00  24.1       78  1016.5          0         6.2         159   
+2022-09-11 19:00:00  24.0       78  1016.5          0        11.5         139   
+2022-09-11 20:00:00  23.9       78  1016.0          0        14.8         135   
+2022-09-11 21:00:00  23.9       77  1015.5          1        15.3         139   
+2022-09-11 22:00:00  23.8       76  1014.8          6        13.8         147   
+2022-09-11 23:00:00  23.7       77  1014.3         10        10.6         162   
+
+                    WindSpd-100m WindDir-100m Rain  
+date                                                
+2022-09-11 00:00:00          9.7           51  0.0  
+2022-09-11 01:00:00          6.9           43  0.0  
+2022-09-11 02:00:00          3.3           13  0.0  
+2022-09-11 03:00:00          2.1          301  0.0  
+2022-09-11 04:00:00          1.8          281  0.0  
+2022-09-11 05:00:00          2.2          261  0.0  
+2022-09-11 06:00:00          3.4          252  0.0  
+2022-09-11 07:00:00          5.0          249  0.0  
+2022-09-11 08:00:00          5.6          243  0.0  
+2022-09-11 09:00:00          5.8          240  0.0  
+2022-09-11 10:00:00          4.8          207  0.0  
+2022-09-11 11:00:00          4.9          197  0.0  
+2022-09-11 12:00:00          5.4          200  0.0  
+2022-09-11 13:00:00          5.6          207  0.0  
+2022-09-11 14:00:00          5.6          220  0.0  
+2022-09-11 15:00:00          6.0          237  0.0  
+2022-09-11 16:00:00          6.0          245  0.0  
+2022-09-11 17:00:00          4.3          222  0.0  
+2022-09-11 18:00:00          6.3          156  0.0  
+2022-09-11 19:00:00         12.3          140  0.0  
+2022-09-11 20:00:00         15.5          136  0.0  
+2022-09-11 21:00:00         16.1          140  0.0  
+2022-09-11 22:00:00         14.6          147  0.0  
+2022-09-11 23:00:00         11.0          161  0.0  ""","resource:image/jpg_
+distribution:application/geopackage+sqlite3[GeoPackage]","source:METADATA.zip@/home/sylvain/DATA/MayotteFMR/20220911_MYT-jollyroger_UAV-02_1/METADATA.zip,GPS.zip@/home/sylvain/DATA/MayotteFMR/20220911_MYT-jollyroger_UAV-02_1/GPS.zip,00_sample_rawdata_overview.png@/home/sylvain/DATA/MayotteFMR/20220911_MYT-jollyroger_UAV-02_1/00_sample_rawdata_overview.png,DCIM.zip@/home/sylvain/DATA/MayotteFMR/20220911_MYT-jollyroger_UAV-02_1/DCIM.zip_
+sourceType:other_
+upload:true"
+"id:20220911_MYT-aeroport_UAV-02_1_
+doi:10.5281/zenodo.8436216_
+conceptdoi:10.5281/zenodo.8436215","title:Images drone UAV, Aeroport, Mayotte - 20220911","abstract:""Jeu de données composé d’images de drone DJI Mavic 2 Pro UAV acquises sur le site de Aeroport, Mayotte à la date suivante : 20220911.
+<br />
+<br />Dans le cadre de la collaboration entre le Projet G2OI et Mayotte FMR (Future Maore Reef), l’objectif de la mission vise à étudier l’implantation de récifs artificiels dans le lagon de Mayotte sur plusieurs sites. En espace aérien contrôlé, les vols ont été exécutés en regard de la réglmentation et en contact avec la tour de contrôle de l'aéroport de Mayotte. 
+<br />
+<br />
+<br /><b>Le dépôt est composé des éléments suivants:</b>
+<br />    - 00_: Planche d'aperçu des images
+<br />    - DCIM.zip: Images brutes issues du drone
+<br />    - GPS.zip: Geopackage contenant l’emprise du survol ainsi que la géolocalisation des images accompagnées de leurs miniatures dans la table d’attribut en base64
+<br />    - METADATA.zip: Métadonnées au format ISO19115, Rapports avec miniatures des images de drone (dossier tb) et statistiques de vols.
+<br />
+<br /><b>Arborescence d'origine:</b>
+<br />└─ 20220911_MYT-aeroport_UAV-02_1
+<br />  └─ DCIM
+<br />  └─ GPS
+<br />  └─ METADATA
+<br />    └─ tb
+<br />
+<br /><b>Informations de survol:</b>
+<br />Différentes hauteurs de vols, angles des transects et angles de caméra ont été utilisés dans le but d'obtenir des données de qualité en fonction des conditions météorologiques et marines.
+<br />- Camera model and parameters:
+<br /> Make: Hasselblad
+<br /> Model: L1D-20c
+<br /> Width: 5472
+<br /> Height: 3648
+<br /> Focal: 28
+<br /> WhiteBalance: Manual
+<br /> ExposureMode: Auto Exposure
+<br /> ColoSpace: sRGB
+<br /> EV: -0.7
+<br /> MeteringMode: CenterWeightedAverage
+<br /> Camera Pitch: -90.00
+<br />
+<br />- Survey informations:
+<br /> No Images: 390
+<br /> Median height: 75 meters
+<br /> Survey area: 10.3 hectares
+<br /> Survey from: 2022:09:11 14:18:26 to: 2022:09:11 14:33:31
+<br />
+<br />Les dépôts suivants comprennent les données traitées avec OpenDroneMap""_
+purpose:"" ""_
+info:""This study was funded by the European Regional Development Fund (ERDF) within the programme Interreg V 2014-2020 through the project G2OI""_
+edition:""RAW DATA""","theme[General]:Future Maore Reef,drone,lagon,corail,reef_
+project:Future Maore Reef@https://www.futuremaorereefs.org","author:sylvain.poulain@ird.fr,isabel.urbina-barreto@ird.fr,julien.barde@ird.fr,aline.tribollet@ird.fr,francois.guilhaumon@ird.fr_
+publisher:sylvain.poulain@ird.fr_
+owner:isabel.urbina-barreto@ird.fr_
+pointOfContact:entropie-secretariat@ird.fr_
+processor:sylvain.poulain@ird.fr","publication:2023-10-11_
+edition:2023-10-11",dataset,fra,NA,2022-09-11 14-18-26 - 2022-09-11 14-33-31,"thumbnail:Future Maore Reef@https://www.futuremaorereefs.org/assets/images/summer_school_banner.png_
+http:Website FMR[Future Maore Reef website]@https://www.futuremaorereefs.org/","useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
+accessConstraint:otherRestrictions_
+useConstraint:intellectualPropertyRights_
+otherConstraint:Le fournisseur n’est pas en mesure de garantir l’exactitude, la mise à jour, l’intégrité, l’exhaustivité des données et en particulier qu'elles sont exemptes d'erreurs ou d'imprécisions, notamment de localisation, d’identification ou de qualification. Aucune garantie quant à l'aptitude des données à un usage particulier n'est apportée par le fournisseur. Les utilisateurs utilisent les données sous leur responsabilité pleine et entière, sans recours possible contre le fournisseur dont la responsabilité ne saurait être engagée du fait d’un dommage résultant directement ou indirectement de l’utilisation de ces données. En particulier, il appartient aux utilisateurs d’apprécier, sous leur seule responsabilité : l'opportunité d'utiliser les données; la compatibilité des fichiers avec leurs systèmes informatiques; l’adéquation des données à leurs besoins; qu’ils disposent de la compétence suffisante pour utiliser les données. Le fournisseur n’est en aucune façon responsable des éléments extérieurs aux données et notamment des outils d’analyse, matériels, logiciels, réseaux..., utilisés pour consulter et/ou traiter les données. L’utilisateur veille à vérifier que l’actualité des informations mises à disposition est compatible avec l’usage qu’il en fait.","statement:""- Camera model and parameters:
+ Make: Hasselblad
+ Model: L1D-20c
+ Width: 5472
+ Height: 3648
+ Focal: 28
+ WhiteBalance: Manual
+ ExposureMode: Auto Exposure
+ ColoSpace: sRGB
+ EV: -0.7
+ MeteringMode: CenterWeightedAverage
+ Camera Pitch: -90.00
+
+- Survey informations:
+ No Images: 390
+ Median height: 75 meters
+ Survey area: 10.3 hectares
+ Survey from: 2022:09:11 14:18:26 to: 2022:09:11 14:33:31
+
+UTM Coordinate system:
+ WGS 84 / UTM zone 38S
+ EPSG:32738
+ Description:
+  name: Between 42°E and 48°E, southern hemisphere between 80°S and equator, onshore and offshore. Madagascar.
+  bounds: (42.0, -80.0, 48.0, 0.0)
+
+- Meteo:
+                       T° Humidity     hPa CloudCover WindSpd-10m WindDir-10m  \
+date                                                                            
+2022-09-11 00:00:00  22.6       86  1015.7         15        10.0          60   
+2022-09-11 01:00:00  22.2       89  1015.3          9         9.3          62   
+2022-09-11 02:00:00  23.1       84  1015.7         12         6.8          65   
+2022-09-11 03:00:00  23.3       82  1016.6         11         3.3          77   
+2022-09-11 04:00:00  22.5       89  1017.2         12         1.8         101   
+2022-09-11 05:00:00  23.8       81  1017.9          9         1.6         153   
+2022-09-11 06:00:00  24.3       78  1018.3          7         2.9         187   
+2022-09-11 07:00:00  24.7       76  1018.3         16         5.0         210   
+2022-09-11 08:00:00  25.0       74  1017.8         14         6.1         220   
+2022-09-11 09:00:00  25.2       72  1017.1          8         6.6         221   
+2022-09-11 10:00:00  25.4       72  1016.7          8         6.2         201   
+2022-09-11 11:00:00  25.5       71  1015.6         11         5.9         194   
+2022-09-11 12:00:00  25.5       71  1015.2          4         5.6         195   
+2022-09-11 13:00:00  25.4       71  1015.1          2         5.0         201   
+2022-09-11 14:00:00  25.2       72  1015.3          0         4.9         216   
+2022-09-11 15:00:00  24.8       74  1015.8          0         4.6         231   
+2022-09-11 16:00:00  24.5       75  1016.1          1         4.8         243   
+2022-09-11 17:00:00  24.4       76  1016.5          0         3.6         233   
+2022-09-11 18:00:00  24.1       78  1016.7          0         4.6         162   
+2022-09-11 19:00:00  24.0       78  1016.7          0        10.7         138   
+2022-09-11 20:00:00  23.9       78  1016.1          0        14.5         136   
+2022-09-11 21:00:00  23.9       77  1015.6          0        15.5         138   
+2022-09-11 22:00:00  23.8       76  1014.8          0        14.4         143   
+2022-09-11 23:00:00  23.7       77  1014.3          4        11.6         154   
+
+                    WindSpd-100m WindDir-100m Rain  
+date                                                
+2022-09-11 00:00:00         10.5           59  0.0  
+2022-09-11 01:00:00          9.8           62  0.0  
+2022-09-11 02:00:00          7.2           63  0.0  
+2022-09-11 03:00:00          3.4           72  0.0  
+2022-09-11 04:00:00          1.8          101  0.0  
+2022-09-11 05:00:00          1.5          135  0.0  
+2022-09-11 06:00:00          2.9          187  0.0  
+2022-09-11 07:00:00          5.0          210  0.0  
+2022-09-11 08:00:00          6.4          218  0.0  
+2022-09-11 09:00:00          6.9          223  0.0  
+2022-09-11 10:00:00          6.6          202  0.0  
+2022-09-11 11:00:00          6.3          193  0.0  
+2022-09-11 12:00:00          5.6          195  0.0  
+2022-09-11 13:00:00          5.4          200  0.0  
+2022-09-11 14:00:00          4.9          216  0.0  
+2022-09-11 15:00:00          4.8          228  0.0  
+2022-09-11 16:00:00          4.8          243  0.0  
+2022-09-11 17:00:00          3.8          229  0.0  
+2022-09-11 18:00:00          4.9          163  0.0  
+2022-09-11 19:00:00         11.0          139  0.0  
+2022-09-11 20:00:00         15.3          135  0.0  
+2022-09-11 21:00:00         16.6          138  0.0  
+2022-09-11 22:00:00         15.4          143  0.0  
+2022-09-11 23:00:00         12.1          153  0.0  ""","resource:image/jpg_
+distribution:application/geopackage+sqlite3[GeoPackage]","source:METADATA.zip@/home/sylvain/DATA/MayotteFMR/20220911_MYT-aeroport_UAV-02_1/METADATA.zip,GPS.zip@/home/sylvain/DATA/MayotteFMR/20220911_MYT-aeroport_UAV-02_1/GPS.zip,00_sample_rawdata_overview.png@/home/sylvain/DATA/MayotteFMR/20220911_MYT-aeroport_UAV-02_1/00_sample_rawdata_overview.png,DCIM.zip@/home/sylvain/DATA/MayotteFMR/20220911_MYT-aeroport_UAV-02_1/DCIM.zip_
+sourceType:other_
+upload:true"
+"id:20220912_MYT-surprise_UAV-02_3_
+doi:10.5281/zenodo.8436221_
+conceptdoi:10.5281/zenodo.8436220","title:Images drone UAV, Surprise, Mayotte - 20220912","abstract:""Jeu de données composé d’images de drone DJI Mavic 2 Pro UAV acquises sur le site de Surprise, Mayotte à la date suivante : 20220912.
+<br />
+<br />Dans le cadre de la collaboration entre le Projet G2OI et Mayotte FMR (Future Maore Reef), l’objectif de la mission vise à étudier l’implantation de récifs artificiels dans le lagon de Mayotte sur plusieurs sites. En espace aérien contrôlé, les vols ont été exécutés en regard de la réglmentation et en contact avec la tour de contrôle de l'aéroport de Mayotte. 
+<br />
+<br />
+<br /><b>Le dépôt est composé des éléments suivants:</b>
+<br />    - 00_: Planche d'aperçu des images
+<br />    - DCIM.zip: Images brutes issues du drone
+<br />    - GPS.zip: Geopackage contenant l’emprise du survol ainsi que la géolocalisation des images accompagnées de leurs miniatures dans la table d’attribut en base64
+<br />    - METADATA.zip: Métadonnées au format ISO19115, Rapports avec miniatures des images de drone (dossier tb) et statistiques de vols.
+<br />
+<br /><b>Arborescence d'origine:</b>
+<br />└─ 20220912_MYT-surprise_UAV-02_3
+<br />  └─ DCIM
+<br />  └─ GPS
+<br />  └─ METADATA
+<br />    └─ tb
+<br />
+<br /><b>Informations de survol:</b>
+<br />Différentes hauteurs de vols, angles des transects et angles de caméra ont été utilisés dans le but d'obtenir des données de qualité en fonction des conditions météorologiques et marines.
+<br />- Camera model and parameters:
+<br /> Make: Hasselblad
+<br /> Model: L1D-20c
+<br /> Width: 5472
+<br /> Height: 3648
+<br /> Focal: 28
+<br /> WhiteBalance: Manual
+<br /> ExposureMode: Auto Exposure
+<br /> ColoSpace: sRGB
+<br /> EV: -0.7
+<br /> MeteringMode: CenterWeightedAverage
+<br /> Camera Pitch: -75.00
+<br />
+<br />- Survey informations:
+<br /> No Images: 385
+<br /> Median height: 70 meters
+<br /> Survey area: 8.11 hectares
+<br /> Survey from: 2022:09:12 14:29:06 to: 2022:09:12 14:43:35
+<br />
+<br />Les dépôts suivants comprennent les données traitées avec OpenDroneMap""_
+purpose:"" ""_
+info:""This study was funded by the European Regional Development Fund (ERDF) within the programme Interreg V 2014-2020 through the project G2OI""_
+edition:""RAW DATA""","theme[General]:Future Maore Reef,drone,lagon,corail,reef_
+project:Future Maore Reef@https://www.futuremaorereefs.org","author:sylvain.poulain@ird.fr,isabel.urbina-barreto@ird.fr,julien.barde@ird.fr,aline.tribollet@ird.fr,francois.guilhaumon@ird.fr_
+publisher:sylvain.poulain@ird.fr_
+owner:isabel.urbina-barreto@ird.fr_
+pointOfContact:entropie-secretariat@ird.fr_
+processor:sylvain.poulain@ird.fr","publication:2023-10-11_
+edition:2023-10-11",dataset,fra,NA,2022-09-12 14-29-06 - 2022-09-12 14-43-35,"thumbnail:Future Maore Reef@https://www.futuremaorereefs.org/assets/images/summer_school_banner.png_
+http:Website FMR[Future Maore Reef website]@https://www.futuremaorereefs.org/","useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
+accessConstraint:otherRestrictions_
+useConstraint:intellectualPropertyRights_
+otherConstraint:Le fournisseur n’est pas en mesure de garantir l’exactitude, la mise à jour, l’intégrité, l’exhaustivité des données et en particulier qu'elles sont exemptes d'erreurs ou d'imprécisions, notamment de localisation, d’identification ou de qualification. Aucune garantie quant à l'aptitude des données à un usage particulier n'est apportée par le fournisseur. Les utilisateurs utilisent les données sous leur responsabilité pleine et entière, sans recours possible contre le fournisseur dont la responsabilité ne saurait être engagée du fait d’un dommage résultant directement ou indirectement de l’utilisation de ces données. En particulier, il appartient aux utilisateurs d’apprécier, sous leur seule responsabilité : l'opportunité d'utiliser les données; la compatibilité des fichiers avec leurs systèmes informatiques; l’adéquation des données à leurs besoins; qu’ils disposent de la compétence suffisante pour utiliser les données. Le fournisseur n’est en aucune façon responsable des éléments extérieurs aux données et notamment des outils d’analyse, matériels, logiciels, réseaux..., utilisés pour consulter et/ou traiter les données. L’utilisateur veille à vérifier que l’actualité des informations mises à disposition est compatible avec l’usage qu’il en fait.","statement:""- Camera model and parameters:
+ Make: Hasselblad
+ Model: L1D-20c
+ Width: 5472
+ Height: 3648
+ Focal: 28
+ WhiteBalance: Manual
+ ExposureMode: Auto Exposure
+ ColoSpace: sRGB
+ EV: -0.7
+ MeteringMode: CenterWeightedAverage
+ Camera Pitch: -75.00
+
+- Survey informations:
+ No Images: 385
+ Median height: 70 meters
+ Survey area: 8.11 hectares
+ Survey from: 2022:09:12 14:29:06 to: 2022:09:12 14:43:35
+
+UTM Coordinate system:
+ WGS 84 / UTM zone 38S
+ EPSG:32738
+ Description:
+  name: Between 42°E and 48°E, southern hemisphere between 80°S and equator, onshore and offshore. Madagascar.
+  bounds: (42.0, -80.0, 48.0, 0.0)
+
+- Meteo:
+                       T° Humidity     hPa CloudCover WindSpd-10m WindDir-10m  \
+date                                                                            
+2022-09-12 00:00:00  23.8       76  1013.7          9         7.9         164   
+2022-09-12 01:00:00  23.6       77  1013.3         14         5.1         188   
+2022-09-12 02:00:00  23.6       78  1013.5          6         6.3         193   
+2022-09-12 03:00:00  23.6       78  1014.1          5         7.1         210   
+2022-09-12 04:00:00  23.6       78  1014.9         19         7.3         237   
+2022-09-12 05:00:00  23.8       77  1015.9         16         9.4         266   
+2022-09-12 06:00:00  23.6       78  1016.5         33        10.2         293   
+2022-09-12 07:00:00  23.2       79  1016.5         52         8.4         313   
+2022-09-12 08:00:00  23.3       78  1016.3         52         5.6         345   
+2022-09-12 09:00:00  23.4       77  1015.5         75         3.8          49   
+2022-09-12 10:00:00  23.7       74  1015.6         52         5.8          94   
+2022-09-12 11:00:00  23.8       75  1014.9         46         5.8         120   
+2022-09-12 12:00:00  23.9       75  1014.6         47         5.6         135   
+2022-09-12 13:00:00  24.0       75  1014.4         40         4.6         141   
+2022-09-12 14:00:00  24.0       75  1014.7         33         5.8         150   
+2022-09-12 15:00:00  24.1       76  1015.3         18         7.6         149   
+2022-09-12 16:00:00  24.1       76  1015.8         12         9.7         141   
+2022-09-12 17:00:00  24.1       76  1016.2         10        11.0         139   
+2022-09-12 18:00:00  24.1       76  1016.5          8        11.8         140   
+2022-09-12 19:00:00  24.1       76  1016.5         15        12.8         148   
+2022-09-12 20:00:00  24.1       75  1016.2         17        14.0         157   
+2022-09-12 21:00:00  24.1       76  1015.7         31        14.2         164   
+2022-09-12 22:00:00  23.9       80  1015.4         38        10.5         142   
+2022-09-12 23:00:00  23.9       80  1014.8         32         8.9         133   
+
+                    WindSpd-100m WindDir-100m Rain  
+date                                                
+2022-09-12 00:00:00          8.2          165  0.0  
+2022-09-12 01:00:00          5.4          188  0.0  
+2022-09-12 02:00:00          6.3          193  0.0  
+2022-09-12 03:00:00          7.6          211  0.0  
+2022-09-12 04:00:00          7.6          239  0.0  
+2022-09-12 05:00:00          9.7          266  0.1  
+2022-09-12 06:00:00         10.6          294  0.2  
+2022-09-12 07:00:00          8.9          313  0.4  
+2022-09-12 08:00:00          5.7          342  0.1  
+2022-09-12 09:00:00          3.8           49  0.0  
+2022-09-12 10:00:00          5.8           94  0.0  
+2022-09-12 11:00:00          5.8          120  0.0  
+2022-09-12 12:00:00          5.9          137  0.0  
+2022-09-12 13:00:00          4.9          144  0.0  
+2022-09-12 14:00:00          6.1          152  0.0  
+2022-09-12 15:00:00          8.2          151  0.0  
+2022-09-12 16:00:00         10.3          144  0.0  
+2022-09-12 17:00:00         11.5          139  0.0  
+2022-09-12 18:00:00         12.3          140  0.0  
+2022-09-12 19:00:00         13.6          148  0.0  
+2022-09-12 20:00:00         14.8          157  0.0  
+2022-09-12 21:00:00         15.4          164  0.0  
+2022-09-12 22:00:00         11.0          142  0.0  
+2022-09-12 23:00:00          9.4          133  0.0  ""","resource:image/jpg_
+distribution:application/geopackage+sqlite3[GeoPackage]","source:METADATA.zip@/home/sylvain/DATA/MayotteFMR/20220912_MYT-surprise_UAV-02_3/METADATA.zip,GPS.zip@/home/sylvain/DATA/MayotteFMR/20220912_MYT-surprise_UAV-02_3/GPS.zip,00_sample_rawdata_overview.png@/home/sylvain/DATA/MayotteFMR/20220912_MYT-surprise_UAV-02_3/00_sample_rawdata_overview.png,DCIM.zip@/home/sylvain/DATA/MayotteFMR/20220912_MYT-surprise_UAV-02_3/DCIM.zip_
+sourceType:other_
+upload:true"
+"id:20220914_MYT-ile-blanche_UAV-02_2_
+doi:10.5281/zenodo.8436231_
+conceptdoi:10.5281/zenodo.8436230","title:Images drone UAV, Ile blanche, Mayotte - 20220914","abstract:""Jeu de données composé d’images de drone DJI Mavic 2 Pro UAV acquises sur le site de Ile blanche, Mayotte à la date suivante : 20220914.
+<br />
+<br />Dans le cadre de la collaboration entre le Projet G2OI et Mayotte FMR (Future Maore Reef), l’objectif de la mission vise à étudier l’implantation de récifs artificiels dans le lagon de Mayotte sur plusieurs sites. En espace aérien contrôlé, les vols ont été exécutés en regard de la réglmentation et en contact avec la tour de contrôle de l'aéroport de Mayotte. 
+<br />
+<br />
+<br /><b>Le dépôt est composé des éléments suivants:</b>
+<br />    - 00_: Planche d'aperçu des images
+<br />    - DCIM.zip: Images brutes issues du drone
+<br />    - GPS.zip: Geopackage contenant l’emprise du survol ainsi que la géolocalisation des images accompagnées de leurs miniatures dans la table d’attribut en base64
+<br />    - METADATA.zip: Métadonnées au format ISO19115, Rapports avec miniatures des images de drone (dossier tb) et statistiques de vols.
+<br />
+<br /><b>Arborescence d'origine:</b>
+<br />└─ 20220914_MYT-ile-blanche_UAV-02_2
+<br />  └─ DCIM
+<br />  └─ GPS
+<br />  └─ METADATA
+<br />    └─ tb
+<br />
+<br /><b>Informations de survol:</b>
+<br />Différentes hauteurs de vols, angles des transects et angles de caméra ont été utilisés dans le but d'obtenir des données de qualité en fonction des conditions météorologiques et marines.
+<br />- Camera model and parameters:
+<br /> Make: Hasselblad
+<br /> Model: L1D-20c
+<br /> Width: 5472
+<br /> Height: 3648
+<br /> Focal: 28
+<br /> WhiteBalance: Manual
+<br /> ExposureMode: Auto Exposure
+<br /> ColoSpace: sRGB
+<br /> EV: -0.7
+<br /> MeteringMode: CenterWeightedAverage
+<br /> Camera Pitch: -75.00
+<br />
+<br />- Survey informations:
+<br /> No Images: 346
+<br /> Median height: 60 meters
+<br /> Survey area: 5.6 hectares
+<br /> Survey from: 2022:09:14 10:19:27 to: 2022:09:14 10:33:56
+<br />
+<br />Les dépôts suivants comprennent les données traitées avec OpenDroneMap""_
+purpose:"" ""_
+info:""This study was funded by the European Regional Development Fund (ERDF) within the programme Interreg V 2014-2020 through the project G2OI""_
+edition:""RAW DATA""","theme[General]:Future Maore Reef,drone,lagon,corail,reef_
+project:Future Maore Reef@https://www.futuremaorereefs.org","author:sylvain.poulain@ird.fr,isabel.urbina-barreto@ird.fr,julien.barde@ird.fr,aline.tribollet@ird.fr,francois.guilhaumon@ird.fr_
+publisher:sylvain.poulain@ird.fr_
+owner:isabel.urbina-barreto@ird.fr_
+pointOfContact:entropie-secretariat@ird.fr_
+processor:sylvain.poulain@ird.fr","publication:2023-10-11_
+edition:2023-10-11",dataset,fra,NA,2022-09-14 10-19-27 - 2022-09-14 10-33-56,"thumbnail:Future Maore Reef@https://www.futuremaorereefs.org/assets/images/summer_school_banner.png_
+http:Website FMR[Future Maore Reef website]@https://www.futuremaorereefs.org/","useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
+accessConstraint:otherRestrictions_
+useConstraint:intellectualPropertyRights_
+otherConstraint:Le fournisseur n’est pas en mesure de garantir l’exactitude, la mise à jour, l’intégrité, l’exhaustivité des données et en particulier qu'elles sont exemptes d'erreurs ou d'imprécisions, notamment de localisation, d’identification ou de qualification. Aucune garantie quant à l'aptitude des données à un usage particulier n'est apportée par le fournisseur. Les utilisateurs utilisent les données sous leur responsabilité pleine et entière, sans recours possible contre le fournisseur dont la responsabilité ne saurait être engagée du fait d’un dommage résultant directement ou indirectement de l’utilisation de ces données. En particulier, il appartient aux utilisateurs d’apprécier, sous leur seule responsabilité : l'opportunité d'utiliser les données; la compatibilité des fichiers avec leurs systèmes informatiques; l’adéquation des données à leurs besoins; qu’ils disposent de la compétence suffisante pour utiliser les données. Le fournisseur n’est en aucune façon responsable des éléments extérieurs aux données et notamment des outils d’analyse, matériels, logiciels, réseaux..., utilisés pour consulter et/ou traiter les données. L’utilisateur veille à vérifier que l’actualité des informations mises à disposition est compatible avec l’usage qu’il en fait.","statement:""- Camera model and parameters:
+ Make: Hasselblad
+ Model: L1D-20c
+ Width: 5472
+ Height: 3648
+ Focal: 28
+ WhiteBalance: Manual
+ ExposureMode: Auto Exposure
+ ColoSpace: sRGB
+ EV: -0.7
+ MeteringMode: CenterWeightedAverage
+ Camera Pitch: -75.00
+
+- Survey informations:
+ No Images: 346
+ Median height: 60 meters
+ Survey area: 5.6 hectares
+ Survey from: 2022:09:14 10:19:27 to: 2022:09:14 10:33:56
+
+UTM Coordinate system:
+ WGS 84 / UTM zone 38S
+ EPSG:32738
+ Description:
+  name: Between 42°E and 48°E, southern hemisphere between 80°S and equator, onshore and offshore. Madagascar.
+  bounds: (42.0, -80.0, 48.0, 0.0)
+
+- Meteo:
+                       T° Humidity     hPa CloudCover WindSpd-10m WindDir-10m  \
+date                                                                            
+2022-09-14 00:00:00  23.4       84  1015.8         33         6.6         241   
+2022-09-14 01:00:00  23.5       84  1015.9         38        10.4         256   
+2022-09-14 02:00:00  23.5       83  1016.1         50        12.3         263   
+2022-09-14 03:00:00  23.7       81  1016.8         41        13.0         270   
+2022-09-14 04:00:00  24.0       79  1017.7         41        13.1         279   
+2022-09-14 05:00:00  24.5       75  1018.6         41        13.2         287   
+2022-09-14 06:00:00  25.1       72  1019.2         42        13.5         295   
+2022-09-14 07:00:00  25.4       71  1019.6         44        13.6         302   
+2022-09-14 08:00:00  25.7       69  1019.2         52        13.0         309   
+2022-09-14 09:00:00  25.9       69  1018.6         44        11.7         315   
+2022-09-14 10:00:00  25.9       68  1017.6         42         9.2         329   
+2022-09-14 11:00:00  25.9       69  1017.6         45         7.7         332   
+2022-09-14 12:00:00  25.7       69  1016.6         41         6.9         332   
+2022-09-14 13:00:00  25.6       71  1017.1         34         5.7         342   
+2022-09-14 14:00:00  25.2       73  1017.0         30         5.0         360   
+2022-09-14 15:00:00  24.9       75  1017.6         22         4.9          17   
+2022-09-14 16:00:00  24.5       77  1017.7         14         5.9          43   
+2022-09-14 17:00:00  24.2       80  1018.4          2         7.6          65   
+2022-09-14 18:00:00  24.0       81  1019.0          0         9.0          85   
+2022-09-14 19:00:00  24.1       81  1018.9          2        11.5         110   
+2022-09-14 20:00:00  24.2       81  1018.9          0        14.2         120   
+2022-09-14 21:00:00  24.2       81  1018.4          0        14.6         123   
+2022-09-14 22:00:00  24.1       82  1018.3         27        12.9         120   
+2022-09-14 23:00:00  24.1       77  1017.6         43        11.5         129   
+
+                    WindSpd-100m WindDir-100m Rain  
+date                                                
+2022-09-14 00:00:00          6.9          242  0.0  
+2022-09-14 01:00:00         10.7          256  0.0  
+2022-09-14 02:00:00         13.0          265  0.0  
+2022-09-14 03:00:00         14.0          270  0.0  
+2022-09-14 04:00:00         13.8          279  0.0  
+2022-09-14 05:00:00         14.3          288  0.0  
+2022-09-14 06:00:00         14.3          295  0.0  
+2022-09-14 07:00:00         14.4          302  0.0  
+2022-09-14 08:00:00         13.6          310  0.0  
+2022-09-14 09:00:00         12.5          314  0.0  
+2022-09-14 10:00:00          9.4          328  0.1  
+2022-09-14 11:00:00          7.9          330  0.0  
+2022-09-14 12:00:00          6.9          332  0.1  
+2022-09-14 13:00:00          5.7          342  0.0  
+2022-09-14 14:00:00          5.1          356  0.0  
+2022-09-14 15:00:00          4.6           18  0.0  
+2022-09-14 16:00:00          5.9           43  0.0  
+2022-09-14 17:00:00          7.9           66  0.0  
+2022-09-14 18:00:00          9.7           86  0.0  
+2022-09-14 19:00:00         12.2          109  0.0  
+2022-09-14 20:00:00         15.0          120  0.0  
+2022-09-14 21:00:00         15.4          123  0.0  
+2022-09-14 22:00:00         14.0          119  0.0  
+2022-09-14 23:00:00         12.3          128  0.2  ""","resource:image/jpg_
+distribution:application/geopackage+sqlite3[GeoPackage]","source:METADATA.zip@/home/sylvain/DATA/MayotteFMR/20220914_MYT-ile-blanche_UAV-02_2/METADATA.zip,GPS.zip@/home/sylvain/DATA/MayotteFMR/20220914_MYT-ile-blanche_UAV-02_2/GPS.zip,00_sample_rawdata_overview.png@/home/sylvain/DATA/MayotteFMR/20220914_MYT-ile-blanche_UAV-02_2/00_sample_rawdata_overview.png,DCIM.zip@/home/sylvain/DATA/MayotteFMR/20220914_MYT-ile-blanche_UAV-02_2/DCIM.zip_
+sourceType:other_
+upload:true"
+"id:20220910_MYT-jolly-roger_UAV-02_3_
+doi:10.5281/zenodo.8436243_
+conceptdoi:10.5281/zenodo.8436242","title:Images drone UAV, Jolly roger, Mayotte - 20220910","abstract:""Jeu de données composé d’images de drone DJI Mavic 2 Pro UAV acquises sur le site de Jolly roger, Mayotte à la date suivante : 20220910.
+<br />
+<br />Dans le cadre de la collaboration entre le Projet G2OI et Mayotte FMR (Future Maore Reef), l’objectif de la mission vise à étudier l’implantation de récifs artificiels dans le lagon de Mayotte sur plusieurs sites. En espace aérien contrôlé, les vols ont été exécutés en regard de la réglmentation et en contact avec la tour de contrôle de l'aéroport de Mayotte. 
+<br />
+<br />
+<br /><b>Le dépôt est composé des éléments suivants:</b>
+<br />    - 00_: Planche d'aperçu des images
+<br />    - DCIM.zip: Images brutes issues du drone
+<br />    - GPS.zip: Geopackage contenant l’emprise du survol ainsi que la géolocalisation des images accompagnées de leurs miniatures dans la table d’attribut en base64
+<br />    - METADATA.zip: Métadonnées au format ISO19115, Rapports avec miniatures des images de drone (dossier tb) et statistiques de vols.
+<br />
+<br /><b>Arborescence d'origine:</b>
+<br />└─ 20220910_MYT-jolly-roger_UAV-02_3
+<br />  └─ DCIM
+<br />  └─ GPS
+<br />  └─ METADATA
+<br />    └─ tb
+<br />
+<br /><b>Informations de survol:</b>
+<br />Différentes hauteurs de vols, angles des transects et angles de caméra ont été utilisés dans le but d'obtenir des données de qualité en fonction des conditions météorologiques et marines.
+<br />- Camera model and parameters:
+<br /> Make: Hasselblad
+<br /> Model: L1D-20c
+<br /> Width: 5472
+<br /> Height: 3648
+<br /> Focal: 28
+<br /> WhiteBalance: Manual
+<br /> ExposureMode: Auto Exposure
+<br /> ColoSpace: sRGB
+<br /> EV: -0.7
+<br /> MeteringMode: CenterWeightedAverage
+<br /> Camera Pitch: -90.00
+<br />
+<br />- Survey informations:
+<br /> No Images: 198
+<br /> Median height: 119 meters
+<br /> Survey area: 27.47 hectares
+<br /> Survey from: 2022:09:10 12:48:38 to: 2022:09:10 13:01:33
+<br />
+<br />Les dépôts suivants comprennent les données traitées avec OpenDroneMap""_
+purpose:"" ""_
+info:""This study was funded by the European Regional Development Fund (ERDF) within the programme Interreg V 2014-2020 through the project G2OI""_
+edition:""RAW DATA""","theme[General]:Future Maore Reef,drone,lagon,corail,reef_
+project:Future Maore Reef@https://www.futuremaorereefs.org","author:sylvain.poulain@ird.fr,isabel.urbina-barreto@ird.fr,julien.barde@ird.fr,aline.tribollet@ird.fr,francois.guilhaumon@ird.fr_
+publisher:sylvain.poulain@ird.fr_
+owner:isabel.urbina-barreto@ird.fr_
+pointOfContact:entropie-secretariat@ird.fr_
+processor:sylvain.poulain@ird.fr","publication:2023-10-11_
+edition:2023-10-11",dataset,fra,NA,2022-09-10 12-48-38 - 2022-09-10 13-01-33,"thumbnail:Future Maore Reef@https://www.futuremaorereefs.org/assets/images/summer_school_banner.png_
+http:Website FMR[Future Maore Reef website]@https://www.futuremaorereefs.org/","useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
+accessConstraint:otherRestrictions_
+useConstraint:intellectualPropertyRights_
+otherConstraint:Le fournisseur n’est pas en mesure de garantir l’exactitude, la mise à jour, l’intégrité, l’exhaustivité des données et en particulier qu'elles sont exemptes d'erreurs ou d'imprécisions, notamment de localisation, d’identification ou de qualification. Aucune garantie quant à l'aptitude des données à un usage particulier n'est apportée par le fournisseur. Les utilisateurs utilisent les données sous leur responsabilité pleine et entière, sans recours possible contre le fournisseur dont la responsabilité ne saurait être engagée du fait d’un dommage résultant directement ou indirectement de l’utilisation de ces données. En particulier, il appartient aux utilisateurs d’apprécier, sous leur seule responsabilité : l'opportunité d'utiliser les données; la compatibilité des fichiers avec leurs systèmes informatiques; l’adéquation des données à leurs besoins; qu’ils disposent de la compétence suffisante pour utiliser les données. Le fournisseur n’est en aucune façon responsable des éléments extérieurs aux données et notamment des outils d’analyse, matériels, logiciels, réseaux..., utilisés pour consulter et/ou traiter les données. L’utilisateur veille à vérifier que l’actualité des informations mises à disposition est compatible avec l’usage qu’il en fait.","statement:""- Camera model and parameters:
+ Make: Hasselblad
+ Model: L1D-20c
+ Width: 5472
+ Height: 3648
+ Focal: 28
+ WhiteBalance: Manual
+ ExposureMode: Auto Exposure
+ ColoSpace: sRGB
+ EV: -0.7
+ MeteringMode: CenterWeightedAverage
+ Camera Pitch: -90.00
+
+- Survey informations:
+ No Images: 198
+ Median height: 119 meters
+ Survey area: 27.47 hectares
+ Survey from: 2022:09:10 12:48:38 to: 2022:09:10 13:01:33
+
+UTM Coordinate system:
+ WGS 84 / UTM zone 38S
+ EPSG:32738
+ Description:
+  name: Between 42°E and 48°E, southern hemisphere between 80°S and equator, onshore and offshore. Madagascar.
+  bounds: (42.0, -80.0, 48.0, 0.0)
+
+- Meteo:
+                       T° Humidity     hPa CloudCover WindSpd-10m WindDir-10m  \
+date                                                                            
+2022-09-10 00:00:00  23.5       82  1016.2         32         8.6         237   
+2022-09-10 01:00:00  23.6       82  1016.3          4        12.3         263   
+2022-09-10 02:00:00  23.7       79  1016.6         13        16.3         278   
+2022-09-10 03:00:00  24.0       76  1017.1         22        19.7         285   
+2022-09-10 04:00:00  24.3       73  1017.8         11        21.1         290   
+2022-09-10 05:00:00  24.8       71  1018.6          1        21.4         297   
+2022-09-10 06:00:00  25.1       70  1019.2          4        21.1         303   
+2022-09-10 07:00:00  25.4       68  1019.3          1        19.4         310   
+2022-09-10 08:00:00  25.6       68  1018.8          1        17.3         315   
+2022-09-10 09:00:00  25.7       68  1017.9          2        15.3         317   
+2022-09-10 10:00:00  25.8       68  1017.5          1        13.5         316   
+2022-09-10 11:00:00  25.8       68  1016.3          1        11.5         316   
+2022-09-10 12:00:00  25.6       69  1016.1          0         9.2         315   
+2022-09-10 13:00:00  25.4       71  1015.6          0         7.1         311   
+2022-09-10 14:00:00  25.1       72  1016.4          0         5.9         308   
+2022-09-10 15:00:00  24.7       74  1016.5          1         4.2         301   
+2022-09-10 16:00:00  24.3       77  1016.7          0         3.4         302   
+2022-09-10 17:00:00  23.4       85  1017.6          0         2.7         293   
+2022-09-10 18:00:00  23.3       83  1017.9          0         2.2         261   
+2022-09-10 19:00:00  23.7       80  1018.2          0         2.4         207   
+2022-09-10 20:00:00  23.0       83  1017.5          0         3.7         169   
+2022-09-10 21:00:00  22.5       86  1017.3          0         4.3         138   
+2022-09-10 22:00:00  21.8       88  1016.4          2         6.3          66   
+2022-09-10 23:00:00  21.9       88  1016.1          9         8.6          57   
+
+                    WindSpd-100m WindDir-100m Rain  
+date                                                
+2022-09-10 00:00:00          9.1          236  0.0  
+2022-09-10 01:00:00         13.0          264  0.1  
+2022-09-10 02:00:00         17.5          278  0.1  
+2022-09-10 03:00:00         21.7          285  0.0  
+2022-09-10 04:00:00         23.0          290  0.0  
+2022-09-10 05:00:00         23.3          297  0.0  
+2022-09-10 06:00:00         23.1          304  0.0  
+2022-09-10 07:00:00         21.2          312  0.0  
+2022-09-10 08:00:00         18.6          316  0.0  
+2022-09-10 09:00:00         16.3          319  0.0  
+2022-09-10 10:00:00         14.5          316  0.0  
+2022-09-10 11:00:00         12.0          316  0.0  
+2022-09-10 12:00:00          9.7          315  0.0  
+2022-09-10 13:00:00          7.4          313  0.0  
+2022-09-10 14:00:00          6.1          310  0.0  
+2022-09-10 15:00:00          4.7          302  0.0  
+2022-09-10 16:00:00          3.4          302  0.0  
+2022-09-10 17:00:00          2.7          293  0.0  
+2022-09-10 18:00:00          2.2          270  0.0  
+2022-09-10 19:00:00          2.4          207  0.0  
+2022-09-10 20:00:00          3.8          163  0.0  
+2022-09-10 21:00:00          4.6          135  0.0  
+2022-09-10 22:00:00          6.4           63  0.0  
+2022-09-10 23:00:00          9.1           56  0.0  ""","resource:image/jpg_
+distribution:application/geopackage+sqlite3[GeoPackage]","source:METADATA.zip@/home/sylvain/DATA/MayotteFMR/20220910_MYT-jolly-roger_UAV-02_3/METADATA.zip,GPS.zip@/home/sylvain/DATA/MayotteFMR/20220910_MYT-jolly-roger_UAV-02_3/GPS.zip,00_sample_rawdata_overview.png@/home/sylvain/DATA/MayotteFMR/20220910_MYT-jolly-roger_UAV-02_3/00_sample_rawdata_overview.png,DCIM.zip@/home/sylvain/DATA/MayotteFMR/20220910_MYT-jolly-roger_UAV-02_3/DCIM.zip_
+sourceType:other_
+upload:true"
+"id:20220913_MYT-ngouja_UAV-02_2_
+doi:10.5281/zenodo.8436250_
+conceptdoi:10.5281/zenodo.8436249","title:Images drone UAV, Ngouja, Mayotte - 20220913","abstract:""Jeu de données composé d’images de drone DJI Mavic 2 Pro UAV acquises sur le site de Ngouja, Mayotte à la date suivante : 20220913.
+<br />
+<br />Dans le cadre de la collaboration entre le Projet G2OI et Mayotte FMR (Future Maore Reef), l’objectif de la mission vise à étudier l’implantation de récifs artificiels dans le lagon de Mayotte sur plusieurs sites. En espace aérien contrôlé, les vols ont été exécutés en regard de la réglmentation et en contact avec la tour de contrôle de l'aéroport de Mayotte. 
+<br />
+<br />
+<br /><b>Le dépôt est composé des éléments suivants:</b>
+<br />    - 00_: Planche d'aperçu des images
+<br />    - DCIM.zip: Images brutes issues du drone
+<br />    - GPS.zip: Geopackage contenant l’emprise du survol ainsi que la géolocalisation des images accompagnées de leurs miniatures dans la table d’attribut en base64
+<br />    - METADATA.zip: Métadonnées au format ISO19115, Rapports avec miniatures des images de drone (dossier tb) et statistiques de vols.
+<br />
+<br /><b>Arborescence d'origine:</b>
+<br />└─ 20220913_MYT-ngouja_UAV-02_2
+<br />  └─ DCIM
+<br />  └─ GPS
+<br />  └─ METADATA
+<br />    └─ tb
+<br />
+<br /><b>Informations de survol:</b>
+<br />Différentes hauteurs de vols, angles des transects et angles de caméra ont été utilisés dans le but d'obtenir des données de qualité en fonction des conditions météorologiques et marines.
+<br />- Camera model and parameters:
+<br /> Make: Hasselblad
+<br /> Model: L1D-20c
+<br /> Width: 5472
+<br /> Height: 3648
+<br /> Focal: 28
+<br /> WhiteBalance: Manual
+<br /> ExposureMode: Auto Exposure
+<br /> ColoSpace: sRGB
+<br /> EV: -0.7
+<br /> MeteringMode: Average
+<br /> Camera Pitch: -75.00
+<br />
+<br />- Survey informations:
+<br /> No Images: 361
+<br /> Median height: 70 meters
+<br /> Survey area: 7.06 hectares
+<br /> Survey from: 2022:09:13 14:41:28 to: 2022:09:13 14:55:42
+<br />
+<br />Les dépôts suivants comprennent les données traitées avec OpenDroneMap""_
+purpose:"" ""_
+info:""This study was funded by the European Regional Development Fund (ERDF) within the programme Interreg V 2014-2020 through the project G2OI""_
+edition:""RAW DATA""","theme[General]:Future Maore Reef,drone,lagon,corail,reef_
+project:Future Maore Reef@https://www.futuremaorereefs.org","author:sylvain.poulain@ird.fr,isabel.urbina-barreto@ird.fr,julien.barde@ird.fr,aline.tribollet@ird.fr,francois.guilhaumon@ird.fr_
+publisher:sylvain.poulain@ird.fr_
+owner:isabel.urbina-barreto@ird.fr_
+pointOfContact:entropie-secretariat@ird.fr_
+processor:sylvain.poulain@ird.fr","publication:2023-10-11_
+edition:2023-10-11",dataset,fra,NA,2022-09-13 14-41-28 - 2022-09-13 14-55-42,"thumbnail:Future Maore Reef@https://www.futuremaorereefs.org/assets/images/summer_school_banner.png_
+http:Website FMR[Future Maore Reef website]@https://www.futuremaorereefs.org/","useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
+accessConstraint:otherRestrictions_
+useConstraint:intellectualPropertyRights_
+otherConstraint:Le fournisseur n’est pas en mesure de garantir l’exactitude, la mise à jour, l’intégrité, l’exhaustivité des données et en particulier qu'elles sont exemptes d'erreurs ou d'imprécisions, notamment de localisation, d’identification ou de qualification. Aucune garantie quant à l'aptitude des données à un usage particulier n'est apportée par le fournisseur. Les utilisateurs utilisent les données sous leur responsabilité pleine et entière, sans recours possible contre le fournisseur dont la responsabilité ne saurait être engagée du fait d’un dommage résultant directement ou indirectement de l’utilisation de ces données. En particulier, il appartient aux utilisateurs d’apprécier, sous leur seule responsabilité : l'opportunité d'utiliser les données; la compatibilité des fichiers avec leurs systèmes informatiques; l’adéquation des données à leurs besoins; qu’ils disposent de la compétence suffisante pour utiliser les données. Le fournisseur n’est en aucune façon responsable des éléments extérieurs aux données et notamment des outils d’analyse, matériels, logiciels, réseaux..., utilisés pour consulter et/ou traiter les données. L’utilisateur veille à vérifier que l’actualité des informations mises à disposition est compatible avec l’usage qu’il en fait.","statement:""- Camera model and parameters:
+ Make: Hasselblad
+ Model: L1D-20c
+ Width: 5472
+ Height: 3648
+ Focal: 28
+ WhiteBalance: Manual
+ ExposureMode: Auto Exposure
+ ColoSpace: sRGB
+ EV: -0.7
+ MeteringMode: Average
+ Camera Pitch: -75.00
+
+- Survey informations:
+ No Images: 361
+ Median height: 70 meters
+ Survey area: 7.06 hectares
+ Survey from: 2022:09:13 14:41:28 to: 2022:09:13 14:55:42
+
+UTM Coordinate system:
+ WGS 84 / UTM zone 38S
+ EPSG:32738
+ Description:
+  name: Between 42°E and 48°E, southern hemisphere between 80°S and equator, onshore and offshore. Madagascar.
+  bounds: (42.0, -80.0, 48.0, 0.0)
+
+- Meteo:
+                       T° Humidity     hPa CloudCover WindSpd-10m WindDir-10m  \
+date                                                                            
+2022-09-13 00:00:00  23.8       82  1014.6         44         5.4         143   
+2022-09-13 01:00:00  23.8       82  1014.4         40         3.2         153   
+2022-09-13 02:00:00  23.9       82  1014.8         37         3.2         207   
+2022-09-13 03:00:00  24.0       81  1015.3         25         4.7         212   
+2022-09-13 04:00:00  24.1       79  1016.3         14         7.7         217   
+2022-09-13 05:00:00  24.3       77  1016.8         21        11.6         244   
+2022-09-13 06:00:00  24.4       77  1017.4         41        13.3         268   
+2022-09-13 07:00:00  24.5       78  1017.5         37        12.3         275   
+2022-09-13 08:00:00  24.5       78  1017.3         34        10.9         276   
+2022-09-13 09:00:00  24.4       79  1016.5         37        10.9         276   
+2022-09-13 10:00:00  24.2       78  1015.7         19        12.6         273   
+2022-09-13 11:00:00  24.5       77  1015.0         24        13.4         275   
+2022-09-13 12:00:00  24.5       77  1014.6         10        13.4         276   
+2022-09-13 13:00:00  24.5       76  1014.9          5        12.4         280   
+2022-09-13 14:00:00  24.5       76  1015.2          2        10.5         286   
+2022-09-13 15:00:00  24.5       76  1015.4          2         8.3         288   
+2022-09-13 16:00:00  24.4       76  1015.8          1         6.0         287   
+2022-09-13 17:00:00  24.3       76  1016.2          2         3.6         276   
+2022-09-13 18:00:00  24.2       76  1016.8          0         1.9         158   
+2022-09-13 19:00:00  24.1       76  1016.6          0         6.6         131   
+2022-09-13 20:00:00  24.1       78  1016.7          1         9.2         135   
+2022-09-13 21:00:00  24.0       80  1016.4          2         8.9         148   
+2022-09-13 22:00:00  23.9       81  1015.9          0         5.4         176   
+2022-09-13 23:00:00  23.8       81  1015.8          8         6.4         232   
+
+                    WindSpd-100m WindDir-100m Rain  
+date                                                
+2022-09-13 00:00:00          5.6          140  0.0  
+2022-09-13 01:00:00          3.2          153  0.0  
+2022-09-13 02:00:00          3.1          201  0.0  
+2022-09-13 03:00:00          4.7          212  0.0  
+2022-09-13 04:00:00          8.2          218  0.0  
+2022-09-13 05:00:00         12.1          243  0.0  
+2022-09-13 06:00:00         14.1          267  0.0  
+2022-09-13 07:00:00         13.0          275  0.1  
+2022-09-13 08:00:00         11.2          276  0.0  
+2022-09-13 09:00:00         11.6          275  0.0  
+2022-09-13 10:00:00         13.0          273  0.0  
+2022-09-13 11:00:00         14.1          274  0.0  
+2022-09-13 12:00:00         14.2          277  0.0  
+2022-09-13 13:00:00         12.8          280  0.0  
+2022-09-13 14:00:00         11.2          285  0.0  
+2022-09-13 15:00:00          8.7          287  0.0  
+2022-09-13 16:00:00          6.0          287  0.0  
+2022-09-13 17:00:00          3.6          276  0.0  
+2022-09-13 18:00:00          2.3          162  0.0  
+2022-09-13 19:00:00          7.1          131  0.0  
+2022-09-13 20:00:00          9.7          135  0.0  
+2022-09-13 21:00:00          9.7          149  0.0  
+2022-09-13 22:00:00          5.4          172  0.0  
+2022-09-13 23:00:00          6.4          232  0.0  ""","resource:image/jpg_
+distribution:application/geopackage+sqlite3[GeoPackage]","source:METADATA.zip@/home/sylvain/DATA/MayotteFMR/20220913_MYT-ngouja_UAV-02_2/METADATA.zip,GPS.zip@/home/sylvain/DATA/MayotteFMR/20220913_MYT-ngouja_UAV-02_2/GPS.zip,00_sample_rawdata_overview.png@/home/sylvain/DATA/MayotteFMR/20220913_MYT-ngouja_UAV-02_2/00_sample_rawdata_overview.png,DCIM.zip@/home/sylvain/DATA/MayotteFMR/20220913_MYT-ngouja_UAV-02_2/DCIM.zip_
+sourceType:other_
+upload:true"
+"id:20220910_MYT-jollyroger_UAV-02_2_
+doi:10.5281/zenodo.8436262_
+conceptdoi:10.5281/zenodo.8436261","title:Images drone UAV, Jollyroger, Mayotte - 20220910","abstract:""Jeu de données composé d’images de drone DJI Mavic 2 Pro UAV acquises sur le site de Jollyroger, Mayotte à la date suivante : 20220910.
+<br />
+<br />Dans le cadre de la collaboration entre le Projet G2OI et Mayotte FMR (Future Maore Reef), l’objectif de la mission vise à étudier l’implantation de récifs artificiels dans le lagon de Mayotte sur plusieurs sites. En espace aérien contrôlé, les vols ont été exécutés en regard de la réglmentation et en contact avec la tour de contrôle de l'aéroport de Mayotte. 
+<br />
+<br />
+<br /><b>Le dépôt est composé des éléments suivants:</b>
+<br />    - 00_: Planche d'aperçu des images
+<br />    - DCIM.zip: Images brutes issues du drone
+<br />    - GPS.zip: Geopackage contenant l’emprise du survol ainsi que la géolocalisation des images accompagnées de leurs miniatures dans la table d’attribut en base64
+<br />    - METADATA.zip: Métadonnées au format ISO19115, Rapports avec miniatures des images de drone (dossier tb) et statistiques de vols.
+<br />
+<br /><b>Arborescence d'origine:</b>
+<br />└─ 20220910_MYT-jollyroger_UAV-02_2
+<br />  └─ DCIM
+<br />  └─ GPS
+<br />  └─ METADATA
+<br />    └─ tb
+<br />
+<br /><b>Informations de survol:</b>
+<br />Différentes hauteurs de vols, angles des transects et angles de caméra ont été utilisés dans le but d'obtenir des données de qualité en fonction des conditions météorologiques et marines.
+<br />- Camera model and parameters:
+<br /> Make: Hasselblad
+<br /> Model: L1D-20c
+<br /> Width: 5472
+<br /> Height: 3648
+<br /> Focal: 28
+<br /> WhiteBalance: Manual
+<br /> ExposureMode: Auto Exposure
+<br /> ColoSpace: sRGB
+<br /> EV: -0.7
+<br /> MeteringMode: CenterWeightedAverage
+<br /> Camera Pitch: -89.90
+<br />
+<br />- Survey informations:
+<br /> No Images: 194
+<br /> Median height: 119 meters
+<br /> Survey area: 27.34 hectares
+<br /> Survey from: 2022:09:10 12:28:03 to: 2022:09:10 12:40:27
+<br />
+<br />Les dépôts suivants comprennent les données traitées avec OpenDroneMap""_
+purpose:"" ""_
+info:""This study was funded by the European Regional Development Fund (ERDF) within the programme Interreg V 2014-2020 through the project G2OI""_
+edition:""RAW DATA""","theme[General]:Future Maore Reef,drone,lagon,corail,reef_
+project:Future Maore Reef@https://www.futuremaorereefs.org","author:sylvain.poulain@ird.fr,isabel.urbina-barreto@ird.fr,julien.barde@ird.fr,aline.tribollet@ird.fr,francois.guilhaumon@ird.fr_
+publisher:sylvain.poulain@ird.fr_
+owner:isabel.urbina-barreto@ird.fr_
+pointOfContact:entropie-secretariat@ird.fr_
+processor:sylvain.poulain@ird.fr","publication:2023-10-11_
+edition:2023-10-11",dataset,fra,NA,2022-09-10 12-28-03 - 2022-09-10 12-40-27,"thumbnail:Future Maore Reef@https://www.futuremaorereefs.org/assets/images/summer_school_banner.png_
+http:Website FMR[Future Maore Reef website]@https://www.futuremaorereefs.org/","useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
+accessConstraint:otherRestrictions_
+useConstraint:intellectualPropertyRights_
+otherConstraint:Le fournisseur n’est pas en mesure de garantir l’exactitude, la mise à jour, l’intégrité, l’exhaustivité des données et en particulier qu'elles sont exemptes d'erreurs ou d'imprécisions, notamment de localisation, d’identification ou de qualification. Aucune garantie quant à l'aptitude des données à un usage particulier n'est apportée par le fournisseur. Les utilisateurs utilisent les données sous leur responsabilité pleine et entière, sans recours possible contre le fournisseur dont la responsabilité ne saurait être engagée du fait d’un dommage résultant directement ou indirectement de l’utilisation de ces données. En particulier, il appartient aux utilisateurs d’apprécier, sous leur seule responsabilité : l'opportunité d'utiliser les données; la compatibilité des fichiers avec leurs systèmes informatiques; l’adéquation des données à leurs besoins; qu’ils disposent de la compétence suffisante pour utiliser les données. Le fournisseur n’est en aucune façon responsable des éléments extérieurs aux données et notamment des outils d’analyse, matériels, logiciels, réseaux..., utilisés pour consulter et/ou traiter les données. L’utilisateur veille à vérifier que l’actualité des informations mises à disposition est compatible avec l’usage qu’il en fait.","statement:""- Camera model and parameters:
+ Make: Hasselblad
+ Model: L1D-20c
+ Width: 5472
+ Height: 3648
+ Focal: 28
+ WhiteBalance: Manual
+ ExposureMode: Auto Exposure
+ ColoSpace: sRGB
+ EV: -0.7
+ MeteringMode: CenterWeightedAverage
+ Camera Pitch: -89.90
+
+- Survey informations:
+ No Images: 194
+ Median height: 119 meters
+ Survey area: 27.34 hectares
+ Survey from: 2022:09:10 12:28:03 to: 2022:09:10 12:40:27
+
+UTM Coordinate system:
+ WGS 84 / UTM zone 38S
+ EPSG:32738
+ Description:
+  name: Between 42°E and 48°E, southern hemisphere between 80°S and equator, onshore and offshore. Madagascar.
+  bounds: (42.0, -80.0, 48.0, 0.0)
+
+- Meteo:
+                       T° Humidity     hPa CloudCover WindSpd-10m WindDir-10m  \
+date                                                                            
+2022-09-10 00:00:00  23.5       82  1016.2         32         8.6         237   
+2022-09-10 01:00:00  23.6       82  1016.3          4        12.3         263   
+2022-09-10 02:00:00  23.7       79  1016.6         13        16.3         278   
+2022-09-10 03:00:00  24.0       76  1017.1         22        19.7         285   
+2022-09-10 04:00:00  24.3       73  1017.8         11        21.1         290   
+2022-09-10 05:00:00  24.8       71  1018.6          1        21.4         297   
+2022-09-10 06:00:00  25.1       70  1019.2          4        21.1         303   
+2022-09-10 07:00:00  25.4       68  1019.3          1        19.4         310   
+2022-09-10 08:00:00  25.6       68  1018.8          1        17.3         315   
+2022-09-10 09:00:00  25.7       68  1017.9          2        15.3         317   
+2022-09-10 10:00:00  25.8       68  1017.5          1        13.5         316   
+2022-09-10 11:00:00  25.8       68  1016.3          1        11.5         316   
+2022-09-10 12:00:00  25.6       69  1016.1          0         9.2         315   
+2022-09-10 13:00:00  25.4       71  1015.6          0         7.1         311   
+2022-09-10 14:00:00  25.1       72  1016.4          0         5.9         308   
+2022-09-10 15:00:00  24.7       74  1016.5          1         4.2         301   
+2022-09-10 16:00:00  24.3       77  1016.7          0         3.4         302   
+2022-09-10 17:00:00  23.4       85  1017.6          0         2.7         293   
+2022-09-10 18:00:00  23.3       83  1017.9          0         2.2         261   
+2022-09-10 19:00:00  23.7       80  1018.2          0         2.4         207   
+2022-09-10 20:00:00  23.0       83  1017.5          0         3.7         169   
+2022-09-10 21:00:00  22.5       86  1017.3          0         4.3         138   
+2022-09-10 22:00:00  21.8       88  1016.4          2         6.3          66   
+2022-09-10 23:00:00  21.9       88  1016.1          9         8.6          57   
+
+                    WindSpd-100m WindDir-100m Rain  
+date                                                
+2022-09-10 00:00:00          9.1          236  0.0  
+2022-09-10 01:00:00         13.0          264  0.1  
+2022-09-10 02:00:00         17.5          278  0.1  
+2022-09-10 03:00:00         21.7          285  0.0  
+2022-09-10 04:00:00         23.0          290  0.0  
+2022-09-10 05:00:00         23.3          297  0.0  
+2022-09-10 06:00:00         23.1          304  0.0  
+2022-09-10 07:00:00         21.2          312  0.0  
+2022-09-10 08:00:00         18.6          316  0.0  
+2022-09-10 09:00:00         16.3          319  0.0  
+2022-09-10 10:00:00         14.5          316  0.0  
+2022-09-10 11:00:00         12.0          316  0.0  
+2022-09-10 12:00:00          9.7          315  0.0  
+2022-09-10 13:00:00          7.4          313  0.0  
+2022-09-10 14:00:00          6.1          310  0.0  
+2022-09-10 15:00:00          4.7          302  0.0  
+2022-09-10 16:00:00          3.4          302  0.0  
+2022-09-10 17:00:00          2.7          293  0.0  
+2022-09-10 18:00:00          2.2          270  0.0  
+2022-09-10 19:00:00          2.4          207  0.0  
+2022-09-10 20:00:00          3.8          163  0.0  
+2022-09-10 21:00:00          4.6          135  0.0  
+2022-09-10 22:00:00          6.4           63  0.0  
+2022-09-10 23:00:00          9.1           56  0.0  ""","resource:image/jpg_
+distribution:application/geopackage+sqlite3[GeoPackage]","source:METADATA.zip@/home/sylvain/DATA/MayotteFMR/20220910_MYT-jollyroger_UAV-02_2/METADATA.zip,GPS.zip@/home/sylvain/DATA/MayotteFMR/20220910_MYT-jollyroger_UAV-02_2/GPS.zip,00_sample_rawdata_overview.png@/home/sylvain/DATA/MayotteFMR/20220910_MYT-jollyroger_UAV-02_2/00_sample_rawdata_overview.png,DCIM.zip@/home/sylvain/DATA/MayotteFMR/20220910_MYT-jollyroger_UAV-02_2/DCIM.zip_
+sourceType:other_
+upload:true"
+"id:20220913_MYT-jollyroger_UAV-02_1_
+doi:10.5281/zenodo.8436272_
+conceptdoi:10.5281/zenodo.8436271","title:Images drone UAV, Jollyroger, Mayotte - 20220913","abstract:""Jeu de données composé d’images de drone DJI Mavic 2 Pro UAV acquises sur le site de Jollyroger, Mayotte à la date suivante : 20220913.
+<br />
+<br />Dans le cadre de la collaboration entre le Projet G2OI et Mayotte FMR (Future Maore Reef), l’objectif de la mission vise à étudier l’implantation de récifs artificiels dans le lagon de Mayotte sur plusieurs sites. En espace aérien contrôlé, les vols ont été exécutés en regard de la réglmentation et en contact avec la tour de contrôle de l'aéroport de Mayotte. 
+<br />
+<br />
+<br /><b>Le dépôt est composé des éléments suivants:</b>
+<br />    - 00_: Planche d'aperçu des images
+<br />    - DCIM.zip: Images brutes issues du drone
+<br />    - GPS.zip: Geopackage contenant l’emprise du survol ainsi que la géolocalisation des images accompagnées de leurs miniatures dans la table d’attribut en base64
+<br />    - METADATA.zip: Métadonnées au format ISO19115, Rapports avec miniatures des images de drone (dossier tb) et statistiques de vols.
+<br />
+<br /><b>Arborescence d'origine:</b>
+<br />└─ 20220913_MYT-jollyroger_UAV-02_1
+<br />  └─ DCIM
+<br />  └─ GPS
+<br />  └─ METADATA
+<br />    └─ tb
+<br />
+<br /><b>Informations de survol:</b>
+<br />Différentes hauteurs de vols, angles des transects et angles de caméra ont été utilisés dans le but d'obtenir des données de qualité en fonction des conditions météorologiques et marines.
+<br />- Camera model and parameters:
+<br /> Make: Hasselblad
+<br /> Model: L1D-20c
+<br /> Width: 5472
+<br /> Height: 3648
+<br /> Focal: 28
+<br /> WhiteBalance: Manual
+<br /> ExposureMode: Auto Exposure
+<br /> ColoSpace: sRGB
+<br /> EV: -0.7
+<br /> MeteringMode: CenterWeightedAverage
+<br /> Camera Pitch: -75.00
+<br />
+<br />- Survey informations:
+<br /> No Images: 327
+<br /> Median height: 40 meters
+<br /> Survey area: 3.06 hectares
+<br /> Survey from: 2022:09:13 10:38:10 to: 2022:09:13 10:52:26
+<br />
+<br />Les dépôts suivants comprennent les données traitées avec OpenDroneMap""_
+purpose:"" ""_
+info:""This study was funded by the European Regional Development Fund (ERDF) within the programme Interreg V 2014-2020 through the project G2OI""_
+edition:""RAW DATA""","theme[General]:Future Maore Reef,drone,lagon,corail,reef_
+project:Future Maore Reef@https://www.futuremaorereefs.org","author:sylvain.poulain@ird.fr,isabel.urbina-barreto@ird.fr,julien.barde@ird.fr,aline.tribollet@ird.fr,francois.guilhaumon@ird.fr_
+publisher:sylvain.poulain@ird.fr_
+owner:isabel.urbina-barreto@ird.fr_
+pointOfContact:entropie-secretariat@ird.fr_
+processor:sylvain.poulain@ird.fr","publication:2023-10-11_
+edition:2023-10-11",dataset,fra,NA,2022-09-13 10-38-10 - 2022-09-13 10-52-26,"thumbnail:Future Maore Reef@https://www.futuremaorereefs.org/assets/images/summer_school_banner.png_
+http:Website FMR[Future Maore Reef website]@https://www.futuremaorereefs.org/","useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
+accessConstraint:otherRestrictions_
+useConstraint:intellectualPropertyRights_
+otherConstraint:Le fournisseur n’est pas en mesure de garantir l’exactitude, la mise à jour, l’intégrité, l’exhaustivité des données et en particulier qu'elles sont exemptes d'erreurs ou d'imprécisions, notamment de localisation, d’identification ou de qualification. Aucune garantie quant à l'aptitude des données à un usage particulier n'est apportée par le fournisseur. Les utilisateurs utilisent les données sous leur responsabilité pleine et entière, sans recours possible contre le fournisseur dont la responsabilité ne saurait être engagée du fait d’un dommage résultant directement ou indirectement de l’utilisation de ces données. En particulier, il appartient aux utilisateurs d’apprécier, sous leur seule responsabilité : l'opportunité d'utiliser les données; la compatibilité des fichiers avec leurs systèmes informatiques; l’adéquation des données à leurs besoins; qu’ils disposent de la compétence suffisante pour utiliser les données. Le fournisseur n’est en aucune façon responsable des éléments extérieurs aux données et notamment des outils d’analyse, matériels, logiciels, réseaux..., utilisés pour consulter et/ou traiter les données. L’utilisateur veille à vérifier que l’actualité des informations mises à disposition est compatible avec l’usage qu’il en fait.","statement:""- Camera model and parameters:
+ Make: Hasselblad
+ Model: L1D-20c
+ Width: 5472
+ Height: 3648
+ Focal: 28
+ WhiteBalance: Manual
+ ExposureMode: Auto Exposure
+ ColoSpace: sRGB
+ EV: -0.7
+ MeteringMode: CenterWeightedAverage
+ Camera Pitch: -75.00
+
+- Survey informations:
+ No Images: 327
+ Median height: 40 meters
+ Survey area: 3.06 hectares
+ Survey from: 2022:09:13 10:38:10 to: 2022:09:13 10:52:26
+
+UTM Coordinate system:
+ WGS 84 / UTM zone 38S
+ EPSG:32738
+ Description:
+  name: Between 42°E and 48°E, southern hemisphere between 80°S and equator, onshore and offshore. Madagascar.
+  bounds: (42.0, -80.0, 48.0, 0.0)
+
+- Meteo:
+                       T° Humidity     hPa CloudCover WindSpd-10m WindDir-10m  \
+date                                                                            
+2022-09-13 00:00:00  23.8       81  1014.6         38         6.4         142   
+2022-09-13 01:00:00  23.8       81  1014.4         37         4.3         156   
+2022-09-13 02:00:00  23.8       81  1014.8         25         4.0         180   
+2022-09-13 03:00:00  23.8       81  1015.2          8         6.5         183   
+2022-09-13 04:00:00  24.1       80  1016.3         17         8.8         215   
+2022-09-13 05:00:00  24.5       77  1016.9         59        12.2         251   
+2022-09-13 06:00:00  24.6       77  1017.4         40        12.7         262   
+2022-09-13 07:00:00  24.4       76  1017.4         39        10.9         264   
+2022-09-13 08:00:00  24.8       75  1017.2         44         9.1         263   
+2022-09-13 09:00:00  25.0       74  1016.4         40         9.1         261   
+2022-09-13 10:00:00  25.4       73  1015.6         28        11.3         261   
+2022-09-13 11:00:00  25.6       72  1014.9         30        12.0         261   
+2022-09-13 12:00:00  25.6       72  1014.6         25        12.3         265   
+2022-09-13 13:00:00  25.5       72  1014.9          9        11.2         270   
+2022-09-13 14:00:00  25.2       73  1015.1          4         9.8         276   
+2022-09-13 15:00:00  24.8       75  1015.4          3         7.6         275   
+2022-09-13 16:00:00  24.5       77  1015.8          1         5.1         274   
+2022-09-13 17:00:00  24.2       79  1016.2          1         2.1         239   
+2022-09-13 18:00:00  24.4       77  1016.7          0         4.6         135   
+2022-09-13 19:00:00  23.8       81  1016.6          0         9.2         129   
+2022-09-13 20:00:00  23.7       81  1016.6          2        10.9         136   
+2022-09-13 21:00:00  23.7       82  1016.4          2        10.3         151   
+2022-09-13 22:00:00  23.6       83  1015.9          5         5.9         169   
+2022-09-13 23:00:00  23.5       83  1015.8         21         5.9         223   
+
+                    WindSpd-100m WindDir-100m Rain  
+date                                                
+2022-09-13 00:00:00          6.4          142  0.0  
+2022-09-13 01:00:00          4.3          156  0.0  
+2022-09-13 02:00:00          4.0          180  0.0  
+2022-09-13 03:00:00          6.8          183  0.1  
+2022-09-13 04:00:00          9.1          214  0.0  
+2022-09-13 05:00:00         12.5          252  0.0  
+2022-09-13 06:00:00         13.4          262  0.0  
+2022-09-13 07:00:00         11.6          263  0.1  
+2022-09-13 08:00:00          9.8          264  0.0  
+2022-09-13 09:00:00          9.8          262  0.0  
+2022-09-13 10:00:00         12.0          261  0.0  
+2022-09-13 11:00:00         12.7          262  0.0  
+2022-09-13 12:00:00         13.0          265  0.0  
+2022-09-13 13:00:00         11.9          270  0.0  
+2022-09-13 14:00:00         10.1          276  0.0  
+2022-09-13 15:00:00          8.0          278  0.0  
+2022-09-13 16:00:00          5.1          274  0.0  
+2022-09-13 17:00:00          2.1          239  0.0  
+2022-09-13 18:00:00          4.6          135  0.0  
+2022-09-13 19:00:00          9.5          127  0.0  
+2022-09-13 20:00:00         11.5          136  0.0  
+2022-09-13 21:00:00         10.8          150  0.0  
+2022-09-13 22:00:00          5.9          169  0.0  
+2022-09-13 23:00:00          6.1          225  0.0  ""","resource:image/jpg_
+distribution:application/geopackage+sqlite3[GeoPackage]","source:METADATA.zip@/home/sylvain/DATA/MayotteFMR/20220913_MYT-jollyroger_UAV-02_1/METADATA.zip,GPS.zip@/home/sylvain/DATA/MayotteFMR/20220913_MYT-jollyroger_UAV-02_1/GPS.zip,00_sample_rawdata_overview.png@/home/sylvain/DATA/MayotteFMR/20220913_MYT-jollyroger_UAV-02_1/00_sample_rawdata_overview.png,DCIM.zip@/home/sylvain/DATA/MayotteFMR/20220913_MYT-jollyroger_UAV-02_1/DCIM.zip_
+sourceType:other_
+upload:true"
+"id:20220914_MYT-aeroport_UAV-02_1_
+doi:10.5281/zenodo.8436276_
+conceptdoi:10.5281/zenodo.8436275","title:Images drone UAV, Aeroport, Mayotte - 20220914","abstract:""Jeu de données composé d’images de drone DJI Mavic 2 Pro UAV acquises sur le site de Aeroport, Mayotte à la date suivante : 20220914.
+<br />
+<br />Dans le cadre de la collaboration entre le Projet G2OI et Mayotte FMR (Future Maore Reef), l’objectif de la mission vise à étudier l’implantation de récifs artificiels dans le lagon de Mayotte sur plusieurs sites. En espace aérien contrôlé, les vols ont été exécutés en regard de la réglmentation et en contact avec la tour de contrôle de l'aéroport de Mayotte. 
+<br />
+<br />
+<br /><b>Le dépôt est composé des éléments suivants:</b>
+<br />    - 00_: Planche d'aperçu des images
+<br />    - DCIM.zip: Images brutes issues du drone
+<br />    - GPS.zip: Geopackage contenant l’emprise du survol ainsi que la géolocalisation des images accompagnées de leurs miniatures dans la table d’attribut en base64
+<br />    - METADATA.zip: Métadonnées au format ISO19115, Rapports avec miniatures des images de drone (dossier tb) et statistiques de vols.
+<br />
+<br /><b>Arborescence d'origine:</b>
+<br />└─ 20220914_MYT-aeroport_UAV-02_1
+<br />  └─ DCIM
+<br />  └─ GPS
+<br />  └─ METADATA
+<br />    └─ tb
+<br />
+<br /><b>Informations de survol:</b>
+<br />Différentes hauteurs de vols, angles des transects et angles de caméra ont été utilisés dans le but d'obtenir des données de qualité en fonction des conditions météorologiques et marines.
+<br />- Camera model and parameters:
+<br /> Make: Hasselblad
+<br /> Model: L1D-20c
+<br /> Width: 5472
+<br /> Height: 3648
+<br /> Focal: 28
+<br /> WhiteBalance: Manual
+<br /> ExposureMode: Auto Exposure
+<br /> ColoSpace: sRGB
+<br /> EV: -0.7
+<br /> MeteringMode: CenterWeightedAverage
+<br /> Camera Pitch: -75.00
+<br />
+<br />- Survey informations:
+<br /> No Images: 395
+<br /> Median height: 70 meters
+<br /> Survey area: 9.43 hectares
+<br /> Survey from: 2022:09:14 08:44:46 to: 2022:09:14 09:00:26
+<br />
+<br />Les dépôts suivants comprennent les données traitées avec OpenDroneMap""_
+purpose:"" ""_
+info:""This study was funded by the European Regional Development Fund (ERDF) within the programme Interreg V 2014-2020 through the project G2OI""_
+edition:""RAW DATA""","theme[General]:Future Maore Reef,drone,lagon,corail,reef_
+project:Future Maore Reef@https://www.futuremaorereefs.org","author:sylvain.poulain@ird.fr,isabel.urbina-barreto@ird.fr,julien.barde@ird.fr,aline.tribollet@ird.fr,francois.guilhaumon@ird.fr_
+publisher:sylvain.poulain@ird.fr_
+owner:isabel.urbina-barreto@ird.fr_
+pointOfContact:entropie-secretariat@ird.fr_
+processor:sylvain.poulain@ird.fr","publication:2023-10-11_
+edition:2023-10-11",dataset,fra,NA,2022-09-14 08-44-46 - 2022-09-14 09-00-26,"thumbnail:Future Maore Reef@https://www.futuremaorereefs.org/assets/images/summer_school_banner.png_
+http:Website FMR[Future Maore Reef website]@https://www.futuremaorereefs.org/","useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
+accessConstraint:otherRestrictions_
+useConstraint:intellectualPropertyRights_
+otherConstraint:Le fournisseur n’est pas en mesure de garantir l’exactitude, la mise à jour, l’intégrité, l’exhaustivité des données et en particulier qu'elles sont exemptes d'erreurs ou d'imprécisions, notamment de localisation, d’identification ou de qualification. Aucune garantie quant à l'aptitude des données à un usage particulier n'est apportée par le fournisseur. Les utilisateurs utilisent les données sous leur responsabilité pleine et entière, sans recours possible contre le fournisseur dont la responsabilité ne saurait être engagée du fait d’un dommage résultant directement ou indirectement de l’utilisation de ces données. En particulier, il appartient aux utilisateurs d’apprécier, sous leur seule responsabilité : l'opportunité d'utiliser les données; la compatibilité des fichiers avec leurs systèmes informatiques; l’adéquation des données à leurs besoins; qu’ils disposent de la compétence suffisante pour utiliser les données. Le fournisseur n’est en aucune façon responsable des éléments extérieurs aux données et notamment des outils d’analyse, matériels, logiciels, réseaux..., utilisés pour consulter et/ou traiter les données. L’utilisateur veille à vérifier que l’actualité des informations mises à disposition est compatible avec l’usage qu’il en fait.","statement:""- Camera model and parameters:
+ Make: Hasselblad
+ Model: L1D-20c
+ Width: 5472
+ Height: 3648
+ Focal: 28
+ WhiteBalance: Manual
+ ExposureMode: Auto Exposure
+ ColoSpace: sRGB
+ EV: -0.7
+ MeteringMode: CenterWeightedAverage
+ Camera Pitch: -75.00
+
+- Survey informations:
+ No Images: 395
+ Median height: 70 meters
+ Survey area: 9.43 hectares
+ Survey from: 2022:09:14 08:44:46 to: 2022:09:14 09:00:26
+
+UTM Coordinate system:
+ WGS 84 / UTM zone 38S
+ EPSG:32738
+ Description:
+  name: Between 42°E and 48°E, southern hemisphere between 80°S and equator, onshore and offshore. Madagascar.
+  bounds: (42.0, -80.0, 48.0, 0.0)
+
+- Meteo:
+                       T° Humidity     hPa CloudCover WindSpd-10m WindDir-10m  \
+date                                                                            
+2022-09-14 00:00:00  23.4       84  1015.8         33         6.6         241   
+2022-09-14 01:00:00  23.5       84  1015.9         38        10.4         256   
+2022-09-14 02:00:00  23.5       83  1016.1         50        12.3         263   
+2022-09-14 03:00:00  23.7       81  1016.8         41        13.0         270   
+2022-09-14 04:00:00  24.0       79  1017.7         41        13.1         279   
+2022-09-14 05:00:00  24.5       75  1018.6         41        13.2         287   
+2022-09-14 06:00:00  25.1       72  1019.2         42        13.5         295   
+2022-09-14 07:00:00  25.4       71  1019.6         44        13.6         302   
+2022-09-14 08:00:00  25.7       69  1019.2         52        13.0         309   
+2022-09-14 09:00:00  25.9       69  1018.6         44        11.7         315   
+2022-09-14 10:00:00  25.9       68  1017.6         42         9.2         329   
+2022-09-14 11:00:00  25.9       69  1017.6         45         7.7         332   
+2022-09-14 12:00:00  25.7       69  1016.6         41         6.9         332   
+2022-09-14 13:00:00  25.6       71  1017.1         34         5.7         342   
+2022-09-14 14:00:00  25.2       73  1017.0         30         5.0         360   
+2022-09-14 15:00:00  24.9       75  1017.6         22         4.9          17   
+2022-09-14 16:00:00  24.5       77  1017.7         14         5.9          43   
+2022-09-14 17:00:00  24.2       80  1018.4          2         7.6          65   
+2022-09-14 18:00:00  24.0       81  1019.0          0         9.0          85   
+2022-09-14 19:00:00  24.1       81  1018.9          2        11.5         110   
+2022-09-14 20:00:00  24.2       81  1018.9          0        14.2         120   
+2022-09-14 21:00:00  24.2       81  1018.4          0        14.6         123   
+2022-09-14 22:00:00  24.1       82  1018.3         27        12.9         120   
+2022-09-14 23:00:00  24.1       77  1017.6         43        11.5         129   
+
+                    WindSpd-100m WindDir-100m Rain  
+date                                                
+2022-09-14 00:00:00          6.9          242  0.0  
+2022-09-14 01:00:00         10.7          256  0.0  
+2022-09-14 02:00:00         13.0          265  0.0  
+2022-09-14 03:00:00         14.0          270  0.0  
+2022-09-14 04:00:00         13.8          279  0.0  
+2022-09-14 05:00:00         14.3          288  0.0  
+2022-09-14 06:00:00         14.3          295  0.0  
+2022-09-14 07:00:00         14.4          302  0.0  
+2022-09-14 08:00:00         13.6          310  0.0  
+2022-09-14 09:00:00         12.5          314  0.0  
+2022-09-14 10:00:00          9.4          328  0.1  
+2022-09-14 11:00:00          7.9          330  0.0  
+2022-09-14 12:00:00          6.9          332  0.1  
+2022-09-14 13:00:00          5.7          342  0.0  
+2022-09-14 14:00:00          5.1          356  0.0  
+2022-09-14 15:00:00          4.6           18  0.0  
+2022-09-14 16:00:00          5.9           43  0.0  
+2022-09-14 17:00:00          7.9           66  0.0  
+2022-09-14 18:00:00          9.7           86  0.0  
+2022-09-14 19:00:00         12.2          109  0.0  
+2022-09-14 20:00:00         15.0          120  0.0  
+2022-09-14 21:00:00         15.4          123  0.0  
+2022-09-14 22:00:00         14.0          119  0.0  
+2022-09-14 23:00:00         12.3          128  0.2  ""","resource:image/jpg_
+distribution:application/geopackage+sqlite3[GeoPackage]","source:METADATA.zip@/home/sylvain/DATA/MayotteFMR/20220914_MYT-aeroport_UAV-02_1/METADATA.zip,GPS.zip@/home/sylvain/DATA/MayotteFMR/20220914_MYT-aeroport_UAV-02_1/GPS.zip,00_sample_rawdata_overview.png@/home/sylvain/DATA/MayotteFMR/20220914_MYT-aeroport_UAV-02_1/00_sample_rawdata_overview.png,DCIM.zip@/home/sylvain/DATA/MayotteFMR/20220914_MYT-aeroport_UAV-02_1/DCIM.zip_
+sourceType:other_
+upload:true"
+"id:20220913_MYT-ngouja_UAV-02_3_
+doi:10.5281/zenodo.8436286_
+conceptdoi:10.5281/zenodo.8436285","title:Images drone UAV, Ngouja, Mayotte - 20220913","abstract:""Jeu de données composé d’images de drone DJI Mavic 2 Pro UAV acquises sur le site de Ngouja, Mayotte à la date suivante : 20220913.
+<br />
+<br />Dans le cadre de la collaboration entre le Projet G2OI et Mayotte FMR (Future Maore Reef), l’objectif de la mission vise à étudier l’implantation de récifs artificiels dans le lagon de Mayotte sur plusieurs sites. En espace aérien contrôlé, les vols ont été exécutés en regard de la réglmentation et en contact avec la tour de contrôle de l'aéroport de Mayotte. 
+<br />
+<br />
+<br /><b>Le dépôt est composé des éléments suivants:</b>
+<br />    - 00_: Planche d'aperçu des images
+<br />    - DCIM.zip: Images brutes issues du drone
+<br />    - GPS.zip: Geopackage contenant l’emprise du survol ainsi que la géolocalisation des images accompagnées de leurs miniatures dans la table d’attribut en base64
+<br />    - METADATA.zip: Métadonnées au format ISO19115, Rapports avec miniatures des images de drone (dossier tb) et statistiques de vols.
+<br />
+<br /><b>Arborescence d'origine:</b>
+<br />└─ 20220913_MYT-ngouja_UAV-02_3
+<br />  └─ DCIM
+<br />  └─ GPS
+<br />  └─ METADATA
+<br />    └─ tb
+<br />
+<br /><b>Informations de survol:</b>
+<br />Différentes hauteurs de vols, angles des transects et angles de caméra ont été utilisés dans le but d'obtenir des données de qualité en fonction des conditions météorologiques et marines.
+<br />- Camera model and parameters:
+<br /> Make: Hasselblad
+<br /> Model: L1D-20c
+<br /> Width: 5472
+<br /> Height: 3648
+<br /> Focal: 28
+<br /> WhiteBalance: Manual
+<br /> ExposureMode: Auto Exposure
+<br /> ColoSpace: sRGB
+<br /> EV: -0.7
+<br /> MeteringMode: CenterWeightedAverage
+<br /> Camera Pitch: -75.00
+<br />
+<br />- Survey informations:
+<br /> No Images: 396
+<br /> Median height: 30 meters
+<br /> Survey area: 1.54 hectares
+<br /> Survey from: 2022:09:13 15:05:58 to: 2022:09:13 15:21:26
+<br />
+<br />Les dépôts suivants comprennent les données traitées avec OpenDroneMap""_
+purpose:"" ""_
+info:""This study was funded by the European Regional Development Fund (ERDF) within the programme Interreg V 2014-2020 through the project G2OI""_
+edition:""RAW DATA""","theme[General]:Future Maore Reef,drone,lagon,corail,reef_
+project:Future Maore Reef@https://www.futuremaorereefs.org","author:sylvain.poulain@ird.fr,isabel.urbina-barreto@ird.fr,julien.barde@ird.fr,aline.tribollet@ird.fr,francois.guilhaumon@ird.fr_
+publisher:sylvain.poulain@ird.fr_
+owner:isabel.urbina-barreto@ird.fr_
+pointOfContact:entropie-secretariat@ird.fr_
+processor:sylvain.poulain@ird.fr","publication:2023-10-11_
+edition:2023-10-11",dataset,fra,NA,2022-09-13 15-05-58 - 2022-09-13 15-21-26,"thumbnail:Future Maore Reef@https://www.futuremaorereefs.org/assets/images/summer_school_banner.png_
+http:Website FMR[Future Maore Reef website]@https://www.futuremaorereefs.org/","useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
+accessConstraint:otherRestrictions_
+useConstraint:intellectualPropertyRights_
+otherConstraint:Le fournisseur n’est pas en mesure de garantir l’exactitude, la mise à jour, l’intégrité, l’exhaustivité des données et en particulier qu'elles sont exemptes d'erreurs ou d'imprécisions, notamment de localisation, d’identification ou de qualification. Aucune garantie quant à l'aptitude des données à un usage particulier n'est apportée par le fournisseur. Les utilisateurs utilisent les données sous leur responsabilité pleine et entière, sans recours possible contre le fournisseur dont la responsabilité ne saurait être engagée du fait d’un dommage résultant directement ou indirectement de l’utilisation de ces données. En particulier, il appartient aux utilisateurs d’apprécier, sous leur seule responsabilité : l'opportunité d'utiliser les données; la compatibilité des fichiers avec leurs systèmes informatiques; l’adéquation des données à leurs besoins; qu’ils disposent de la compétence suffisante pour utiliser les données. Le fournisseur n’est en aucune façon responsable des éléments extérieurs aux données et notamment des outils d’analyse, matériels, logiciels, réseaux..., utilisés pour consulter et/ou traiter les données. L’utilisateur veille à vérifier que l’actualité des informations mises à disposition est compatible avec l’usage qu’il en fait.","statement:""- Camera model and parameters:
+ Make: Hasselblad
+ Model: L1D-20c
+ Width: 5472
+ Height: 3648
+ Focal: 28
+ WhiteBalance: Manual
+ ExposureMode: Auto Exposure
+ ColoSpace: sRGB
+ EV: -0.7
+ MeteringMode: CenterWeightedAverage
+ Camera Pitch: -75.00
+
+- Survey informations:
+ No Images: 396
+ Median height: 30 meters
+ Survey area: 1.54 hectares
+ Survey from: 2022:09:13 15:05:58 to: 2022:09:13 15:21:26
+
+UTM Coordinate system:
+ WGS 84 / UTM zone 38S
+ EPSG:32738
+ Description:
+  name: Between 42°E and 48°E, southern hemisphere between 80°S and equator, onshore and offshore. Madagascar.
+  bounds: (42.0, -80.0, 48.0, 0.0)
+
+- Meteo:
+                       T° Humidity     hPa CloudCover WindSpd-10m WindDir-10m  \
+date                                                                            
+2022-09-13 00:00:00  23.8       82  1014.6         44         5.4         143   
+2022-09-13 01:00:00  23.8       82  1014.4         40         3.2         153   
+2022-09-13 02:00:00  23.9       82  1014.8         37         3.2         207   
+2022-09-13 03:00:00  24.0       81  1015.3         25         4.7         212   
+2022-09-13 04:00:00  24.1       79  1016.3         14         7.7         217   
+2022-09-13 05:00:00  24.3       77  1016.8         21        11.6         244   
+2022-09-13 06:00:00  24.4       77  1017.4         41        13.3         268   
+2022-09-13 07:00:00  24.5       78  1017.5         37        12.3         275   
+2022-09-13 08:00:00  24.5       78  1017.3         34        10.9         276   
+2022-09-13 09:00:00  24.4       79  1016.5         37        10.9         276   
+2022-09-13 10:00:00  24.2       78  1015.7         19        12.6         273   
+2022-09-13 11:00:00  24.5       77  1015.0         24        13.4         275   
+2022-09-13 12:00:00  24.5       77  1014.6         10        13.4         276   
+2022-09-13 13:00:00  24.5       76  1014.9          5        12.4         280   
+2022-09-13 14:00:00  24.5       76  1015.2          2        10.5         286   
+2022-09-13 15:00:00  24.5       76  1015.4          2         8.3         288   
+2022-09-13 16:00:00  24.4       76  1015.8          1         6.0         287   
+2022-09-13 17:00:00  24.3       76  1016.2          2         3.6         276   
+2022-09-13 18:00:00  24.2       76  1016.8          0         1.9         158   
+2022-09-13 19:00:00  24.1       76  1016.6          0         6.6         131   
+2022-09-13 20:00:00  24.1       78  1016.7          1         9.2         135   
+2022-09-13 21:00:00  24.0       80  1016.4          2         8.9         148   
+2022-09-13 22:00:00  23.9       81  1015.9          0         5.4         176   
+2022-09-13 23:00:00  23.8       81  1015.8          8         6.4         232   
+
+                    WindSpd-100m WindDir-100m Rain  
+date                                                
+2022-09-13 00:00:00          5.6          140  0.0  
+2022-09-13 01:00:00          3.2          153  0.0  
+2022-09-13 02:00:00          3.1          201  0.0  
+2022-09-13 03:00:00          4.7          212  0.0  
+2022-09-13 04:00:00          8.2          218  0.0  
+2022-09-13 05:00:00         12.1          243  0.0  
+2022-09-13 06:00:00         14.1          267  0.0  
+2022-09-13 07:00:00         13.0          275  0.1  
+2022-09-13 08:00:00         11.2          276  0.0  
+2022-09-13 09:00:00         11.6          275  0.0  
+2022-09-13 10:00:00         13.0          273  0.0  
+2022-09-13 11:00:00         14.1          274  0.0  
+2022-09-13 12:00:00         14.2          277  0.0  
+2022-09-13 13:00:00         12.8          280  0.0  
+2022-09-13 14:00:00         11.2          285  0.0  
+2022-09-13 15:00:00          8.7          287  0.0  
+2022-09-13 16:00:00          6.0          287  0.0  
+2022-09-13 17:00:00          3.6          276  0.0  
+2022-09-13 18:00:00          2.3          162  0.0  
+2022-09-13 19:00:00          7.1          131  0.0  
+2022-09-13 20:00:00          9.7          135  0.0  
+2022-09-13 21:00:00          9.7          149  0.0  
+2022-09-13 22:00:00          5.4          172  0.0  
+2022-09-13 23:00:00          6.4          232  0.0  ""","resource:image/jpg_
+distribution:application/geopackage+sqlite3[GeoPackage]","source:METADATA.zip@/home/sylvain/DATA/MayotteFMR/20220913_MYT-ngouja_UAV-02_3/METADATA.zip,GPS.zip@/home/sylvain/DATA/MayotteFMR/20220913_MYT-ngouja_UAV-02_3/GPS.zip,00_sample_rawdata_overview.png@/home/sylvain/DATA/MayotteFMR/20220913_MYT-ngouja_UAV-02_3/00_sample_rawdata_overview.png,DCIM.zip@/home/sylvain/DATA/MayotteFMR/20220913_MYT-ngouja_UAV-02_3/DCIM.zip_
+sourceType:other_
+upload:true"
+"id:20220912_MYT-ile-blanche_UAV-02_1_
+doi:10.5281/zenodo.8436301_
+conceptdoi:10.5281/zenodo.8436300","title:Images drone UAV, Ile blanche, Mayotte - 20220912","abstract:""Jeu de données composé d’images de drone DJI Mavic 2 Pro UAV acquises sur le site de Ile blanche, Mayotte à la date suivante : 20220912.
+<br />
+<br />Dans le cadre de la collaboration entre le Projet G2OI et Mayotte FMR (Future Maore Reef), l’objectif de la mission vise à étudier l’implantation de récifs artificiels dans le lagon de Mayotte sur plusieurs sites. En espace aérien contrôlé, les vols ont été exécutés en regard de la réglmentation et en contact avec la tour de contrôle de l'aéroport de Mayotte. 
+<br />
+<br />
+<br /><b>Le dépôt est composé des éléments suivants:</b>
+<br />    - 00_: Planche d'aperçu des images
+<br />    - DCIM.zip: Images brutes issues du drone
+<br />    - GPS.zip: Geopackage contenant l’emprise du survol ainsi que la géolocalisation des images accompagnées de leurs miniatures dans la table d’attribut en base64
+<br />    - METADATA.zip: Métadonnées au format ISO19115, Rapports avec miniatures des images de drone (dossier tb) et statistiques de vols.
+<br />
+<br /><b>Arborescence d'origine:</b>
+<br />└─ 20220912_MYT-ile-blanche_UAV-02_1
+<br />  └─ DCIM
+<br />  └─ GPS
+<br />  └─ METADATA
+<br />    └─ tb
+<br />
+<br /><b>Informations de survol:</b>
+<br />Différentes hauteurs de vols, angles des transects et angles de caméra ont été utilisés dans le but d'obtenir des données de qualité en fonction des conditions météorologiques et marines.
+<br />- Camera model and parameters:
+<br /> Make: Hasselblad
+<br /> Model: L1D-20c
+<br /> Width: 5472
+<br /> Height: 3648
+<br /> Focal: 28
+<br /> WhiteBalance: Manual
+<br /> ExposureMode: Auto Exposure
+<br /> ColoSpace: sRGB
+<br /> EV: -0.7
+<br /> MeteringMode: CenterWeightedAverage
+<br /> Camera Pitch: -75.00
+<br />
+<br />- Survey informations:
+<br /> No Images: 400
+<br /> Median height: 60 meters
+<br /> Survey area: 10.23 hectares
+<br /> Survey from: 2022:09:12 08:32:09 to: 2022:09:12 08:51:56
+<br />
+<br />Les dépôts suivants comprennent les données traitées avec OpenDroneMap""_
+purpose:"" ""_
+info:""This study was funded by the European Regional Development Fund (ERDF) within the programme Interreg V 2014-2020 through the project G2OI""_
+edition:""RAW DATA""","theme[General]:Future Maore Reef,drone,lagon,corail,reef_
+project:Future Maore Reef@https://www.futuremaorereefs.org","author:sylvain.poulain@ird.fr,isabel.urbina-barreto@ird.fr,julien.barde@ird.fr,aline.tribollet@ird.fr,francois.guilhaumon@ird.fr_
+publisher:sylvain.poulain@ird.fr_
+owner:isabel.urbina-barreto@ird.fr_
+pointOfContact:entropie-secretariat@ird.fr_
+processor:sylvain.poulain@ird.fr","publication:2023-10-11_
+edition:2023-10-11",dataset,fra,NA,2022-09-12 08-32-09 - 2022-09-12 08-51-56,"thumbnail:Future Maore Reef@https://www.futuremaorereefs.org/assets/images/summer_school_banner.png_
+http:Website FMR[Future Maore Reef website]@https://www.futuremaorereefs.org/","useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
+accessConstraint:otherRestrictions_
+useConstraint:intellectualPropertyRights_
+otherConstraint:Le fournisseur n’est pas en mesure de garantir l’exactitude, la mise à jour, l’intégrité, l’exhaustivité des données et en particulier qu'elles sont exemptes d'erreurs ou d'imprécisions, notamment de localisation, d’identification ou de qualification. Aucune garantie quant à l'aptitude des données à un usage particulier n'est apportée par le fournisseur. Les utilisateurs utilisent les données sous leur responsabilité pleine et entière, sans recours possible contre le fournisseur dont la responsabilité ne saurait être engagée du fait d’un dommage résultant directement ou indirectement de l’utilisation de ces données. En particulier, il appartient aux utilisateurs d’apprécier, sous leur seule responsabilité : l'opportunité d'utiliser les données; la compatibilité des fichiers avec leurs systèmes informatiques; l’adéquation des données à leurs besoins; qu’ils disposent de la compétence suffisante pour utiliser les données. Le fournisseur n’est en aucune façon responsable des éléments extérieurs aux données et notamment des outils d’analyse, matériels, logiciels, réseaux..., utilisés pour consulter et/ou traiter les données. L’utilisateur veille à vérifier que l’actualité des informations mises à disposition est compatible avec l’usage qu’il en fait.","statement:""- Camera model and parameters:
+ Make: Hasselblad
+ Model: L1D-20c
+ Width: 5472
+ Height: 3648
+ Focal: 28
+ WhiteBalance: Manual
+ ExposureMode: Auto Exposure
+ ColoSpace: sRGB
+ EV: -0.7
+ MeteringMode: CenterWeightedAverage
+ Camera Pitch: -75.00
+
+- Survey informations:
+ No Images: 400
+ Median height: 60 meters
+ Survey area: 10.23 hectares
+ Survey from: 2022:09:12 08:32:09 to: 2022:09:12 08:51:56
+
+UTM Coordinate system:
+ WGS 84 / UTM zone 38S
+ EPSG:32738
+ Description:
+  name: Between 42°E and 48°E, southern hemisphere between 80°S and equator, onshore and offshore. Madagascar.
+  bounds: (42.0, -80.0, 48.0, 0.0)
+
+- Meteo:
+                       T° Humidity     hPa CloudCover WindSpd-10m WindDir-10m  \
+date                                                                            
+2022-09-12 00:00:00  23.6       78  1013.7          9         7.9         164   
+2022-09-12 01:00:00  23.3       80  1013.3         14         5.1         188   
+2022-09-12 02:00:00  23.0       82  1013.5          6         6.3         193   
+2022-09-12 03:00:00  23.2       81  1014.1          5         7.1         210   
+2022-09-12 04:00:00  23.5       80  1014.9         19         7.3         237   
+2022-09-12 05:00:00  24.2       76  1015.9         16         9.4         266   
+2022-09-12 06:00:00  24.4       75  1016.5         33        10.2         293   
+2022-09-12 07:00:00  24.5       74  1016.5         52         8.4         313   
+2022-09-12 08:00:00  24.7       72  1016.3         52         5.6         345   
+2022-09-12 09:00:00  24.7       73  1015.5         75         3.8          49   
+2022-09-12 10:00:00  24.9       71  1015.6         52         5.8          94   
+2022-09-12 11:00:00  24.9       71  1014.9         46         5.8         120   
+2022-09-12 12:00:00  24.8       72  1014.6         47         5.6         135   
+2022-09-12 13:00:00  24.7       73  1014.4         40         4.6         141   
+2022-09-12 14:00:00  24.6       74  1014.7         33         5.8         150   
+2022-09-12 15:00:00  24.4       75  1015.3         18         7.6         149   
+2022-09-12 16:00:00  24.1       76  1015.8         12         9.7         141   
+2022-09-12 17:00:00  24.1       76  1016.2         10        11.0         139   
+2022-09-12 18:00:00  24.0       76  1016.5          8        11.8         140   
+2022-09-12 19:00:00  23.9       80  1016.5         15        12.8         148   
+2022-09-12 20:00:00  23.8       80  1016.2         17        14.0         157   
+2022-09-12 21:00:00  23.8       80  1015.7         31        14.2         164   
+2022-09-12 22:00:00  23.8       80  1015.4         38        10.5         142   
+2022-09-12 23:00:00  23.8       81  1014.8         32         8.9         133   
+
+                    WindSpd-100m WindDir-100m Rain  
+date                                                
+2022-09-12 00:00:00          8.2          165  0.0  
+2022-09-12 01:00:00          5.4          188  0.0  
+2022-09-12 02:00:00          6.3          193  0.0  
+2022-09-12 03:00:00          7.6          211  0.0  
+2022-09-12 04:00:00          7.6          239  0.0  
+2022-09-12 05:00:00          9.7          266  0.1  
+2022-09-12 06:00:00         10.6          294  0.2  
+2022-09-12 07:00:00          8.9          313  0.4  
+2022-09-12 08:00:00          5.7          342  0.1  
+2022-09-12 09:00:00          3.8           49  0.0  
+2022-09-12 10:00:00          5.8           94  0.0  
+2022-09-12 11:00:00          5.8          120  0.0  
+2022-09-12 12:00:00          5.9          137  0.0  
+2022-09-12 13:00:00          4.9          144  0.0  
+2022-09-12 14:00:00          6.1          152  0.0  
+2022-09-12 15:00:00          8.2          151  0.0  
+2022-09-12 16:00:00         10.3          144  0.0  
+2022-09-12 17:00:00         11.5          139  0.0  
+2022-09-12 18:00:00         12.3          140  0.0  
+2022-09-12 19:00:00         13.6          148  0.0  
+2022-09-12 20:00:00         14.8          157  0.0  
+2022-09-12 21:00:00         15.4          164  0.0  
+2022-09-12 22:00:00         11.0          142  0.0  
+2022-09-12 23:00:00          9.4          133  0.0  ""","resource:image/jpg_
+distribution:application/geopackage+sqlite3[GeoPackage]","source:METADATA.zip@/home/sylvain/DATA/MayotteFMR/20220912_MYT-ile-blanche_UAV-02_1/METADATA.zip,GPS.zip@/home/sylvain/DATA/MayotteFMR/20220912_MYT-ile-blanche_UAV-02_1/GPS.zip,00_sample_rawdata_overview.png@/home/sylvain/DATA/MayotteFMR/20220912_MYT-ile-blanche_UAV-02_1/00_sample_rawdata_overview.png,DCIM.zip@/home/sylvain/DATA/MayotteFMR/20220912_MYT-ile-blanche_UAV-02_1/DCIM.zip_
+sourceType:other_
+upload:true"
+"id:20220911_MYT-jollyroger_UAV-02_2_
+doi:10.5281/zenodo.8436305_
+conceptdoi:10.5281/zenodo.8436304","title:Images drone UAV, Jollyroger, Mayotte - 20220911","abstract:""Jeu de données composé d’images de drone DJI Mavic 2 Pro UAV acquises sur le site de Jollyroger, Mayotte à la date suivante : 20220911.
+<br />
+<br />Dans le cadre de la collaboration entre le Projet G2OI et Mayotte FMR (Future Maore Reef), l’objectif de la mission vise à étudier l’implantation de récifs artificiels dans le lagon de Mayotte sur plusieurs sites. En espace aérien contrôlé, les vols ont été exécutés en regard de la réglmentation et en contact avec la tour de contrôle de l'aéroport de Mayotte. 
+<br />
+<br />
+<br /><b>Le dépôt est composé des éléments suivants:</b>
+<br />    - 00_: Planche d'aperçu des images
+<br />    - DCIM.zip: Images brutes issues du drone
+<br />    - GPS.zip: Geopackage contenant l’emprise du survol ainsi que la géolocalisation des images accompagnées de leurs miniatures dans la table d’attribut en base64
+<br />    - METADATA.zip: Métadonnées au format ISO19115, Rapports avec miniatures des images de drone (dossier tb) et statistiques de vols.
+<br />
+<br /><b>Arborescence d'origine:</b>
+<br />└─ 20220911_MYT-jollyroger_UAV-02_2
+<br />  └─ DCIM
+<br />  └─ GPS
+<br />  └─ METADATA
+<br />    └─ tb
+<br />
+<br /><b>Informations de survol:</b>
+<br />Différentes hauteurs de vols, angles des transects et angles de caméra ont été utilisés dans le but d'obtenir des données de qualité en fonction des conditions météorologiques et marines.
+<br />- Camera model and parameters:
+<br /> Make: Hasselblad
+<br /> Model: L1D-20c
+<br /> Width: 5472
+<br /> Height: 3648
+<br /> Focal: 28
+<br /> WhiteBalance: Manual
+<br /> ExposureMode: Auto Exposure
+<br /> ColoSpace: sRGB
+<br /> EV: -0.7
+<br /> MeteringMode: CenterWeightedAverage
+<br /> Camera Pitch: -75.00
+<br />
+<br />- Survey informations:
+<br /> No Images: 421
+<br /> Median height: 70 meters
+<br /> Survey area: 14.57 hectares
+<br /> Survey from: 2022:09:11 09:10:56 to: 2022:09:11 09:32:31
+<br />
+<br />Les dépôts suivants comprennent les données traitées avec OpenDroneMap""_
+purpose:"" ""_
+info:""This study was funded by the European Regional Development Fund (ERDF) within the programme Interreg V 2014-2020 through the project G2OI""_
+edition:""RAW DATA""","theme[General]:Future Maore Reef,drone,lagon,corail,reef_
+project:Future Maore Reef@https://www.futuremaorereefs.org","author:sylvain.poulain@ird.fr,isabel.urbina-barreto@ird.fr,julien.barde@ird.fr,aline.tribollet@ird.fr,francois.guilhaumon@ird.fr_
+publisher:sylvain.poulain@ird.fr_
+owner:isabel.urbina-barreto@ird.fr_
+pointOfContact:entropie-secretariat@ird.fr_
+processor:sylvain.poulain@ird.fr","publication:2023-10-11_
+edition:2023-10-11",dataset,fra,NA,2022-09-11 09-10-56 - 2022-09-11 09-32-31,"thumbnail:Future Maore Reef@https://www.futuremaorereefs.org/assets/images/summer_school_banner.png_
+http:Website FMR[Future Maore Reef website]@https://www.futuremaorereefs.org/","useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
+accessConstraint:otherRestrictions_
+useConstraint:intellectualPropertyRights_
+otherConstraint:Le fournisseur n’est pas en mesure de garantir l’exactitude, la mise à jour, l’intégrité, l’exhaustivité des données et en particulier qu'elles sont exemptes d'erreurs ou d'imprécisions, notamment de localisation, d’identification ou de qualification. Aucune garantie quant à l'aptitude des données à un usage particulier n'est apportée par le fournisseur. Les utilisateurs utilisent les données sous leur responsabilité pleine et entière, sans recours possible contre le fournisseur dont la responsabilité ne saurait être engagée du fait d’un dommage résultant directement ou indirectement de l’utilisation de ces données. En particulier, il appartient aux utilisateurs d’apprécier, sous leur seule responsabilité : l'opportunité d'utiliser les données; la compatibilité des fichiers avec leurs systèmes informatiques; l’adéquation des données à leurs besoins; qu’ils disposent de la compétence suffisante pour utiliser les données. Le fournisseur n’est en aucune façon responsable des éléments extérieurs aux données et notamment des outils d’analyse, matériels, logiciels, réseaux..., utilisés pour consulter et/ou traiter les données. L’utilisateur veille à vérifier que l’actualité des informations mises à disposition est compatible avec l’usage qu’il en fait.","statement:""- Camera model and parameters:
+ Make: Hasselblad
+ Model: L1D-20c
+ Width: 5472
+ Height: 3648
+ Focal: 28
+ WhiteBalance: Manual
+ ExposureMode: Auto Exposure
+ ColoSpace: sRGB
+ EV: -0.7
+ MeteringMode: CenterWeightedAverage
+ Camera Pitch: -75.00
+
+- Survey informations:
+ No Images: 421
+ Median height: 70 meters
+ Survey area: 14.57 hectares
+ Survey from: 2022:09:11 09:10:56 to: 2022:09:11 09:32:31
+
+UTM Coordinate system:
+ WGS 84 / UTM zone 38S
+ EPSG:32738
+ Description:
+  name: Between 42°E and 48°E, southern hemisphere between 80°S and equator, onshore and offshore. Madagascar.
+  bounds: (42.0, -80.0, 48.0, 0.0)
+
+- Meteo:
+                       T° Humidity     hPa CloudCover WindSpd-10m WindDir-10m  \
+date                                                                            
+2022-09-11 00:00:00  22.6       86  1015.8         20         8.9          50   
+2022-09-11 01:00:00  22.2       89  1015.4         14         6.4          43   
+2022-09-11 02:00:00  23.1       84  1015.8         25         2.9           7   
+2022-09-11 03:00:00  23.3       82  1016.7         12         2.1         301   
+2022-09-11 04:00:00  22.5       89  1017.2         20         1.8         270   
+2022-09-11 05:00:00  23.8       81  1017.9         25         2.2         261   
+2022-09-11 06:00:00  24.3       78  1018.3         17         3.4         252   
+2022-09-11 07:00:00  24.7       76  1018.3         17         5.0         249   
+2022-09-11 08:00:00  25.0       74  1017.8          9         5.3         242   
+2022-09-11 09:00:00  25.2       72  1017.0          5         5.5         238   
+2022-09-11 10:00:00  25.4       72  1016.6          5         4.8         207   
+2022-09-11 11:00:00  25.5       71  1015.5          7         4.9         197   
+2022-09-11 12:00:00  25.5       71  1015.1          5         5.2         196   
+2022-09-11 13:00:00  25.4       71  1015.1          4         5.2         205   
+2022-09-11 14:00:00  25.2       72  1015.3          8         5.6         220   
+2022-09-11 15:00:00  24.8       74  1015.8          4         5.7         235   
+2022-09-11 16:00:00  24.5       75  1016.0          2         6.0         245   
+2022-09-11 17:00:00  24.4       76  1016.4          0         4.3         222   
+2022-09-11 18:00:00  24.1       78  1016.5          0         6.2         159   
+2022-09-11 19:00:00  24.0       78  1016.5          0        11.5         139   
+2022-09-11 20:00:00  23.9       78  1016.0          0        14.8         135   
+2022-09-11 21:00:00  23.9       77  1015.5          1        15.3         139   
+2022-09-11 22:00:00  23.8       76  1014.8          6        13.8         147   
+2022-09-11 23:00:00  23.7       77  1014.3         10        10.6         162   
+
+                    WindSpd-100m WindDir-100m Rain  
+date                                                
+2022-09-11 00:00:00          9.7           51  0.0  
+2022-09-11 01:00:00          6.9           43  0.0  
+2022-09-11 02:00:00          3.3           13  0.0  
+2022-09-11 03:00:00          2.1          301  0.0  
+2022-09-11 04:00:00          1.8          281  0.0  
+2022-09-11 05:00:00          2.2          261  0.0  
+2022-09-11 06:00:00          3.4          252  0.0  
+2022-09-11 07:00:00          5.0          249  0.0  
+2022-09-11 08:00:00          5.6          243  0.0  
+2022-09-11 09:00:00          5.8          240  0.0  
+2022-09-11 10:00:00          4.8          207  0.0  
+2022-09-11 11:00:00          4.9          197  0.0  
+2022-09-11 12:00:00          5.4          200  0.0  
+2022-09-11 13:00:00          5.6          207  0.0  
+2022-09-11 14:00:00          5.6          220  0.0  
+2022-09-11 15:00:00          6.0          237  0.0  
+2022-09-11 16:00:00          6.0          245  0.0  
+2022-09-11 17:00:00          4.3          222  0.0  
+2022-09-11 18:00:00          6.3          156  0.0  
+2022-09-11 19:00:00         12.3          140  0.0  
+2022-09-11 20:00:00         15.5          136  0.0  
+2022-09-11 21:00:00         16.1          140  0.0  
+2022-09-11 22:00:00         14.6          147  0.0  
+2022-09-11 23:00:00         11.0          161  0.0  ""","resource:image/jpg_
+distribution:application/geopackage+sqlite3[GeoPackage]","source:METADATA.zip@/home/sylvain/DATA/MayotteFMR/20220911_MYT-jollyroger_UAV-02_2/METADATA.zip,GPS.zip@/home/sylvain/DATA/MayotteFMR/20220911_MYT-jollyroger_UAV-02_2/GPS.zip,00_sample_rawdata_overview.png@/home/sylvain/DATA/MayotteFMR/20220911_MYT-jollyroger_UAV-02_2/00_sample_rawdata_overview.png,DCIM.zip@/home/sylvain/DATA/MayotteFMR/20220911_MYT-jollyroger_UAV-02_2/DCIM.zip_
+sourceType:other_
+upload:true"
+"id:20220911_MYT-musicalplage_UAV-02_3_
+doi:10.5281/zenodo.8436311_
+conceptdoi:10.5281/zenodo.8436310","title:Images drone UAV, Musicalplage, Mayotte - 20220911","abstract:""Jeu de données composé d’images de drone DJI Mavic 2 Pro UAV acquises sur le site de Musicalplage, Mayotte à la date suivante : 20220911.
+<br />
+<br />Dans le cadre de la collaboration entre le Projet G2OI et Mayotte FMR (Future Maore Reef), l’objectif de la mission vise à étudier l’implantation de récifs artificiels dans le lagon de Mayotte sur plusieurs sites. En espace aérien contrôlé, les vols ont été exécutés en regard de la réglmentation et en contact avec la tour de contrôle de l'aéroport de Mayotte. 
+<br />
+<br />
+<br /><b>Le dépôt est composé des éléments suivants:</b>
+<br />    - 00_: Planche d'aperçu des images
+<br />    - DCIM.zip: Images brutes issues du drone
+<br />    - GPS.zip: Geopackage contenant l’emprise du survol ainsi que la géolocalisation des images accompagnées de leurs miniatures dans la table d’attribut en base64
+<br />    - METADATA.zip: Métadonnées au format ISO19115, Rapports avec miniatures des images de drone (dossier tb) et statistiques de vols.
+<br />
+<br /><b>Arborescence d'origine:</b>
+<br />└─ 20220911_MYT-musicalplage_UAV-02_3
+<br />  └─ DCIM
+<br />  └─ GPS
+<br />  └─ METADATA
+<br />    └─ tb
+<br />
+<br /><b>Informations de survol:</b>
+<br />Différentes hauteurs de vols, angles des transects et angles de caméra ont été utilisés dans le but d'obtenir des données de qualité en fonction des conditions météorologiques et marines.
+<br />- Camera model and parameters:
+<br /> Make: Hasselblad
+<br /> Model: L1D-20c
+<br /> Width: 5472
+<br /> Height: 3648
+<br /> Focal: 28
+<br /> WhiteBalance: Manual
+<br /> ExposureMode: Auto Exposure
+<br /> ColoSpace: sRGB
+<br /> EV: -0.7
+<br /> MeteringMode: Average
+<br /> Camera Pitch: -90.00
+<br />
+<br />- Survey informations:
+<br /> No Images: 400
+<br /> Median height: 70 meters
+<br /> Survey area: 10.03 hectares
+<br /> Survey from: 2022:09:11 09:51:50 to: 2022:09:11 10:09:04
+<br />
+<br />Les dépôts suivants comprennent les données traitées avec OpenDroneMap""_
+purpose:"" ""_
+info:""This study was funded by the European Regional Development Fund (ERDF) within the programme Interreg V 2014-2020 through the project G2OI""_
+edition:""RAW DATA""","theme[General]:Future Maore Reef,drone,lagon,corail,reef_
+project:Future Maore Reef@https://www.futuremaorereefs.org","author:sylvain.poulain@ird.fr,isabel.urbina-barreto@ird.fr,julien.barde@ird.fr,aline.tribollet@ird.fr,francois.guilhaumon@ird.fr_
+publisher:sylvain.poulain@ird.fr_
+owner:isabel.urbina-barreto@ird.fr_
+pointOfContact:entropie-secretariat@ird.fr_
+processor:sylvain.poulain@ird.fr","publication:2023-10-11_
+edition:2023-10-11",dataset,fra,NA,2022-09-11 09-51-50 - 2022-09-11 10-09-04,"thumbnail:Future Maore Reef@https://www.futuremaorereefs.org/assets/images/summer_school_banner.png_
+http:Website FMR[Future Maore Reef website]@https://www.futuremaorereefs.org/","useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
+accessConstraint:otherRestrictions_
+useConstraint:intellectualPropertyRights_
+otherConstraint:Le fournisseur n’est pas en mesure de garantir l’exactitude, la mise à jour, l’intégrité, l’exhaustivité des données et en particulier qu'elles sont exemptes d'erreurs ou d'imprécisions, notamment de localisation, d’identification ou de qualification. Aucune garantie quant à l'aptitude des données à un usage particulier n'est apportée par le fournisseur. Les utilisateurs utilisent les données sous leur responsabilité pleine et entière, sans recours possible contre le fournisseur dont la responsabilité ne saurait être engagée du fait d’un dommage résultant directement ou indirectement de l’utilisation de ces données. En particulier, il appartient aux utilisateurs d’apprécier, sous leur seule responsabilité : l'opportunité d'utiliser les données; la compatibilité des fichiers avec leurs systèmes informatiques; l’adéquation des données à leurs besoins; qu’ils disposent de la compétence suffisante pour utiliser les données. Le fournisseur n’est en aucune façon responsable des éléments extérieurs aux données et notamment des outils d’analyse, matériels, logiciels, réseaux..., utilisés pour consulter et/ou traiter les données. L’utilisateur veille à vérifier que l’actualité des informations mises à disposition est compatible avec l’usage qu’il en fait.","statement:""- Camera model and parameters:
+ Make: Hasselblad
+ Model: L1D-20c
+ Width: 5472
+ Height: 3648
+ Focal: 28
+ WhiteBalance: Manual
+ ExposureMode: Auto Exposure
+ ColoSpace: sRGB
+ EV: -0.7
+ MeteringMode: Average
+ Camera Pitch: -90.00
+
+- Survey informations:
+ No Images: 400
+ Median height: 70 meters
+ Survey area: 10.03 hectares
+ Survey from: 2022:09:11 09:51:50 to: 2022:09:11 10:09:04
+
+UTM Coordinate system:
+ WGS 84 / UTM zone 38S
+ EPSG:32738
+ Description:
+  name: Between 42°E and 48°E, southern hemisphere between 80°S and equator, onshore and offshore. Madagascar.
+  bounds: (42.0, -80.0, 48.0, 0.0)
+
+- Meteo:
+                       T° Humidity     hPa CloudCover WindSpd-10m WindDir-10m  \
+date                                                                            
+2022-09-11 00:00:00  22.6       86  1015.8         20         8.9          50   
+2022-09-11 01:00:00  22.2       89  1015.4         14         6.4          43   
+2022-09-11 02:00:00  23.1       84  1015.8         25         2.9           7   
+2022-09-11 03:00:00  23.3       82  1016.7         12         2.1         301   
+2022-09-11 04:00:00  22.5       89  1017.2         20         1.8         270   
+2022-09-11 05:00:00  23.8       81  1017.9         25         2.2         261   
+2022-09-11 06:00:00  24.3       78  1018.3         17         3.4         252   
+2022-09-11 07:00:00  24.7       76  1018.3         17         5.0         249   
+2022-09-11 08:00:00  25.0       74  1017.8          9         5.3         242   
+2022-09-11 09:00:00  25.2       72  1017.0          5         5.5         238   
+2022-09-11 10:00:00  25.4       72  1016.6          5         4.8         207   
+2022-09-11 11:00:00  25.5       71  1015.5          7         4.9         197   
+2022-09-11 12:00:00  25.5       71  1015.1          5         5.2         196   
+2022-09-11 13:00:00  25.4       71  1015.1          4         5.2         205   
+2022-09-11 14:00:00  25.2       72  1015.3          8         5.6         220   
+2022-09-11 15:00:00  24.8       74  1015.8          4         5.7         235   
+2022-09-11 16:00:00  24.5       75  1016.0          2         6.0         245   
+2022-09-11 17:00:00  24.4       76  1016.4          0         4.3         222   
+2022-09-11 18:00:00  24.1       78  1016.5          0         6.2         159   
+2022-09-11 19:00:00  24.0       78  1016.5          0        11.5         139   
+2022-09-11 20:00:00  23.9       78  1016.0          0        14.8         135   
+2022-09-11 21:00:00  23.9       77  1015.5          1        15.3         139   
+2022-09-11 22:00:00  23.8       76  1014.8          6        13.8         147   
+2022-09-11 23:00:00  23.7       77  1014.3         10        10.6         162   
+
+                    WindSpd-100m WindDir-100m Rain  
+date                                                
+2022-09-11 00:00:00          9.7           51  0.0  
+2022-09-11 01:00:00          6.9           43  0.0  
+2022-09-11 02:00:00          3.3           13  0.0  
+2022-09-11 03:00:00          2.1          301  0.0  
+2022-09-11 04:00:00          1.8          281  0.0  
+2022-09-11 05:00:00          2.2          261  0.0  
+2022-09-11 06:00:00          3.4          252  0.0  
+2022-09-11 07:00:00          5.0          249  0.0  
+2022-09-11 08:00:00          5.6          243  0.0  
+2022-09-11 09:00:00          5.8          240  0.0  
+2022-09-11 10:00:00          4.8          207  0.0  
+2022-09-11 11:00:00          4.9          197  0.0  
+2022-09-11 12:00:00          5.4          200  0.0  
+2022-09-11 13:00:00          5.6          207  0.0  
+2022-09-11 14:00:00          5.6          220  0.0  
+2022-09-11 15:00:00          6.0          237  0.0  
+2022-09-11 16:00:00          6.0          245  0.0  
+2022-09-11 17:00:00          4.3          222  0.0  
+2022-09-11 18:00:00          6.3          156  0.0  
+2022-09-11 19:00:00         12.3          140  0.0  
+2022-09-11 20:00:00         15.5          136  0.0  
+2022-09-11 21:00:00         16.1          140  0.0  
+2022-09-11 22:00:00         14.6          147  0.0  
+2022-09-11 23:00:00         11.0          161  0.0  ""","resource:image/jpg_
+distribution:application/geopackage+sqlite3[GeoPackage]","source:METADATA.zip@/home/sylvain/DATA/MayotteFMR/20220911_MYT-musicalplage_UAV-02_3/METADATA.zip,GPS.zip@/home/sylvain/DATA/MayotteFMR/20220911_MYT-musicalplage_UAV-02_3/GPS.zip,00_sample_rawdata_overview.png@/home/sylvain/DATA/MayotteFMR/20220911_MYT-musicalplage_UAV-02_3/00_sample_rawdata_overview.png,DCIM.zip@/home/sylvain/DATA/MayotteFMR/20220911_MYT-musicalplage_UAV-02_3/DCIM.zip_
+sourceType:other_
+upload:true"
