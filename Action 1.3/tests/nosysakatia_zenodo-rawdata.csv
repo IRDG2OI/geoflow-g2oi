@@ -1,0 +1,91 @@
+Identifier,Title,Description,Subject,Creator,Date,Type,Language,SpatialCoverage,TemporalCoverage,Relation,Rights,Provenance,Format,Data
+"id:uav_2023_07_01_Nioumadzaha-Mitsoudje_Mavic2Pro_02_1_
+doi:10.5072/zenodo.1239890","title:Images drone, Nioumadzaha-Mitsoudje, Comores - 20230701","abstract:""Jeu de données composé d’images de drone acquises sur le site de Mitsoudje et Nioumadzaha, Grande Comores.
+Les vols ont été réalisés en partenariat avec la DGSC (Direction Générale de la Sécurité Civile, Comores) dans le but de créer des modèles numériques de terrain pour cartographier les risques naturels d’inondations.
+
+Le dépôt est composé des éléments suivants :
+    - 00_ : Planche d'aperçu des images      
+    - DCIM.zip : Images brutes issues du drone     
+    - GPS.zip : Traces GPS du parcours du drone lors de la mission     
+    - METADATA.zip: Métadonnées au format ISO19115, Geopackage contenant l’emprise du survol ainsi que la géolocalisation des images accompagnées de leurs miniatures dans la table d’attribut en base64
+
+Camera model and parameters:  
+    Make: Hasselblad  
+    Model: L1D-20c  
+    Width: 5472  
+    Height: 3648  
+    Focal: 28
+    No images : 
+
+Survey informations:  
+    Median height: 175 meters 
+    Survey area: 195.11 hectares
+    Camera angle : 
+    Survey from: 10:09:20 to: 11:36:44
+
+Les dépôts suivants comprennent les données traitées avec OpenDroneMap""_
+info:This study was funded by the European Regional Development Fund (ERDF) within the programme Interreg V 2014-2020 through the project G2OI_
+edition:v1","theme[General]:Comores,Grande Comore,flooding,natural risk,risque inondation,drone,uav,uas,DEM,DSM,orthophoto,mapping,cartographie_
+project:G2OI@https://www.ird.fr/projet-g2oi-grand-observatoire-de-locean-indien","author:sylvain.poulain@ird.fr,julien.barde@ird.fr,natali.mmadi@gmail.com,mohamedhamidou957@gmail.com,dgsc.g2oi@gmail.com_
+publisher:sylvain.poulain@ird.fr_
+owner:dgsc.g2oi@gmail.com_
+pointOfContact:julien.barde@ird.fr_
+processor:sylvain.poulain@ird.fr","publication:2023-09-12_
+Edition:2023-09-13",dataset,fra,,2023-07-01,"thumbnail:G2OI@https://g2oi.ird.fr/static/img/logo_ird.png_
+http:Website G2OI[G2OI Website]@https://www.ird.fr/projet-g2oi-grand-observatoire-de-locean-indien","useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
+accessConstraint:otherRestrictions_
+useConstraint:intellectualPropertyRights_
+otherConstraint:Le fournisseur n’est pas en mesure de garantir l’exactitude, la mise à jour, l’intégrité, l’exhaustivité des données et en particulier qu'elles sont exemptes d'erreurs ou d'imprécisions, notamment de localisation, d’identification ou de qualification. Aucune garantie quant à l'aptitude des données à un usage particulier n'est apportée par le fournisseur. Les utilisateurs utilisent les données sous leur responsabilité pleine et entière, sans recours possible contre le fournisseur dont la responsabilité ne saurait être engagée du fait d’un dommage résultant directement ou indirectement de l’utilisation de ces données. En particulier, il appartient aux utilisateurs d’apprécier, sous leur seule responsabilité : l'opportunité d'utiliser les données; la compatibilité des fichiers avec leurs systèmes informatiques; l’adéquation des données à leurs besoins; qu’ils disposent de la compétence suffisante pour utiliser les données. Le fournisseur n’est en aucune façon responsable des éléments extérieurs aux données et notamment des outils d’analyse, matériels, logiciels, réseaux..., utilisés pour consulter et/ou traiter les données. L’utilisateur veille à vérifier que l’actualité des informations mises à disposition est compatible avec l’usage qu’il en fait.","statement:""- Camera model and parameters:
+ Make: Hasselblad
+ Model: L1D-20c
+ Width: 5472
+ Height: 3648
+ Focal: 28
+ WhiteBalance: Manual
+ ExposureMode: Auto Exposure
+ ColoSpace: sRGB
+ EV: -0.7
+ MeteringMode: CenterWeightedAverage
+
+- Survey informations:
+ Median height: 175 meters
+ Survey area: 195.11 hectares
+ Survey from:10:09:20 to:11:36:44
+
+UTM Coordinate system:
+ WGS 84 / UTM zone 38S
+ EPSG:32738
+ Description:
+  name: Between 42°E and 48°E, southern hemisphere between 80°S and equator, onshore and offshore. Madagascar.
+  bounds: (42.0, -80.0, 48.0, 0.0)
+
+- Meteo:
+                       T° Humidity     hPa CloudCover WindSpd-10m WindDir-10m WindSpd-100m WindDir-100m Rain
+date                                                                                                        
+2023-07-01 00:00:00  23.9       79  1018.7         97         7.0         145          9.9          147  0.0
+2023-07-01 01:00:00  23.9       80  1018.2         51         6.6         151          9.8          152  0.0
+2023-07-01 02:00:00  23.9       81  1018.6         33         6.8         155         10.2          157  0.0
+2023-07-01 03:00:00  23.9       82  1018.9         19         7.1         156         10.5          158  0.0
+2023-07-01 04:00:00  24.0       83  1019.7         22         8.7         156         11.8          157  0.0
+2023-07-01 05:00:00  24.6       80  1020.7         37        10.8         154         14.0          154  0.0
+2023-07-01 06:00:00  25.4       76  1021.3         47        12.6         149         15.5          149  0.0
+2023-07-01 07:00:00  26.0       71  1021.6         39        14.3         146         17.4          146  0.1
+2023-07-01 08:00:00  26.3       69  1021.5         32        15.5         144         19.1          144  0.2
+2023-07-01 09:00:00  26.4       68  1020.8         53        17.6         145         21.7          144  0.1
+2023-07-01 10:00:00  26.3       68  1020.8         47        17.5         148         21.7          148  0.4
+2023-07-01 11:00:00  26.0       68  1020.1         46        18.4         154         23.3          153  0.4
+2023-07-01 12:00:00  26.0       66  1019.6         44        18.9         159         24.4          158  0.3
+2023-07-01 13:00:00  25.9       65  1019.2         34        18.3         165         23.6          164  0.3
+2023-07-01 14:00:00  25.9       65  1019.6         27        17.2         170         23.1          169  0.1
+2023-07-01 15:00:00  25.7       66  1019.5         17        17.1         172         23.3          171  0.0
+2023-07-01 16:00:00  25.6       68  1019.9         16        17.7         168         24.3          168  0.0
+2023-07-01 17:00:00  25.5       70  1020.6         29        19.1         164         25.9          164  0.0
+2023-07-01 18:00:00  25.4       72  1020.9         37        18.8         160         25.6          160  0.0
+2023-07-01 19:00:00  25.2       71  1021.3         29        19.3         156         26.1          156  0.1
+2023-07-01 20:00:00  25.0       71  1020.9         27        18.7         152         25.3          152  0.1
+2023-07-01 21:00:00  24.8       74  1020.6         29        18.7         150         25.3          150  0.0
+2023-07-01 22:00:00  24.8       75  1020.6         15        16.9         146         23.0          148  0.0
+2023-07-01 23:00:00  24.8       76  1019.6         17        16.3         149         22.2          151  0.0""_
+process:Raw dataset uploaded to https://sandbox.zenodo.org/record/1239890","resource:image/jpg_
+distribution:application/geopackage+sqlite3[GeoPackage]","source:METADATA.zip@/home/sylvain/DATA/COMORES/uav_2023_07_01_Nioumadzaha-Mitsoudje_Mavic2Pro_02_1/METADATA.zip,00_sample_rawdata_overview.png@/home/sylvain/DATA/COMORES/uav_2023_07_01_Nioumadzaha-Mitsoudje_Mavic2Pro_02_1/00_sample_rawdata_overview.png,DCIM.zip@/home/sylvain/DATA/COMORES/uav_2023_07_01_Nioumadzaha-Mitsoudje_Mavic2Pro_02_1/DCIM.zip_
+sourceType:other"

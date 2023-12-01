@@ -1,0 +1,81 @@
+{
+  "profile": {
+    "id": "espace-dev-shp-workflow",
+    "name": "Espace Dev shp workflow",
+	  "project": "Geoflow project to publish Sen2Chain metadata",
+	  "organization": "IRD",
+	  "logos": [
+		  "https://gred.ird.fr/var/ird/storage/images/media/ird-sites-d-unites-de-recherche/gred/images/logos/logo-ird/209819-2-fre-FR/logo-ird.png"
+	  ],
+	  "mode": "entity",
+	  "options": {
+	    "line_separator": "_\n"
+    }
+  },
+  "metadata": {
+    "entities": [
+      {
+        "handler": "csv",
+        "source": "data/config_metadata_csv_shp_nextcloud.csv"
+      }
+    ],
+    "contacts" : [
+      {
+        "handler": "csv",
+        "source": "data/geoflow_g2oi_contacts.csv"
+      }
+    ]
+  },
+  "software": [
+	{
+		"id": "221617-geonetwork",
+		"type": "output",
+		"software_type": "geonetwork",
+		"parameters": {
+			"url": "https://gn.marbec-tools.ird.fr/geonetwork",
+			"user": "{{GEONETWORK_USER}}",
+			"pwd": "{{GEONETWORK_PASSWORD}}",
+			"version": "4.2.0",
+			"logger": "DEBUG"
+		}
+	},
+	{
+		"id": "my-geoserver",
+		"type": "output",
+		"software_type": "geoserver",
+		"parameters": {
+			"url": "https://gs.marbec-tools.ird.fr/geoserver",
+			"user": "{{GEOSERVER_USER}}",
+			"pwd": "{{GEOSERVER_PASSWORD}}",
+			"logger": "DEBUG"
+		},
+		"properties" : {
+			"workspace": "G2OI"
+		}
+	}
+  ],
+  "actions": [
+	{
+      "id": "geometa-create-iso-19115",
+	  "options": {
+		"logo": true
+	  },
+      "run": true
+    },
+	{
+	  "id": "geonapi-publish-iso-19139",
+      "run" : true,
+      	     "options" : {
+	   "group":"{{GROUP}}"
+	   }
+	},
+	{
+	  "id": "geosapi-publish-ogc-services",
+	  "run": true,
+	  "options" : {
+	    "createWorkspace": true,
+	    "createStore": true
+	  }
+	}
+  ]
+}

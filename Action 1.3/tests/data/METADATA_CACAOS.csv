@@ -1,0 +1,15 @@
+Identifier,Title,Description,Subject,Creator,Date,Type,Language,SpatialCoverage,TemporalCoverage,Format,Relation,Rights,Provenance,Data
+id:CACAOS_ECOREGION_EST,title:Ecorégions de Madagascar - forêt humide à l'Est,"abstract:Madagascar peut être divisée en trois écorégions climatiques avec trois types de forêts : la forêt
+humide à l'Est, la forêt sèche à l'Ouest et la forêt épineuse au Sud. Les
+écorégions ont été définies selon des critères climatiques (Cornet 1974) et végétaux (Ministère de
+l'Environnement, 1996). Les trois types de forêts se caractérisent par des conditions climatiques très
+différentes et un fort gradient de précipitations et de température est observé.","theme[General]:Projet CACAOS,occupation du sol, télédétection, DIANA, SENTINEL2,Madagascar","pointOfContact:pierre.tessier@cr-reunion.fr, matthias.belus@cr-reunion.fr",publication:2022-02-22,map,fre,srid:4326,2017-01/2019-07,"resource:image/tiff_
+distribution:image/tiff[GeoTIFF]","http:rapport d’éxécution@https://_
+http:presentation atelier CACAOS@https://",,,"source:smallgeotiff.tif@data/smallgeotiff.tif_
+sourceType:geotiff_
+uploadSource:smallgeotiff.tif_
+layername:smallgeotiff_
+uploadType:geotiff_
+layername:smallgeotiff_
+spatialRepresentationType:grid_
+style:generic"

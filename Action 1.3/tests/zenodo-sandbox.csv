@@ -1,0 +1,20 @@
+Identifier,Title,Description,Subject,Creator,Date,Type,Language,SpatialCoverage,TemporalCoverage,Format,Relation,Rights,Provenance,Data
+g2oi-geoflow-zenodo-deposit1,Mon depot Zenodo,"abstract:Simple publication dans Zenodo sandbox depuis Geoflow_
+purpose:tester_
+info:Quelques infos supplémentaires_
+edition:premiere publication","theme[GENERAL]:Mangroves,Scylla serrata,Crabes,Estimation surface,Ocean Indien,Madagascar_
+topicCategory:society,economy,biota,oceans,environment",metadata:sylvain.poulain@ird.fr,"publication:2022-11-21_
+edition:2022-11-22",dataset,fra,srid:4326,2015-09-20/2022-06-05,"resource:text/csv_
+resource:text/tsv_
+distribution:application/zip[ESRI Shapefile (zipped)]_
+distribution:application/geopackage+sqlite3[GeoPackage]","thumbnail:Overview1@https://en.ird.fr/sites/ird_fr/files/2019-08/logo_IRD_2016_BLOC_UK_COUL.png_
+parent:my-parent-metadata-identifier@http://catalogue/my-parent-metadata-identifier_
+http:website@http://somelink/website","useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
+accessConstraint:otherRestrictions_
+useConstraint:intellectualPropertyRights_
+otherConstraint:Le fournisseur n’est pas en mesure de garantir l’exactitude, la mise à jour, l’intégrité, l’exhaustivité des données et en particulier qu'elles sont exemptes d'erreurs ou d'imprécisions, notamment de localisation, d’identification ou de qualification. Aucune garantie quant à l'aptitude des données à un usage particulier n'est apportée par le fournisseur. Les utilisateurs utilisent les données sous leur responsabilité pleine et entière, sans recours possible contre le fournisseur dont la responsabilité ne saurait être engagée du fait d’un dommage résultant directement ou indirectement de l’utilisation de ces données. En particulier, il appartient aux utilisateurs d’apprécier, sous leur seule responsabilité : l'opportunité d'utiliser les données; la compatibilité des fichiers avec leurs systèmes informatiques; l’adéquation des données à leurs besoins; qu’ils disposent de la compétence suffisante pour utiliser les données. Le fournisseur n’est en aucune façon responsable des éléments extérieurs aux données et notamment des outils d’analyse, matériels, logiciels, réseaux..., utilisés pour consulter et/ou traiter les données. L’utilisateur veille à vérifier que l’actualité des informations mises à disposition est compatible avec l’usage qu’il en fait.","statement:My data management workflow_
+process:rationale1[description1]_
+process:rationale2[description2]_
+process:rationale3[description3]_
+processor:sylvain.poulain@ird.fr
+",

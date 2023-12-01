@@ -1,0 +1,76 @@
+{
+    "profile": {
+        "id": "zenodo",
+        "name": "Zenodo",
+        "project": "Zenodo sandbox with Geoflow",
+        "organization": "IRD",
+        "environment": {
+            "file": ".env",
+            "hide_env_vars": [
+                "MOTDEPASSE"
+            ]
+        },
+        "mode": "entity"
+    },
+    "metadata": {
+        "entities": [
+            {
+                "handler": "csv",
+                "source": "20230811-183228_zenodo-processed.csv"
+            }
+        ],
+        "contacts": [
+            {
+                "handler": "csv",
+                "source": "https://drive.ird.fr/s/EYS3qccyB28PrA9/download/geoflow_g2oi_contacts.csv"
+            }
+        ]
+    },
+    "software": [
+        {
+            "id": "my-zenodo-sandbox",
+            "type": "output",
+            "software_type": "zenodo",
+            "parameters": {
+                "url": "https://sandbox.zenodo.org/api",
+                "token": "{{ ZENODO_SANDBOX_TOKEN }}",
+                "logger": "DEBUG"
+            },
+            "properties": {
+                "clean": {
+                    "run": false
+                }
+            }
+        }
+    ],
+    "actions": [
+        {
+            "id": "zen4R-deposit-record",
+            "options": {
+                "update_files": true,
+                "communities": "uav",
+                "depositWithFiles": false,
+                "publish": false,
+                "update_metadata": true,
+                "strategy": "newversion",
+                "zipEachDataFile": false,
+                "deleteOldFiles": false
+            },
+            "run": true
+        },
+        {
+            "id": "zen4R-deposit-record",
+            "options": {
+                "update_files": true,
+                "communities": "uav",
+                "depositWithFiles": true,
+                "publish": false,
+                "update_metadata": true,
+                "strategy": "newversion",
+                "zipEachDataFile": false,
+                "deleteOldFiles": false
+            },
+            "run": true
+        }        
+    ]
+}
