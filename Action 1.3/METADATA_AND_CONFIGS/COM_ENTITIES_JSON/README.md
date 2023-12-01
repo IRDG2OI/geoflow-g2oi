@@ -1,4 +1,4 @@
-# COMORES : Tableau d'entités and fichiers de configuration
+# COMORES : Tableau d'entités et fichiers de configuration
 
 ## Génération d'un fichier de métadonnées au format ISO 19115 (XML) : 
 - 20231011-102200_iso19115-config.json : fichier de configuration
