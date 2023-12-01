@@ -1,0 +1,42 @@
+{
+    "profile": {
+        "id": "iso19115",
+        "name": "iso19115",
+        "project": "Generate iso19115 with Geoflow",
+        "organization": "IRD",
+        "environment": {
+            "file": ".env",
+            "hide_env_vars": [
+                "MOTDEPASSE"
+            ]
+        },
+        "logos": [
+            "https://en.ird.fr/sites/ird_fr/files/2019-08/logo_IRD_2016_BLOC_UK_COUL.png"
+        ],
+        "mode": "entity"
+    },
+    "metadata": {
+        "entities": [
+            {
+                "handler": "csv",
+                "source": "20231101-161132_iso19115-metadata.csv"
+            }
+        ],
+        "contacts": [
+            {
+                "handler": "csv",
+                "source": "https://drive.ird.fr/s/EYS3qccyB28PrA9/download/geoflow_g2oi_contacts.csv"
+            }
+        ]
+    },
+    "software": [],
+    "actions": [
+        {
+            "id": "geometa-create-iso-19115",
+            "options": {
+                "logo": true
+            },
+            "run": true
+        }
+    ]
+}

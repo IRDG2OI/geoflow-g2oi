@@ -1,0 +1,37 @@
+title="Images drone {platform}, {place}, {country} - {date}"
+abstract="Jeu de données composé d’images de drone DJI Mavic 2 Pro {platform} acquises sur le site de {place}, {country} à la date suivante : {date}.
+Les vols ont été réalisés en partenariat avec l'IH.SM dans le but de créer des modèles numériques d'élévations pour cartographier l'écosystème marin.
+
+<b>Le dépôt est composé des éléments suivants:</b>
+    - 00_: Planche d'aperçu des images
+    - DCIM.zip: Images brutes issues du drone
+    - GPS.zip: Geopackage contenant l’emprise du survol ainsi que la géolocalisation des images accompagnées de leurs miniatures dans la table d’attribut en base64
+    - METADATA.zip: Métadonnées au format ISO19115, Rapports avec miniatures des images de drone (dossier tb) et statistiques de vols.
+
+<b>Arborescence d'origine:</b>
+{treed}
+
+<b>Informations de survol:</b>
+{survey_stat}
+
+Les dépôts suivants comprennent les données traitées avec OpenDroneMap"
+purpose=" "
+info=This study was funded by the European Regional Development Fund (ERDF) within the programme Interreg V 2014-2020 through the project G2OI
+edition="RAW DATA"
+theme="theme[General]:Madagascar,drone,lagon,lagoon,corail,reef,G2OI,grand,observatoire,océan,Indien,rugosité,récif,struture récifale,coraux,uav,uas,DEM,digital elevation model,orthophotographie,orthophotography,photogrammétrie,photogrammetry,SfM,Structure from Motion,OpenDroneMap,opendata,dji,mavic"
+theme="theme[Geographic]:Madagascar,océan Indien"
+project="G2OI@https://www.ird.fr/projet-g2oi-grand-observatoire-de-locean-indien"
+author=sylvain.poulain@ird.fr,julien.barde@ird.fr
+publisher=sylvain.poulain@ird.fr
+owner=sylvain.poulain@ird.fr
+pointOfContact=julien.barde@ird.fr
+processor=sylvain.poulain@ird.fr
+language=fra
+thumbnail="G2OI@https://g2oi.ird.fr/static/img/logo_ird.png"
+http="Website G2OI[G2OI Website]@https://www.ird.fr/projet-g2oi-grand-observatoire-de-locean-indien"
+useLimitation=Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour
+accessConstraint=otherRestrictions
+useConstraint=intellectualPropertyRights
+otherConstraint=some other constraints
+statement=My data management workflow
+process=rationale1[description1]

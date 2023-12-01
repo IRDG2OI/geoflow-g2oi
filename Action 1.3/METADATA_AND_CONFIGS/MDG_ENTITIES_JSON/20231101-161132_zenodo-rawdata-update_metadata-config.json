@@ -1,0 +1,64 @@
+{
+    "profile": {
+        "id": "rawdata",
+        "name": "rawdata",
+        "project": "Publish rawdata with Geoflow",
+        "organization": "IRD",
+        "environment": {
+            "file": ".env",
+            "hide_env_vars": [
+                "MOTDEPASSE"
+            ]
+        },
+        "logos": [
+            "https://en.ird.fr/sites/ird_fr/files/2019-08/logo_IRD_2016_BLOC_UK_COUL.png"
+        ],
+        "mode": "entity"
+    },
+    "metadata": {
+        "entities": [
+            {
+                "handler": "csv",
+                "source": "20231101-161132_zenodo-rawdata_updated_doi.csv"
+            }
+        ],
+        "contacts": [
+            {
+                "handler": "csv",
+                "source": "https://drive.ird.fr/s/EYS3qccyB28PrA9/download/geoflow_g2oi_contacts.csv"
+            }
+        ]
+    },
+    "software": [
+        {
+            "id": "my-zenodo",
+            "type": "output",
+            "software_type": "zenodo",
+            "parameters": {
+                "url": "https://zenodo.org/api",
+                "token": "{{ ZENODO_TOKEN }}",
+                "logger": "DEBUG"
+            },
+            "properties": {
+                "clean": {
+                    "run": false
+                }
+            }
+        }
+    ],
+    "actions": [
+        {
+            "id": "zen4R-deposit-record",
+            "options": {
+                "update_files": true,
+                "communities": "uav",
+                "depositWithFiles": true,
+                "publish": false,
+                "update_metadata": true,
+                "strategy": "newversion",
+                "deleteOldFiles": true
+            },
+            "run": true
+        }
+    ]
+}
