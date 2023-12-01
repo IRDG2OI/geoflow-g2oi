@@ -1,0 +1,38 @@
+title="Images drone, {platform}, {place}, Saint-Gilles, {country} - {date}"
+abstract="Jeu de données composé d’images de drone DJI Mavic 2 Pro {platform} acquises sur le site de {place}, Saint-Gilles, {country} à la date suivante : {date}.
+Les vols ont été réalisés dans le but de créer des modèles numériques d'élévations pour cartographier la rugosité récifale du lagon jusqu'à la pente externe. Les données seront utilisées dans le cadre du projet TELEMAC.
+
+<b>Le dépôt est composé des éléments suivants:</b>
+    - 00_: Planche d'aperçu des images
+    - DCIM.zip: Images brutes issues du drone
+    - GPS.zip: Geopackage contenant l’emprise du survol ainsi que la géolocalisation des images accompagnées de leurs miniatures dans la table d’attribut en base64. RINEX et LLH issus d'un Emlid Reach M2 synchronisé avec la LED de navigation (événement envoyé dans le log du récepteur GNSS lors du déclenchement d'une image). Le but est de pouvoir réaliser un PPK (similaire au RTK en post-traitement) et ainsi disposer d'une position centrimétrique sur chaque image.
+    - METADATA.zip: Métadonnées au format ISO19115, Rapports avec miniatures des images de drone (dossier tb) et statistiques de vols.
+
+<b>Arborescence d'origine:</b>
+{treed}
+
+<b>Informations de survol:</b>
+{survey_stat}
+
+D'autres versions plus récentes de ce dépôt sont disponibles. Ces dernières comprennent notamment les données traitées avec OpenDroneMap"
+purpose=" "
+info="This study was funded by the European Regional Development Fund (ERDF) within the programme Interreg V 2014-2020 through the project G2OI"
+edition="RAW DATA"
+theme="theme[General]:TELEMAC,Réunion,Hermitage,Ermitage,Saint-Gilles,La Réunion,océan Indien,lagon,lagoon,corail,reef,G2OI,grand observatoire de l'océan Indien,rugosité,récif,struture récifale,coraux,ppk,rtk,drone,uav,uas,DEM,digital elevation model,orthophotographie,orthophotography,photogrammétrie,photogrammetry,SfM,Structure from Motion,OpenDroneMap,opendata,dji,mavic,emlid,reach,centipede"
+theme="theme[Geographic]:Réunion,océan Indien"
+project="G2OI@https://www.ird.fr/projet-g2oi-grand-observatoire-de-locean-indien"
+author=sylvain.poulain@ird.fr,pascal.mouquet@ird.fr,julien.barde@ird.fr
+publisher=sylvain.poulain@ird.fr
+owner=sylvain.poulain@ird.fr
+pointOfContact=emmanuel.cordier@univ-reunion.fr
+processor=sylvain.poulain@ird.fr
+language=fra
+thumbnail="G2OI@https://raw.githubusercontent.com/IRDG2OI/.github/main/profile/logo_g2oi_final_1280px_cadre.png"
+http="Article IRD - G2OI[G2OI Article]@https://www.ird.fr/projet-g2oi-grand-observatoire-de-locean-indien"
+http="Website G2OI[G2OI Website]@https://g2oi.ird.fr"
+useLimitation=Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour
+accessConstraint=otherRestrictions
+useConstraint=intellectualPropertyRights
+otherConstraint=some other constraints
+statement=My data management workflow
+process=rationale1[description1]

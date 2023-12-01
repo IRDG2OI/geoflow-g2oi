@@ -1,0 +1,957 @@
+"Identifier","Title","Description","Subject","Creator","Date","Type","Language","SpatialCoverage","TemporalCoverage","Relation","Rights","Provenance","Format","Data"
+"id:20230524_REU-ermitage_UAV-02_4_
+doi:10.5281/zenodo.10037633","title:Orthophoto & DEM (MNE) issues d'images drone, UAV, Ermitage, Saint-Gilles, Réunion - 20230524 - 02_4","abstract:""Ce jeu de données présente les résultats des traitements photogrammétriques d’images de drone DJI Mavic 2 Pro UAV acquises sur le site de Ermitage, Saint-Gilles, Réunion à la date suivante : 20230524.
+<br />Les traitements ont été réalisés avec le logiciel OpenDroneMap à partir des images brutes fournies dans la première version de ce DOI.
+<br />Les vols ont été réalisés dans le but de créer des modèles numériques d'élévations pour cartographier la rugosité récifale du lagon jusqu'à la pente externe. Les données seront utilisées dans le cadre du projet TELEMAC.
+<br />
+<br /><br />Le paramétrage du logiciel OpenDroneMap est partagé pour permettre la reproductibilité ou l'amélioration des traitements proposés:<br />
+[
+<br />        {
+<br />            'name': 'orthophoto-resolution',
+<br />            'value': 1
+<br />        },
+<br />        {
+<br />            'name': 'auto-boundary',
+<br />            'value': true
+<br />        },
+<br />        {
+<br />            'name': 'dem-resolution',
+<br />            'value': '2.0'
+<br />        },
+<br />        {
+<br />            'name': 'dsm',
+<br />            'value': true
+<br />        }
+<br />    ]
+<br />
+<br /><b>Le dépôt est composé des éléments suivants:</b>
+<br />    - 00_: Planche d'aperçu des images
+<br />    - DCIM.zip: Images brutes issues du drone
+<br />    - GPS.zip: Geopackage contenant l’emprise du survol ainsi que la géolocalisation des images accompagnées de leurs miniatures dans la table d’attribut en base64. RINEX et LLH issus d'un Emlid Reach M2 synchronisé avec la LED de navigation (événement envoyé dans le log du récepteur GNSS lors du déclenchement d'une image). Le but est de pouvoir réaliser un PPK (similaire au RTK en post-traitement) et ainsi disposer d'une position centrimétrique sur chaque image.
+<br />    - METADATA.zip: Métadonnées au format ISO19115, Rapports avec miniatures des images de drone (dossier tb) et statistiques de vols.
+<br />    - PROCESSED_DATA.zip: Orthophoto, DEM, nuages de points, ...
+<br />
+<br /><b>Arborescence d'origine:</b>
+<br />│  └─ 20230524_REU-ermitage_UAV-02_4
+<br />│--------  └─ DCIM
+<br />│--------  └─ GPS
+<br />│----------------  └─ base_2023_05_24_pascal
+<br />│----------------  └─ reach_2023_05_24_drone
+<br />│------------------------  └─ reachsylvai_raw_202305240249_RINEX_3_03
+<br />│------------------------  └─ reachsylvai_raw_202305240330_RINEX_3_03
+<br />│----------------  └─ reach_2023_05_24_rover
+<br />│--------  └─ METADATA
+<br />│----------------  └─ tb
+<br />│--------  └─ PROCESSED_DATA
+<br />
+<br /><b>Informations de survol:</b>
+<br />- Camera model and parameters:
+<br /> Make: Hasselblad
+<br /> Model: L1D-20c
+<br /> Width: 5472
+<br /> Height: 3648
+<br /> Focal: 28
+<br /> WhiteBalance: Manual
+<br /> ExposureMode: Auto Exposure
+<br /> ColoSpace: sRGB
+<br /> EV: -0.7
+<br /> MeteringMode: CenterWeightedAverage
+<br /> Camera Pitch: -70.00
+<br />
+<br />- Survey informations:
+<br /> No Images: 193
+<br /> Median height: 70 meters
+<br /> Survey area: 4.16 hectares
+<br /> Survey from: 2023:05:24 09:53:20 to: 2023:05:24 10:03:57
+<br />""_
+purpose:"" ""_
+info:""This study was funded by the European Regional Development Fund (ERDF) within the programme Interreg V 2014-2020 through the project G2OI""_
+edition:""PROCESSED DATA""","theme[General]:TELEMAC,Réunion,Hermitage,Ermitage,Saint-Gilles,La Réunion,océan Indien,lagon,lagoon,corail,reef,G2OI,grand observatoire de l'océan Indien,rugosité,récif,struture récifale,coraux,ppk,rtk,drone,uav,uas,DEM,digital elevation model,orthophotographie,orthophotography,photogrammétrie,photogrammetry,SfM,Structure from Motion,OpenDroneMap,opendata,dji,mavic,emlid,reach,centipede_
+project:G2OI@https://www.ird.fr/projet-g2oi-grand-observatoire-de-locean-indien","author:sylvain.poulain@ird.fr,pascal.mouquet@ird.fr,julien.barde@ird.fr_
+publisher:sylvain.poulain@ird.fr_
+owner:sylvain.poulain@ird.fr_
+pointOfContact:emmanuel.cordier@univ-reunion.fr_
+processor:sylvain.poulain@ird.fr","publication:2023-10-22_
+edition:2023-10-22","dataset","fra","","2023-05-24 09-53-20 - 2023-05-24 10-03-57","thumbnail:G2OI@https://raw.githubusercontent.com/IRDG2OI/.github/main/profile/logo_g2oi_final_1280px_cadre.png_
+http:Article IRD - G2OI[G2OI Article]@https://www.ird.fr/projet-g2oi-grand-observatoire-de-locean-indien","useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
+accessConstraint:otherRestrictions_
+useConstraint:intellectualPropertyRights_
+otherConstraint:Le fournisseur n’est pas en mesure de garantir l’exactitude, la mise à jour, l’intégrité, l’exhaustivité des données et en particulier qu'elles sont exemptes d'erreurs ou d'imprécisions, notamment de localisation, d’identification ou de qualification. Aucune garantie quant à l'aptitude des données à un usage particulier n'est apportée par le fournisseur. Les utilisateurs utilisent les données sous leur responsabilité pleine et entière, sans recours possible contre le fournisseur dont la responsabilité ne saurait être engagée du fait d’un dommage résultant directement ou indirectement de l’utilisation de ces données. En particulier, il appartient aux utilisateurs d’apprécier, sous leur seule responsabilité : l'opportunité d'utiliser les données; la compatibilité des fichiers avec leurs systèmes informatiques; l’adéquation des données à leurs besoins; qu’ils disposent de la compétence suffisante pour utiliser les données. Le fournisseur n’est en aucune façon responsable des éléments extérieurs aux données et notamment des outils d’analyse, matériels, logiciels, réseaux..., utilisés pour consulter et/ou traiter les données. L’utilisateur veille à vérifier que l’actualité des informations mises à disposition est compatible avec l’usage qu’il en fait.","statement:""- Camera model and parameters:
+ Make: Hasselblad
+ Model: L1D-20c
+ Width: 5472
+ Height: 3648
+ Focal: 28
+ WhiteBalance: Manual
+ ExposureMode: Auto Exposure
+ ColoSpace: sRGB
+ EV: -0.7
+ MeteringMode: CenterWeightedAverage
+ Camera Pitch: -70.00
+
+- Survey informations:
+ No Images: 193
+ Median height: 70 meters
+ Survey area: 4.16 hectares
+ Survey from: 2023:05:24 09:53:20 to: 2023:05:24 10:03:57
+
+UTM Coordinate system:
+ WGS 84 / UTM zone 40S
+ EPSG:32740
+ Description:
+  name: Between 54°E and 60°E, southern hemisphere between 80°S and equator, onshore and offshore. Seychelles.
+  bounds: (54.0, -80.0, 60.0, 0.0)
+
+- Meteo:
+                       T° Humidity     hPa CloudCover WindSpd-10m WindDir-10m  \
+date                                                                            
+2023-05-24 00:00:00  22.6       95  1015.6         41         1.1         180   
+2023-05-24 01:00:00  22.6       95  1015.6         64         1.8         101   
+2023-05-24 02:00:00  22.8       93  1015.6         59         3.1          69   
+2023-05-24 03:00:00  22.8       92  1016.1         44         3.9          68   
+2023-05-24 04:00:00  23.5       86  1017.0         46         4.3          66   
+2023-05-24 05:00:00  24.4       80  1017.2         95         3.3          41   
+2023-05-24 06:00:00  24.9       78  1017.8         81         3.6           6   
+2023-05-24 07:00:00  25.2       79  1017.6        100         3.0         346   
+2023-05-24 08:00:00  25.4       75  1017.0        100         4.1         322   
+2023-05-24 09:00:00  24.4       80  1016.3        100         4.1         308   
+2023-05-24 10:00:00  24.8       79  1016.1         94         0.7          90   
+2023-05-24 11:00:00  25.0       77  1015.5         89         1.3          34   
+2023-05-24 12:00:00  24.8       77  1016.1         93         1.6          63   
+2023-05-24 13:00:00  24.4       79  1016.3         88         1.5          76   
+2023-05-24 14:00:00  23.9       81  1016.7        100         2.5          98   
+2023-05-24 15:00:00  23.6       83  1016.9         94         3.4         108   
+2023-05-24 16:00:00  23.4       86  1017.3         77         3.3         103   
+2023-05-24 17:00:00  23.2       87  1017.7         70         2.6         106   
+2023-05-24 18:00:00  23.2       87  1017.8         87         2.6         124   
+2023-05-24 19:00:00  22.7       86  1018.0         95         3.9         112   
+2023-05-24 20:00:00  22.9       85  1017.5         83         4.6         108   
+2023-05-24 21:00:00  22.9       85  1017.4         79         4.7          94   
+2023-05-24 22:00:00  22.9       85  1017.0        100         9.1          97   
+2023-05-24 23:00:00  22.8       85  1016.8         92         9.7         105   
+
+                    WindSpd-100m WindDir-100m Rain  
+date                                                
+2023-05-24 00:00:00          2.2          180  0.1  
+2023-05-24 01:00:00          2.7          113  0.1  
+2023-05-24 02:00:00          4.1           75  0.1  
+2023-05-24 03:00:00          6.0           73  0.0  
+2023-05-24 04:00:00          5.8           68  0.2  
+2023-05-24 05:00:00          3.8           49  0.3  
+2023-05-24 06:00:00          4.0            5  0.4  
+2023-05-24 07:00:00          3.1          339  0.3  
+2023-05-24 08:00:00          4.3          318  0.5  
+2023-05-24 09:00:00          4.0          297  1.2  
+2023-05-24 10:00:00          1.3          146  1.0  
+2023-05-24 11:00:00          1.0           45  0.9  
+2023-05-24 12:00:00          1.4           90  0.9  
+2023-05-24 13:00:00          1.8          101  0.5  
+2023-05-24 14:00:00          3.9          112  0.3  
+2023-05-24 15:00:00          5.3          118  0.5  
+2023-05-24 16:00:00          5.2          115  0.7  
+2023-05-24 17:00:00          4.2          121  1.0  
+2023-05-24 18:00:00          4.3          132  0.4  
+2023-05-24 19:00:00          6.2          126  0.8  
+2023-05-24 20:00:00          6.8          115  0.5  
+2023-05-24 21:00:00          6.6          103  0.4  
+2023-05-24 22:00:00         13.3          103  0.4  
+2023-05-24 23:00:00         13.7          108  0.4  ""_
+process:Raw dataset uploaded to https://zenodo.org/record/10031601_
+process:Download from WebODM","resource:image/tiff_
+distribution:image/tiff[GeoTIFF]","source:000_photogrammetry_report.pdf@/home/sylvain/HDD5To/DATA/TELEMAC/20230524_REU-ermitage_UAV-02_4/000_photogrammetry_report.pdf,PROCESSED_DATA.zip@/home/sylvain/HDD5To/DATA/TELEMAC/20230524_REU-ermitage_UAV-02_4/PROCESSED_DATA.zip_
+sourceType:other"
+"id:20230524_REU-ermitage_UAV-02_2_
+doi:10.5281/zenodo.10037635","title:Orthophoto & DEM (MNE) issues d'images drone, UAV, Ermitage, Saint-Gilles, Réunion - 20230524 - 02_2","abstract:""Ce jeu de données présente les résultats des traitements photogrammétriques d’images de drone DJI Mavic 2 Pro UAV acquises sur le site de Ermitage, Saint-Gilles, Réunion à la date suivante : 20230524.
+<br />Les traitements ont été réalisés avec le logiciel OpenDroneMap à partir des images brutes fournies dans la première version de ce DOI.
+<br />Les vols ont été réalisés dans le but de créer des modèles numériques d'élévations pour cartographier la rugosité récifale du lagon jusqu'à la pente externe. Les données seront utilisées dans le cadre du projet TELEMAC.
+<br />
+<br /><br />Le paramétrage du logiciel OpenDroneMap est partagé pour permettre la reproductibilité ou l'amélioration des traitements proposés:<br />
+[
+<br />        {
+<br />            'name': 'orthophoto-resolution',
+<br />            'value': 1
+<br />        },
+<br />        {
+<br />            'name': 'auto-boundary',
+<br />            'value': true
+<br />        },
+<br />        {
+<br />            'name': 'dem-resolution',
+<br />            'value': '2.0'
+<br />        },
+<br />        {
+<br />            'name': 'dsm',
+<br />            'value': true
+<br />        }
+<br />    ]
+<br />
+<br /><b>Le dépôt est composé des éléments suivants:</b>
+<br />    - 00_: Planche d'aperçu des images
+<br />    - DCIM.zip: Images brutes issues du drone
+<br />    - GPS.zip: Geopackage contenant l’emprise du survol ainsi que la géolocalisation des images accompagnées de leurs miniatures dans la table d’attribut en base64. RINEX et LLH issus d'un Emlid Reach M2 synchronisé avec la LED de navigation (événement envoyé dans le log du récepteur GNSS lors du déclenchement d'une image). Le but est de pouvoir réaliser un PPK (similaire au RTK en post-traitement) et ainsi disposer d'une position centrimétrique sur chaque image.
+<br />    - METADATA.zip: Métadonnées au format ISO19115, Rapports avec miniatures des images de drone (dossier tb) et statistiques de vols.
+<br />    - PROCESSED_DATA.zip: Orthophoto, DEM, nuages de points, ...
+<br />
+<br /><b>Arborescence d'origine:</b>
+<br />│  └─ 20230524_REU-ermitage_UAV-02_2
+<br />│--------  └─ DCIM
+<br />│--------  └─ GPS
+<br />│----------------  └─ base_2023_05_24_pascal
+<br />│----------------  └─ reach_2023_05_24_drone
+<br />│------------------------  └─ reachsylvai_raw_202305240249_RINEX_3_03
+<br />│------------------------  └─ reachsylvai_raw_202305240330_RINEX_3_03
+<br />│----------------  └─ reach_2023_05_24_rover
+<br />│--------  └─ METADATA
+<br />│----------------  └─ tb
+<br />│--------  └─ PROCESSED_DATA
+<br />
+<br /><b>Informations de survol:</b>
+<br />- Camera model and parameters:
+<br /> Make: Hasselblad
+<br /> Model: L1D-20c
+<br /> Width: 5472
+<br /> Height: 3648
+<br /> Focal: 28
+<br /> WhiteBalance: Manual
+<br /> ExposureMode: Auto Exposure
+<br /> ColoSpace: sRGB
+<br /> EV: -0.7
+<br /> MeteringMode: CenterWeightedAverage
+<br /> Camera Pitch: -80.00
+<br />
+<br />- Survey informations:
+<br /> No Images: 341
+<br /> Median height: 70 meters
+<br /> Survey area: 162474.07 hectares
+<br /> Survey from: 2023:05:24 09:05:25 to: 2023:05:24 09:26:24
+<br />""_
+purpose:"" ""_
+info:""This study was funded by the European Regional Development Fund (ERDF) within the programme Interreg V 2014-2020 through the project G2OI""_
+edition:""PROCESSED DATA""","theme[General]:TELEMAC,Réunion,Hermitage,Ermitage,Saint-Gilles,La Réunion,océan Indien,lagon,lagoon,corail,reef,G2OI,grand observatoire de l'océan Indien,rugosité,récif,struture récifale,coraux,ppk,rtk,drone,uav,uas,DEM,digital elevation model,orthophotographie,orthophotography,photogrammétrie,photogrammetry,SfM,Structure from Motion,OpenDroneMap,opendata,dji,mavic,emlid,reach,centipede_
+project:G2OI@https://www.ird.fr/projet-g2oi-grand-observatoire-de-locean-indien","author:sylvain.poulain@ird.fr,pascal.mouquet@ird.fr,julien.barde@ird.fr_
+publisher:sylvain.poulain@ird.fr_
+owner:sylvain.poulain@ird.fr_
+pointOfContact:emmanuel.cordier@univ-reunion.fr_
+processor:sylvain.poulain@ird.fr","publication:2023-10-22_
+edition:2023-10-22","dataset","fra","","2023-05-24 09-05-25 - 2023-05-24 09-26-24","thumbnail:G2OI@https://raw.githubusercontent.com/IRDG2OI/.github/main/profile/logo_g2oi_final_1280px_cadre.png_
+http:Article IRD - G2OI[G2OI Article]@https://www.ird.fr/projet-g2oi-grand-observatoire-de-locean-indien","useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
+accessConstraint:otherRestrictions_
+useConstraint:intellectualPropertyRights_
+otherConstraint:Le fournisseur n’est pas en mesure de garantir l’exactitude, la mise à jour, l’intégrité, l’exhaustivité des données et en particulier qu'elles sont exemptes d'erreurs ou d'imprécisions, notamment de localisation, d’identification ou de qualification. Aucune garantie quant à l'aptitude des données à un usage particulier n'est apportée par le fournisseur. Les utilisateurs utilisent les données sous leur responsabilité pleine et entière, sans recours possible contre le fournisseur dont la responsabilité ne saurait être engagée du fait d’un dommage résultant directement ou indirectement de l’utilisation de ces données. En particulier, il appartient aux utilisateurs d’apprécier, sous leur seule responsabilité : l'opportunité d'utiliser les données; la compatibilité des fichiers avec leurs systèmes informatiques; l’adéquation des données à leurs besoins; qu’ils disposent de la compétence suffisante pour utiliser les données. Le fournisseur n’est en aucune façon responsable des éléments extérieurs aux données et notamment des outils d’analyse, matériels, logiciels, réseaux..., utilisés pour consulter et/ou traiter les données. L’utilisateur veille à vérifier que l’actualité des informations mises à disposition est compatible avec l’usage qu’il en fait.","statement:""- Camera model and parameters:
+ Make: Hasselblad
+ Model: L1D-20c
+ Width: 5472
+ Height: 3648
+ Focal: 28
+ WhiteBalance: Manual
+ ExposureMode: Auto Exposure
+ ColoSpace: sRGB
+ EV: -0.7
+ MeteringMode: CenterWeightedAverage
+ Camera Pitch: -80.00
+
+- Survey informations:
+ No Images: 341
+ Median height: 70 meters
+ Survey area: 162474.07 hectares
+ Survey from: 2023:05:24 09:05:25 to: 2023:05:24 09:26:24
+
+UTM Coordinate system:
+ WGS 84 / UTM zone 35S
+ EPSG:32735
+ Description:
+  name: Between 24°E and 30°E, southern hemisphere between 80°S and equator, onshore and offshore. Botswana. Burundi. Democratic Republic of the Congo (Zaire). Rwanda. South Africa. Tanzania. Uganda. Zambia. Zimbabwe.
+  bounds: (24.0, -80.0, 30.0, 0.0)
+
+- Meteo:
+                       T° Humidity     hPa CloudCover WindSpd-10m WindDir-10m  \
+date                                                                            
+2023-05-24 00:00:00  19.2       60  1014.7          3         7.6          98   
+2023-05-24 01:00:00  18.9       61  1014.6          2        10.2         108   
+2023-05-24 02:00:00  18.8       62  1015.3          1        11.3         107   
+2023-05-24 03:00:00  18.3       65  1015.7          1        10.2          98   
+2023-05-24 04:00:00  17.9       69  1016.2          0         9.0          95   
+2023-05-24 05:00:00  18.0       72  1017.2          1        10.1          96   
+2023-05-24 06:00:00  20.3       65  1017.8          3        11.8         102   
+2023-05-24 07:00:00  22.6       57  1018.0         12        15.7         101   
+2023-05-24 08:00:00  24.6       50  1017.7         11        16.1         100   
+2023-05-24 09:00:00  26.2       43  1016.8         15        15.0         100   
+2023-05-24 10:00:00  27.1       39  1016.0         42        13.4          98   
+2023-05-24 11:00:00  28.2       36  1014.8         28        12.4          98   
+2023-05-24 12:00:00  28.5       35  1013.5         37        11.0         101   
+2023-05-24 13:00:00  28.5       33  1012.7         42        11.2         105   
+2023-05-24 14:00:00  28.2       33  1012.1         48        11.6         112   
+2023-05-24 15:00:00  27.4       35  1012.3         46        11.1         119   
+2023-05-24 16:00:00  25.8       39  1013.0         34         8.6         123   
+2023-05-24 17:00:00  24.4       43  1013.7         17         8.5         118   
+2023-05-24 18:00:00  23.5       45  1014.6         10         9.4         113   
+2023-05-24 19:00:00  22.1       51  1015.1         10        10.2         108   
+2023-05-24 20:00:00  21.4       52  1015.4          5         9.7         105   
+2023-05-24 21:00:00  20.9       54  1015.6          2         8.4         100   
+2023-05-24 22:00:00  20.4       56  1015.6          2         7.6          93   
+2023-05-24 23:00:00  19.5       59  1015.6          4         6.5          84   
+
+                    WindSpd-100m WindDir-100m Rain  
+date                                                
+2023-05-24 00:00:00         18.8          107  0.0  
+2023-05-24 01:00:00         23.1          113  0.0  
+2023-05-24 02:00:00         23.6          109  0.0  
+2023-05-24 03:00:00         21.6          101  0.0  
+2023-05-24 04:00:00         19.9           96  0.0  
+2023-05-24 05:00:00         19.6           97  0.0  
+2023-05-24 06:00:00         18.0          102  0.0  
+2023-05-24 07:00:00         22.7          100  0.0  
+2023-05-24 08:00:00         22.6           99  0.0  
+2023-05-24 09:00:00         20.8           99  0.0  
+2023-05-24 10:00:00         18.9           98  0.0  
+2023-05-24 11:00:00         16.7           97  0.1  
+2023-05-24 12:00:00         15.3           99  0.1  
+2023-05-24 13:00:00         15.6          105  0.0  
+2023-05-24 14:00:00         16.2          111  0.0  
+2023-05-24 15:00:00         17.2          119  0.0  
+2023-05-24 16:00:00         17.5          122  0.0  
+2023-05-24 17:00:00         18.5          119  0.0  
+2023-05-24 18:00:00         20.3          115  0.0  
+2023-05-24 19:00:00         22.1          112  0.0  
+2023-05-24 20:00:00         21.9          110  0.0  
+2023-05-24 21:00:00         20.4          107  0.0  
+2023-05-24 22:00:00         19.2          103  0.0  
+2023-05-24 23:00:00         17.6          101  0.0  ""_
+process:Raw dataset uploaded to https://zenodo.org/record/10031603_
+process:Download from WebODM","resource:image/tiff_
+distribution:image/tiff[GeoTIFF]","source:000_photogrammetry_report.pdf@/home/sylvain/HDD5To/DATA/TELEMAC/20230524_REU-ermitage_UAV-02_2/000_photogrammetry_report.pdf,PROCESSED_DATA.zip@/home/sylvain/HDD5To/DATA/TELEMAC/20230524_REU-ermitage_UAV-02_2/PROCESSED_DATA.zip_
+sourceType:other"
+"id:20230705_REU-ermitage_UAV-02_1_
+doi:10.5281/zenodo.10037640","title:Orthophoto & DEM (MNE) issues d'images drone, UAV, Ermitage, Saint-Gilles, Réunion - 20230705 - 02_1","abstract:""Ce jeu de données présente les résultats des traitements photogrammétriques d’images de drone DJI Mavic 2 Pro UAV acquises sur le site de Ermitage, Saint-Gilles, Réunion à la date suivante : 20230705.
+<br />Les traitements ont été réalisés avec le logiciel OpenDroneMap à partir des images brutes fournies dans la première version de ce DOI.
+<br />Les vols ont été réalisés dans le but de créer des modèles numériques d'élévations pour cartographier la rugosité récifale du lagon jusqu'à la pente externe. Les données seront utilisées dans le cadre du projet TELEMAC.
+<br />
+<br /><br />Le paramétrage du logiciel OpenDroneMap est partagé pour permettre la reproductibilité ou l'amélioration des traitements proposés:<br />
+[
+<br />        {
+<br />            'name': 'orthophoto-resolution',
+<br />            'value': 1
+<br />        },
+<br />        {
+<br />            'name': 'auto-boundary',
+<br />            'value': true
+<br />        },
+<br />        {
+<br />            'name': 'dem-resolution',
+<br />            'value': '2.0'
+<br />        },
+<br />        {
+<br />            'name': 'dsm',
+<br />            'value': true
+<br />        }
+<br />    ]
+<br />
+<br /><b>Le dépôt est composé des éléments suivants:</b>
+<br />    - 00_: Planche d'aperçu des images
+<br />    - DCIM.zip: Images brutes issues du drone
+<br />    - GPS.zip: Geopackage contenant l’emprise du survol ainsi que la géolocalisation des images accompagnées de leurs miniatures dans la table d’attribut en base64. RINEX et LLH issus d'un Emlid Reach M2 synchronisé avec la LED de navigation (événement envoyé dans le log du récepteur GNSS lors du déclenchement d'une image). Le but est de pouvoir réaliser un PPK (similaire au RTK en post-traitement) et ainsi disposer d'une position centrimétrique sur chaque image.
+<br />    - METADATA.zip: Métadonnées au format ISO19115, Rapports avec miniatures des images de drone (dossier tb) et statistiques de vols.
+<br />    - PROCESSED_DATA.zip: Orthophoto, DEM, nuages de points, ...
+<br />
+<br /><b>Arborescence d'origine:</b>
+<br />│  └─ 20230705_REU-ermitage_UAV-02_1
+<br />│--------  └─ DCIM
+<br />│--------  └─ GPS
+<br />│--------  └─ METADATA
+<br />│----------------  └─ tb
+<br />│--------  └─ PROCESSED_DATA
+<br />
+<br /><b>Informations de survol:</b>
+<br />- Camera model and parameters:
+<br /> Make: Hasselblad
+<br /> Model: L1D-20c
+<br /> Width: 5472
+<br /> Height: 3648
+<br /> Focal: 28
+<br /> WhiteBalance: Manual
+<br /> ExposureMode: Auto Exposure
+<br /> ColoSpace: sRGB
+<br /> EV: -0.7
+<br /> MeteringMode: CenterWeightedAverage
+<br /> Camera Pitch: -70.00
+<br />
+<br />- Survey informations:
+<br /> No Images: 277
+<br /> Median height: 70 meters
+<br /> Survey area: 5.87 hectares
+<br /> Survey from: 2023:07:05 10:33:06 to: 2023:07:05 10:48:40
+<br />""_
+purpose:"" ""_
+info:""This study was funded by the European Regional Development Fund (ERDF) within the programme Interreg V 2014-2020 through the project G2OI""_
+edition:""PROCESSED DATA""","theme[General]:TELEMAC,Réunion,Hermitage,Ermitage,Saint-Gilles,La Réunion,océan Indien,lagon,lagoon,corail,reef,G2OI,grand observatoire de l'océan Indien,rugosité,récif,struture récifale,coraux,ppk,rtk,drone,uav,uas,DEM,digital elevation model,orthophotographie,orthophotography,photogrammétrie,photogrammetry,SfM,Structure from Motion,OpenDroneMap,opendata,dji,mavic,emlid,reach,centipede_
+project:G2OI@https://www.ird.fr/projet-g2oi-grand-observatoire-de-locean-indien","author:sylvain.poulain@ird.fr,pascal.mouquet@ird.fr,julien.barde@ird.fr_
+publisher:sylvain.poulain@ird.fr_
+owner:sylvain.poulain@ird.fr_
+pointOfContact:emmanuel.cordier@univ-reunion.fr_
+processor:sylvain.poulain@ird.fr","publication:2023-10-22_
+edition:2023-10-22","dataset","fra","","2023-07-05 10-33-06 - 2023-07-05 10-48-40","thumbnail:G2OI@https://raw.githubusercontent.com/IRDG2OI/.github/main/profile/logo_g2oi_final_1280px_cadre.png_
+http:Article IRD - G2OI[G2OI Article]@https://www.ird.fr/projet-g2oi-grand-observatoire-de-locean-indien","useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
+accessConstraint:otherRestrictions_
+useConstraint:intellectualPropertyRights_
+otherConstraint:Le fournisseur n’est pas en mesure de garantir l’exactitude, la mise à jour, l’intégrité, l’exhaustivité des données et en particulier qu'elles sont exemptes d'erreurs ou d'imprécisions, notamment de localisation, d’identification ou de qualification. Aucune garantie quant à l'aptitude des données à un usage particulier n'est apportée par le fournisseur. Les utilisateurs utilisent les données sous leur responsabilité pleine et entière, sans recours possible contre le fournisseur dont la responsabilité ne saurait être engagée du fait d’un dommage résultant directement ou indirectement de l’utilisation de ces données. En particulier, il appartient aux utilisateurs d’apprécier, sous leur seule responsabilité : l'opportunité d'utiliser les données; la compatibilité des fichiers avec leurs systèmes informatiques; l’adéquation des données à leurs besoins; qu’ils disposent de la compétence suffisante pour utiliser les données. Le fournisseur n’est en aucune façon responsable des éléments extérieurs aux données et notamment des outils d’analyse, matériels, logiciels, réseaux..., utilisés pour consulter et/ou traiter les données. L’utilisateur veille à vérifier que l’actualité des informations mises à disposition est compatible avec l’usage qu’il en fait.","statement:""- Camera model and parameters:
+ Make: Hasselblad
+ Model: L1D-20c
+ Width: 5472
+ Height: 3648
+ Focal: 28
+ WhiteBalance: Manual
+ ExposureMode: Auto Exposure
+ ColoSpace: sRGB
+ EV: -0.7
+ MeteringMode: CenterWeightedAverage
+ Camera Pitch: -70.00
+
+- Survey informations:
+ No Images: 277
+ Median height: 70 meters
+ Survey area: 5.87 hectares
+ Survey from: 2023:07:05 10:33:06 to: 2023:07:05 10:48:40
+
+UTM Coordinate system:
+ WGS 84 / UTM zone 40S
+ EPSG:32740
+ Description:
+  name: Between 54°E and 60°E, southern hemisphere between 80°S and equator, onshore and offshore. Seychelles.
+  bounds: (54.0, -80.0, 60.0, 0.0)
+
+- Meteo:
+                       T° Humidity     hPa CloudCover WindSpd-10m WindDir-10m  \
+date                                                                            
+2023-07-05 00:00:00  20.7       84  1022.7         17        10.7         104   
+2023-07-05 01:00:00  20.6       86  1022.8         20        10.3         102   
+2023-07-05 02:00:00  20.7       85  1022.9         21        10.4         104   
+2023-07-05 03:00:00  20.8       85  1023.6         28        10.0         105   
+2023-07-05 04:00:00  20.9       85  1024.1         40        10.6         100   
+2023-07-05 05:00:00  21.8       76  1024.3         34        11.2          94   
+2023-07-05 06:00:00  22.8       68  1024.5         31        11.5          90   
+2023-07-05 07:00:00  23.9       61  1023.6         42        11.2          86   
+2023-07-05 08:00:00  24.5       58  1023.2         40        10.9          81   
+2023-07-05 09:00:00  24.8       57  1022.4         63        11.4          79   
+2023-07-05 10:00:00  24.8       58  1021.6         28         9.4          67   
+2023-07-05 11:00:00  24.8       58  1021.6         19         9.2          64   
+2023-07-05 12:00:00  24.3       61  1021.5         26         8.4          65   
+2023-07-05 13:00:00  23.8       65  1021.6         37         6.5          71   
+2023-07-05 14:00:00  23.2       69  1021.9         31         5.9          76   
+2023-07-05 15:00:00  22.8       73  1022.2         33         5.9          79   
+2023-07-05 16:00:00  22.5       76  1022.8         46         6.9          84   
+2023-07-05 17:00:00  22.0       84  1022.8         58         6.8          87   
+2023-07-05 18:00:00  22.2       80  1023.0         35         7.2          84   
+2023-07-05 19:00:00  22.0       81  1023.1         51         7.9          87   
+2023-07-05 20:00:00  21.9       83  1023.0         56         9.0          85   
+2023-07-05 21:00:00  21.3       88  1022.7         54         9.5          81   
+2023-07-05 22:00:00  20.9       91  1022.6         26         7.9          90   
+2023-07-05 23:00:00  20.2       93  1022.1         13         7.6          93   
+
+                    WindSpd-100m WindDir-100m Rain  
+date                                                
+2023-07-05 00:00:00         16.4           99  0.0  
+2023-07-05 01:00:00         15.7           99  0.0  
+2023-07-05 02:00:00         15.7           99  0.0  
+2023-07-05 03:00:00         15.0          100  0.0  
+2023-07-05 04:00:00         14.9           97  0.0  
+2023-07-05 05:00:00         14.8           93  0.0  
+2023-07-05 06:00:00         15.1           89  0.0  
+2023-07-05 07:00:00         14.4           87  0.0  
+2023-07-05 08:00:00         14.2           83  0.0  
+2023-07-05 09:00:00         14.3           80  0.0  
+2023-07-05 10:00:00         11.5           70  0.0  
+2023-07-05 11:00:00         11.1           65  0.0  
+2023-07-05 12:00:00         10.0           64  0.0  
+2023-07-05 13:00:00          7.6           71  0.0  
+2023-07-05 14:00:00          7.3           79  0.0  
+2023-07-05 15:00:00          8.0           80  0.0  
+2023-07-05 16:00:00          9.5           81  0.0  
+2023-07-05 17:00:00          9.8           84  0.0  
+2023-07-05 18:00:00         10.5           84  0.0  
+2023-07-05 19:00:00         11.6           85  0.2  
+2023-07-05 20:00:00         13.4           84  0.1  
+2023-07-05 21:00:00         13.9           80  0.1  
+2023-07-05 22:00:00         12.3           87  0.1  
+2023-07-05 23:00:00         11.5           88  0.0  ""_
+process:Raw dataset uploaded to https://zenodo.org/record/10037640_
+process:Download from WebODM","resource:image/tiff_
+distribution:image/tiff[GeoTIFF]","source:000_photogrammetry_report.pdf@/home/sylvain/HDD5To/DATA/TELEMAC/20230705_REU-ermitage_UAV-02_1/000_photogrammetry_report.pdf,PROCESSED_DATA.zip@/home/sylvain/HDD5To/DATA/TELEMAC/20230705_REU-ermitage_UAV-02_1/PROCESSED_DATA.zip_
+sourceType:other"
+"id:20230524_REU-ermitage_UAV-02_3_
+doi:10.5281/zenodo.10037645","title:Orthophoto & DEM (MNE) issues d'images drone, UAV, Ermitage, Saint-Gilles, Réunion - 20230524 - 02_3","abstract:""Ce jeu de données présente les résultats des traitements photogrammétriques d’images de drone DJI Mavic 2 Pro UAV acquises sur le site de Ermitage, Saint-Gilles, Réunion à la date suivante : 20230524.
+<br />Les traitements ont été réalisés avec le logiciel OpenDroneMap à partir des images brutes fournies dans la première version de ce DOI.
+<br />Les vols ont été réalisés dans le but de créer des modèles numériques d'élévations pour cartographier la rugosité récifale du lagon jusqu'à la pente externe. Les données seront utilisées dans le cadre du projet TELEMAC.
+<br />
+<br /><br />Le paramétrage du logiciel OpenDroneMap est partagé pour permettre la reproductibilité ou l'amélioration des traitements proposés:<br />
+[
+<br />        {
+<br />            'name': 'orthophoto-resolution',
+<br />            'value': 1
+<br />        },
+<br />        {
+<br />            'name': 'auto-boundary',
+<br />            'value': true
+<br />        },
+<br />        {
+<br />            'name': 'dem-resolution',
+<br />            'value': '2.0'
+<br />        },
+<br />        {
+<br />            'name': 'dsm',
+<br />            'value': true
+<br />        }
+<br />    ]
+<br />
+<br /><b>Le dépôt est composé des éléments suivants:</b>
+<br />    - 00_: Planche d'aperçu des images
+<br />    - DCIM.zip: Images brutes issues du drone
+<br />    - GPS.zip: Geopackage contenant l’emprise du survol ainsi que la géolocalisation des images accompagnées de leurs miniatures dans la table d’attribut en base64. RINEX et LLH issus d'un Emlid Reach M2 synchronisé avec la LED de navigation (événement envoyé dans le log du récepteur GNSS lors du déclenchement d'une image). Le but est de pouvoir réaliser un PPK (similaire au RTK en post-traitement) et ainsi disposer d'une position centrimétrique sur chaque image.
+<br />    - METADATA.zip: Métadonnées au format ISO19115, Rapports avec miniatures des images de drone (dossier tb) et statistiques de vols.
+<br />    - PROCESSED_DATA.zip: Orthophoto, DEM, nuages de points, ...
+<br />
+<br /><b>Arborescence d'origine:</b>
+<br />│  └─ 20230524_REU-ermitage_UAV-02_3
+<br />│--------  └─ DCIM
+<br />│--------  └─ GPS
+<br />│----------------  └─ base_2023_05_24_pascal
+<br />│----------------  └─ reach_2023_05_24_drone
+<br />│------------------------  └─ reachsylvai_raw_202305240249_RINEX_3_03
+<br />│------------------------  └─ reachsylvai_raw_202305240330_RINEX_3_03
+<br />│----------------  └─ reach_2023_05_24_rover
+<br />│--------  └─ METADATA
+<br />│----------------  └─ tb
+<br />│--------  └─ PROCESSED_DATA
+<br />
+<br /><b>Informations de survol:</b>
+<br />- Camera model and parameters:
+<br /> Make: Hasselblad
+<br /> Model: L1D-20c
+<br /> Width: 5472
+<br /> Height: 3648
+<br /> Focal: 28
+<br /> WhiteBalance: Manual
+<br /> ExposureMode: Auto Exposure
+<br /> ColoSpace: sRGB
+<br /> EV: -0.7
+<br /> MeteringMode: CenterWeightedAverage
+<br /> Camera Pitch: -70.00
+<br />
+<br />- Survey informations:
+<br /> No Images: 336
+<br /> Median height: 70 meters
+<br /> Survey area: 7.35 hectares
+<br /> Survey from: 2023:05:24 09:33:18 to: 2023:05:24 09:49:53
+<br />""_
+purpose:"" ""_
+info:""This study was funded by the European Regional Development Fund (ERDF) within the programme Interreg V 2014-2020 through the project G2OI""_
+edition:""PROCESSED DATA""","theme[General]:TELEMAC,Réunion,Hermitage,Ermitage,Saint-Gilles,La Réunion,océan Indien,lagon,lagoon,corail,reef,G2OI,grand observatoire de l'océan Indien,rugosité,récif,struture récifale,coraux,ppk,rtk,drone,uav,uas,DEM,digital elevation model,orthophotographie,orthophotography,photogrammétrie,photogrammetry,SfM,Structure from Motion,OpenDroneMap,opendata,dji,mavic,emlid,reach,centipede_
+project:G2OI@https://www.ird.fr/projet-g2oi-grand-observatoire-de-locean-indien","author:sylvain.poulain@ird.fr,pascal.mouquet@ird.fr,julien.barde@ird.fr_
+publisher:sylvain.poulain@ird.fr_
+owner:sylvain.poulain@ird.fr_
+pointOfContact:emmanuel.cordier@univ-reunion.fr_
+processor:sylvain.poulain@ird.fr","publication:2023-10-22_
+edition:2023-10-22","dataset","fra","","2023-05-24 09-33-18 - 2023-05-24 09-49-53","thumbnail:G2OI@https://raw.githubusercontent.com/IRDG2OI/.github/main/profile/logo_g2oi_final_1280px_cadre.png_
+http:Article IRD - G2OI[G2OI Article]@https://www.ird.fr/projet-g2oi-grand-observatoire-de-locean-indien","useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
+accessConstraint:otherRestrictions_
+useConstraint:intellectualPropertyRights_
+otherConstraint:Le fournisseur n’est pas en mesure de garantir l’exactitude, la mise à jour, l’intégrité, l’exhaustivité des données et en particulier qu'elles sont exemptes d'erreurs ou d'imprécisions, notamment de localisation, d’identification ou de qualification. Aucune garantie quant à l'aptitude des données à un usage particulier n'est apportée par le fournisseur. Les utilisateurs utilisent les données sous leur responsabilité pleine et entière, sans recours possible contre le fournisseur dont la responsabilité ne saurait être engagée du fait d’un dommage résultant directement ou indirectement de l’utilisation de ces données. En particulier, il appartient aux utilisateurs d’apprécier, sous leur seule responsabilité : l'opportunité d'utiliser les données; la compatibilité des fichiers avec leurs systèmes informatiques; l’adéquation des données à leurs besoins; qu’ils disposent de la compétence suffisante pour utiliser les données. Le fournisseur n’est en aucune façon responsable des éléments extérieurs aux données et notamment des outils d’analyse, matériels, logiciels, réseaux..., utilisés pour consulter et/ou traiter les données. L’utilisateur veille à vérifier que l’actualité des informations mises à disposition est compatible avec l’usage qu’il en fait.","statement:""- Camera model and parameters:
+ Make: Hasselblad
+ Model: L1D-20c
+ Width: 5472
+ Height: 3648
+ Focal: 28
+ WhiteBalance: Manual
+ ExposureMode: Auto Exposure
+ ColoSpace: sRGB
+ EV: -0.7
+ MeteringMode: CenterWeightedAverage
+ Camera Pitch: -70.00
+
+- Survey informations:
+ No Images: 336
+ Median height: 70 meters
+ Survey area: 7.35 hectares
+ Survey from: 2023:05:24 09:33:18 to: 2023:05:24 09:49:53
+
+UTM Coordinate system:
+ WGS 84 / UTM zone 40S
+ EPSG:32740
+ Description:
+  name: Between 54°E and 60°E, southern hemisphere between 80°S and equator, onshore and offshore. Seychelles.
+  bounds: (54.0, -80.0, 60.0, 0.0)
+
+- Meteo:
+                       T° Humidity     hPa CloudCover WindSpd-10m WindDir-10m  \
+date                                                                            
+2023-05-24 00:00:00  22.6       95  1015.6         41         1.1         180   
+2023-05-24 01:00:00  22.6       95  1015.6         64         1.8         101   
+2023-05-24 02:00:00  22.8       93  1015.6         59         3.1          69   
+2023-05-24 03:00:00  22.8       92  1016.1         44         3.9          68   
+2023-05-24 04:00:00  23.5       86  1017.0         46         4.3          66   
+2023-05-24 05:00:00  24.4       80  1017.2         95         3.3          41   
+2023-05-24 06:00:00  24.9       78  1017.8         81         3.6           6   
+2023-05-24 07:00:00  25.2       79  1017.6        100         3.0         346   
+2023-05-24 08:00:00  25.4       75  1017.0        100         4.1         322   
+2023-05-24 09:00:00  24.4       80  1016.3        100         4.1         308   
+2023-05-24 10:00:00  24.8       79  1016.1         94         0.7          90   
+2023-05-24 11:00:00  25.0       77  1015.5         89         1.3          34   
+2023-05-24 12:00:00  24.8       77  1016.1         93         1.6          63   
+2023-05-24 13:00:00  24.4       79  1016.3         88         1.5          76   
+2023-05-24 14:00:00  23.9       81  1016.7        100         2.5          98   
+2023-05-24 15:00:00  23.6       83  1016.9         94         3.4         108   
+2023-05-24 16:00:00  23.4       86  1017.3         77         3.3         103   
+2023-05-24 17:00:00  23.2       87  1017.7         70         2.6         106   
+2023-05-24 18:00:00  23.2       87  1017.8         87         2.6         124   
+2023-05-24 19:00:00  22.7       86  1018.0         95         3.9         112   
+2023-05-24 20:00:00  22.9       85  1017.5         83         4.6         108   
+2023-05-24 21:00:00  22.9       85  1017.4         79         4.7          94   
+2023-05-24 22:00:00  22.9       85  1017.0        100         9.1          97   
+2023-05-24 23:00:00  22.8       85  1016.8         92         9.7         105   
+
+                    WindSpd-100m WindDir-100m Rain  
+date                                                
+2023-05-24 00:00:00          2.2          180  0.1  
+2023-05-24 01:00:00          2.7          113  0.1  
+2023-05-24 02:00:00          4.1           75  0.1  
+2023-05-24 03:00:00          6.0           73  0.0  
+2023-05-24 04:00:00          5.8           68  0.2  
+2023-05-24 05:00:00          3.8           49  0.3  
+2023-05-24 06:00:00          4.0            5  0.4  
+2023-05-24 07:00:00          3.1          339  0.3  
+2023-05-24 08:00:00          4.3          318  0.5  
+2023-05-24 09:00:00          4.0          297  1.2  
+2023-05-24 10:00:00          1.3          146  1.0  
+2023-05-24 11:00:00          1.0           45  0.9  
+2023-05-24 12:00:00          1.4           90  0.9  
+2023-05-24 13:00:00          1.8          101  0.5  
+2023-05-24 14:00:00          3.9          112  0.3  
+2023-05-24 15:00:00          5.3          118  0.5  
+2023-05-24 16:00:00          5.2          115  0.7  
+2023-05-24 17:00:00          4.2          121  1.0  
+2023-05-24 18:00:00          4.3          132  0.4  
+2023-05-24 19:00:00          6.2          126  0.8  
+2023-05-24 20:00:00          6.8          115  0.5  
+2023-05-24 21:00:00          6.6          103  0.4  
+2023-05-24 22:00:00         13.3          103  0.4  
+2023-05-24 23:00:00         13.7          108  0.4  ""_
+process:Raw dataset uploaded to https://zenodo.org/record/10037645_
+process:Download from WebODM","resource:image/tiff_
+distribution:image/tiff[GeoTIFF]","source:000_photogrammetry_report.pdf@/home/sylvain/HDD5To/DATA/TELEMAC/20230524_REU-ermitage_UAV-02_3/000_photogrammetry_report.pdf,PROCESSED_DATA.zip@/home/sylvain/HDD5To/DATA/TELEMAC/20230524_REU-ermitage_UAV-02_3/PROCESSED_DATA.zip_
+sourceType:other"
+"id:20230802_REU-ermitage_UAV-02_1_
+doi:10.5281/zenodo.10037649","title:Orthophoto & DEM (MNE) issues d'images drone, UAV, Ermitage, Saint-Gilles, Réunion - 20230802 - 02_1","abstract:""Ce jeu de données présente les résultats des traitements photogrammétriques d’images de drone DJI Mavic 2 Pro UAV acquises sur le site de Ermitage, Saint-Gilles, Réunion à la date suivante : 20230802.
+<br />Les traitements ont été réalisés avec le logiciel OpenDroneMap à partir des images brutes fournies dans la première version de ce DOI.
+<br />Les vols ont été réalisés dans le but de créer des modèles numériques d'élévations pour cartographier la rugosité récifale du lagon jusqu'à la pente externe. Les données seront utilisées dans le cadre du projet TELEMAC.
+<br />
+<br /><br />Le paramétrage du logiciel OpenDroneMap est partagé pour permettre la reproductibilité ou l'amélioration des traitements proposés:<br />
+[
+<br />        {
+<br />            'name': 'orthophoto-resolution',
+<br />            'value': 1
+<br />        },
+<br />        {
+<br />            'name': 'auto-boundary',
+<br />            'value': true
+<br />        },
+<br />        {
+<br />            'name': 'dem-resolution',
+<br />            'value': '2.0'
+<br />        },
+<br />        {
+<br />            'name': 'dsm',
+<br />            'value': true
+<br />        }
+<br />    ]
+<br />
+<br /><b>Le dépôt est composé des éléments suivants:</b>
+<br />    - 00_: Planche d'aperçu des images
+<br />    - DCIM.zip: Images brutes issues du drone
+<br />    - GPS.zip: Geopackage contenant l’emprise du survol ainsi que la géolocalisation des images accompagnées de leurs miniatures dans la table d’attribut en base64. RINEX et LLH issus d'un Emlid Reach M2 synchronisé avec la LED de navigation (événement envoyé dans le log du récepteur GNSS lors du déclenchement d'une image). Le but est de pouvoir réaliser un PPK (similaire au RTK en post-traitement) et ainsi disposer d'une position centrimétrique sur chaque image.
+<br />    - METADATA.zip: Métadonnées au format ISO19115, Rapports avec miniatures des images de drone (dossier tb) et statistiques de vols.
+<br />    - PROCESSED_DATA.zip: Orthophoto, DEM, nuages de points, ...
+<br />
+<br /><b>Arborescence d'origine:</b>
+<br />│  └─ 20230802_REU-ermitage_UAV-02_1
+<br />│--------  └─ DCIM
+<br />│--------  └─ GPS
+<br />│--------  └─ METADATA
+<br />│----------------  └─ tb
+<br />│--------  └─ PROCESSED_DATA
+<br />
+<br /><b>Informations de survol:</b>
+<br />- Camera model and parameters:
+<br /> Make: Hasselblad
+<br /> Model: L1D-20c
+<br /> Width: 5472
+<br /> Height: 3648
+<br /> Focal: 28
+<br /> WhiteBalance: Manual
+<br /> ExposureMode: Auto Exposure
+<br /> ColoSpace: sRGB
+<br /> EV: -0.7
+<br /> MeteringMode: CenterWeightedAverage
+<br /> Camera Pitch: -80.00
+<br />
+<br />- Survey informations:
+<br /> No Images: 352
+<br /> Median height: 30 meters
+<br /> Survey area: 3.25 hectares
+<br /> Survey from: 2023:08:02 06:59:36 to: 2023:08:02 07:16:47
+<br />""_
+purpose:"" ""_
+info:""This study was funded by the European Regional Development Fund (ERDF) within the programme Interreg V 2014-2020 through the project G2OI""_
+edition:""PROCESSED DATA""","theme[General]:TELEMAC,Réunion,Hermitage,Ermitage,Saint-Gilles,La Réunion,océan Indien,lagon,lagoon,corail,reef,G2OI,grand observatoire de l'océan Indien,rugosité,récif,struture récifale,coraux,ppk,rtk,drone,uav,uas,DEM,digital elevation model,orthophotographie,orthophotography,photogrammétrie,photogrammetry,SfM,Structure from Motion,OpenDroneMap,opendata,dji,mavic,emlid,reach,centipede_
+project:G2OI@https://www.ird.fr/projet-g2oi-grand-observatoire-de-locean-indien","author:sylvain.poulain@ird.fr,pascal.mouquet@ird.fr,julien.barde@ird.fr_
+publisher:sylvain.poulain@ird.fr_
+owner:sylvain.poulain@ird.fr_
+pointOfContact:emmanuel.cordier@univ-reunion.fr_
+processor:sylvain.poulain@ird.fr","publication:2023-10-22_
+edition:2023-10-22","dataset","fra","","2023-08-02 06-59-36 - 2023-08-02 07-16-47","thumbnail:G2OI@https://raw.githubusercontent.com/IRDG2OI/.github/main/profile/logo_g2oi_final_1280px_cadre.png_
+http:Article IRD - G2OI[G2OI Article]@https://www.ird.fr/projet-g2oi-grand-observatoire-de-locean-indien","useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
+accessConstraint:otherRestrictions_
+useConstraint:intellectualPropertyRights_
+otherConstraint:Le fournisseur n’est pas en mesure de garantir l’exactitude, la mise à jour, l’intégrité, l’exhaustivité des données et en particulier qu'elles sont exemptes d'erreurs ou d'imprécisions, notamment de localisation, d’identification ou de qualification. Aucune garantie quant à l'aptitude des données à un usage particulier n'est apportée par le fournisseur. Les utilisateurs utilisent les données sous leur responsabilité pleine et entière, sans recours possible contre le fournisseur dont la responsabilité ne saurait être engagée du fait d’un dommage résultant directement ou indirectement de l’utilisation de ces données. En particulier, il appartient aux utilisateurs d’apprécier, sous leur seule responsabilité : l'opportunité d'utiliser les données; la compatibilité des fichiers avec leurs systèmes informatiques; l’adéquation des données à leurs besoins; qu’ils disposent de la compétence suffisante pour utiliser les données. Le fournisseur n’est en aucune façon responsable des éléments extérieurs aux données et notamment des outils d’analyse, matériels, logiciels, réseaux..., utilisés pour consulter et/ou traiter les données. L’utilisateur veille à vérifier que l’actualité des informations mises à disposition est compatible avec l’usage qu’il en fait.","statement:""- Camera model and parameters:
+ Make: Hasselblad
+ Model: L1D-20c
+ Width: 5472
+ Height: 3648
+ Focal: 28
+ WhiteBalance: Manual
+ ExposureMode: Auto Exposure
+ ColoSpace: sRGB
+ EV: -0.7
+ MeteringMode: CenterWeightedAverage
+ Camera Pitch: -80.00
+
+- Survey informations:
+ No Images: 352
+ Median height: 30 meters
+ Survey area: 3.25 hectares
+ Survey from: 2023:08:02 06:59:36 to: 2023:08:02 07:16:47
+
+UTM Coordinate system:
+ WGS 84 / UTM zone 40S
+ EPSG:32740
+ Description:
+  name: Between 54°E and 60°E, southern hemisphere between 80°S and equator, onshore and offshore. Seychelles.
+  bounds: (54.0, -80.0, 60.0, 0.0)
+
+- Meteo:
+                       T° Humidity     hPa CloudCover WindSpd-10m WindDir-10m  \
+date                                                                            
+2023-08-02 00:00:00  22.2       86  1023.1         83         3.1         159   
+2023-08-02 01:00:00  22.0       89  1022.8         77         4.1         142   
+2023-08-02 02:00:00  21.9       90  1023.2         40         4.8         117   
+2023-08-02 03:00:00  21.9       91  1023.2         41         5.9         104   
+2023-08-02 04:00:00  21.9       92  1023.9         30         7.1         105   
+2023-08-02 05:00:00  23.4       80  1024.3         43         7.8         103   
+2023-08-02 06:00:00  24.6       72  1024.5         40         8.8          99   
+2023-08-02 07:00:00  25.6       65  1024.3         53         8.3          92   
+2023-08-02 08:00:00  26.0       64  1023.7         66         8.6          88   
+2023-08-02 09:00:00  26.3       63  1023.3         78         7.6          87   
+2023-08-02 10:00:00  26.2       64  1022.9         48         5.0          90   
+2023-08-02 11:00:00  26.2       64  1022.5         50         5.4          90   
+2023-08-02 12:00:00  26.1       64  1022.9         26         4.7          90   
+2023-08-02 13:00:00  25.4       67  1022.9         43         5.1          98   
+2023-08-02 14:00:00  24.5       72  1023.7         52         5.9         101   
+2023-08-02 15:00:00  23.7       77  1024.0         47         6.7         106   
+2023-08-02 16:00:00  23.4       79  1024.4         34         7.5         107   
+2023-08-02 17:00:00  23.0       82  1024.6         37         7.3         110   
+2023-08-02 18:00:00  22.8       83  1024.7         34         7.6         115   
+2023-08-02 19:00:00  22.6       84  1024.8         38         7.8         112   
+2023-08-02 20:00:00  22.1       87  1024.7         31         7.3         110   
+2023-08-02 21:00:00  21.6       90  1024.7         36         7.2         108   
+2023-08-02 22:00:00  21.2       92  1024.2         18         9.3         103   
+2023-08-02 23:00:00  21.1       92  1023.6         31         8.8         109   
+
+                    WindSpd-100m WindDir-100m Rain  
+date                                                
+2023-08-02 00:00:00          4.0          153  0.0  
+2023-08-02 01:00:00          5.6          140  0.0  
+2023-08-02 02:00:00          7.2          117  0.0  
+2023-08-02 03:00:00          8.9          104  0.0  
+2023-08-02 04:00:00          9.7          105  0.0  
+2023-08-02 05:00:00         10.7          104  0.0  
+2023-08-02 06:00:00         11.0          101  0.0  
+2023-08-02 07:00:00         10.9           98  0.0  
+2023-08-02 08:00:00         11.2           94  0.1  
+2023-08-02 09:00:00          9.4           92  0.1  
+2023-08-02 10:00:00          6.6           99  0.2  
+2023-08-02 11:00:00          6.9           99  0.1  
+2023-08-02 12:00:00          6.3          103  0.2  
+2023-08-02 13:00:00          6.7          106  0.2  
+2023-08-02 14:00:00          8.7          107  0.2  
+2023-08-02 15:00:00          9.9          109  0.2  
+2023-08-02 16:00:00         11.5          110  0.1  
+2023-08-02 17:00:00         11.3          112  0.1  
+2023-08-02 18:00:00         11.6          116  0.0  
+2023-08-02 19:00:00         12.1          113  0.1  
+2023-08-02 20:00:00         11.7          108  0.0  
+2023-08-02 21:00:00         10.8          105  0.0  
+2023-08-02 22:00:00         14.9          105  0.0  
+2023-08-02 23:00:00         13.9          111  0.0  ""_
+process:Raw dataset uploaded to https://zenodo.org/record/10037649_
+process:Download from WebODM","resource:image/tiff_
+distribution:image/tiff[GeoTIFF]","source:000_photogrammetry_report.pdf@/home/sylvain/HDD5To/DATA/TELEMAC/20230802_REU-ermitage_UAV-02_1/000_photogrammetry_report.pdf,PROCESSED_DATA.zip@/home/sylvain/HDD5To/DATA/TELEMAC/20230802_REU-ermitage_UAV-02_1/PROCESSED_DATA.zip_
+sourceType:other"
+"id:20230524_REU-ermitage_UAV-02_1_
+doi:10.5281/zenodo.10037659","title:Orthophoto & DEM (MNE) issues d'images drone, UAV, Ermitage, Saint-Gilles, Réunion - 20230524 - 02_1","abstract:""Ce jeu de données présente les résultats des traitements photogrammétriques d’images de drone DJI Mavic 2 Pro UAV acquises sur le site de Ermitage, Saint-Gilles, Réunion à la date suivante : 20230524.
+<br />Les traitements ont été réalisés avec le logiciel OpenDroneMap à partir des images brutes fournies dans la première version de ce DOI.
+<br />Les vols ont été réalisés dans le but de créer des modèles numériques d'élévations pour cartographier la rugosité récifale du lagon jusqu'à la pente externe. Les données seront utilisées dans le cadre du projet TELEMAC.
+<br />
+<br /><br />Le paramétrage du logiciel OpenDroneMap est partagé pour permettre la reproductibilité ou l'amélioration des traitements proposés:<br />
+[
+<br />        {
+<br />            'name': 'orthophoto-resolution',
+<br />            'value': 1
+<br />        },
+<br />        {
+<br />            'name': 'auto-boundary',
+<br />            'value': true
+<br />        },
+<br />        {
+<br />            'name': 'dem-resolution',
+<br />            'value': '2.0'
+<br />        },
+<br />        {
+<br />            'name': 'dsm',
+<br />            'value': true
+<br />        }
+<br />    ]
+<br />
+<br /><b>Le dépôt est composé des éléments suivants:</b>
+<br />    - 00_: Planche d'aperçu des images
+<br />    - DCIM.zip: Images brutes issues du drone
+<br />    - GPS.zip: Geopackage contenant l’emprise du survol ainsi que la géolocalisation des images accompagnées de leurs miniatures dans la table d’attribut en base64. RINEX et LLH issus d'un Emlid Reach M2 synchronisé avec la LED de navigation (événement envoyé dans le log du récepteur GNSS lors du déclenchement d'une image). Le but est de pouvoir réaliser un PPK (similaire au RTK en post-traitement) et ainsi disposer d'une position centrimétrique sur chaque image.
+<br />    - METADATA.zip: Métadonnées au format ISO19115, Rapports avec miniatures des images de drone (dossier tb) et statistiques de vols.
+<br />    - PROCESSED_DATA.zip: Orthophoto, DEM, nuages de points, ...
+<br />
+<br /><b>Arborescence d'origine:</b>
+<br />│  └─ 20230524_REU-ermitage_UAV-02_1
+<br />│--------  └─ DCIM
+<br />│--------  └─ GPS
+<br />│----------------  └─ base_2023_05_24_pascal
+<br />│----------------  └─ reach_2023_05_24_drone
+<br />│------------------------  └─ reachsylvai_raw_202305240249_RINEX_3_03
+<br />│------------------------  └─ reachsylvai_raw_202305240330_RINEX_3_03
+<br />│----------------  └─ reach_2023_05_24_rover
+<br />│--------  └─ METADATA
+<br />│----------------  └─ tb
+<br />│--------  └─ PROCESSED_DATA
+<br />
+<br /><b>Informations de survol:</b>
+<br />- Camera model and parameters:
+<br /> Make: Hasselblad
+<br /> Model: L1D-20c
+<br /> Width: 5472
+<br /> Height: 3648
+<br /> Focal: 28
+<br /> WhiteBalance: Manual
+<br /> ExposureMode: Auto Exposure
+<br /> ColoSpace: sRGB
+<br /> EV: -0.7
+<br /> MeteringMode: CenterWeightedAverage
+<br /> Camera Pitch: -80.00
+<br />
+<br />- Survey informations:
+<br /> No Images: 324
+<br /> Median height: 70 meters
+<br /> Survey area: 8.97 hectares
+<br /> Survey from: 2023:05:24 07:35:31 to: 2023:05:24 07:58:33
+<br />""_
+purpose:"" ""_
+info:""This study was funded by the European Regional Development Fund (ERDF) within the programme Interreg V 2014-2020 through the project G2OI""_
+edition:""PROCESSED DATA""","theme[General]:TELEMAC,Réunion,Hermitage,Ermitage,Saint-Gilles,La Réunion,océan Indien,lagon,lagoon,corail,reef,G2OI,grand observatoire de l'océan Indien,rugosité,récif,struture récifale,coraux,ppk,rtk,drone,uav,uas,DEM,digital elevation model,orthophotographie,orthophotography,photogrammétrie,photogrammetry,SfM,Structure from Motion,OpenDroneMap,opendata,dji,mavic,emlid,reach,centipede_
+project:G2OI@https://www.ird.fr/projet-g2oi-grand-observatoire-de-locean-indien","author:sylvain.poulain@ird.fr,pascal.mouquet@ird.fr,julien.barde@ird.fr_
+publisher:sylvain.poulain@ird.fr_
+owner:sylvain.poulain@ird.fr_
+pointOfContact:emmanuel.cordier@univ-reunion.fr_
+processor:sylvain.poulain@ird.fr","publication:2023-10-22_
+edition:2023-10-22","dataset","fra","","2023-05-24 07-35-31 - 2023-05-24 07-58-33","thumbnail:G2OI@https://raw.githubusercontent.com/IRDG2OI/.github/main/profile/logo_g2oi_final_1280px_cadre.png_
+http:Article IRD - G2OI[G2OI Article]@https://www.ird.fr/projet-g2oi-grand-observatoire-de-locean-indien","useLimitation:Utilisation libre sous réserve de mentionner la source (a minima le nom du producteur) et la date de sa dernière mise à jour_
+accessConstraint:otherRestrictions_
+useConstraint:intellectualPropertyRights_
+otherConstraint:Le fournisseur n’est pas en mesure de garantir l’exactitude, la mise à jour, l’intégrité, l’exhaustivité des données et en particulier qu'elles sont exemptes d'erreurs ou d'imprécisions, notamment de localisation, d’identification ou de qualification. Aucune garantie quant à l'aptitude des données à un usage particulier n'est apportée par le fournisseur. Les utilisateurs utilisent les données sous leur responsabilité pleine et entière, sans recours possible contre le fournisseur dont la responsabilité ne saurait être engagée du fait d’un dommage résultant directement ou indirectement de l’utilisation de ces données. En particulier, il appartient aux utilisateurs d’apprécier, sous leur seule responsabilité : l'opportunité d'utiliser les données; la compatibilité des fichiers avec leurs systèmes informatiques; l’adéquation des données à leurs besoins; qu’ils disposent de la compétence suffisante pour utiliser les données. Le fournisseur n’est en aucune façon responsable des éléments extérieurs aux données et notamment des outils d’analyse, matériels, logiciels, réseaux..., utilisés pour consulter et/ou traiter les données. L’utilisateur veille à vérifier que l’actualité des informations mises à disposition est compatible avec l’usage qu’il en fait.","statement:""- Camera model and parameters:
+ Make: Hasselblad
+ Model: L1D-20c
+ Width: 5472
+ Height: 3648
+ Focal: 28
+ WhiteBalance: Manual
+ ExposureMode: Auto Exposure
+ ColoSpace: sRGB
+ EV: -0.7
+ MeteringMode: CenterWeightedAverage
+ Camera Pitch: -80.00
+
+- Survey informations:
+ No Images: 324
+ Median height: 70 meters
+ Survey area: 8.97 hectares
+ Survey from: 2023:05:24 07:35:31 to: 2023:05:24 07:58:33
+
+UTM Coordinate system:
+ WGS 84 / UTM zone 40S
+ EPSG:32740
+ Description:
+  name: Between 54°E and 60°E, southern hemisphere between 80°S and equator, onshore and offshore. Seychelles.
+  bounds: (54.0, -80.0, 60.0, 0.0)
+
+- Meteo:
+                       T° Humidity     hPa CloudCover WindSpd-10m WindDir-10m  \
+date                                                                            
+2023-05-24 00:00:00  22.6       95  1015.6         41         1.1         180   
+2023-05-24 01:00:00  22.6       95  1015.6         64         1.8         101   
+2023-05-24 02:00:00  22.8       93  1015.6         59         3.1          69   
+2023-05-24 03:00:00  22.8       92  1016.1         44         3.9          68   
+2023-05-24 04:00:00  23.5       86  1017.0         46         4.3          66   
+2023-05-24 05:00:00  24.4       80  1017.2         95         3.3          41   
+2023-05-24 06:00:00  24.9       78  1017.8         81         3.6           6   
+2023-05-24 07:00:00  25.2       79  1017.6        100         3.0         346   
+2023-05-24 08:00:00  25.4       75  1017.0        100         4.1         322   
+2023-05-24 09:00:00  24.4       80  1016.3        100         4.1         308   
+2023-05-24 10:00:00  24.8       79  1016.1         94         0.7          90   
+2023-05-24 11:00:00  25.0       77  1015.5         89         1.3          34   
+2023-05-24 12:00:00  24.8       77  1016.1         93         1.6          63   
+2023-05-24 13:00:00  24.4       79  1016.3         88         1.5          76   
+2023-05-24 14:00:00  23.9       81  1016.7        100         2.5          98   
+2023-05-24 15:00:00  23.6       83  1016.9         94         3.4         108   
+2023-05-24 16:00:00  23.4       86  1017.3         77         3.3         103   
+2023-05-24 17:00:00  23.2       87  1017.7         70         2.6         106   
+2023-05-24 18:00:00  23.2       87  1017.8         87         2.6         124   
+2023-05-24 19:00:00  22.7       86  1018.0         95         3.9         112   
+2023-05-24 20:00:00  22.9       85  1017.5         83         4.6         108   
+2023-05-24 21:00:00  22.9       85  1017.4         79         4.7          94   
+2023-05-24 22:00:00  22.9       85  1017.0        100         9.1          97   
+2023-05-24 23:00:00  22.8       85  1016.8         92         9.7         105   
+
+                    WindSpd-100m WindDir-100m Rain  
+date                                                
+2023-05-24 00:00:00          2.2          180  0.1  
+2023-05-24 01:00:00          2.7          113  0.1  
+2023-05-24 02:00:00          4.1           75  0.1  
+2023-05-24 03:00:00          6.0           73  0.0  
+2023-05-24 04:00:00          5.8           68  0.2  
+2023-05-24 05:00:00          3.8           49  0.3  
+2023-05-24 06:00:00          4.0            5  0.4  
+2023-05-24 07:00:00          3.1          339  0.3  
+2023-05-24 08:00:00          4.3          318  0.5  
+2023-05-24 09:00:00          4.0          297  1.2  
+2023-05-24 10:00:00          1.3          146  1.0  
+2023-05-24 11:00:00          1.0           45  0.9  
+2023-05-24 12:00:00          1.4           90  0.9  
+2023-05-24 13:00:00          1.8          101  0.5  
+2023-05-24 14:00:00          3.9          112  0.3  
+2023-05-24 15:00:00          5.3          118  0.5  
+2023-05-24 16:00:00          5.2          115  0.7  
+2023-05-24 17:00:00          4.2          121  1.0  
+2023-05-24 18:00:00          4.3          132  0.4  
+2023-05-24 19:00:00          6.2          126  0.8  
+2023-05-24 20:00:00          6.8          115  0.5  
+2023-05-24 21:00:00          6.6          103  0.4  
+2023-05-24 22:00:00         13.3          103  0.4  
+2023-05-24 23:00:00         13.7          108  0.4  ""_
+process:Raw dataset uploaded to https://zenodo.org/record/10037659_
+process:Download from WebODM","resource:image/tiff_
+distribution:image/tiff[GeoTIFF]","source:000_photogrammetry_report.pdf@/home/sylvain/HDD5To/DATA/TELEMAC/20230524_REU-ermitage_UAV-02_1/000_photogrammetry_report.pdf,PROCESSED_DATA.zip@/home/sylvain/HDD5To/DATA/TELEMAC/20230524_REU-ermitage_UAV-02_1/PROCESSED_DATA.zip_
+sourceType:other"
