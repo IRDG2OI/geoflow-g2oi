@@ -1,0 +1,92 @@
+{
+    "creators": [
+        {
+            "orcid": "0000-0002-3519-6141",
+            "affiliation": "UMR Marbec, IRD",
+            "name": "Julien BARDE"
+        },
+        {
+            "orcid": "0009-0005-9789-9095",
+            "affiliation": "UMR Marbec, IRD",
+            "name": "Sylvain POULAIN"
+        },
+        {
+            "affiliation": "UMR Marbec, IRD",
+            "name": "Corentin SOUTON"
+        },
+        {
+            "affiliation": "UMR Marbec, IRD",
+            "name": "Namik SCHERZL"
+        },
+        {
+            "orcid": "0000-0002-5870-5762",
+            "affiliation": "International Consultant",
+            "name": " Emmanuel BLONDEL"
+        }
+    ],
+
+    "license": "GPL-3.0",
+
+    "title": "geoflow-g2oi: repository hosting configurations and metadata as part of the G2OI project. This project is being developed as part of the G2OI project, co-funded by the European Union, the Réunion Region and the French Republic. The data available in this repository uses the R engine to orchestrate and execute geospatial (meta)data flows: https://zenodo.org/records/4275926",
+
+    "related_identifiers": [
+        {
+            "scheme": "url", 
+            "identifier": "https://github.com/r-geoflow/geoflow",
+            "relation": "isDerivedFrom",
+            "resource_type": "software"
+        },
+        {
+            "scheme": "url", 
+            "identifier": "https://github.com/r-geoflow/geoflow/wiki",
+            "relation": "isDocumentedBy",
+            "resource_type": "publication-softwaredocumentation"
+        },
+        {
+            "scheme": "url", 
+            "identifier": "https://zenodo.org/records/4275926",
+            "relation": "isDocumentedBy",
+            "resource_type": "software"
+        }
+    ],
+
+    "keywords": [
+        "Geoflow", 
+        "Metadata", 
+        "RStudio", 
+        "Automation", 
+        "Report", 
+        "RStats", 
+        "SDI",
+        "Spatial Data Infratructure",
+        "IDS",
+        "Infrastructure de Données Spatiales",
+        "Zenodo", 
+        "DOI", 
+        "Publication", 
+        "Data", 
+        "G2OI",
+        "R",
+        "Python",
+        "ISO 19115",
+        "ISO 19139",
+        "Geoserver",
+        "Geonetwork",
+        "Geonode",
+        "Spatial",
+        "WMS",
+        "WFS",
+        "WFS-T",
+        "CSW",
+        "CSW-T",
+        "WCS",
+        "WPS",
+        "FAIR",
+        "atom4R",
+        "geometa",
+        "geonode4R",
+        "geosapi",
+        "ows4R",
+        "zen4R"
+    ]
+}
