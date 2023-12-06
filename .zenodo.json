@@ -27,7 +27,9 @@
 
     "license": "GPL-3.0",
 
-    "title": "geoflow-g2oi: repository hosting configurations and metadata as part of the G2OI project. This project is being developed as part of the G2OI project, co-funded by the European Union, the Réunion Region and the French Republic. The data available in this repository uses the R engine to orchestrate and execute geospatial (meta)data flows: https://zenodo.org/records/4275926",
+    "title": "geoflow-g2oi: repository hosting configurations and metadata as part of the G2OI project",
+
+    "description": "geoflow-g2oi: repository hosting configurations and metadata as part of the G2OI project. This project is being developed as part of the G2OI project, co-funded by the European Union, the Réunion Region and the French Republic. The data available in this repository uses the R engine to orchestrate and execute geospatial (meta)data flows: https://zenodo.org/records/4275926",
 
     "related_identifiers": [
         {
@@ -48,6 +50,10 @@
             "relation": "isDocumentedBy",
             "resource_type": "software"
         }
+    ],
+
+    "communities": [
+        {"identifier": "umr-marbec"}
     ],
 
     "keywords": [
