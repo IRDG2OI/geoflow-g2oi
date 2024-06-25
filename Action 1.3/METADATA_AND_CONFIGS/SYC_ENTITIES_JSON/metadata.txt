@@ -1,0 +1,39 @@
+title="Aerial images collected by {platform}, {place}, {country} - {date}"
+abstract="This dataset was collected by an Unmanned Aerial Vehicle in {place}, {country}, on {date}
+ 
+Underwater or aerial images collected by scientists or citizens can have a wide variety of uses for science, ecosystems management, or conservation. These images can be annotated and shared to train IA models which can in turn predict the objects on such images. We provide a set of tools (hardware and software) to collect marine data, predict species or habitat, and provide maps.
+
+<b>The depot consists of the following elements:</b>
+- 00_: Image preview panel
+- DCIM.zip: RAW images from UAV
+- GPS.zip: GIS file (Geopackage) containing the overflight area as well as the geolocation of the images accompanied by their thumbnails in the base64 attribute table.
+- METADATA.zip: Exif metadata in CSV format, OGC metadata in ISO19115 / 39 XML format, flight reports with thumbnails of drone images (tb folder) and flight statistics (html or pdf files).
+ 
+<b>Original tree structure:</b>
+{treed}
+ 
+<b>Flight survey information:</b>
+{survey_stat}
+ 
+More recent versions of this repository are available. These include data processed with OpenDroneMap"
+purpose="These UAV data have been collected to facilitate coastal areas mapping in coral reef ecosystems by using image processing techniques : in particular photogrammetric processes (e.g. to generate orthophotos and DEMs) along with image recognition  (e.g. species or habitats) by training and using artificial intelligence models (deep learning / CNNs)."
+info="This work received funding from Monaco Exploration, Ifrermer - Indian ocean and from the European Regional Development Fund (ERDF) within the programme Interreg V 2014-2020 through the project G2OI"
+edition="RAW DATA"
+theme="theme[General]: UAV, Artificial Intelligence, Bathymetry, Citizen Sciences, Computer Vision, Coral Reef, Coral Reef Habitat, Deep Learning, Ecology, GeoAI, Global Coral Reef Monitoring Network,Indian ocean, Deep Learning, CNN, Mapping, Reef Ecosystem, Remote Sensing, lagoon, G2OI, grand observatoire de l'océan Indien, drone, uav, uas, DEM, digital elevation model, orthophotography, photogrammetry, SfM, Structure from Motion, OpenDroneMap, opendata, Seatizen, Monaco Explorations, Explorations de Monaco"
+theme="theme[Geographic]:Seychelles,Aldabra,Indian ocean,"
+project="G2OI@https://www.ird.fr/projet-g2oi-grand-observatoire-de-locean-indien"
+author=julien.barde@ird.fr,sylvain.bonhommeau@ifremer.fr,victor.illien@ifremer.fr,matteo.contini@ifremer.fr,serge.bernard@lirmm.fr,sylvain.poulain@ird.fr,mervyn.ravitchandirane@ifremer.fr,thomas.chevrier@ifremer.fr,justine.daudon@ird.fr,leanne.carpentier@ifremer.fr,camly.rintz@ifremer.fr,alexandre.boyer@ifremer.fr,victor.illien@ifremer.fr,pierre.gogendeau@ifremer.fr,arthur.lazennec@ifremer.fr,1@sif.sc,2@sif.sc,3@sif.sc,4@sif.sc,5@sif.sc,6@sif.sc,7@sif.sc
+publisher=julien.barde@ird.fr
+owner=julien.barde@ird.fr
+pointOfContact=julien.barde@ird.fr
+processor=julien.barde@ird.fr
+language=eng
+thumbnail="G2OI@https://raw.githubusercontent.com/IRDG2OI/.github/main/profile/logo_g2oi_final_1280px_cadre.png"
+http="Article IRD - G2OI[G2OI Article]@https://www.ird.fr/projet-g2oi-grand-observatoire-de-locean-indien"
+http="Website G2OI[G2OI Website]@https://g2oi.ird.fr"
+useLimitation=Free use subject to mentioning the source (at least the name of the producer) and the date of the last update
+accessConstraint=otherRestrictions
+useConstraint=intellectualPropertyRights
+otherConstraint=some other constraints
+statement=My data management workflow
+process=rationale1[description1]
