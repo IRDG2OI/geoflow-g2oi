@@ -1,19 +1,48 @@
 Identifier,Email,OrganizationName,PositionName,LastName,FirstName,PostalAddress,PostalCode,City,Country,Voice,Facsimile,WebsiteUrl,WebsiteName
 id:ird@ird.fr,ird@ird.fr,Institut de recherche pour le développement (IRD),Research public body,,,"Le Sextant, 44, bd de Dunkerque, CS 90009",13572,Marseille cedex 02,France,33 (0)4 91 99 92 00,33 (0)4 91 99 92 22,http://www.ird.fr/,Website
-id:julien.barde@ird.fr,julien.barde@ird.fr,"IRD, UMR MARBEC",Engineer,Barde,Julien,"Centre IFREMER de Sète, Avenue Jean Monnet, CS 30171",34200,Sète  Cedex 5,France,33 (0)499576132,,https://orcid.org/0000-0002-3519-6141,Web page
-id:sylvain.bonhommeau@ifremer.fr,sylvain.bonhommeau@ifremer.fr,IFREMER,Researcher,Bonhommeau,Sylvain,"IFREMER, Délégation de La Réunion,  Rue Jean Bertho",97422,Le Port,France,02 62 55 47 23,02 62 43 36 84,https://orcid.org/0000-0002-0882-5918,Web page
-id:matteo.contini@ifremer.fr,matteo.contini@ifremer.fr,IFREMER,Researcher,Contini,Matteo,"IFREMER, Délégation de La Réunion,  Rue Jean Bertho",97422,Le Port,France,02 62 55 47 23,02 62 43 36 84,,Web page
+"id:julien.barde@ird.fr_
+orcid:0000-0002-3519-6141",julien.barde@ird.fr,"IRD, UMR MARBEC",Engineer,Barde,Julien,"Centre IFREMER de Sète, Avenue Jean Monnet, CS 30171",34200,Sète  Cedex 5,France,33 (0)499576132,,https://orcid.org/0000-0002-3519-6141,Web page
+"id:sylvain.bonhommeau@ifremer.fr_
+orcid:0000-0002-0882-5918",sylvain.bonhommeau@ifremer.fr,IFREMER,Researcher,Bonhommeau,Sylvain,"IFREMER, Délégation de La Réunion,  Rue Jean Bertho",97422,Le Port,France,02 62 55 47 23,02 62 43 36 84,https://orcid.org/0000-0002-0882-5918,Web page
+"id:matteo.contini@ifremer.fr_
+orcid:0009-0007-8665-6201",matteo.contini@ifremer.fr,IFREMER,Researcher,Contini,Matteo,"IFREMER, Délégation de La Réunion,  Rue Jean Bertho",97422,Le Port,France,02 62 55 47 23,02 62 43 36 84,,Web page
 id:benjamin.robert@ird.fr,benjamin.robert@ird.fr,"Institut de recherche pour le développement (IRD),  MARBEC Research Unit",Engineer,Robert,Benjamin,SEAS-OI,97410,Saint Pierre de la Réunion,France,,,,Web page
 id:corentin.souton@ird.fr,corentin.souton@ird.fr,"Institut de recherche pour le développement (IRD),  MARBEC Research Unit",Engineer,Souton,Corentin,SEAS-OI,97410,Saint Pierre de la Réunion,France,,,,Web page
-id:natali.mmadi@gmail.com,natali.mmadi@gmail.com,"DGSC (Direction Générale de la Sécurité Civile, Comores)",, Mmadi Foundi,Natali,DGSC,,Moroni,Comores,,,,
+id:natali.mmadi@gmail.com,natali.mmadi@gmail.com,"DGSC (Direction Générale de la Sécurité Civile, Comores)",,Mmadi Foundi,Natali,DGSC,,Moroni,Comores,,,,
 id:mohamedhamidou957@gmail.com,mohamedhamidou957@gmail.com,"DGSC (Direction Générale de la Sécurité Civile, Comores)",,Hamidou Saidou,Mohamed,DGSC,,Moroni,Comores,,,,
-id:comores.dgsc@gmail.com,comores.dgsc@gmail.com,"DGSC (Direction Générale de la Sécurité Civile, Comores)",,"DGSC (Direction Générale de la Sécurité Civile, Comores)",,DGSC,,Moroni,Comores,,,,
+id:comores.dgsc@gmail.com,comores.dgsc@gmail.com,"DGSC (Direction Générale de la Sécurité Civile, Comores)",,DGSC,"(Direction Générale de la Sécurité Civile, Comores)",DGSC,,Moroni,Comores,,,,
 "id:sylvain.poulain@ird.fr_
 orcid:0009-0005-9789-9095",sylvain.poulain@ird.fr,"Institut de recherche pour le développement (IRD),  MARBEC Research Unit",Engineer,Poulain,Sylvain,SEAS-OI,97410,Saint Pierre de la Réunion,France,,,,
-id:ainaledon294@gmail.com,ainaledon294@gmail.com,IHSM,Researcher,Nomenisoa,Aina Le Don,IHSM,,Toliara,Madagascar,(+261)34 87 527 94,,,
+"id:sylvain.poulain@giscan.com_
+orcid:0009-0005-9789-9095",sylvain.poulain@giscan.com,GISCAN,Engineer,Poulain,Sylvain,La Preneuse,90609,Rivière Noire,Mauritius,,,https://giscan.com,Website
+id:1@sif.sc,1@sif.sc,SIF,,Jones,Christopher,,,,Seychelles,,,,
+id:2@sif.sc,2@sif.sc,SIF,,Risi,Michelle,,,,Seychelles,,,,
+id:3@sif.sc,3@sif.sc,SIF,,Cowin,Sebastian,,,,,,,,
+id:4@sif.sc,4@sif.sc,SIF,,Savy,Georgette,,,,,,,,
+id:5@sif.sc,5@sif.sc,SIF,,Balette,Elma,,,,,,,,
+id:6@sif.sc,6@sif.sc,SIF,,Jean-Bonnelame,Alvin,,,,,,,,
+id:7@sif.sc,7@sif.sc,SIF,,Salomon,Francis,,,,,,,,
+id:alexis.joly@inria.fr,alexis.joly@inria.fr,INRIA,,Joly,Alexis,,,,,,,,
+"id:mohan.julien@limm.fr_
+0000-0003-2808-1095",mohan.julien@limm.fr,LIRMM,,Julien,Mohan,,,,,,,,
+id:serge.bernard@lirmm.fr,serge.bernard@lirmm.fr,LIRMM,,Bernard,Serge,,,,,,,,
+"id:mervyn.ravitchandirane@ifremer.fr_
+0009-0007-6170-0157",mervyn.ravitchandirane@ifremer.fr,IFREMER,,Ravitchandirane,Mervyn,,,,,,,,
+id:thomas.chevrier@ifremer.fr,thomas.chevrier@ifremer.fr,IFREMER,,Chevrier,Thomas,,,,,,,,
+id:leanne.carpentier@ifremer.fr,leanne.carpentier@ifremer.fr,IFREMER,,Carpentier,Leanne,,,,,,,,
+id:camly.rintz@ifremer.fr,camly.rintz@ifremer.fr,IFREMER,,Rintz,Cam Ly,,,,,,,,
+id:alexandre.boyer@ifremer.fr,alexandre.boyer@ifremer.fr,IFREMER,,Boyer,Alexandre,,,,,,,,
+id:victor.illien@ifremer.fr,victor.illien@ifremer.fr,IFREMER,,Illien,Victor,,,,,,,,
+id:pierre.gogendeau@ifremer.fr,pierre.gogendeau@ifremer.fr,IFREMER,,Gogendeau,Pierre,,,,,,,,
+id:arthur.lazennec@ifremer.fr,arthur.lazennec@ifremer.fr,IFREMER,,Lazennec,Arthur,,,,,,,,
+id:aldabrascience@sif.sc,aldabrascience@sif.sc,SIF,,Latsha,Joey,,,,,,,,
+id:april.burt@sif.sc,april.burt@sif.sc,SIF,,Burt,April,,,,,,,,
+id:alex.rose@sif.sc,alex.rose@sif.sc,SIF,,Rose,Alex,,,,,,,,
+"id:ainaledon294@gmail.com_
+orcid:0009-0000-0380-6198",ainaledon294@gmail.com,IH.SM,Researcher,Nomenisoa,Aina Le Don,IHSM,,Toliara,Madagascar,(+261)34 87 527 94,,,
 id:a.herinomena11@gmail.com,"a.herinomena11@gmail.com
-herinomena.andriamasinoro@ird.fr",IHSM,Engineer,ANDRIAMASINORO,herinomena,IHSM,,Toliara,Madagascar,(+261)34 92 888 44,,,
-id: md.nodc@ihsm.mg,md.nodc@ihsm.mg,IH.SM,Ocean Data Center,MD-NODC,,IHSM,,Toliara,Madagascar,(+261)348752794,,,
+herinomena.andriamasinoro@ird.fr",IH.SM,Engineer,Andriamasinoroa,Herinomena,IHSM,,Toliara,Madagascar,(+261)34 92 888 44,,,
+id: md.nodc@ihsm.mg,md.nodc@ihsm.mg,IH.SM,Ocean Data Center,MD-NODC, ,IHSM,,Toliara,Madagascar,(+261)348752794,,,
 id:justine.daudon@ird.fr,justine.daudon@ird.fr,"Institut de recherche pour le développement (IRD),  MARBEC Research Unit",Engineer,Daudon,Justine,Campus Universitaire du Moufia - Université de la Réunion,97400,Saint Denis,France,,,,
 id:gaetan.morand@ird.fr,gaetan.morand@ird.fr,"Institut de recherche pour le développement (IRD),  MARBEC Research Unit",Engineer,Morand,Gaétan,SEAS-OI,97410,Saint Pierre de la Réunion,France,,,,
 id:contact.reunion@hydretudes.com,contact.reunion@hydretudes.com,HYDRETUDES,Engineer,HYDRETUDES,HYDRETUDES,45 rue Luc Lorion - 97410 SAINT PIERRE,97410,Saint Pierre de la Réunion,France,(+262) 262968245,,https://www.hydretudes.com/index.html,Website
@@ -30,7 +59,10 @@ id:marc.leopold@ird.fr,marc.leopold@ird.fr,"Institut de recherche pour le dével
 id:Lionel.Bigot@univ-reunion.fr,Lionel.Bigot@univ-reunion.fr,"Institut de recherche pour le développement (IRD), UMR ENTROPIE",Researcher,Bigot,Lionel,,,,,(+262) 262 93 86 90,(+262) 262 93 86 85,http://umr-entropie.ird.nc/index.php/team/lionel-bigot,Web page
 "id:isabel.urbina-barreto@ird.fr_
 orcid:0000-0002-2592-8409",isabel.urbina-barreto@ird.fr,"Institut de recherche pour le développement (IRD), UMR ENTROPIE",Researcher,Urbina-Barreto,Isabel,,,,,(+262) 262 93 86 90,(+262) 262 93 86 85,http://umr-entropie.ird.nc/index.php/team/lionel-bigot,Web page
-id:francois.guilhaumon@ird.fr,francois.guilhaumon@ird.fr,"Institut de recherche pour le développement (IRD), UMR ENTROPIE",Researcher,Guilhaumon,François,,,,,(+262) 262 93 86 90,(+262) 262 93 86 85,http://umr-entropie.ird.nc/index.php/team/lionel-bigot,Web page
+"id:aline.tribollet@ird.fr_
+orcid:0000-0003-2385-3682",aline.tribollet@ird.fr,"Institut de recherche pour le développement (IRD), UMR LOCEAN",Researcher,Tribollet,Aline,,,,,(+262) 262 93 86 90,(+262) 262 93 86 85,http://umr-entropie.ird.nc/index.php/team/lionel-bigot,Web page
+"id:francois.guilhaumon@ird.fr_
+orcid:0000-0003-4707-8932",francois.guilhaumon@ird.fr,"Institut de recherche pour le développement (IRD), UMR ENTROPIE",Researcher,Guilhaumon,François,,,,,(+262) 262 93 86 90,(+262) 262 93 86 85,http://umr-entropie.ird.nc/index.php/team/lionel-bigot,Web page
 id:tevamie.rungassamy@reservemarinereunion.fr,tevamie.rungassamy@reservemarinereunion.fr,GIP Réserve Naturelle Nationale Marine de la Réunion,Scientific Research Officer,RUNGASSAMY,Tévamie,"39 rue du Lagon, Dayot 1",97434,La Saline Les Bains,France,(+262) 262 34 64 44,(+262) 262 34 64 44,http://www.reservemarinereunion.fr/,Website
 id:jlucas@sfa.sc,jlucas@sfa.sc,Seychelles Fishing Authority (SFA),Principal statistician,Lucas,Juliette,Fishing Port,P. O. Box 449,Victoria,Seychelles,(+248) 4670300,(+248) 4224508,http://www.sfa.sc,Website
 id:rgovinden@sfa.sc,rgovinden@sfa.sc,Seychelles Fishing Authority (SFA),Researcher,Govinden,Rodney,Fishing Port,P. O. Box 449,Victoria,Seychelles,(+248) 4670300,(+248) 4224508,http://www.sfa.sc,Website
